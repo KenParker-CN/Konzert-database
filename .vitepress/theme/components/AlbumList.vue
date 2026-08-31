@@ -1,11 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from 'vue'
-interface Track {
-  position: string
-  title: string
-  duration: string
-}
-
 interface Album {
   id: string
   musicbrainz_id: string
@@ -19,7 +13,6 @@ interface Album {
   format: string
   barcode: string
   track_count: string
-  tracks: Track[]
   cover: string
   spotify: string
   apple_music: string
@@ -181,11 +174,6 @@ async function loadAlbums() {
 
         track_count:
         data.track_count,
-
-        tracks:
-            data.tracks
-                ? JSON.parse(data.tracks)
-                : [],
 
         cover:
         data.cover,
@@ -449,20 +437,6 @@ function hasStreaming(album: Album) {
       album.apple_music ||
       album.qobuz
   )
-}
-
-function trackListing(album: Album) {
-  if (album.tracks.length) {
-    return album.tracks
-  }
-
-  const count = Number.parseInt(album.track_count, 10) || 0
-
-  return Array.from({ length: count }, (_, index) => ({
-    position: String(index + 1),
-    title: `${album.title} — Track ${index + 1}`,
-    duration: '00:00'
-  }))
 }
 
 const selectedAlbum = ref<Album | null>(null)
