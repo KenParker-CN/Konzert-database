@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 interface Track {
   position: string
   title: string
@@ -465,6 +465,21 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
+const showBackToTop = ref(false)
+
+function updateBackToTopVisibility() {
+  showBackToTop.value = window.scrollY > 300
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', updateBackToTopVisibility, { passive: true })
+  updateBackToTopVisibility()
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', updateBackToTopVisibility)
+})
+
 </script>
 
 
@@ -838,6 +853,7 @@ function scrollToTop() {
   </div>
 
   <button
+      v-if="showBackToTop"
       class="back-to-top"
       type="button"
       @click="scrollToTop"
@@ -1264,8 +1280,10 @@ function scrollToTop() {
 
 
 .back-to-top {
-  display: block;
-  margin: 28px auto 0;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 20;
   padding: 8px 14px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
