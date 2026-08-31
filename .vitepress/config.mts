@@ -32,7 +32,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Composers', link: '/pages/composers' },
       { text: 'Catalogues', link: '/catalogues?tab=RV' },
-      { text: 'Collections', link: '/pages/albums' },
+      { text: 'Collections', link: '/pages/albums' }
     ],
 
     outline: 'deep',
@@ -49,6 +49,12 @@ export default defineConfig({
         {
           text: 'Work Catalogues',
           items: catalogueItems
+        },
+        {
+          text: 'Collections',
+          items: [
+            { text: 'Album collections', link: '/pages/albums' }
+          ]
         }
       ],
       '/catalogues': [
@@ -65,6 +71,27 @@ export default defineConfig({
             { text: 'Composer list', link: '/pages/composers' },
             ...catalogueComposerItems
           ]
+        },
+        {
+          text: 'Collections',
+          items: [
+            { text: 'Album collections', link: '/pages/albums' }
+          ]
+        }
+      ],
+      '/pages/albums': [
+        {
+          text: 'Collections',
+          items: [
+            { text: 'Album gallery', link: '/pages/albums' }
+          ]
+        },
+        {
+          text: 'Related',
+          items: [
+            { text: 'Composer list', link: '/pages/composers' },
+            { text: 'Work catalogues', link: '/catalogues?tab=RV' }
+          ]
         }
       ],
       '/': [
@@ -73,7 +100,8 @@ export default defineConfig({
           items: [
             { text: 'Early Music', link: '/pages/earlymusic' },
             { text: 'Classical Composers', link: '/pages/composers' },
-            { text: 'Works Catalogues', link: '/catalogues?tab=RV' }
+            { text: 'Works Catalogues', link: '/catalogues?tab=RV' },
+            { text: 'Album Collections', link: '/pages/albums' }
           ]
         }
       ]

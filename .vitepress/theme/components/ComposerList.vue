@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { type Composer, composerLink, composers } from '../data/composers'
+import { composerLink, composers } from '../data/composers'
 
 const props = defineProps<{
   era?: string
@@ -146,15 +146,6 @@ function goToPage(page: number) {
    Composer page
    ========================= */
 
-function goToComposer(
-    composer: Composer
-) {
-  if (!composer.slug) {
-    return
-  }
-
-  window.location.href = composerLink(composer)
-}
 </script>
 
 
@@ -307,19 +298,18 @@ function goToComposer(
 
       <div class="composer-grid">
 
-        <article
+        <component
+            :is="composer.slug ? 'a' : 'article'"
             v-for="
             composer in paginatedComposers
           "
             :key="composer.name"
             class="composer-card"
+            :href="composer.slug ? composerLink(composer) : undefined"
             :style="{
             '--composer-color':
               composer.color
           }"
-            @click="
-            goToComposer(composer)
-          "
         >
 
           <!-- Color strip -->
@@ -377,7 +367,7 @@ function goToComposer(
 
           </div>
 
-        </article>
+        </component>
 
       </div>
 
@@ -651,6 +641,8 @@ function goToComposer(
   position: relative;
 
   display: flex;
+  text-decoration: none;
+  color: inherit;
 
   min-height: 180px;
 

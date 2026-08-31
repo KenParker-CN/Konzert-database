@@ -14,7 +14,7 @@ This section explores composers, works, instruments, recordings, and historical 
 
 Music from the Middle Ages, including sacred and secular repertories from the early medieval period through the fifteenth century.
 
-- Composers
+- [Composers](/pages/composers)
 - Works
 - Repertories
 - Manuscripts
@@ -23,7 +23,7 @@ Music from the Middle Ages, including sacred and secular repertories from the ea
 
 The musical traditions of the fifteenth and sixteenth centuries, including sacred polyphony, secular song, and instrumental music.
 
-- Composers
+- [Composers](/pages/composers)
 - Works
 - Repertories
 - Instruments
@@ -32,7 +32,7 @@ The musical traditions of the fifteenth and sixteenth centuries, including sacre
 
 Music of the seventeenth and eighteenth centuries, including opera, concerto, sonata, chamber music, and sacred music.
 
-- Composers
+- [Composers](/pages/composers)
 - Works
 - Instruments
 - Performance practice
@@ -41,11 +41,11 @@ Music of the seventeenth and eighteenth centuries, including opera, concerto, so
 
 A selection of composers represented in the collection.
 
-- Antonio Vivaldi
-- Georg Philipp Telemann
-- Wolfgang Amadeus Mozart
-- George Frideric Handel
-- Johann Sebastian Bach
+- [Antonio Vivaldi](/pages/composers/vivaldi)
+- [Georg Philipp Telemann](/pages/composers/telemann)
+- [Wolfgang Amadeus Mozart](/pages/composers/mozart)
+- [George Frideric Handel](/pages/composers/handel)
+- [Johann Sebastian Bach](/pages/composers/bach)
 
 ## Instruments
 
@@ -75,7 +75,7 @@ Topics related to historical performance and interpretation.
 
 Selected recordings and performances of early music.
 
-Explore recordings by composer, work, ensemble, performer, instrument, period, and label.
+Browse the [Album Collections](/pages/albums) gallery, then open a recording for composer, artist, and streaming links.
 
 ## Notes
 

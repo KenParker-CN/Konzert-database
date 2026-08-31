@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import CatalogueTable from './CatalogueTable.vue'
+import { albumCollectionsLink } from '../data/albums'
 import { catalogueIds, catalogues } from '../data/catalogues'
 
 const validIds = new Set(catalogueIds)
@@ -49,8 +50,10 @@ onBeforeUnmount(() => window.removeEventListener('popstate', syncTabFromHistory)
     </div>
     <div role="tabpanel">
       <h2>{{ selectedCatalogue.name }}</h2>
-      <p>
+      <p class="catalogue-links">
         <a :href="`/pages/composers/${selectedCatalogue.composerSlug}`">{{ selectedCatalogue.composer }}</a>
+        <span>·</span>
+        <a :href="albumCollectionsLink(selectedCatalogue.composerSlug)">Album collections</a>
       </p>
       <CatalogueTable :key="selectedCatalogue.id" :catalogue="selectedCatalogue.id" />
     </div>

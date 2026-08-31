@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import WikipediaIntro from './WikipediaIntro.vue'
+import { albumCollectionsLink } from '../data/albums'
+import { catalogueLink, cataloguesByComposerSlug } from '../data/catalogues'
 import { composerBySlug, wikipediaPage } from '../data/composers'
 
 const props = defineProps<{ slug: string }>()
 
 const composer = computed(() => composerBySlug(props.slug))
+const catalogues = computed(() => cataloguesByComposerSlug(props.slug))
 
 const facts = computed(() => {
   const current = composer.value
@@ -24,6 +27,17 @@ const facts = computed(() => {
     <p class="composer-back">
       <a href="/pages/composers">← All composers</a>
     </p>
+
+    <nav class="composer-related" aria-label="Related pages">
+      <a
+          v-for="catalogue in catalogues"
+          :key="catalogue.id"
+          :href="catalogueLink(catalogue.id)"
+      >
+        {{ catalogue.id }}
+      </a>
+      <a :href="albumCollectionsLink(composer.slug)">Album collections</a>
+    </nav>
 
     <dl class="composer-facts">
       <template v-for="fact in facts" :key="fact.label">
@@ -44,9 +58,31 @@ const facts = computed(() => {
 }
 
 .composer-back {
-  margin: 0 0 16px;
+  margin: 0 0 12px;
 
   font-size: 13px;
+}
+
+.composer-related {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
+.composer-related a {
+  padding: 4px 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+}
+
+.composer-related a:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
 }
 
 .composer-facts {

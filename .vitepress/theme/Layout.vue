@@ -25,6 +25,16 @@ function togglePlayer() {
 <template>
   <DefaultTheme.Layout>
 
+    <template #layout-bottom>
+      <footer class="site-footer">
+        <a href="/">Home</a>
+        <a href="/pages/composers">Composers</a>
+        <a href="/catalogues?tab=RV">Catalogues</a>
+        <a href="/pages/albums">Collections</a>
+        <a href="/pages/earlymusic">Early Music</a>
+      </footer>
+    </template>
+
     <template #nav-bar-content-after>
       <div
           class="player-nav"
@@ -109,5 +119,24 @@ function togglePlayer() {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  padding: 28px 24px 36px;
+  border-top: 1px solid var(--vp-c-divider);
+  font-size: 13px;
+}
+
+.site-footer a {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--vp-c-brand-1);
 }
 </style>

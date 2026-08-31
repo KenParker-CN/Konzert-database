@@ -306,6 +306,18 @@
     border-bottom-color: var(--vp-c-brand-1);
 }
 
+.catalogue-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 18px;
+    font-size: 14px;
+}
+
+.catalogue-links span {
+    color: var(--vp-c-text-3);
+}
+
 .catalogue-table td {
     overflow: hidden;
     text-overflow: ellipsis;

@@ -1,11 +1,11 @@
 # Album Collections
-Here're my albums collection, enjoy!
+
+A visual gallery of recordings. Open any cover for album details and streaming.
 
 <AlbumList />
 
 ## Related
 
+- [Classical Composers](/pages/composers)
 - [Work Catalogues](/catalogues?tab=RV)
 - [Early Music](/pages/earlymusic)
-- [Classical Composers](/pages/composers)
-- [MusicBrainz Search](/pages/mbTest)
