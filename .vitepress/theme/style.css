@@ -201,6 +201,25 @@
     width: 500px;
 }
 
+.rv-table tbody {
+    text-align: center;
+}
+
+.rv-table th:nth-of-type(5) {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.rv-table td.truncate:nth-of-type(5) {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 
 /* =========================
    No results
