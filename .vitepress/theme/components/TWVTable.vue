@@ -87,14 +87,6 @@ onMounted(async () => {
       .filter(Boolean)
 })
 
-const typeOptions = computed(() => [...new Set(
-    works.value.map(work => work.Type).filter(Boolean)
-)].sort((a, b) => a.localeCompare(b)))
-
-const keyOptions = computed(() => [...new Set(
-    works.value.map(work => work.Key).filter(Boolean)
-)].sort((a, b) => a.localeCompare(b)))
-
 function matchesInstrumentation(
     text: string,
     instrumentation: string
@@ -108,6 +100,27 @@ function matchesInstrumentation(
       'i'
   ).test(text)
 }
+
+const typeOptions = computed(() => [...new Set(
+    works.value.map(work => work.Type).filter(Boolean)
+)].sort((a, b) => a.localeCompare(b)).map(value => ({
+  value,
+  count: works.value.filter(work => work.Type === value).length
+})))
+
+const keyOptions = computed(() => [...new Set(
+    works.value.map(work => work.Key).filter(Boolean)
+)].sort((a, b) => a.localeCompare(b)).map(value => ({
+  value,
+  count: works.value.filter(work => work.Key === value).length
+})))
+
+const instrumentationOptions = computed(() => instrumentations.value.map(value => ({
+  value,
+  count: works.value.filter(work =>
+      matchesInstrumentation(work.Instrumentations, value)
+  ).length
+})))
 
 const filteredWorks = computed(() => {
   const query = searchQuery.value.trim().toLowerCase()
@@ -189,15 +202,15 @@ watch([searchQuery, selectedType, selectedKey, selectedInstrumentation], () => {
     <div class="filters">
       <select v-model="selectedType" class="filter-select">
         <option value="">Work Types</option>
-        <option v-for="type in typeOptions" :key="type" :value="type">
-          {{ type }}
+        <option v-for="type in typeOptions" :key="type.value" :value="type.value">
+          {{ type.value }} ({{ type.count }})
         </option>
       </select>
 
       <select v-model="selectedKey" class="filter-select key-select">
         <option value="">Key</option>
-        <option v-for="key in keyOptions" :key="key" :value="key">
-          {{ key }}
+        <option v-for="key in keyOptions" :key="key.value" :value="key.value">
+          {{ key.value }} ({{ key.count }})
         </option>
       </select>
 
@@ -207,11 +220,11 @@ watch([searchQuery, selectedType, selectedKey, selectedInstrumentation], () => {
       >
         <option value="">Instrumentation</option>
         <option
-            v-for="instrumentation in instrumentations"
-            :key="instrumentation"
-            :value="instrumentation"
+            v-for="instrumentation in instrumentationOptions"
+            :key="instrumentation.value"
+            :value="instrumentation.value"
         >
-          {{ instrumentation }}
+          {{ instrumentation.value }} ({{ instrumentation.count }})
         </option>
       </select>
     </div>
