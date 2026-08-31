@@ -43,11 +43,11 @@
 
 .table-wrapper {
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .rv-table table {
-    width: 1030px;
+    width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
 }
@@ -183,7 +183,7 @@
 
 .rv-table th:nth-child(2),
 .rv-table td:nth-child(2) {
-    width: 200px;
+    width: 280px;
 }
 
 .rv-table th:nth-child(3),
@@ -198,7 +198,7 @@
 
 .rv-table th:nth-child(5),
 .rv-table td:nth-child(5) {
-    width: 500px;
+    width: 300px;
 }
 
 .rv-table tbody {
@@ -215,8 +215,8 @@
 }
 
 .rv-table td.truncate:nth-of-type(5) {
-    width: 500px;
-    max-width: 500px;
+    width: 300px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
