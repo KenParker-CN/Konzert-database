@@ -211,7 +211,7 @@
     align-items: stretch;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left !important;
 }
 
 .rv-table td.truncate:nth-of-type(5) {
@@ -220,7 +220,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    text-align: center;
+    text-align: left !important;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
