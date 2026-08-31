@@ -114,8 +114,13 @@ const typeOptions = computed(() => {
 
 const keyOptions = computed(() => {
   const counts = new Map<string, number>()
+  const worksForKeys = selectedType.value
+      ? works.value.filter(
+          work => work.Type === selectedType.value
+        )
+      : works.value
 
-  works.value.forEach(work => {
+  worksForKeys.forEach(work => {
     if (work.Key) {
       counts.set(
           work.Key,
@@ -425,6 +430,10 @@ function parseInstrumentationCSV(
 // =========================
 // 筛选变化后回到第一页
 // =========================
+
+watch(selectedType, () => {
+  selectedKey.value = ''
+})
 
 watch(
     [
