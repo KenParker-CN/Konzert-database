@@ -540,20 +540,6 @@ function hasStreaming(album: Album) {
             class="album-card"
         >
 
-          <!-- 这里继续放你原来的 album-card 内容 -->
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div
-        v-for="album in filteredAlbums"
-        :key="album.id"
-        class="album-card"
-    >
-
         <!-- =========================
              Cover
              ========================= -->
@@ -753,7 +739,11 @@ function hasStreaming(album: Album) {
 
       </div>
 
+      </div>
+
     </div>
+
+  </div>
 
 </template>
 
