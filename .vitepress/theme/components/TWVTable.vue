@@ -144,6 +144,17 @@ function changePage(page: number) {
   if (page >= 1 && page <= totalPages.value) currentPage.value = page
 }
 
+function displayTWV(value: string) {
+  return value.replace(/^TWV\s*/i, '')
+}
+
+function displayName(value: string) {
+  return value.replace(
+      /\s+in\s+[A-G](?:#|b)?\s+(?:major|minor)\s*$/i,
+      ''
+  )
+}
+
 watch([searchQuery, selectedType, selectedKey, selectedInstrumentation], () => {
   currentPage.value = 1
 })
@@ -203,8 +214,13 @@ watch([searchQuery, selectedType, selectedKey, selectedInstrumentation], () => {
         </thead>
         <tbody>
           <tr v-for="work in paginatedWorks" :key="work.TWV">
-            <td>{{ work.TWV }}</td>
-            <td class="truncate" :title="work.Name">{{ work.Name }}</td>
+            <td>{{ displayTWV(work.TWV) }}</td>
+            <td
+                class="truncate"
+                :title="displayName(work.Name)"
+            >
+              {{ displayName(work.Name) }}
+            </td>
             <td>{{ work.Type }}</td>
             <td>{{ work.Key }}</td>
             <td class="truncate" :title="work.Instrumentations">
