@@ -5,7 +5,7 @@ Here're my albums collection, enjoy!
 
 ## Related
 
-- [Work Catalogues](/pages/catalogues/)
+- [Work Catalogues](/catalogues?tab=RV)
 - [Early Music](/pages/earlymusic)
 - [Classical Composers](/pages/composers)
 - [MusicBrainz Search](/pages/mbTest)

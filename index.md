@@ -12,7 +12,7 @@ hero:
       link: /pages/earlymusic
     - theme: brand
       text: Catalogues
-      link: /pages/catalogues/
+      link: /catalogues?tab=RV
     - theme: alt
       text: MusicBrainz Search
       link: /pages/mbTest

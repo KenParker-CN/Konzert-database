@@ -54,5 +54,5 @@
 
 ## Catalogues
 
-- [Ryom-Verzeichnis (RV)](/pages/catalogues/rv)
-- [Catalogue index](/pages/catalogues/)
+- [Ryom-Verzeichnis (RV)](/catalogues?tab=RV)
+- [Catalogue index](/catalogues?tab=RV)
