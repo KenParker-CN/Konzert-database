@@ -229,7 +229,10 @@ function uniqueAlbumValues(
 function composerSortName(composer: string) {
   const name = composer.trim()
 
-  if (name.includes(',')) {
+  if (
+      name.includes(',') ||
+      /\b(academy|band|choir|chorus|collegium|consort|duo|ensemble|musicum|musicians|opera|orchestra|players|quartet|singers|trio)\b/i.test(name)
+  ) {
     return name
   }
 
