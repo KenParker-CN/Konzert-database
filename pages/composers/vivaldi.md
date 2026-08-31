@@ -54,6 +54,5 @@
 
 ## Catalogues
 
-- [Ryom-Verzeichnis (RV)](/pages/catalogues/rv.md)
-- [Fanna Catalogue (F.)](/pages/catalogues/fanna.md)
-- [Pincherle Catalogue (P.)](/pages/catalogues/pincherle.md)
+- [Ryom-Verzeichnis (RV)](/pages/catalogues/rv)
+- [Catalogue index](/pages/catalogues/)

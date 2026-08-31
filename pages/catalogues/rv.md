@@ -37,7 +37,6 @@ The RV catalogue contains works in several categories, including:
 
 ## Related
 
-- [Catalogues](/catalogues/)
-- [Antonio Vivaldi](/composers/vivaldi/)
-- [Works](/works/)
-- [Collection](/collection/)
+- [Catalogues](/pages/catalogues/)
+- [Antonio Vivaldi](/pages/composers/vivaldi)
+- [Collections](/pages/albums)
