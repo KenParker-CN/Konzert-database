@@ -215,9 +215,21 @@
 }
 
 .rv-table td.truncate:nth-of-type(5) {
+    width: 500px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
     text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rv-table td.truncate:nth-of-type(5) span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 

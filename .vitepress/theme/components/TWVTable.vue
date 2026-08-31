@@ -95,6 +95,20 @@ const keyOptions = computed(() => [...new Set(
     works.value.map(work => work.Key).filter(Boolean)
 )].sort((a, b) => a.localeCompare(b)))
 
+function matchesInstrumentation(
+    text: string,
+    instrumentation: string
+) {
+  const escaped = instrumentation.replace(
+      /[.*+?^${}()|[\]\\]/g,
+      '\\$&'
+  )
+  return new RegExp(
+      `(^|[^a-z])${escaped}(?=$|[^a-z])`,
+      'i'
+  ).test(text)
+}
+
 const filteredWorks = computed(() => {
   const query = searchQuery.value.trim().toLowerCase()
 
@@ -103,8 +117,9 @@ const filteredWorks = computed(() => {
     if (selectedKey.value && work.Key !== selectedKey.value) return false
     if (
         selectedInstrumentation.value &&
-        !work.Instrumentations.toLowerCase().includes(
-            selectedInstrumentation.value.toLowerCase()
+        !matchesInstrumentation(
+            work.Instrumentations,
+            selectedInstrumentation.value
         )
     ) return false
     if (query && !Object.values(work).join(' ').toLowerCase().includes(query)) {
