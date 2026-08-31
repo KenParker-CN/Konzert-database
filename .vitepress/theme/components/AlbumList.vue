@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
+interface Track {
+  position: string
+  title: string
+  duration: string
+}
+
 interface Album {
   id: string
   musicbrainz_id: string
@@ -13,6 +19,7 @@ interface Album {
   format: string
   barcode: string
   track_count: string
+  tracks: Track[]
   cover: string
   spotify: string
   apple_music: string
@@ -174,6 +181,11 @@ async function loadAlbums() {
 
         track_count:
         data.track_count,
+
+        tracks:
+            data.tracks
+                ? JSON.parse(data.tracks)
+                : [],
 
         cover:
         data.cover,
@@ -439,6 +451,20 @@ function hasStreaming(album: Album) {
   )
 }
 
+const selectedAlbum = ref<Album | null>(null)
+
+function openAlbum(album: Album) {
+  selectedAlbum.value = album
+}
+
+function closeAlbum() {
+  selectedAlbum.value = null
+}
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
 </script>
 
 
@@ -493,105 +519,11 @@ function hasStreaming(album: Album) {
         <input
             v-model="searchText"
             type="search"
-            placeholder="Search albums..."
+            placeholder="Search by titles, artists, etc"
             class="album-search"
         />
 
 
-        <!-- Composer -->
-
-        <select
-            v-model="selectedComposer"
-            class="album-select"
-        >
-
-          <option value="">
-            All composers
-          </option>
-
-          <option
-              v-for="composer in composers"
-              :key="composer"
-              :value="composer"
-          >
-            {{ composer }}
-          </option>
-
-        </select>
-
-
-        <!-- Label -->
-
-        <select
-            v-model="selectedLabel"
-            class="album-select"
-        >
-
-          <option value="">
-            All labels
-          </option>
-
-          <option
-              v-for="label in labels"
-              :key="label"
-              :value="label"
-          >
-            {{ label }}
-          </option>
-
-        </select>
-
-
-        <!-- Format -->
-
-        <select
-            v-model="selectedFormat"
-            class="album-select"
-        >
-
-          <option value="">
-            All formats
-          </option>
-
-          <option
-              v-for="format in formats"
-              :key="format"
-              :value="format"
-          >
-            {{ format }}
-          </option>
-
-        </select>
-
-
-        <!-- Sort -->
-
-        <select
-            v-model="sortBy"
-            class="album-select"
-        >
-
-          <option value="default">
-            Default order
-          </option>
-
-          <option value="year-desc">
-            Year: newest first
-          </option>
-
-          <option value="year-asc">
-            Year: oldest first
-          </option>
-
-          <option value="title-asc">
-            Title: A → Z
-          </option>
-
-          <option value="composer-asc">
-            Composer: A → Z
-          </option>
-
-        </select>
 
       </div>
 
@@ -614,6 +546,10 @@ function hasStreaming(album: Album) {
             v-for="album in filteredAlbums"
             :key="album.id"
             class="album-card"
+            role="button"
+            tabindex="0"
+            @click="openAlbum(album)"
+            @keydown.enter="openAlbum(album)"
         >
 
         <!-- =========================
@@ -821,6 +757,94 @@ function hasStreaming(album: Album) {
 
   </div>
 
+  <div
+      v-if="selectedAlbum"
+      class="album-modal-backdrop"
+      @click.self="closeAlbum"
+  >
+    <section class="album-modal" role="dialog" aria-modal="true">
+      <button
+          class="album-modal-close"
+          type="button"
+          aria-label="Close album details"
+          @click="closeAlbum"
+      >
+        ×
+      </button>
+
+      <div class="album-modal-header">
+        <div>
+          <div class="album-modal-composer">
+            {{ selectedAlbum.composer.join(' · ') || 'Unknown composer' }}
+          </div>
+          <h2>{{ selectedAlbum.title }}</h2>
+          <div class="album-modal-meta">
+            {{ [selectedAlbum.year, selectedAlbum.label, selectedAlbum.format, selectedAlbum.country]
+                .filter(Boolean)
+                .join(' · ') }}
+          </div>
+          <div v-if="selectedAlbum.artists.length" class="album-modal-artists">
+            {{ selectedAlbum.artists.join(' · ') }}
+          </div>
+        </div>
+      </div>
+
+      <div class="album-modal-streaming">
+        <a
+            v-if="selectedAlbum.spotify"
+            :href="selectedAlbum.spotify"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="streaming-dot spotify"
+            title="Spotify"
+        ></a>
+        <a
+            v-if="selectedAlbum.apple_music"
+            :href="selectedAlbum.apple_music"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="streaming-dot apple-music"
+            title="Apple Music"
+        ></a>
+        <a
+            v-if="selectedAlbum.qobuz"
+            :href="selectedAlbum.qobuz"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="streaming-dot qobuz"
+            title="Qobuz"
+        ></a>
+      </div>
+
+      <div class="album-track-list">
+        <h3>Track listing</h3>
+        <table v-if="selectedAlbum.tracks.length">
+          <thead>
+            <tr><th>#</th><th>Title</th><th>Duration</th></tr>
+          </thead>
+          <tbody>
+            <tr v-for="track in selectedAlbum.tracks" :key="track.position">
+              <td>{{ track.position }}</td>
+              <td>{{ track.title }}</td>
+              <td>{{ track.duration }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <p v-else class="album-track-empty">
+          No track listing available for this album.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <button
+      class="back-to-top"
+      type="button"
+      @click="scrollToTop"
+  >
+    Back to top
+  </button>
+
 </template>
 
 
@@ -927,6 +951,7 @@ function hasStreaming(album: Album) {
 
 .album-card {
   display: flex;
+  cursor: pointer;
 
   width: 100%;
   min-width: 0;
@@ -1237,6 +1262,87 @@ function hasStreaming(album: Album) {
 
 }
 
+
+.back-to-top {
+  display: block;
+  margin: 28px auto 0;
+  padding: 8px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+}
+
+.album-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(15, 23, 42, 0.58);
+}
+
+.album-modal {
+  position: relative;
+  width: min(680px, 100%);
+  max-height: min(720px, 90vh);
+  overflow: auto;
+  padding: 32px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 16px;
+  background: var(--vp-c-bg);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+.album-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  padding: 4px 10px;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.album-modal-composer,
+.album-modal-meta,
+.album-modal-artists {
+  color: var(--vp-c-text-2);
+}
+
+.album-modal h2 {
+  margin: 8px 32px 8px 0;
+}
+
+.album-modal-streaming {
+  display: flex;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.album-track-list {
+  margin-top: 28px;
+}
+
+.album-track-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.album-track-list th,
+.album-track-list td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  text-align: left;
+}
+
+.album-track-empty {
+  color: var(--vp-c-text-3);
+}
 
 /* =========================
    State
