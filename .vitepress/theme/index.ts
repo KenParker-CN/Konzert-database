@@ -2,6 +2,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import RVTable from './components/RVTable.vue'
+import TWVTable from './components/TWVTable.vue'
 import AIChat from './components/AIChat.vue'
 import ComposerList from './components/ComposerList.vue'
 import WikipediaIntro from './components/WikipediaIntro.vue'
@@ -16,6 +17,7 @@ export default {
     Layout,
     enhanceApp({ app }) {
         app.component('RVTable', RVTable)
+        app.component('TWVTable', TWVTable)
         app.component('AIChat', AIChat)
         app.component('ComposerList', ComposerList)
         app.component('WikipediaIntro', WikipediaIntro)
