@@ -229,21 +229,21 @@ watch([searchQuery, selectedType, selectedKey, selectedInstrumentation], () => {
         </thead>
         <tbody>
           <tr v-for="work in paginatedWorks" :key="work.TWV">
-            <td>{{ displayTWV(work.TWV) }}</td>
+            <td :title="work.TWV">{{ displayTWV(work.TWV) }}</td>
             <td
                 class="truncate"
                 :title="displayName(work.Name)"
             >
               {{ displayName(work.Name) }}
             </td>
-            <td>{{ work.Type }}</td>
-            <td>{{ work.Key }}</td>
+            <td :title="work.Type">{{ work.Type }}</td>
+            <td :title="work.Key">{{ work.Key }}</td>
             <td class="truncate" :title="work.Instrumentations">
               <span>{{ work.Instrumentations }}</span>
             </td>
           </tr>
           <tr v-if="paginatedWorks.length === 0">
-            <td colspan="5" class="no-results">No results</td>
+            <td colspan="5" class="no-results" title="No results">No results</td>
           </tr>
         </tbody>
       </table>

@@ -560,7 +560,7 @@ watch(
             :key="work.RV"
         >
 
-          <td>
+          <td :title="work.RV">
             {{ work.RV }}
           </td>
 
@@ -571,11 +571,11 @@ watch(
             {{ work.Name }}
           </td>
 
-          <td>
+          <td :title="work.Type">
             {{ work.Type }}
           </td>
 
-          <td>
+          <td :title="work.Key">
             {{ work.Key }}
           </td>
 
@@ -595,6 +595,7 @@ watch(
           <td
               colspan="5"
               class="no-results"
+              title="No results"
           >
             No results
           </td>
