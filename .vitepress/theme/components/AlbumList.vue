@@ -4,7 +4,7 @@ interface Album {
   id: string
   musicbrainz_id: string
   title: string
-  composer: string
+  composer: string[]
   artists: string[]
   label: string
   catalog_number: string
@@ -139,7 +139,12 @@ async function loadAlbums() {
         data.title,
 
         composer:
-        data.composer,
+            data.composer
+                ? data.composer
+                    .split(';')
+                    .map(composer => composer.trim())
+                    .filter(Boolean)
+                : [],
 
         artists:
             data.artists
@@ -216,7 +221,11 @@ function uniqueAlbumValues(
 ) {
   return [...new Set(
       albums.value
-          .map(album => album[field].trim())
+          .flatMap(album => {
+            const value = album[field]
+            return Array.isArray(value) ? value : [value]
+          })
+          .map(value => value.trim())
           .filter(Boolean)
   )].sort((a, b) => a.localeCompare(b))
 }
@@ -250,7 +259,7 @@ const filteredAlbums = computed(() => {
 
       const text = [
         album.title,
-        album.composer,
+        ...album.composer,
         ...album.artists,
         album.label,
         album.catalog_number,
@@ -270,7 +279,7 @@ const filteredAlbums = computed(() => {
 
     result = result.filter(
         album =>
-            album.composer === selectedComposer.value
+            album.composer.includes(selectedComposer.value)
     )
   }
 
@@ -337,8 +346,8 @@ const filteredAlbums = computed(() => {
 
       result.sort(
           (a, b) =>
-              a.composer.localeCompare(
-                  b.composer
+              a.composer.join(' · ').localeCompare(
+                  b.composer.join(' · ')
               )
       )
 
@@ -566,7 +575,7 @@ function hasStreaming(album: Album) {
           >
 
             <span>
-              {{ album.composer || 'Album' }}
+              {{ album.composer.join(' · ') || 'Album' }}
             </span>
 
           </div>
@@ -583,10 +592,10 @@ function hasStreaming(album: Album) {
           <!-- Composer -->
 
           <div
-              v-if="album.composer"
+              v-if="album.composer.length"
               class="album-composer"
           >
-            {{ album.composer }}
+            {{ album.composer.join(' · ') }}
           </div>
 
 
