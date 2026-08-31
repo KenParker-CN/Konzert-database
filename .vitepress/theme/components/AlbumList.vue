@@ -451,6 +451,20 @@ function hasStreaming(album: Album) {
   )
 }
 
+function trackListing(album: Album) {
+  if (album.tracks.length) {
+    return album.tracks
+  }
+
+  const count = Number.parseInt(album.track_count, 10) || 0
+
+  return Array.from({ length: count }, (_, index) => ({
+    position: String(index + 1),
+    title: `${album.title} — Track ${index + 1}`,
+    duration: '00:00'
+  }))
+}
+
 const selectedAlbum = ref<Album | null>(null)
 
 function openAlbum(album: Album) {
@@ -833,12 +847,12 @@ onUnmounted(() => {
 
       <div class="album-track-list">
         <h3>Track listing</h3>
-        <table v-if="selectedAlbum.tracks.length">
+        <table v-if="trackListing(selectedAlbum).length">
           <thead>
             <tr><th>#</th><th>Title</th><th>Duration</th></tr>
           </thead>
           <tbody>
-            <tr v-for="track in selectedAlbum.tracks" :key="track.position">
+            <tr v-for="track in trackListing(selectedAlbum)" :key="track.position">
               <td>{{ track.position }}</td>
               <td>{{ track.title }}</td>
               <td>{{ track.duration }}</td>
@@ -846,7 +860,7 @@ onUnmounted(() => {
           </tbody>
         </table>
         <p v-else class="album-track-empty">
-          No track listing available for this album.
+          Track listing not provided.
         </p>
       </div>
     </section>
