@@ -1,6 +1,11 @@
+---
+title: Antonio Vivaldi
+outline: deep
+---
+
 # Antonio Vivaldi
 
-<WikipediaIntro page="Antonio_Vivaldi" />
+<ComposerProfile slug="vivaldi" />
 
 ## Works by opus number
 
@@ -54,5 +59,4 @@
 
 ## Catalogues
 
-- [Ryom-Verzeichnis (RV)](/catalogues?tab=RV)
-- [Catalogue index](/catalogues?tab=RV)
+<ComposerCatalogues slug="vivaldi" />
