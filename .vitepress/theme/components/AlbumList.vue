@@ -217,22 +217,38 @@ const selectedFormat = ref('')
 const sortBy = ref('default')
 
 function uniqueAlbumValues(
-    field: 'composer' | 'label' | 'format'
+    field: 'label' | 'format'
 ) {
   return [...new Set(
       albums.value
-          .flatMap(album => {
-            const value = album[field]
-            return Array.isArray(value) ? value : [value]
-          })
-          .map(value => value.trim())
+          .map(album => album[field].trim())
           .filter(Boolean)
   )].sort((a, b) => a.localeCompare(b))
 }
 
-const composers = computed(() =>
-    uniqueAlbumValues('composer')
-)
+function composerSortName(composer: string) {
+  const name = composer.trim()
+
+  if (name.includes(',')) {
+    return name
+  }
+
+  const parts = name.split(/\s+/)
+  const surname = parts.pop()
+
+  return surname && parts.length
+      ? `${surname}, ${parts.join(' ')}`
+      : name
+}
+
+const composers = computed(() => {
+  return [...new Set(
+      albums.value
+          .flatMap(album => album.composer)
+          .map(composerSortName)
+          .filter(Boolean)
+  )].sort((a, b) => a.localeCompare(b))
+})
 
 const labels = computed(() =>
     uniqueAlbumValues('label')
@@ -279,7 +295,11 @@ const filteredAlbums = computed(() => {
 
     result = result.filter(
         album =>
-            album.composer.includes(selectedComposer.value)
+            album.composer.some(
+                composer =>
+                    composerSortName(composer) ===
+                    selectedComposer.value
+            )
     )
   }
 
@@ -346,9 +366,14 @@ const filteredAlbums = computed(() => {
 
       result.sort(
           (a, b) =>
-              a.composer.join(' · ').localeCompare(
-                  b.composer.join(' · ')
-              )
+              a.composer
+                  .map(composerSortName)
+                  .join(' · ')
+                  .localeCompare(
+                      b.composer
+                          .map(composerSortName)
+                          .join(' · ')
+                  )
       )
 
       break
