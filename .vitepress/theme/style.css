@@ -1,0 +1,236 @@
+.rv-table {
+    width: 100%;
+}
+/* =========================
+   Filters
+   ========================= */
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.search-input,
+.filter-select {
+    padding: 7px 10px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 6px;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-1);
+    font: inherit;
+}
+
+.search-input {
+    width: 220px;
+}
+
+.filter-select {
+    min-width: 150px;
+}
+
+.search-input:focus,
+.filter-select:focus {
+    outline: none;
+    border-color: var(--vp-c-brand-1);
+}
+
+
+/* =========================
+   Table
+   ========================= */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.rv-table table {
+    width: 1030px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.rv-table th,
+.rv-table td {
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.rv-table th {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* =========================
+   固定行高
+   ========================= */
+
+.rv-table tbody tr {
+    height: 44px;
+}
+
+.rv-table tbody td {
+    height: 44px;
+    max-height: 44px;
+}
+
+
+/* =========================
+   不换行
+   ========================= */
+
+.rv-table th:nth-child(1),
+.rv-table td:nth-child(1),
+.rv-table th:nth-child(2),
+.rv-table td:nth-child(2),
+.rv-table th:nth-child(3),
+.rv-table td:nth-child(3),
+.rv-table th:nth-child(4),
+.rv-table td:nth-child(4) {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    align-items: center;
+    width: 100%;
+}
+
+.search-input {
+    flex: 2;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.filter-select {
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.search-input,
+.filter-select {
+    height: 38px;
+    padding: 7px 10px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 6px;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-1);
+    font: inherit;
+}
+
+.search-input:focus,
+.filter-select:focus {
+    outline: none;
+    border-color: var(--vp-c-brand-1);
+}
+.filter-input {
+    padding: 7px 10px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 6px;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-1);
+    font: inherit;
+    width: 200px;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: var(--vp-c-brand-1);
+}
+/* =========================
+   长文本省略
+   ========================= */
+
+.rv-table .truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 0;
+}
+
+.rv-table .truncate span {
+    display: inline;
+}
+
+
+/* =========================
+   Column widths
+   ========================= */
+
+/* =========================
+   Fixed column widths
+   ========================= */
+
+.rv-table table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.rv-table th:nth-child(1),
+.rv-table td:nth-child(1) {
+    width: 80px;
+}
+
+.rv-table th:nth-child(2),
+.rv-table td:nth-child(2) {
+    width: 200px;
+}
+
+.rv-table th:nth-child(3),
+.rv-table td:nth-child(3) {
+    width: 120px;
+}
+
+.rv-table th:nth-child(4),
+.rv-table td:nth-child(4) {
+    width: 120px;
+}
+
+.rv-table th:nth-child(5),
+.rv-table td:nth-child(5) {
+    width: 500px;
+}
+
+
+/* =========================
+   No results
+   ========================= */
+
+.rv-table .no-results {
+    text-align: center;
+    padding: 30px;
+    opacity: 0.6;
+}
+
+
+/* =========================
+   Pagination
+   ========================= */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

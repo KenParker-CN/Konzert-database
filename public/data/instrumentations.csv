@@ -1,0 +1,23 @@
+Name,Category,Aliases
+Violin,Strings,violino;violon;violine
+Viola,Strings,alto;viola
+Violoncello,Strings,violoncelle;cello;violoncello
+Double Bass,Strings,contrebasse;contrabass;violone
+Viola da gamba,Strings,basse de viole;viol
+Lute,Plucked,luth;liuto
+Theorbo,Plucked,théorbe;tiorba
+Mandolin,Plucked,mandoline;mandolino
+Flute,Woodwinds,flûte;flauto
+Transverse Flute,Woodwinds,Traverso;flûte traversière,""
+Oboe,Woodwinds,hautbois;oboe;oboe d'amore
+Bassoon,Woodwinds,basson;fagotto
+Recorder,Woodwinds,flûte à bec;flauto dolce
+Clarinet,Woodwinds,clarinette;clarinetto
+Horn,Brass,cor;corno
+Trumpet,Brass,trompette;tromba
+Trombone,Brass,trombone
+Harpsichord,Keyboard,clavecin;clavicembalo
+Organ,Keyboard,orgue;organo
+Piano,Keyboard,piano;fortepiano
+Voice,Vocal,voix;voce
+Choir,Vocal,chœur;coro

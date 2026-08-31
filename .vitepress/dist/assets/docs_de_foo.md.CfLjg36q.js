@@ -1,0 +1,1 @@
+import{U as e,j as t,nt as n}from"./chunks/framework.HOVv_sfg.js";var r=JSON.parse(`{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/de/foo.md","filePath":"docs/de/foo.md"}`),i={name:`docs/de/foo.md`};function a(t,r,i,a,o,s){return n(),e(`div`)}var o=t(i,[[`render`,a]]);export{r as __pageData,o as default};
