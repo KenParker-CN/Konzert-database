@@ -94,13 +94,18 @@ onMounted(async () => {
 // =========================
 
 const typeOptions = computed(() => {
-  return [
-    ...new Set(
-        works.value
-            .map(work => work.Type)
-            .filter(Boolean)
-    )
-  ].sort((a, b) => a.localeCompare(b, 'fr'))
+  return [...new Set(
+      works.value
+          .map(work => work.Type)
+          .filter(Boolean)
+  )]
+      .sort((a, b) => a.localeCompare(b, 'fr'))
+      .map(type => ({
+        type,
+        count: works.value.filter(
+            work => work.Type === type
+        ).length
+      }))
 })
 
 // =========================
@@ -462,11 +467,11 @@ watch(
         </option>
 
         <option
-            v-for="type in typeOptions"
-            :key="type"
-            :value="type"
+            v-for="item in typeOptions"
+            :key="item.type"
+            :value="item.type"
         >
-          {{ type }}
+          {{ item.type }} ({{ item.count }})
         </option>
       </select>
 
