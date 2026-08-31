@@ -1,82 +1,40 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
+import CatalogueFilters from './CatalogueFilters.vue'
+import {
+  applyFilters,
+  buildFilterGroups,
+  detectFilterFields,
+  loadCatalogue,
+  type FilterSelection,
+  type Work
+} from '../data/catalogues'
 
-type Catalogue = 'RV' | 'TWV' | 'HWV' | 'KV' | 'BWV'
-
-interface Work {
-  [key: string]: string
-}
-
-const props = defineProps<{ catalogue: Catalogue }>()
+const props = defineProps<{ catalogue: string }>()
 
 const works = ref<Work[]>([])
 const headers = ref<string[]>([])
 const loading = ref(false)
 const error = ref('')
 const searchQuery = ref('')
-const selectedType = ref('')
-const selectedKey = ref('')
-const selectedInstrumentation = ref('')
+const selection = ref<FilterSelection>({})
 const sortKey = ref('')
 const sortAsc = ref(true)
 const currentPage = ref(1)
 const pageSize = 10
 
-function parseCSV(text: string): string[][] {
-  const rows: string[][] = []
-  let row: string[] = []
-  let field = ''
-  let quoted = false
-
-  for (let index = 0; index < text.length; index++) {
-    const char = text[index]
-    const next = text[index + 1]
-    if (char === '"') {
-      if (quoted && next === '"') {
-        field += '"'
-        index++
-      } else {
-        quoted = !quoted
-      }
-    } else if (char === ',' && !quoted) {
-      row.push(field.trim())
-      field = ''
-    } else if ((char === '\n' || char === '\r') && !quoted) {
-      if (char === '\r' && next === '\n') index++
-      row.push(field.trim())
-      if (row.some(Boolean)) rows.push(row)
-      row = []
-      field = ''
-    } else {
-      field += char
-    }
-  }
-
-  if (field || row.length) {
-    row.push(field.trim())
-    if (row.some(Boolean)) rows.push(row)
-  }
-  return rows
-}
-
 async function loadWorks() {
   loading.value = true
   error.value = ''
   searchQuery.value = ''
-  selectedType.value = ''
-  selectedKey.value = ''
-  selectedInstrumentation.value = ''
+  selection.value = {}
   currentPage.value = 1
 
   try {
-    const response = await fetch(`/data/${props.catalogue.toLowerCase()}.csv`)
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    const rows = parseCSV(await response.text())
-    headers.value = rows[0] || []
-    works.value = rows.slice(1).map(row => Object.fromEntries(
-      headers.value.map((header, index) => [header, row[index] || ''])
-    ))
-    sortKey.value = headers.value[0] || ''
+    const data = await loadCatalogue(props.catalogue)
+    headers.value = data.headers
+    works.value = data.works
+    sortKey.value = data.headers[0] || ''
   } catch (cause) {
     works.value = []
     headers.value = []
@@ -87,27 +45,9 @@ async function loadWorks() {
   }
 }
 
-const typeOptions = computed(() => optionsFor('Type'))
-const keyOptions = computed(() => optionsFor('Key'))
-const instrumentationOptions = computed(() => optionsFor('Instrumentations'))
-
-function optionsFor(field: string) {
-  const values = works.value.map(work => work[field]).filter(Boolean)
-  return [...new Set(values)].sort((a, b) => a.localeCompare(b, 'en', { numeric: true })).map(value => ({
-    value,
-    count: values.filter(candidate => candidate === value).length
-  }))
-}
-
-const filteredWorks = computed(() => {
-  const query = searchQuery.value.trim().toLowerCase()
-  return works.value.filter(work => {
-    if (selectedType.value && work.Type !== selectedType.value) return false
-    if (selectedKey.value && work.Key !== selectedKey.value) return false
-    if (selectedInstrumentation.value && !work.Instrumentations?.toLowerCase().includes(selectedInstrumentation.value.toLowerCase())) return false
-    return !query || Object.values(work).join(' ').toLowerCase().includes(query)
-  })
-})
+const filterFields = computed(() => detectFilterFields(headers.value, works.value))
+const filterGroups = computed(() => buildFilterGroups(works.value, filterFields.value, selection.value, searchQuery.value))
+const filteredWorks = computed(() => applyFilters(works.value, filterFields.value, selection.value, searchQuery.value))
 
 const sortedWorks = computed(() => [...filteredWorks.value].sort((a, b) => {
   const result = (a[sortKey.value] || '').localeCompare(b[sortKey.value] || '', 'en', { numeric: true })
@@ -125,7 +65,8 @@ function sortBy(key: string) {
   }
 }
 
-watch([searchQuery, selectedType, selectedKey, selectedInstrumentation], () => { currentPage.value = 1 })
+watch([searchQuery, selection], () => { currentPage.value = 1 }, { deep: true })
+watch(totalPages, pages => { if (currentPage.value > pages) currentPage.value = pages })
 watch(() => props.catalogue, loadWorks)
 onMounted(loadWorks)
 </script>
@@ -134,23 +75,14 @@ onMounted(loadWorks)
   <div class="catalogue-table">
     <div class="filters">
       <input v-model="searchQuery" class="search-input" type="search" :placeholder="`Search ${works.length} ${catalogue} works`">
-      <select v-model="selectedType" class="filter-select">
-        <option value="">All work types</option>
-        <option v-for="option in typeOptions" :key="option.value" :value="option.value">{{ option.value }} ({{ option.count }})</option>
-      </select>
-      <select v-model="selectedKey" class="filter-select">
-        <option value="">All keys</option>
-        <option v-for="option in keyOptions" :key="option.value" :value="option.value">{{ option.value }} ({{ option.count }})</option>
-      </select>
-      <select v-model="selectedInstrumentation" class="filter-select">
-        <option value="">All instrumentations</option>
-        <option v-for="option in instrumentationOptions" :key="option.value" :value="option.value">{{ option.value }} ({{ option.count }})</option>
-      </select>
     </div>
+
+    <CatalogueFilters v-model="selection" :groups="filterGroups" />
 
     <p v-if="loading">Loading {{ catalogue }} works…</p>
     <p v-else-if="error" class="catalogue-error">{{ error }}</p>
     <template v-else>
+      <p class="result-count">{{ filteredWorks.length }} of {{ works.length }} works</p>
       <div class="table-wrapper">
         <table>
           <thead><tr><th v-for="header in headers" :key="header" @click="sortBy(header)">{{ header }} <span v-if="sortKey === header">{{ sortAsc ? '↑' : '↓' }}</span></th></tr></thead>
@@ -170,3 +102,12 @@ onMounted(loadWorks)
     </template>
   </div>
 </template>
+
+<style scoped>
+.result-count {
+  margin: 0 0 12px;
+
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+}
+</style>
