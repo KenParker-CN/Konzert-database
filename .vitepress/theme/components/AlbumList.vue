@@ -210,31 +210,28 @@ const selectedComposer = ref('')
 const selectedLabel = ref('')
 const selectedFormat = ref('')
 const sortBy = ref('default')
-const composers = computed(() => {
+
+function uniqueAlbumValues(
+    field: 'composer' | 'label' | 'format'
+) {
   return [...new Set(
       albums.value
-          .map(album => album.composer)
+          .map(album => album[field].trim())
           .filter(Boolean)
   )].sort((a, b) => a.localeCompare(b))
-})
+}
 
+const composers = computed(() =>
+    uniqueAlbumValues('composer')
+)
 
-const labels = computed(() => {
-  return [...new Set(
-      albums.value
-          .map(album => album.label)
-          .filter(Boolean)
-  )].sort((a, b) => a.localeCompare(b))
-})
+const labels = computed(() =>
+    uniqueAlbumValues('label')
+)
 
-
-const formats = computed(() => {
-  return [...new Set(
-      albums.value
-          .map(album => album.format)
-          .filter(Boolean)
-  )].sort((a, b) => a.localeCompare(b))
-})
+const formats = computed(() =>
+    uniqueAlbumValues('format')
+)
 
 const filteredAlbums = computed(() => {
 
