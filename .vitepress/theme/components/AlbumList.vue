@@ -250,6 +250,46 @@ const composers = computed(() => {
   )].sort((a, b) => a.localeCompare(b))
 })
 
+function composerMatchesSortName(
+    composer: string,
+    sortName: string
+) {
+  const [candidateSurname, candidateGiven] =
+      composerSortName(composer).split(',')
+  const [selectedSurname, selectedGiven] =
+      sortName.split(',')
+
+  if (!candidateSurname || !selectedSurname) {
+    return false
+  }
+
+  if (
+      candidateSurname.trim().toLocaleLowerCase() !==
+      selectedSurname.trim().toLocaleLowerCase()
+  ) {
+    return false
+  }
+
+  const candidateParts = (candidateGiven || '')
+      .trim()
+      .toLocaleLowerCase()
+      .split(/[.\s]+/)
+      .filter(Boolean)
+  const selectedParts = (selectedGiven || '')
+      .trim()
+      .toLocaleLowerCase()
+      .split(/[.\s]+/)
+      .filter(Boolean)
+
+  return candidateParts.length === selectedParts.length &&
+      candidateParts.every(
+          (part, index) =>
+              part.length === 1
+                  ? selectedParts[index].startsWith(part)
+                  : part === selectedParts[index]
+      )
+}
+
 const labels = computed(() =>
     uniqueAlbumValues('label')
 )
@@ -297,8 +337,10 @@ const filteredAlbums = computed(() => {
         album =>
             album.composer.some(
                 composer =>
-                    composerSortName(composer) ===
-                    selectedComposer.value
+                    composerMatchesSortName(
+                        composer,
+                        selectedComposer.value
+                    )
             )
     )
   }
