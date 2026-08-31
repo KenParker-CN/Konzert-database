@@ -18,6 +18,10 @@ The TWV catalogue provides a systematic numbering system for identifying the wor
 | Catalogue type | Work catalogue |
 | First published | 1941–1951 |
 
+## Works
+
+<TWVTable />
+
 ## Catalogue Sections
 
 The TWV catalogue is organized into several major sections according to genre and type of composition.

@@ -24,6 +24,24 @@ The *Telemann-Werke-Verzeichnis* (TWV) is the catalogue system used to identify 
 
 [Browse TWV catalogue](/pages/catalogues/twv)
 
+### HWV · Handel-Werke-Verzeichnis
+
+**George Frideric Handel**
+
+[Browse HWV catalogue](/pages/catalogues/hwv)
+
+### KV · Köchel-Verzeichnis
+
+**Wolfgang Amadeus Mozart**
+
+[Browse KV catalogue](/pages/catalogues/kv)
+
+### BWV · Bach-Werke-Verzeichnis
+
+**Johann Sebastian Bach**
+
+[Browse BWV catalogue](/pages/catalogues/bwv)
+
 ## Catalogue Information
 
 | Catalogue | Composer | Compiler / Reference | Type |

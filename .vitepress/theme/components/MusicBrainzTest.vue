@@ -25,9 +25,6 @@ const catno = ref('')
 const barcode = ref('')
 const title = ref('')
 const artist = ref('')
-const label = ref('')
-const format = ref('')
-const country = ref('')
 
 const results = ref<any[]>([])
 const albums = ref<Album[]>([])
@@ -62,17 +59,6 @@ async function searchMusicBrainz() {
       conditions.push(`artist:"${artist.value.trim()}"`)
     }
 
-    if (label.value.trim()) {
-      conditions.push(`label:"${label.value.trim()}"`)
-    }
-
-    if (format.value) {
-      conditions.push(`format:"${format.value}"`)
-    }
-
-    if (country.value) {
-      conditions.push(`country:${country.value}`)
-    }
 
     if (conditions.length === 0) {
       throw new Error('Please enter at least one search condition')
@@ -456,68 +442,6 @@ function exportCsv() {
           placeholder="Artist"
       />
 
-      <input
-          v-model="label"
-          placeholder="Label"
-      />
-
-
-      <select v-model="format">
-
-        <option value="">
-          Any Format
-        </option>
-
-        <option value="CD">
-          CD
-        </option>
-
-        <option value="SACD">
-          SACD
-        </option>
-
-        <option value="Vinyl">
-          Vinyl
-        </option>
-
-        <option value="Digital Media">
-          Digital Media
-        </option>
-
-        <option value="DVD">
-          DVD
-        </option>
-
-      </select>
-
-
-      <select v-model="country">
-
-        <option value="">
-          Any Country
-        </option>
-
-        <option value="FR">
-          France
-        </option>
-
-        <option value="DE">
-          Germany
-        </option>
-
-        <option value="GB">
-          United Kingdom
-        </option>
-
-        <option value="US">
-          United States
-        </option>
-
-        <option value="JP">
-          Japan
-        </option>
-
-      </select>
 
     </div>
 
@@ -849,8 +773,7 @@ function exportCsv() {
 }
 
 
-.search-fields input,
-.search-fields select {
+.search-fields input {
 
   width: 100%;
 
@@ -877,8 +800,7 @@ function exportCsv() {
 }
 
 
-.search-fields input:focus,
-.search-fields select:focus {
+.search-fields input:focus {
 
   border-color:
       var(--vp-c-brand-1);

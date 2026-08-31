@@ -94,13 +94,18 @@ onMounted(async () => {
 // =========================
 
 const typeOptions = computed(() => {
-  return [
-    ...new Set(
-        works.value
-            .map(work => work.Type)
-            .filter(Boolean)
-    )
-  ].sort((a, b) => a.localeCompare(b, 'fr'))
+  return [...new Set(
+      works.value
+          .map(work => work.Type)
+          .filter(Boolean)
+  )]
+      .sort((a, b) => a.localeCompare(b, 'fr'))
+      .map(type => ({
+        type,
+        count: works.value.filter(
+            work => work.Type === type
+        ).length
+      }))
 })
 
 // =========================
@@ -109,8 +114,13 @@ const typeOptions = computed(() => {
 
 const keyOptions = computed(() => {
   const counts = new Map<string, number>()
+  const worksForKeys = selectedType.value
+      ? works.value.filter(
+          work => work.Type === selectedType.value
+        )
+      : works.value
 
-  works.value.forEach(work => {
+  worksForKeys.forEach(work => {
     if (work.Key) {
       counts.set(
           work.Key,
@@ -421,6 +431,10 @@ function parseInstrumentationCSV(
 // 筛选变化后回到第一页
 // =========================
 
+watch(selectedType, () => {
+  selectedKey.value = ''
+})
+
 watch(
     [
       searchQuery,
@@ -462,11 +476,11 @@ watch(
         </option>
 
         <option
-            v-for="type in typeOptions"
-            :key="type"
-            :value="type"
+            v-for="item in typeOptions"
+            :key="item.type"
+            :value="item.type"
         >
-          {{ type }}
+          {{ item.type }} ({{ item.count }})
         </option>
       </select>
 
@@ -560,7 +574,7 @@ watch(
             :key="work.RV"
         >
 
-          <td>
+          <td :title="work.RV">
             {{ work.RV }}
           </td>
 
@@ -571,11 +585,11 @@ watch(
             {{ work.Name }}
           </td>
 
-          <td>
+          <td :title="work.Type">
             {{ work.Type }}
           </td>
 
-          <td>
+          <td :title="work.Key">
             {{ work.Key }}
           </td>
 
@@ -595,6 +609,7 @@ watch(
           <td
               colspan="5"
               class="no-results"
+              title="No results"
           >
             No results
           </td>
