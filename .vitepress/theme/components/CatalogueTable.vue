@@ -74,7 +74,7 @@ onMounted(loadWorks)
 <template>
   <div class="catalogue-table">
     <div class="filters">
-      <input v-model="searchQuery" class="search-input" type="search" :placeholder="`Search ${works.length} ${catalogue} works`">
+      <span aria-hidden="true">⌕</span><input v-model="searchQuery" class="search-input" type="search" :placeholder="`Search ${works.length} ${catalogue} works`" aria-label="Search catalogue works">
     </div>
 
     <CatalogueFilters v-model="selection" :groups="filterGroups" />
@@ -85,7 +85,7 @@ onMounted(loadWorks)
       <p class="result-count">{{ filteredWorks.length }} of {{ works.length }} works</p>
       <div class="table-wrapper">
         <table>
-          <thead><tr><th v-for="header in headers" :key="header" @click="sortBy(header)">{{ header }} <span v-if="sortKey === header">{{ sortAsc ? '↑' : '↓' }}</span></th></tr></thead>
+          <thead><tr><th v-for="header in headers" :key="header" :aria-sort="sortKey === header ? (sortAsc ? 'ascending' : 'descending') : 'none'" @click="sortBy(header)">{{ header }} <span v-if="sortKey === header" aria-hidden="true">{{ sortAsc ? '↑' : '↓' }}</span></th></tr></thead>
           <tbody>
             <tr v-for="(work, index) in paginatedWorks" :key="`${work[headers[0]]}-${index}`">
               <td v-for="header in headers" :key="header" :title="work[header]">{{ work[header] }}</td>
@@ -95,19 +95,17 @@ onMounted(loadWorks)
         </table>
       </div>
       <div class="pagination">
-        <button :disabled="currentPage === 1" @click="currentPage--">Previous</button>
+        <button :disabled="currentPage === 1" @click="currentPage--">← Previous</button>
         <span>{{ currentPage }} / {{ totalPages }}</span>
-        <button :disabled="currentPage === totalPages" @click="currentPage++">Next</button>
+        <button :disabled="currentPage === totalPages" @click="currentPage++">Next →</button>
       </div>
     </template>
   </div>
 </template>
 
 <style scoped>
-.result-count {
-  margin: 0 0 12px;
-
-  font-size: 12px;
-  color: var(--vp-c-text-3);
-}
+.filters { position: relative; }
+.filters > span { position: absolute; left: .75rem; z-index: 1; color: var(--vp-c-text-3); }
+.search-input { padding-left: 2rem; }
+.result-count { margin: 0 0 12px; font-size: 12px; color: var(--vp-c-text-3); letter-spacing: .05em; text-transform: uppercase; }
 </style>

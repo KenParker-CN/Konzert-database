@@ -1,186 +1,45 @@
 <script setup lang="ts">
 import type { Album } from '../data/albums'
 
-defineProps<{
-  album: Album
-}>()
+defineProps<{ album: Album }>()
 
-const emit = defineEmits<{
-  open: []
-}>()
+const emit = defineEmits<{ open: [] }>()
 </script>
 
 <template>
   <article
-      class="album-card"
-      role="button"
-      tabindex="0"
-      :aria-label="`Open ${album.title || 'album'}`"
-      @click="emit('open')"
-      @keydown.enter.prevent="emit('open')"
-      @keydown.space.prevent="emit('open')"
+    class="album-card"
+    role="button"
+    tabindex="0"
+    :aria-label="`Open ${album.title || 'album'}`"
+    @click="emit('open')"
+    @keydown.enter.prevent="emit('open')"
+    @keydown.space.prevent="emit('open')"
   >
     <div class="album-cover">
-      <img
-          v-if="album.cover"
-          :src="album.cover"
-          :alt="album.title"
-          loading="lazy"
-      >
-
-      <div v-else class="cover-placeholder">
-        <span>{{ album.title || 'Album' }}</span>
-      </div>
-
-      <div class="album-overlay">
-        <div class="album-overlay-title">
-          {{ album.title }}
-        </div>
-
-        <div class="album-overlay-info" aria-hidden="true">
-          <span>i</span>
-        </div>
-      </div>
+      <img v-if="album.cover" :src="album.cover" :alt="album.title" loading="lazy">
+      <div v-else class="cover-placeholder"><span>{{ album.title || 'Album' }}</span></div>
+      <div class="album-overlay" aria-hidden="true"><span>View recording</span><span class="album-arrow">↗</span></div>
+    </div>
+    <div class="album-caption">
+      <div class="album-title">{{ album.title }}</div>
+      <div v-if="album.composer.length" class="album-composer">{{ album.composer.join(' · ') }}</div>
     </div>
   </article>
 </template>
 
 <style scoped>
-.album-card {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  overflow: hidden;
-  cursor: pointer;
-  border: 0;
-  border-radius: 10px;
-  background: transparent;
-  transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
-}
-
-.album-card:hover,
-.album-card:focus-visible {
-  transform: translateY(-3px);
-  outline: none;
-}
-
-.album-cover {
-  position: relative;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-
-.album-cover img {
-  display: block;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.album-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding: 14px;
-  box-sizing: border-box;
-
-  background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.78) 0%,
-      rgba(0, 0, 0, 0.35) 35%,
-      rgba(0, 0, 0, 0) 70%
-  );
-
-  opacity: 0;
-  transition: opacity 0.2s ease;
-  pointer-events: none;
-}
-
-.album-card:hover .album-overlay,
-.album-card:focus-visible .album-overlay {
-  opacity: 1;
-}
-
-.album-overlay-title {
-  min-width: 0;
-  max-width: calc(100% - 42px);
-
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.35;
-
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
-}
-
-.album-overlay-info {
-  flex: 0 0 auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 30px;
-  height: 30px;
-
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 50%;
-
-  background: rgba(0, 0, 0, 0.25);
-  color: #fff;
-
-  backdrop-filter: blur(4px);
-}
-
-.album-overlay-info span {
-  font-family: Georgia, serif;
-  font-size: 17px;
-  font-weight: 700;
-  font-style: italic;
-  line-height: 1;
-}
-
-.cover-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-2);
-  font-size: 13px;
-}
-
-.album-info {
-  min-width: 0;
-  padding: 9px 2px 4px;
-}
-
-.album-title {
-  overflow: hidden;
-  color: var(--vp-c-text-1);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
+.album-card { min-width: 0; cursor: pointer; color: inherit; outline: none; }
+.album-cover { position: relative; aspect-ratio: 1; overflow: hidden; background: var(--vp-c-bg-soft); box-shadow: 0 1px 0 var(--archive-rule); }
+.album-cover img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 350ms cubic-bezier(.2,.7,.2,1), filter 350ms ease; }
+.album-overlay { position: absolute; inset: 0; display: flex; align-items: flex-end; justify-content: space-between; padding: .75rem; background: linear-gradient(to top, rgba(20,18,15,.72), transparent 58%); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: 0; transition: opacity 180ms ease; }
+.album-arrow { font-size: 1.15rem; }
+.album-caption { padding: .7rem .1rem .2rem; }
+.album-title { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; color: var(--archive-ink); font-family: var(--archive-serif); font-size: 1.25rem; line-height: 1.03; }
+.album-composer { overflow: hidden; margin-top: .35rem; color: var(--vp-c-text-3); font-size: 11px; letter-spacing: .04em; text-overflow: ellipsis; text-transform: uppercase; white-space: nowrap; }
+.album-card:hover .album-cover img, .album-card:focus-visible .album-cover img { transform: scale(1.045); filter: saturate(.88) contrast(1.04); }
+.album-card:hover .album-overlay, .album-card:focus-visible .album-overlay { opacity: 1; }
+.album-card:focus-visible .album-cover { outline: 2px solid var(--archive-oxide); outline-offset: 3px; }
+.cover-placeholder { display: grid; place-items: center; width: 100%; height: 100%; padding: 1rem; color: var(--vp-c-text-2); font-family: var(--archive-serif); font-size: 1.3rem; text-align: center; }
+@media (hover: none) { .album-overlay { opacity: 1; background: linear-gradient(to top, rgba(20,18,15,.62), transparent 55%); } }
 </style>
