@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Parker's"
-  text: "Personal website"
-  tagline: <(￣︶￣)↗[GO!]
+  text: "Classical music archive"
+  tagline: A growing personal collection of composers, work catalogues, and recordings.
   actions:
     - theme: alt
       text: Early Music
@@ -21,12 +21,12 @@ hero:
       link: /pages/composers
 features:
   - title: Early Music
-    details: Baroque in Europe, Historical Instruments, Classical Composers, ...
+    details: Repertories, historical instruments, and performance practice from the Middle Ages to the eighteenth century.
     link: /pages/earlymusic
   - title: Catalogues
-    details: Telemann-Werke-Verzeichnis, Köchel, Ryom-Verzeichnis, ...
+    details: Browse work lists from BWV and Köchel to Ryom-Verzeichnis and beyond.
     link: /catalogues?tab=RV
   - title: Album Collections
-    details: A gallery of recordings, with composer, artist, and streaming links.
+    details: A considered gallery of recordings, artists, catalogue links, and listening options.
     link: /pages/albums
 ---

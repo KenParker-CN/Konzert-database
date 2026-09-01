@@ -55,7 +55,7 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
 <template>
   <div v-if="groups.length" class="catalogue-filters">
     <div v-for="group in groups" :key="group.field" class="filter-group">
-      <div class="filter-label">{{ group.label }}</div>
+      <div class="filter-label"><span aria-hidden="true">⌄</span>{{ group.label }}</div>
 
       <div class="filter-buttons">
         <button
@@ -83,7 +83,7 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
 
     <div v-if="activeCount" class="filter-actions">
       <button type="button" class="filter-clear" @click="clearAll">
-        Clear filters ({{ activeCount }})
+        × Clear filters ({{ activeCount }})
       </button>
     </div>
   </div>
@@ -100,7 +100,7 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
 
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
+  border-radius: 0;
 
   text-align: left;
 }
@@ -123,6 +123,8 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
   color: var(--vp-c-text-2);
 }
 
+.filter-label span { margin-right: .35rem; color: var(--archive-oxide); }
+
 .filter-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -137,7 +139,7 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
   padding: 5px 11px;
 
   border: 1px solid var(--vp-c-divider);
-  border-radius: 7px;
+  border-radius: 2px;
 
   background: var(--vp-c-bg);
   color: var(--vp-c-text-2);
@@ -147,10 +149,7 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
 
   cursor: pointer;
 
-  transition:
-      background 0.15s ease,
-      border-color 0.15s ease,
-      color 0.15s ease;
+  transition: background var(--archive-ease), border-color var(--archive-ease), color var(--archive-ease), transform var(--archive-ease);
 }
 
 .filter-button:hover {

@@ -46,7 +46,7 @@ function togglePlayer() {
             :class="{ active: playerOpen }"
             @click="togglePlayer"
         >
-          ♫
+          <span aria-hidden="true">♫</span><span class="player-toggle-label">Player</span>
         </button>
 
         <div
@@ -72,37 +72,32 @@ function togglePlayer() {
 }
 
 .player-toggle {
-  width: 32px;
   height: 32px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin-left: 4px;
-  padding: 0;
-
+  padding: 0 .45rem;
   border: 0;
-  border-radius: 8px;
-
+  border-radius: 0;
   background: transparent;
-
   color: var(--vp-c-text-2);
-
-  font-size: 18px;
-
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
   cursor: pointer;
-
-  transition:
-      background 0.15s ease,
-      color 0.15s ease;
+  transition: background var(--archive-ease), color var(--archive-ease), transform var(--archive-ease);
 }
 
 .player-toggle:hover,
 .player-toggle.active {
-  background: var(--vp-c-default-soft);
+  background: var(--vp-c-brand-soft);
   color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
 }
+
+.player-toggle-label { margin-left: .35rem; font-size: 10px; }
 
 .player-popover {
   position: absolute;

@@ -24,7 +24,7 @@ const catalogueComposerItems = catalogues.map(catalogue => ({
 
 export default defineConfig({
   title: "Parker's",
-  description: "Personal website",
+  description: "A personal archive of classical music, works, and recordings",
   ignoreDeadLinks: true,
 
   themeConfig: {
@@ -32,7 +32,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Composers', link: '/pages/composers' },
       { text: 'Catalogues', link: '/catalogues?tab=RV' },
-      { text: 'Collections', link: '/pages/albums' }
+      { text: 'Collections', link: '/pages/albums' },
+      { text: 'Early Music', link: '/pages/earlymusic' }
     ],
 
     outline: 'deep',
