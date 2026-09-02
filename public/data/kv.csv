@@ -22,9 +22,13 @@
 29,IV/4,Sonata in D,Sonata,D major,"Piano, Violin",
 30,IV/5,Sonata in F,Sonata,F major,"Piano, Violin",
 31,IV/6,Sonata in B flat,Sonata,B-flat major,"Piano, Violin",
+36,33i,“Or che il dover” – “Tali e cotanti sono”. Recitative and Aria for tenor and orchestra,Recits / Aria,D major,"Tenor, Orchestra",
 43,,Symphony in F,Symphony,F major,Orchestra,
 45,,Symphony in D,Symphony,D major,Orchestra,
 48,,Symphony in D,Symphony,D major,Orchestra,
+52,46c,"""Meiner Liebsten schöne Wangen""/""Daphne, deine Rosenwangen"" ",Song,A major,"Voice, Piano",after Bastien und Bastienne KV 5/11; Version of unknown authorization
+53,47e; 43b,"An die Freude 
+Song for voice and clavier",Song,F major,"Voice, Piano",
 67,41h,Church sonata in E flat,Church Sonata,E-flat major,,
 68,41i,Church sonata in B flat,Church Sonata,B-flat major,,
 69,41k,Church sonata in D,Church Sonata,D major,,
@@ -32,19 +36,21 @@
 74,,Symphony in G,Symphony,G major,Orchestra,
 75,,Symphony in F,Symphony,F major,Orchestra,Work of doubtful authenticity
 76,42a,Symphony in F,Symphony,F major,Orchestra,Work of doubtful authenticity
-81,73l; VII:D14,Symphony in D,Symphony,D major,Orchestra,Work of doubtful authenticity
+79,73d,"""Oh temerario Arbace!"" – ""Per quel paterno amplesso"" ",Scena,B-flat major,"Soprano, Orchestra",
+81,73l;VII:D14,Symphony in D,Symphony,D major,Orchestra,Work of doubtful authenticity
+82,73o,"""Se ardire e speranza"" ",Aria,F major,"Soprano, Orchestra",
 84,73q,Symphony in D,Symphony,D major,Orchestra,Work of doubtful authenticity
 95,73n,Symphony in D,Symphony,D major,Orchestra,Work of doubtful authenticity
 96,111b,Symphony in C,Symphony,C major,Orchestra,Work of doubtful authenticity
 97,73m,Symphony in D,Symphony,D major,Orchestra,Work of doubtful authenticity
-100,62a; deest,Symphony in D,Symphony,D major,Orchestra,after the Serenade KV 100
+100,62a;deest,Symphony in D,Symphony,D major,Orchestra,after the Serenade KV 100
 110,75b,Symphony in G,Symphony,G major,Orchestra,
-111,111a; 120,Symphony in D,Symphony,D major,Orchestra,after the overture to Ascanio in Alba KV 111
+111,111a;120,Symphony in D,Symphony,D major,Orchestra,after the overture to Ascanio in Alba KV 111
 112,,Symphony in F,Symphony,F major,Orchestra,
 113,,Concerto / Divertimento in E flat,Concerto / Divertimento,E-flat major,Ensemble,for instrumental ensemble à 8 or à 10
 114,,Symphony in A,Symphony,A major,Orchestra,
 124,,Symphony in G,Symphony,G major,Orchestra,
-126,163; 141a; 161,Symphony in D,Symphony,D major,Orchestra,after the overture to Il sogno di Scipione KV 126
+126,163;141a;161,Symphony in D,Symphony,D major,Orchestra,after the overture to Il sogno di Scipione KV 126
 128,,Symphony in C,Symphony,C major,Orchestra,
 129,,Symphony in G,Symphony,G major,Orchestra,
 130,,Symphony in F,Symphony,F major,Orchestra,
@@ -61,141 +67,220 @@
 166,159d,Divertimento in E flat,Divertimento,E-flat major,Wind Instruments,for wind ensemble à 10
 175,,Concerto in D,Concerto,D major,"Organ, Orchestra",
 181,162b,Symphony in D,Symphony,D major,Orchestra,
-182,173dA; 166c,Symphony in B flat,Symphony,B-flat major,Orchestra,
+182,173dA;166c,Symphony in B flat,Symphony,B-flat major,Orchestra,
 183,173dB,Symphony in g,Symphony,G minor,Orchestra,
-184,161a; 166a,Symphony in E flat,Symphony,E-flat major,Orchestra,
-185,,Concerto in F,Concerto,F major,"Violin, Orchestra",after the Serenade in D KV 185； lost
-185,,Symphony after the Serenade in D KV 185 $lost,Symphony,D major,Orchestra,
+184,161a;166a,Symphony in E flat,Symphony,E-flat major,Orchestra,
+185,,Concerto in F,Concerto,F major,"Violin, Orchestra",after the Serenade in D KV 185;lost
+185,,Symphony in D,Symphony,D major,Orchestra,after the Serenade in D KV 185;lost
 186,159b,Divertimento in B flat,Divertimento,B-flat major,Wind Instruments,
-190,186E; 166b,Concertone in C,Concertone,C major,"2 Violins, Oboe, Cello, Orchestra",
+190,186E;166b,Concertone in C,Concertone,C major,"2 Violins, Oboe, Cello, Orchestra",
 191,186e,Concerto in B flat,Concerto,B-flat major,"Bassoon, Orchestra",
-196,207a; 121,Symphony in D,Symphony,D major,Orchestra,after the overture to La finta giardiniera KV 196
-199,161b; 162a,Symphony in G,Symphony,G major,Orchestra,
-200,189k; 173e,Symphony in C,Symphony,C major,Orchestra,
+196,207a;121,Symphony in D,Symphony,D major,Orchestra,after the overture to La finta giardiniera KV 196
+199,161b;162a,Symphony in G,Symphony,G major,Orchestra,
+200,189k;173e,Symphony in C,Symphony,C major,Orchestra,
 201,186a,Symphony in A,Symphony,A major,Orchestra,
 202,186b,Symphony in D,Symphony,D major,Orchestra,
-203,189b,Symphony after the Serenade in D KV 203,Symphony,D major,Orchestra,
-204,213a,Symphony after the Serenade in D KV 204,Symphony,D major,Orchestra,
-205,167A; 173a,"Divertimento in Dfor 2 horns, violin, viola and basso",Divertimento,D major,"2 Horns, Violin, Viola, Basso Continuo",
-207,,"Concerto in B flatfor violin and orchestra",Concerto,B-flat major,"Violin, Orchestra",
-208,213c; 102,Symphony in C after the overture to Il re pastore KV 208 $(fragment),Symphony,C major,Orchestra,
-211,,"Concerto in Dfor violin and orchestra",Concerto,D major,"Violin, Orchestra",
+203,189b,Symphony in D,Symphony,D major,Orchestra, after the Serenade in D KV 203
+204,213a,Symphony in D,Symphony,D major,Orchestra, after the Serenade in D KV 204
+205,167A;173a,Divertimento in D,Divertimento,D major,"2 Horns, Violin, Viola, Basso Continuo",
+207,,Concerto in B flat,Concerto,B-flat major,"Violin, Orchestra",
+208,213c;102,Symphony in C (fragment),Symphony,C major,Orchestra,after the overture to Il re pastore KV 208
+211,,Concerto in D,Concerto,D major,"Violin, Orchestra",
 212,,Church sonata in B flat,Church Sonata,B-flat major,,
-213,,"Divertimento in Ffor 2 oboes, 2 horns and 2 bassoone",Divertimento,F major,"2 Oboes, 2 Horns, 2 Bassoons",
-216,,"Concerto in Gfor violin and orchestra",Concerto,G major,"Violin, Orchestra",
-218,,"Concerto in Dfor violin and orchestra",Concerto,D major,"Violin, Orchestra",
-219,,"Concerto in Afor violin and orchestra",Concerto,A major,"Violin, Orchestra",
+213,,Divertimento in F,Divertimento,F major,"2 Oboes, 2 Horns, 2 Bassoons",
+216,,Concerto in G,Concerto,G major,"Violin, Orchestra",
+218,,Concerto in D,Concerto,D major,"Violin, Orchestra",
+219,,Concerto in A,Concerto,A major,"Violin, Orchestra",
 224,241a,Church sonata in F,Church Sonata,F major,,
 225,241b,Church sonata in A,Church Sonata,A major,,
-238,,"Concerto in B flatfor clavier and orchestra",Concerto,B-flat major,"Piano, Orchestra",
-240,,"Divertimento in B flatfor 2 oboes, 2 horns and 2 bassoone",Divertimento,B-flat major,"2 Oboes, 2 Horns, 2 Bassoons",
+238,,Concerto in B flat,Concerto,B-flat major,"Piano, Orchestra",
+240,,Divertimento in B flat,Divertimento,B-flat major,"2 Oboes, 2 Horns, 2 Bassoons",
 241,,Church sonata in G,Church Sonata,G major,,
-242,,"Concerto in Ffor 3 or 2 keyboard instruments and orchestra",Concerto,F major,"3 or 2 Keybords, Orchestra",
+242,,Concerto in F,Concerto,F major,"3 or 2 Keybords, Orchestra",
 244,,Church sonata in F,Church Sonata,F major,,
 245,,Church sonata in D,Church Sonata,D major,,
-246,,"Concerto in Cfor clavier and orchestra",Concerto,C major,"Piano, Orchestra",
-247,,"Divertimento in Ffor 2 horns, 2 violins, viola and basso",Divertimento,F major,"2 Horns, Violin, Viola, Basso Continuo",
-250,248b; bei 250,Symphony after the Serenade in D KV 250,Symphony,D major,Orchestra,
-251,,"Divertimento in Dfor oboe, 2 horns, 2 violins, viola and basso",Divertimento,D major,"Oboe, 2 Horns, 2 Violins, Viola, Basso Continuo",
-252,240a,"Divertimento in E flatfor 2 oboes, 2 horns and 2 bassoone",Divertimento,E-flat major,"2 Oboes, 2 Horns, 2 Bassoons",
-253,,"Divertimento in Ffor 2 oboes, 2 horns and 2 bassoone",Divertimento,F major,"2 Oboes, 2 Horns, 2 Bassoons",
-254,,"Divertimento in B flatfor clavier, violin and violoncello",Divertimento,B-flat major,"Piano, Violin, Cello",
+246,,Concerto in C,Concerto,C major,"Piano, Orchestra",
+247,,Divertimento in F,Divertimento,F major,"2 Horns, Violin, Viola, Basso Continuo",
+250,248b;bei 250,Symphony in D,Symphony,D major,Orchestra, after the Serenade in D KV 250
+251,,Divertimento in D,Divertimento,D major,"Oboe, 2 Horns, 2 Violins, Viola, Basso Continuo",
+252,240a,Divertimento in E flat,Divertimento,E-flat major,"2 Oboes, 2 Horns, 2 Bassoons",
+253,,Divertimento in F,Divertimento,F major,"2 Oboes, 2 Horns, 2 Bassoons",
+254,,Divertimento in B flat,Divertimento,B-flat major,"Piano, Violin, Cello",
 263,,Church sonata in C,Church Sonata,C major,,
-266,271f,"Sonata in B flatfor 2 violins and basso",Sonata,B-flat major,Piano,
-270,,"Divertimento in B flatfor 2 oboes, 2 horns and 2 bassoone",Divertimento,B-flat major,"2 Oboes, 2 Horns, 2 Bassoons",
-271,,"Concerto in E flatfor clavier and orchestra",Concerto,E-flat major,"Piano, Orchestra",
+266,271f,Sonata in B flat,Sonata,B-flat major,Piano,
+270,,Divertimento in B flat,Divertimento,B-flat major,"2 Oboes, 2 Horns, 2 Bassoons",
+271,,Concerto in E flat,Concerto,E-flat major,"Piano, Orchestra",
 274,271d,Church sonata in G,Church Sonata,G major,,
 278,271e,Church sonata in C,Church Sonata,C major,,
-279,189d,"Sonata in Cfor clavier",Sonata,C major,Piano,
-280,189e,"Sonata in Ffor clavier",Sonata,F major,Piano,
-281,189f,"Sonata in B flatfor clavier",Sonata,B-flat major,Piano,
-282,189g,"Sonata in E flatfor clavier",Sonata,E-flat major,Piano,
-283,189h,"Sonata in Gfor clavier",Sonata,G major,Piano,
-284,205b,"Sonata in Dfor clavier",Sonata,D major,Piano,
-287,271H; 271b,"Divertimento in B flatfor 2 horns, 2 violins, viola and basso",Divertimento,B-flat major,"2 Horns, 2 Violins, Viola, Basso Continuo",
-289,271g,"Divertimento in E flatfor wind ensemble à 6 $Work of doubtful authenticity",Divertimento,E-flat major,Wind Instruments,
-292,196c,"Sonata in B flatpresumably for bassoon and basso $Work of doubtful authenticity",Sonata,B-flat major,"Piano, Violin",
+279,189d,"Sonata in C",Sonata,C major,Piano,
+280,189e,"Sonata in F",Sonata,F major,Piano,
+281,189f,"Sonata in B flat",Sonata,B-flat major,Piano,
+282,189g,"Sonata in E flat",Sonata,E-flat major,Piano,
+283,189h,"Sonata in G",Sonata,G major,Piano,
+284,205b,"Sonata in D",Sonata,D major,Piano,
+286,269a,"Notturno in D 
+for 4 ensembles",Notturno,D major,4 Ensembles,
+287,271H;271b,Divertimento in B flat,Divertimento,B-flat major,"2 Horns, 2 Violins, Viola, Basso Continuo",
+289,271g,Divertimento in E flat,Divertimento,E-flat major,Wind Instruments,for wind ensemble à 6;Work of doubtful authenticity
+292,196c,Sonata in B flat,Sonata,B-flat major,"presumably Bassoon, Basso Continuo",Work of doubtful authenticity
+293,416g; 416f; 1778c,Concerto movement in F (fragment),Concerto,F major,"Oboe, Orchestra",
+295,,„Se al labbro mio non credi“,Aria,B-flat major,"Tenor, Orchestra",
 296,,"Sonata in C",Sonata,C major,"Piano, Violin",
-299,297c,"Concerto in Cfor flute, harp and orchestra",Concerto,C major,"Flute, Harp, Orchestra",
-301,293a; I/1,"Sonata in G",Sonata,G major,"Piano, Violin",
-302,293b; I/2,"Sonata in E flat",Sonata,E-flat major,"Piano, Violin",
+297,300a,Sinfonie in D,Symphony,D major,Orchestra,
+299,297c,Concerto in C,Concerto,C major,"Flute, Harp, Orchestra",
+301,293a;I/1,"Sonata in G",Sonata,G major,"Piano, Violin",
+302,293b;I/2,"Sonata in E flat",Sonata,E-flat major,"Piano, Violin",
 303,293c,"Sonata in C",Sonata,C major,"Piano, Violin",
 304,300c,"Sonata in e",Sonata,E minor,"Piano, Violin",
 305,293d,"Sonata in A",Sonata,A major,"Piano, Violin",
 306,300l,"Sonata in D",Sonata,D major,"Piano, Violin",
-309,284b,Sonata in C for clavier,Sonata,C major,Piano,
-310,300d,"Sonata in afor clavier",Sonata,A minor,Piano,
-311,284c,"Sonata in Dfor clavier",Sonata,D major,Piano,
-313,285c,"Concerto in Gfor flute and orchestra",Concerto,G major,"Flute, Orchestra",
-314,285d,"Concerto in Dfor flute and orchestra Arrangement, presumably by Wolfgang Amadé Mozart, after the Concerto in C for oboe and orchestra KV 314",Concerto,D major,"Flute, Orchestra",
-314,deest; 271k; 285d,"Concerto in Cfor oboe and orchestra",Concerto,D major,"Oboe, Orchestra",
+307,284d,"""Oiseaux, si tous les ans"" 
+Song (Arietta)",Song,C major,"Voice, Piano",
+308,295b,"""Dans un bois solitaire et sombre""",Song,A-flat major,"Voice, Piano",
+309,284b,Sonata in C ,Sonata,C major,Piano,
+310,300d,"Sonata in a",Sonata,A minor,Piano,
+311,284c,"Sonata in D",Sonata,D major,Piano,
+313,285c,Concerto in G,Concerto,G major,"Flute, Orchestra",
+314,285d,Concerto in D,Concerto,D major,"Flute, Orchestra","Arrangement, presumably by Mozart, after the Concerto in C, KV 314"
+314,deest;271k;285d,Concerto in C,Concerto,D major,"Oboe, Orchestra",
+316,300b,"""Popoli di Tessaglia! Ah mai più giusto"" – ""Io non chiedo, eterni dèi"" 
+Scena for soprano,  orchestra",Scena,C major,"Soprano, Orchestra",
 318,,Symphony in G,Symphony,G major,Orchestra,
 319,,Symphony in B-flat,Symphony,B-flat major,Orchestra,
-320,deest,Symphony after the Serenade in D KV 320,Symphony,D major,Orchestra,
+320,deest,Symphony in D,Symphony,D major,Orchestra, after the Serenade in D KV 320
+321,,Vesperae solennes de Confessore in C,Sacred,C major,Voice,
 328,317c,Church sonata in C,Church Sonata,C major,,
 329,317a,Church sonata in C,Church Sonata,C major,,
-330,300h,Sonata in C for clavier,Sonata,C major,Piano,
-331,Anh. 142; 300i; 1782g,Sonata in A for clavier,Sonata,A major,Piano,
-332,300k,Sonata in F for clavier,Sonata,F major,Piano,
-333,315c,Sonata in B flat for clavier,Sonata,B-flat major,Piano,
-334,320b,"Divertimento in Dfor 2 horns, 2 violins, viola and basso",Divertimento,D major,"2 Horns, 2 Violins, Viola, Basso Continuo",
+330,300h,Sonata in C ,Sonata,C major,Piano,
+331,Anh. 142;300i;1782g,Sonata in A ,Sonata,A major,Piano,
+332,300k,Sonata in F ,Sonata,F major,Piano,
+333,315c,Sonata in B flat ,Sonata,B-flat major,Piano,
+334,320b,Divertimento in D,Divertimento,D major,"2 Horns, 2 Violins, Viola, Basso Continuo",
 336,336d,Church sonata in C,Church Sonata,C major,,
 338,,Symphony in C,Symphony,C major,Orchestra,
-364,320d,"Sinfonia concertante in E flatfor violin, viola and orchestra",Sinfonia,E-flat major,"Violin, Viola, Orchestra",
-365,316a,"Concerto in E flatfor 2 keyboard instruments and orchestra",Concerto,E-flat major,"3 or 2 Keybords, Orchestra",
+339,,Vesperae solennes de Confessore in C,Sacred,C major,Voice,
+351,367b,"""Komm, liebe Zither, komm""",Song,C major,"Voice, Mandolin",
+355,576b; 594a; 178X/c,Minuet in D for clavier (presumably fragment) ,Klavierstücke,D major,Piano,Work of doubtful authenticity
+356,617a,Adagio in C ,Klavierstücke,C major,Glass harmonica,
+364,320d,Sinfonia concertante in E flat,Sinfonia concertante,E-flat major,"Violin, Viola, Orchestra",
+365,316a,Concerto in E flat,Concerto,E-flat major,"3 or 2 Keybords, Orchestra",
+368,,"""Ma che vi fece, o stelle"" – ""Sperai vicino il lido"" ",scena,F major,"Soprano, Orchestra",
+374,,"""A questo seno"" – ""Or che il cielo a me ti rende"" ",Scena,E-flat major,"Soprano, Orchestra",
 376,374d,"Sonata in F",Sonata,F major,"Piano, Violin",
 377,374e,"Sonata in F",Sonata,F major,"Piano, Violin",
 378,317d,"Sonata in B flat",Sonata,B-flat major,"Piano, Violin",
 379,373a,"Sonata in G",Sonata,G major,"Piano, Violin",
 380,374f,"Sonata in E flat",Sonata,E-flat major,"Piano, Violin",
-403,385c; 1784a,"Sonata in C $(movement 3 fragment)",Sonata,C major,"Piano, Violin",
-413,387a,Concerto in F for clavier and orchestra or for clavier and strings,Concerto,F major,"Piano, Orchestra or Strings",
-414,385p; 386a,Concerto in A for clavier and orchestra or for clavier and strings,Concerto,A major,"Piano, Orchestra or Strings",
-415,387b,Concerto in C for clavier and orchestra or for clavier and strings,Concerto,C major,"Piano, Orchestra or Strings",
-417,,Concerto in E flat for horn and orchestra,Concerto,E-flat major,"Horn, Orchestra",
+390,340c," ""Ich würd auf meinem Pfad mit Tränen"" ",Song,F major,"Voice, Piano",
+394,383a,Prelude and Fugue in C ,Klavierstücke,C major,Piano,
+395,300g,"Four ""Praeambula"" ",Klavierstücke,C major,Piano,
+397,385g; 1782e,Fantasia in D minor ,Klavierstücke,D minor,Piano,
+399,385i,Suite (fragment),Suite,C major / C minor,Piano,
+401,375e; 1772g,Fugue in G minor (fragment),Klavierstücke,G minor,presumably Organ,
+403,385c;1784a,Sonata in C (movement 3 fragment),Sonata,C major,"Piano, Violin",
+413,387a,Concerto in F,Concerto,F major,"Piano, Orchestra or Strings",
+414,385p;386a,Concerto in A,Concerto,A major,"Piano, Orchestra or Strings",
+415,387b,Concerto in C,Concerto,C major,"Piano, Orchestra or Strings",
+417,,Concerto in E flat,Concerto,E-flat major,"Horn, Orchestra",
 425,,Symphony in C,Symphony,C major,Orchestra,
-447,,"Concerto in E flatfor horn and orchestra",Concerto,E-flat major,"Horn, Orchestra",
-448,375a,"Sonata in Dfor 2 keyboard instruments",Sonata,D major,2 Keyboards,
-449,1,"Concerto in E flat for clavier and orchestra or for clavier and strings",Concerto,E-flat major,"Piano, Orchestra or Strings",
-450,2,"Concerto in B flat for clavier and orchestra",Concerto,B-flat major,"Piano, Orchestra",
-451,3,"Concerto in D for clavier and orchestra",Concerto,D major,"Piano, Orchestra",
-453,5,"Concerto in G for clavier and orchestra",Concerto,G major,"Piano, Orchestra",
+429,468a; 420a,"""Dir, Seele des Weltalls"" (fragment)",Cantata,B-flat major,"2 Tenors, Choir, Orchestra",
+432,421a,"""Così dunque tradisci"" – ""Aspri rimorsi atroci"" ",scena,F minor,"Bass, Orchestra",
+433,416c; 1783f,"""Männer suchen stets zu naschen"" (fragment)",Aria,F major,"Bass, Orchestra",
+434,480b; 424b; 1786e,"""Del gran regno delle Amazzoni""  (fragment)",Quintett,B-flat major,"2 Sopranos, Tenor, 2 Basses, Orchestra",
+440,383h; 1782f,"""In te spero, o sposo amato"" (fragment)",Aria,C major,"Soprano, Orchestra",
+447,,Concerto in E flat,Concerto,E-flat major,"Horn, Orchestra",
+448,375a,Sonata in D,Sonata,D major,2 Keyboards,
+449,1,Concerto in E flat,Concerto,E-flat major,"Piano, Orchestra or Strings",
+450,2,Concerto in B flat,Concerto,B-flat major,"Piano, Orchestra",
+451,3,Concerto in D,Concerto,D major,"Piano, Orchestra",
+452,4,Quintett in E flat,Quintet,E-flat major,"Piano, Oboe, Clarinet, Horn, Bassoon",
+453,5,Concerto in G,Concerto,G major,"Piano, Orchestra",
 454,6,"Sonata in B flat",Sonata,B-flat major,"Piano, Violin",
-456,8,"Concerto in B flat for clavier and orchestra ",Concerto,B-flat major,"Piano, Orchestra",
-457,9,Sonata in C minor for clavier,Sonata,C minor,Piano,
-459,11,"Concerto in F for piano and orchestra",Concerto,F major,"Piano, Orchestra",
-466,14,"Concerto in D minor for piano and orchestra",Concerto,D minor,"Piano, Orchestra",
-467,16,"Concerto in C for piano and orchestra",Concerto,C major,"Piano, Orchestra",
+456,8,Concerto in B flat,Concerto,B-flat major,"Piano, Orchestra",
+457,9,Sonata in C minor ,Sonata,C minor,Piano,
+459,11,Concerto in F,Concerto,F major,"Piano, Orchestra",
+466,14,Concerto in D minor,Concerto,D minor,"Piano, Orchestra",
+467,16,Concerto in C,Concerto,C major,"Piano, Orchestra",
+472,21,"Der Zauberer 
+Song for voice,  clavier",Song,G minor,"Voice, Piano",
+479,28,"""Dite almeno in che mancai""/""Dite almeno in che maniera""",Quartett,E-flat major,"soprano, tenor, two basses,  orchestra",
 481,30,"Sonata in E flat ",Sonata,E-flat major,"Piano, Violin",
-482,31,"Concerto in E flat for clavier and orchestra",Concerto,E-flat major,"Piano, Orchestra",
-488,33,"Concerto in A for piano and orchestra",Concerto,A major,"Piano, Orchestra",
-491,36,"Concerto in C minor for piano and orchestra",Concerto,C minor,"Piano, Orchestra",
-495,40,"Concerto in E flat for horn and orchestra",Concerto,E-flat major,"Horn, Orchestra",
-497,42,"Sonata in F for clavier four-hands",Sonata,F major,Piano Four Hands,
-503,48,"Concerto in C for piano and orchestra",Concerto,C major,"Piano, Orchestra",
+482,31,Concerto in E flat,Concerto,E-flat major,"Piano, Orchestra",
+485,,Allegro in D ,Klavierstücke,D major,Piano,
+488,33,Concerto in A,Concerto,A major,"Piano, Orchestra",
+491,36,Concerto in C minor,Concerto,C minor,"Piano, Orchestra",
+495,40,Concerto in E flat,Concerto,E-flat major,"Horn, Orchestra",
+497,42,Sonata in F,Sonata,F major,Piano Four Hands,
+503,48,Concerto in C,Concerto,C major,"Piano, Orchestra",
 504,49,Symphony in D,Symphony,D major,Orchestra,
-521,61,"Sonata in C for clavier four-hands",Sonata,C major,Piano Four Hands,
+505,50,"""Ch’io mi scordi di te?"" – ""Non temer, amato bene"" ",Scena,E-flat major,"Soprano, Piano, Orchestra",
+511,52,Rondo in a,Klavierstücke,A minor,Piano,
+512,53,"""Alcandro, lo confesso"" – ""Non so donde viene"" ",Scena,F major,"Bass, Orchestra",
+521,61,Sonata in C,Sonata,C major,Piano Four Hands,
 526,66,"Sonata in A",Sonata,A major,"Piano, Violin",
-533,72,"Sonata in Ffor clavier",Sonata,F major,Piano,
-537,76,"Concerto in Dfor clavier and orchestra $(fragment)",Concerto,D major,"Piano, Orchestra",
+528,68,"""Bella mia fiamma, addio. Non piacque al cielo“ – ""Resta, oh cara; acerba morte“ ",Scena,C major,"Soprano, Orchestra",
+533,72,Sonata in F,Sonata,F major,Piano,
+537,76,Concerto in D (fragment),Concerto,D major,"Piano, Orchestra",
+538,77,"""Ah se in ciel, benigne stelle"" ",Aria,F major,"Soprano, Orchestra",
+539,78,"""Ich möchte wohl der Kaiser sein“",Aria,A major,"Bass, Orchestra",
+540,79,Adagio in B minor ,Klavierstücke,B minor,Piano,
 543,85,Symphony in E flat,Symphony,E-flat major,Orchestra,
-545,87,Sonata in C for clavier,Sonata,C major,Piano,
+545,87,Sonata in C,Sonata,C major,Piano,
 547,89,"Sonata in F",Sonata,F major,"Piano, Violin",
 550,92,Symphony in G minor,Symphony,G minor,Orchestra,
 551,93,Symphony in C,Symphony,C major,Orchestra,
-563,97,"Divertimento in E flatfor violin, viola and violoncello",Divertimento,E-flat major,"Violin, Viola, Cello",
-570,103,"Sonata in B flat for clavier",Sonata,B-flat major,Piano,
-576,108,"Sonata in Dfor clavier",Sonata,D major,Piano,
-595,123,"Concerto in B flatfor clavier and orchestra",Concerto,B-flat major,"Piano, Orchestra",
-622,144,Concerto in A for clarinet and orchestra,Concerto,A major,"Clarinet, Orchestra",
-628,deest,"Divertimento in Cfor clavier four-hands $lost",Divertimento,C major,Piano Four Hands,
-630,deest,"Sonata in D $Work of doubtful authenticity",Sonata,D major,"Piano, Violin",
-677,,Church sonata in C $lost,Church Sonata,C major,,
-"1,01",1e; 1,Clavier piece in G,Klavierstücke,G major,Piano,
-"1,02",1f; 1,Clavier piece in C,Klavierstücke,C major,Piano,
+553,95,"""Alleluja""",Canon,C major,4 Voices,
+554,95,"""Ave Maria""",Canon,F major,4 Voices,
+555,95,"""Lacrimoso son’io"" ",Canon,A minor,4 Voices,
+556,95,"""Grechtelt’s enk""/""Grechtelseng"" ",Canon,G major,4 Voices,
+558,95,"""Gehn wir im Prater, gehn wir in d’Hetz""",Canon,B-flat major,4 Voices,
+559,96,"""Difficile lectu mihi Mars"" ",Canon,F major,3 Voices,
+561,95,"""Bona nox! bist a rechta Ox"" ",Canon,A major / G major,4 Voices,
+562,96,"""Caro bell’idol mio""",Canon,A major,3 Voices,
+563,97,Divertimento in E flat,Divertimento,E-flat major,"Violin, Viola, Cello",
+570,103,Sonata in B flat,Sonata,B-flat major,Piano,
+574,106,Gigue in G ,Klavierstücke,G major,Piano,
+576,108,Sonata in D,Sonata,D major,Piano,
+578,110,"""Alma grande e nobil core"" ",Aria,B-flat major,"Soprano, Orchestra",
+582,113,"""Chi sa, chi sa qual sia"" ",Aria,C major,"Soprano, Orchestra",
+594,626b/06; Anh. 109g/06; 122,Adagio and Allegro in F minor ,Klavierstücke,F minor,Mechanical Organ,
+595,123,Concerto in B flat,Concerto,B-flat major,"Piano, Orchestra",
+608,131,Allegro and Andante in F minor ,Klavierstücke,F minor,Mechanical Organ,
+616,137,Andante in F ,Klavierstücke,F major,Mechanical Organ,
+619,140,"""Die ihr des unermesslichen Weltalls Schöpfer ehrt"" ",Cantata,C major,"Voice, Piano",
+622,144,Concerto in A,Concerto,A major,"Clarinet, Orchestra",
+623,145,"""Laut verkünde unsre Freude"" ",Cantata,C major,"soloists, male voice choir, orchestra",
+628,deest,Divertimento in C,Divertimento,C major,Piano Four Hands,lost
+630,deest,Sonata in D,Sonata,D major,"Piano, Violin",Work of doubtful authenticity
+634,deest; No. 44,Polonoise in F ,Klavierstücke,F major,Piano,Nannerl Music Book; Work of doubtful authenticity 
+635,deest,Piano piece in G (fragment),Klavierstücke,G major,Piano,
+636,deest,Molto Allegro in G,Klavierstücke,G major,Piano,Nannerl Music Book
+643,deest,Symphonies $lost,Symphony,,Orchestra,
+646,deest,"""Cara, se le mie pene“ ",Aria,C major,"Soprano, Orchestra",
+649,deest,Piano piece in C Work of doubtful authenticity,Klavierstücke,C major,Piano,
+652,deest,"""Venti, fulgura, procellae""",Motet,G major,"Soprano, Orchestra",Work of doubtful authenticity
+656,deest; 1771a,Piano piece in C (fragment),Klavierstücke,C major,Piano,
+660,deest; 1771b,Fugue in D minor (fragment),Klavierstücke,D minor,Piano,
+667,deest; zu 208/03,"""Campagne amene""",Recits,C major,"Soprano, Orchestra","for ""Aer tranquillo“ KV 208, No. 3"
+671,Anh. C 15.11,Piano piece in C ,Klavierstücke,C major,Piano,"Part I known as Modulating Prelude; Teil 2 known as Transition KV 626a, Part II, I"
+677,,Church sonata in C,Church Sonata,C major,,lost
+683,zu 422; 1783ι/02,"""Ho un pensiero nel cervello"" (fragment)",Duetto,F major,"Soprano, Tenor, Orchestra",for L’oca del Cairo KV 422 
+690,deest; 178X/f,Instrumental piece in G (fragment),Klavierstücke,G major,Piano or Ensemble,
+695,1785a/01; 1785h,Piano piece in C (Fragment),Klavierstücke,C major,Piano,
+699,626b/26; Anh. 24; 1785m,"""Ich nenne dich, ohn’ es zu wissen"" (fragment)",Duetto,,"2 voices (discant),  clavier",
+700,zu 492/28; 1785θ/01,"""Giunse il momento alfine"" – ""Non tardar, amato bene“ (Fragment)",Scena,F major,"Soprano, Orchestra",for Le nozze di Figaro KV 492 
+708,deest; 1788b,Adagio in b (fragment),Klavierstücke,B minor,Piano,
+710,1786e/05; 1788g,Allegretto in B flat (fragment),Klavierstücke,B-flat major,Piano or Ensemble,
+711,zu 532; deest; 1787ß/03; 1788f,Instrumental piece in B flat (Fragment),Klavierstücke,B-flat major,Piano or Ensemble,
+712,deest,"""Ahi, cosa veggio!"" 
+",Recits,C major,"Soprano, Orchestra","for the aria ""Vado, ma dove? oh Dei!"" KV 583 Work of doubtful authenticity"
+713,deest,"""No, caro, fa coraggio e in me ti fida“ ",Recits,,"Soprano, Orchestra",Work of doubtful authenticity
+715,zu 419; deest,"""Ah, da me s’allontani""",Recits,C major,"Soprano, Orchestra","for the aria""No, che non sei capace"" KV 419 Work of doubtful authenticity"
+"1,01",1e;1,Clavier piece in G,Klavierstücke,G major,Piano,
+"1,02",1f;1,Clavier piece in C,Klavierstücke,C major,Piano,
 15a,Anh. 109b/01,Clavier piece in F,Klavierstücke,F major,Piano,
 15aa,deest,Clavier piece in B flat,Klavierstücke,B-flat major,Piano,
-15a-rr,"Anh. 109b; 15a-z, 15aa-ss",42 pieces for clavier $(KV 15nn and KV 15rr fragments),Klavierstücke,/,Piano,
+15a-rr,"Anh. 109b;15a-z, 15aa-ss",42 pieces,Klavierstücke,/,Piano,KV 15nn and KV 15rr fragments
 15b,Anh. 109b/02,Clavier piece in C,Klavierstücke,C major,Piano,
 15bb,deest,Clavier piece in D,Klavierstücke,D major,Piano,
 15c,,Clavier piece in G,Klavierstücke,G major,Piano,
@@ -227,7 +312,7 @@
 15q,deest,Clavier piece in B flat,Klavierstücke,B-flat major,Piano,
 15qq,deest,Clavier piece in E flat,Klavierstücke,E-flat major,Piano,
 15r,Anh. 109b/07,Clavier piece in B flat,Klavierstücke,G minor,Piano,
-15rr,deest; 1764c,Clavier piece in C [Menuetto] ,Klavierstücke,C major,Piano,
+15rr,deest;1764c,Clavier piece in C [Menuetto] ,Klavierstücke,C major,Piano,
 15s,deest,Clavier piece in C,Klavierstücke,C major,Piano,
 15t,Anh. 109b/05,Clavier piece in F,Klavierstücke,F major,Piano,
 15u,deest,Clavier piece in D minor,Klavierstücke,D minor,Piano,
@@ -236,39 +321,99 @@
 15x,Anh. 109b/06,Clavier piece in F,Klavierstücke,F major,Piano,
 15y,,Clavier piece in G,Klavierstücke,G major,Piano,
 15z,deest,Clavier piece in C,Klavierstücke,C minor,Piano,
-196e,Anh. C 17.01; Anh. 226,"Divertimento in E flatfor wind ensemble à 8 or à 6 $Work of doubtful authenticity",Divertimento,E-flat major,Wind Instruments,
-196f,Anh. C 17.02; Anh. 227,"Divertimento in B flatfor wind ensemble à 6 or à 8 $Work of doubtful authenticity",Divertimento,B-flat major,Wind Instruments,
+196e,Anh. C 17.01;Anh. 226,Divertimento in E flat,Divertimento,E-flat major,Wind Instruments,for wind ensemble à 8 or à 6;Work of doubtful authenticity
+196f,Anh. C 17.02;Anh. 227,Divertimento in B flat,Divertimento,B-flat major,Wind Instruments,for wind ensemble à 6 or à 8;Work of doubtful authenticity
 19a,Anh. 223,Symphony in F,Symphony,F major,Orchestra,
-19b,Anh. 222,"Symphony in C $lost Work of doubtful authenticity",Symphony,C major,Orchestra,
-19d,,"Sonata in C for clavier four-hands Work of doubtful authenticity",Sonata,C major,Piano Four Hands,
-1a,,Andante in C for clavier,Klavierstücke,C major,Piano,
-1b,,Allegro in C for clavier,Klavierstücke,C major,Piano,
-1c,,Allegro in F for clavier,Klavierstücke,F major,Piano,
-1d,deest,Menuetto in F for clavier,Klavierstücke,F major,Piano,
-206a,deest,Concerto in F for violoncello and orchestra; $lost Work of doubtful authenticity,Concerto,F major,"Cello, Orchestra",
-271a,271i; deest,"Concerto in Dfor violin and orchestra $Work of doubtful authenticity",Concerto,D major,"Violin, Orchestra",
-315f,Anh. 56; 1778b,"Concerto in Dfor clavier, violin and orchestra $(fragment)",Concerto,D major,"Piano, Violin, Orchestra",
-320e,Anh. 104; 1779b,"Sinfonia concertante in Afor violin, viola, violoncello and orchestra $(fragment)",Sinfonia,A major,"Violin, Viola, Cello, Orchestra",
-33d,Anh. 199,"Sonata in Gfor clavier $lost",Sonata,G major,Piano,
-33e,Anh. 200,"Sonata in B flatfor clavier $lost",Sonata,B-flat major,Piano,
-33f,Anh. 201,"Sonata in Cfor clavier $lost",Sonata,C major,Piano,
-33g,Anh. 202,"Sonata in Ffor clavier $lost Work of doubtful authenticity",Sonata,F major,Piano,
+19b,Anh. 222,Symphony in C,Symphony,C major,Orchestra,Work of doubtful authenticity;lost
+19d,,Sonata in C,Sonata,C major,Piano Four Hands,Work of doubtful authenticity
+1a,,Andante in C,Klavierstücke,C major,Piano,
+1b,,Allegro in C,Klavierstücke,C major,Piano,
+1c,,Allegro in F,Klavierstücke,F major,Piano,
+1d,deest,Menuetto in F ,Klavierstücke,F major,Piano,
+206a,deest,Concerto in F,Concerto,F major,"Cello, Orchestra",Work of doubtful authenticity;lost
+271a,271i;deest,Concerto in D,Concerto,D major,"Violin, Orchestra",Work of doubtful authenticity
+284f,deest,Rondo lost,Klavierstücke,,Piano,
+297b,297B; Anh. 9,Symphonie concertante,Symphony Concertante,,"Flute, Bassoon, Horn, Orchestra",lost
+300g,,Prelude in C lost,Klavierstücke,C major,Piano,
+311A,Anh. 8,Symphony $lost or not identified,Symphony,,Orchestra,
+315f,Anh. 56;1778b,Concerto in D (fragment),Concerto,D major,"Piano, Violin, Orchestra",
+"315g,08",315a/08b,Piano piece in C,Klavierstücke,C major,Piano, Work of doubtful authenticity
+320e,Anh. 104;1779b,Sinfonia concertante in A (fragment),Sinfonia,A major,"Violin, Viola, Cello, Orchestra",
+33d,Anh. 199,Sonata in G,Sonata,G major,Piano,lost
+33e,Anh. 200,Sonata in B flat,Sonata,B-flat major,Piano,lost
+33f,Anh. 201,Sonata in C,Sonata,C major,Piano,lost
+33g,Anh. 202,Sonata in F,Sonata,F major,Piano,Work of doubtful authenticity;lost
+"343,02",336c/02,"""Als aus Ägypten Israel, vom Volke der Barbaren"" ",Song,C major,"Voice, Basso Continuo",
+370b,Anh. 98b; zu 371; Anh. 97; 1781a,"Concerto movement in E flat (fragment) 
+for horn,  orchestra",Concerto,E-flat major,"Horn, Orchestra",
+383C,Anh. 32; 1789γ/01; 1790b,Fantasia in F minor (fragment),Klavierstücke,F minor,Piano,
+383d,383c; Anh. 38; 1783a,Piano piece in C,Klavierstücke,C major,Piano,
+"385h,01",385h; Anh. 34 Nr.1; 1786a [I],Adagio in D minor (fragment),Klavierstücke,D minor,Piano,
+386d,Anh. 25; 1782ε,Sineds Bardengesang auf Gibraltar (fragment),Cantata,D major,"Discant Voice, Choir, Accompaniment",
+"412,01",386b/01; 412/01,Konzertsatz in D (Fragment),Concerto,D major,"Horn, Orchestra",
+41e,deest,Fugue,Klavierstücke,,Piano, lost
+"423,03",,Rondo in G ,Klavierstücke,G major,Piano,Version of unknown authorization
+43a,Anh. 24a; 1767a,"“Ach, was müssen wir erfahren!”",Duetto,F major,2 Sopranos,
+441a,deest; 1787d/02,"""Ja! grüß dich Gott, mein liebes Schatzerl"" (fragment)",Aria,A major,"Bass, Orchestra",
+452a,Anh. 54; 1783θ; 1783g,Quintet movement in B flat,Quintet,B-flat major,"Piano, Clarinet, Basset Horn, Horn, Bassoon",
+452c,Anh. 65; 1784f,Concerto movement in C (fragment),Concerto,C major,"Piano, Orchestra",
+453a,deest,Marche funebre in C minor ,Klavierstücke,C minor,Piano,
+458b,Anh. 71; 1789c,Quartet movement in B flat (fragment),Quartet,B-flat major,"2 Violins, Viola, Cello",
 45a,Anh. 221,Symphony in G,Symphony,G major,Orchestra,
-45b,Anh. 214,"Symphony in B flat Work of doubtful authenticity",Symphony,B-flat major,Orchestra,
-46d,deest,"Sonata in C, probably for violin and bass",Sonata,C major,"Violin, Bass",
-46e,deest,"Sonata in F, probably for violin and bass",Sonata,F major,"Violin, Bass",
-47c,,"Concert for trumpet and orchestra $lost",Concerto,,"Trumpet, Orchestra",
-"6,01",6/01; No. 46,"Allegro in C, K. 6, 1st movement (clavier version)",Klavierstücke,C major,Piano,
-"6,02",zu 6/02,Andante in F for clavier,Klavierstücke,F major,Piano,
-"6,03",,Menuet in C for clavier $work of doubtful authenticity,Klavierstücke,C major,Piano,
-"6,04",6/03; No. 48,Menuet in F for clavier $work of doubtful authenticity,Klavierstücke,F major,Piano,
-66c,Anh. 215,"Symphony in D $lostWork of doubtful authenticity",Symphony,D major,Orchestra,
-66d,Anh. 217,"Symphony in B flat $lostWork of doubtful authenticity",Symphony,B-flat major,Orchestra,
-66e,Anh. 218,"Symphony in B flat $lostWork of doubtful authenticity",Symphony,B-flat major,Orchestra,
-"7,01",,Allegro molto in D for clavier $version of doubtful authenticity,Klavierstücke,D major,Piano,
-"7,02",VII/3,"Minuet in D, K. 7, Minuet I (clavier version)",Klavierstücke,D major,Piano,
-"7,03",,Trio in D minor for clavier $version of doubtful authenticity,Klavierstücke,D minor,Piano,
-74g,Anh. C 11.03; Anh. 216,Symphony in B flat $Work of doubtful authenticity,Symphony,B-flat major,Orchestra,
-"8,01",zu 8/01,"Clavier piece in B flat$ from the so-called ""Nannerl Music Book""",Klavierstücke,B-flat major,Piano,
-9a,Anh. 203/1; 5a,"Piano piece in C $from the so-called ""Nannerl Music Book""",Klavierstücke,C major,Piano,
-9b,Anh. 109g/10; 626b/10; Anh. 203/2; 5b; 1764a,Piano piece in B flat(Fragment),Klavierstücke,B-flat major,Piano,"""Nannerl Music Book"" "
+45b,Anh. 214,Symphony in B flat,Symphony,B-flat major,Orchestra,Work of doubtful authenticity
+464a,Anh. 72; 1784h,Quartet movement in A,Quartet,A major,"2 Violins, Viola, Cello",
+466a,459a; Anh. 59; 1784g,Concerto movement in C (fragment),Concerto,C major,"Piano, Orchestra",
+46d,deest,Sonata in C,Sonata,C major,"prob. Violin, Bass",
+46e,deest,Sonata in F,Sonata,F major,"prob. Violin, Bass",
+475a,Anh. 26; 1785f,"""Einsam bin ich, meine Liebe"" (fragment) ",Song,D minor,"Voice, Piano",Work of doubtful authenticity
+47b,deest,Offertory probably lost,Offertory,,Piano,
+47c,,Concert,Concerto,,"Trumpet, Orchestra",lost
+488a,Anh. 58; 1785g,Concerto movement in D (fragment),Concerto,D major,"Piano, Orchestra",
+488b,Anh. 63; 1785h,Concerto movement in A (fragment),Concerto,A major,"Piano, Orchestra",
+488c,Anh. 64; 1785i,Concerto movement in A (fragment),Concerto,A major,"Piano, Orchestra",
+488d,deest; 1785j,Concerto movement in A (fragment),Concerto,A major,"Piano, Orchestra",
+493a,zu 493/03; Anh. 53; 1786c/01; 1786j,Quartet movement in E flat,Quartet,E-flat major,"Piano, Violin, Viola, Cello",
+494a,Anh. 98a; 1785k,Concerto movement in E (fragment),Concerto,E major,"Horn, Orchestra",
+502a,Anh. 60; 1784j,Concerto movement in C (fragment),Concerto,C major,"Piano, Orchestra",
+514a,Anh. 80; 1787j,Quintet movement in B flat (fragment),Quintet,B-flat major,"2 Violins, 2 Violas, Cello",
+516a,Anh. 86; 1787k,Quintet movement in G minor (fragment),Quintet,G minor,"2 Violins, 2 Violas, Cello",
+516c,Anh. 91; 1789d,Quintet movement in B flat (fragment),Quintet,B-flat major,"Clariner, 2 Violins, Viola, Cello",
+537a,Anh. 57; 1785l,Concerto  movement in D (fragment),Concerto,D major,"Piano, Orchestra",
+537b,Anh. 61; 1786k,Concerto movement in D minor (fragment),Concerto,F major,"Piano, Orchestra",
+537c,491a; Anh. 62; 1786g,Concerto movement in E flat (fragment),Concerto,E-flat major,"Piano, Orchestra",
+540a,527/10d; 527/11; 527/10a; 80,"""Dalla sua pace“",Aria,G major,"Tenor, Orchestra","for Don Giovanni KV 527, SECOND VERSION"
+540b,81,„Per questa tua manina“/„Per queste tue manine“ ,Duetto,C major,"Soprano, Bass, Orchestra","zu Don Giovanni KV 527, ZWEITE FASSUNG"
+540c,82,"„In quali eccessi, oh numi“ – „Mi tradì quell’alma ingrata“
+Scena zu Don Giovanni KV 527 (ZWEITE FASSUNG)",Scena,Es-dur,"Soprano, Orchestra",
+562c,Anh. 191,Canon in C ,Canon,C major,"2 Violins, Viola, Basso Continuo",
+571a,Anh. 5; 1789j,"""Caro mio Druck und Schluck"" (probably fragment)",Quartett,E-flat major,"Soprano, 2 Tenors, Basso Continuo, Piano ad libitum",
+572a,Anh. 4,"""Lebet wohl, wir sehn uns wieder""/""Heult noch gar wie alte Weiber""",Canon,,6 Voices,verschollen or nicht identifiziert
+581a,Anh. 88; 1790g,Quintet movement in A (fragment),Quintet,A major,"Clarinet, 2 Violins, Viola, Cello",
+584b,621b; 1787v,Concerto movement in G (fragment),Concerto,G major,"Basset Horn, Orchestra",
+587a,Anh. 85; Anh. 74; 1789ß/01; 1789i,Quartet movement in g (fragment),Quartet,G minor,"2 Violins, Viola, Cello",
+589b,Anh. 73; 1790d,Quartet movement in F (fragment),Quartet,F major,"2 Violins, Viola, Cello",
+590a,Anh. 29; 1787r,Piano piece in F (fragment),Klavierstücke,F major,Piano,
+590c,Anh. 37; 1787t,Piano piece in F (fragment),Klavierstücke,F major,Piano,
+592b,Anh. 83; 1787u,Quintet movement in D (fragment),Quintet,D major,"2 Violins, 2 Violas, Cello",
+593a,Anh. 35; 1790f,Adagio in d (fragment),Klavierstücke,D minor,Mechanical Organ,
+"6,01",6/01;No. 46,"Allegro in C, K. 6, 1st movement ",Klavierstücke,C major,Piano,clavier version
+"6,02",zu 6/02,Andante in F ,Klavierstücke,F major,Piano,
+"6,03",,Menuet in C,Klavierstücke,C major,Piano,Work of doubtful authenticity
+"6,04",6/03;No. 48,Menuet in F,Klavierstücke,F major,Piano,Work of doubtful authenticity
+613a,Anh. 81; 1784l,Quintet movement in E flat (fragment),Quintet,E-flat major,"2 Violins, 2 Violas, Cello",
+613b,Anh. 82; 1786i,Quintet movement in E flat (fragment),Quintet,E-flat major,"2 Violins, 2 Violas, Cello",
+615a,"1791b,9/01; 1791e",Instrumental movement in F (fragment),Klavierstücke,F major,Mechanical Organ,
+621a,Anh. 245,"""Io ti lascio, o cara, addio"" ",Aria,,"Soprano or Bass, Orchestra",Work of doubtful authenticity
+66c,Anh. 215,Symphony in D,Symphony,D major,Orchestra,Work of doubtful authenticity;lost
+66d,Anh. 217,Symphony in B flat,Symphony,B-flat major,Orchestra,Work of doubtful authenticity;lost
+66e,Anh. 218,Symphony in B flat,Symphony,B-flat major,Orchestra,Work of doubtful authenticity;lost
+"684,01",,Rondo (fragment) ,Klavierstücke,,Pianoforte de l’harmonie parfaite,Work of doubtful authenticity
+"684,02",deest,Piece,Klavierstücke,,Pianoforte de l’harmonie parfaite,Werk zweifelhafter Echtheit; Lost
+"7,01",,Allegro molto in D,Klavierstücke,D major,Piano,version of doubtful authenticity
+"7,02",VII/3,"Minuet in D, K. 7, Minuet I",Klavierstücke,D major,Piano,clavier version
+"7,03",,Trio in D minor,Klavierstücke,D minor,Piano,version of doubtful authenticity
+72a,1769a,Molto allegro in G (fragment) ,Klavierstücke,G major,Piano,Work of doubtful authenticity
+74g,Anh. C 11.03;Anh. 216,Symphony in B flat,Symphony,B-flat major,Orchestra,Work of doubtful authenticity
+"8,01",zu 8/01,Clavier piece in B flat,Klavierstücke,B-flat major,Piano,"""Nannerl Music Book"""
+9a,Anh. 203/1;5a,Piano piece in C,Klavierstücke,C major,Piano,"""Nannerl Music Book"""
+9b,Anh. 109g/10;626b/10;Anh. 203/2;5b;1764a,Piano piece in B flat(Fragment),Klavierstücke,B-flat major,Piano,"""Nannerl Music Book"" "
