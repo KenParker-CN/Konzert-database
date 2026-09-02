@@ -8,8 +8,8 @@ hero:
   tagline: A growing personal collection of composers, work catalogues, and recordings.
   actions:
     - theme: alt
-      text: Early Music
-      link: /pages/earlymusic
+      text: GitHub Profile
+      link: https://github.com/
     - theme: brand
       text: Catalogues
       link: /catalogues?tab=RV
@@ -20,9 +20,9 @@ hero:
       text: Composers
       link: /pages/composers
 features:
-  - title: Early Music
-    details: Repertories, historical instruments, and performance practice from the Middle Ages to the eighteenth century.
-    link: /pages/earlymusic
+  - title: GitHub Profile
+    details: Visit my GitHub homepage for related projects and work.
+    link: https://github.com/
   - title: Catalogues
     details: Browse work lists from BWV and Köchel to Ryom-Verzeichnis and beyond.
     link: /catalogues?tab=RV

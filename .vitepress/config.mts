@@ -32,8 +32,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Composers', link: '/pages/composers' },
       { text: 'Catalogues', link: '/catalogues?tab=RV' },
-      { text: 'Collections', link: '/pages/albums' },
-      { text: 'Early Music', link: '/pages/earlymusic' }
+      { text: 'Collections', link: '/pages/albums' }
     ],
 
     outline: 'deep',
@@ -99,7 +98,6 @@ export default defineConfig({
         {
           text: 'Projects',
           items: [
-            { text: 'Early Music', link: '/pages/earlymusic' },
             { text: 'Classical Composers', link: '/pages/composers' },
             { text: 'Works Catalogues', link: '/catalogues?tab=RV' },
             { text: 'Album Collections', link: '/pages/albums' }

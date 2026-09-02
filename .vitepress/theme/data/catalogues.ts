@@ -109,14 +109,18 @@ export type FilterSelection = Record<string, string[]>
 /** Maximum number of distinct values a column may have to be offered as a filter. */
 const MAX_OPTIONS = 100
 
-function splitValues(raw: string): string[] {
-  return raw.split(',').map(value => value.trim()).filter(Boolean)
+function splitValues(raw: string, instrumentation = false): string[] {
+  const values = raw.split(',')
+    .map(value => instrumentation ? value.replace(/\s*\([^)]*\)/g, '') : value)
+    .map(value => value.trim())
+    .filter(Boolean)
+  return [...new Map(values.map(value => [value.toLocaleLowerCase(), value])).values()]
 }
 
 export function valuesOf(work: Work, field: FilterField): string[] {
   const raw = (work[field.field] || '').trim()
   if (!raw) return []
-  return field.tokenised ? splitValues(raw) : [raw]
+  return field.tokenised ? splitValues(raw, /instrumentation/i.test(field.field)) : [raw]
 }
 
 function humanise(header: string): string {
@@ -139,9 +143,10 @@ export function detectFilterFields(headers: string[], works: Work[]): FilterFiel
     const raw = works.map(work => (work[header] || '').trim()).filter(Boolean)
     if (!raw.length) return []
 
-    const tokenised = raw.filter(value => value.includes(',')).length > raw.length / 2
+    const instrumentation = /instrumentation/i.test(header)
+    const tokenised = instrumentation || raw.filter(value => value.includes(',')).length > raw.length / 2
     const field: FilterField = { field: header, label: humanise(header), tokenised }
-    const distinct = new Set(raw.flatMap(value => (tokenised ? splitValues(value) : [value])))
+    const distinct = new Set(raw.flatMap(value => (tokenised ? splitValues(value, instrumentation) : [value])))
 
     if (distinct.size < 2 || distinct.size > MAX_OPTIONS) return []
     if (distinct.size * 2 > raw.length) return []
