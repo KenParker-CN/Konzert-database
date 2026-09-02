@@ -127,10 +127,6 @@ onUnmounted(() => {
   height: 100%;
 }
 
-.album-modal-left, .album-modal-streaming, .album-modal-info {
-  min-width: 0;
-}
-
 .album-cover {
   position: relative;
   height: 420px;

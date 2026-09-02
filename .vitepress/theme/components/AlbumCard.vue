@@ -90,7 +90,6 @@ const emit = defineEmits<{ open: [] }>()
   color: var(--archive-ink);
   font-family: var(--archive-serif);
   font-size: 1.25rem;
-  line-height: 1.03;
 }
 
 .album-composer {
