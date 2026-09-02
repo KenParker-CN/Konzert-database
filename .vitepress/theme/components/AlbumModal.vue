@@ -1,18 +1,26 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, watch } from 'vue'
 import { type Album, displayComposers, personHref, relatedCatalogueLinks } from '../data/albums'
-import StreamingPlayer from './StreamingPlayer.vue'
+
 const props = defineProps<{ album: Album }>()
 const emit = defineEmits<{ close: [] }>()
 const composers = computed(() => displayComposers(props.album).map(name => ({ name, href: personHref(name) })))
 const artists = computed(() => props.album.artists.map(name => ({ name, href: personHref(name) })))
 const genres = computed(() => props.album.genre ? props.album.genre.split(';').map(value => value.trim()).filter(Boolean) : [])
 const catalogues = computed(() => relatedCatalogueLinks(props.album))
-function onKeydown(event: KeyboardEvent) { if (event.key === 'Escape') emit('close') }
+
+function onKeydown(event: KeyboardEvent) {
+  if (event.key === 'Escape') emit('close')
+}
+
 watch(() => props.album, () => { document.body.style.overflow = 'hidden' }, { immediate: true })
 onMounted(() => window.addEventListener('keydown', onKeydown))
-onUnmounted(() => { document.body.style.overflow = ''; window.removeEventListener('keydown', onKeydown) })
+onUnmounted(() => {
+  document.body.style.overflow = ''
+  window.removeEventListener('keydown', onKeydown)
+})
 </script>
+
 <template>
   <Teleport to="body">
     <div class="album-modal-backdrop" @click.self="emit('close')">
@@ -20,15 +28,46 @@ onUnmounted(() => { document.body.style.overflow = ''; window.removeEventListene
         <button class="album-modal-close" type="button" aria-label="Close album details" @click="emit('close')">×</button>
         <div class="album-modal-layout">
           <div class="album-modal-left">
-            <div class="album-cover"><img v-if="album.cover" :src="album.cover" :alt="album.title" loading="lazy"><div v-else class="cover-placeholder"><span>{{ album.title || 'Album' }}</span></div><div v-if="genres.length" class="album-modal-genre"><span v-for="genre in genres" :key="genre" class="genre-tag">{{ genre }}</span></div></div>
-            <div class="album-modal-info"><p class="modal-eyebrow">Recording dossier</p><h2>{{ album.title }}</h2><dl v-if="composers.length || artists.length" class="album-modal-facts"><template v-if="artists.length"><dt>Artist</dt><dd><template v-for="(artist, index) in artists" :key="artist.name"><a v-if="artist.href" :href="artist.href">{{ artist.name }}</a><span v-else>{{ artist.name }}</span><span v-if="index < artists.length - 1"> · </span></template></dd></template><template v-if="composers.length"><dt>Composer</dt><dd><template v-for="(composer, index) in composers" :key="composer.name"><a v-if="composer.href" :href="composer.href">{{ composer.name }}</a><span v-else>{{ composer.name }}</span><span v-if="index < composers.length - 1"> · </span></template></dd></template></dl><div v-if="album.year || album.label || album.catalog_number" class="album-modal-metadata">{{ [album.year, album.label, album.catalog_number].filter(Boolean).join(' · ') }}</div><nav v-if="catalogues.length" class="album-modal-related" aria-label="Related catalogues"><a v-for="catalogue in catalogues" :key="catalogue.id" :href="catalogue.href">{{ catalogue.id }} <span aria-hidden="true">→</span></a></nav></div>
+            <div class="album-cover">
+              <img v-if="album.cover" :src="album.cover" :alt="album.title" loading="lazy">
+              <div v-else class="cover-placeholder"><span>{{ album.title || 'Album' }}</span></div>
+              <div v-if="genres.length" class="album-modal-genre"><span v-for="genre in genres" :key="genre" class="genre-tag">{{ genre }}</span></div>
+            </div>
+            <div class="album-modal-info">
+              <h2>{{ album.title }}</h2>
+              <dl v-if="composers.length || artists.length" class="album-modal-facts">
+                <template v-if="artists.length"><dt>Artist</dt><dd><template v-for="(artist, index) in artists" :key="artist.name"><a v-if="artist.href" :href="artist.href">{{ artist.name }}</a><span v-else>{{ artist.name }}</span><span v-if="index < artists.length - 1"> · </span></template></dd></template>
+                <template v-if="composers.length"><dt>Composer</dt><dd><template v-for="(composer, index) in composers" :key="composer.name"><a v-if="composer.href" :href="composer.href">{{ composer.name }}</a><span v-else>{{ composer.name }}</span><span v-if="index < composers.length - 1"> · </span></template></dd></template>
+              </dl>
+              <div v-if="album.year || album.label || album.catalog_number" class="album-modal-metadata">{{ [album.year, album.label, album.catalog_number].filter(Boolean).join(' · ') }}</div>
+              <nav v-if="catalogues.length" class="album-modal-related" aria-label="Related catalogues"><a v-for="catalogue in catalogues" :key="catalogue.id" :href="catalogue.href">{{ catalogue.id }} <span aria-hidden="true">→</span></a></nav>
+            </div>
           </div>
-          <div class="album-modal-streaming"><p class="modal-eyebrow">Listen</p><StreamingPlayer :album="album" /></div>
+          <div id="active-streaming-slot" class="album-modal-streaming"></div>
         </div>
       </section>
     </div>
   </Teleport>
 </template>
+
 <style scoped>
-.album-modal-backdrop { position: fixed; inset: 0; z-index: 10050; display: grid; place-items: center; padding: 1.25rem; background: rgba(24,22,18,.7); backdrop-filter: blur(5px); animation: veil-in 180ms ease; }.album-modal { position: relative; width: min(1020px,100%); max-height: min(860px,92vh); overflow: auto; padding: clamp(1.25rem,3vw,2.5rem); border: 1px solid var(--archive-rule); background: var(--vp-c-bg); box-shadow: 0 24px 80px rgba(0,0,0,.35); animation: modal-in 230ms cubic-bezier(.2,.7,.2,1); }.album-modal-close { position: absolute; top: .75rem; right: .75rem; width: 2rem; height: 2rem; border: 1px solid var(--archive-rule); border-radius: 50%; background: var(--vp-c-bg-elv); color: var(--archive-ink); font-size: 1.35rem; cursor: pointer; transition: color var(--archive-ease), border-color var(--archive-ease), transform var(--archive-ease); }.album-modal-close:hover { border-color: var(--archive-oxide); color: var(--archive-oxide); transform: rotate(8deg); }.album-modal-layout { display: grid; grid-template-columns: minmax(230px,.88fr) minmax(310px,1.12fr); gap: clamp(1.5rem,4vw,3.5rem); }.album-cover { position: relative; aspect-ratio: 1; overflow: hidden; background: var(--vp-c-bg-soft); }.album-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }.cover-placeholder { display: grid; place-items: center; height: 100%; padding: 1rem; color: var(--vp-c-text-2); font-family: var(--archive-serif); font-size: 1.7rem; text-align: center; }.album-modal-genre { position: absolute; right: .75rem; bottom: .75rem; left: .75rem; display: flex; flex-wrap: wrap; gap: .35rem; }.genre-tag { padding: .26rem .5rem; border: 1px solid rgba(255,255,255,.55); background: rgba(22,19,15,.58); color: #fff; backdrop-filter: blur(8px); font: 500 10px var(--vp-font-family-base); letter-spacing: .06em; text-transform: uppercase; }.album-modal-info { margin-top: 1rem; }.modal-eyebrow { margin: 0 0 .55rem; color: var(--archive-oxide); font: 500 10px var(--vp-font-family-mono); letter-spacing: .12em; text-transform: uppercase; }.album-modal-info h2 { margin: 0 0 1.5rem; padding-right: 1.7rem; color: var(--archive-ink); font-family: var(--archive-serif); font-size: clamp(2rem,4vw,3.4rem); font-weight: 400; letter-spacing: -.03em; line-height: .95; }.album-modal-facts { display: grid; grid-template-columns: 5.6rem minmax(0,1fr); gap: .5rem .7rem; margin: 0 0 1.25rem; padding: 1rem 0; border-top: 1px solid var(--archive-rule); border-bottom: 1px solid var(--archive-rule); }.album-modal-facts dt { color: var(--vp-c-text-3); font: 500 10px var(--vp-font-family-base); letter-spacing: .08em; text-transform: uppercase; }.album-modal-facts dd { margin: 0; color: var(--archive-ink); font-size: .88rem; }.album-modal-metadata { color: var(--vp-c-text-2); font-size: .85rem; }.album-modal-related { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.25rem; }.album-modal-related a { padding: .4rem .55rem; border: 1px solid var(--archive-rule); color: var(--archive-oxide); font: 600 11px var(--vp-font-family-base); letter-spacing: .06em; text-decoration: none; transition: background var(--archive-ease), transform var(--archive-ease); }.album-modal-related a:hover { background: var(--vp-c-brand-soft); transform: translateY(-1px); }.album-modal-streaming { padding-top: .2rem; }@keyframes veil-in { from { opacity: 0 } to { opacity: 1 } } @keyframes modal-in { from { opacity: 0; transform: translateY(14px) scale(.985) } to { opacity: 1; transform: none } } @media(max-width:760px) { .album-modal-layout { grid-template-columns: 1fr; }.album-modal-left { max-width: 480px; }.album-modal-streaming { border-top: 1px solid var(--archive-rule); padding-top: 1.25rem; } }
+.album-modal-backdrop { position: fixed; inset: 0; z-index: 10050; display: grid; place-items: center; padding: 1.25rem; overflow: hidden; background: rgba(24,22,18,.7); backdrop-filter: blur(5px); }
+.album-modal { position: relative; width: min(1020px, calc(100vw - 2.5rem)); height: min(700px, calc(100vh - 2.5rem)); overflow: hidden; padding: clamp(1.25rem,3vw,2.5rem); border: 1px solid var(--archive-rule); background: var(--vp-c-bg); box-shadow: 0 24px 80px rgba(0,0,0,.35); }
+.album-modal-close { position: absolute; top: .75rem; right: .75rem; z-index: 1; width: 2rem; height: 2rem; border: 1px solid var(--archive-rule); border-radius: 50%; background: var(--vp-c-bg-elv); color: var(--archive-ink); font-size: 1.35rem; cursor: pointer; }
+.album-modal-layout { display: grid; grid-template-columns: minmax(230px,.88fr) minmax(310px,1.12fr); gap: clamp(1.5rem,4vw,3.5rem); height: 100%; }
+.album-modal-left, .album-modal-streaming, .album-modal-info { min-width: 0; }
+.album-cover { position: relative; height: 420px; overflow: hidden; background: var(--vp-c-bg-soft); }
+.album-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.cover-placeholder { display: grid; height: 100%; place-items: center; padding: 1rem; color: var(--vp-c-text-2); font-family: var(--archive-serif); font-size: 1.7rem; text-align: center; }
+.album-modal-genre { position: absolute; right: .7rem; bottom: .7rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .3rem; }
+.genre-tag { padding: .22rem .42rem; background: color-mix(in srgb, var(--archive-ink) 84%, transparent); color: var(--archive-paper); font-size: .68rem; }
+.album-modal-info h2 { margin: .8rem 2.5rem .7rem 0; font-family: var(--archive-serif); font-size: clamp(1.6rem,3vw,2.4rem); font-weight: 400; line-height: 1; }
+.album-modal-facts { display: grid; grid-template-columns: 5.5rem minmax(0,1fr); gap: .35rem .75rem; margin: 0; font-size: .85rem; }
+.album-modal-facts dt { color: var(--vp-c-text-3); font-weight: 600; }
+.album-modal-facts dd { min-width: 0; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.album-modal-facts dd a { white-space: nowrap; }
+.album-modal-metadata { margin-top: .65rem; overflow: hidden; color: var(--vp-c-text-3); font-size: .8rem; text-overflow: ellipsis; white-space: nowrap; }
+.album-modal-related { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .75rem; }
+.album-modal-related a { padding: .3rem .5rem; border: 1px solid var(--archive-rule); font-size: .75rem; }
+@media (max-width: 700px) { .album-modal { width: calc(100vw - 1.5rem); height: min(700px, calc(100vh - 1.5rem)); padding: 1rem; overflow: auto; } .album-modal-layout { grid-template-columns: 1fr; height: auto; } .album-cover { height: min(42vw,250px); } }
 </style>

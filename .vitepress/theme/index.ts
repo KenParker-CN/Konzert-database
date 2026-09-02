@@ -8,9 +8,7 @@ import ComposerProfile from './components/ComposerProfile.vue'
 import ComposerCatalogues from './components/ComposerCatalogues.vue'
 import WikipediaIntro from './components/WikipediaIntro.vue'
 import AlbumList from './components/AlbumList.vue'
-import LocalPlayer from './components/LocalPlayer.vue'
 import Layout from './Layout.vue'
-import MusicBrainzTest from './components/MusicBrainzTest.vue'
 
 
 export default {
@@ -24,7 +22,5 @@ export default {
         app.component('ComposerCatalogues', ComposerCatalogues)
         app.component('WikipediaIntro', WikipediaIntro)
         app.component('AlbumList', AlbumList)
-        app.component('LocalPlayer', LocalPlayer)
-        app.component('musicBrainzTest', MusicBrainzTest)
     }
 } satisfies Theme
