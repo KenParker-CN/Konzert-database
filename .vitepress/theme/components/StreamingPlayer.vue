@@ -307,31 +307,6 @@ function selectService(service: StreamingService) {
 }
 
 
-/* =========================
-   Active colors
-   ========================= */
-
-/* Spotify */
-.streaming-tabs button.service-spotify.active {
-  color: #1db954;
-}
-
-
-/* Apple Music */
-.streaming-tabs button.service-apple_music.active {
-  color: #fa243c;
-}
-
-
-/* TIDAL */
-.streaming-tabs button.service-tidal.active {
-  color: #000;
-}
-
-
-/* =========================
-   Disabled
-   ========================= */
 
 .streaming-tabs button:disabled {
   opacity: 0.25;
