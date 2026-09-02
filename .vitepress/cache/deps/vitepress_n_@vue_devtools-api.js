@@ -1,4 +1,4 @@
-//#region node_modules/.pnpm/@vue+devtools-shared@8.2.1/node_modules/@vue/devtools-shared/dist/index.js
+//#region node_modules/@vue/devtools-shared/dist/index.js
 var __create$1 = Object.create;
 var __defProp$1 = Object.defineProperty;
 var __getOwnPropDesc$1 = Object.getOwnPropertyDescriptor;
@@ -190,7 +190,7 @@ function isUrlString(str) {
 */
 var deepClone = (0, import_rfdc.default)({ circles: true });
 //#endregion
-//#region node_modules/.pnpm/perfect-debounce@2.1.0/node_modules/perfect-debounce/dist/index.mjs
+//#region node_modules/perfect-debounce/dist/index.mjs
 var DEBOUNCE_DEFAULTS = { trailing: true };
 /**
 Debounce functions
@@ -277,7 +277,7 @@ async function _applyPromised(fn, _this, args) {
 	return await fn.apply(_this, args);
 }
 //#endregion
-//#region node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs
+//#region node_modules/hookable/dist/index.mjs
 function flatHooks(configHooks, hooks = {}, parentName) {
 	for (const key in configHooks) {
 		const subHook = configHooks[key];
@@ -433,7 +433,7 @@ function createHooks() {
 	return new Hookable();
 }
 //#endregion
-//#region node_modules/.pnpm/birpc@2.9.0/node_modules/birpc/dist/index.mjs
+//#region node_modules/birpc/dist/index.mjs
 var { clearTimeout: clearTimeout$1, setTimeout: setTimeout$1 } = globalThis;
 Math.random.bind(Math);
 var __commonJSMin = (cb, mod) => () => (mod || cb((mod = { exports: {} }).exports, mod), mod.exports);

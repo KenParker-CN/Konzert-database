@@ -4,15 +4,17 @@ import DefaultTheme from 'vitepress/theme'
 // @ts-ignore
 import './style.css'
 
-import Catalogues from './components/Catalogues.vue'
-import AIChat from './components/AIChat.vue'
-import ComposerList from './components/ComposerList.vue'
-import ComposerProfile from './components/ComposerProfile.vue'
-import ComposerCatalogues from './components/ComposerCatalogues.vue'
-import WikipediaIntro from './components/WikipediaIntro.vue'
-import AlbumList from './components/AlbumList.vue'
+import Catalogues from './components/catalogue/Catalogues.vue'
+import AIChat from './components/common/AIChat.vue'
+import ComposerList from './components/composer/ComposerList.vue'
+import ComposerProfile from './components/composer/ComposerProfile.vue'
+import ComposerCatalogues from './components/catalogue/ComposerCatalogues.vue'
+import WikipediaIntro from './components/common/WikipediaIntro.vue'
+import AlbumList from './components/album/AlbumList.vue'
+import AdminPanel from './components/admin/AdminPanel.vue'
+import LoginPage from './components/admin/LoginPage.vue'
 import Layout from './Layout.vue'
-import MBSearch from '../../docs/components/mbSearch.vue'
+import MBSearch from './components/musicbrainz/mbSearch.vue'
 
 export default {
     extends: DefaultTheme,
@@ -26,6 +28,8 @@ export default {
         app.component('ComposerCatalogues', ComposerCatalogues)
         app.component('WikipediaIntro', WikipediaIntro)
         app.component('AlbumList', AlbumList)
+        app.component('AdminPanel', AdminPanel)
+        app.component('LoginPage', LoginPage)
         app.component('MBSearch', MBSearch)
     }
 } satisfies Theme

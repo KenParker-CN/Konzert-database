@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { composerLink, composers } from '../data/composers'
+import { composerLink, composers } from '../../data/composers'
 
 const props = defineProps<{
   era?: string

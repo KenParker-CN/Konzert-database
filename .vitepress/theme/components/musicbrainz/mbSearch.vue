@@ -162,14 +162,6 @@ async function selectRelease(release: any) {
 
 
     /*
-     * Media
-     */
-
-    const media =
-        fullRelease.media?.[0]
-
-
-    /*
      * Create album
      */
 

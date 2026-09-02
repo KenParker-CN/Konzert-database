@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import CatalogueTable from './CatalogueTable.vue'
-import { albumCollectionsLink } from '../data/albums'
-import { catalogueIds, catalogues } from '../data/catalogues'
+import { albumCollectionsLink } from '../../data/albums'
+import { catalogueIds, catalogues } from '../../data/catalogues'
 
 const validIds = new Set(catalogueIds)
 const selectedTab = ref(catalogueIds[0])

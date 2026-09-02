@@ -10,7 +10,7 @@ import {
 import type {
   FilterGroup,
   FilterSelection
-} from '../data/catalogues'
+} from '../../data/catalogues'
 
 const props = defineProps<{
   groups: FilterGroup[]

@@ -55,7 +55,7 @@ export function albumCollectionsLink(
       : '/pages/albums'
 }
 
-export function normalizePersonName(
+function normalizePersonName(
     name: string
 ): string {
   return name
@@ -113,7 +113,7 @@ export function personHref(name: string): string {
       : ''
 }
 
-export function isClassicalAlbum(
+function isClassicalAlbum(
     album: Album
 ): boolean {
   return album.composer.some(name =>

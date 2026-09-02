@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {computed, onMounted, onUnmounted, watch} from 'vue'
-import {type Album, displayComposers, personHref, relatedCatalogueLinks} from '../data/albums'
+import {type Album, displayComposers, personHref, relatedCatalogueLinks} from '../../data/albums'
 import StreamingPlayer from './StreamingPlayer.vue'
 
 const props = defineProps<{ album: Album }>()

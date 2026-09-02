@@ -303,10 +303,6 @@ export function composerBySlug(slug: string): Composer | undefined {
   return composers.find(composer => composer.slug === slug)
 }
 
-export function composersByEra(era: string): Composer[] {
-  return composers.filter(composer => composer.era === era)
-}
-
 export function composerLink(composer: Composer): string {
   return composer.slug
       ? `/pages/composers/${composer.slug}`

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import {computed, nextTick, onMounted, onUnmounted, ref} from 'vue'
-import {parseCSV} from '../data/catalogues'
-import {type Album, albumCollectionsLink, composerByName} from '../data/albums'
-import {composerBySlug} from '../data/composers'
+import {parseCSV} from '../../data/catalogues'
+import {type Album, albumCollectionsLink, composerByName} from '../../data/albums'
+import {composerBySlug} from '../../data/composers'
 import AlbumCard from './AlbumCard.vue'
 import AlbumModal from './AlbumModal.vue'
 

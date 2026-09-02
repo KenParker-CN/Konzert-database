@@ -7,7 +7,7 @@ import {
   loadCatalogue,
   valuesOf,
   type CatalogueDefinition
-} from '../data/catalogues'
+} from '../../data/catalogues'
 
 const props = defineProps<{ slug: string }>()
 

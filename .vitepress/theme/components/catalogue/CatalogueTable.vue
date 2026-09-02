@@ -8,7 +8,7 @@ import {
   loadCatalogue,
   type FilterSelection,
   type Work
-} from '../data/catalogues'
+} from '../../data/catalogues'
 
 const props = defineProps<{
   catalogue: string

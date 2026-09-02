@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import WikipediaIntro from './WikipediaIntro.vue'
-import { albumCollectionsLink } from '../data/albums'
-import { catalogueLink, cataloguesByComposerSlug } from '../data/catalogues'
-import { composerBySlug, wikipediaPage } from '../data/composers'
+import WikipediaIntro from '../common/WikipediaIntro.vue'
+import { albumCollectionsLink } from '../../data/albums'
+import { catalogueLink, cataloguesByComposerSlug } from '../../data/catalogues'
+import { composerBySlug, wikipediaPage } from '../../data/composers'
 
 const props = defineProps<{ slug: string }>()
 

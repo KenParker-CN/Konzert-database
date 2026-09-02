@@ -7,7 +7,7 @@ import {
   type StreamingService,
   streamingServices,
   streamingUrl
-} from '../data/albums'
+} from '../../data/albums'
 
 const props = defineProps<{
   album: Album

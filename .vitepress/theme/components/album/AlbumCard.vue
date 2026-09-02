@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type {Album} from '../data/albums'
+import type {Album} from '../../data/albums'
 
 defineProps<{ album: Album }>()
 
