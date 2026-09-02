@@ -8,4 +8,4 @@ A visual gallery of recordings. Open any cover for album details and streaming.
 
 - [Classical Composers](/pages/composers)
 - [Work Catalogues](/catalogues?tab=RV)
-- [Early Music](/pages/earlymusic)
+- [GitHub Profile](https://github.com/)

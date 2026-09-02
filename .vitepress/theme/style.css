@@ -129,6 +129,5 @@ body { background: var(--archive-paper); color: var(--archive-ink); }
 .composer-facts { border-radius: 0 !important; border-color: var(--archive-rule) !important; background: var(--vp-c-bg-alt) !important; }
 .wikipedia-intro .wiki-content { border-left-color: var(--archive-oxide) !important; background: var(--vp-c-bg-alt) !important; }
 .streaming-tabs, .streaming-frame { border-radius: 0 !important; }
-.streaming-frame { height: min(480px, 54vh) !important; border: 1px solid var(--archive-rule); }
-.local-player { border-radius: 0 !important; border-color: var(--archive-rule) !important; background: var(--vp-c-bg-elv) !important; }
+.streaming-frame { height: 420px !important; border: 1px solid var(--archive-rule); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; } }

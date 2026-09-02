@@ -11,6 +11,7 @@ import {
 
 const props = defineProps<{
   album: Album
+  target: string
 }>()
 
 const active = ref<StreamingService | null>(
@@ -65,7 +66,8 @@ function selectService(service: StreamingService) {
 </script>
 
 <template>
-  <div class="streaming-player">
+  <Teleport :to="target">
+    <div class="streaming-player">
 
     <!-- Player -->
     <div
@@ -227,7 +229,8 @@ function selectService(service: StreamingService) {
 
     </div>
 
-  </div>
+    </div>
+  </Teleport>
 </template>
 
 <style scoped>
@@ -360,7 +363,7 @@ function selectService(service: StreamingService) {
 
 .streaming-frame {
   width: 100%;
-  height: 480px;
+  height: 420px;
 
   overflow: hidden;
 

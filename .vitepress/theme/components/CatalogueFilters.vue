@@ -11,7 +11,7 @@ const emit = defineEmits<{
   (event: 'update:modelValue', value: FilterSelection): void
 }>()
 
-const collapsedSize = 12
+const collapsedSize = 8
 const expanded = ref<Record<string, boolean>>({})
 
 const activeCount = computed(() =>
@@ -55,7 +55,7 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
 <template>
   <div v-if="groups.length" class="catalogue-filters">
     <div v-for="group in groups" :key="group.field" class="filter-group">
-      <div class="filter-label"><span aria-hidden="true">⌄</span>{{ group.label }}</div>
+      <div class="filter-label">{{ group.label }}</div>
 
       <div class="filter-buttons">
         <button
@@ -93,10 +93,10 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
 .catalogue-filters {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 
-  margin-bottom: 16px;
-  padding: 16px;
+  margin-bottom: 12px;
+  padding: 10px 12px;
 
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
@@ -107,36 +107,34 @@ watch(() => props.groups.map(group => group.field).join('|'), () => {
 
 .filter-group {
   display: grid;
-  grid-template-columns: 120px minmax(0, 1fr);
-  align-items: start;
-  column-gap: 14px;
+  grid-template-columns: 96px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 10px;
   width: 100%;
 }
 
 .filter-label {
-  padding-top: 5px;
+  padding-top: 0;
 
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   line-height: 1.4;
 
   color: var(--vp-c-text-2);
 }
 
-.filter-label span { margin-right: .35rem; color: var(--archive-oxide); }
-
 .filter-buttons {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 7px;
+  gap: 5px;
 
   min-width: 0;
   width: 100%;
 }
 
 .filter-button {
-  padding: 5px 11px;
+  padding: 3px 8px;
 
   border: 1px solid var(--vp-c-divider);
   border-radius: 2px;
