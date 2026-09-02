@@ -1,6 +1,9 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+
+// @ts-ignore
 import './style.css'
+
 import Catalogues from './components/Catalogues.vue'
 import AIChat from './components/AIChat.vue'
 import ComposerList from './components/ComposerList.vue'
@@ -9,11 +12,12 @@ import ComposerCatalogues from './components/ComposerCatalogues.vue'
 import WikipediaIntro from './components/WikipediaIntro.vue'
 import AlbumList from './components/AlbumList.vue'
 import Layout from './Layout.vue'
-
+import MBSearch from '../../docs/components/mbSearch.vue'
 
 export default {
     extends: DefaultTheme,
     Layout,
+
     enhanceApp({ app }) {
         app.component('Catalogues', Catalogues)
         app.component('AIChat', AIChat)
@@ -22,5 +26,6 @@ export default {
         app.component('ComposerCatalogues', ComposerCatalogues)
         app.component('WikipediaIntro', WikipediaIntro)
         app.component('AlbumList', AlbumList)
+        app.component('MBSearch', MBSearch)
     }
 } satisfies Theme

@@ -8,11 +8,18 @@ export interface Composer {
   period: ComposerPeriod
   nationality: string
   intro: string
-  slug?: string
+  slug: string
   color: string
 }
 
-export const eras = ['Medieval', 'Renaissance', 'Baroque', 'Classical', 'Romantic', 'Modern']
+export const eras = [
+  'Medieval',
+  'Renaissance',
+  'Baroque',
+  'Classical',
+  'Romantic',
+  'Modern'
+]
 
 export const composers: Composer[] = [
   {
@@ -292,7 +299,6 @@ export const composers: Composer[] = [
   }
 ]
 
-
 export function composerBySlug(slug: string): Composer | undefined {
   return composers.find(composer => composer.slug === slug)
 }
@@ -302,7 +308,9 @@ export function composersByEra(era: string): Composer[] {
 }
 
 export function composerLink(composer: Composer): string {
-  return composer.slug ? `/pages/composers/${composer.slug}` : ''
+  return composer.slug
+      ? `/pages/composers/${composer.slug}`
+      : ''
 }
 
 /** Wikipedia article title used by the Wikipedia introduction component. */

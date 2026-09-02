@@ -1,61 +1,29 @@
-HWV,Name,Type,Key,Instrumentations
-HWV 1:1,,Concerto,C major,"Strings, Basso Continuo"
-HWV 2:2,,Ouverture,D major,"Oboe, Strings, Basso Continuo"
-HWV 3:3,,Sonata,E minor,"Violin, Strings, Basso Continuo"
-HWV 4:4,,Suite,F major,"Flute, Basso Continuo"
-HWV 5:5,,Sinfonia,G minor,"Strings, Basso Continuo"
-HWV 6:6,,Trio,A major,"Oboe, Strings, Basso Continuo"
-HWV 7:1,,Concerto,C major,"Violin, Strings, Basso Continuo"
-HWV 8:2,,Ouverture,D major,"Flute, Basso Continuo"
-HWV 9:3,,Sonata,E minor,"Strings, Basso Continuo"
-HWV 10:4,,Suite,F major,"Oboe, Strings, Basso Continuo"
-HWV 11:5,,Sinfonia,G minor,"Violin, Strings, Basso Continuo"
-HWV 12:6,,Trio,A major,"Flute, Basso Continuo"
-HWV 13:1,,Concerto,C major,"Strings, Basso Continuo"
-HWV 14:2,,Ouverture,D major,"Oboe, Strings, Basso Continuo"
-HWV 15:3,,Sonata,E minor,"Violin, Strings, Basso Continuo"
-HWV 16:4,,Suite,F major,"Flute, Basso Continuo"
-HWV 17:5,,Sinfonia,G minor,"Strings, Basso Continuo"
-HWV 18:6,,Trio,A major,"Oboe, Strings, Basso Continuo"
-HWV 19:1,,Concerto,C major,"Violin, Strings, Basso Continuo"
-HWV 20:2,,Ouverture,D major,"Flute, Basso Continuo"
-HWV 21:3,,Sonata,E minor,"Strings, Basso Continuo"
-HWV 22:4,,Suite,F major,"Oboe, Strings, Basso Continuo"
-HWV 23:5,,Sinfonia,G minor,"Violin, Strings, Basso Continuo"
-HWV 24:6,,Trio,A major,"Flute, Basso Continuo"
-HWV 25:1,,Concerto,C major,"Strings, Basso Continuo"
-HWV 26:2,,Ouverture,D major,"Oboe, Strings, Basso Continuo"
-HWV 27:3,,Sonata,E minor,"Violin, Strings, Basso Continuo"
-HWV 28:4,,Suite,F major,"Flute, Basso Continuo"
-HWV 29:5,,Sinfonia,G minor,"Strings, Basso Continuo"
-HWV 30:6,,Trio,A major,"Oboe, Strings, Basso Continuo"
-HWV 31:1,,Concerto,C major,"Violin, Strings, Basso Continuo"
-HWV 32:2,,Ouverture,D major,"Flute, Basso Continuo"
-HWV 33:3,,Sonata,E minor,"Strings, Basso Continuo"
-HWV 34:4,,Suite,F major,"Oboe, Strings, Basso Continuo"
-HWV 35:5,,Sinfonia,G minor,"Violin, Strings, Basso Continuo"
-HWV 36:6,,Trio,A major,"Flute, Basso Continuo"
-HWV 37:1,,Concerto,C major,"Strings, Basso Continuo"
-HWV 38:2,,Ouverture,D major,"Oboe, Strings, Basso Continuo"
-HWV 39:3,,Sonata,E minor,"Violin, Strings, Basso Continuo"
-HWV 40:4,,Suite,F major,"Flute, Basso Continuo"
-HWV 41:5,,Sinfonia,G minor,"Strings, Basso Continuo"
-HWV 42:6,,Trio,A major,"Oboe, Strings, Basso Continuo"
-HWV 43:1,,Concerto,C major,"Violin, Strings, Basso Continuo"
-HWV 44:2,,Ouverture,D major,"Flute, Basso Continuo"
-HWV 45:3,,Sonata,E minor,"Strings, Basso Continuo"
-HWV 46:4,,Suite,F major,"Oboe, Strings, Basso Continuo"
-HWV 47:5,,Sinfonia,G minor,"Violin, Strings, Basso Continuo"
-HWV 48:6,,Trio,A major,"Flute, Basso Continuo"
-HWV 49:1,,Concerto,C major,"Strings, Basso Continuo"
-HWV 50:2,,Ouverture,D major,"Oboe, Strings, Basso Continuo"
-HWV 51:3,,Sonata,E minor,"Violin, Strings, Basso Continuo"
-HWV 52:4,,Suite,F major,"Flute, Basso Continuo"
-HWV 53:5,,Sinfonia,G minor,"Strings, Basso Continuo"
-HWV 54:6,,Trio,A major,"Oboe, Strings, Basso Continuo"
-HWV 55:1,,Concerto,C major,"Violin, Strings, Basso Continuo"
-HWV 56:2,,Ouverture,D major,"Flute, Basso Continuo"
-HWV 57:3,,Sonata,E minor,"Strings, Basso Continuo"
-HWV 58:4,,Suite,F major,"Oboe, Strings, Basso Continuo"
-HWV 59:5,,Sinfonia,G minor,"Violin, Strings, Basso Continuo"
-HWV 60:6,,Trio,A major,"Flute, Basso Continuo"
+HWV,Type,Title,Key,Opus,Movements,Notes
+287,Concerto,Concerto in G minor for Oboe and Orchestra,G minor,,1. Grave - 2. Allegro - 3. Sarabande. Largo - 4. Allegro,"Concerto No. 3; see HWV 291(2), 390(4), 576(2)"
+288,Sonata / Concerto,"Sonata (Concerto) in B-flat major, �� 5, for Violin and Orchestra",B? major,,1. Andante - 2. Adagio - 3. Allegro,"See HWV 250a,b(1), 302a(3), 396(1), 580"
+289,Concerto,Concerto in G minor for Organ and Orchestra,G minor,Op. 4 No. 1,1. Larghetto e staccato - 2. Allegro - 3. Adagio - 4. Andante,First series No. 1; organo ad libitum in Mvt. 3; see HWV 401(5a)
+290,Concerto,Concerto in B-flat major for Organ and Orchestra,B? major,Op. 4 No. 2,1. A tempo ordinario e staccato - 2. Allegro - 3. Adagio e staccato - 4. Allegro ma non presto,"First series No. 2; see HWV 242(1), 388(4)"
+291,Concerto,Concerto in G minor for Organ and Orchestra,G minor,Op. 4 No. 3,1. Adagio - 2. Allegro - 3. Adagio - 4a. �� - 4b. Allegro,"First series No. 3; Mvt. 4 has alternative material; see HWV 7a(27), 48, 252(1), 314(1), 390(1), 6(17), 150(2)"
+292,Concerto,Concerto in F major for Organ and Orchestra,F major,Op. 4 No. 4,1. Allegro - 2. Andante - 3. Adagio - 4. Allegro,"First series No. 4; organo ad libitum in Mvt. 3; see HWV 34(2b), 377(2), 46b(36)"
+293,Concerto,Concerto in F major for Organ and Orchestra,F major,Op. 4 No. 5,1. Larghetto - 2. Allegro - 3. Alla siciliana - 4. Presto,First series No. 5; see HWV 369(1�C3)
+294,Concerto,Concerto in B-flat major for Organ and Orchestra,B? major,Op. 4 No. 6,1. Andante allegro - 2. Larghetto - 3. Allegro moderato,First series No. 6
+295,Concerto,Concerto in F major for Organ and Orchestra,F major,,1a. Largo - 1b. Larghetto - 2a. Allegro - 2b. Allegro - 3. Larghetto - 4. Allegro,"Second series No. 1; alternative versions; organo ad libitum in 2b; see HWV 401(1), 327(2�C3), 401(4)"
+296a,Concerto,Concerto in A major for Organ and Orchestra,A major,,1. Largo e staccato - 2. Andante - 3. Grave - 4. Allegro,Second series No. 2; organo ad libitum in Mvt. 3; see HWV 329
+296b,Concerto / Pasticcio,Concerto in A major for Organ and Orchestra,A major,,1. Andante - 2. Adagio - 3. Grave - 4. Andante allegro - 5. A tempo ordinario,��Pasticcio Konzert��; based partly on HWV 296a and other works; organo ad libitum in Mvt. 2
+297,Concerto,Concerto in D minor for Solo Organ,D minor,,1. Ouverture �� / Allegro / Lentement - 2. Air. Lentement - 3. Allegro - 4. Allegro - 5. Allegro moderato,Second series No. 3; d'apr��s HWV 328
+298,Concerto,Concerto in G major for Solo Organ,G major,,1. A tempo giusto - 2. Allegro - 3. Adagio - 4. Allegro - 5. [Allegro],Second series No. 4; d'apr��s HWV 319
+299,Concerto,Concerto in D major for Solo Organ,D major,,1. [Larghetto e staccato] - 2. Allegro - 3. Presto - 4. Largo - 5. Allegro - 6. Menuet. Un poco larghetto,Second series No. 5; d'apr��s HWV 323
+300,Concerto,Concerto in G minor for Solo Organ,G minor,,1. Largo e affettuoso - 2. A tempo giusto - 3. Musette. Larghetto - 4. Allegro - 5. Allegro,Second series No. 6; d'apr��s HWV 324
+301,Concerto,Concerto in B-flat major for Oboe and Orchestra,B? major,,1. Adagio - 2. Allegro - 3. Siciliano. Largo - 4. Vivace,Concerto No. 1
+302a,Concerto,Concerto in B-flat major for Oboe and Orchestra,B? major,,1. Vivace - 2. Fuga. Allegro - 3. Andante - 4. Allegro,"Concerto No. 2; see HWV 253(1), 389(4), 250a,b(1), 288(1), 396(1), 580"
+302b,Suite,"Suite de pi��ces (Konzersatz) in F major for Oboe, Horn, Strings and Basso Continuo",F major,,1. Largo,Related to HWV 302a
+303,Concert / Adagio,Concert (Adagio) in D minor for 2 Organs and Orchestra,D minor,,1. Adagio,See HWV 309(1)
+304,Concerto,Concerto in D minor for Organ and Orchestra,D minor,,1. Andante / Adagio - 2. Allegro,Concerto No. 15
+305a,Concerto,Concerto in F major for Organ and Orchestra,F major,,1. Concerto �� - 2. Allegro - 3. Andante - 4. Marche. Allegro,Concerto No. 16; see HWV 63(32)
+305b,Concerto,Concerto in F major for Solo Organ,F major,,1. Ouverture �� - 2. Allegro - 3. Andante - 4. Marche. Allegro,"Solo-organ version; see HWV 334, 63(32); organo ad libitum in Mvt. 3"
+306,Concerto,Concerto in B-flat major for Organ and Orchestra,B? major,Op. 7 No. 1,1. Andante / Adagio - 2. Largo e piano - 3. Fuga. Allegro - 4. Adagio - 5. Bourr��e. Allegro,Third series No. 1; organo ad libitum in Mvt. 4; see HWV 329(2)
+307,Concerto,Concerto in A major for Organ and Orchestra,A major,Op. 7 No. 2,1. Ouverture �� - 2. A tempo ordinario - 3. Allegro,"Third series No. 2; see HWV 57 (Overture, Mvt. 3)"
+308,Concerto,Concerto in B-flat major for Organ and Orchestra,B? major,Op. 7 No. 3,1a. �� - 1b. Andante (Allegro) - 2. Adagio e fuga - 3. Spiritoso / Adagio - 4a. Menuet - 4b. Menuet,Third series No. 3; Mvt. 2 ad libitum; alternative movements
+309,Concerto,Concerto in D minor for Organ and Orchestra,D minor,Op. 7 No. 4,1. Adagio - 2. Allegro cos�� cos�� - 3. Allegro,"Third series No. 4; see HWV 303, 8a, 317(2), 428(6), 495"
+310,Concerto,Concerto in G minor for Organ and Orchestra,G minor,Op. 7 No. 5,1. Staccato ma non troppo allegro - 2. Adagio - 3. Andante larghetto e staccato - 4. Adagio - 5. Menuet - 6. [Gavotte],"Third series No. 5; organo ad libitum in Mvt. 2; see HWV 6(17), 150(2), 291(4), 360(4), 379(5)"
+311,Concerto,Concerto in B-flat major for Organ and Orchestra,B? major,Op. 7 No. 6,1. Pomposo - 2. Air. A tempo ordinario - 3. ,"Third series No. 6; see HWV 347(1), 347(3), 469"

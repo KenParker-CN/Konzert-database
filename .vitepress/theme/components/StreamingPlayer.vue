@@ -11,7 +11,6 @@ import {
 
 const props = defineProps<{
   album: Album
-  target: string
 }>()
 
 const active = ref<StreamingService | null>(
@@ -66,10 +65,8 @@ function selectService(service: StreamingService) {
 </script>
 
 <template>
-  <Teleport :to="target">
-    <div class="streaming-player">
+  <div class="streaming-player">
 
-    <!-- Player -->
     <div
         v-if="current?.url"
         class="streaming-panel"
@@ -83,13 +80,7 @@ function selectService(service: StreamingService) {
             :src="embedSrc"
             :title="`${current.label} player`"
             loading="lazy"
-            allow="
-            autoplay;
-            clipboard-write;
-            encrypted-media;
-            fullscreen;
-            picture-in-picture
-          "
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             referrerpolicy="strict-origin-when-cross-origin"
         />
       </div>
@@ -119,7 +110,12 @@ function selectService(service: StreamingService) {
       No streaming links are available for this album.
     </p>
 
-
+    <div
+        class="streaming-tabs"
+        role="tablist"
+        aria-label="Streaming services"
+    >
+      <!-- 这里保持你原来的 tabs -->
     <!-- Streaming service tabs -->
     <div
         class="streaming-tabs"
@@ -230,7 +226,7 @@ function selectService(service: StreamingService) {
     </div>
 
     </div>
-  </Teleport>
+  </div>
 </template>
 
 <style scoped>
@@ -248,47 +244,37 @@ function selectService(service: StreamingService) {
    ========================= */
 
 .streaming-tabs {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
+  display: flex;
+  width: 100%;
   min-width: 0;
   overflow: hidden;
-
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
 
   background: var(--vp-c-bg-soft);
 }
 
 .streaming-tabs button {
-  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  height: 48px;
+  padding: 0;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  min-width: 0;
-  height: 48px;
-
-  padding: 0;
-
   border: 0;
-  border-radius: 0;
-
   background: transparent;
 
   color: var(--vp-c-text-3);
-
   cursor: pointer;
-
-  transition: color 0.18s ease,
-  background 0.18s ease,
-  opacity 0.18s ease;
+  transition:
+      color .18s ease,
+      background .18s ease;
 }
 
 .streaming-tabs button + button {
-  border-left: 1px solid var(--vp-c-divider);
 }
+
 
 
 /* =========================
@@ -364,21 +350,18 @@ function selectService(service: StreamingService) {
 .streaming-frame {
   width: 100%;
   height: 420px;
-
   overflow: hidden;
-
-  border-radius: 10px;
-
-  background: var(--vp-c-bg-mute);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 .streaming-frame iframe {
   display: block;
-
   width: 100%;
   height: 100%;
-
   border: 0;
+  border-radius: 0;
 }
 
 
