@@ -272,10 +272,6 @@ function selectService(service: StreamingService) {
       background .18s ease;
 }
 
-.streaming-tabs button + button {
-}
-
-
 
 /* =========================
    Icons
