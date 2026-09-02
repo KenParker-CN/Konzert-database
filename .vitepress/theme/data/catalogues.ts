@@ -107,30 +107,43 @@ const MAX_FILTER_OPTIONS = 100
    CSV loading
    ========================================================= */
 
-export async function loadCatalogue(
-    id: string
-): Promise<CatalogueData> {
-  const response = await fetch(
-      `/data/${id.toLowerCase()}.csv`
-  )
+export async function loadCatalogue(id: string): Promise<CatalogueData> {
+  const response = await fetch(`/data/${id.toLowerCase()}.csv`)
 
   if (!response.ok) {
-    throw new Error(
-        `Failed to load catalogue: ${id}`
-    )
+    throw new Error(`Failed to load catalogue: ${id}`)
   }
 
   const text = await response.text()
+  const rows = parseCSV(text)
 
-  return parseCSV(text)
+  const headers = (rows[0] || []).map(
+      header => header.replace(/^\uFEFF/, '').trim()
+  )
+
+  const works = rows.slice(1).map(values => {
+    const work: Work = {}
+
+    headers.forEach((header, index) => {
+      work[header] = values[index] ?? ''
+    })
+
+    return work
+  })
+
+  return {
+    headers,
+    works
+  }
 }
-
 
 /* =========================================================
    CSV parser
    ========================================================= */
 
-export function parseCSV(text: string): CatalogueData {
+export function parseCSV(
+    text: string
+): string[][] {
   const rows: string[][] = []
 
   let row: string[] = []
@@ -162,7 +175,10 @@ export function parseCSV(text: string): CatalogueData {
         (char === '\n' || char === '\r') &&
         !quoted
     ) {
-      if (char === '\r' && next === '\n') {
+      if (
+          char === '\r' &&
+          next === '\n'
+      ) {
         i++
       }
 
@@ -183,6 +199,7 @@ export function parseCSV(text: string): CatalogueData {
     cell += char
   }
 
+  // 最后一行
   row.push(cell)
 
   if (
@@ -192,27 +209,7 @@ export function parseCSV(text: string): CatalogueData {
     rows.push(row)
   }
 
-  const headers = rows[0] || []
-
-  const works = rows
-      .slice(1)
-      .map(values => {
-        const work: Work = {}
-
-        headers.forEach(
-            (header, index) => {
-              work[header] =
-                  values[index] || ''
-            }
-        )
-
-        return work
-      })
-
-  return {
-    headers,
-    works
-  }
+  return rows
 }
 
 
