@@ -24,6 +24,7 @@
     "@material/material-color-utilities": "^0.4.0",
     "better-sqlite3": "^13.0.3",
     "element-plus": "^2.14.5",
+    "lucide-react": "^1.40.0",
     "next": "^16.3.4",
     "openai": "^7.8.0",
     "react": "^19.2.8",

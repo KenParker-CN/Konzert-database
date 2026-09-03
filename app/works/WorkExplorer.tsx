@@ -1,5 +1,6 @@
 'use client'
 
+import { Search } from 'lucide-react'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { FormEvent, useTransition } from 'react'
 import type { Work, WorkFilterOptions } from '../../lib/db/works'
@@ -33,7 +34,7 @@ export default function WorkExplorer({ works, options }: { works: Work[]; option
     <form className="flex w-full flex-wrap gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm" onSubmit={submit}>
       <label className="relative min-w-[min(100%,240px)] flex-[2_1_320px]">
         <span className="sr-only">Search works</span>
-        <span className="pointer-events-none absolute left-3 top-2.5 text-slate-400">⌕</span>
+        <span className="pointer-events-none absolute left-3 top-2.5 text-slate-400"><Search size={16} aria-hidden="true" /></span>
         <input name="search" defaultValue={query.get('search') ?? ''} placeholder="Search works…" className="h-10 w-full rounded-xl border border-slate-200 bg-slate-50 pl-9 pr-3 text-sm outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100" />
       </label>
       {fields.map(([key, label]) => <label key={key} className="min-w-[160px] flex-1"><span className="sr-only">{label}</span><select name={key} defaultValue={query.get(key) ?? ''} className="h-10 w-full rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-700 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"><option value="">{label}</option>{options[key].map(value => <option key={value} value={value}>{value}</option>)}</select></label>)}

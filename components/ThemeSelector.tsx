@@ -1,8 +1,10 @@
 'use client'
 
+import { Moon, Sun } from 'lucide-react'
 import { useTheme } from './ThemeProvider'
 
 export default function ThemeSelector() {
   const { theme, setTheme } = useTheme()
-  return <label className="theme-selector"><span className="sr-only">Theme</span><span aria-hidden="true">◐</span><select value={theme} onChange={event => setTheme(event.target.value as 'light' | 'dark' | 'system')} aria-label="Theme"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+  const dark = theme === 'dark'
+  return <button type="button" className="theme-toggle" onClick={() => setTheme(dark ? 'light' : 'dark')} aria-label={dark ? 'Switch to light theme' : 'Switch to dark theme'} aria-pressed={dark} title={dark ? 'Switch to light theme' : 'Switch to dark theme'}><span className="sr-only">{dark ? 'Light theme' : 'Dark theme'}</span>{dark ? <Sun size={17} strokeWidth={2} aria-hidden="true" /> : <Moon size={17} strokeWidth={2} aria-hidden="true" />}</button>
 }
