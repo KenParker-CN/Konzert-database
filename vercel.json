@@ -1,4 +1,3 @@
 {
-  "buildCommand": "npm run docs:build",
-  "outputDirectory": ".vitepress/dist"
+  "buildCommand": "npm run build"
 }

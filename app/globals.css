@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Google+Sans+Text:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+:root { --ink: #202124; --muted: #5f6368; --line: #dadce0; --blue: #1a73e8; --blue-soft: #e8f0fe; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafd; color: var(--ink); font-family: 'Google Sans Text', Arial, sans-serif; }
+button, input, select { font: inherit; }
+.heading { font-family: 'Google Sans', Arial, sans-serif; }
+
+@media (prefers-reduced-motion: no-preference) { * { transition-property: color, background-color, border-color, box-shadow; transition-duration: 150ms; } }
