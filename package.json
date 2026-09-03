@@ -1,16 +1,33 @@
 {
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
     "vercel": "^59.11.0",
     "vitepress": "^2.0.0-alpha.19"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
+    "dev": "next dev",
+    "build": "NODE_ENV=production next build",
+    "start": "next start",
+    "docs:dev": "next dev",
+    "legacy:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
     "@material/material-color-utilities": "^0.4.0",
+    "better-sqlite3": "^13.0.3",
     "element-plus": "^2.14.5",
-    "openai": "^7.8.0"
+    "lucide-react": "^1.40.0",
+    "next": "^16.3.4",
+    "openai": "^7.8.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   }
 }
