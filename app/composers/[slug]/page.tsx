@@ -1,0 +1,17 @@
+import AppShell from '../../../components/AppShell'
+import { getComposer, getComposerWorks, getComposers } from '../../../lib/db/composers'
+import { notFound } from 'next/navigation'
+
+export const dynamic = 'force-dynamic'
+
+export default async function ComposerDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const composer = getComposer(slug)
+  if (!composer) notFound()
+  const works = getComposerWorks(composer.artistId)
+  const all = getComposers()
+  const position = all.findIndex(item => item.artistId === composer.artistId)
+  const previous = position > 0 ? all[position - 1] : null
+  const next = position >= 0 && position < all.length - 1 ? all[position + 1] : null
+  return <AppShell active="composers"><main className="min-h-screen"><div className="mx-auto max-w-[1200px] px-5 py-10 lg:px-10 lg:py-14"><a href="/composers" className="text-sm font-semibold text-blue-600">← All composers</a><section className="mt-7 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8"><div className="flex flex-col gap-5 sm:flex-row sm:items-center"><div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-blue-50 text-3xl font-semibold text-blue-700">{composer.name.slice(0, 1)}</div><div><h1 className="heading text-3xl font-semibold tracking-tight text-slate-950">{composer.name}</h1><p className="mt-2 text-sm text-slate-500">{composer.startDate || composer.endDate ? `${composer.startDate ?? '?'}–${composer.endDate ?? ''}` : composer.type} · {composer.workCount} {composer.workCount === 1 ? 'work' : 'works'}</p></div></div>{composer.biography && <p className="mt-6 max-w-3xl text-base leading-7 text-slate-600">{composer.biography}</p>}</section><section className="mt-8"><div className="mb-3 flex items-end justify-between"><div><p className="text-xs font-semibold uppercase tracking-wide text-blue-600">Connected records</p><h2 className="heading mt-1 text-2xl font-semibold">Works</h2></div></div><div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"><div className="overflow-x-auto"><table className="min-w-[700px] w-full text-left text-sm"><thead className="border-b border-slate-200 bg-slate-50 text-xs uppercase tracking-wide text-slate-500"><tr><th className="px-5 py-4">Catalogue</th><th className="px-4 py-4">Title</th><th className="px-4 py-4">Type</th><th className="px-4 py-4">Key</th></tr></thead><tbody>{works.map(work => <tr key={work.workId} className="border-b border-slate-100 last:border-0 hover:bg-blue-50/50"><td className="px-5 py-4 font-semibold text-blue-700">{work.catalogue}</td><td className="px-4 py-4 font-medium text-slate-900">{work.title}</td><td className="px-4 py-4 text-slate-600">{work.type || '—'}</td><td className="px-4 py-4 text-slate-600">{work.key || '—'}</td></tr>)}</tbody></table></div>{!works.length && <p className="p-8 text-center text-sm text-slate-500">No associated works.</p>}</div></section><nav className="mt-8 flex justify-between gap-4 text-sm">{previous ? <a href={`/composers/${previous.slug}`} className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-600 hover:border-blue-300">← {previous.name}</a> : <span />}{next && <a href={`/composers/${next.slug}`} className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-600 hover:border-blue-300">{next.name} →</a>}</nav></div></main></AppShell>
+}
