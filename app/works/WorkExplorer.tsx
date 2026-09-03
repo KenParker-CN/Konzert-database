@@ -30,14 +30,14 @@ export default function WorkExplorer({ works, options }: { works: Work[]; option
   }
 
   return <>
-    <form className="grid gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:grid-cols-2 lg:grid-cols-[minmax(240px,1.7fr)_repeat(4,minmax(130px,1fr))]" onSubmit={submit}>
-      <label className="relative sm:col-span-2 lg:col-span-1">
+    <form className="flex w-full flex-wrap gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm" onSubmit={submit}>
+      <label className="relative min-w-[min(100%,240px)] flex-[2_1_320px]">
         <span className="sr-only">Search works</span>
         <span className="pointer-events-none absolute left-3 top-2.5 text-slate-400">⌕</span>
         <input name="search" defaultValue={query.get('search') ?? ''} placeholder="Search works…" className="h-10 w-full rounded-xl border border-slate-200 bg-slate-50 pl-9 pr-3 text-sm outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100" />
       </label>
-      {fields.map(([key, label]) => <label key={key}><span className="sr-only">{label}</span><select name={key} defaultValue={query.get(key) ?? ''} className="h-10 w-full rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-700 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"><option value="">{label}</option>{options[key].map(value => <option key={value} value={value}>{value}</option>)}</select></label>)}
-      <button type="submit" className="h-10 rounded-xl bg-blue-600 px-4 text-sm font-semibold text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 sm:col-span-2 lg:col-span-1">Apply filters</button>
+      {fields.map(([key, label]) => <label key={key} className="min-w-[160px] flex-1"><span className="sr-only">{label}</span><select name={key} defaultValue={query.get(key) ?? ''} className="h-10 w-full rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-700 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"><option value="">{label}</option>{options[key].map(value => <option key={value} value={value}>{value}</option>)}</select></label>)}
+      <button type="submit" className="h-10 shrink-0 rounded-xl bg-blue-600 px-4 text-sm font-semibold text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 sm:col-span-2 lg:col-span-1">Apply filters</button>
     </form>
     <div className="mt-5 flex items-center justify-between text-sm text-slate-500"><span>{isPending ? 'Updating…' : `${works.length} ${works.length === 1 ? 'work' : 'works'}`}</span><span>Page 1 of 1</span></div>
     <div className="mt-3 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
