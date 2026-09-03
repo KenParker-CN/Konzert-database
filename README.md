@@ -580,7 +580,7 @@ Check versions:
 
 Clone the repository:
 
-    git clone <repository-url>
+    git clone https://github.com/KenParker-CN/parker-home
 
 Enter the project directory:
 
