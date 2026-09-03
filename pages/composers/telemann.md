@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Georg Philipp Telemann
 outline: deep
 ---

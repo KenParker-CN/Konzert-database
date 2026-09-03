@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Claudio Monteverdi
 outline: deep
 ---

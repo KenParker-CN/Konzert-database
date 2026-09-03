@@ -188,7 +188,7 @@ function handleKeydown(event: KeyboardEvent) {
 
 .ai-header p {
   margin: 0;
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
 }
 
 .messages {
@@ -196,9 +196,9 @@ function handleKeydown(event: KeyboardEvent) {
   max-height: 600px;
   overflow-y: auto;
   padding: 20px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-lg);
+  background: var(--md-surface-container);
 }
 
 .empty-state {
@@ -217,7 +217,7 @@ function handleKeydown(event: KeyboardEvent) {
 }
 
 .empty-text {
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
 }
 
 .message {
@@ -235,27 +235,29 @@ function handleKeydown(event: KeyboardEvent) {
 .message-label {
   margin-bottom: 6px;
   font-size: 13px;
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
 }
 
 .message-content {
   display: inline-block;
   max-width: 80%;
   padding: 10px 14px;
-  border-radius: 10px;
-  background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-divider);
+  border-radius: var(--md-radius-md);
+  background: var(--md-surface);
+  border: 1px solid var(--md-outline-variant);
   text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
 }
 
 .message.user .message-content {
-  background: var(--vp-c-brand-soft);
+  background: var(--md-secondary-container);
+  border-color: transparent;
+  color: var(--md-on-secondary-container);
 }
 
 .loading {
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
 }
 
 .input-area {
@@ -270,28 +272,39 @@ function handleKeydown(event: KeyboardEvent) {
   max-height: 160px;
   resize: vertical;
   padding: 11px 13px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg);
-  color: var(--vp-c-text-1);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-sm);
+  background: var(--md-surface);
+  color: var(--md-on-surface);
   font: inherit;
   line-height: 1.5;
 }
 
 .input-area textarea:focus {
   outline: none;
-  border-color: var(--vp-c-brand-1);
+  border-color: var(--md-primary);
+  box-shadow: 0 0 0 1px var(--md-primary);
 }
 
 .input-area button {
   align-self: flex-end;
   padding: 10px 18px;
   border: 0;
-  border-radius: 8px;
-  background: var(--vp-c-brand-1);
-  color: white;
+  border-radius: var(--md-radius-full);
+  background: var(--md-primary);
+  color: var(--md-on-primary);
   cursor: pointer;
   font: inherit;
+  transition: background var(--md-duration-fast) var(--md-ease), box-shadow var(--md-duration-fast) var(--md-ease);
+}
+
+.input-area button:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--md-primary) 88%, var(--md-on-primary));
+  box-shadow: var(--md-shadow-1);
+}
+
+.input-area button:active:not(:disabled) {
+  background: color-mix(in srgb, var(--md-primary) 78%, var(--md-on-primary));
 }
 
 .input-area button:disabled {
@@ -303,7 +316,7 @@ function handleKeydown(event: KeyboardEvent) {
   margin-top: 8px;
   font-size: 12px;
   text-align: right;
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
 }
 
 @media (max-width: 640px) {

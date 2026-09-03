@@ -101,14 +101,14 @@ function handleSubmit() {
 
 .admin-login h1 {
   margin: 0 0 .25rem;
-  font-family: var(--archive-serif), Georgia, serif;
+  font-family: var(--font-ui);
   font-weight: 400;
   letter-spacing: -.02em;
 }
 
 .admin-login-hint {
   margin: 0 0 1.5rem;
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
   font-size: .9rem;
 }
 
@@ -124,54 +124,54 @@ function handleSubmit() {
   gap: .35rem;
   font-size: .8rem;
   font-weight: 600;
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
 }
 
 .admin-login-form input {
   height: 40px;
   padding: 0 .7rem;
-  border: 1px solid var(--archive-rule);
-  border-radius: 2px;
-  background: var(--vp-c-bg-elv);
-  color: var(--archive-ink);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-sm);
+  background: var(--md-surface-container-lowest);
+  color: var(--md-on-surface);
   font: inherit;
   font-size: .9rem;
+  transition: border-color var(--md-duration-fast) var(--md-ease), box-shadow var(--md-duration-fast) var(--md-ease);
 }
 
 .admin-login-form input:focus {
   outline: 0;
-  border-color: var(--archive-oxide);
-  box-shadow: 0 0 0 3px var(--vp-c-brand-soft);
+  border-color: var(--md-primary);
+  box-shadow: 0 0 0 1px var(--md-primary);
 }
 
 .admin-login-error {
   margin: 0;
   padding: .55rem .7rem;
-  border: 1px solid var(--vp-c-danger-1);
-  background: color-mix(in srgb, var(--vp-c-danger-1) 12%, transparent);
-  color: var(--vp-c-danger-1);
+  border: 1px solid transparent;
+  background: var(--md-error-container);
+  color: var(--md-on-error-container);
   font-size: .82rem;
-  border-radius: 2px;
+  border-radius: var(--md-radius-sm);
 }
 
 .admin-login-submit {
   height: 42px;
-  border: 1px solid var(--archive-ink);
-  border-radius: 2px;
-  background: var(--archive-ink);
-  color: var(--archive-paper);
-  font: 700 12px var(--vp-font-family-base);
-  letter-spacing: .08em;
-  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: var(--md-radius-full);
+  background: var(--md-primary);
+  color: var(--md-on-primary);
+  font: 600 14px var(--vp-font-family-base);
+  letter-spacing: .01em;
   cursor: pointer;
   transition:
-      background var(--archive-ease),
-      border-color var(--archive-ease);
+      background var(--md-duration-fast) var(--md-ease),
+      box-shadow var(--md-duration-fast) var(--md-ease);
 }
 
 .admin-login-submit:hover:not(:disabled) {
-  background: var(--archive-oxide);
-  border-color: var(--archive-oxide);
+  background: color-mix(in srgb, var(--md-primary) 88%, var(--md-on-primary));
+  box-shadow: var(--md-shadow-1);
 }
 
 .admin-login-submit:disabled {

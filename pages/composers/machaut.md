@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Guillaume de Machaut
 outline: deep
 ---

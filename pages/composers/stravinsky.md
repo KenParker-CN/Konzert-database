@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Igor Stravinsky
 outline: deep
 ---

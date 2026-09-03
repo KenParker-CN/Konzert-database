@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Antonio Vivaldi
 outline: deep
 ---

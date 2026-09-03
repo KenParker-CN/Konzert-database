@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Jean-Baptiste Lully
 outline: deep
 ---

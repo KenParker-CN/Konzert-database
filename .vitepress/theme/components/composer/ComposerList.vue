@@ -1,916 +1,494 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { composerLink, composers } from '../../data/composers'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { ArrowRight, Search } from '@element-plus/icons-vue'
+import { composerLink, composers, nationalityToEmoji } from '../../data/composers'
+import ComposerOverview from './ComposerOverview.vue'
 
 const props = defineProps<{
   era?: string
 }>()
 
-
-
-/* =========================
-   Filters
-   ========================= */
-
-const selectedPeriod = ref<
-    'All' | 'Early' | 'Middle' | 'Late'
->('All')
-
+const searchQuery = ref('')
+const selectedEra = ref('All')
+const selectedPeriod = ref<'All' | 'Early' | 'Middle' | 'Late'>('All')
 const selectedNationality = ref('All')
+const filterOpen = ref(false)
+const filterContainer = ref<HTMLElement | null>(null)
 
-
-/* =========================
-   Current era
-   ========================= */
-
-const eraComposers = computed(() => {
-  if (!props.era) {
-    return composers
-  }
-
-  return composers.filter(
-      composer => composer.era === props.era
-  )
+const baseComposers = computed(() => {
+  if (props.era) return composers.filter(c => c.era === props.era)
+  return composers
 })
 
-
-/* =========================
-   Nationality options
-   ========================= */
+const erasList = computed(() => {
+  const values = baseComposers.value.map(c => c.era)
+  return ['All', ...Array.from(new Set(values))].sort()
+})
 
 const nationalities = computed(() => {
-  const values = eraComposers.value.map(
-      composer => composer.nationality
-  )
-
-  return [
-    'All',
-    ...Array.from(new Set(values))
-  ]
+  const values = baseComposers.value.map(c => c.nationality)
+  return ['All', ...Array.from(new Set(values))].sort()
 })
 
-
-/* =========================
-   Filtered composers
-   ========================= */
-
 const filteredComposers = computed(() => {
-  return eraComposers.value.filter(composer => {
-
-    const periodMatch =
-        selectedPeriod.value === 'All' ||
-        composer.period === selectedPeriod.value
-
-    const nationalityMatch =
-        selectedNationality.value === 'All' ||
-        composer.nationality === selectedNationality.value
-
-    return (
-        periodMatch &&
-        nationalityMatch
-    )
+  const q = searchQuery.value.trim().toLowerCase()
+  return baseComposers.value.filter(c => {
+    if (selectedEra.value !== 'All' && c.era !== selectedEra.value) return false
+    if (selectedPeriod.value !== 'All' && c.period !== selectedPeriod.value) return false
+    if (selectedNationality.value !== 'All' && c.nationality !== selectedNationality.value) return false
+    if (q && !(`${c.name} ${c.nationality} ${c.period} ${c.era}`.toLowerCase().includes(q))) return false
+    return true
   })
 })
 
+const totalCount = computed(() => filteredComposers.value.length)
 
-/* =========================
-   Pagination
-   ========================= */
-
-const currentPage = ref(1)
-
-const pageSize = 4
-
-const totalPages = computed(() => {
-  return Math.ceil(
-      filteredComposers.value.length /
-      pageSize
-  )
+const activeFilterCount = computed(() => {
+  let count = 0
+  if (selectedEra.value !== 'All') count++
+  if (selectedPeriod.value !== 'All') count++
+  if (selectedNationality.value !== 'All') count++
+  return count
 })
 
-const paginatedComposers = computed(() => {
+function selectEra(era: string) {
+  selectedEra.value = era
+}
 
-  const start =
-      (currentPage.value - 1) *
-      pageSize
-
-  return filteredComposers.value.slice(
-      start,
-      start + pageSize
-  )
-})
-
-
-/* =========================
-   Filter actions
-   ========================= */
-
-function selectPeriod(
-    period:
-        | 'All'
-        | 'Early'
-        | 'Middle'
-        | 'Late'
-) {
+function selectPeriod(period: 'All' | 'Early' | 'Middle' | 'Late') {
   selectedPeriod.value = period
-  currentPage.value = 1
 }
 
-
-function selectNationality(
-    nationality: string
-) {
+function selectNationality(nationality: string) {
   selectedNationality.value = nationality
-  currentPage.value = 1
 }
 
+function clearAll() {
+  selectedEra.value = 'All'
+  selectedPeriod.value = 'All'
+  selectedNationality.value = 'All'
+}
 
-/* =========================
-   Pagination actions
-   ========================= */
+function toggleFilter() {
+  filterOpen.value = !filterOpen.value
+}
 
-function goToPage(page: number) {
+function onSearch() { /* no-op */ }
 
-  if (
-      page < 1 ||
-      page > totalPages.value
-  ) {
-    return
+/** Close filter when clicking outside the filter container */
+function handleClickOutside(event: MouseEvent) {
+  if (!filterOpen.value) return
+  if (!filterContainer.value) return
+  const target = event.target as Node
+  if (!filterContainer.value.contains(target)) {
+    filterOpen.value = false
   }
-
-  currentPage.value = page
 }
 
+/** Close filter on Escape key */
+function handleEscape(event: KeyboardEvent) {
+  if (event.key === 'Escape' && filterOpen.value) {
+    filterOpen.value = false
+  }
+}
 
-/* =========================
-   Composer page
-   ========================= */
+onMounted(() => {
+  document.addEventListener('pointerdown', handleClickOutside)
+  document.addEventListener('keydown', handleEscape)
+})
 
+onBeforeUnmount(() => {
+  document.removeEventListener('pointerdown', handleClickOutside)
+  document.removeEventListener('keydown', handleEscape)
+})
 </script>
 
-
 <template>
+  <div class="composer-directory">
+    <!-- Era Timeline Overview -->
+    <ComposerOverview />
 
-  <div class="composer-list">
-
-
-    <!-- =========================
-         Filters
-         ========================= -->
-
-    <div class="filters">
-
-
-      <!-- Period -->
-
-      <div class="filter-group">
-
-        <div class="filter-label">
-          Period
-        </div>
-
-        <div class="filter-buttons">
-
-          <button
-              class="filter-button"
-              :class="{
-              active:
-                selectedPeriod === 'All'
-            }"
-              @click="
-              selectPeriod('All')
-            "
-          >
-            All
-          </button>
-
-
-          <button
-              class="filter-button"
-              :class="{
-              active:
-                selectedPeriod === 'Early'
-            }"
-              @click="
-              selectPeriod('Early')
-            "
-          >
-            Early
-          </button>
-
-
-          <button
-              class="filter-button"
-              :class="{
-              active:
-                selectedPeriod === 'Middle'
-            }"
-              @click="
-              selectPeriod('Middle')
-            "
-          >
-            Middle
-          </button>
-
-
-          <button
-              class="filter-button"
-              :class="{
-              active:
-                selectedPeriod === 'Late'
-            }"
-              @click="
-              selectPeriod('Late')
-            "
-          >
-            Late
-          </button>
-
-        </div>
-
-      </div>
-
-
-      <!-- Nationality -->
-
-      <div class="filter-group">
-
-        <div class="filter-label">
-          Nationality
-        </div>
-
-        <div class="filter-buttons">
-
-          <button
-              v-for="
-              nationality in nationalities
-            "
-              :key="nationality"
-              class="filter-button"
-              :class="{
-              active:
-                selectedNationality ===
-                nationality
-            }"
-              @click="
-              selectNationality(
-                nationality
-              )
-            "
-          >
-            {{ nationality }}
-          </button>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <!-- =========================
-         Result count
-         ========================= -->
-
-    <div class="result-info">
-
-      {{ filteredComposers.length }}
-
-      {{
-        filteredComposers.length === 1
-            ? 'composer'
-            : 'composers'
-      }}
-
-    </div>
-
-
-    <!-- =========================
-         Composer cards
-         ========================= -->
-
-    <div
-        v-if="
-        filteredComposers.length > 0
-      "
-        class="composer-section"
-    >
-
-      <div class="composer-grid">
-
-        <component
-            :is="composer.slug ? 'a' : 'article'"
-            v-for="
-            composer in paginatedComposers
-          "
-            :key="composer.name"
-            class="composer-card"
-            :href="composer.slug ? composerLink(composer) : undefined"
-            :style="{
-            '--composer-color':
-              composer.color
-          }"
-        >
-
-          <!-- Color strip -->
-
-          <div
-              class="composer-color"
-              :style="{
-              backgroundColor:
-                composer.color
-            }"
-          ></div>
-
-
-          <!-- Content -->
-
-          <div class="composer-content">
-
-            <div class="composer-name">
-              {{ composer.name }}
-            </div>
-
-
-            <div class="composer-dates">
-              {{ composer.born }}–{{ composer.died }}
-            </div>
-
-
-            <div class="composer-meta">
-
-              <span>
-                {{ composer.nationality }}
-              </span>
-
-              <span>·</span>
-
-              <span>
-                {{ composer.period }}
-              </span>
-
-            </div>
-
-
-            <p class="composer-intro">
-              {{ composer.intro }}
-            </p>
-
-
-            <div
-                v-if="composer.slug"
-                class="composer-link"
-            >
-              View composer
-              <span>→</span>
-            </div>
-
-          </div>
-
-        </component>
-
-      </div>
-
-
-      <!-- =========================
-           Pagination
-           ========================= -->
-
-      <div
-          v-if="totalPages > 1"
-          class="pagination"
+    <!-- Single shared toolbar -->
+    <div class="dir-toolbar">
+      <el-input
+          v-model="searchQuery"
+          placeholder="Search composers..."
+          clearable
+          size="small"
+          class="dir-search"
+          @input="onSearch"
       >
+        <template #prefix><el-icon><Search /></el-icon></template>
+      </el-input>
 
+      <!-- Filter entry button -->
+      <div ref="filterContainer" class="composer-filters">
         <button
-            class="page-button"
-            :disabled="
-            currentPage === 1
-          "
-            @click="
-            goToPage(
-              currentPage - 1
-            )
-          "
+            class="filters-entry"
+            :class="{ active: filterOpen }"
+            @click="toggleFilter"
         >
-          ‹
+          <el-icon class="filters-entry-icon"><Search /></el-icon>
+          Filter
+          <span v-if="activeFilterCount" class="filters-entry-count">{{ activeFilterCount }}</span>
         </button>
 
-
-        <button
-            v-for="
-            page in totalPages
-          "
-            :key="page"
-            class="page-button"
-            :class="{
-            active:
-              currentPage === page
-          }"
-            @click="
-            goToPage(page)
-          "
-        >
-          {{ page }}
-        </button>
-
-
-        <button
-            class="page-button"
-            :disabled="
-            currentPage === totalPages
-          "
-            @click="
-            goToPage(
-              currentPage + 1
-            )
-          "
-        >
-          ›
-        </button>
-
+        <!-- Filter megamenu panel -->
+        <div v-if="filterOpen" class="filter-megamenu">
+          <div class="megamenu-body">
+            <!-- Era filter group -->
+            <div class="megamenu-group">
+              <span class="megamenu-group-label">Era</span>
+              <div class="filter-buttons">
+                <button
+                    v-for="e in erasList"
+                    :key="e"
+                    class="filter-button"
+                    :class="{ active: selectedEra === e }"
+                    @click="selectEra(e)"
+                >{{ e }}</button>
+              </div>
+            </div>
+            <!-- Period filter group -->
+            <div class="megamenu-group">
+              <span class="megamenu-group-label">Period</span>
+              <div class="filter-buttons">
+                <button
+                    v-for="p in (['All', 'Early', 'Middle', 'Late'] as const)"
+                    :key="p"
+                    clas s="filter-button"
+                    :class="{ active: selectedPeriod === p }"
+                    @click="selectPeriod(p)"
+                >{{ p }}</button>
+              </div>
+            </div>
+            <!-- Nationality filter group -->
+            <div class="megamenu-group">
+              <span class="megamenu-group-label">Nationality</span>
+              <div class="filter-buttons">
+                <button
+                    v-for="n in nationalities"
+                    :key="n"
+                    class="filter-button"
+                    :class="{ active: selectedNationality === n }"
+                    @click="selectNationality(n)"
+                >{{ n }}</button>
+              </div>
+            </div>
+            <!-- Clear all -->
+            <button
+                v-if="activeFilterCount"
+                class="filter-clear-all"
+                @click="clearAll"
+            >Clear all</button>
+          </div>
+        </div>
       </div>
-
     </div>
 
-
-    <!-- =========================
-         Empty
-         ========================= -->
-
-    <div
-        v-else
-        class="empty-state"
-    >
-      No composers match the selected
-      filters.
+    <!-- Result count -->
+    <div class="dir-result">
+      {{ totalCount }} {{ totalCount === 1 ? 'composer' : 'composers' }}
     </div>
 
+    <!-- Unified Composer Card Grid -->
+    <div v-if="totalCount" class="dir-grid">
+      <a
+          v-for="composer in filteredComposers"
+          :key="composer.slug"
+          :href="composerLink(composer)"
+          class="dir-card"
+          :style="{ '--cc': composer.color }"
+      >
+        <span class="dir-accent" aria-hidden="true"></span>
+        <div class="dir-body">
+          <div class="dir-name">{{ composer.name }}</div>
+          <div class="dir-meta">
+            <span
+                class="dir-flag"
+                :title="composer.nationality || 'Unknown'"
+            >{{ nationalityToEmoji(composer.nationality) }}</span>
+            <span>{{ composer.born }}–{{ composer.died }}</span>
+          </div>
+        </div>
+        <el-icon class="dir-arrow"><ArrowRight /></el-icon>
+      </a>
+    </div>
 
+    <!-- Empty state -->
+    <div v-else class="dir-empty">No composers match your filters.</div>
   </div>
-
 </template>
 
-
 <style scoped>
-
-/* =========================
-   Main
-   ========================= */
-
-.composer-list {
+.composer-directory {
   width: 100%;
-  margin: 24px 0 48px;
 }
 
+.dir-toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: .8rem;
+}
 
-/* =========================
-   Filters
-   ========================= */
+.dir-search {
+  flex: 1;
+  min-width: 0;
+}
 
-.filters {
+:global(.dir-search .el-input__wrapper) {
+  height: 40px;
+}
+
+/* ---- Filter entry button ---- */
+.composer-filters {
+  position: relative;
+  display: inline-block;
+}
+
+.filters-entry {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-full);
+  background: var(--md-surface);
+  color: var(--md-on-surface-variant);
+  font-size: 13px;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: border-color var(--md-duration-fast) var(--md-ease),
+              color var(--md-duration-fast) var(--md-ease),
+              background var(--md-duration-fast) var(--md-ease);
+}
+
+.filters-entry:hover {
+  border-color: var(--md-primary);
+  color: var(--md-primary);
+}
+
+.filters-entry.active {
+  border-color: var(--md-primary);
+  color: var(--md-primary);
+  background: color-mix(in srgb, var(--md-primary) 6%, var(--md-surface));
+}
+
+.filters-entry-icon {
+  font-size: 14px;
+}
+
+.filters-entry-count {
+  min-width: 16px;
+  padding: 0 5px;
+  border-radius: var(--md-radius-full);
+  background: var(--md-primary-container);
+  color: var(--md-on-primary-container);
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* ---- Filter megamenu panel ---- */
+.filter-megamenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 30;
+  width: 480px;
+  max-width: calc(100vw - 48px);
+  padding: 16px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-md);
+  background: var(--md-surface);
+  box-shadow: var(--md-shadow-3);
+}
+
+.megamenu-body {
   display: flex;
   flex-direction: column;
-
-  gap: 12px;
-
-  margin-bottom: 18px;
-  padding: 16px;
-
-  background: var(--vp-c-bg-soft);
-
-  border: 1px solid
-  var(--vp-c-divider);
-
-  border-radius: 12px;
-
-  text-align: left;
+  gap: 14px;
 }
 
-
-/* Filter row */
-
-.filter-group {
-  display: grid;
-
-  grid-template-columns:
-    100px minmax(0, 1fr);
-
-  align-items: center;
-
-  justify-items: start;
-
-  column-gap: 14px;
-
-  width: 100%;
-
-  text-align: left;
+.megamenu-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-
-/* Filter label */
-
-.filter-label {
-  width: 100px;
-
+.megamenu-group-label {
   font-size: 12px;
-
   font-weight: 600;
-
-  line-height: 1.4;
-
-  color: var(--vp-c-text-2);
-
-  text-align: left;
+  color: var(--md-on-surface-variant);
+  letter-spacing: .01em;
 }
-
-
-/* Filter buttons */
 
 .filter-buttons {
   display: flex;
-
   flex-wrap: wrap;
-
-  align-items: center;
-
-  justify-content: flex-start;
-
-  gap: 7px;
-
-  min-width: 0;
-
-  width: 100%;
-
-  text-align: left;
+  gap: 8px;
 }
-
-
-/* Filter button */
 
 .filter-button {
-  padding: 5px 11px;
-
-  border: 1px solid
-  var(--vp-c-divider);
-
-  border-radius: 7px;
-
-  background:
-      var(--vp-c-bg);
-
-  color:
-      var(--vp-c-text-2);
-
+  padding: 5px 12px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-full);
+  background: var(--md-surface-container-low);
+  color: var(--md-on-surface-variant);
   font-size: 12px;
-
   line-height: 1.4;
-
   cursor: pointer;
-
-  transition:
-      background 0.15s ease,
-      border-color 0.15s ease,
-      color 0.15s ease;
+  transition: background var(--md-duration-fast) var(--md-ease),
+              border-color var(--md-duration-fast) var(--md-ease),
+              color var(--md-duration-fast) var(--md-ease);
 }
-
 
 .filter-button:hover {
-  border-color:
-      var(--vp-c-brand-1);
-
-  color:
-      var(--vp-c-brand-1);
+  border-color: var(--md-primary);
+  color: var(--md-primary);
+  background: color-mix(in srgb, var(--md-primary) 8%, transparent);
 }
-
 
 .filter-button.active {
-  background:
-      var(--vp-c-brand-1);
-
-  border-color:
-      var(--vp-c-brand-1);
-
-  color: white;
+  background: var(--md-primary);
+  border-color: var(--md-primary);
+  color: var(--md-on-primary);
 }
 
+.filter-button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-primary) 40%, transparent);
+}
 
-/* =========================
-   Result
-   ========================= */
-
-.result-info {
-  margin-bottom: 14px;
-
+.filter-clear-all {
+  align-self: flex-start;
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--md-primary);
   font-size: 12px;
-
-  color: var(--vp-c-text-3);
+  cursor: pointer;
 }
 
-
-/* =========================
-   Composer section
-   ========================= */
-
-.composer-section {
-  width: 100%;
+.filter-clear-all:hover {
+  text-decoration: underline;
 }
 
+/* ---- Result count ---- */
+.dir-result {
+  font-size: 13px;
+  color: var(--md-on-surface-variant);
+  margin-bottom: .6rem;
+}
 
-/* =========================
-   Composer grid
-   ========================= */
-
-.composer-grid {
+/* ---- Card grid: 3 columns on desktop ---- */
+.dir-grid {
   display: grid;
-
-  grid-template-columns:
-    repeat(
-      2,
-      minmax(0, 1fr)
-    );
-
-  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
 }
 
-
-/* =========================
-   Composer card
-   ========================= */
-
-.composer-card {
-  position: relative;
-
+.dir-card {
   display: flex;
+  align-items: stretch;
+  gap: .6rem;
+  padding: .55rem .7rem;
   text-decoration: none;
   color: inherit;
-
-  min-height: 180px;
-
-  overflow: hidden;
-
-  background:
-      var(--vp-c-bg-soft);
-
-  border: 1px solid
-  var(--vp-c-divider);
-
-  border-radius: 12px;
-
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-md);
+  background: var(--md-surface-container-lowest);
   cursor: pointer;
-
-  transition:
-      transform 0.2s ease,
-      border-color 0.2s ease,
-      box-shadow 0.2s ease;
+  transition: background var(--md-duration-fast) var(--md-ease),
+              border-color var(--md-duration-fast) var(--md-ease),
+              box-shadow var(--md-duration-fast) var(--md-ease);
+}
+.dir-card:hover {
+  background: var(--md-surface-container-low);
+  border-color: color-mix(in srgb, var(--cc, var(--md-primary)) 40%, var(--md-outline-variant));
+  box-shadow: var(--md-shadow-1);
+}
+.dir-card:focus-visible {
+  outline: 2px solid var(--md-primary);
+  outline-offset: 2px;
 }
 
-
-.composer-card:hover {
-  transform:
-      translateY(-3px);
-
-  border-color:
-      var(--composer-color);
-
-  box-shadow:
-      0 8px 24px
-      rgba(0, 0, 0, 0.08);
+.dir-accent {
+  flex: 0 0 4px;
+  width: 4px;
+  border-radius: var(--md-radius-full);
+  background: var(--cc, var(--md-primary));
+  align-self: center;
 }
 
-
-/* =========================
-   Color strip
-   ========================= */
-
-.composer-color {
-  flex: 0 0 7px;
-
-  width: 7px;
-}
-
-
-/* =========================
-   Composer content
-   ========================= */
-
-.composer-content {
+.dir-body {
   flex: 1;
-
   min-width: 0;
-
-  padding: 20px 22px;
 }
-
-
-/* Name */
-
-.composer-name {
-  font-size: 18px;
-
-  font-weight: 650;
-
-  line-height: 1.35;
-
-  color:
-      var(--vp-c-text-1);
-}
-
-
-/* Dates */
-
-.composer-dates {
-  margin-top: 4px;
-
-  font-size: 13px;
-
-  color:
-      var(--vp-c-text-2);
-}
-
-
-/* Meta */
-
-.composer-meta {
-  display: flex;
-
-  gap: 7px;
-
-  margin-top: 10px;
-
-  font-size: 12px;
-
-  color:
-      var(--vp-c-text-2);
-}
-
-
-/* Intro */
-
-.composer-intro {
-  margin: 14px 0 0;
-
-  font-size: 13px;
-
-  line-height: 1.6;
-
-  color:
-      var(--vp-c-text-2);
-}
-
-
-/* Link */
-
-.composer-link {
-  margin-top: 14px;
-
-  font-size: 13px;
-
+.dir-name {
+  font-size: 14px;
   font-weight: 500;
-
-  color:
-      var(--vp-c-brand-1);
+  color: var(--md-on-surface);
+  line-height: 1.3;
 }
-
-
-.composer-link span {
-  display: inline-block;
-
-  margin-left: 3px;
-
-  transition:
-      transform 0.2s ease;
-}
-
-
-.composer-card:hover
-.composer-link span {
-  transform:
-      translateX(3px);
-}
-
-
-/* =========================
-   Pagination
-   ========================= */
-
-.pagination {
+.dir-meta {
   display: flex;
-
-  justify-content: center;
-
   align-items: center;
-
-  gap: 6px;
-
-  margin-top: 24px;
-}
-
-
-.page-button {
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  min-width: 32px;
-
-  height: 32px;
-
-  padding: 0 9px;
-
-  border: 1px solid
-  var(--vp-c-divider);
-
-  border-radius: 7px;
-
-  background:
-      var(--vp-c-bg);
-
-  color:
-      var(--vp-c-text-2);
-
+  gap: .4rem;
   font-size: 12px;
-
+  color: var(--md-on-surface-variant);
+  margin-top: .15rem;
+}
+.dir-flag {
+  font-size: 14px;
   line-height: 1;
-
-  cursor: pointer;
-
-  transition:
-      background 0.15s ease,
-      border-color 0.15s ease,
-      color 0.15s ease;
+  cursor: help;
 }
 
-
-.page-button:hover:not(:disabled) {
-  border-color:
-      var(--vp-c-brand-1);
-
-  color:
-      var(--vp-c-brand-1);
+.dir-arrow {
+  flex: 0 0 auto;
+  align-self: center;
+  color: var(--md-outline);
+  font-size: 14px;
+  transition: color var(--md-duration-fast) var(--md-ease);
+}
+.dir-card:hover .dir-arrow {
+  color: var(--md-primary);
 }
 
-
-.page-button.active {
-  background:
-      var(--vp-c-brand-1);
-
-  border-color:
-      var(--vp-c-brand-1);
-
-  color: white;
-}
-
-
-.page-button:disabled {
-  opacity: 0.35;
-
-  cursor: default;
-}
-
-
-/* =========================
-   Empty state
-   ========================= */
-
-.empty-state {
-  padding: 48px 20px;
-
+.dir-empty {
+  padding: 2rem;
   text-align: center;
-
-  font-size: 13px;
-
-  color:
-      var(--vp-c-text-3);
-
-  border: 1px dashed
-  var(--vp-c-divider);
-
-  border-radius: 12px;
+  color: var(--md-on-surface-variant);
+  font-size: 14px;
 }
 
+/* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .dir-grid { grid-template-columns: repeat(2, 1fr); }
+}
 
-/* =========================
-   Mobile
-   ========================= */
-
-@media (max-width: 760px) {
-
-  .composer-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 640px) {
+  .dir-toolbar {
+    flex-wrap: wrap;
   }
 
-  .filter-group {
-    grid-template-columns: 1fr;
-
-    row-gap: 7px;
+  .dir-search {
+    flex: 1 1 100%;
   }
 
-  .filter-label {
+  .filter-megamenu {
+    position: fixed;
+    top: 70px;
+    left: 12px;
+    right: 12px;
     width: auto;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
   }
-
+  .dir-grid { grid-template-columns: 1fr; }
 }
-
 </style>

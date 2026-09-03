@@ -257,8 +257,8 @@ onUnmounted(() => {
   gap: .65rem;
   margin: 0 0 1rem;
   padding: .8rem;
-  border-top: 1px solid var(--archive-rule);
-  border-bottom: 1px solid var(--archive-rule);
+  border-top: 1px solid var(--md-outline-variant);
+  border-bottom: 1px solid var(--md-outline-variant);
 }
 
 .album-search-wrap {
@@ -266,9 +266,10 @@ onUnmounted(() => {
   align-items: center;
   gap: .5rem;
   padding: 0 .75rem;
-  border: 1px solid var(--archive-rule);
-  background: var(--vp-c-bg-elv);
-  color: var(--vp-c-text-3);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-sm);
+  background: var(--md-surface-container-lowest);
+  color: var(--md-on-surface-variant);
 }
 
 .album-search {
@@ -278,7 +279,7 @@ onUnmounted(() => {
   border: 0;
   outline: 0;
   background: transparent;
-  color: var(--archive-ink);
+  color: var(--md-on-surface);
   font: inherit;
   font-size: .87rem;
 }
@@ -286,29 +287,28 @@ onUnmounted(() => {
 .album-select {
   height: 42px;
   padding: 0 .65rem;
-  border: 1px solid var(--archive-rule);
-  border-radius: 0;
-  background: var(--vp-c-bg-elv);
-  color: var(--archive-ink);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-sm);
+  background: var(--md-surface-container-lowest);
+  color: var(--md-on-surface);
   font: 12px var(--vp-font-family-base);
 }
 
 .album-search-wrap:focus-within, .album-select:focus {
-  border-color: var(--archive-oxide);
-  box-shadow: 3px 3px 0 var(--vp-c-brand-soft);
+  border-color: var(--md-primary);
+  box-shadow: 0 0 0 1px var(--md-primary);
   outline: 0;
 }
 
 .album-result-count {
   margin: 0 0 1.2rem;
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
   font-size: 12px;
-  letter-spacing: .05em;
-  text-transform: uppercase;
+  letter-spacing: .01em;
 }
 
 .album-result-count span {
-  color: var(--archive-oxide);
+  color: var(--md-primary);
   font-family: var(--vp-font-family-mono);
   font-size: 1.05em;
 }
@@ -321,14 +321,14 @@ onUnmounted(() => {
 
 .album-state {
   padding: 3rem 1rem;
-  border-top: 1px solid var(--archive-rule);
-  border-bottom: 1px solid var(--archive-rule);
-  color: var(--vp-c-text-3);
+  border-top: 1px solid var(--md-outline-variant);
+  border-bottom: 1px solid var(--md-outline-variant);
+  color: var(--md-on-surface-variant);
   text-align: center;
 }
 
 .album-error {
-  color: var(--vp-c-danger-1);
+  color: var(--md-error);
 }
 
 .back-to-top {
@@ -339,20 +339,21 @@ onUnmounted(() => {
   display: flex;
   gap: .45rem;
   align-items: center;
-  padding: .65rem .85rem;
-  border: 1px solid var(--archive-ink);
-  border-radius: 0;
-  background: var(--archive-ink);
-  color: var(--archive-paper);
-  font: 700 11px var(--vp-font-family-base);
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  padding: .65rem .95rem;
+  border: 1px solid transparent;
+  border-radius: var(--md-radius-full);
+  background: var(--md-primary);
+  color: var(--md-on-primary);
+  font: 600 12px var(--vp-font-family-base);
+  letter-spacing: .01em;
   cursor: pointer;
-  transition: transform var(--archive-ease), background var(--archive-ease);
+  box-shadow: var(--md-shadow-2);
+  transition: transform var(--md-duration-fast) var(--md-ease), background var(--md-duration-fast) var(--md-ease), box-shadow var(--md-duration-fast) var(--md-ease);
 }
 
 .back-to-top:hover {
-  background: var(--archive-oxide);
+  background: color-mix(in srgb, var(--md-primary) 88%, var(--md-on-primary));
+  box-shadow: var(--md-shadow-3);
   transform: translateY(-2px);
 }
 

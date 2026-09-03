@@ -26,6 +26,19 @@ const currentPage = ref(1)
 
 const pageSize = 10
 
+const expandedRows = ref<Set<number>>(new Set())
+const popoverWidth = typeof window !== 'undefined' ? Math.min(480, window.innerWidth - 120) : 360
+
+function toggleExpand(index: number) {
+  const next = new Set(expandedRows.value)
+  if (next.has(index)) {
+    next.delete(index)
+  } else {
+    next.add(index)
+  }
+  expandedRows.value = next
+}
+
 async function loadWorks() {
   loading.value = true
   error.value = ''
@@ -95,37 +108,42 @@ const paginatedWorks = computed(() =>
     )
 )
 
-/*
- * 空行数量。
- *
- * 例如：
- * 10 条 → 0 个空行
- * 7 条  → 3 个空行
- * 2 条  → 8 个空行
- *
- * 保证每一页表格始终保持相同高度。
- */
-const emptyRowCount = computed(() =>
-    Math.max(0, pageSize - paginatedWorks.value.length)
+const columnHeaders = computed(() =>
+    headers.value.filter(
+        header => header.toLowerCase() !== 'instrumentation' && header.toLowerCase() !== 'note'
+    )
 )
 
-function sortBy(key: string) {
-  if (sortKey.value === key) {
-    sortAsc.value = !sortAsc.value
-  } else {
-    sortKey.value = key
-    sortAsc.value = true
-  }
+/*
+ * el-table 的 custom 排序事件驱动排序状态。
+ * order 为 null（第三次点击取消排序）时保持现状。
+ */
+function onSortChange(event: { prop: string; order: 'ascending' | 'descending' | null }) {
+  if (!event.prop || !event.order) return
+  sortKey.value = event.prop
+  sortAsc.value = event.order === 'ascending'
 }
 
 /*
- * 第一列、Type、Key 不省略。
+ * 第一列、Type、Key 居中完整显示；
+ * 其余列省略号 + hover tooltip。
  */
 function isFullContentColumn(header: string, index: number) {
   if (index === 0) return true
 
   return header.trim().toLowerCase() === 'type' ||
       header.trim().toLowerCase() === 'key'
+}
+
+/* 列宽启发：编号列紧凑固定，former KV 固定宽度，Type/Key 固定居中，其余弹性。 */
+function columnWidth(header: string, index: number): number | undefined {
+  if (index === 0) return 110
+
+  const key = header.trim().toLowerCase()
+  if (key === 'former kv') return 90
+  if (key === 'type') return 150
+  if (key === 'key') return 120
+  return undefined
 }
 
 watch(
@@ -155,15 +173,17 @@ onMounted(loadWorks)
 
     <!-- Search -->
     <div class="filters">
-      <span aria-hidden="true">⌕</span>
-
-      <input
+      <el-input
           v-model="searchQuery"
           class="search-input"
-          type="search"
+          clearable
           :placeholder="`Search ${works.length} ${catalogue} works`"
           aria-label="Search catalogue works"
       >
+        <template #prefix>
+          <span aria-hidden="true">⌕</span>
+        </template>
+      </el-input>
     </div>
 
     <!-- Catalogue filters -->
@@ -192,123 +212,84 @@ onMounted(loadWorks)
         {{ filteredWorks.length }} of {{ works.length }} works
       </p>
 
-      <!-- Table -->
-      <div class="table-wrapper">
-
-        <table>
-
-          <thead>
-          <tr>
-            <th
-                v-for="(header, index) in headers"
-                :key="header"
-                :class="{
-                  'full-content-column': isFullContentColumn(header, index)
-                }"
-                :aria-sort="
-                  sortKey === header
-                    ? (sortAsc ? 'ascending' : 'descending')
-                    : 'none'
-                "
-                @click="sortBy(header)"
-            >
-                <span class="header-content">
-                  {{ header }}
-
-                  <span
-                      v-if="sortKey === header"
-                      aria-hidden="true"
-                      class="sort-arrow"
+      <!-- Table (Element Plus, themed via M3 token mapping) -->
+      <el-table
+          v-loading="loading"
+          :data="paginatedWorks"
+          border
+          class="catalogue-eltable"
+          empty-text="No matching works"
+          @sort-change="onSortChange"
+      >
+        <!-- Toggle + first column merged -->
+        <el-table-column
+            :label="columnHeaders[0]"
+            :width="columnWidth(columnHeaders[0], 0)"
+            :min-width="columnWidth(columnHeaders[0], 0) ? undefined : 150"
+            align="center"
+            :fixed="true"
+        >
+          <template #default="{ row, $index }">
+            <div class="first-column-cell">
+              <el-popover
+                  placement="bottom"
+                  :width="popoverWidth"
+                  trigger="click"
+                  teleported
+                  @show="toggleExpand($index)"
+                  @hide="toggleExpand($index)"
+              >
+                <template #reference>
+                  <button
+                    type="button"
+                    class="expand-toggle"
+                    :class="{ 'expand-toggle--active': expandedRows.has($index) }"
+                    :aria-expanded="expandedRows.has($index) ? 'true' : 'false'"
+                    aria-label="Expand row"
                   >
-                    {{ sortAsc ? '↑' : '↓' }}
-                  </span>
-                </span>
-            </th>
-          </tr>
-          </thead>
-
-          <tbody>
-
-          <!-- Actual rows -->
-          <template v-if="paginatedWorks.length">
-
-            <tr
-                v-for="(work, index) in paginatedWorks"
-                :key="`${work[headers[0]]}-${index}`"
-            >
-
-              <td
-                  v-for="(header, columnIndex) in headers"
-                  :key="header"
-                  :class="{
-                    'full-content-column':
-                      isFullContentColumn(header, columnIndex)
-                  }"
-                  :title="work[header] || ''"
-              >
-                  <span class="cell-content">
-                    {{ work[header] }}
-                  </span>
-              </td>
-
-            </tr>
-
-            <!-- Empty rows -->
-            <tr
-                v-for="index in emptyRowCount"
-                :key="`empty-${index}`"
-                class="empty-row"
-                aria-hidden="true"
-            >
-              <td
-                  v-for="header in headers"
-                  :key="header"
-              >
-                &nbsp;
-              </td>
-            </tr>
-
+                    <svg viewBox="0 0 1024 1024" width="16" height="16" fill="currentColor">
+                      <path d="M340.864 149.312a30.59 30.59 0 0 0 0 42.752L652.736 512 340.864 831.872a30.59 30.59 0 0 0 0 42.752 29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z"/>
+                    </svg>
+                  </button>
+                </template>
+                <dl class="expand-detail">
+                  <template
+                      v-for="header in headers"
+                      :key="header"
+                  >
+                    <dt>{{ header }}</dt>
+                    <dd>{{ row[header] || '—' }}</dd>
+                  </template>
+                </dl>
+              </el-popover>
+              <span class="first-column-text">{{ row[columnHeaders[0]] }}</span>
+            </div>
           </template>
+        </el-table-column>
 
-          <!-- No results -->
-          <tr v-else>
-            <td
-                :colspan="headers.length || 1"
-                class="no-results"
-            >
-              No matching works
-            </td>
-          </tr>
-
-          </tbody>
-
-        </table>
-
-      </div>
+        <el-table-column
+            v-for="(header, index) in columnHeaders.slice(1)"
+            :key="header"
+            :prop="header"
+            :label="header"
+            sortable="custom"
+            :width="columnWidth(header, index + 1)"
+            :min-width="columnWidth(header, index + 1) ? undefined : 150"
+            :align="isFullContentColumn(header, index + 1) ? 'center' : 'left'"
+            :show-overflow-tooltip="!isFullContentColumn(header, index + 1)"
+        />
+      </el-table>
 
       <!-- Pagination -->
       <div class="pagination">
-
-        <button
-            type="button"
-            :disabled="currentPage === 1"
-            @click="currentPage--"
-        >
-          ← Previous
-        </button>
-
-        <span>
-          {{ currentPage }} / {{ totalPages }}
-        </span>
-
-        <button
-            type="button"
-            :disabled="currentPage === totalPages"
-            @click="currentPage++"
-        >
-          Next →
-        </button>
-
+        <el-pagination
+            v-model:current-page="currentPage"
+            :page-size="pageSize"
+            :total="filteredWorks.length"
+            layout="prev, pager, next"
+            background
+            :hide-on-single-page="false"
+        />
       </div>
 
     </template>
@@ -319,176 +300,132 @@ onMounted(loadWorks)
 <style scoped>
 .filters {
   position: relative;
-}
-
-.filters > span {
-  position: absolute;
-  left: .75rem;
-  z-index: 1;
-  color: var(--vp-c-text-3);
-  pointer-events: none;
+  margin-bottom: 12px;
 }
 
 .search-input {
   width: 100%;
-  padding-left: 2rem;
+  max-width: 480px;
 }
 
 .result-count {
   margin: 0 0 12px;
   font-size: 12px;
-  color: var(--vp-c-text-3);
-  letter-spacing: .05em;
-  text-transform: uppercase;
+  color: var(--md-outline);
+  letter-spacing: .01em;
 }
 
+/* ---------- Element Plus table → M3 ---------- */
 
-/* =========================
-   Table wrapper
-   ========================= */
-
-.table-wrapper {
+.catalogue-eltable {
+  --el-table-border-color: var(--md-outline-variant);
+  --el-table-header-bg-color: var(--md-surface-container-low);
+  --el-table-header-text-color: var(--md-on-surface-variant);
+  --el-table-text-color: var(--md-on-surface);
+  --el-table-row-hover-bg-color: var(--md-surface-container-low);
+  --el-table-bg-color: var(--md-surface);
+  --el-table-tr-bg-color: var(--md-surface);
+  --el-table-expanded-cell-bg-color: var(--md-surface-container-low);
   width: 100%;
-  overflow-x: auto;
-}
-.table-wrapper table {
-  display: table;
-}
-.table-wrapper table {
-  width: 100%;
-  min-width: 100%;
-  max-width: none;
-  margin: 0;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-
-
-/* =========================
-   Header
-   ========================= */
-
-.table-wrapper th {
-  height: 42px;
-  padding: 8px 10px;
-  text-align: center;
-  vertical-align: middle;
-  white-space: nowrap;
+  border-radius: var(--md-radius-md);
   overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.catalogue-eltable :deep(.el-scrollbar__view) {
+  display: block !important;
+  vertical-align: top !important;
+}
+
+.catalogue-eltable :deep(.el-table__header th) {
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+
+/* Expand toggle button */
+.expand-toggle {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--md-outline-variant, var(--vp-c-divider));
+  border-radius: var(--md-radius-full);
+  background: transparent;
+  color: var(--md-on-surface-variant, var(--vp-c-text-2));
   cursor: pointer;
+  transition: transform 160ms var(--md-ease, ease),
+              background 120ms var(--md-ease, ease),
+              border-color 120ms var(--md-ease, ease),
+              color 120ms var(--md-ease, ease);
 }
 
-.header-content {
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.expand-toggle:hover {
+  border-color: var(--md-primary, var(--vp-c-brand-1));
+  color: var(--md-primary, var(--vp-c-brand-1));
 }
 
-.sort-arrow {
-  margin-left: 4px;
+.expand-toggle--active {
+  transform: rotate(90deg);
+  color: var(--md-primary, var(--vp-c-brand-1));
+  border-color: var(--md-primary, var(--vp-c-brand-1));
 }
 
-
-/* =========================
-   Body
-   ========================= */
-
-.table-wrapper tbody tr {
-  height: 44px;
+.expand-toggle:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-primary, var(--vp-c-brand-1)) 40%, transparent);
 }
 
-.table-wrapper td {
-  height: 44px;
-  padding: 8px 10px;
-  vertical-align: middle;
-}
-
-
-/* =========================
-   普通列
-   显示省略号
-   鼠标悬浮 title 显示完整内容
-   ========================= */
-
-.table-wrapper td:not(.full-content-column) {
-  overflow: hidden;
-}
-
-.cell-content {
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-
-/* =========================
-   第一列 / Type / Key
-   完整显示
-   ========================= */
-
-.table-wrapper th.full-content-column,
-.table-wrapper td.full-content-column {
-  overflow: hidden;
-  white-space: nowrap;
-  text-align: center;
-}
-
-.table-wrapper td.full-content-column .cell-content {
-  overflow: visible;
-  white-space: nowrap;
-  text-overflow: clip;
-  text-align: center;
-}
-
-
-/* =========================
-   Empty rows
-   ========================= */
-
-.table-wrapper tr.empty-row td {
-  height: 44px;
-  padding: 8px 10px;
-}
-
-
-/* =========================
-   No results
-   ========================= */
-
-.no-results {
-  height: 440px;
-  text-align: center;
-  vertical-align: middle;
-  color: var(--vp-c-text-3);
-}
-
-
-/* =========================
-   Pagination
-   ========================= */
-
-.pagination {
+/* First column cell with toggle + text */
+.first-column-cell {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  margin-top: 14px;
+  gap: 8px;
 }
 
-.pagination button {
-  cursor: pointer;
+.first-column-text {
+  font-weight: 500;
 }
 
-.pagination button:disabled {
-  cursor: not-allowed;
-  opacity: .5;
+/* Expand content: full field list */
+.expand-detail {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 6px 18px;
+  margin: 0;
+  padding: 4px 8px;
 }
 
-.pagination span {
-  min-width: 60px;
-  text-align: center;
+.expand-detail dt {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--md-on-surface-variant);
+}
+
+.expand-detail dd {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--md-on-surface);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  .expand-detail {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+
+  .expand-detail dd {
+    margin-bottom: 8px;
+  }
+}
+
+/* ---------- Pagination ---------- */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 </style>

@@ -18,10 +18,59 @@ export const eras = [
   'Baroque',
   'Classical',
   'Romantic',
-  'Modern'
+  'Modernism',
+  'Contemporary'
 ]
 
+/**
+ * Era classification groups (for reference, not displayed as separate timelines).
+ */
+export const eraGroups: Record<string, string> = {
+  'Medieval': 'Early music',
+  'Renaissance': 'Early music',
+  'Baroque': 'Common practice period',
+  'Classical': 'Common practice period',
+  'Romantic': 'Common practice period',
+  'Modernism': 'New music',
+  'Contemporary': 'New music'
+}
+
+/**
+ * Nationality to flag emoji mapping.
+ * Historical/mixed entities that don't map cleanly to a modern country
+ * use a neutral emoji (🎵 for historical, 🌐 for mixed).
+ */
+const nationalityEmoji: Record<string, string> = {
+  'French': '🇫🇷',
+  'Franco-Flemish': '🎵',
+  'Italian': '🇮🇹',
+  'English': '🇬🇧',
+  'German': '🇩🇪',
+  'Austrian': '🇦🇹',
+  'Czech': '🇨🇿',
+  'Russian-French-American': '🌐',
+}
+
+const fallbackEmoji = '🌍'
+
+export function nationalityToEmoji(nationality: string): string {
+  if (!nationality) return fallbackEmoji
+  return nationalityEmoji[nationality] || fallbackEmoji
+}
+
 export const composers: Composer[] = [
+  {
+    name: 'Hildegard von Bingen',
+    born: 1098,
+    died: 1179,
+    era: 'Medieval',
+    period: 'Early',
+    nationality: 'German',
+    intro: 'A German Benedictine abbess, composer, and mystic whose liturgical songs are among the earliest surviving notated music by a named female composer.',
+    slug: 'hildegard',
+    color: '#a855f7'
+  },
+
   {
     name: 'Guillaume de Machaut',
     born: 1300,
@@ -32,6 +81,18 @@ export const composers: Composer[] = [
     intro: 'A major French composer and poet of the Ars Nova period.',
     slug: 'machaut',
     color: '#8b5cf6'
+  },
+
+  {
+    name: 'Pérotin',
+    born: 1160,
+    died: 1230,
+    era: 'Medieval',
+    period: 'Middle',
+    nationality: 'French',
+    intro: 'A French composer of the Notre-Dame school who expanded polyphonic music to three and four voices.',
+    slug: 'perotin',
+    color: '#7c3aed'
   },
 
   {
@@ -113,7 +174,7 @@ export const composers: Composer[] = [
     era: 'Baroque',
     period: 'Early',
     nationality: 'English',
-    intro: 'One of England’s most important Baroque composers.',
+    intro: 'One of England\'s most important Baroque composers.',
     slug: 'purcell',
     color: '#16a34a'
   },
@@ -135,11 +196,11 @@ export const composers: Composer[] = [
     born: 1678,
     died: 1741,
     era: 'Baroque',
-    period: 'Middle',
+    period: 'Late',
     nationality: 'Italian',
     intro: 'An Italian composer and violinist best known for his concertos, operas and sacred music.',
     slug: 'vivaldi',
-    color: '#ca8a04'
+    color: '#15803d'
   },
 
   {
@@ -147,11 +208,11 @@ export const composers: Composer[] = [
     born: 1681,
     died: 1767,
     era: 'Baroque',
-    period: 'Late',
+    period: 'Middle',
     nationality: 'German',
-    intro: 'One of the most prolific composers of the late Baroque period.',
+    intro: 'A prolific German Baroque composer whose music bridged the Baroque and Classical styles.',
     slug: 'telemann',
-    color: '#d97706'
+    color: '#0f766e'
   },
 
   {
@@ -161,9 +222,21 @@ export const composers: Composer[] = [
     era: 'Baroque',
     period: 'Late',
     nationality: 'French',
-    intro: 'A major French composer and music theorist, particularly known for his operas and keyboard music.',
+    intro: 'A major French composer and music theory writer of the late Baroque.',
     slug: 'rameau',
-    color: '#ea580c'
+    color: '#0e7490'
+  },
+
+  {
+    name: 'Giovanni Battista Pergolesi',
+    born: 1710,
+    died: 1736,
+    era: 'Baroque',
+    period: 'Early',
+    nationality: 'Italian',
+    intro: 'An Italian composer, violinist and organist of the Baroque period.',
+    slug: 'pergolesi',
+    color: '#0369a1'
   },
 
   {
@@ -173,7 +246,7 @@ export const composers: Composer[] = [
     era: 'Baroque',
     period: 'Late',
     nationality: 'German',
-    intro: 'One of the central figures of Western classical music and the late Baroque.',
+    intro: 'One of the most influential composers in Western music history and a central figure of the late Baroque.',
     slug: 'bach',
     color: '#dc2626'
   },
@@ -184,8 +257,8 @@ export const composers: Composer[] = [
     died: 1759,
     era: 'Baroque',
     period: 'Late',
-    nationality: 'German-British',
-    intro: 'A German-born composer who became one of the leading figures of English Baroque music.',
+    nationality: 'German',
+    intro: 'A German-British Baroque composer known for his operas, oratorios and concerti grossi, and one of the leading figures of English Baroque music.',
     slug: 'handel',
     color: '#e11d48'
   },
@@ -251,6 +324,18 @@ export const composers: Composer[] = [
   },
 
   {
+    name: 'Robert Schumann',
+    born: 1810,
+    died: 1856,
+    era: 'Romantic',
+    period: 'Middle',
+    nationality: 'German',
+    intro: 'A German Romantic composer known for his piano works, songs and orchestral music.',
+    slug: 'schumann',
+    color: '#4338ca'
+  },
+
+  {
     name: 'Johannes Brahms',
     born: 1833,
     died: 1897,
@@ -278,7 +363,7 @@ export const composers: Composer[] = [
     name: 'Claude Debussy',
     born: 1862,
     died: 1918,
-    era: 'Modern',
+    era: 'Modernism',
     period: 'Early',
     nationality: 'French',
     intro: 'A French composer whose music helped redefine harmony, timbre and musical form at the turn of the twentieth century.',
@@ -290,12 +375,24 @@ export const composers: Composer[] = [
     name: 'Igor Stravinsky',
     born: 1882,
     died: 1971,
-    era: 'Modern',
+    era: 'Modernism',
     period: 'Middle',
     nationality: 'Russian-French-American',
     intro: 'One of the most influential composers of the twentieth century, known for his constantly evolving musical language.',
     slug: 'stravinsky',
     color: '#0369a1'
+  },
+
+  {
+    name: 'Arnold Schoenberg',
+    born: 1874,
+    died: 1951,
+    era: 'Modernism',
+    period: 'Late',
+    nationality: 'Austrian',
+    intro: 'An Austrian composer who pioneered atonality and the twelve-tone technique, fundamentally changing the course of twentieth-century music.',
+    slug: 'schoenberg',
+    color: '#0c4a6e'
   }
 ]
 

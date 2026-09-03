@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Jean-Philippe Rameau
 outline: deep
 ---

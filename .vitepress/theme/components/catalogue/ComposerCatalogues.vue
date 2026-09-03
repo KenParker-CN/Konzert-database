@@ -64,8 +64,8 @@ onMounted(async () => {
 .catalogue-card {
   padding: 16px 18px;
 
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
+  background: var(--md-surface-container);
+  border: 1px solid var(--md-outline-variant);
   border-radius: 12px;
 }
 
@@ -78,7 +78,7 @@ onMounted(async () => {
   margin: 6px 0 0;
 
   font-size: 13px;
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
 }
 
 .catalogue-types {
@@ -86,6 +86,6 @@ onMounted(async () => {
 
   font-size: 12px;
   line-height: 1.6;
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
 }
 </style>

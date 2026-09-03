@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Johannes Brahms
 outline: deep
 ---

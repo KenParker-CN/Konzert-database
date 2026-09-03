@@ -1,16 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { composers, eras } from './theme/data/composers'
 import { catalogues } from './theme/data/catalogues'
-
-const composerItems = eras
-  .map(era => ({
-    text: era,
-    collapsed: false,
-    items: composers
-      .filter(composer => composer.era === era && composer.slug)
-      .map(composer => ({ text: composer.name, link: `/pages/composers/${composer.slug}` }))
-  }))
-  .filter(group => group.items.length > 0)
 
 const catalogueItems = catalogues.map(catalogue => ({
   text: `${catalogue.id} · ${catalogue.name}`,
@@ -32,7 +21,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Composers', link: '/pages/composers' },
       { text: 'Catalogues', link: '/catalogues?tab=RV' },
-      { text: 'Collections', link: '/pages/albums' }
+      { text: 'Collections', link: '/pages/albums' },
+      { text: 'MB Search', link: '/docs/mbSearch' }
     ],
 
     outline: 'deep',
@@ -42,24 +32,23 @@ export default defineConfig({
         {
           text: 'Composers',
           items: [
-            { text: 'Composer list', link: '/pages/composers' }
+            { text: 'Composer', link: '/pages/composers' }
           ]
         },
-        ...composerItems,
         {
-          text: 'Work Catalogues',
+          text: 'Catalogues',
           items: catalogueItems
         },
         {
           text: 'Collections',
           items: [
-            { text: 'Album collections', link: '/pages/albums' }
+            { text: 'Albums', link: '/pages/albums' }
           ]
         }
       ],
       '/catalogues': [
         {
-          text: 'Work Catalogues',
+          text: 'Catalogues',
           items: [
             { text: 'Browse catalogues', link: '/catalogues?tab=RV' },
             ...catalogueItems
@@ -68,14 +57,14 @@ export default defineConfig({
         {
           text: 'Composers',
           items: [
-            { text: 'Composer list', link: '/pages/composers' },
+            { text: 'Composer', link: '/pages/composers' },
             ...catalogueComposerItems
           ]
         },
         {
           text: 'Collections',
           items: [
-            { text: 'Album collections', link: '/pages/albums' }
+            { text: 'Albums', link: '/pages/albums' }
           ]
         }
       ],
@@ -83,14 +72,14 @@ export default defineConfig({
         {
           text: 'Collections',
           items: [
-            { text: 'Album gallery', link: '/pages/albums' }
+            { text: 'Albums', link: '/pages/albums' }
           ]
         },
         {
           text: 'Related',
           items: [
-            { text: 'Composer list', link: '/pages/composers' },
-            { text: 'Work catalogues', link: '/catalogues?tab=RV' }
+            { text: 'Composer', link: '/pages/composers' },
+            { text: 'Catalogues', link: '/catalogues?tab=RV' }
           ]
         }
       ],
@@ -98,9 +87,9 @@ export default defineConfig({
         {
           text: 'Projects',
           items: [
-            { text: 'Classical Composers', link: '/pages/composers' },
-            { text: 'Works Catalogues', link: '/catalogues?tab=RV' },
-            { text: 'Album Collections', link: '/pages/albums' }
+            { text: 'Composer', link: '/pages/composers' },
+            { text: 'Catalogues', link: '/catalogues?tab=RV' },
+            { text: 'Albums', link: '/pages/albums' }
           ]
         }
       ]

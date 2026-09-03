@@ -88,7 +88,7 @@ onUnmounted(() => {
   place-items: center;
   padding: 1.25rem;
   overflow: hidden;
-  background: rgba(24, 22, 18, .7);
+  background: color-mix(in srgb, var(--md-scrim) 55%, transparent);
   backdrop-filter: blur(5px);
 }
 
@@ -98,11 +98,9 @@ onUnmounted(() => {
   height: min(700px, calc(100vh - 2.5rem));
   overflow: hidden;
   padding: clamp(1.25rem, 3vw, 2.5rem);
-  /*
-  border: 1px solid var(--archive-rule);
-  */
-  background: var(--vp-c-bg);
-  box-shadow: 0 24px 80px rgba(0, 0, 0, .35);
+  background: var(--md-surface-container-high);
+  border-radius: var(--md-radius-lg);
+  box-shadow: var(--md-shadow-3);
 }
 
 .album-modal-close {
@@ -112,12 +110,18 @@ onUnmounted(() => {
   z-index: 1;
   width: 2rem;
   height: 2rem;
-  border: 1px solid var(--archive-rule);
+  border: 1px solid var(--md-outline-variant);
   border-radius: 50%;
-  background: var(--vp-c-bg-elv);
-  color: var(--archive-ink);
+  background: var(--md-surface-container);
+  color: var(--md-on-surface);
   font-size: 1.35rem;
   cursor: pointer;
+  transition: background var(--md-duration-fast) var(--md-ease), border-color var(--md-duration-fast) var(--md-ease);
+}
+
+.album-modal-close:hover {
+  border-color: var(--md-outline);
+  background: var(--md-surface-container-high);
 }
 
 .album-modal-layout {
@@ -131,7 +135,7 @@ onUnmounted(() => {
   position: relative;
   height: 420px;
   overflow: hidden;
-  background: var(--vp-c-bg-soft);
+  background: var(--md-surface-container);
 }
 
 .album-cover img {
@@ -146,8 +150,8 @@ onUnmounted(() => {
   height: 100%;
   place-items: center;
   padding: 1rem;
-  color: var(--vp-c-text-2);
-  font-family: var(--archive-serif);
+  color: var(--md-on-surface-variant);
+  font-family: var(--font-ui);
   font-size: 1.7rem;
   text-align: center;
 }
@@ -164,17 +168,18 @@ onUnmounted(() => {
 
 .genre-tag {
   padding: .22rem .42rem;
-  background: color-mix(in srgb, var(--archive-ink) 84%, transparent);
-  color: var(--archive-paper);
+  background: color-mix(in srgb, var(--md-inverse-surface) 88%, transparent);
+  color: var(--md-inverse-on-surface);
   font-size: .68rem;
+  border-radius: var(--md-radius-sm);
 }
 
 .album-modal-info h2 {
   margin: .8rem 2.5rem .7rem 0;
-  font-family: var(--archive-serif);
+  font-family: var(--font-ui);
   font-size: clamp(1.6rem, 3vw, 2.4rem);
-  font-weight: 400;
-  line-height: 1;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 .album-modal-facts {
@@ -186,7 +191,7 @@ onUnmounted(() => {
 }
 
 .album-modal-facts dt {
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
   font-weight: 600;
 }
 
@@ -205,7 +210,7 @@ onUnmounted(() => {
 .album-modal-metadata {
   margin-top: .65rem;
   overflow: hidden;
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
   font-size: .8rem;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -220,8 +225,17 @@ onUnmounted(() => {
 
 .album-modal-related a {
   padding: .3rem .5rem;
-  border: 1px solid var(--archive-rule);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-sm);
+  color: var(--md-on-surface-variant);
   font-size: .75rem;
+  transition: border-color var(--md-duration-fast) var(--md-ease), color var(--md-duration-fast) var(--md-ease), background var(--md-duration-fast) var(--md-ease);
+}
+
+.album-modal-related a:hover {
+  border-color: var(--md-primary);
+  color: var(--md-primary);
+  background: color-mix(in srgb, var(--md-primary) 8%, transparent);
 }
 
 @media (max-width: 700px) {

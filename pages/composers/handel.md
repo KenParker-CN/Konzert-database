@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: George Frideric Handel
 outline: deep
 ---

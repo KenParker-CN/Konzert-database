@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Wolfgang Amadeus Mozart
 outline: deep
 ---

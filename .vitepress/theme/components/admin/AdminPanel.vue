@@ -52,14 +52,14 @@ function handleLogout() {
 
 .admin-panel h1 {
   margin: 0 0 .25rem;
-  font-family: var(--archive-serif), Georgia, serif;
-  font-weight: 400;
-  letter-spacing: -.02em;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  letter-spacing: -.01em;
 }
 
 .admin-panel-tagline {
   margin: 0 0 1.5rem;
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
   font-size: .9rem;
 }
 
@@ -69,44 +69,44 @@ function handleLogout() {
   justify-content: space-between;
   gap: .75rem;
   padding: .65rem .85rem;
-  border: 1px solid var(--archive-rule);
-  border-radius: 2px;
-  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-md);
+  background: var(--md-surface-container-low);
 }
 
 .admin-user {
   font-size: .85rem;
-  color: var(--vp-c-text-2);
+  color: var(--md-on-surface-variant);
 }
 
 .admin-logout {
-  padding: .4rem .7rem;
-  border: 1px solid var(--archive-ink);
-  border-radius: 2px;
+  padding: .4rem .9rem;
+  border: 1px solid var(--md-outline);
+  border-radius: var(--md-radius-full);
   background: transparent;
-  color: var(--archive-ink);
-  font: 700 11px var(--vp-font-family-base);
-  letter-spacing: .07em;
-  text-transform: uppercase;
+  color: var(--md-on-surface);
+  font: 500 13px var(--vp-font-family-base);
+  letter-spacing: .01em;
   cursor: pointer;
   transition:
-      background var(--archive-ease),
-      border-color var(--archive-ease),
-      color var(--archive-ease);
+      background var(--md-duration-fast) var(--md-ease),
+      border-color var(--md-duration-fast) var(--md-ease),
+      color var(--md-duration-fast) var(--md-ease);
 }
 
 .admin-logout:hover {
-  background: var(--archive-oxide);
-  border-color: var(--archive-oxide);
-  color: var(--archive-paper);
+  background: var(--md-primary);
+  border-color: var(--md-primary);
+  color: var(--md-on-primary);
 }
 
 .admin-placeholder {
   margin-top: 1.5rem;
   padding: 1.25rem 1.4rem;
-  border: 1px dashed var(--archive-rule);
-  border-radius: 2px;
-  color: var(--vp-c-text-2);
+  border: 1px dashed var(--md-outline-variant);
+  border-radius: var(--md-radius-md);
+  background: var(--md-surface-container-low);
+  color: var(--md-on-surface-variant);
   font-size: .9rem;
 }
 

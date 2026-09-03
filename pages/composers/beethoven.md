@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Ludwig van Beethoven
 outline: deep
 ---

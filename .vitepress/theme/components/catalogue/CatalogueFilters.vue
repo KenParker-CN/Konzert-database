@@ -27,8 +27,11 @@ const collapsedSize = 8
 // 控制每个筛选组内部是否显示全部选项
 const expanded = ref<Record<string, boolean>>({})
 
-// 当前打开的筛选器
-const openField = ref<string | null>(null)
+// Megamenu 面板整体开合
+const open = ref(false)
+
+// 当前激活的分类（Type / Key / Instrumentation）
+const activeSection = ref('')
 
 // 整个筛选器容器
 const filterContainer = ref<HTMLElement | null>(null)
@@ -39,6 +42,12 @@ const activeCount = computed(() =>
         (total, values) => total + values.length,
         0
     )
+)
+
+// 当前激活的筛选组
+const activeGroup = computed(() =>
+    props.groups.find(group => group.field === activeSection.value)
+        ?? props.groups[0]
 )
 
 // 判断某个选项是否被选中
@@ -126,18 +135,21 @@ function clearGroup(field: string) {
 // 清除所有筛选条件
 function clearAll() {
   emit('update:modelValue', {})
-  openField.value = null
+  expanded.value = {}
 }
 
-// 打开 / 关闭某个筛选器
+// 打开 / 关闭面板；已打开时点击分类即切换激活分类
 function togglePanel(field: string) {
-  openField.value =
-      openField.value === field
-          ? null
-          : field
+  if (open.value && activeSection.value === field) {
+    open.value = false
+    return
+  }
+
+  activeSection.value = field
+  open.value = true
 }
 
-// 点击筛选器外部时关闭面板
+// 点击面板外部时关闭
 function handleDocumentClick(event: MouseEvent) {
   if (!filterContainer.value) return
 
@@ -146,15 +158,26 @@ function handleDocumentClick(event: MouseEvent) {
   if (
       !filterContainer.value.contains(target)
   ) {
-    openField.value = null
+    open.value = false
   }
 }
 
-// 挂载时监听页面点击
+// Esc 关闭面板
+function handleKeydown(event: KeyboardEvent) {
+  if (event.key === 'Escape') {
+    open.value = false
+  }
+}
+
+// 挂载时监听页面点击与键盘
 onMounted(() => {
   document.addEventListener(
       'click',
       handleDocumentClick
+  )
+  document.addEventListener(
+      'keydown',
+      handleKeydown
   )
 })
 
@@ -164,9 +187,13 @@ onBeforeUnmount(() => {
       'click',
       handleDocumentClick
   )
+  document.removeEventListener(
+      'keydown',
+      handleKeydown
+  )
 })
 
-// 当筛选组发生变化时，重新折叠
+// 当筛选组发生变化时，重新折叠并校正激活分类
 watch(
     () =>
         props.groups
@@ -174,157 +201,174 @@ watch(
             .join('|'),
     () => {
       expanded.value = {}
+
+      if (
+          props.groups.length &&
+          !props.groups.some(
+              group => group.field === activeSection.value
+          )
+      ) {
+        activeSection.value = props.groups[0].field
+      }
     }
 )
 </script>
 
 <template>
   <div
-      v-if="groups.length"
       ref="filterContainer"
       class="catalogue-filters"
   >
-    <!-- 三个筛选器 -->
-    <div class="filter-selectors">
-
-      <!-- Type / Key / Instrumentation -->
-      <div
-          v-for="group in groups"
-          :key="group.field"
-          class="filter-selector"
+    <!-- Megamenu 入口 -->
+    <button
+        type="button"
+        class="filters-entry"
+        :class="{ active: open || activeCount > 0 }"
+        aria-haspopup="dialog"
+        :aria-expanded="open"
+        @click="togglePanel(activeGroup?.field || 'type')"
+    >
+      <span
+          aria-hidden="true"
+          class="entry-icon"
       >
+        ≡
+      </span>
 
-        <!-- 筛选器按钮 -->
+      <span>Filters</span>
+
+      <span
+          v-if="activeCount"
+          class="entry-count"
+      >
+        {{ activeCount }}
+      </span>
+
+      <span
+          aria-hidden="true"
+          class="entry-arrow"
+      >
+        {{ open ? '↑' : '↓' }}
+      </span>
+    </button>
+
+    <!-- 宽型 Megamenu 面板 -->
+    <div
+        v-if="open && activeGroup"
+        class="filter-megamenu"
+        role="dialog"
+        aria-label="Catalogue filters"
+    >
+      <!-- 顶部横向分类入口 -->
+      <div
+          class="megamenu-sections"
+          role="tablist"
+          aria-label="Filter categories"
+      >
         <button
+            v-for="group in groups"
+            :key="group.field"
             type="button"
-            class="filter-selector-button"
-            :class="{
-            active:
-              selectedCount(group.field) > 0
-          }"
-            :aria-expanded="
-            openField === group.field
-          "
+            role="tab"
+            :aria-selected="activeSection === group.field"
+            :class="{ active: activeSection === group.field }"
+            class="megamenu-section"
             @click="togglePanel(group.field)"
         >
-          <span class="filter-label">
-            {{ group.label }}
-          </span>
+          <span>{{ group.label }}</span>
 
-          <!-- 已选择数量 -->
           <span
               v-if="selectedCount(group.field)"
-              class="filter-selected-count"
+              class="section-count"
           >
             {{ selectedCount(group.field) }}
           </span>
-
-          <!-- 箭头 -->
-          <span class="filter-arrow">
-            {{
-              openField === group.field
-                  ? '↑'
-                  : '↓'
-            }}
-          </span>
         </button>
 
-        <!-- 当前筛选器的浮动面板 -->
-        <div
-            v-if="openField === group.field"
-            class="filter-panel"
+        <button
+            v-if="activeCount"
+            type="button"
+            class="megamenu-clear-all"
+            @click="clearAll"
         >
-          <!-- 面板标题 -->
-          <div class="filter-panel-header">
-            <span class="filter-panel-title">
-              {{ group.label }}
-            </span>
+          × Clear all ({{ activeCount }})
+        </button>
+      </div>
 
-            <!-- 清除当前组 -->
-            <button
-                v-if="selectedCount(group.field)"
-                type="button"
-                class="filter-panel-clear"
-                @click="clearGroup(group.field)"
-            >
-              Clear
-            </button>
-          </div>
+      <!-- 内容区：激活分类的筛选 chips -->
+      <div
+          class="megamenu-body"
+          role="tabpanel"
+      >
+        <div class="megamenu-body-header">
+          <span class="megamenu-title">
+            {{ activeGroup.label }}
+          </span>
 
-          <!-- 筛选选项 -->
-          <div class="filter-buttons">
+          <button
+              v-if="selectedCount(activeGroup.field)"
+              type="button"
+              class="megamenu-clear-group"
+              @click="clearGroup(activeGroup.field)"
+          >
+            Clear
+          </button>
+        </div>
 
-            <button
-                v-for="option in visibleOptions(group)"
-                :key="option.value"
-                type="button"
-                class="filter-button"
-                :class="{
+        <div class="filter-buttons">
+          <button
+              v-for="option in visibleOptions(activeGroup)"
+              :key="option.value"
+              type="button"
+              class="filter-button"
+              :class="{
                 active: isSelected(
-                  group.field,
+                  activeGroup.field,
                   option.value
                 )
               }"
-                :aria-pressed="
+              :aria-pressed="
                 isSelected(
-                  group.field,
+                  activeGroup.field,
                   option.value
                 )
               "
-                @click="
+              @click="
                 toggle(
-                  group.field,
+                  activeGroup.field,
                   option.value
                 )
               "
-            >
-              {{ option.value }}
+          >
+            {{ option.value }}
 
-              <span class="filter-count">
-                ({{ option.count }})
-              </span>
-            </button>
+            <span class="filter-count">
+              ({{ option.count }})
+            </span>
+          </button>
 
-            <!-- Show all -->
-            <button
-                v-if="
-                group.options.length >
+          <!-- Show all -->
+          <button
+              v-if="
+                activeGroup.options.length >
                 collapsedSize
               "
-                type="button"
-                class="filter-more"
-                @click="
-                expanded[group.field] =
-                  !expanded[group.field]
+              type="button"
+              class="filter-more"
+              @click="
+                expanded[activeGroup.field] =
+                  !expanded[activeGroup.field]
               "
-            >
-              {{
-                expanded[group.field]
-                    ? 'Show less'
-                    : `Show all ${group.options.length}`
-              }}
-            </button>
-
-          </div>
+          >
+            {{
+              expanded[activeGroup.field]
+                  ? 'Show less'
+                  : `Show all ${activeGroup.options.length}`
+            }}
+          </button>
         </div>
       </div>
-
     </div>
-
-    <!-- 全部清除 -->
-    <div
-        v-if="activeCount"
-        class="filter-clear-row"
-    >
-      <button
-          type="button"
-          class="filter-clear-all"
-          @click="clearAll"
-      >
-        × Clear filters ({{ activeCount }})
-      </button>
-    </div>
-
   </div>
 </template>
 
@@ -338,187 +382,239 @@ watch(
 }
 
 /* =========================================================
-   三个筛选器
+   入口按钮
    ========================================================= */
 
-.filter-selectors {
-  display: grid;
-  grid-template-columns:
-    repeat(3, minmax(0, 1fr));
-  gap: 6px;
-  width: 100%;
-}
-
-.filter-selector {
-  position: relative;
-  min-width: 0;
-}
-
-/* =========================================================
-   筛选器按钮
-   ========================================================= */
-
-.filter-selector-button {
-  width: 100%;
-
-  display: flex;
+.filters-entry {
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-
-  gap: 7px;
+  gap: 8px;
 
   min-height: 36px;
-  padding: 6px 10px;
+  padding: 6px 14px;
 
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 4px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-full);
 
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
+  background: var(--md-surface);
+  color: var(--md-on-surface-variant);
 
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.4;
 
   cursor: pointer;
 
   transition:
-      background var(--archive-ease),
-      border-color var(--archive-ease),
-      color var(--archive-ease);
+      background var(--md-duration-fast) var(--md-ease),
+      border-color var(--md-duration-fast) var(--md-ease),
+      color var(--md-duration-fast) var(--md-ease),
+      box-shadow var(--md-duration-fast) var(--md-ease);
 }
 
-.filter-selector-button:hover {
-  border-color: var(--vp-c-brand-1);
+.filters-entry:hover {
+  border-color: var(--md-primary);
+  color: var(--md-primary);
+  background: color-mix(in srgb, var(--md-primary) 8%, transparent);
 }
 
-.filter-selector-button.active {
-  border-color: var(--vp-c-brand-1);
-  color: var(--vp-c-brand-1);
+.filters-entry.active {
+  border-color: var(--md-primary);
+  color: var(--md-primary);
 }
 
-.filter-label {
-  min-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.filters-entry:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-primary) 40%, transparent);
 }
 
-.filter-selected-count {
+.entry-icon {
+  font-size: 14px;
+}
+
+.entry-count {
   min-width: 18px;
   padding: 1px 5px;
 
-  border-radius: 10px;
+  border-radius: var(--md-radius-full);
 
-  background: var(--vp-c-brand-1);
-  color: white;
+  background: var(--md-primary);
+  color: var(--md-on-primary);
 
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.3;
-
   text-align: center;
 }
 
-.filter-arrow {
-  flex-shrink: 0;
-
+.entry-arrow {
   font-size: 10px;
-  opacity: 0.7;
+  opacity: .7;
 }
 
 /* =========================================================
-   浮动筛选面板
+   宽型 Megamenu 面板
    ========================================================= */
 
-.filter-panel {
+.filter-megamenu {
   position: absolute;
 
-  top: calc(100% + 6px);
+  top: calc(100% + 8px);
   left: 0;
 
-  width: min(
-      520px,
-      calc(100vw - 32px)
-  );
+  width: min(860px, 100%);
 
-  max-height: min(70vh, 600px);
+  padding: 6px 16px 16px;
 
-  overflow-y: auto;
+  background: var(--md-surface);
 
-  padding: 14px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-lg);
 
-  background: var(--vp-c-bg);
-
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-
-  box-shadow: var(--vp-shadow-3);
+  box-shadow: var(--md-shadow-3);
 
   z-index: 100;
 }
 
-/* =========================================================
-   面板标题
-   ========================================================= */
+/* ---- 顶部横向分类入口 ---- */
 
-.filter-panel-header {
+.megamenu-sections {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 4px;
+
+  border-bottom: 1px solid var(--md-outline-variant);
+}
+
+.megamenu-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 10px 14px;
+
+  border: 0;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+
+  background: transparent;
+  color: var(--md-on-surface-variant);
+
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .01em;
+
+  cursor: pointer;
+
+  transition:
+      color var(--md-duration-fast) var(--md-ease),
+      border-color var(--md-duration-fast) var(--md-ease);
+}
+
+.megamenu-section:hover {
+  color: var(--md-primary);
+}
+
+.megamenu-section.active {
+  color: var(--md-primary);
+  border-bottom-color: var(--md-primary);
+}
+
+.section-count {
+  min-width: 16px;
+  padding: 0 5px;
+
+  border-radius: var(--md-radius-full);
+
+  background: var(--md-primary-container);
+  color: var(--md-on-primary-container);
+
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.megamenu-clear-all {
+  margin-left: auto;
+  padding: 6px 10px;
+
+  border: 0;
+
+  background: transparent;
+  color: var(--md-outline);
+
+  font-size: 12px;
+
+  cursor: pointer;
+}
+
+.megamenu-clear-all:hover {
+  color: var(--md-error);
+  text-decoration: underline;
+}
+
+/* ---- 内容区 ---- */
+
+.megamenu-body {
+  padding-top: 14px;
+}
+
+.megamenu-body-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   gap: 12px;
 
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.filter-panel-title {
+.megamenu-title {
   font-size: 12px;
   font-weight: 600;
-  line-height: 1.4;
+  letter-spacing: .01em;
 
-  color: var(--vp-c-text-1);
+  color: var(--md-on-surface);
 }
 
-.filter-panel-clear {
-  padding: 3px 5px;
+.megamenu-clear-group {
+  padding: 3px 6px;
 
   border: 0;
 
   background: transparent;
-  color: var(--vp-c-brand-1);
+  color: var(--md-primary);
 
-  font-size: 11px;
-  line-height: 1.4;
+  font-size: 12px;
 
   cursor: pointer;
 }
 
-.filter-panel-clear:hover {
+.megamenu-clear-group:hover {
   text-decoration: underline;
 }
 
-/* =========================================================
-   筛选按钮
-   ========================================================= */
+/* ---- 筛选 chips ---- */
 
 .filter-buttons {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 
-  gap: 5px;
+  gap: 8px;
 
   min-width: 0;
   width: 100%;
 }
 
 .filter-button {
-  padding: 3px 8px;
+  padding: 5px 12px;
 
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 2px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-radius-full);
 
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-2);
+  background: var(--md-surface-container-low);
+  color: var(--md-on-surface-variant);
 
   font-size: 12px;
   line-height: 1.4;
@@ -526,41 +622,41 @@ watch(
   cursor: pointer;
 
   transition:
-      background var(--archive-ease),
-      border-color var(--archive-ease),
-      color var(--archive-ease),
-      transform var(--archive-ease);
+      background var(--md-duration-fast) var(--md-ease),
+      border-color var(--md-duration-fast) var(--md-ease),
+      color var(--md-duration-fast) var(--md-ease);
 }
 
 .filter-button:hover {
-  border-color: var(--vp-c-brand-1);
-  color: var(--vp-c-brand-1);
+  border-color: var(--md-primary);
+  color: var(--md-primary);
+  background: color-mix(in srgb, var(--md-primary) 8%, transparent);
 }
 
 .filter-button.active {
-  background: var(--vp-c-brand-1);
-  border-color: var(--vp-c-brand-1);
-  color: white;
+  background: var(--md-primary);
+  border-color: var(--md-primary);
+  color: var(--md-on-primary);
+}
+
+.filter-button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-primary) 40%, transparent);
 }
 
 .filter-count {
-  opacity: 0.75;
+  opacity: .7;
 }
 
-/* =========================================================
-   Show all
-   ========================================================= */
-
 .filter-more {
-  padding: 5px 4px;
+  padding: 5px 8px;
 
   border: 0;
 
   background: transparent;
-  color: var(--vp-c-brand-1);
+  color: var(--md-primary);
 
   font-size: 12px;
-  line-height: 1.4;
 
   cursor: pointer;
 }
@@ -570,45 +666,11 @@ watch(
 }
 
 /* =========================================================
-   Clear filters
-   ========================================================= */
-
-.filter-clear-row {
-  display: flex;
-  justify-content: flex-end;
-
-  margin-top: 4px;
-}
-
-.filter-clear-all {
-  padding: 2px 4px;
-
-  border: 0;
-
-  background: transparent;
-  color: var(--vp-c-text-3);
-
-  font-size: 11px;
-  line-height: 1.4;
-
-  cursor: pointer;
-}
-
-.filter-clear-all:hover {
-  color: var(--vp-c-brand-1);
-  text-decoration: underline;
-}
-
-/* =========================================================
-   Mobile
+   Mobile：fixed 全宽
    ========================================================= */
 
 @media (max-width: 640px) {
-  .filter-selectors {
-    gap: 5px;
-  }
-
-  .filter-panel {
+  .filter-megamenu {
     position: fixed;
 
     top: 70px;
@@ -619,6 +681,8 @@ watch(
 
     max-height:
         calc(100vh - 90px);
+
+    overflow-y: auto;
   }
 }
 </style>

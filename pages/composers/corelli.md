@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Arcangelo Corelli
 outline: deep
 ---

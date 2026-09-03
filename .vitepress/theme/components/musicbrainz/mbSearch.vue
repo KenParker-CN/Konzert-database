@@ -737,15 +737,15 @@ function exportCsv() {
 
   border:
       1px solid
-      var(--vp-c-divider);
+      var(--md-outline-variant);
 
-  border-radius: 8px;
+  border-radius: var(--md-radius-sm);
 
   background:
-      var(--vp-c-bg-soft);
+      var(--md-surface-container);
 
   color:
-      var(--vp-c-text-1);
+      var(--md-on-surface);
 
   font-size: 14px;
 
@@ -757,7 +757,9 @@ function exportCsv() {
 .search-fields input:focus {
 
   border-color:
-      var(--vp-c-brand-1);
+      var(--md-primary);
+
+  box-shadow: 0 0 0 1px var(--md-primary);
 
 }
 
@@ -770,13 +772,15 @@ button {
 
   border: none;
 
-  border-radius: 7px;
+  border-radius: var(--md-radius-full);
 
   padding: 9px 16px;
 
   cursor: pointer;
 
   font-size: 14px;
+
+  transition: background var(--md-duration-fast) var(--md-ease), box-shadow var(--md-duration-fast) var(--md-ease);
 
 }
 
@@ -793,9 +797,18 @@ button:disabled {
 .search-button {
 
   background:
-      var(--vp-c-brand-1);
+      var(--md-primary);
 
-  color: white;
+  color: var(--md-on-primary);
+
+}
+
+
+.search-button:hover:not(:disabled) {
+
+  background: color-mix(in srgb, var(--md-primary) 88%, var(--md-on-primary));
+
+  box-shadow: var(--md-shadow-1);
 
 }
 
@@ -805,18 +818,17 @@ button:disabled {
   flex-shrink: 0;
 
   background:
-      var(--vp-c-bg-mute);
+      var(--md-surface-container-high);
 
   color:
-      var(--vp-c-text-1);
+      var(--md-on-surface);
 
 }
 
 
 .select-button:hover {
 
-  background:
-      var(--vp-c-brand-soft);
+  background: color-mix(in srgb, var(--md-primary) 8%, transparent);
 
 }
 
@@ -824,9 +836,18 @@ button:disabled {
 .export-button {
 
   background:
-      var(--vp-c-brand-1);
+      var(--md-primary);
 
-  color: white;
+  color: var(--md-on-primary);
+
+}
+
+
+.export-button:hover:not(:disabled) {
+
+  background: color-mix(in srgb, var(--md-primary) 88%, var(--md-on-primary));
+
+  box-shadow: var(--md-shadow-1);
 
 }
 
@@ -834,10 +855,10 @@ button:disabled {
 .clear-button {
 
   background:
-      var(--vp-c-bg-mute);
+      var(--md-surface-container-high);
 
   color:
-      var(--vp-c-text-2);
+      var(--md-on-surface-variant);
 
 }
 
@@ -851,7 +872,7 @@ button:disabled {
   margin-top: 16px;
 
   color:
-      var(--vp-c-danger-1);
+      var(--md-error);
 
 }
 
@@ -877,7 +898,7 @@ button:disabled {
 .results h3 span {
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   font-weight: normal;
 
@@ -900,12 +921,12 @@ button:disabled {
 
   border:
       1px solid
-      var(--vp-c-divider);
+      var(--md-outline-variant);
 
-  border-radius: 10px;
+  border-radius: var(--md-radius-md);
 
   background:
-      var(--vp-c-bg-soft);
+      var(--md-surface-container);
 
   transition:
       border-color 0.18s ease,
@@ -917,7 +938,7 @@ button:disabled {
 .release-card:hover {
 
   border-color:
-      var(--vp-c-brand-1);
+      var(--md-primary);
 
   transform:
       translateY(-1px);
@@ -939,7 +960,7 @@ button:disabled {
   font-weight: 600;
 
   color:
-      var(--vp-c-text-1);
+      var(--md-on-surface);
 
 }
 
@@ -949,7 +970,7 @@ button:disabled {
   margin-top: 5px;
 
   color:
-      var(--vp-c-text-2);
+      var(--md-on-surface-variant);
 
   font-size: 14px;
 
@@ -967,7 +988,7 @@ button:disabled {
   margin-top: 9px;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   font-size: 13px;
 
@@ -979,7 +1000,7 @@ button:disabled {
   margin-top: 6px;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   font-size: 13px;
 
@@ -998,7 +1019,7 @@ button:disabled {
 
   border-top:
       1px solid
-      var(--vp-c-divider);
+      var(--md-outline-variant);
 
 }
 
@@ -1032,7 +1053,7 @@ button:disabled {
   margin-top: 3px;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   font-size: 13px;
 
@@ -1075,12 +1096,12 @@ button:disabled {
 
   border:
       1px solid
-      var(--vp-c-divider);
+      var(--md-outline-variant);
 
   border-radius: 9px;
 
   background:
-      var(--vp-c-bg-soft);
+      var(--md-surface-container);
 
   transition:
       border-color 0.18s ease;
@@ -1091,7 +1112,7 @@ button:disabled {
 .album-card:hover {
 
   border-color:
-      var(--vp-c-brand-1);
+      var(--md-primary);
 
 }
 
@@ -1103,7 +1124,7 @@ button:disabled {
   width: 28px;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   font-size: 13px;
 
@@ -1128,7 +1149,7 @@ button:disabled {
   font-weight: 600;
 
   color:
-      var(--vp-c-text-1);
+      var(--md-on-surface);
 
 }
 
@@ -1138,7 +1159,7 @@ button:disabled {
   margin-top: 4px;
 
   color:
-      var(--vp-c-text-2);
+      var(--md-on-surface-variant);
 
   font-size: 14px;
 
@@ -1156,7 +1177,7 @@ button:disabled {
   margin-top: 6px;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   font-size: 12px;
 
@@ -1179,7 +1200,7 @@ button:disabled {
       transparent;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   font-size: 20px;
 
@@ -1191,10 +1212,10 @@ button:disabled {
 .remove-button:hover {
 
   background:
-      var(--vp-c-bg-mute);
+      var(--md-surface-container-high);
 
   color:
-      var(--vp-c-danger-1);
+      var(--md-error);
 
 }
 
@@ -1211,14 +1232,14 @@ button:disabled {
 
   border:
       1px dashed
-      var(--vp-c-divider);
+      var(--md-outline-variant);
 
   border-radius: 10px;
 
   text-align: center;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
 }
 

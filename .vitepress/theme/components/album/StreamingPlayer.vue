@@ -162,25 +162,25 @@ function selectService(service: StreamingService) {
             />
 
             <path
+                class="spotify-wave"
                 d="M7.2 9.2c3.5-1 7.1-.7 9.8.7"
                 fill="none"
-                stroke="white"
                 stroke-width="1.6"
                 stroke-linecap="round"
             />
 
             <path
+                class="spotify-wave"
                 d="M7.8 12.2c2.8-.7 5.7-.4 8 .8"
                 fill="none"
-                stroke="white"
                 stroke-width="1.5"
                 stroke-linecap="round"
             />
 
             <path
+                class="spotify-wave"
                 d="M8.5 15c2-.4 4.1-.1 5.8.7"
                 fill="none"
-                stroke="white"
                 stroke-width="1.4"
                 stroke-linecap="round"
             />
@@ -249,7 +249,7 @@ function selectService(service: StreamingService) {
   min-width: 0;
   overflow: hidden;
 
-  background: var(--vp-c-bg-soft);
+  background: var(--md-surface-container);
 }
 
 .streaming-tabs button {
@@ -265,7 +265,7 @@ function selectService(service: StreamingService) {
   border: 0;
   background: transparent;
 
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
   cursor: pointer;
   transition:
       color .18s ease,
@@ -293,13 +293,25 @@ function selectService(service: StreamingService) {
   height: 22px;
 }
 
+/* Spotify 品牌圆点为 currentColor，声波线用反色保证可读 */
+.spotify-wave {
+  stroke: var(--md-inverse-on-surface);
+}
+
 
 /* =========================
    Hover
    ========================= */
 
 .streaming-tabs button:hover:not(:disabled) {
-  background: var(--vp-c-bg-mute);
+  background: var(--md-surface-container-high);
+}
+
+
+/* M3 selected tab：primary 图标 + tonal 背景 */
+.streaming-tabs button.active {
+  color: var(--md-primary);
+  background: var(--md-surface-container);
 }
 
 
@@ -359,7 +371,7 @@ function selectService(service: StreamingService) {
 
   font-size: 13px;
 
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
 }
 
 
@@ -369,7 +381,7 @@ function selectService(service: StreamingService) {
 
 .service-fallback {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 </style>

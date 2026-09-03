@@ -4,34 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="modified:   .vitepress/theme/data/catalogues.ts">
+    <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="mod: readme">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vue_devtools-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vue_devtools-api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vue_devtools-api.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vue_devtools-api.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vueuse_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vueuse_core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vueuse_core.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vueuse_core.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.runtime.esm-bundler-DfxAOUeA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.runtime.esm-bundler-DfxAOUeA.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/dist/data/rv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/data/rv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/AIChat.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/AlbumCard.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/AlbumList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/AlbumModal.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/CatalogueFilters.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/CatalogueTable.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/Catalogues.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/ComposerCatalogues.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/ComposerList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/ComposerProfile.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/StreamingPlayer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/WikipediaIntro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/admin/AdminPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/admin/AdminPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/admin/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/admin/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/StreamingPlayer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/StreamingPlayer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueFilters.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueFilters.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/ComposerCatalogues.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/ComposerCatalogues.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/common/AIChat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/common/AIChat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/common/WikipediaIntro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/common/WikipediaIntro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerProfile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/musicbrainz/mbSearch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/musicbrainz/mbSearch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/data/composers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/data/composers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/mbSearch.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/bach.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/bach.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/beethoven.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/beethoven.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/brahms.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/brahms.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/charpentier.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/charpentier.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/corelli.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/corelli.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/couperin.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/couperin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/debussy.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/debussy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/dufay.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/dufay.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/dvorak.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/dvorak.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/gluck.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/gluck.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/handel.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/handel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/haydn.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/haydn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/josquin.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/josquin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/lully.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/lully.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/machaut.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/machaut.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/monteverdi.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/monteverdi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/mozart.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/mozart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/purcell.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/purcell.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/rameau.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/rameau.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/schubert.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/schubert.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/stravinsky.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/stravinsky.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/telemann.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/telemann.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/composers/vivaldi.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/vivaldi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/albums.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/albums.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/bwv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/bwv.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/hwv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/hwv.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/rv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/rv.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="520d6950-a275-489a-b9be-cdd5a669583e" value="-" />
+      <entry key="76262f29-45ea-4017-ad8e-d19afdad3594" value="" />
+      <entry key="9e16abaf-1321-49d3-9bfd-28d3d8bb0829" value="" />
+      <entry key="d1e8db4f-2aac-4eec-8ed4-011329a4b8d5" value="" />
+    </colors>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="276" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +102,69 @@
     &quot;accountId&quot;: &quot;25dc1cb0-f93f-4bee-aba3-430b9d66a6a9&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.691671102317986E-125" />
+      <entry key="S5" value="2.2785756245593863E-50" />
+      <entry key="S10" value="2.3722637582188663E-25" />
+      <entry key="S30" value="1.5731713434579504E-8" />
+      <entry key="S60" value="3.737575697671358E-4" />
+      <entry key="M2" value="0.0765791084311002" />
+      <entry key="M5" value="2.365332947412268" />
+      <entry key="M10" value="8.333382050667431" />
+      <entry key="M15" value="13.760048106011283" />
+      <entry key="M30" value="32.50182590064319" />
+      <entry key="H1" value="77.67233957383485" />
+      <entry key="H2" value="141.33565960668574" />
+      <entry key="H4" value="197.87197881557447" />
+      <entry key="D1" value="266.25300760426944" />
+      <entry key="W1" value="280.5356571997955" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000029086564" />
+      <entry key="S10" value="1.0000539319603396" />
+      <entry key="S30" value="1.0377817503249194" />
+      <entry key="S60" value="1.1943959246310993" />
+      <entry key="M2" value="1.4454237543261967" />
+      <entry key="M5" value="1.8405663133236372" />
+      <entry key="M10" value="2.35365163865091" />
+      <entry key="M15" value="2.9508256545342384" />
+      <entry key="M30" value="4.622826880577868" />
+      <entry key="H1" value="6.522377934540007" />
+      <entry key="H2" value="7.996678180312533" />
+      <entry key="H4" value="8.921223407815134" />
+      <entry key="D1" value="9.808407340193034" />
+      <entry key="W1" value="9.972325390166775" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.0672492977600752E-4" />
+      <entry key="MS500" value="0.18326459464865114" />
+      <entry key="S2" value="0.6542890357275051" />
+      <entry key="S5" value="0.8439327845010134" />
+      <entry key="S10" value="0.9187086825644245" />
+      <entry key="S30" value="1.0090883506696318" />
+      <entry key="S60" value="1.1786359352074154" />
+      <entry key="M2" value="1.5125390463486101" />
+      <entry key="M5" value="4.201080897877683" />
+      <entry key="M10" value="10.683574235651443" />
+      <entry key="M15" value="16.707528192227183" />
+      <entry key="M30" value="37.121361128181796" />
+      <entry key="H1" value="84.19200997054394" />
+      <entry key="H2" value="149.3304844885833" />
+      <entry key="H4" value="206.79209059035097" />
+      <entry key="D1" value="276.061195736269" />
+      <entry key="W1" value="290.5079503030173" />
+    </decayedShown>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -73,18 +183,20 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Git.CreateWorkingTree.LastParentPath": "D:/Users/Parker/WebstormProjects",
+    "KEY_CHAT_IN_TOOLWINDOW": "false",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Notification.DisplayName-DoNotAsk-GridPaste": "粘贴",
     "Notification.DoNotAsk-GridPaste": "true",
     "Python.clean.executor": "Run",
     "Python.merge.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cline.proxy.unsupported.AutoDetectProxyData.dismissed": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "database.data.extractors.current.export.id": "Excel (xlsx)",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "master",
     "grid.search.filter.rows": "true",
     "javascript.preferred.runtime.type.id": "node",
@@ -105,27 +217,19 @@
     "npm.docs:build.executor": "Run",
     "npm.docs:dev.executor": "Run",
     "npm.pagefind.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "settings.editor.splitter.proportion": "0.33258173",
     "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm 2026.2.0.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ],
     "vue.recent.templates": [
       "Vue Composition API Component"
     ]
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\Parker\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="69d8ad4e-77a7-4890-8735-63ada1fa54aa" />
-        <option name="reportName" value="clean.py/qodana/2026-09-03" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\Parker\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="69d8ad4e-77a7-4890-8735-63ada1fa54aa" reportId="clean.py/qodana/2026-09-03" />
@@ -219,8 +323,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.docs:dev" />
       <item itemvalue="npm.docs:build" />
+      <item itemvalue="npm.docs:dev" />
     </list>
     <recent_temporary>
       <list>
@@ -260,7 +364,10 @@
       <workItem from="1788163322721" duration="1043000" />
       <workItem from="1788202455973" duration="14898000" />
       <workItem from="1788340222267" duration="38975000" />
-      <workItem from="1788383640497" duration="5086000" />
+      <workItem from="1788383640497" duration="22422000" />
+      <workItem from="1788421761805" duration="12461000" />
+      <workItem from="1788434343645" duration="60000" />
+      <workItem from="1788434411812" duration="16175000" />
     </task>
     <task id="LOCAL-00001" summary="Added works into Kochel catalogue">
       <option name="closed" value="true" />
@@ -358,7 +465,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788382105775</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: add admin auth, reorganize theme components, remove dead code">
+      <option name="closed" value="true" />
+      <created>1788389807662</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1788389807662</updated>
+    </task>
+    <task id="LOCAL-00014" summary="mod: readme">
+      <option name="closed" value="true" />
+      <created>1788389991902</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1788389991902</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +509,9 @@
     <MESSAGE value="Update album modal styling and streaming players" />
     <MESSAGE value="Update KV list" />
     <MESSAGE value="modified:   .vitepress/theme/data/catalogues.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified:   .vitepress/theme/data/catalogues.ts" />
+    <MESSAGE value="feat: add admin auth, reorganize theme components, remove dead code" />
+    <MESSAGE value="## Summary&#10;&#10;为站点新增基于 sessionStorage 的前端 Admin 登录认证；按功能对 `.vitepress/theme/components/` 组件目录进行分组重构；清理数据层与应用代码中的未使用代码。均为纯前端改动，不涉及后端、数据库与数据文件。&#10;&#10;## 改动详情&#10;&#10;### 1. Admin 登录认证（新功能）&#10;&#10;实现&quot;前端访问控制&quot;级别的 Admin 登录，不接数据库、不引入认证库，凭据硬编码可配置。&#10;&#10;__新增文件__&#10;&#10;- `.vitepress/theme/auth.ts` — 认证逻辑单文件封装：`ADMIN_ACCOUNT` 凭据常量、`login/logout/isAuthenticated/currentUser`，全部 sessionStorage 读写集中在此。&#10;- `.vitepress/theme/components/admin/LoginPage.vue` — 登录页（Username/Email + Password + Login 按钮，失败显示错误提示）。&#10;- `.vitepress/theme/components/admin/AdminPanel.vue` — 管理面板占位页 + Logout 按钮。&#10;- `admin.md` → 路由 `/admin`&#10;- `admin/login.md` → 路由 `/admin/login`&#10;&#10;__行为__&#10;&#10;- 未登录访问 `/admin` → 自动跳转 `/admin/login`&#10;- 登录成功后进入 `/admin`&#10;- 已登录访问 `/admin/login` → 自动跳转 `/admin`&#10;- Logout 清除 sessionStorage 并返回登录页&#10;&#10;__说明__：VitePress 无运行时路由，页面由 Markdown 文件系统生成，未引入任何路由库；认证为目标组件挂载时的客户端跳转守卫。凭据在 `auth.ts` 的 `ADMIN_ACCOUNT` 中配置（默认 `admin/admin123`，可在代码中直接修改）。&#10;&#10;### 2. Vue 组件目录按功能分组（重构）&#10;&#10;`components/` 由平铺结构改为按功能分组的子目录结构，仅移动文件并修正 import 路径，组件内部逻辑零改动。&#10;&#10;```javascript&#10;.vitepress/theme/components/&#10;├── admin/        AdminPanel.vue, LoginPage.vue&#10;├── album/        AlbumCard.vue, AlbumList.vue, AlbumModal.vue, StreamingPlayer.vue&#10;├── catalogue/    CatalogueFilters.vue, CatalogueTable.vue, Catalogues.vue, ComposerCatalogues.vue&#10;├── composer/     ComposerList.vue, ComposerProfile.vue&#10;├── common/       AIChat.vue, WikipediaIntro.vue&#10;└── musicbrainz/  mbSearch.vue&#10;```&#10;&#10;- `mbSearch.vue` 自 `docs/components/` 移入 `components/musicbrainz/`，`docs/components/` 目录随之清空。&#10;- 修正所有组件内 import：数据层引用 `../data/*` → `../../data/*`；跨组引用 `ComposerProfile` → `common/WikipediaIntro.vue`。&#10;- 修正 `.vitepress/theme/index.ts` 中 8 处全局注册 import 路径。&#10;- Markdown 页面均通过全局组件名使用组件，无需改动。&#10;&#10;### 3. 死代码清理&#10;&#10;- 删除 `.vitepress/theme/data/composers.ts` 中无人调用的 `composersByEra()`。&#10;- 删除 `.vitepress/theme/components/musicbrainz/mbSearch.vue` 中未使用的 `media` 局部变量。&#10;- `.vitepress/theme/data/albums.ts` 中 `normalizePersonName`、`isClassicalAlbum` 移除 `export`（降级为模块内部函数，函数体保留，仍被同文件使用）。&#10;&#10;## 验证&#10;&#10;- ✅ 每次修改后均执行 `npm.cmd run docs:build`，构建成功（`vitepress 2.0.0-alpha.19`，`build complete in ~3s`）。&#10;- ✅ 新增页面产物确认：`.vitepress/dist/admin.html`、`.vitepress/dist/admin/login.html` 正常生成。&#10;- ✅ 构建仅有 Vite 既有 configLoader 警告（`config.mts` 无扩展名导入、data 文件 ESM-as-CJS），非本次引入。&#10;- ✅ 代码检查对新增文件零警告；既有组件 lint 警告均为改动前遗留，未新增。&#10;&#10;## 未改动&#10;&#10;- CSV 数据文件、`package.json`、`.vitepress/config.mts`、组件逻辑与样式、数据结构。&#10;&#10;## 注意事项&#10;&#10;1. 认证&amp;#x4E3A;__&amp;#x524D;端演示&amp;#x7EA7;__&amp;#x8BBF;问控制（静态 HTML 仍可直接访问），如需真实安全需加 serverless 认证中间层。&#10;2. 凭据明文存在于 `auth.ts`，PR 合并前请确认密码已替换为心仪值。&#10;3. `docs/components/` 已为空目录（git 不跟踪空目录，`docs/mbSearch.md` 页面保留且功能不受影响）。&#10;4. git 历史中组件文件显示为&quot;删除 + 新增&quot;，实际为同内容移动（git 自动识别 rename）。" />
+    <MESSAGE value="mod: readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod: readme" />
   </component>
 </project>

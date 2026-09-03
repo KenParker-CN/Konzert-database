@@ -167,10 +167,10 @@ onUnmounted(() => {
   padding: 18px 20px;
 
   border-left: 3px solid
-  var(--vp-c-brand-1);
+  var(--md-tertiary);
 
   background:
-      var(--vp-c-bg-soft);
+      var(--md-surface-container-low);
 }
 
 /* =========================
@@ -185,7 +185,7 @@ onUnmounted(() => {
   line-height: 1.8;
 
   color:
-      var(--vp-c-text-1);
+      var(--md-on-surface);
 }
 
 /* =========================
@@ -204,7 +204,7 @@ onUnmounted(() => {
   font-size: 12px;
 
   color:
-      var(--vp-c-brand-1);
+      var(--md-primary);
 
   text-decoration: none;
 }
@@ -227,13 +227,13 @@ onUnmounted(() => {
   font-size: 13px;
 
   color:
-      var(--vp-c-text-3);
+      var(--md-outline);
 
   background:
-      var(--vp-c-bg-soft);
+      var(--md-surface-container);
 
   border-left: 3px solid
-  var(--vp-c-divider);
+  var(--md-outline-variant);
 }
 
 /* =========================
@@ -246,12 +246,12 @@ onUnmounted(() => {
   font-size: 13px;
 
   color:
-      var(--vp-c-text-2);
+      var(--md-on-surface-variant);
 
   background:
-      var(--vp-c-bg-soft);
+      var(--md-surface-container);
 
   border-left: 3px solid
-  var(--vp-c-divider);
+  var(--md-outline-variant);
 }
 </style>

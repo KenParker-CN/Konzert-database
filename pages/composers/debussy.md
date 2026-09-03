@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Claude Debussy
 outline: deep
 ---

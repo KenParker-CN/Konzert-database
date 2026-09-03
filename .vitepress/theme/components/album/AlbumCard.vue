@@ -42,8 +42,8 @@ const emit = defineEmits<{ open: [] }>()
   /*
   overflow: hidden;
   */
-  background: var(--vp-c-bg-soft);
-  box-shadow: 0 1px 0 var(--archive-rule);
+  background: var(--md-surface-container-low);
+  box-shadow: 0 1px 0 var(--md-outline-variant);
 }
 
 .album-cover img {
@@ -61,12 +61,11 @@ const emit = defineEmits<{ open: [] }>()
   align-items: flex-end;
   justify-content: space-between;
   padding: .75rem;
-  background: linear-gradient(to top, rgba(20, 18, 15, .72), transparent 58%);
-  color: #fff;
+  background: linear-gradient(to top, color-mix(in srgb, var(--md-inverse-surface) 72%, transparent), transparent 58%);
+  color: var(--md-inverse-on-surface);
   font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .08em;
-  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .01em;
   opacity: 0;
   transition: opacity 180ms ease;
 }
@@ -87,19 +86,19 @@ const emit = defineEmits<{ open: [] }>()
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-  color: var(--archive-ink);
-  font-family: var(--archive-serif);
-  font-size: 1.25rem;
+  color: var(--md-on-surface);
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .album-composer {
   overflow: hidden;
   margin-top: .35rem;
-  color: var(--vp-c-text-3);
+  color: var(--md-outline);
   font-size: 11px;
-  letter-spacing: .04em;
+  letter-spacing: .01em;
   text-overflow: ellipsis;
-  text-transform: uppercase;
   white-space: nowrap;
 }
 
@@ -113,7 +112,7 @@ const emit = defineEmits<{ open: [] }>()
 }
 
 .album-card:focus-visible .album-cover {
-  outline: 2px solid var(--archive-oxide);
+  outline: 2px solid var(--md-primary);
   outline-offset: 3px;
 }
 
@@ -123,8 +122,8 @@ const emit = defineEmits<{ open: [] }>()
   width: 100%;
   height: 100%;
   padding: 1rem;
-  color: var(--vp-c-text-2);
-  font-family: var(--archive-serif);
+  color: var(--md-on-surface-variant);
+  font-family: var(--font-ui);
   font-size: 1.3rem;
   text-align: center;
 }
@@ -132,7 +131,7 @@ const emit = defineEmits<{ open: [] }>()
 @media (hover: none) {
   .album-overlay {
     opacity: 1;
-    background: linear-gradient(to top, rgba(20, 18, 15, .62), transparent 55%);
+    background: linear-gradient(to top, color-mix(in srgb, var(--md-inverse-surface) 62%, transparent), transparent 55%);
   }
 }
 </style>

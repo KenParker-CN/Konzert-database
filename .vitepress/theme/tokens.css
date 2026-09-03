@@ -1,0 +1,109 @@
+/* =====================================================================
+   Material 3 token 层
+   ---------------------------------------------------------------------
+   - 动态颜色 token（--md-* 色值）由 .vitepress/theme/theme.ts 使用官方
+     @material/material-color-utilities（HCT）按 seed + light/dark 生成，
+     写入 <html> 内联 style（优先级最高）。
+   - 以下默认值为「Blue」seed 的 HCT 输出，仅用于首屏兜底，JS 就绪后覆盖。
+   - 结构 token（radius / elevation / motion / spacing）为静态定义。
+   ===================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* ---- 默认 seed = Blue（light）---- */
+  --md-primary: #3e5aa9;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #dbe1ff;
+  --md-on-primary-container: #00174b;
+  --md-secondary: #595e72;
+  --md-on-secondary: #ffffff;
+  --md-secondary-container: #dde1f9;
+  --md-on-secondary-container: #161b2c;
+  --md-tertiary: #745470;
+  --md-on-tertiary: #ffffff;
+  --md-tertiary-container: #ffd6f8;
+  --md-on-tertiary-container: #2b122b;
+  --md-on-surface: #1b1b1f;
+  --md-on-surface-variant: #45464f;
+  --md-outline: #757680;
+  --md-outline-variant: #c5c6d0;
+  --md-inverse-surface: #303034;
+  --md-inverse-on-surface: #f2f0f4;
+  --md-inverse-primary: #b4c5ff;
+  --md-error: #ba1a1a;
+  --md-on-error: #ffffff;
+  --md-error-container: #ffdad6;
+  --md-on-error-container: #410002;
+  --md-scrim: #000000;
+  --md-shadow: #000000;
+  --md-surface: #ffffff;
+  --md-surface-container-lowest: #ffffff;
+  --md-surface-container-low: #f5f6f8;
+  --md-surface-container: #f0f2f5;
+  --md-surface-container-high: #eaecf0;
+  --md-surface-container-highest: #e4e7eb;
+
+  /* ---- 结构 token ----
+     圆角（中等，不过度圆润） */
+  --md-radius-sm: 6px;
+  --md-radius-md: 10px;
+  --md-radius-lg: 16px;
+  --md-radius-xl: 20px;
+  --md-radius-full: 999px;
+
+  /* 克制的 elevation */
+  --md-shadow-1: 0 1px 2px rgba(0, 0, 0, .08), 0 1px 1px rgba(0, 0, 0, .05);
+  --md-shadow-2: 0 2px 6px rgba(0, 0, 0, .10), 0 1px 2px rgba(0, 0, 0, .06);
+  --md-shadow-3: 0 8px 24px rgba(0, 0, 0, .14), 0 2px 6px rgba(0, 0, 0, .08);
+
+  /* motion */
+  --md-ease: cubic-bezier(.2, 0, 0, 1);
+  --md-duration-fast: 120ms;
+  --md-duration-normal: 200ms;
+
+  /* spacing scale */
+  --md-space-1: 4px;
+  --md-space-2: 8px;
+  --md-space-3: 12px;
+  --md-space-4: 16px;
+  --md-space-5: 24px;
+  --md-space-6: 32px;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* ---- 默认 seed = Blue（dark）---- */
+  --md-primary: #b4c5ff;
+  --md-on-primary: #002a78;
+  --md-primary-container: #234290;
+  --md-on-primary-container: #dbe1ff;
+  --md-secondary: #c1c5dd;
+  --md-on-secondary: #2a3042;
+  --md-secondary-container: #414659;
+  --md-on-secondary-container: #dde1f9;
+  --md-tertiary: #e2bbdb;
+  --md-on-tertiary: #422741;
+  --md-tertiary-container: #5a3d58;
+  --md-on-tertiary-container: #ffd6f8;
+  --md-on-surface: #e4e2e6;
+  --md-on-surface-variant: #c5c6d0;
+  --md-outline: #8f909a;
+  --md-outline-variant: #45464f;
+  --md-inverse-surface: #e4e2e6;
+  --md-inverse-on-surface: #303034;
+  --md-inverse-primary: #3e5aa9;
+  --md-error: #ffb4ab;
+  --md-on-error: #690005;
+  --md-error-container: #93000a;
+  --md-on-error-container: #ffb4ab;
+  --md-scrim: #000000;
+  --md-shadow: #000000;
+  --md-surface: #17171b;
+  --md-surface-container-lowest: #0d0e11;
+  --md-surface-container-low: #1f1f23;
+  --md-surface-container: #292a2d;
+  --md-surface-container-high: #39393c;
+  --md-surface-container-highest: #46464a;
+}

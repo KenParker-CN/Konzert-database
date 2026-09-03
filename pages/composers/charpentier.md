@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Marc-Antoine Charpentier
 outline: deep
 ---

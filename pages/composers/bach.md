@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 title: Johann Sebastian Bach
 outline: deep
 ---
