@@ -39,8 +39,7 @@ const baseQuery = `
     COALESCE(w.key_signature, '') AS key,
     COALESCE(w.instrumentation, '') AS instrumentation
   FROM works w
-  LEFT JOIN work_composers wc ON wc.work_id = w.work_id AND wc.is_primary = 1
-  LEFT JOIN artists a ON a.artist_id = wc.artist_id
+  LEFT JOIN artists a ON a.artist_id = w.composer_id
 `
 
 function clean(value?: string) {
@@ -80,7 +79,16 @@ export function getWorks(filters: WorkFilters = {}): Work[] {
     }
 
     const rows = db.prepare(`${baseQuery}${clauses.length ? ` WHERE ${clauses.join(' AND ')}` : ''} ORDER BY w.work_id`).all(params) as WorkRow[]
-    return rows.map(row => ({ ...row, composer: row.composer ?? 'Unknown' }))
+    const works = rows.map(row => ({ ...row, composer: row.composer ?? 'Unknown' }))
+    // Default order: full catalogue number, largest first (natural sort).
+    return works.sort((a, b) => {
+      const left = `${a.catalogue} ${a.number}`.trim()
+      const right = `${b.catalogue} ${b.number}`.trim()
+      if (!left && right) return 1
+      if (left && !right) return -1
+      const compared = left.localeCompare(right, undefined, { numeric: true, sensitivity: 'base' })
+      return compared !== 0 ? -compared : a.workId - b.workId
+    })
   } finally {
     db.close()
   }
