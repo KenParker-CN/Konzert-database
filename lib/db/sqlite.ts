@@ -1,10 +1,15 @@
 import 'server-only'
 
-import Database from 'better-sqlite3'
-import path from 'node:path'
+import { createClient, type Client } from '@libsql/client'
 
-const databasePath = path.join(process.cwd(), 'identifier.sqlite')
+let _client: Client | null = null
 
-export function getDatabase() {
-  return new Database(databasePath, { readonly: true, fileMustExist: true })
+export function getDatabase(): Client {
+  if (!_client) {
+    _client = createClient({
+      url: process.env.TURSO_DATABASE_URL || 'file:./identifier.sqlite',
+      authToken: process.env.TURSO_AUTH_TOKEN,
+    })
+  }
+  return _client
 }

@@ -24,7 +24,7 @@ export default async function TableDetailPage({ params }: { params: Promise<{ ca
     const group = getGroupBySlug(slug)
     if (!group || group === 'other') notFound()
 
-    const tables = getTables()
+    const tables = await getTables()
     if (!tables.includes(tableName)) notFound()
     if (getTableGroup(tableName) !== group) notFound()
 

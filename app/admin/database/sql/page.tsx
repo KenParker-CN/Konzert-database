@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 
 export const dynamic = 'force-dynamic'
 
-export default function SqlConsolePage() {
-    const tables = getTables()
+export default async function SqlConsolePage() {
+    const tables = await getTables()
 
     const breadcrumbItems = [
         { type: 'link' as const, href: '/admin/database', label: 'Database' },

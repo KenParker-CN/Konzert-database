@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 
 export const dynamic = 'force-dynamic'
 
-export default function AdminDatabasePage() {
-    const tables = getTables()
-    const rowCountMap = getTableRowCounts(tables)
+export default async function AdminDatabasePage() {
+    const tables = await getTables()
+    const rowCountMap = await getTableRowCounts(tables)
     const categories = buildCategoryOverview(tables, rowCountMap)
 
     return (

@@ -1,29 +1,27 @@
 import 'server-only'
 
-import Database from 'better-sqlite3'
-import path from 'node:path'
+import { createClient, type Client } from '@libsql/client'
 
 /**
- * Server-only data layer for the local Admin database editor.
+ * Server-only data layer for the Admin database editor.
  *
- * - Uses its own read-write connection (the public site relies on the
- *   read-only `getDatabase()` in `./sqlite.ts` — that stays untouched).
- * - Identifiers (table / column names) are never taken from user input
- *   directly: every name is validated and cross-checked against the actual
- *   SQLite schema before being quoted into SQL. All values are bound as
- *   parameters.
- * - Only SELECT / INSERT / UPDATE / DELETE are implemented. There is no API
- *   that executes arbitrary SQL.
+ * Uses a singleton read-write @libsql/client. The public site uses the
+ * same client via `getDatabase()` in `./sqlite.ts`.
+ *
+ * Identifiers (table / column names) are validated against the actual
+ * schema before being quoted into SQL. All values are bound as parameters.
  */
 
-const databasePath = process.env.ADMIN_DB_PATH
-    ? path.resolve(process.env.ADMIN_DB_PATH)
-    : path.join(process.cwd(), 'identifier.sqlite')
+let _writeClient: Client | null = null
 
-function getWritableDatabase() {
-    const db = new Database(databasePath, { fileMustExist: true })
-    db.pragma('foreign_keys = ON')
-    return db
+function getWritableDatabase(): Client {
+    if (!_writeClient) {
+        _writeClient = createClient({
+            url: process.env.TURSO_DATABASE_URL || 'file:./identifier.sqlite',
+            authToken: process.env.TURSO_AUTH_TOKEN,
+        })
+    }
+    return _writeClient
 }
 
 export type AdminColumn = {
@@ -31,8 +29,8 @@ export type AdminColumn = {
     type: string
     notNull: boolean
     defaultValue: string | null
-    pkOrder: number // 0 = not part of the primary key, otherwise 1-based position
-    isRowIdAlias: boolean // INTEGER PRIMARY KEY (auto rowid) — may be omitted on INSERT
+    pkOrder: number
+    isRowIdAlias: boolean
 }
 
 export type AdminForeignKey = {
@@ -58,26 +56,32 @@ function quoteIdentifier(name: string) {
     return `"${name.replace(/"/g, '""')}"`
 }
 
-/** Only tables that actually exist in the schema pass through. */
-function assertRealTable(db: Database.Database, table: string) {
+async function assertRealTable(db: Client, table: string) {
     if (!IDENTIFIER_PATTERN.test(table)) throw new Error(`Invalid table name: ${table}`)
-    const row = db.prepare(
-        `SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?`,
-    ).get(table) as { name: string } | undefined
-    if (!row) throw new Error(`Unknown table: ${table}`)
+    const result = await db.execute({
+        sql: `SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?`,
+        args: [table],
+    })
+    if (!result.rows.length) throw new Error(`Unknown table: ${table}`)
 }
 
-function tableColumns(db: Database.Database, table: string) {
-    const info = db.pragma(`table_info(${quoteIdentifier(table)})`) as Array<{
+async function tableColumns(db: Client, table: string) {
+    const infoResult = await db.execute({
+        sql: `SELECT * FROM pragma_table_info(?)`,
+        args: [table],
+    })
+    const info = infoResult.rows as unknown as Array<{
         name: string
         type: string
         notnull: number
         dflt_value: string | null
         pk: number
     }>
-    const createSql = (db.prepare(
-        `SELECT sql FROM sqlite_master WHERE type = 'table' AND name = ?`,
-    ).get(table) as { sql: string | null } | undefined)?.sql ?? ''
+    const createResult = await db.execute({
+        sql: `SELECT sql FROM sqlite_master WHERE type = 'table' AND name = ?`,
+        args: [table],
+    })
+    const createSql = (createResult.rows[0] as unknown as { sql: string | null } | undefined)?.sql ?? ''
     const autoIncrement = /\bAUTOINCREMENT\b/i.test(createSql)
     return { info, autoIncrement }
 }
@@ -90,94 +94,83 @@ function isTextSearchable(type: string) {
     return /(TEXT|CHAR|CLOB)/i.test(type)
 }
 
-export function getTables(): string[] {
+export async function getTables(): Promise<string[]> {
     const db = getWritableDatabase()
-    try {
-        const rows = db.prepare(
-            `SELECT name FROM sqlite_master
-             WHERE type = 'table' AND name NOT LIKE 'sqlite_%'
-             ORDER BY name`,
-        ).all() as Array<{ name: string }>
-        return rows.map(row => row.name)
-    } finally {
-        db.close()
+    const result = await db.execute(
+        `SELECT name FROM sqlite_master
+         WHERE type = 'table' AND name NOT LIKE 'sqlite_%'
+         ORDER BY name`,
+    )
+    return (result.rows as unknown as Array<{ name: string }>).map(row => row.name)
+}
+
+export async function getTableRowCounts(tables: string[]): Promise<Map<string, number>> {
+    const db = getWritableDatabase()
+    const result = new Map<string, number>()
+    for (const table of tables) {
+        if (!IDENTIFIER_PATTERN.test(table)) continue
+        const check = await db.execute({
+            sql: `SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?`,
+            args: [table],
+        })
+        if (!check.rows.length) continue
+        const countResult = await db.execute(`SELECT COUNT(*) AS count FROM ${quoteIdentifier(table)}`)
+        result.set(table, (countResult.rows[0] as unknown as { count: number }).count)
+    }
+    return result
+}
+
+export async function getTableSchema(table: string): Promise<AdminTableSchema> {
+    const db = getWritableDatabase()
+    await assertRealTable(db, table)
+    const { info, autoIncrement } = await tableColumns(db, table)
+    const pkColumns = info
+        .filter(column => column.pk > 0)
+        .sort((a, b) => a.pk - b.pk)
+        .map(column => column.name)
+    const fkResult = await db.execute({
+        sql: `SELECT * FROM pragma_foreign_key_list(?)`,
+        args: [table],
+    })
+    const fkRows = fkResult.rows as unknown as Array<{
+        from: string
+        table: string
+        to: string | null
+    }>
+    const foreignKeys: AdminForeignKey[] = fkRows.map(fk => ({
+        from: fk.from,
+        table: fk.table,
+        to: fk.to ?? '',
+    }))
+    const singleIntegerPk = pkColumns.length === 1 &&
+        isNumericType(info.find(column => column.name === pkColumns[0])?.type ?? '')
+    const countResult = await db.execute(`SELECT COUNT(*) AS count FROM ${quoteIdentifier(table)}`)
+    const rowCount = (countResult.rows[0] as unknown as { count: number }).count
+    return {
+        name: table,
+        columns: info.map(column => ({
+            name: column.name,
+            type: (column.type || '').toUpperCase(),
+            notNull: column.notnull === 1,
+            defaultValue: column.dflt_value,
+            pkOrder: column.pk,
+            isRowIdAlias: singleIntegerPk && column.pk === 1,
+        })),
+        primaryKeys: pkColumns,
+        foreignKeys,
+        rowCount,
+        autoIncrement,
     }
 }
 
-export function getTableRowCounts(tables: string[]): Map<string, number> {
-    const db = getWritableDatabase()
-    try {
-        const result = new Map<string, number>()
-        for (const table of tables) {
-            if (!IDENTIFIER_PATTERN.test(table)) continue
-            const row = db.prepare(
-                `SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?`,
-            ).get(table) as { name: string } | undefined
-            if (!row) continue
-            const count = (db.prepare(`SELECT COUNT(*) AS count FROM ${quoteIdentifier(table)}`).get() as { count: number }).count
-            result.set(table, count)
-        }
-        return result
-    } finally {
-        db.close()
-    }
-}
-
-export function getTableSchema(table: string): AdminTableSchema {
-    const db = getWritableDatabase()
-    try {
-        assertRealTable(db, table)
-        const { info, autoIncrement } = tableColumns(db, table)
-        const pkColumns = info
-            .filter(column => column.pk > 0)
-            .sort((a, b) => a.pk - b.pk)
-            .map(column => column.name)
-        const fkRows = db.pragma(`foreign_key_list(${quoteIdentifier(table)})`) as Array<{
-            from: string
-            table: string
-            to: string | null
-        }>
-        const foreignKeys: AdminForeignKey[] = fkRows.map(fk => ({
-            from: fk.from,
-            table: fk.table,
-            to: fk.to ?? '',
-        }))
-        const singleIntegerPk = pkColumns.length === 1 &&
-            isNumericType(info.find(column => column.name === pkColumns[0])?.type ?? '')
-        const rowCount = (db.prepare(`SELECT COUNT(*) AS count FROM ${quoteIdentifier(table)}`).get() as { count: number }).count
-        return {
-            name: table,
-            columns: info.map(column => ({
-                name: column.name,
-                type: (column.type || '').toUpperCase(),
-                notNull: column.notnull === 1,
-                defaultValue: column.dflt_value,
-                pkOrder: column.pk,
-                isRowIdAlias: singleIntegerPk && column.pk === 1,
-            })),
-            primaryKeys: pkColumns,
-            foreignKeys,
-            rowCount,
-            autoIncrement,
-        }
-    } finally {
-        db.close()
-    }
-}
-
-function searchClause(table: string, search?: string) {
+async function searchClause(db: Client, table: string, search?: string) {
     if (!search?.trim()) return { sql: '', params: {} as Record<string, string> }
-    const db = getWritableDatabase()
-    try {
-        const { info } = tableColumns(db, table)
-        const textColumns = info.filter(column => isTextSearchable(column.type)).map(column => column.name)
-        if (!textColumns.length) return { sql: '', params: {} }
-        const escaped = search.trim().replace(/[\\%_]/g, match => `\\${match}`)
-        const sql = ` WHERE ${textColumns.map(name => `${quoteIdentifier(name)} LIKE @search ESCAPE '\\'`).join(' OR ')}`
-        return { sql, params: { search: `%${escaped}%` } }
-    } finally {
-        db.close()
-    }
+    const { info } = await tableColumns(db, table)
+    const textColumns = info.filter(column => isTextSearchable(column.type)).map(column => column.name)
+    if (!textColumns.length) return { sql: '', params: {} }
+    const escaped = search.trim().replace(/[\\%_]/g, match => `\\${match}`)
+    const sql = ` WHERE ${textColumns.map(name => `${quoteIdentifier(name)} LIKE @search ESCAPE '\\'`).join(' OR ')}`
+    return { sql, params: { search: `%${escaped}%` } }
 }
 
 function orderClause(schema: AdminTableSchema) {
@@ -187,39 +180,37 @@ function orderClause(schema: AdminTableSchema) {
     return 'rowid ASC'
 }
 
-export function getRows(table: string, options: { page?: number; pageSize?: number; search?: string } = {}): {
+export async function getRows(table: string, options: { page?: number; pageSize?: number; search?: string } = {}): Promise<{
     schema: AdminTableSchema
     rows: AdminRow[]
     total: number
     page: number
     pageSize: number
-} {
+}> {
     const pageSize = options.pageSize ?? 25
     const page = Math.max(1, options.page ?? 1)
-    const schema = getTableSchema(table)
-    const searchPart = searchClause(table, options.search)
     const db = getWritableDatabase()
-    try {
-        const total = (db.prepare(
-            `SELECT COUNT(*) AS count FROM ${quoteIdentifier(table)}${searchPart.sql}`,
-        ).get(searchPart.params) as { count: number }).count
-        const rows = db.prepare(
-            `SELECT * FROM ${quoteIdentifier(table)}${searchPart.sql}
+    const schema = await getTableSchema(table)
+    const searchPart = await searchClause(db, table, options.search)
+    const totalResult = await db.execute({
+        sql: `SELECT COUNT(*) AS count FROM ${quoteIdentifier(table)}${searchPart.sql}`,
+        args: searchPart.params,
+    })
+    const total = (totalResult.rows[0] as unknown as { count: number }).count
+    const rowsResult = await db.execute({
+        sql: `SELECT * FROM ${quoteIdentifier(table)}${searchPart.sql}
              ORDER BY ${orderClause(schema)}
              LIMIT @limit OFFSET @offset`,
-        ).all({ ...searchPart.params, limit: pageSize, offset: (page - 1) * pageSize }) as AdminRow[]
-        return { schema, rows, total, page, pageSize }
-    } finally {
-        db.close()
-    }
+        args: { ...searchPart.params, limit: pageSize, offset: (page - 1) * pageSize },
+    })
+    return { schema, rows: rowsResult.rows as unknown as AdminRow[], total, page, pageSize }
 }
 
-/** Pick a readable label column from the target table (name → title → first TEXT column). */
-function labelExpressionFor(db: Database.Database, targetTable: string, targetPk: string) {
+async function labelExpressionFor(db: Client, targetTable: string, targetPk: string) {
     if (targetTable === 'works') {
         return `CASE WHEN "catalog_no" IS NOT NULL AND "catalog_no" != '' AND "title" IS NOT NULL AND "title" != '' THEN "catalog_no" || ' · ' || "title" WHEN "catalog_no" IS NOT NULL AND "catalog_no" != '' THEN "catalog_no" ELSE COALESCE("title", '') END`
     }
-    const { info } = tableColumns(db, targetTable)
+    const { info } = await tableColumns(db, targetTable)
     const preferred = ['name', 'title', 'label', 'slug']
     for (const candidate of preferred) {
         if (info.some(column => column.name.toLowerCase() === candidate)) return quoteIdentifier(candidate)
@@ -229,85 +220,74 @@ function labelExpressionFor(db: Database.Database, targetTable: string, targetPk
     return quoteIdentifier(targetPk)
 }
 
-/**
- * For every foreign-key column: resolve the labels of the values that appear
- * in the given rows, so the UI can show "Wolfgang Amadeus Mozart" next to
- * (or instead of) a raw `artist_id = 1`.
- */
-export function resolveForeignKeyLabels(
+export async function resolveForeignKeyLabels(
     table: string,
     rows: AdminRow[],
-): Record<string, Record<string, string>> {
-    const schema = getTableSchema(table)
+): Promise<Record<string, Record<string, string>>> {
+    const schema = await getTableSchema(table)
     const result: Record<string, Record<string, string>> = {}
     if (!schema.foreignKeys.length || !rows.length) return result
     const db = getWritableDatabase()
-    try {
-        for (const fk of schema.foreignKeys) {
-            assertRealTable(db, fk.table)
-            const values = [...new Set(rows
-                .map(row => row[fk.from])
-                .filter((value): value is string | number => value !== null && value !== undefined))]
-            if (!values.length) continue
-            const targetPk = fk.to
-            if (!targetPk) continue
-            const labelExpression = labelExpressionFor(db, fk.table, targetPk)
-            const placeholders = values.map((_, index) => `@value${index}`).join(', ')
-            const params: Record<string, string | number> = {}
-            values.forEach((value, index) => { params[`value${index}`] = value })
-            const targetRows = db.prepare(
-                `SELECT ${quoteIdentifier(targetPk)} AS value, ${labelExpression} AS label
+    for (const fk of schema.foreignKeys) {
+        await assertRealTable(db, fk.table)
+        const values = [...new Set(rows
+            .map(row => row[fk.from])
+            .filter((value): value is string | number => value !== null && value !== undefined))]
+        if (!values.length) continue
+        const targetPk = fk.to
+        if (!targetPk) continue
+        const labelExpression = await labelExpressionFor(db, fk.table, targetPk)
+        const placeholders = values.map((_, index) => `@value${index}`).join(', ')
+        const params: Record<string, string | number> = {}
+        values.forEach((value, index) => { params[`value${index}`] = value })
+        const targetResult = await db.execute({
+            sql: `SELECT ${quoteIdentifier(targetPk)} AS value, ${labelExpression} AS label
                  FROM ${quoteIdentifier(fk.table)}
                  WHERE ${quoteIdentifier(targetPk)} IN (${placeholders})`,
-            ).all(params) as Array<{ value: string | number; label: string | null }>
-            result[fk.from] = {}
-            for (const targetRow of targetRows) {
-                result[fk.from][String(targetRow.value)] = targetRow.label ?? String(targetRow.value)
-            }
+            args: params,
+        })
+        const targetRows = targetResult.rows as unknown as Array<{ value: string | number; label: string | null }>
+        result[fk.from] = {}
+        for (const targetRow of targetRows) {
+            result[fk.from][String(targetRow.value)] = targetRow.label ?? String(targetRow.value)
         }
-        return result
-    } finally {
-        db.close()
     }
+    return result
 }
 
-/** Options for one foreign-key column, used by the Add/Edit form selectors. */
-export function getForeignKeyOptions(table: string, column: string): {
+export async function getForeignKeyOptions(table: string, column: string): Promise<{
     from: string
     targetTable: string
     targetColumn: string
     options: Array<{ value: string; label: string }>
-} {
-    const schema = getTableSchema(table)
+}> {
+    const schema = await getTableSchema(table)
     const fk = schema.foreignKeys.find(candidate => candidate.from === column)
     if (!fk) throw new Error(`Column ${column} is not a foreign key of ${table}`)
     const db = getWritableDatabase()
-    try {
-        assertRealTable(db, fk.table)
-        const targetInfo = tableColumns(db, fk.table)
-        const targetColumn = fk.to || targetInfo.info.filter(candidate => candidate.pk > 0)
-            .sort((a, b) => a.pk - b.pk)[0]?.name || ''
-        if (!targetColumn) throw new Error(`Cannot resolve target column for ${table}.${column}`)
-        const labelExpression = labelExpressionFor(db, fk.table, targetColumn)
-        const targetRows = db.prepare(
-            `SELECT ${quoteIdentifier(targetColumn)} AS value, ${labelExpression} AS label
-             FROM ${quoteIdentifier(fk.table)}
-             ORDER BY ${labelExpression} ASC
-             LIMIT 5000`,
-        ).all() as Array<{ value: string | number; label: string | null }>
-        return {
-            from: column,
-            targetTable: fk.table,
-            targetColumn,
-            options: targetRows.map(row => ({
-                value: String(row.value),
-                label: row.label !== null && row.label !== undefined && row.label !== ''
-                    ? row.label
-                    : String(row.value),
-            })),
-        }
-    } finally {
-        db.close()
+    await assertRealTable(db, fk.table)
+    const targetInfo = await tableColumns(db, fk.table)
+    const targetColumn = fk.to || targetInfo.info.filter(candidate => candidate.pk > 0)
+        .sort((a, b) => a.pk - b.pk)[0]?.name || ''
+    if (!targetColumn) throw new Error(`Cannot resolve target column for ${table}.${column}`)
+    const labelExpression = await labelExpressionFor(db, fk.table, targetColumn)
+    const targetResult = await db.execute(
+        `SELECT ${quoteIdentifier(targetColumn)} AS value, ${labelExpression} AS label
+         FROM ${quoteIdentifier(fk.table)}
+         ORDER BY ${labelExpression} ASC
+         LIMIT 5000`,
+    )
+    const targetRows = targetResult.rows as unknown as Array<{ value: string | number; label: string | null }>
+    return {
+        from: column,
+        targetTable: fk.table,
+        targetColumn,
+        options: targetRows.map(row => ({
+            value: String(row.value),
+            label: row.label !== null && row.label !== undefined && row.label !== ''
+                ? row.label
+                : String(row.value),
+        })),
     }
 }
 
@@ -333,10 +313,9 @@ function writablePayload(schema: AdminTableSchema, data: Record<string, string |
     return payload
 }
 
-export function insertRow(table: string, data: Record<string, string | null>): { insertedPk: Record<string, string | number | null> } {
-    const schema = getTableSchema(table)
+export async function insertRow(table: string, data: Record<string, string | null>): Promise<{ insertedPk: Record<string, string | number | null> }> {
+    const schema = await getTableSchema(table)
     const payload = writablePayload(schema, data)
-    // Auto rowid PKs are filled by SQLite — drop them when empty.
     for (const column of schema.columns) {
         if (column.isRowIdAlias && (payload[column.name] === null || payload[column.name] === undefined)) {
             delete payload[column.name]
@@ -351,23 +330,20 @@ export function insertRow(table: string, data: Record<string, string | null>): {
     const entries = Object.entries(payload)
     if (!entries.length) throw new Error('Nothing to insert')
     const db = getWritableDatabase()
-    try {
-        assertRealTable(db, table)
-        const columnSql = entries.map(([key]) => quoteIdentifier(key)).join(', ')
-        const valueSql = entries.map(([key]) => `@${key}`).join(', ')
-        const info = db.prepare(
-            `INSERT INTO ${quoteIdentifier(table)} (${columnSql}) VALUES (${valueSql})`,
-        ).run(payload)
-        const insertedPk: Record<string, string | number | null> = {}
-        if (schema.primaryKeys.length === 1 && schema.columns.find(column => column.name === schema.primaryKeys[0])?.isRowIdAlias) {
-            insertedPk[schema.primaryKeys[0]] = Number(info.lastInsertRowid)
-        } else {
-            for (const key of schema.primaryKeys) insertedPk[key] = payload[key] ?? null
-        }
-        return { insertedPk }
-    } finally {
-        db.close()
+    await assertRealTable(db, table)
+    const columnSql = entries.map(([key]) => quoteIdentifier(key)).join(', ')
+    const valueSql = entries.map(([key]) => `@${key}`).join(', ')
+    const info = await db.execute({
+        sql: `INSERT INTO ${quoteIdentifier(table)} (${columnSql}) VALUES (${valueSql})`,
+        args: payload,
+    })
+    const insertedPk: Record<string, string | number | null> = {}
+    if (schema.primaryKeys.length === 1 && schema.columns.find(column => column.name === schema.primaryKeys[0])?.isRowIdAlias) {
+        insertedPk[schema.primaryKeys[0]] = Number(info.lastInsertRowid)
+    } else {
+        for (const key of schema.primaryKeys) insertedPk[key] = payload[key] ?? null
     }
+    return { insertedPk }
 }
 
 function assertPrimaryKeyValues(schema: AdminTableSchema, pkValues: Record<string, string>) {
@@ -387,34 +363,30 @@ function pkParams(pkValues: Record<string, string>) {
     return params
 }
 
-export function updateRow(table: string, pkValues: Record<string, string>, data: Record<string, string | null>): void {
-    const schema = getTableSchema(table)
+export async function updateRow(table: string, pkValues: Record<string, string>, data: Record<string, string | null>): Promise<void> {
+    const schema = await getTableSchema(table)
     assertPrimaryKeyValues(schema, pkValues)
     const payload = writablePayload(schema, data)
     const entries = Object.entries(payload)
     if (!entries.length) return
     const db = getWritableDatabase()
-    try {
-        assertRealTable(db, table)
-        const setSql = entries.map(([key]) => `${quoteIdentifier(key)} = @${key}`).join(', ')
-        db.prepare(
-            `UPDATE ${quoteIdentifier(table)} SET ${setSql} WHERE ${pkWhereSql(schema)}`,
-        ).run({ ...payload, ...pkParams(pkValues) })
-    } finally {
-        db.close()
-    }
+    await assertRealTable(db, table)
+    const setSql = entries.map(([key]) => `${quoteIdentifier(key)} = @${key}`).join(', ')
+    await db.execute({
+        sql: `UPDATE ${quoteIdentifier(table)} SET ${setSql} WHERE ${pkWhereSql(schema)}`,
+        args: { ...payload, ...pkParams(pkValues) },
+    })
 }
 
-export function deleteRow(table: string, pkValues: Record<string, string>): void {
-    const schema = getTableSchema(table)
+export async function deleteRow(table: string, pkValues: Record<string, string>): Promise<void> {
+    const schema = await getTableSchema(table)
     assertPrimaryKeyValues(schema, pkValues)
     const db = getWritableDatabase()
-    try {
-        assertRealTable(db, table)
-        db.prepare(`DELETE FROM ${quoteIdentifier(table)} WHERE ${pkWhereSql(schema)}`).run(pkParams(pkValues))
-    } finally {
-        db.close()
-    }
+    await assertRealTable(db, table)
+    await db.execute({
+        sql: `DELETE FROM ${quoteIdentifier(table)} WHERE ${pkWhereSql(schema)}`,
+        args: pkParams(pkValues),
+    })
 }
 
 export type RawSqlResult =
@@ -429,145 +401,126 @@ export function detectSqlType(sql: string): 'select' | 'write' {
     return WRITE_KEYWORDS.test(sql) ? 'write' : 'select'
 }
 
-export function executeRawSql(sql: string): RawSqlResult {
+export async function executeRawSql(sql: string): Promise<RawSqlResult> {
     const trimmed = sql.trim()
     if (!trimmed) return { type: 'empty' }
 
     const db = getWritableDatabase()
-    try {
-        if (WRITE_KEYWORDS.test(trimmed)) {
-            const run = db.transaction(() => {
-                return db.prepare(trimmed).run()
-            })
-            const info = run()
-            return { type: 'write', changes: info.changes, lastInsertRowid: Number(info.lastInsertRowid) }
-        }
 
-        if (SELECT_KEYWORDS.test(trimmed)) {
-            const rows = db.prepare(trimmed).all() as Record<string, unknown>[]
-            const columns = rows.length > 0 ? Object.keys(rows[0]) : []
-            return { type: 'select', columns, rows }
-        }
+    if (WRITE_KEYWORDS.test(trimmed)) {
+        const info = await db.execute(trimmed)
+        return { type: 'write', changes: info.rowsAffected, lastInsertRowid: Number(info.lastInsertRowid) }
+    }
 
-        const rows = db.prepare(trimmed).all() as Record<string, unknown>[]
+    if (SELECT_KEYWORDS.test(trimmed)) {
+        const result = await db.execute(trimmed)
+        const rows = result.rows as Record<string, unknown>[]
         const columns = rows.length > 0 ? Object.keys(rows[0]) : []
         return { type: 'select', columns, rows }
-    } finally {
-        db.close()
     }
+
+    const result = await db.execute(trimmed)
+    const rows = result.rows as Record<string, unknown>[]
+    const columns = rows.length > 0 ? Object.keys(rows[0]) : []
+    return { type: 'select', columns, rows }
 }
 
-export function getReleaseArtistIds(releaseId: number): number[] {
+export async function getReleaseArtistIds(releaseId: number): Promise<number[]> {
     const db = getWritableDatabase()
-    try {
-        const rows = db.prepare(
-            `SELECT artist_id FROM release_artists WHERE release_id = ? ORDER BY artist_id`,
-        ).all(releaseId) as Array<{ artist_id: number }>
-        return rows.map(r => r.artist_id)
-    } finally {
-        db.close()
-    }
+    const result = await db.execute({
+        sql: `SELECT artist_id FROM release_artists WHERE release_id = ? ORDER BY artist_id`,
+        args: [releaseId],
+    })
+    return (result.rows as unknown as Array<{ artist_id: number }>).map(r => r.artist_id)
 }
 
-/** Resolve artist names for a batch of releases from the release_artists junction table. */
-export function getReleaseArtistsForRows(releaseIds: number[]): Record<string, string[]> {
+export async function getReleaseArtistsForRows(releaseIds: number[]): Promise<Record<string, string[]>> {
     if (!releaseIds.length) return {}
     const db = getWritableDatabase()
-    try {
-        const placeholders = releaseIds.map((_, i) => `@id${i}`).join(', ')
-        const params: Record<string, number> = {}
-        releaseIds.forEach((id, i) => { params[`id${i}`] = id })
-        const rows = db.prepare(
-            `SELECT ra.release_id, a.name AS artist_name
+    const placeholders = releaseIds.map((_, i) => `@id${i}`).join(', ')
+    const params: Record<string, number> = {}
+    releaseIds.forEach((id, i) => { params[`id${i}`] = id })
+    const result = await db.execute({
+        sql: `SELECT ra.release_id, a.name AS artist_name
              FROM release_artists ra
              JOIN artists a ON a.artist_id = ra.artist_id
              WHERE ra.release_id IN (${placeholders})
              ORDER BY ra.release_id, a.name`,
-        ).all(params) as Array<{ release_id: number; artist_name: string }>
-        const result: Record<string, string[]> = {}
-        for (const row of rows) {
-            const key = String(row.release_id)
-            if (!result[key]) result[key] = []
-            result[key].push(row.artist_name)
-        }
-        return result
-    } finally {
-        db.close()
+        args: params,
+    })
+    const rows = result.rows as unknown as Array<{ release_id: number; artist_name: string }>
+    const record: Record<string, string[]> = {}
+    for (const row of rows) {
+        const key = String(row.release_id)
+        if (!record[key]) record[key] = []
+        record[key].push(row.artist_name)
     }
+    return record
 }
 
-export function syncReleaseArtists(releaseId: number, artistIds: number[]): void {
+export async function syncReleaseArtists(releaseId: number, artistIds: number[]): Promise<void> {
     const db = getWritableDatabase()
-    try {
-        assertRealTable(db, 'release_artists')
-        const sync = db.transaction(() => {
-            db.prepare(`DELETE FROM release_artists WHERE release_id = ?`).run(releaseId)
-            const insert = db.prepare(
-                `INSERT INTO release_artists (release_id, artist_id) VALUES (?, ?)`,
-            )
-            for (const artistId of artistIds) {
-                insert.run(releaseId, artistId)
-            }
+    await assertRealTable(db, 'release_artists')
+    const tx = await db.transaction()
+    await tx.execute({
+        sql: `DELETE FROM release_artists WHERE release_id = ?`,
+        args: [releaseId],
+    })
+    for (const artistId of artistIds) {
+        await tx.execute({
+            sql: `INSERT INTO release_artists (release_id, artist_id) VALUES (?, ?)`,
+            args: [releaseId, artistId],
         })
-        sync()
-    } finally {
-        db.close()
     }
+    await tx.commit()
 }
 
-export function getReleaseComposerIds(releaseId: number): number[] {
+export async function getReleaseComposerIds(releaseId: number): Promise<number[]> {
     const db = getWritableDatabase()
-    try {
-        const rows = db.prepare(
-            `SELECT artist_id FROM release_composers WHERE release_id = ? ORDER BY is_primary DESC, artist_id`,
-        ).all(releaseId) as Array<{ artist_id: number }>
-        return rows.map(r => r.artist_id)
-    } finally {
-        db.close()
-    }
+    const result = await db.execute({
+        sql: `SELECT artist_id FROM release_composers WHERE release_id = ? ORDER BY is_primary DESC, artist_id`,
+        args: [releaseId],
+    })
+    return (result.rows as unknown as Array<{ artist_id: number }>).map(r => r.artist_id)
 }
 
-export function getReleaseComposersForRows(releaseIds: number[]): Record<string, string[]> {
+export async function getReleaseComposersForRows(releaseIds: number[]): Promise<Record<string, string[]>> {
     if (!releaseIds.length) return {}
     const db = getWritableDatabase()
-    try {
-        const placeholders = releaseIds.map((_, i) => `@id${i}`).join(', ')
-        const params: Record<string, number> = {}
-        releaseIds.forEach((id, i) => { params[`id${i}`] = id })
-        const rows = db.prepare(
-            `SELECT rc.release_id, a.name AS composer_name
+    const placeholders = releaseIds.map((_, i) => `@id${i}`).join(', ')
+    const params: Record<string, number> = {}
+    releaseIds.forEach((id, i) => { params[`id${i}`] = id })
+    const result = await db.execute({
+        sql: `SELECT rc.release_id, a.name AS composer_name
              FROM release_composers rc
              JOIN artists a ON a.artist_id = rc.artist_id
              WHERE rc.release_id IN (${placeholders})
              ORDER BY rc.release_id, rc.is_primary DESC, a.name`,
-        ).all(params) as Array<{ release_id: number; composer_name: string }>
-        const result: Record<string, string[]> = {}
-        for (const row of rows) {
-            const key = String(row.release_id)
-            if (!result[key]) result[key] = []
-            result[key].push(row.composer_name)
-        }
-        return result
-    } finally {
-        db.close()
+        args: params,
+    })
+    const rows = result.rows as unknown as Array<{ release_id: number; composer_name: string }>
+    const record: Record<string, string[]> = {}
+    for (const row of rows) {
+        const key = String(row.release_id)
+        if (!record[key]) record[key] = []
+        record[key].push(row.composer_name)
     }
+    return record
 }
 
-export function syncReleaseComposers(releaseId: number, artistIds: number[]): void {
+export async function syncReleaseComposers(releaseId: number, artistIds: number[]): Promise<void> {
     const db = getWritableDatabase()
-    try {
-        assertRealTable(db, 'release_composers')
-        const sync = db.transaction(() => {
-            db.prepare(`DELETE FROM release_composers WHERE release_id = ?`).run(releaseId)
-            const insert = db.prepare(
-                `INSERT INTO release_composers (release_id, artist_id, is_primary) VALUES (?, ?, ?)`,
-            )
-            for (let i = 0; i < artistIds.length; i++) {
-                insert.run(releaseId, artistIds[i], i === 0 ? 1 : 0)
-            }
+    await assertRealTable(db, 'release_composers')
+    const tx = await db.transaction()
+    await tx.execute({
+        sql: `DELETE FROM release_composers WHERE release_id = ?`,
+        args: [releaseId],
+    })
+    for (let i = 0; i < artistIds.length; i++) {
+        await tx.execute({
+            sql: `INSERT INTO release_composers (release_id, artist_id, is_primary) VALUES (?, ?, ?)`,
+            args: [releaseId, artistIds[i], i === 0 ? 1 : 0],
         })
-        sync()
-    } finally {
-        db.close()
     }
+    await tx.commit()
 }

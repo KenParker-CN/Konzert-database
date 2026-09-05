@@ -30,7 +30,7 @@ export default async function ComposersPage({ params, searchParams }: {
     const search = Array.isArray(query.search) ? query.search[0] : query.search
     const fromYear = parseYear(query.from, TIMELINE_START)
     const toYear = parseYear(query.to, TIMELINE_END)
-    const composers = getComposers(search ?? '', fromYear, toYear)
+    const composers = await getComposers(search ?? '', fromYear, toYear)
     const { t } = await getI18n(locale)
 
     return <AppShell active="composers">

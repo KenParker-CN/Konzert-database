@@ -21,8 +21,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     const group = getGroupBySlug(slug)
     if (!group || group === 'other') notFound()
 
-    const tables = getTables()
-    const rowCountMap = getTableRowCounts(tables)
+    const tables = await getTables()
+    const rowCountMap = await getTableRowCounts(tables)
     const categories = buildCategoryOverview(tables, rowCountMap)
     const category = categories.find(c => c.slug === slug)
     if (!category) notFound()

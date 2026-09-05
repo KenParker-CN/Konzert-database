@@ -23,16 +23,15 @@ import type { AdminTableSchema } from '@/lib/db/admin'
 import { PAGE_SIZE } from './shared'
 import type { ActionResult, TablePayload } from './shared'
 
-/** Phase 1: local development only. Enable explicitly in production builds with ADMIN_DATABASE=1. */
 function assertAdminEnabled() {
     const enabled = process.env.NODE_ENV !== 'production' || process.env.ADMIN_DATABASE === '1'
     if (!enabled) throw new Error('Admin database editor is disabled in this environment.')
 }
 
-async function guarded<T>(operation: () => T): Promise<ActionResult<T>> {
+async function guarded<T>(operation: () => Promise<T>): Promise<ActionResult<T>> {
     try {
         assertAdminEnabled()
-        return { ok: true, data: operation() }
+        return { ok: true, data: await operation() }
     } catch (error) {
         return { ok: false, error: error instanceof Error ? error.message : String(error) }
     }
@@ -47,14 +46,14 @@ export async function loadTableAction(
     page: number,
     search?: string,
 ): Promise<ActionResult<TablePayload>> {
-    return guarded(() => {
-        const result = getRows(table, { page, pageSize: PAGE_SIZE, search })
-        const fkLabels = resolveForeignKeyLabels(table, result.rows)
+    return guarded(async () => {
+        const result = await getRows(table, { page, pageSize: PAGE_SIZE, search })
+        const fkLabels = await resolveForeignKeyLabels(table, result.rows)
         const releaseIds = table === 'releases'
             ? result.rows.map(row => Number(row['release_id'])).filter(id => !Number.isNaN(id))
             : []
-        const releaseArtists = getReleaseArtistsForRows(releaseIds)
-        const releaseComposers = getReleaseComposersForRows(releaseIds)
+        const releaseArtists = await getReleaseArtistsForRows(releaseIds)
+        const releaseComposers = await getReleaseComposersForRows(releaseIds)
         return { ...result, fkLabels, releaseArtists, releaseComposers }
     })
 }
@@ -78,8 +77,8 @@ export async function updateRowAction(
     pkValues: Record<string, string>,
     data: Record<string, string | null>,
 ): Promise<ActionResult<true>> {
-    return guarded(() => {
-        updateRow(table, pkValues, data)
+    return guarded(async () => {
+        await updateRow(table, pkValues, data)
         return true as const
     })
 }
@@ -88,8 +87,8 @@ export async function deleteRowAction(
     table: string,
     pkValues: Record<string, string>,
 ): Promise<ActionResult<true>> {
-    return guarded(() => {
-        deleteRow(table, pkValues)
+    return guarded(async () => {
+        await deleteRow(table, pkValues)
         return true as const
     })
 }
@@ -120,7 +119,7 @@ export async function executeSqlAction(
             return { ok: true, type: 'needs_confirm', sqlType: 'write', sql: trimmed }
         }
 
-        const result = executeRawSql(trimmed)
+        const result = await executeRawSql(trimmed)
 
         if (result.type === 'select') {
             return { ok: true, type: 'select', columns: result.columns, rows: result.rows }
@@ -142,8 +141,8 @@ export async function syncReleaseArtistsAction(
     releaseId: number,
     artistIds: number[],
 ): Promise<ActionResult<true>> {
-    return guarded(() => {
-        syncReleaseArtists(releaseId, artistIds)
+    return guarded(async () => {
+        await syncReleaseArtists(releaseId, artistIds)
         return true as const
     })
 }
@@ -156,8 +155,8 @@ export async function syncReleaseComposersAction(
     releaseId: number,
     artistIds: number[],
 ): Promise<ActionResult<true>> {
-    return guarded(() => {
-        syncReleaseComposers(releaseId, artistIds)
+    return guarded(async () => {
+        await syncReleaseComposers(releaseId, artistIds)
         return true as const
     })
 }

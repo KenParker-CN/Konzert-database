@@ -19,9 +19,9 @@ export default async function AlbumsPage({params, searchParams}: {
     if (!isLocale(locale)) notFound()
     const query = await searchParams
     const search = Array.isArray(query.search) ? query.search[0] : query.search
-    const albums = getAlbums(search)
-    const slugMap = getArtistSlugMap()
-    const tracklists = getReleaseTracklists()
+    const albums = await getAlbums(search)
+    const slugMap = await getArtistSlugMap()
+    const tracklists = await getReleaseTracklists()
     const {t} = await getI18n(locale)
     return <AppShell active="albums">
         <main className="min-h-screen">

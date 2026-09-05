@@ -26,16 +26,16 @@ export default async function ComposerDetailPage({params}: { params: Promise<{ l
     const {locale, name} = await params
     if (!isLocale(locale)) notFound()
 
-    const composer = getComposer(name)
+    const composer = await getComposer(name)
     if (!composer) notFound()
 
-    const works = getComposerWorks(composer.artistId)
+    const works = await getComposerWorks(composer.artistId)
 
     // Albums from the collection whose credits mention this composer (exact name match).
-    const relatedAlbums = getAlbums().filter(album =>
+    const relatedAlbums = (await getAlbums()).filter(album =>
         album.composers.includes(composer.name) || album.artists.includes(composer.name))
-    const slugMap = getComposerSlugMap()
-    const tracklists = getReleaseTracklists()
+    const slugMap = await getComposerSlugMap()
+    const tracklists = await getReleaseTracklists()
 
     const {t} = await getI18n(locale)
 

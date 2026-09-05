@@ -21,8 +21,8 @@ export default async function ArtistsPage({ params, searchParams }: {
     const category = Array.isArray(query.category) ? query.category[0] : query.category
     const { t } = await getI18n(locale)
 
-    const artists = getArtists(search ?? '', category ?? '')
-    const categories = getArtistCategories()
+    const artists = await getArtists(search ?? '', category ?? '')
+    const categories = await getArtistCategories()
 
     return <AppShell active="artists"><main className="min-h-screen"><div className="mx-auto max-w-[1440px] px-5 py-10 lg:px-10 lg:py-14"><PageHeader badge={t('artists.badge')} title={t('artists.title')} description={t('artists.description')} /><ArtistDirectory artists={artists} search={search ?? ''} categories={categories} selectedCategory={category ?? ''} /></div></main></AppShell>
 }

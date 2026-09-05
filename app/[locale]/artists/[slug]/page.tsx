@@ -31,17 +31,17 @@ export default async function ArtistDetailPage({params}: { params: Promise<{ loc
     const {locale, slug} = await params
     if (!isLocale(locale)) notFound()
 
-    const artist = getArtist(slug)
+    const artist = await getArtist(slug)
     if (!artist) notFound()
 
-    const roles = getArtistRoles(artist.artistId)
-    const recordings = getArtistRecordings(artist.artistId)
+    const roles = await getArtistRoles(artist.artistId)
+    const recordings = await getArtistRecordings(artist.artistId)
 
     // Albums from the collection whose credits mention this artist (exact name match).
-    const relatedAlbums = getAlbums().filter(album =>
+    const relatedAlbums = (await getAlbums()).filter(album =>
         album.composers.includes(artist.name) || album.artists.includes(artist.name))
-    const slugMap = getArtistSlugMap()
-    const tracklists = getReleaseTracklists()
+    const slugMap = await getArtistSlugMap()
+    const tracklists = await getReleaseTracklists()
 
     const {t} = await getI18n(locale)
 

@@ -2,17 +2,6 @@ import 'server-only'
 
 import { getDatabase } from './sqlite'
 
-/**
- * Recording / release data access for the Album dialog.
- *
- * Entity semantics (as stored in SQLite):
- * - `tracklists`        → a Release / Album (title, type, release_date, label, catalog_number)
- * - `tracklist_entries` → a track position on a release (disc/track/side) pointing at a Recording
- * - `recordings`        → one recorded performance (title, duration, recording_date)
- * - `recording_performers` → Artist ↔ Recording with performance role + instrument
- * - `recording_works`   → Recording ↔ Work with movement / part number (a Work is NEVER split per movement)
- */
-
 export type RecordingPerformer = {
     artistName: string
     performanceRole: string
@@ -55,22 +44,19 @@ export type ReleaseTracklist = {
     tracks: TracklistTrack[]
 }
 
-/**
- * All release tracklists keyed by the release title (exact match against the
- * album data used by the frontend). Releases without a tracklist are simply absent.
- */
-export function getReleaseTracklists(): Record<string, ReleaseTracklist> {
+export async function getReleaseTracklists(): Promise<Record<string, ReleaseTracklist>> {
     const db = getDatabase()
     try {
-        const releases = db.prepare(`
+        const releasesResult = await db.execute(`
             SELECT release_id AS tracklistId, title, type, release_date AS releaseDate,
                    label, catalog_number AS catalogNumber,
                    cover_dlink AS coverUrl, strmlk_spo AS spotifyUrl, strmlk_apple AS appleMusicUrl, strmlk_tid AS tidalUrl, genre
             FROM releases
             ORDER BY release_id
-        `).all() as Array<{ tracklistId: number; title: string; type: string | null; releaseDate: string | null; label: string | null; catalogNumber: string | null; coverUrl: string | null; spotifyUrl: string | null; appleMusicUrl: string | null; tidalUrl: string | null; genre: string | null }>
+        `)
+        const releases = releasesResult.rows as unknown as Array<{ tracklistId: number; title: string; type: string | null; releaseDate: string | null; label: string | null; catalogNumber: string | null; coverUrl: string | null; spotifyUrl: string | null; appleMusicUrl: string | null; tidalUrl: string | null; genre: string | null }>
 
-        const entries = db.prepare(`
+        const entriesResult = await db.execute(`
             SELECT e.entry_id AS entryId, e.release_id AS tracklistId, e.disc_number AS discNumber,
                    e.track_number AS trackNumber, e.side,
                    r.recording_id AS recordingId, r.title AS recordingTitle,
@@ -78,23 +64,26 @@ export function getReleaseTracklists(): Record<string, ReleaseTracklist> {
             FROM tracklist_entries e
             JOIN recordings r ON r.recording_id = e.recording_id
             ORDER BY e.release_id, e.disc_number, e.track_number, e.entry_id
-        `).all() as Array<{ entryId: number; tracklistId: number; discNumber: number | null; trackNumber: number; side: string | null; recordingId: number; recordingTitle: string; durationSeconds: number | null; recordingDate: string | null }>
+        `)
+        const entries = entriesResult.rows as unknown as Array<{ entryId: number; tracklistId: number; discNumber: number | null; trackNumber: number; side: string | null; recordingId: number; recordingTitle: string; durationSeconds: number | null; recordingDate: string | null }>
 
-        const performers = db.prepare(`
+        const performersResult = await db.execute(`
             SELECT rp.recording_id AS recordingId, rp.performance_role AS performanceRole, rp.instrument,
                    a.name AS artistName
             FROM recording_performers rp
             JOIN artists a ON a.artist_id = rp.artist_id
             ORDER BY rp.recording_id, rp.artist_id
-        `).all() as Array<{ recordingId: number; performanceRole: string; instrument: string | null; artistName: string }>
+        `)
+        const performers = performersResult.rows as unknown as Array<{ recordingId: number; performanceRole: string; instrument: string | null; artistName: string }>
 
-        const workLinks = db.prepare(`
+        const workLinksResult = await db.execute(`
             SELECT rw.recording_id AS recordingId, rw.movement, rw.part_number AS partNumber,
                    w.work_id AS workId, w.title AS workTitle, w.catalog_no AS catalogNo
             FROM recording_works rw
             JOIN works w ON w.work_id = rw.work_id
             ORDER BY rw.recording_id, rw.part_number, w.work_id
-        `).all() as Array<{ recordingId: number; movement: string | null; partNumber: number | null; workId: number; workTitle: string; catalogNo: string | null }>
+        `)
+        const workLinks = workLinksResult.rows as unknown as Array<{ recordingId: number; movement: string | null; partNumber: number | null; workId: number; workTitle: string; catalogNo: string | null }>
 
         const performersByRecording = new Map<number, RecordingPerformer[]>()
         for (const row of performers) {
@@ -149,7 +138,5 @@ export function getReleaseTracklists(): Record<string, ReleaseTracklist> {
     } catch (error) {
         console.error('getReleaseTracklists error:', error)
         return {}
-    } finally {
-        db.close()
     }
 }
