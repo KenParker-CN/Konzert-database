@@ -5,18 +5,17 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 type Theme = 'light' | 'dark' | 'system'
 const ThemeContext = createContext<{ theme: Theme; setTheme: (theme: Theme) => void }>({ theme: 'system', setTheme: () => {} })
 
-function initialTheme(): Theme {
-  if (typeof document === 'undefined') return 'system'
-  const value = document.documentElement.dataset.theme
-  return value === 'light' || value === 'dark' || value === 'system' ? value : 'system'
-}
-
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(initialTheme)
+  const [theme, setTheme] = useState<Theme>('system')
   const [ready, setReady] = useState(false)
   useEffect(() => {
     const saved = window.localStorage.getItem('parker-theme') as Theme | null
-    if (saved === 'light' || saved === 'dark' || saved === 'system') setTheme(saved)
+    if (saved === 'light' || saved === 'dark' || saved === 'system') {
+      setTheme(saved)
+    } else {
+      const fromDom = document.documentElement.dataset.theme
+      if (fromDom === 'light' || fromDom === 'dark') setTheme(fromDom)
+    }
     setReady(true)
   }, [])
   useEffect(() => {
