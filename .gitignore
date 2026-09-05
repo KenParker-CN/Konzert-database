@@ -5,3 +5,10 @@ dist/
 .env
 .env.*
 !.env.example
+.next/
+.idea/
+.refact/
+tsconfig.tsbuildinfo
+qodana.yaml
+*.sqlite-shm
+*.sqlite-wal
