@@ -51,10 +51,9 @@ export async function getArtists(search?: string, category?: string): Promise<Ar
                    a.start_date               AS startDate,
                    a.end_date                 AS endDate,
                    a.biography,
-                   COUNT(DISTINCT wc.work_id) AS workCount,
+                   (SELECT COUNT(*) FROM works w WHERE w.composer_id = a.artist_id) AS workCount,
                    COUNT(DISTINCT rp.recording_id) AS recordingCount
             FROM artists a
-                     LEFT JOIN work_composers wc ON wc.artist_id = a.artist_id
                      LEFT JOIN recording_performers rp ON rp.artist_id = a.artist_id
              ${whereClause}
             GROUP BY a.artist_id
@@ -87,10 +86,9 @@ export async function getArtist(slug: string) {
         SELECT a.artist_id AS artistId, a.name, a.name_sort AS nameSort, a.type,
                a.artist_category AS artistCategory, a.start_date AS startDate,
                a.end_date AS endDate, a.biography,
-               COUNT(DISTINCT wc.work_id) AS workCount,
+               (SELECT COUNT(*) FROM works w WHERE w.composer_id = a.artist_id) AS workCount,
                COUNT(DISTINCT rp.recording_id) AS recordingCount
         FROM artists a
-        LEFT JOIN work_composers wc ON wc.artist_id = a.artist_id
         LEFT JOIN recording_performers rp ON rp.artist_id = a.artist_id
         GROUP BY a.artist_id
         ORDER BY a.name
@@ -118,9 +116,8 @@ export async function getArtistWorks(artistId: number): Promise<ArtistWork[]> {
                    COALESCE(w.type, '') AS type,
                    COALESCE(w.key_signature, '') AS key,
                    COALESCE(w.instrumentation, '') AS instrumentation
-            FROM work_composers wc INNER JOIN works w
-            ON w.work_id = wc.work_id
-            WHERE wc.artist_id = @artistId
+            FROM works w
+            WHERE w.composer_id = @artistId
             ORDER BY w.work_id
         `,
         args: { artistId },
@@ -131,7 +128,7 @@ export async function getArtistWorks(artistId: number): Promise<ArtistWork[]> {
 export async function getArtistRoles(artistId: number): Promise<string[]> {
     const db = getDatabase()
     const composerResult = await db.execute({
-        sql: 'SELECT COUNT(*) AS c FROM work_composers WHERE artist_id = @id',
+        sql: 'SELECT COUNT(*) AS c FROM works WHERE composer_id = @id',
         args: { id: artistId },
     })
     const composer = composerResult.rows[0] as unknown as { c: number }

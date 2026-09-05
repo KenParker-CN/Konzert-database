@@ -61,9 +61,8 @@ export async function getComposers(search?: string, fromYear?: number | null, to
                    a.start_date               AS startDate,
                    a.end_date                 AS endDate,
                    a.biography,
-                   COUNT(DISTINCT wc.work_id) AS workCount
+                   (SELECT COUNT(*) FROM works w WHERE w.composer_id = a.artist_id) AS workCount
             FROM artists a
-                     LEFT JOIN work_composers wc ON wc.artist_id = a.artist_id
              ${whereClause}
             GROUP BY a.artist_id
             ORDER BY a.name
@@ -95,9 +94,8 @@ export async function getComposerWorks(artistId: number): Promise<ComposerWork[]
                    COALESCE(w.type, '') AS type,
                    COALESCE(w.key_signature, '') AS key,
                    COALESCE(w.instrumentation, '') AS instrumentation
-            FROM work_composers wc
-                     INNER JOIN works w ON w.work_id = wc.work_id
-            WHERE wc.artist_id = @artistId
+            FROM works w
+            WHERE w.composer_id = @artistId
             ORDER BY w.work_id
         `,
         args: { artistId },
