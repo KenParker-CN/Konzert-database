@@ -18,6 +18,7 @@
   "navigation": {
     "home": "Startseite",
     "works": "Werke",
+    "catalogues": "Werkverzeichnisse",
     "composers": "Komponisten"
   },
   "theme": {
@@ -28,17 +29,36 @@
   },
   "home": {
     "badge": "Archiv klassischer Musik",
-    "tagline": "Eine klare, vernetzte Heimat für Komponisten, Werke und Album-Sammlungen.",
-    "exploreWorks": "Werke entdecken",
-    "worksExplorerTitle": "Werke-Explorer",
-    "worksExplorerDescription": "Suche nach Katalognummern, Titeln, Komponisten und Besetzung."
+    "tagline": "Entdecken Sie Komponisten und ihre Werke mit Katalogdaten aus öffentlichen CSV-Dateien.",
+    "exploreComposers": "Komponisten entdecken",
+    "composersDirectoryTitle": "Komponistenverzeichnis",
+    "composersDirectoryDescription": "Durchsuchen Sie Komponisten und ihre katalogisierten Werke."
+  },
+  "catalogues": {
+    "badge": "Die Sammlung",
+    "title": "Werkverzeichnisse",
+    "description": "Entdecken Sie die derzeit verfügbaren Werkverzeichnisse, präsentiert wie Bände in einer Musikbuchhandlung.",
+    "count": "{count} Kataloge",
+    "coverLabel": "Verzeichnis klassischer Werke",
+    "browse": "Werke ansehen"
   },
   "works": {
     "badge": "Archiv klassischer Musik",
     "title": "Werke",
     "description": "Erkunde die vereinheitlichte Werkdatenbank mit Katalogdetails und Komponistenbeziehungen aus dem Archiv.",
     "searchPlaceholder": "Werke suchen…",
-    "catalogue": "Kata#",
+    "catalogue": "Katalog",
+    "opus": "Opus",
+    "helm": "Helm",
+    "date": "Datum",
+    "details": "Details",
+    "viewDetails": "Werksdetails anzeigen",
+    "allCsvFields": "Katalognummer",
+    "filterDate": "Datum filtern",
+    "allTypes": "Alle Typen",
+    "allKeys": "Alle Tonarten",
+    "clearFilters": "Filter zurücksetzen",
+    "resultsCount": "{count} Ergebnisse",
     "number": "#",
     "titleColumn": "Titel",
     "composer": "Komponist",
@@ -69,20 +89,11 @@
     "nextComposer": "Nächster Komponist",
     "works": "Werke",
     "noWorks": "Keine zugehörigen Werke.",
+    "catalogueNotConnected": "Ein Werkverzeichnis für diesen Komponisten ist noch nicht eingebunden.",
     "all": "Alle",
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "Einführung wird geladen…",
-    "readOnWikipedia": "Auf Wikipedia lesen ↗",
-    "period": {
-      "Medieval": "Mittelalter (500-1400)",
-      "Renaissance": "Renaissance (1400-1600)",
-      "Baroque": "Barock (1600-1750)",
-      "Classical": "Klassik (1750-1820)",
-      "Romantic": "Romantik (1820-1900)",
-      "Modern": "Moderne (1900-2000)",
-      "Contemporary": "Gegenwart (2000+)",
-      "present": "Gegenwart"
-    }
+    "readOnWikipedia": "Auf Wikipedia lesen ↗"
   },
   "pagination": {
     "page": "Seite",

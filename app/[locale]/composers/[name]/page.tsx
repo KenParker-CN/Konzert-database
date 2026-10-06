@@ -10,6 +10,7 @@ import {
 import {notFound} from 'next/navigation'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
+import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 
 export const dynamic = 'force-dynamic'
 
@@ -25,6 +26,7 @@ export default async function ComposerDetailPage({params}: { params: Promise<{ l
     if (!composer) notFound()
 
     const works = await getComposerWorks(composer.artistId)
+    const catalogCode = getCatalogForComposer(composer.slug)
 
     const {t} = await getI18n(locale)
 
@@ -67,14 +69,20 @@ export default async function ComposerDetailPage({params}: { params: Promise<{ l
                     </section>
 
                     {/* Works (only rendered when data exists) */}
-                    {works.length > 0 && (
+                    {(works.length > 0 || !catalogCode) && (
                         <section className="mt-8">
                             <div className="mb-3">
                                 <h2 className="heading text-2xl font-semibold">{t('works.title')}</h2>
                             </div>
-                            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-                                <WorksTable works={works}/>
-                            </div>
+                            {catalogCode && works.length > 0 ? (
+                                <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                                    <WorksTable works={works} catalogCode={catalogCode}/>
+                                </div>
+                            ) : (
+                                <div className="rounded-2xl border border-slate-200 bg-white px-6 py-10 text-center text-sm text-slate-500 shadow-sm">
+                                    {t('composers.catalogueNotConnected')}
+                                </div>
+                            )}
                         </section>
                     )}
                 </div>

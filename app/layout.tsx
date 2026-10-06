@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: 'Parker’s · Classical music archive',
-  description: 'A focused explorer for classical works and recordings.',
+  description: 'Browse composers and their catalogue works.',
 }
 
 const themeScript = `(() => {

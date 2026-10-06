@@ -6,7 +6,9 @@
 @custom-variant dark (&:is(.dark *));
 
 :root { --ink: #202124; --muted: oklch(0.97 0 0); --line: #dadce0; --blue: #1a73e8; --blue-soft: #e8f0fe; --background: oklch(1 0 0); --foreground: oklch(0.145 0 0); --card: oklch(1 0 0); --card-foreground: oklch(0.145 0 0); --popover: oklch(1 0 0); --popover-foreground: oklch(0.145 0 0); --primary: oklch(0.205 0 0); --primary-foreground: oklch(0.985 0 0); --secondary: oklch(0.97 0 0); --secondary-foreground: oklch(0.205 0 0); --muted-foreground: oklch(0.556 0 0); --accent: oklch(0.97 0 0); --accent-foreground: oklch(0.205 0 0); --destructive: oklch(0.577 0.245 27.325); --border: oklch(0.922 0 0); --input: oklch(0.922 0 0); --ring: oklch(0.708 0 0); --chart-1: oklch(0.87 0 0); --chart-2: oklch(0.556 0 0); --chart-3: oklch(0.439 0 0); --chart-4: oklch(0.371 0 0); --chart-5: oklch(0.269 0 0); --radius: 0.625rem; --sidebar: oklch(0.985 0 0); --sidebar-foreground: oklch(0.145 0 0); --sidebar-primary: oklch(0.205 0 0); --sidebar-primary-foreground: oklch(0.985 0 0); --sidebar-accent: oklch(0.97 0 0); --sidebar-accent-foreground: oklch(0.205 0 0); --sidebar-border: oklch(0.922 0 0); --sidebar-ring: oklch(0.708 0 0); }
+:root { --radius: 0.5rem; }
 * { box-sizing: border-box; }
+*, *::before, *::after { border-radius: 2px !important; }
 body { margin: 0; background: #f8fafd; color: var(--ink); font-family: 'Google Sans Text', Arial, sans-serif; }
 button, input, select { font: inherit; }
 .heading { font-family: 'Google Sans', Arial, sans-serif; }
@@ -102,11 +104,7 @@ body { background: var(--surface); color: var(--on-surface); }
 .theme-toggle:hover { background: var(--surface-high); }
 .theme-toggle:focus-visible { outline: 3px solid color-mix(in srgb, var(--primary) 30%, transparent); outline-offset: 2px; }
 .app-shell[data-page='composers'] { --primary: #7057c8; --primary-container: #e9ddff; }
-.app-shell[data-page='artists'] { --primary: #007f73; --primary-container: #c7f0e7; --secondary-container: #e1f4ec; --on-secondary-container: #1c5548; }
-.app-shell[data-page='albums'] { --primary: #bd5a3c; --primary-container: #ffdbcf; --secondary-container: #f9e1d8; --on-secondary-container: #6d3b2b; }
 :root[data-theme='dark'] .app-shell[data-page='composers'] { --primary: #cfbcff; --primary-container: #4c397c; }
-:root[data-theme='dark'] .app-shell[data-page='artists'] { --primary: #72d8c7; --primary-container: #075c53; --secondary-container: #24554c; --on-secondary-container: #b6eadc; }
-:root[data-theme='dark'] .app-shell[data-page='albums'] { --primary: #ffb59f; --primary-container: #773726; --secondary-container: #633e32; --on-secondary-container: #ffdacc; }
 
 @media (prefers-reduced-motion: no-preference) { * { transition-property: color, background-color, border-color, box-shadow; transition-duration: 150ms; } }
 

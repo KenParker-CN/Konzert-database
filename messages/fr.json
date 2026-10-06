@@ -18,6 +18,7 @@
   "navigation": {
     "home": "Accueil",
     "works": "Œuvres",
+    "catalogues": "Catalogues",
     "composers": "Compositeurs"
   },
   "theme": {
@@ -28,17 +29,36 @@
   },
   "home": {
     "badge": "Archives de musique classique",
-    "tagline": "Un espace clair et connecté pour les compositeurs, les œuvres et les collections d’albums.",
-    "exploreWorks": "Explorer les œuvres",
-    "worksExplorerTitle": "Explorateur d’œuvres",
-    "worksExplorerDescription": "Recherchez par numéro de catalogue, titre, compositeur et instrumentation."
+    "tagline": "Découvrez les compositeurs et leurs œuvres grâce aux données de catalogue chargées depuis des fichiers CSV publics.",
+    "exploreComposers": "Explorer les compositeurs",
+    "composersDirectoryTitle": "Répertoire des compositeurs",
+    "composersDirectoryDescription": "Parcourez les compositeurs et leurs œuvres cataloguées."
+  },
+  "catalogues": {
+    "badge": "La collection",
+    "title": "Catalogues des œuvres",
+    "description": "Parcourez les catalogues actuellement disponibles dans les archives, présentés comme des volumes dans une librairie musicale.",
+    "count": "{count} catalogues",
+    "coverLabel": "Catalogue d’œuvres classiques",
+    "browse": "Voir les œuvres"
   },
   "works": {
     "badge": "Archives de musique classique",
     "title": "Œuvres",
     "description": "Explorez la base unifiée des œuvres, avec les détails de catalogue et les relations avec les compositeurs.",
     "searchPlaceholder": "Rechercher des œuvres…",
-    "catalogue": "Cata#",
+    "catalogue": "Catalogue",
+    "opus": "Opus",
+    "helm": "Catalogue Helm",
+    "date": "Date",
+    "details": "Détails",
+    "viewDetails": "Afficher les détails de l’œuvre",
+    "allCsvFields": "Numéro de catalogue",
+    "filterDate": "Filtrer par date",
+    "allTypes": "Tous les types",
+    "allKeys": "Toutes les tonalités",
+    "clearFilters": "Effacer les filtres",
+    "resultsCount": "{count} résultats",
     "number": "#",
     "titleColumn": "Titre",
     "composer": "Compositeur",
@@ -69,20 +89,11 @@
     "nextComposer": "Compositeur suivant",
     "works": "Œuvres",
     "noWorks": "Aucune œuvre associée.",
+    "catalogueNotConnected": "Le catalogue des œuvres de ce compositeur n’est pas encore intégré.",
     "all": "Tout",
     "wikipedia": "Wikipédia",
     "loadingIntroduction": "Chargement de l’introduction…",
-    "readOnWikipedia": "Lire sur Wikipédia ↗",
-    "period": {
-      "Medieval": "Médiéval (500-1400)",
-      "Renaissance": "Renaissance (1400-1600)",
-      "Baroque": "Baroque (1600-1750)",
-      "Classical": "Classique (1750-1820)",
-      "Romantic": "Romantique (1820-1900)",
-      "Modern": "Moderne (1900-2000)",
-      "Contemporary": "Contemporain (2000+)",
-      "present": "présent"
-    }
+    "readOnWikipedia": "Lire sur Wikipédia ↗"
   },
   "pagination": {
     "page": "Page",

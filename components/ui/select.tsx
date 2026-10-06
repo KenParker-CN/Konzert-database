@@ -12,13 +12,13 @@ const SelectTrigger = React.forwardRef<
   <SelectPrimitive.Trigger
     ref={ref}
     className={cn(
-      "flex h-10 w-full items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 shadow-sm outline-none transition-colors hover:border-slate-300 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:truncate",
+      "flex h-10 w-full items-center justify-between gap-2 rounded-xl border border-[var(--outline)] bg-[var(--surface-container)] px-3 py-2 text-sm text-[var(--on-surface)] shadow-sm outline-none transition-colors hover:border-[var(--primary)] focus-visible:border-[var(--primary)] focus-visible:ring-4 focus-visible:ring-[var(--primary-container)] disabled:cursor-not-allowed disabled:opacity-50 [&>span]:truncate",
       className
     )}
     {...props}
   >
     {children}
-    <SelectPrimitive.Icon className="flex shrink-0 text-slate-400">
+    <SelectPrimitive.Icon className="flex shrink-0 text-[var(--on-surface-muted)]">
       <ChevronDown size={16} />
     </SelectPrimitive.Icon>
   </SelectPrimitive.Trigger>
@@ -38,7 +38,7 @@ const SelectPopup = React.forwardRef<
   <SelectPrimitive.Popup
     ref={ref}
     className={cn(
-      "z-[9999] w-[var(--select-trigger-width)] overflow-hidden rounded-xl border border-slate-200 bg-white p-1 text-slate-700 shadow-lg",
+      "z-50 w-[var(--select-trigger-width)] overflow-hidden rounded-xl border border-[var(--outline)] bg-[var(--surface-container)] p-1 text-[var(--on-surface)] shadow-lg",
       "data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1",
       "animate-in fade-in-0 zoom-in-95",
       className
@@ -57,7 +57,7 @@ const SelectItem = React.forwardRef<
   <SelectPrimitive.Item
     ref={ref}
     className={cn(
-      "relative flex w-full cursor-pointer select-none items-center rounded-lg py-2 pl-3 pr-8 text-sm outline-none transition-colors focus:bg-blue-50 focus:text-blue-700 data-[highlighted]:bg-blue-50 data-[highlighted]:text-blue-700",
+      "relative flex w-full cursor-pointer select-none items-center rounded-lg py-2 pl-3 pr-8 text-sm outline-none transition-colors data-[highlighted]:bg-[var(--primary-container)] data-[highlighted]:text-[var(--on-surface)]",
       className
     )}
     {...props}

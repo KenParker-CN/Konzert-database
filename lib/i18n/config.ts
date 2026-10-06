@@ -10,7 +10,7 @@ export function isLocale(value: string | undefined | null): value is Locale {
 
 /**
  * Build a locale-aware path from an app path.
- *   localePath('zh', '/works') => '/zh/works'
+ *   localePath('zh', '/composers') => '/zh/composers'
  *   localePath('fr')           => '/fr'
  */
 export function localePath(locale: Locale, path: string = '/'): string {

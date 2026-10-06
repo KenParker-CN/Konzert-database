@@ -8,10 +8,11 @@ import ThemeSelector from './ThemeSelector'
 
 export default function AppShell({children, active}: {
     children: ReactNode;
-    active?: 'composers'
+    active?: 'composers' | 'catalogues'
 }) {
     const {locale, t} = useI18n()
     const links = [
+        ['catalogues', 'catalogues', '/catalogues'],
         ['composers', 'composers', '/composers'],
     ] as const
     return <div className="app-shell" data-page={active ?? 'home'}>

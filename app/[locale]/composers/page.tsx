@@ -9,16 +9,6 @@ import { notFound } from 'next/navigation'
 export const dynamic = 'force-dynamic'
 type SearchParams = Promise<Record<string, string | string[] | undefined>>
 
-const TIMELINE_START = 1600
-const TIMELINE_END = 2026
-
-function parseYear(value: string | string[] | undefined, fallback: number) {
-    const raw = Array.isArray(value) ? value[0] : value
-    if (!raw) return fallback
-    const year = Number(raw)
-    return Number.isFinite(year) ? year : fallback
-}
-
 export default async function ComposersPage({ params, searchParams }: {
     params: Promise<{ locale: string }>
     searchParams: SearchParams
@@ -28,9 +18,7 @@ export default async function ComposersPage({ params, searchParams }: {
 
     const query = await searchParams
     const search = Array.isArray(query.search) ? query.search[0] : query.search
-    const fromYear = parseYear(query.from, TIMELINE_START)
-    const toYear = parseYear(query.to, TIMELINE_END)
-    const composers = await getComposers(search ?? '', fromYear, toYear)
+    const composers = await getComposers(search ?? '')
     const { t } = await getI18n(locale)
 
     return <AppShell active="composers">
@@ -44,8 +32,6 @@ export default async function ComposersPage({ params, searchParams }: {
                 <ComposerDirectory
                     composers={composers}
                     search={search ?? ''}
-                    fromYear={Math.min(fromYear, toYear)}
-                    toYear={Math.max(fromYear, toYear)}
                 />
             </div>
         </main>

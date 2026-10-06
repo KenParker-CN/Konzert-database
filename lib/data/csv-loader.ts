@@ -55,18 +55,7 @@ async function loadCatalog(catalogCode: string): Promise<CsvWork[]> {
     throw new Error(`Failed to load ${catalogCode}.csv: ${response.status}`);
   }
 
-  const text = await response.text();
-  const lines = text.trim().split('\n');
-  const headers = lines[0].split(',');
-
-  const works: CsvWork[] = lines.slice(1).map(line => {
-    const values = parseCsvLine(line);
-    const obj: Record<string, string> = {};
-    headers.forEach((header, i) => {
-      obj[header.trim()] = values[i]?.trim() || '';
-    });
-    return obj as CsvWork;
-  });
+  const works = parseCsvRecords<CsvWork>(await response.text());
 
   csvCache.set(catalogCode, works);
   return works;
@@ -93,18 +82,7 @@ async function loadComposers(): Promise<Array<{
     throw new Error(`Failed to load composers.csv: ${response.status}`);
   }
 
-  const text = await response.text();
-  const lines = text.trim().split('\n');
-  const headers = lines[0].split(',');
-
-  const composers: CsvComposer[] = lines.slice(1).map(line => {
-    const values = parseCsvLine(line);
-    const obj: Record<string, string> = {};
-    headers.forEach((header, i) => {
-      obj[header.trim()] = values[i]?.trim() || '';
-    });
-    return obj as CsvComposer;
-  });
+  const composers = parseCsvRecords(await response.text()) as CsvComposer[];
 
   composersCache = composers.map((composer, index) => {
     const name = composer.Name || '';
@@ -133,29 +111,60 @@ function slugify(name: string) {
   return name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-function parseCsvLine(line: string): string[] {
-  const result: string[] = [];
-  let current = '';
+function parseCsvRecords<T extends Record<string, string> = Record<string, string>>(text: string): T[] {
+  const records: string[][] = [];
+  let record: string[] = [];
+  let field = '';
   let inQuotes = false;
 
-  for (let i = 0; i < line.length; i++) {
-    const char = line[i];
+  for (let index = 0; index < text.length; index++) {
+    const char = text[index];
+
     if (char === '"') {
-      if (inQuotes && line[i + 1] === '"') {
-        current += '"';
-        i++;
+      if (inQuotes && text[index + 1] === '"') {
+        field += '"';
+        index++;
       } else {
         inQuotes = !inQuotes;
       }
-    } else if (char === ',' && !inQuotes) {
-      result.push(current);
-      current = '';
+    } else if (!inQuotes && char === ',') {
+      record.push(field);
+      field = '';
+    } else if (!inQuotes && (char === '\n' || char === '\r')) {
+      if (char === '\r' && text[index + 1] === '\n') index++;
+      record.push(field);
+      if (record.some(value => value.trim())) records.push(record);
+      record = [];
+      field = '';
     } else {
-      current += char;
+      field += char;
     }
   }
-  result.push(current);
-  return result;
+
+  if (field || record.length) {
+    record.push(field);
+    if (record.some(value => value.trim())) records.push(record);
+  }
+
+  const [headers, ...rows] = records;
+  if (!headers) return [];
+
+  return rows.map(row => {
+    const values: Record<string, string> = {};
+    headers.forEach((header, index) => {
+      const key = header.trim().replace(/^\uFEFF/, '');
+      if (key) values[key] = row[index]?.trim() ?? '';
+    });
+    return values as T;
+  });
+}
+
+function getCsvValue(record: CsvWork, ...fieldNames: string[]): string {
+  for (const fieldName of fieldNames) {
+    const value = record[fieldName];
+    if (value) return value;
+  }
+  return '';
 }
 
 export async function getComposers(): Promise<Array<{
@@ -176,20 +185,30 @@ export async function getComposers(): Promise<Array<{
 export async function getComposerWorks(catalogCode: string): Promise<Array<{
   workId: number;
   catalogue: string;
+  opus: string;
+  secondaryCatalogue: string;
+  date: string;
   title: string;
   type: string;
   key: string;
   instrumentation: string;
+  details: Record<string, string>;
 }>> {
   const works = await loadCatalog(catalogCode);
 
   return works.map((work, index) => ({
     workId: index + 1,
-    catalogue: work.Catalogue || work.catalogue || '',
-    title: work.Title || work.title || '',
-    type: work.Type || work.type || '',
-    key: work.Key || work.key || '',
-    instrumentation: work.Instrumentation || work.instrumentation || '',
+    catalogue: getCsvValue(work, 'Catalogue', 'catalogue', 'Wotquenne', 'Wq'),
+    opus: getCsvValue(work, 'Opus', 'opus'),
+    secondaryCatalogue: getCsvValue(work, 'Helm', 'H'),
+    date: getCsvValue(work, 'Date', 'date'),
+    title: getCsvValue(work, 'Title', 'title'),
+    type: getCsvValue(work, 'Type', 'type'),
+    key: getCsvValue(work, 'Key', 'key'),
+    instrumentation: getCsvValue(work, 'Instrumentation', 'instrumentation'),
+    details: Object.fromEntries(
+      Object.entries(work).filter(([field]) => !/sort/i.test(field)),
+    ),
   }));
 }
 

@@ -18,6 +18,7 @@
   "navigation": {
     "home": "Home",
     "works": "Works",
+    "catalogues": "Catalogues",
     "composers": "Composers"
   },
   "theme": {
@@ -28,17 +29,36 @@
   },
   "home": {
     "badge": "Classical music archive",
-    "tagline": "A clear, connected home for composers, works, and album collections.",
-    "exploreWorks": "Explore works",
-    "worksExplorerTitle": "Works explorer",
-    "worksExplorerDescription": "Search catalogue numbers, titles, composers, and instrumentation."
+    "tagline": "Explore composers and their works, with catalogue data loaded from public CSV files.",
+    "exploreComposers": "Explore composers",
+    "composersDirectoryTitle": "Composer directory",
+    "composersDirectoryDescription": "Browse composers and explore catalogue works on each profile."
+  },
+  "catalogues": {
+    "badge": "The collection",
+    "title": "Work catalogues",
+    "description": "Browse the work catalogues currently available in the archive, presented like volumes in a music bookshop.",
+    "count": "{count} catalogues",
+    "coverLabel": "Classical works catalogue",
+    "browse": "Browse works"
   },
   "works": {
     "badge": "Classical music archive",
     "title": "Works",
     "description": "Explore the unified work database, with catalogue details and composer relationships resolved from the archive.",
     "searchPlaceholder": "Search works…",
-    "catalogue": "Cata#",
+    "catalogue": "Catalogue",
+    "opus": "Opus",
+    "helm": "Helm",
+    "date": "Date",
+    "details": "Details",
+    "viewDetails": "View work details",
+    "allCsvFields": "Catalogue number",
+    "filterDate": "Filter date",
+    "allTypes": "All types",
+    "allKeys": "All keys",
+    "clearFilters": "Clear filters",
+    "resultsCount": "{count} results",
     "number": "#",
     "titleColumn": "Title",
     "composer": "Composer",
@@ -69,20 +89,11 @@
     "nextComposer": "Next Composer",
     "works": "Works",
     "noWorks": "No associated works.",
+    "catalogueNotConnected": "A works catalogue for this composer is not connected yet.",
     "all": "All",
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "Loading introduction…",
-    "readOnWikipedia": "Read on Wikipedia ↗",
-    "period": {
-      "Medieval": "Medieval (500-1400)",
-      "Renaissance": "Renaissance (1400-1600)",
-      "Baroque": "Baroque (1600-1750)",
-      "Classical": "Classical (1750-1820)",
-      "Romantic": "Romantic (1820-1900)",
-      "Modern": "Modern (1900-2000)",
-      "Contemporary": "Contemporary (2000+)",
-      "present": "present"
-    }
+    "readOnWikipedia": "Read on Wikipedia ↗"
   },
   "pagination": {
     "page": "Page",

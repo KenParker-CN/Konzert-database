@@ -17,14 +17,14 @@ export default async function HomePage({params}: { params: Promise<{ locale: str
                         text="Parker's"
                     />
                     <p className="mt-5 max-w-xl text-xl leading-8 text-slate-600">{t('home.tagline')}</p><a
-                        href={localePath(locale, '/works')}
-                        className="mt-8 inline-flex rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-700">{t('home.exploreWorks')}</a>
+                        href={localePath(locale, '/composers')}
+                        className="mt-8 inline-flex rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-700">{t('home.exploreComposers')}</a>
                 </div>
-                <div className="mt-20 grid gap-4 sm:grid-cols-1"><a href={localePath(locale, '/works')}
+                <div className="mt-20 grid gap-4 sm:grid-cols-1"><a href={localePath(locale, '/composers')}
                                                                      className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:border-blue-300 hover:shadow-md"><span
                     className="text-sm font-semibold text-blue-600">01</span><h2
-                    className="heading mt-8 text-xl font-semibold">{t('home.worksExplorerTitle')}</h2><p
-                    className="mt-2 text-sm leading-6 text-slate-600">{t('home.worksExplorerDescription')}</p></a></div>
+                    className="heading mt-8 text-xl font-semibold">{t('home.composersDirectoryTitle')}</h2><p
+                    className="mt-2 text-sm leading-6 text-slate-600">{t('home.composersDirectoryDescription')}</p></a></div>
             </section>
         </main>
     </AppShell>

@@ -18,6 +18,7 @@
   "navigation": {
     "home": "首页",
     "works": "作品",
+    "catalogues": "作品目录",
     "composers": "作曲家"
   },
   "theme": {
@@ -28,17 +29,36 @@
   },
   "home": {
     "badge": "古典音乐档案",
-    "tagline": "一部连接作曲家、作品与专辑收藏的清晰档案。",
-    "exploreWorks": "探索作品",
-    "worksExplorerTitle": "作品探索器",
-    "worksExplorerDescription": "按作品编号、标题、作曲家与配器搜索。"
+    "tagline": "从公开 CSV 文件加载目录数据，浏览作曲家及其作品。",
+    "exploreComposers": "浏览作曲家",
+    "composersDirectoryTitle": "作曲家目录",
+    "composersDirectoryDescription": "浏览作曲家，并在个人页面查看作品目录。"
+  },
+  "catalogues": {
+    "badge": "馆藏目录",
+    "title": "作品目录总览",
+    "description": "浏览当前档案已接入的作品目录，像在音乐书店中翻阅一本本目录书。",
+    "count": "{count} 种目录",
+    "coverLabel": "古典作品目录",
+    "browse": "浏览作品"
   },
   "works": {
     "badge": "古典音乐档案",
     "title": "作品",
     "description": "浏览统一的作品数据库，查看目录详情以及与作曲家的关联。",
     "searchPlaceholder": "搜索作品…",
-    "catalogue": "编号",
+    "catalogue": "目录号",
+    "opus": "作品号",
+    "helm": "Helm 目录号",
+    "date": "日期",
+    "details": "详情",
+    "viewDetails": "查看作品详情",
+    "allCsvFields": "目录号",
+    "filterDate": "筛选日期",
+    "allTypes": "所有类型",
+    "allKeys": "所有调性",
+    "clearFilters": "清除筛选",
+    "resultsCount": "{count} 项结果",
     "number": "#",
     "titleColumn": "标题",
     "composer": "作曲家",
@@ -69,20 +89,11 @@
     "nextComposer": "下一位作曲家",
     "works": "作品",
     "noWorks": "暂无关联作品。",
+    "catalogueNotConnected": "该作曲家的作品目录暂未接入。",
     "all": "全部",
     "wikipedia": "维基百科",
     "loadingIntroduction": "正在加载简介…",
-    "readOnWikipedia": "在维基百科阅读 ↗",
-    "period": {
-      "Medieval": "中世纪 (500-1400)",
-      "Renaissance": "文艺复兴 (1400-1600)",
-      "Baroque": "巴洛克 (1600-1750)",
-      "Classical": "古典主义 (1750-1820)",
-      "Romantic": "浪漫主义 (1820-1900)",
-      "Modern": "现代 (1900-2000)",
-      "Contemporary": "当代 (2000+)",
-      "present": "至今"
-    }
+    "readOnWikipedia": "在维基百科阅读 ↗"
   },
   "pagination": {
     "page": "第",

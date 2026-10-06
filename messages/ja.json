@@ -18,6 +18,7 @@
   "navigation": {
     "home": "ホーム",
     "works": "作品",
+    "catalogues": "作品カタログ",
     "composers": "作曲家"
   },
   "theme": {
@@ -28,10 +29,18 @@
   },
   "home": {
     "badge": "クラシック音楽アーカイブ",
-    "tagline": "作曲家、作品、アルバムコレクションをつなぐ、明確なホーム。",
-    "exploreWorks": "作品を探索",
-    "worksExplorerTitle": "作品エクスプローラー",
-    "worksExplorerDescription": "カタログ番号、タイトル、作曲家、編成で検索できます。"
+    "tagline": "公開CSVファイルから読み込んだカタログデータで、作曲家と作品を紹介します。",
+    "exploreComposers": "作曲家を見る",
+    "composersDirectoryTitle": "作曲家一覧",
+    "composersDirectoryDescription": "作曲家を探し、各プロフィールで作品カタログを閲覧できます。"
+  },
+  "catalogues": {
+    "badge": "コレクション",
+    "title": "作品カタログ一覧",
+    "description": "現在アーカイブで利用できる作品カタログを、音楽書店の本棚のように並べて紹介します。",
+    "count": "{count} 件のカタログ",
+    "coverLabel": "クラシック作品カタログ",
+    "browse": "作品を見る"
   },
   "works": {
     "badge": "クラシック音楽アーカイブ",
@@ -39,6 +48,17 @@
     "description": "カタログ詳細と作曲家の関係を統合した作品データベースを探索できます。",
     "searchPlaceholder": "作品を検索…",
     "catalogue": "カタログ",
+    "opus": "作品番号",
+    "helm": "Helm カタログ",
+    "date": "日付",
+    "details": "詳細",
+    "viewDetails": "作品の詳細を表示",
+    "allCsvFields": "カタログ番号",
+    "filterDate": "日付で絞り込む",
+    "allTypes": "すべての種類",
+    "allKeys": "すべての調性",
+    "clearFilters": "絞り込みを解除",
+    "resultsCount": "{count} 件",
     "number": "#",
     "titleColumn": "タイトル",
     "composer": "作曲家",
@@ -69,20 +89,11 @@
     "nextComposer": "次の作曲家",
     "works": "作品",
     "noWorks": "関連作品がありません。",
+    "catalogueNotConnected": "この作曲家の作品カタログはまだ接続されていません。",
     "all": "すべて",
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "紹介文を読み込み中…",
-    "readOnWikipedia": "ウィキペディアで読む ↗",
-    "period": {
-      "Medieval": "中世 (500-1400)",
-      "Renaissance": "ルネサンス (1400-1600)",
-      "Baroque": "バロック (1600-1750)",
-      "Classical": "古典派 (1750-1820)",
-      "Romantic": "ロマン派 (1820-1900)",
-      "Modern": "近代 (1900-2000)",
-      "Contemporary": "現代 (2000+)",
-      "present": "現代"
-    }
+    "readOnWikipedia": "ウィキペディアで読む ↗"
   },
   "pagination": {
     "page": "ページ",
