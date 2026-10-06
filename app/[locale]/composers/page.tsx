@@ -35,7 +35,7 @@ export default async function ComposersPage({ params, searchParams }: {
 
     return <AppShell active="composers">
         <main className="min-h-screen">
-            <div className="mx-auto max-w-[1440px] px-5 py-10 lg:px-10 lg:py-14">
+            <div className="mx-auto max-w-360 px-5 py-10 lg:px-10 lg:py-14">
                 <PageHeader
                     badge={t('composers.badge')}
                     title={t('composers.title')}

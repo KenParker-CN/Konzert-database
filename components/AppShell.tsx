@@ -8,19 +8,16 @@ import ThemeSelector from './ThemeSelector'
 
 export default function AppShell({children, active}: {
     children: ReactNode;
-    active?: 'works' | 'composers' | 'artists' | 'albums'
+    active?: 'composers'
 }) {
     const {locale, t} = useI18n()
     const links = [
-        ['works', 'works', '/works'],
         ['composers', 'composers', '/composers'],
-        ['artists', 'artists', '/artists'],
-        ['albums', 'recordings', '/albums'],
     ] as const
     return <div className="app-shell" data-page={active ?? 'home'}>
         <header className="border-b border-slate-200 bg-white">
             <div
-                className="mx-auto flex max-w-[1440px] flex-wrap items-center justify-between gap-3 px-5 py-4 lg:px-10">
+                className="mx-auto flex max-w-360 flex-wrap items-center justify-between gap-3 px-5 py-4 lg:px-10">
                 <a href={localePath(locale, '/')} className="heading text-lg font-semibold tracking-tight">Parker’s</a>
                 <nav className="flex flex-wrap items-center justify-end gap-x-3 gap-y-1 text-sm text-slate-600"><a
                     href={localePath(locale, '/')} className="hidden hover:text-slate-950 sm:block">{t('navigation.home')}</a>{links.map(([id, key, href]) =>

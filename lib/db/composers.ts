@@ -1,7 +1,7 @@
 import 'server-only'
 
-import { getDatabase } from './sqlite'
-import { COMPOSER_YEAR_MAX, COMPOSER_YEAR_MIN } from '@/lib/composer-years'
+import { getComposers as loadComposers, getComposerWorks as loadComposerWorks } from '@/lib/data/csv-loader'
+import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
 
 export type Composer = {
     artistId: number
@@ -25,18 +25,15 @@ export type ComposerWork = {
     instrumentation: string
 }
 
-function slugify(name: string) {
-    return name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-}
-
 export async function getComposers(search?: string, fromYear?: number | null, toYear?: number | null): Promise<Composer[]> {
-    const db = getDatabase()
-    let whereClause = "WHERE a.artist_category = 'classical'"
-    const params: Record<string, any> = {}
+    const COMPOSER_YEAR_MIN = 1600
+    const COMPOSER_YEAR_MAX = 2026
+    
+    let composers = await loadComposers()
 
     if (search?.trim()) {
-        whereClause += " AND a.name LIKE @search"
-        params.search = `%${search.trim()}%`
+        const searchLower = search.trim().toLowerCase()
+        composers = composers.filter(c => c.name.toLowerCase().includes(searchLower))
     }
 
     const hasFrom = typeof fromYear === 'number' && Number.isFinite(fromYear)
@@ -44,33 +41,13 @@ export async function getComposers(search?: string, fromYear?: number | null, to
     if (hasFrom || hasTo) {
         const minYear = hasFrom ? fromYear : COMPOSER_YEAR_MIN
         const maxYear = hasTo ? toYear : COMPOSER_YEAR_MAX
-        if (minYear > COMPOSER_YEAR_MIN || maxYear < COMPOSER_YEAR_MAX) {
-            whereClause += " AND CAST(SUBSTR(a.start_date, 1, 4) AS INTEGER) >= @minYear AND CAST(SUBSTR(a.start_date, 1, 4) AS INTEGER) <= @maxYear"
-            params.minYear = minYear
-            params.maxYear = maxYear
-        }
+        composers = composers.filter(c => {
+            const year = c.startDate ? parseInt(c.startDate.slice(0, 4), 10) : null
+            return year !== null && year >= minYear && year <= maxYear
+        })
     }
 
-    const result = await db.execute({
-        sql: `
-            SELECT a.artist_id                AS artistId,
-                   a.name,
-                   a.name_sort                AS nameSort,
-                   a.type,
-                   a.artist_category          AS artistCategory,
-                   a.start_date               AS startDate,
-                   a.end_date                 AS endDate,
-                   a.biography,
-                   (SELECT COUNT(*) FROM works w WHERE w.composer_id = a.artist_id) AS workCount
-            FROM artists a
-             ${whereClause}
-            GROUP BY a.artist_id
-            ORDER BY a.name
-        `,
-        args: params,
-    })
-    const rows = result.rows as unknown as Omit<Composer, 'slug'>[]
-    return rows.map(row => ({ ...row, slug: slugify(row.name) }))
+    return composers
 }
 
 export async function getComposer(slug: string) {
@@ -85,20 +62,21 @@ export async function getComposerSlugMap(): Promise<Record<string, string>> {
 }
 
 export async function getComposerWorks(artistId: number): Promise<ComposerWork[]> {
-    const db = getDatabase()
-    const result = await db.execute({
-        sql: `
-            SELECT w.work_id            AS workId,
-                   w.catalog_no         AS catalogue,
-                   w.title,
-                   COALESCE(w.type, '') AS type,
-                   COALESCE(w.key_signature, '') AS key,
-                   COALESCE(w.instrumentation, '') AS instrumentation
-            FROM works w
-            WHERE w.composer_id = @artistId
-            ORDER BY w.work_id
-        `,
-        args: { artistId },
-    })
-    return result.rows as unknown as ComposerWork[]
+    const composers = await getComposers()
+    const composer = composers.find(c => c.artistId === artistId)
+    if (!composer) return []
+
+    const catalogCode = getCatalogForComposer(composer.slug)
+    if (!catalogCode) return []
+
+    const works = await loadComposerWorks(catalogCode)
+    return works.map(w => ({
+        workId: w.workId,
+        catalogue: w.catalogue,
+        title: w.title,
+        type: w.type,
+        key: w.key,
+        instrumentation: w.instrumentation,
+    }))
 }
+

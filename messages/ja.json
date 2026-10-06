@@ -18,9 +18,7 @@
   "navigation": {
     "home": "ホーム",
     "works": "作品",
-    "composers": "作曲家",
-    "artists": "アーティスト",
-    "recordings": "アルバム"
+    "composers": "作曲家"
   },
   "theme": {
     "label": "テーマ",
@@ -33,9 +31,7 @@
     "tagline": "作曲家、作品、アルバムコレクションをつなぐ、明確なホーム。",
     "exploreWorks": "作品を探索",
     "worksExplorerTitle": "作品エクスプローラー",
-    "worksExplorerDescription": "カタログ番号、タイトル、作曲家、編成で検索できます。",
-    "recordingsTitle": "アルバムコレクション",
-    "recordingsDescription": "アーカイブの録音と聴取リンクを閲覧できます。"
+    "worksExplorerDescription": "カタログ番号、タイトル、作曲家、編成で検索できます。"
   },
   "works": {
     "badge": "クラシック音楽アーカイブ",
@@ -74,6 +70,9 @@
     "works": "作品",
     "noWorks": "関連作品がありません。",
     "all": "すべて",
+    "wikipedia": "Wikipedia",
+    "loadingIntroduction": "紹介文を読み込み中…",
+    "readOnWikipedia": "ウィキペディアで読む ↗",
     "period": {
       "Medieval": "中世 (500-1400)",
       "Renaissance": "ルネサンス (1400-1600)",
@@ -84,62 +83,6 @@
       "Contemporary": "現代 (2000+)",
       "present": "現代"
     }
-  },
-  "artists": {
-    "badge": "人物ディレクトリ",
-    "title": "アーティスト",
-    "description": "音楽データベースに収録されたアーティストを閲覧できます。",
-    "searchPlaceholder": "アーティストを検索…",
-    "count": "{count} 人のアーティスト",
-    "count_one": "{count} 人のアーティスト",
-    "noArtists": "条件に一致するアーティストがいません。",
-    "noIntroduction": "紹介文はありません。",
-    "allArtists": "すべてのアーティスト",
-    "roles": "役割",
-    "roleComposer": "作曲家",
-    "rolePerformer": "演奏者",
-    "biography": "略歴",
-    "wikipedia": "Wikipedia",
-    "readOnWikipedia": "ウィキペディアで読む ↗",
-    "loadingIntroduction": "紹介文を読み込み中…",
-    "relatedAlbums": "関連アルバム"
-  },
-  "recordings": {
-    "badge": "アルバムデータベース",
-    "title": "アルバム",
-    "recordingsHeading": "録音",
-    "description": "コレクションのアルバム、演奏者、レーベル、視聴リンクを閲覧できます。",
-    "searchPlaceholder": "録音を検索…",
-    "sortBy": "並べ替え",
-    "details": "録音の詳細",
-    "composers": "作曲家",
-    "artists": "演奏者",
-    "labelYear": "レーベル / 年",
-    "catalogueNumber": "カタログ番号",
-    "tracklist": "曲目",
-    "tracklistUnavailable": "この録音の曲目はありません。",
-    "searchLabel": "録音を検索",
-    "count": "{count} 件の録音",
-    "count_one": "{count} 件の録音",
-    "pageInfo": "{current} / {total} ページ",
-    "noCover": "カバーなし",
-    "unknownArtist": "不明なアーティスト",
-    "viewDetails": "{title} の詳細を見る",
-    "noRecordings": "検索に一致する録音はありません。",
-    "sortTitleAsc": "タイトル A–Z",
-    "sortTitleDesc": "タイトル Z–A",
-    "sortArtistAsc": "アーティスト A–Z",
-    "sortArtistDesc": "アーティスト Z–A",
-    "sortYearAsc": "リリース年 ↑",
-    "sortYearDesc": "リリース年 ↓",
-    "sortCatalogueAsc": "カタログ番号 A–Z",
-    "sortCatalogueDesc": "カタログ番号 Z–A",
-    "recordingInfo": "録音情報",
-    "recordingTitle": "録音タイトル",
-    "recordingDate": "録音日",
-    "performers": "演奏者",
-    "relatedWorks": "関連作品",
-    "disc": "ディスク {number}"
   },
   "pagination": {
     "page": "ページ",

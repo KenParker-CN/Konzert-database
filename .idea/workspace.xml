@@ -5,77 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="mod: readme">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vueuse_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vitepress_n_@vueuse_core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.runtime.esm-bundler-DfxAOUeA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/vue.runtime.esm-bundler-DfxAOUeA.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/data/rv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/data/rv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/Layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/admin/AdminPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/admin/AdminPanel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/admin/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/admin/LoginPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/AlbumModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/album/StreamingPlayer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/album/StreamingPlayer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueFilters.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueFilters.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/CatalogueTable.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/ComposerCatalogues.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/catalogue/ComposerCatalogues.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/common/AIChat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/common/AIChat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/common/WikipediaIntro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/common/WikipediaIntro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/composer/ComposerProfile.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/components/musicbrainz/mbSearch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/components/musicbrainz/mbSearch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/data/composers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/data/composers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/AlbumDialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/AlbumGrid.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/TracklistPanel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/ArtistDirectory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/RelatedAlbums.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/WorksTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/[slug]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/ComposerDirectory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/composers/ComposerDirectory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/composers/[name]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/composers/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/works/WorkExplorer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/works/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/BreadcrumbNav.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/CategoryOverview.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/CreateRowDialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/DatabaseAdmin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/HeaderCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/MultiFkSelect.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/RowFormModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/SearchableFkSelect.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/SqlConsole.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/TablePagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/TablePicker.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/TablesOverview.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/[category]/[table]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/[category]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/fieldMetadata.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/shared.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/sql/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/database/tableMetadata.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/login/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppShell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppShell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/WikipediaIntro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/WikipediaIntro.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/admin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/albums.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/artists.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/catalogues.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/catalogues.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/composers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/composers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/recordings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/sqlite.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/works.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/works.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/zh.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/bach.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/bach.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/beethoven.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/beethoven.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/brahms.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/brahms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/charpentier.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/charpentier.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/corelli.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/corelli.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/couperin.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/couperin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/debussy.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/debussy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/dufay.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/dufay.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/dvorak.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/dvorak.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/gluck.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/gluck.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/handel.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/handel.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/haydn.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/haydn.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/josquin.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/josquin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/lully.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/lully.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/machaut.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/machaut.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/monteverdi.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/monteverdi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/mozart.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/mozart.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/purcell.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/purcell.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/rameau.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/rameau.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/schubert.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/schubert.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/stravinsky.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/stravinsky.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/telemann.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/telemann.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/composers/vivaldi.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/composers/vivaldi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/albums.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/albums.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/bwv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/bwv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/hwv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/hwv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/rv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/rv.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="520d6950-a275-489a-b9be-cdd5a669583e" value="-" />
-      <entry key="76262f29-45ea-4017-ad8e-d19afdad3594" value="" />
-      <entry key="9e16abaf-1321-49d3-9bfd-28d3d8bb0829" value="" />
-      <entry key="d1e8db4f-2aac-4eec-8ed4-011329a4b8d5" value="" />
-    </colors>
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="276" />
@@ -98,7 +88,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/KenParker-CN/parker-home.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/KenParker-CN/Konzert-database.git&quot;,
     &quot;accountId&quot;: &quot;25dc1cb0-f93f-4bee-aba3-430b9d66a6a9&quot;
   }
 }</component>
@@ -108,61 +98,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.691671102317986E-125" />
-      <entry key="S5" value="2.2785756245593863E-50" />
-      <entry key="S10" value="2.3722637582188663E-25" />
-      <entry key="S30" value="1.5731713434579504E-8" />
-      <entry key="S60" value="3.737575697671358E-4" />
-      <entry key="M2" value="0.0765791084311002" />
-      <entry key="M5" value="2.365332947412268" />
-      <entry key="M10" value="8.333382050667431" />
-      <entry key="M15" value="13.760048106011283" />
-      <entry key="M30" value="32.50182590064319" />
-      <entry key="H1" value="77.67233957383485" />
-      <entry key="H2" value="141.33565960668574" />
-      <entry key="H4" value="197.87197881557447" />
-      <entry key="D1" value="266.25300760426944" />
-      <entry key="W1" value="280.5356571997955" />
+      <entry key="MS100" value="1.544970439939809" />
+      <entry key="MS500" value="3.819724999444165" />
+      <entry key="S2" value="7.294026611376086" />
+      <entry key="S5" value="8.756524015930937" />
+      <entry key="S10" value="9.347362163669548" />
+      <entry key="S30" value="9.775159899086413" />
+      <entry key="S60" value="9.888140510347453" />
+      <entry key="M2" value="10.341504198490558" />
+      <entry key="M5" value="21.878668396720684" />
+      <entry key="M10" value="47.393603039138114" />
+      <entry key="M15" value="65.65173265746601" />
+      <entry key="M30" value="99.99362921288306" />
+      <entry key="H1" value="148.8400848040599" />
+      <entry key="H2" value="230.39357598902677" />
+      <entry key="H4" value="332.9683911864384" />
+      <entry key="D1" value="504.35527560203883" />
+      <entry key="W1" value="547.3243083334198" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000029086564" />
-      <entry key="S10" value="1.0000539319603396" />
-      <entry key="S30" value="1.0377817503249194" />
-      <entry key="S60" value="1.1943959246310993" />
-      <entry key="M2" value="1.4454237543261967" />
-      <entry key="M5" value="1.8405663133236372" />
-      <entry key="M10" value="2.35365163865091" />
-      <entry key="M15" value="2.9508256545342384" />
-      <entry key="M30" value="4.622826880577868" />
-      <entry key="H1" value="6.522377934540007" />
-      <entry key="H2" value="7.996678180312533" />
-      <entry key="H4" value="8.921223407815134" />
-      <entry key="D1" value="9.808407340193034" />
-      <entry key="W1" value="9.972325390166775" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.1396323622216417E-216" />
+      <entry key="S30" value="1.0445316192597826E-72" />
+      <entry key="S60" value="1.0220232968282979E-36" />
+      <entry key="M2" value="1.0109516787887566E-18" />
+      <entry key="M5" value="6.337500034556975E-8" />
+      <entry key="M10" value="2.5510362826846586E-4" />
+      <entry key="M15" value="0.004361508959330394" />
+      <entry key="M30" value="0.11523098911577383" />
+      <entry key="H1" value="0.9436317972543078" />
+      <entry key="H2" value="3.106652344051736" />
+      <entry key="H4" value="5.800200674287819" />
+      <entry key="D1" value="9.877374085851333" />
+      <entry key="W1" value="10.83188604612577" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.0672492977600752E-4" />
-      <entry key="MS500" value="0.18326459464865114" />
-      <entry key="S2" value="0.6542890357275051" />
-      <entry key="S5" value="0.8439327845010134" />
-      <entry key="S10" value="0.9187086825644245" />
-      <entry key="S30" value="1.0090883506696318" />
-      <entry key="S60" value="1.1786359352074154" />
-      <entry key="M2" value="1.5125390463486101" />
-      <entry key="M5" value="4.201080897877683" />
-      <entry key="M10" value="10.683574235651443" />
-      <entry key="M15" value="16.707528192227183" />
-      <entry key="M30" value="37.121361128181796" />
-      <entry key="H1" value="84.19200997054394" />
-      <entry key="H2" value="149.3304844885833" />
-      <entry key="H4" value="206.79209059035097" />
-      <entry key="D1" value="276.061195736269" />
-      <entry key="W1" value="290.5079503030173" />
+      <entry key="MS100" value="1.4904698182619927" />
+      <entry key="MS500" value="3.7892169647426317" />
+      <entry key="S2" value="7.279148244859967" />
+      <entry key="S5" value="8.749366585371156" />
+      <entry key="S10" value="9.343540530934419" />
+      <entry key="S30" value="9.773827464010393" />
+      <entry key="S60" value="9.887466566816588" />
+      <entry key="M2" value="10.3411516993052" />
+      <entry key="M5" value="21.878367250263697" />
+      <entry key="M10" value="47.393528702600626" />
+      <entry key="M15" value="65.65578318565916" />
+      <entry key="M30" value="100.1085437090435" />
+      <entry key="H1" value="149.7831698899991" />
+      <entry key="H2" value="233.49942103742458" />
+      <entry key="H4" value="338.7678250184477" />
+      <entry key="D1" value="514.232422074763" />
+      <entry key="W1" value="558.1561583535216" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -196,10 +186,15 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cline.proxy.unsupported.AutoDetectProxyData.dismissed": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "grid.search.filter.rows": "true",
     "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "D:/Users/Parker/WebstormProjects/parker-home",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -210,16 +205,19 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/Parker/AppData/Local/nvm/v22.23.2/node",
-    "nodejs_package_manager_path": "C:\\Users\\Parker\\AppData\\Local\\nvm\\v22.23.2\\node.exe",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: 服务器端.executor": "Run",
     "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
     "npm.docs:build.executor": "Run",
     "npm.docs:dev.executor": "Run",
     "npm.pagefind.executor": "Run",
-    "settings.editor.selected.configurable": "database.query.execution",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.runtime",
     "settings.editor.splitter.proportion": "0.33258173",
-    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm 2026.2.0.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\Parker\\AppData\\Local\\JetBrains\\WebStorm2026.2\\ts-go-native-preview\\v7.0.0-dev.jetbrains.20260702.4\\node_modules\\@typescript\\native-preview-win32-x64\\lib"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -250,86 +248,21 @@
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:dev">
-    <configuration name="clean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="parker-home" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clean.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="merge" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="parker-home" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="D:\Users\Parker\WebstormProjects\parker-home\.venv" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="docs:build" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="docs:dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <package-manager value="npm" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="npm.docs:build" />
-      <item itemvalue="npm.docs:dev" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.docs:dev" />
-        <item itemvalue="npm.docs:build" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +301,8 @@
       <workItem from="1788421761805" duration="12461000" />
       <workItem from="1788434343645" duration="60000" />
       <workItem from="1788434411812" duration="16175000" />
+      <workItem from="1791284521931" duration="2398000" />
+      <workItem from="1791289574648" duration="6476000" />
     </task>
     <task id="LOCAL-00001" summary="Added works into Kochel catalogue">
       <option name="closed" value="true" />

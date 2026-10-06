@@ -13,7 +13,6 @@ import {
 
 const PAGE_SIZE = 10
 
-/** Minimal row shape shared by Works (works page) and ArtistWork/ComposerWork (detail pages). */
 type PaginatedWork = {
     workId: number
     catalogue: string
@@ -22,7 +21,6 @@ type PaginatedWork = {
     key: string
 }
 
-/** Paginated works table for the artist detail page. */
 export default function WorksTable({works}: { works: PaginatedWork[] }) {
     const {t} = useI18n()
     const [page, setPage] = useState(1)

@@ -18,9 +18,7 @@
   "navigation": {
     "home": "首页",
     "works": "作品",
-    "composers": "作曲家",
-    "artists": "艺术家",
-    "recordings": "专辑"
+    "composers": "作曲家"
   },
   "theme": {
     "label": "主题",
@@ -33,9 +31,7 @@
     "tagline": "一部连接作曲家、作品与专辑收藏的清晰档案。",
     "exploreWorks": "探索作品",
     "worksExplorerTitle": "作品探索器",
-    "worksExplorerDescription": "按作品编号、标题、作曲家与配器搜索。",
-    "recordingsTitle": "专辑收藏",
-    "recordingsDescription": "查阅档案中的录音与在线试听链接。"
+    "worksExplorerDescription": "按作品编号、标题、作曲家与配器搜索。"
   },
   "works": {
     "badge": "古典音乐档案",
@@ -74,6 +70,9 @@
     "works": "作品",
     "noWorks": "暂无关联作品。",
     "all": "全部",
+    "wikipedia": "维基百科",
+    "loadingIntroduction": "正在加载简介…",
+    "readOnWikipedia": "在维基百科阅读 ↗",
     "period": {
       "Medieval": "中世纪 (500-1400)",
       "Renaissance": "文艺复兴 (1400-1600)",
@@ -84,63 +83,6 @@
       "Contemporary": "当代 (2000+)",
       "present": "至今"
     }
-  },
-  "artists": {
-    "badge": "人物目录",
-    "title": "艺术家",
-    "description": "浏览音乐数据库中收录的艺术家。",
-    "searchPlaceholder": "搜索艺术家…",
-    "count": "{count} 位艺术家",
-    "count_one": "{count} 位艺术家",
-    "noArtists": "没有符合条件的艺术家。",
-    "noIntroduction": "暂无简介。",
-    "allArtists": "全部艺术家",
-    "roles": "角色",
-    "roleComposer": "作曲家",
-    "rolePerformer": "演奏者",
-    "biography": "简介",
-    "wikipedia": "维基百科",
-    "readOnWikipedia": "在维基百科阅读 ↗",
-    "loadingIntroduction": "正在加载简介…",
-    "relatedAlbums": "相关专辑",
-    "all": "全部"
-  },
-  "recordings": {
-    "badge": "专辑数据库",
-    "title": "专辑",
-    "recordingsHeading": "录音",
-    "description": "浏览收藏中的专辑、演奏者、厂牌与试听链接。",
-    "searchPlaceholder": "搜索录音…",
-    "sortBy": "排序方式",
-    "details": "录音详情",
-    "composers": "作曲家",
-    "artists": "艺术家",
-    "labelYear": "厂牌 / 年份",
-    "catalogueNumber": "目录号",
-    "tracklist": "曲目列表",
-    "tracklistUnavailable": "暂无该录音的曲目列表。",
-    "searchLabel": "搜索录音",
-    "count": "{count} 张录音",
-    "count_one": "{count} 张录音",
-    "pageInfo": "第 {current} / {total} 页",
-    "noCover": "无封面",
-    "unknownArtist": "未知艺术家",
-    "viewDetails": "查看「{title}」的详情",
-    "noRecordings": "没有符合搜索条件的录音。",
-    "sortTitleAsc": "标题 A–Z",
-    "sortTitleDesc": "标题 Z–A",
-    "sortArtistAsc": "艺术家 A–Z",
-    "sortArtistDesc": "艺术家 Z–A",
-    "sortYearAsc": "发行年份 ↑",
-    "sortYearDesc": "发行年份 ↓",
-    "sortCatalogueAsc": "目录号 A–Z",
-    "sortCatalogueDesc": "目录号 Z–A",
-    "recordingInfo": "录音信息",
-    "recordingTitle": "录音标题",
-    "recordingDate": "录音日期",
-    "performers": "演奏者",
-    "relatedWorks": "相关作品",
-    "disc": "第 {number} 张碟"
   },
   "pagination": {
     "page": "第",

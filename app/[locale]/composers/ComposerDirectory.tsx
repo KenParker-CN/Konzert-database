@@ -112,7 +112,7 @@ export default function ComposerDirectory({composers, search, fromYear, toYear}:
             <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:gap-8">
                 <div className="min-w-0 flex-1">
                     <div className="overflow-x-auto">
-                        <div className="flex min-w-[360px] gap-0">
+                        <div className="flex min-w-90 gap-0">
                             <button
                                 type="button"
                                 onClick={selectAll}
@@ -177,7 +177,7 @@ export default function ComposerDirectory({composers, search, fromYear, toYear}:
                                     onChange={event => applySearch(event.target.value)}
                                     onKeyDown={onSearchKeyDown}
                                     placeholder={t('composers.searchPlaceholder')}
-                                    className="h-full min-w-0 flex-1 bg-transparent text-sm text-slate-900 outline-none placeholder:text-slate-400"
+                                    className="h-full min-w-0 flex-1 bg-transparent text-sm outline-none placeholder:text-slate-400"
                                     autoFocus
                                 />
                                 <button

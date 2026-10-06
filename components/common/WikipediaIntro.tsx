@@ -75,10 +75,10 @@ export default function WikipediaIntro({ name }: WikipediaIntroProps) {
         return (
             <div className="h-full">
                 <p className="text-xs font-semibold uppercase tracking-wide text-blue-600">
-                    {t('artists.wikipedia')}
+                    {t('composers.wikipedia')}
                 </p>
                 <p className="mt-1 text-sm text-slate-500">
-                    {t('artists.loadingIntroduction')}
+                    {t('composers.loadingIntroduction')}
                 </p>
             </div>
         )
@@ -90,7 +90,7 @@ export default function WikipediaIntro({ name }: WikipediaIntroProps) {
         <div className="h-full">
             <div className="flex items-center justify-between gap-4">
                 <p className="text-xs font-semibold uppercase tracking-wide text-blue-600">
-                    {t('artists.wikipedia')}
+                    {t('composers.wikipedia')}
                 </p>
 
                 {url && (
@@ -100,7 +100,7 @@ export default function WikipediaIntro({ name }: WikipediaIntroProps) {
                         rel="noreferrer"
                         className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 hover:text-blue-700"
                     >
-                        {t('artists.readOnWikipedia')}
+                        {t('composers.readOnWikipedia')}
                     </a>
                 )}
             </div>

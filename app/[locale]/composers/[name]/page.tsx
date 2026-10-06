@@ -1,20 +1,15 @@
 import AppShell from '@/components/AppShell'
 import WikipediaIntro from '@/components/common/WikipediaIntro'
-import RelatedAlbums from '../../artists/RelatedAlbums'
-import WorksTable from '../../artists/WorksTable'
+import WorksTable from '../WorksTable'
 import MarqueeText from '@/components/common/MarqueeText'
 import {ArrowLeft} from 'lucide-react'
 import {
     getComposer,
-    getComposerSlugMap,
     getComposerWorks,
 } from '@/lib/db/composers'
-import {getAlbums} from '@/lib/db/albums'
-import {getReleaseTracklists} from '@/lib/db/recordings'
 import {notFound} from 'next/navigation'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
-import type {Translator} from '@/lib/i18n/core'
 
 export const dynamic = 'force-dynamic'
 
@@ -31,12 +26,6 @@ export default async function ComposerDetailPage({params}: { params: Promise<{ l
 
     const works = await getComposerWorks(composer.artistId)
 
-    // Albums from the collection whose credits mention this composer (exact name match).
-    const relatedAlbums = (await getAlbums()).filter(album =>
-        album.composers.includes(composer.name) || album.artists.includes(composer.name))
-    const slugMap = await getComposerSlugMap()
-    const tracklists = await getReleaseTracklists()
-
     const {t} = await getI18n(locale)
 
     const start = year(composer.startDate)
@@ -46,7 +35,7 @@ export default async function ComposerDetailPage({params}: { params: Promise<{ l
     return (
         <AppShell active="composers">
             <main className="min-h-screen">
-                <div className="mx-auto max-w-[1200px] px-5 py-10 lg:px-10 lg:py-14">
+                <div className="mx-auto max-w-300 px-5 py-10 lg:px-10 lg:py-14">
                     <a href={localePath(locale, '/composers')}
                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-700">
                         <ArrowLeft size={16}/>
@@ -86,13 +75,6 @@ export default async function ComposerDetailPage({params}: { params: Promise<{ l
                             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
                                 <WorksTable works={works}/>
                             </div>
-                        </section>
-                    )}
-
-                    {/* Related Albums Carousel */}
-                    {relatedAlbums.length > 0 && (
-                        <section className="mt-7">
-                            <RelatedAlbums albums={relatedAlbums} slugMap={slugMap} tracklists={tracklists}/>
                         </section>
                     )}
                 </div>

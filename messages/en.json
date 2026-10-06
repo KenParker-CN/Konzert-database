@@ -18,9 +18,7 @@
   "navigation": {
     "home": "Home",
     "works": "Works",
-    "composers": "Composers",
-    "artists": "Artists",
-    "recordings": "Albums"
+    "composers": "Composers"
   },
   "theme": {
     "label": "Theme",
@@ -33,9 +31,7 @@
     "tagline": "A clear, connected home for composers, works, and album collections.",
     "exploreWorks": "Explore works",
     "worksExplorerTitle": "Works explorer",
-    "worksExplorerDescription": "Search catalogue numbers, titles, composers, and instrumentation.",
-    "recordingsTitle": "Album collections",
-    "recordingsDescription": "Browse recordings and listening links across the archive."
+    "worksExplorerDescription": "Search catalogue numbers, titles, composers, and instrumentation."
   },
   "works": {
     "badge": "Classical music archive",
@@ -74,6 +70,9 @@
     "works": "Works",
     "noWorks": "No associated works.",
     "all": "All",
+    "wikipedia": "Wikipedia",
+    "loadingIntroduction": "Loading introduction…",
+    "readOnWikipedia": "Read on Wikipedia ↗",
     "period": {
       "Medieval": "Medieval (500-1400)",
       "Renaissance": "Renaissance (1400-1600)",
@@ -84,63 +83,6 @@
       "Contemporary": "Contemporary (2000+)",
       "present": "present"
     }
-  },
-  "artists": {
-    "badge": "People directory",
-    "title": "Artists",
-    "description": "Browse the artists represented in the connected music database.",
-    "searchPlaceholder": "Search artists…",
-    "count": "{count} artists",
-    "count_one": "{count} artist",
-    "noArtists": "No artists match this search.",
-    "noIntroduction": "No introduction available.",
-    "allArtists": "All artists",
-    "roles": "Roles",
-    "roleComposer": "Composer",
-    "rolePerformer": "Performer",
-    "biography": "Biography",
-    "wikipedia": "Wikipedia",
-    "readOnWikipedia": "Read on Wikipedia ↗",
-    "loadingIntroduction": "Loading introduction…",
-    "relatedAlbums": "Related albums",
-    "all": "All"
-  },
-  "recordings": {
-    "badge": "Album database",
-    "title": "Albums",
-    "recordingsHeading": "Recordings",
-    "description": "Browse albums, performers, labels, and listening links from the collection.",
-    "searchPlaceholder": "Search recordings…",
-    "sortBy": "Sort by",
-    "details": "Recording details",
-    "composers": "Composers",
-    "artists": "Artists",
-    "labelYear": "Label / year",
-    "catalogueNumber": "Cata No.",
-    "tracklist": "Tracklist",
-    "tracklistUnavailable": "Tracklist unavailable for this recording.",
-    "searchLabel": "Search recordings",
-    "count": "{count} recordings",
-    "count_one": "{count} recording",
-    "pageInfo": "Page {current} of {total}",
-    "noCover": "No cover",
-    "unknownArtist": "Unknown artist",
-    "viewDetails": "View details for {title}",
-    "noRecordings": "No recordings match this search.",
-    "sortTitleAsc": "Title A–Z",
-    "sortTitleDesc": "Title Z–A",
-    "sortArtistAsc": "Artist A–Z",
-    "sortArtistDesc": "Artist Z–A",
-    "sortYearAsc": "Release year ↑",
-    "sortYearDesc": "Release year ↓",
-    "sortCatalogueAsc": "Cata No. A–Z",
-    "sortCatalogueDesc": "Cata No. Z–A",
-    "recordingInfo": "Recording",
-    "recordingTitle": "Recording title",
-    "recordingDate": "Recording date",
-    "performers": "Performers",
-    "relatedWorks": "Related works",
-    "disc": "Disc {number}"
   },
   "pagination": {
     "page": "Page",

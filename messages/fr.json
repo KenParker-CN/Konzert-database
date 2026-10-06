@@ -18,9 +18,7 @@
   "navigation": {
     "home": "Accueil",
     "works": "Œuvres",
-    "composers": "Compositeurs",
-    "artists": "Artistes",
-    "recordings": "Albums"
+    "composers": "Compositeurs"
   },
   "theme": {
     "label": "Thème",
@@ -33,9 +31,7 @@
     "tagline": "Un espace clair et connecté pour les compositeurs, les œuvres et les collections d’albums.",
     "exploreWorks": "Explorer les œuvres",
     "worksExplorerTitle": "Explorateur d’œuvres",
-    "worksExplorerDescription": "Recherchez par numéro de catalogue, titre, compositeur et instrumentation.",
-    "recordingsTitle": "Collections d’albums",
-    "recordingsDescription": "Parcourez les enregistrements et les liens d’écoute des archives."
+    "worksExplorerDescription": "Recherchez par numéro de catalogue, titre, compositeur et instrumentation."
   },
   "works": {
     "badge": "Archives de musique classique",
@@ -74,6 +70,9 @@
     "works": "Œuvres",
     "noWorks": "Aucune œuvre associée.",
     "all": "Tout",
+    "wikipedia": "Wikipédia",
+    "loadingIntroduction": "Chargement de l’introduction…",
+    "readOnWikipedia": "Lire sur Wikipédia ↗",
     "period": {
       "Medieval": "Médiéval (500-1400)",
       "Renaissance": "Renaissance (1400-1600)",
@@ -84,62 +83,6 @@
       "Contemporary": "Contemporain (2000+)",
       "present": "présent"
     }
-  },
-  "artists": {
-    "badge": "Répertoire de personnes",
-    "title": "Artistes",
-    "description": "Parcourez les artistes représentés dans la base de données musicale connectée.",
-    "searchPlaceholder": "Rechercher des artistes…",
-    "count": "{count} artistes",
-    "count_one": "{count} artiste",
-    "noArtists": "Aucun artiste ne correspond à cette recherche.",
-    "noIntroduction": "Aucune introduction disponible.",
-    "allArtists": "Tous les artistes",
-    "roles": "Rôles",
-    "roleComposer": "Compositeur",
-    "rolePerformer": "Interprète",
-    "biography": "Biographie",
-    "wikipedia": "Wikipédia",
-    "readOnWikipedia": "Lire sur Wikipédia ↗",
-    "loadingIntroduction": "Chargement de l’introduction…",
-    "relatedAlbums": "Albums associés"
-  },
-  "recordings": {
-    "badge": "Base d’albums",
-    "title": "Albums",
-    "recordingsHeading": "Enregistrements",
-    "description": "Parcourez les albums, interprètes, labels et liens d’écoute de la collection.",
-    "searchPlaceholder": "Rechercher des enregistrements…",
-    "sortBy": "Trier par",
-    "details": "Détails de l’enregistrement",
-    "composers": "Compositeurs",
-    "artists": "Artistes",
-    "labelYear": "Label / année",
-    "catalogueNumber": "N° de catalogue",
-    "tracklist": "Liste des plages",
-    "tracklistUnavailable": "Liste des plages indisponible pour cet enregistrement.",
-    "searchLabel": "Rechercher des enregistrements",
-    "count": "{count} enregistrements",
-    "count_one": "{count} enregistrement",
-    "pageInfo": "Page {current} sur {total}",
-    "noCover": "Pas de pochette",
-    "unknownArtist": "Artiste inconnu",
-    "viewDetails": "Voir les détails de {title}",
-    "noRecordings": "Aucun enregistrement ne correspond à cette recherche.",
-    "sortTitleAsc": "Titre A–Z",
-    "sortTitleDesc": "Titre Z–A",
-    "sortArtistAsc": "Artiste A–Z",
-    "sortArtistDesc": "Artiste Z–A",
-    "sortYearAsc": "Année de sortie ↑",
-    "sortYearDesc": "Année de sortie ↓",
-    "sortCatalogueAsc": "N° de catalogue A–Z",
-    "sortCatalogueDesc": "N° de catalogue Z–A",
-    "recordingInfo": "Enregistrement",
-    "recordingTitle": "Titre de l’enregistrement",
-    "recordingDate": "Date d’enregistrement",
-    "performers": "Interprètes",
-    "relatedWorks": "Œuvres associées",
-    "disc": "Disque {number}"
   },
   "pagination": {
     "page": "Page",
