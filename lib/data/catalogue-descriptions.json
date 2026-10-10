@@ -1,0 +1,621 @@
+{
+  "BWV": {
+    "name": {
+      "en": "Bach-Werke-Verzeichnis",
+      "de": "Bach-Werke-Verzeichnis",
+      "fr": "Bach-Werke-Verzeichnis",
+      "zh": "巴赫作品目录",
+      "ja": "バッハ作品目録"
+    },
+    "abbr": "BWV",
+    "composer": "Johann Sebastian Bach",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Wolfgang Schmieder"
+    },
+    "publication": {
+      "firstEdition": 1950,
+      "revisedEditions": [
+        1990,
+        1998
+      ]
+    },
+    "scope": {
+      "works": "Johann Sebastian Bach's musical compositions"
+    },
+    "organization": {
+      "method": "genre and type",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 1080
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Bach-Werke-Verzeichnis (BWV) is a comprehensive catalogue of the musical compositions by Johann Sebastian Bach. It was compiled by Wolfgang Schmieder and published in 1950. The catalogue includes over 1,000 works, organized by genre and type.",
+      "zh": "巴赫作品目录（BWV）是约翰·塞巴斯蒂安·巴赫音乐作品的综合目录。由沃尔夫冈·施米德（Wolfgang Schmieder）编纂，于1950年出版。该目录包含超过1000部作品，按体裁和类型组织。",
+      "de": "Das Bach-Werke-Verzeichnis (BWV) ist ein umfassendes Verzeichnis der musikalischen Kompositionen von Johann Sebastian Bach. Es wurde von Wolfgang Schmieder zusammengestellt und 1950 veröffentlicht. Das Verzeichnis umfasst über 1.000 Werke, nach Gattung und Typ geordnet.",
+      "fr": "Le Bach-Werke-Verzeichnis (BWV) est un catalogue complet des compositions musicales de Jean-Sébastien Bach. Il a été compilé par Wolfgang Schmieder et publié en 1950. Le catalogue comprend plus de 1 000 œuvres, organisées par genre et type.",
+      "ja": "バッハ作品目録（BWV）はヨハン・ゼバスティアン・バッハの音楽作品の包括的な目録です。ヴォルフガング・シュミーダーによって編纂され、1950年に出版されました。この目録には1000以上の作品が含まれ、ジャンルとタイプ別に整理されています。"
+    }
+  },
+  "KV": {
+    "name": {
+      "en": "Köchel-Verzeichnis",
+      "de": "Köchel-Verzeichnis",
+      "fr": "Köchel-Verzeichnis",
+      "zh": "克歇尔目录",
+      "ja": "ケッヒェル番号"
+    },
+    "abbr": "KV",
+    "composer": "Wolfgang Amadeus Mozart",
+    "catalogueType": "chronological catalogue",
+    "compiler": {
+      "name": "Ludwig von Köchel"
+    },
+    "publication": {
+      "firstEdition": 1862,
+      "revisedEditions": [
+        1905,
+        1937,
+        1964
+      ]
+    },
+    "scope": {
+      "works": "Wolfgang Amadeus Mozart's musical compositions"
+    },
+    "organization": {
+      "method": "chronological",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 626
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Köchel-Verzeichnis (KV) is a chronological catalogue of the compositions by Wolfgang Amadeus Mozart. It was created by Ludwig von Köchel and first published in 1862. The catalogue numbers Mozart's works from his earliest childhood compositions to his final masterpieces.",
+      "zh": "克歇尔目录（KV）是沃尔夫冈·阿马德乌斯·莫扎特作品的编年目录。由路德维希·冯·克歇尔创建，首次出版于1862年。该目录按时间顺序编号了莫扎特从童年早期作品到最后的杰作。",
+      "de": "Das Köchel-Verzeichnis (KV) ist ein chronologisches Verzeichnis der Kompositionen von Wolfgang Amadeus Mozart. Es wurde von Ludwig von Köchel erstellt und erstmals 1862 veröffentlicht. Das Verzeichnis nummeriert Mozarts Werke von seinen frühesten Kindheitskompositionen bis zu seinen letzten Meisterwerken.",
+      "fr": "Le Köchel-Verzeichnis (KV) est un catalogue chronologique des compositions de Wolfgang Amadeus Mozart. Il a été créé par Ludwig von Köchel et publié pour la première fois en 1862. Le catalogue numérote les œuvres de Mozart de ses premières compositions d'enfance à ses derniers chefs-d'œuvre.",
+      "ja": "ケッヒェル番号（KV）はヴォルフガング・アマデウス・モーツァルトの作品の年代順目録です。ルートヴィヒ・フォン・ケッヒェルによって作成され、1862年に初版が出版されました。この目録はモーツァルトの初期の子供時代の作品から最後の傑作までを年代順に番号付けしています。"
+    }
+  },
+  "Hob": {
+    "name": {
+      "en": "Hoboken-Verzeichnis",
+      "de": "Hoboken-Verzeichnis",
+      "fr": "Hoboken-Verzeichnis",
+      "zh": "霍博肯目录",
+      "ja": "ホーボケン番号"
+    },
+    "abbr": "Hob",
+    "composer": "Joseph Haydn",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Anthony van Hoboken"
+    },
+    "publication": {
+      "firstEdition": 1957,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Joseph Haydn's musical compositions"
+    },
+    "organization": {
+      "method": "genre categories (31 categories)",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 750
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Hoboken-Verzeichnis (Hob) is a catalogue of the compositions by Joseph Haydn, compiled by Anthony van Hoboken. It organizes Haydn's works into 31 categories, including symphonies, string quartets, piano sonatas, and vocal works.",
+      "zh": "霍博肯目录（Hob）是约瑟夫·海顿的作品目录，由安东尼·范·霍博肯编纂。它将海顿的作品分为31个类别，包括交响曲、弦乐四重奏、钢琴奏鸣曲和声乐作品。",
+      "de": "Das Hoboken-Verzeichnis (Hob) ist ein Verzeichnis der Kompositionen von Joseph Haydn, zusammengestellt von Anthony van Hoboken. Es ordnet Haydns Werke in 31 Kategorien ein, darunter Sinfonien, Streichquartette, Klaviersonaten und Vokalwerke.",
+      "fr": "Le Hoboken-Verzeichnis (Hob) est un catalogue des compositions de Joseph Haydn, compilé par Anthony van Hoboken. Il organise les œuvres de Haydn en 31 catégories, notamment les symphonies, quatuors à cordes, sonates pour piano et œuvres vocales.",
+      "ja": "ホーボケン番号（Hob）はヨーゼフ・ハイドンの作品の目録で、アンソニー・ファン・ホーボケンによって編纂されました。ハイドンの作品を31のカテゴリーに整理しており、交響曲、弦楽四重奏、ピアノソナタ、声楽作品が含まれます。"
+    }
+  },
+  "HWV": {
+    "name": {
+      "en": "Händel-Werke-Verzeichnis",
+      "de": "Händel-Werke-Verzeichnis",
+      "fr": "Händel-Werke-Verzeichnis",
+      "zh": "亨德尔作品目录",
+      "ja": "ヘンデル作品目録"
+    },
+    "abbr": "HWV",
+    "composer": "George Frideric Handel",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Bernd Baselt"
+    },
+    "publication": {
+      "firstEdition": 1978,
+      "revisedEditions": [
+        1986
+      ]
+    },
+    "scope": {
+      "works": "George Frideric Handel's musical compositions"
+    },
+    "organization": {
+      "method": "genre and type",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 612
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Händel-Werke-Verzeichnis (HWV) is a catalogue of the compositions by George Frideric Handel. It was created by Bernd Baselt and published between 1978 and 1986. The catalogue includes Handel's operas, oratorios, concertos, and instrumental works.",
+      "zh": "亨德尔作品目录（HWV）是乔治·弗里德里希·亨德尔的作品目录。由伯恩德·巴泽尔特创建，于1978年至1986年间出版。该目录包括亨德尔的歌剧、清唱剧、协奏曲和器乐作品。",
+      "de": "Das Händel-Werke-Verzeichnis (HWV) ist ein Verzeichnis der Kompositionen von Georg Friedrich Händel. Es wurde von Bernd Baselt erstellt und zwischen 1978 und 1986 veröffentlicht. Das Verzeichnis umfasst Händels Opern, Oratorien, Konzerte und Instrumentalwerke.",
+      "fr": "Le Händel-Werke-Verzeichnis (HWV) est un catalogue des compositions de George Frideric Handel. Il a été créé par Bernd Baselt et publié entre 1978 et 1986. Le catalogue comprend les opéras, oratorios, concertos et œuvres instrumentales de Handel.",
+      "ja": "ヘンデル作品目録（HWV）はゲオルク・フリードリヒ・ヘンデルの作品の目録です。ベルント・バゼルトによって作成され、1978年から1986年の間に出版されました。この目録にはヘンデルのオペラ、オラトリオ、協奏曲、器楽作品が含まれます。"
+    }
+  },
+  "RV": {
+    "name": {
+      "en": "Ryom-Verzeichnis",
+      "de": "Ryom-Verzeichnis",
+      "fr": "Ryom-Verzeichnis",
+      "zh": "里约目录",
+      "ja": "リョム番号"
+    },
+    "abbr": "RV",
+    "composer": "Antonio Vivaldi",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Peter Ryom"
+    },
+    "publication": {
+      "firstEdition": 1974,
+      "revisedEditions": [
+        2007
+      ]
+    },
+    "scope": {
+      "works": "Antonio Vivaldi's musical compositions"
+    },
+    "organization": {
+      "method": "genre and type",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 800
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Ryom-Verzeichnis (RV) is a catalogue of the compositions by Antonio Vivaldi, created by Peter Ryom and first published in 1974. It is the most widely used numbering system for Vivaldi's works, numbering over 800 compositions.",
+      "zh": "里约目录（RV）是安东尼奥·维瓦尔第的作品目录，由彼得·里约创建，首次出版于1974年。这是维瓦尔第作品最广泛使用的编号系统，编号超过800部作品。",
+      "de": "Das Ryom-Verzeichnis (RV) ist ein Verzeichnis der Kompositionen von Antonio Vivaldi, erstellt von Peter Ryom und erstmals 1974 veröffentlicht. Es ist das am weitesten verbreitete Nummerierungssystem für Vivaldis Werke und nummeriert über 800 Kompositionen.",
+      "fr": "Le Ryom-Verzeichnis (RV) est un catalogue des compositions d'Antonio Vivaldi, créé par Peter Ryom et publié pour la première fois en 1974. C'est le système de numérotation le plus largement utilisé pour les œuvres de Vivaldi, numérotant plus de 800 compositions.",
+      "ja": "リョム番号（RV）はアントニオ・ヴィヴァルディの作品の目録で、ピーター・リョムによって作成され、1974年に初版が出版されました。これはヴィヴァルディの作品で最も広く使用されている番号付けシステムで、800以上の作品に番号が付けられています。"
+    }
+  },
+  "TWV": {
+    "name": {
+      "en": "Telemann-Werke-Verzeichnis",
+      "de": "Telemann-Werke-Verzeichnis",
+      "fr": "Telemann-Werke-Verzeichnis",
+      "zh": "泰勒曼作品目录",
+      "ja": "テレマン作品目録"
+    },
+    "abbr": "TWV",
+    "composer": "Georg Philipp Telemann",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Martin Ruhnke"
+    },
+    "publication": {
+      "firstEdition": 1982,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Georg Philipp Telemann's musical compositions"
+    },
+    "organization": {
+      "method": "genre and instrumentation",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 3000
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Telemann-Werke-Verzeichnis (TWV) is a catalogue of the compositions by Georg Philipp Telemann, created by Martin Ruhnke. It organizes Telemann's extensive output into categories based on genre and instrumentation.",
+      "zh": "泰勒曼作品目录（TWV）是格奥尔格·菲利普·泰勒曼的作品目录，由马丁·鲁恩克创建。它将泰勒曼大量的作品按体裁和乐器编配分类组织。",
+      "de": "Das Telemann-Werke-Verzeichnis (TWV) ist ein Verzeichnis der Kompositionen von Georg Philipp Telemann, erstellt von Martin Ruhnke. Es ordnet Telemanns umfangreiches Œuvre in Kategorien nach Gattung und Instrumentierung ein.",
+      "fr": "Le Telemann-Werke-Verzeichnis (TWV) est un catalogue des compositions de Georg Philipp Telemann, créé par Martin Ruhnke. Il organise l'œuvre extensive de Telemann en catégories basées sur le genre et l'instrumentation.",
+      "ja": "テレマン作品目録（TWV）はゲオルク・フィリップ・テレマンの作品の目録で、マルティン・ルーンケによって作成されました。テレマンの膨大な作品をジャンルと編成に基づいてカテゴリー別に整理しています。"
+    }
+  },
+  "CPE": {
+    "name": {
+      "en": "CPE Bach Catalogue",
+      "de": "CPE-Bach-Verzeichnis",
+      "fr": "Catalogue CPE Bach",
+      "zh": "CPE 巴赫目录",
+      "ja": "CPEバッハ目録"
+    },
+    "abbr": "Wq",
+    "composer": "Carl Philipp Emanuel Bach",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Alfred Wotquenne"
+    },
+    "publication": {
+      "firstEdition": 1905,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Carl Philipp Emanuel Bach's keyboard and instrumental works"
+    },
+    "organization": {
+      "method": "opus number and genre",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 754
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The CPE Bach catalogue includes the works of Carl Philipp Emanuel Bach, Johann Sebastian Bach's second son. His works are organized by opus number and also include the Wotquenne (Wq) numbering system for keyboard works.",
+      "zh": "CPE 巴赫目录包括卡尔·菲利普·埃马努埃尔·巴赫的作品，他是约翰·塞巴斯蒂安·巴赫的次子。他的作品按作品编号组织，键盘作品还包括沃特肯（Wq）编号系统。",
+      "de": "Das CPE-Bach-Verzeichnis umfasst die Werke von Carl Philipp Emanuel Bach, dem zweiten Sohn von Johann Sebastian Bach. Seine Werke sind nach Opusnummer geordnet und umfassen auch das Wotquenne (Wq) Nummerierungssystem für Klavierwerke.",
+      "fr": "Le catalogue CPE Bach comprend les œuvres de Carl Philipp Emanuel Bach, le deuxième fils de Jean-Sébastien Bach. Ses œuvres sont organisées par numéro d'opus et comprennent également le système de numérotation Wotquenne (Wq) pour les œuvres pour clavier.",
+      "ja": "CPEバッハ目録にはヨハン・ゼバスティアン・バッハの次男であるカール・フィリップ・エマヌエル・バッハの作品が含まれています。彼の作品は作品番号で整理されており、鍵盤作品にはWotquenne（Wq）番号システムも含まれています。"
+    }
+  },
+  "Marnat": {
+    "name": {
+      "en": "Marnat Catalogue",
+      "de": "Marnat-Verzeichnis",
+      "fr": "Catalogue Marnat",
+      "zh": "马纳特目录",
+      "ja": "マルナ番号"
+    },
+    "abbr": "M",
+    "composer": "Maurice Ravel",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "François Duchein"
+    },
+    "publication": {
+      "firstEdition": 1968,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Maurice Ravel's musical compositions"
+    },
+    "organization": {
+      "method": "genre and chronological",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 85
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+
+    "description": {
+      "en": "The Marnat catalogue is the numbering system for the works of Maurice Ravel, created by François Duchein. Ravel's relatively small but significant output includes works like Boléro, Pavane for a Dead Princess, and Daphnis et Chloé.",
+      "zh": "马纳特目录是莫里斯·拉威尔作品的编号系统，由弗朗索瓦·杜歇恩创建。拉威尔相对较少但重要的作品包括《波莱罗》、《死公主的孔雀舞》和《达夫尼斯与克洛埃》。",
+      "de": "Das Marnat-Verzeichnis ist das Nummerierungssystem für die Werke von Maurice Ravel, erstellt von François Duchein. Ravels relativ kleines aber bedeutendes Œuvre umfasst Werke wie Boléro, Pavane für eine verstorbene Prinzessin und Daphnis et Chloé.",
+      "fr": "Le catalogue Marnat est le système de numérotation des œuvres de Maurice Ravel, créé par François Duchein. L'œuvre relativement restreinte mais significative de Ravel comprend des œuvres comme Boléro, Pavane pour une infante défunte et Daphnis et Chloé.",
+      "ja": "マルナ番号はモーリス・ラヴェルの作品の番号付けシステムで、フランソワ・デュシェンによって作成されました。ラヴェルの比較的少ないが重要な作品には『ボレロ』、『亡き王女のためのパヴァーヌ』、『ダフニスとクロエ』などが含まれます。"
+    }
+  },
+  "LWV": {
+    "name": {
+      "en": "Lully-Werke-Verzeichnis",
+      "de": "Lully-Werke-Verzeichnis",
+      "fr": "Lully-Werke-Verzeichnis",
+      "zh": "吕利作品目录",
+      "ja": "リュリ作品目録"
+    },
+    "abbr": "LWV",
+    "composer": "Jean-Baptiste Lully",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Herbert Schneider"
+    },
+    "publication": {
+      "firstEdition": 1981,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Jean-Baptiste Lully's musical compositions"
+    },
+    "organization": {
+      "method": "genre and type",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 80
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The LWV (Lully-Werke-Verzeichnis) is a catalogue of the works of Jean-Baptiste Lully, the 17th-century French composer who dominated the musical life of the court of Louis XIV. His works include operas, ballets, and instrumental music.",
+      "zh": "LWV（吕利作品目录）是让-巴蒂斯特·吕利的作品目录，这位17世纪的法国作曲家统治了路易十四宫廷的音乐生活。他的作品包括歌剧、芭蕾舞剧和器乐。",
+      "de": "Das LWV (Lully-Werke-Verzeichnis) ist ein Verzeichnis der Werke von Jean-Baptiste Lully, dem französischen Komponisten des 17. Jahrhunderts, der das musikalische Leben am Hof von Ludwig XIV dominierte. Seine Werke umfassen Opern, Ballette und Instrumentalmusik.",
+      "fr": "Le LWV (Lully-Werke-Verzeichnis) est un catalogue des œuvres de Jean-Baptiste Lully, le compositeur français du XVIIe siècle qui a dominé la vie musicale à la cour de Louis XIV. Ses œuvres comprennent des opéras, des ballets et de la musique instrumentale.",
+      "ja": "LWV（リュリ作品目録）は17世紀フランスの作曲家ジャン＝バティスト・リュリの作品の目録で、ルイ14世の宮廷の音楽生活を支配しました。彼の作品にはオペラ、バレエ、器楽曲が含まれます。"
+    }
+  },
+  "Corelli": {
+    "name": {
+      "en": "Corelli Catalogue",
+      "de": "Corelli-Verzeichnis",
+      "fr": "Catalogue Corelli",
+      "zh": "科雷利目录",
+      "ja": "コレッリ目録"
+    },
+    "abbr": "Op.",
+    "composer": "Arcangelo Corelli",
+    "catalogueType": "opus catalogue",
+    "compiler": {
+      "name": "none (original opus numbering)"
+    },
+    "publication": {
+      "firstEdition": 1681,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Arcangelo Corelli's published instrumental works"
+    },
+    "organization": {
+      "method": "opus number",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 48
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Corelli catalogue includes the works of Arcangelo Corelli, the Italian Baroque composer and violinist. His published works include 12 sonata da chiesa, 12 sonata da camera, 12 violin sonatas, and 12 concerti grossi.",
+      "zh": "科雷利目录包括意大利巴洛克作曲家和小提琴家阿尔坎杰罗·科雷利的作品。他出版的作品包括12首教堂奏鸣曲、12首室内奏鸣曲、12首小提琴奏鸣曲和12首大协奏曲。",
+      "de": "Das Corelli-Verzeichnis umfasst die Werke von Arcangelo Corelli, dem italienischen Barockkomponisten und Geiger. Seine veröffentlichten Werke umfassen 12 Sonate da chiesa, 12 Sonate da camera, 12 Violinsonaten und 12 Concerti grossi.",
+      "fr": "Le catalogue Corelli comprend les œuvres d'Arcangelo Corelli, le compositeur et violoniste baroque italien. Ses œuvres publiées comprennent 12 sonates d'église, 12 sonates de chambre, 12 sonates pour violon et 12 concerti grossi.",
+      "ja": "コレッリ目録にはイタリアのバロック作曲家でヴァイオリニストであるアルカンジェロ・コレッリの作品が含まれています。彼の出版作品には12曲の教会ソナタ、12曲の室内ソナタ、12曲のヴァイオリンソナタ、12曲の協奏交響曲が含まれます。"
+    }
+  },
+  "BuxWV": {
+    "name": {
+      "en": "Buxtehude-Werke-Verzeichnis",
+      "de": "Buxtehude-Werke-Verzeichnis",
+      "fr": "Buxtehude-Werke-Verzeichnis",
+      "zh": "布克斯特胡德作品目录",
+      "ja": "ブクステフーデ作品目録"
+    },
+    "abbr": "BuxWV",
+    "composer": "Dieterich Buxtehude",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Georg Karstädt"
+    },
+    "publication": {
+      "firstEdition": 1957,
+      "revisedEditions": [
+        1968,
+        1985
+      ]
+    },
+    "scope": {
+      "works": "Dieterich Buxtehude's musical compositions"
+    },
+    "organization": {
+      "method": "genre and type",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 275
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The BuxWV (Buxtehude-Werke-Verzeichnis) is a catalogue of the works of Dieterich Buxtehude, the Danish-German Baroque composer and organist. His works include sacred vocal music, organ works, and instrumental ensemble music.",
+      "zh": "BuxWV（布克斯特胡德作品目录）是丹麦-德国巴洛克作曲家和管风琴家迪特里希·布克斯特胡德的作品目录。他的作品包括宗教声乐作品、管风琴作品和器乐合奏音乐。",
+      "de": "Das BuxWV (Buxtehude-Werke-Verzeichnis) ist ein Verzeichnis der Werke von Dieterich Buxtehude, dem dänisch-deutschen Barockkomponisten und Organisten. Seine Werke umfassen geistliche Vokalmusik, Orgelwerke und instrumentale Ensemblemusik.",
+      "fr": "Le BuxWV (Buxtehude-Werke-Verzeichnis) est un catalogue des œuvres de Dieterich Buxtehude, le compositeur et organiste baroque dano-allemand. Ses œuvres comprennent de la musique vocale sacrée, des œuvres pour orgue et de la musique instrumentale d'ensemble.",
+      "ja": "BuxWV（ブクステフーデ作品目録）はデンマーク＝ドイツのバロック作曲家でオルガニストであるディートリヒ・ブクステフーデの作品の目録です。彼の作品には宗教的声楽曲、オルガン作品、器楽アンサンブル音楽が含まれます。"
+    }
+  },
+  "Deutsch": {
+    "name": {
+      "en": "Deutsch Catalogue",
+      "de": "Deutsch-Verzeichnis",
+      "fr": "Catalogue Deutsch",
+      "zh": "多伊奇目录",
+      "ja": "ドイツ番号"
+    },
+    "abbr": "D",
+    "composer": "Franz Schubert",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Otto Erich Deutsch"
+    },
+    "publication": {
+      "firstEdition": 1951,
+      "revisedEditions": [
+        1978
+      ]
+    },
+    "scope": {
+      "works": "Franz Schubert's musical compositions"
+    },
+    "organization": {
+      "method": "genre and chronological",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 1500
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Deutsch catalogue (D) is a thematic catalogue of the works of Franz Schubert, created by Otto Erich Deutsch. It organizes Schubert's works by genre and includes over 1,500 compositions, ranging from songs to symphonies.",
+      "zh": "多伊奇目录（D）是弗朗茨·舒伯特的作品主题目录，由奥托·埃里希·多伊奇创建。它按体裁组织舒伯特的作品，包括超过1500部作品，从歌曲到交响曲。",
+      "de": "Das Deutsch-Verzeichnis (D) ist ein thematisches Verzeichnis der Werke von Franz Schubert, erstellt von Otto Erich Deutsch. Es ordnet Schuberts Werke nach Gattung und umfasst über 1.500 Kompositionen, von Liedern bis zu Sinfonien.",
+      "fr": "Le catalogue Deutsch (D) est un catalogue thématique des œuvres de Franz Schubert, créé par Otto Erich Deutsch. Il organise les œuvres de Schubert par genre et comprend plus de 1 500 compositions, allant des lieder aux symphonies.",
+      "ja": "ドイツ番号（D）はフランツ・シューベルトの作品の主題別目録で、オットー・エーリヒ・ドイツによって作成されました。シューベルトの作品をジャンル別に整理しており、歌曲から交響曲まで1500以上の作品が含まれます。"
+    }
+  },
+  "RCT": {
+    "name": {
+      "en": "Rameau Catalogue Thématique",
+      "de": "Rameau Catalogue Thématique",
+      "fr": "Rameau Catalogue Thématique",
+      "zh": "拉梅尔主题目录",
+      "ja": "ラモー主題目録"
+    },
+    "abbr": "RCT",
+    "composer": "Jean-Philippe Rameau",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Various scholars"
+    },
+    "publication": {
+      "firstEdition": 1972,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Jean-Philippe Rameau's musical compositions"
+    },
+    "organization": {
+      "method": "genre and type",
+      "chronological": false
+    },
+    "coverage": {
+      "approximateWorks": 80
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The RCT (Rameau Catalogue Thématique) is a catalogue of the works of Jean-Philippe Rameau, the French Baroque composer and music theorist. His works include operas, ballets, and keyboard music.",
+      "zh": "RCT（拉梅尔主题目录）是法国巴洛克作曲家和音乐理论家让-菲利普·拉梅尔的作品目录。他的作品包括歌剧、芭蕾舞剧和键盘音乐。",
+      "de": "Das RCT (Rameau Catalogue Thématique) ist ein Verzeichnis der Werke von Jean-Philippe Rameau, dem französischen Barockkomponisten und Musiktheoretiker. Seine Werke umfassen Opern, Ballette und Klaviermusik.",
+      "fr": "Le RCT (Rameau Catalogue Thématique) est un catalogue des œuvres de Jean-Philippe Rameau, le compositeur et théoricien musical baroque français. Ses œuvres comprennent des opéras, des ballets et de la musique pour clavier.",
+      "ja": "RCT（ラモー主題目録）はフランスのバロック作曲家で音楽理論家であるジャン＝フィリップ・ラモーの作品の目録です。彼の作品にはオペラ、バレエ、鍵盤音楽が含まれます。"
+    }
+  },
+  "MWV": {
+    "name": {
+      "en": "Mendelssohn-Werke-Verzeichnis",
+      "de": "Mendelssohn-Werke-Verzeichnis",
+      "fr": "Mendelssohn-Werke-Verzeichnis",
+      "zh": "门德尔松作品目录",
+      "ja": "メンデルスゾーン作品目録"
+    },
+    "abbr": "MWV",
+    "composer": "Felix Mendelssohn",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "R. Larry Todd"
+    },
+    "publication": {
+      "firstEdition": 1983,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Felix Mendelssohn's musical compositions"
+    },
+    "organization": {
+      "method": "genre and chronological",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 750
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "A\tGroß besetzte geistliche Vokalwerke\nB\tKleiner besetzte geistliche Vokalwerke\nC\tGeistliche Werke für Solostimmen mit Begleitung\nD\tGroß besetzte weltliche Vokalwerke\nE\tKleiner besetzte weltliche Vokalwerke\nF\tWerke für gemischten Chor bzw. Solistenensemble\nG\tWerke für Männerchor bzw. Männerstimmen\nH\tWerke für eine Singstimme und Orchester\nI\tWerk für eine Singstimme und Instrumentalensemble\nJ\tWerke für zwei Singstimmen und Klavier (Duette)\nK\tWerke für eine Singstimme und Klavier\nL\tSingspiele und Opern\nM\tSchauspielmusiken und andere Bühnenwerke\nN\tSinfonien\nO\tKonzerte und konzertante Werke\nP\tOuvertüren und andere Orchesterwerke\nQ\tKammermusikalische Werke mit Klavier\nR\tKammermusikalische Werke ohne Klavier\nS\tWerke für zwei Klaviere\nT\tWerke für Klavier zu vier Händen\nU\tWerke für Klavier zu zwei Händen\nV\tOrgelwerk für zwei Spieler\nW\tOrgelwerke für einen Spieler\nX\tVokalkanons\nY\tInstrumentalkanons\nZ\tVaria\n",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The MWV (Mendelssohn-Werke-Verzeichnis) is a catalogue of the works of Felix Mendelssohn, the German Romantic composer. His works include symphonies, concertos, chamber music, piano works, and songs.",
+      "zh": "MWV（门德尔松作品目录）是德国浪漫主义作曲家费利克斯·门德尔松的作品目录。他的作品包括交响曲、协奏曲、室内乐、钢琴作品和歌曲。",
+      "de": "Das MWV (Mendelssohn-Werke-Verzeichnis) ist ein Verzeichnis der Werke von Felix Mendelssohn, dem deutschen romantischen Komponisten. Seine Werke umfassen Sinfonien, Konzerte, Kammermusik, Klavierwerke und Lieder.",
+      "fr": "Le MWV (Mendelssohn-Werke-Verzeichnis) est un catalogue des œuvres de Felix Mendelssohn, le compositeur romantique allemand. Ses œuvres comprennent des symphonies, des concertos, de la musique de chambre, des œuvres pour piano et des lieder.",
+      "ja": "MWV（メンデルスゾーン作品目録）はドイツのロマン派作曲家フェリックス・メンデルスゾーンの作品の目録です。彼の作品には交響曲、協奏曲、室内楽、ピアノ作品、歌曲が含まれます。"
+    }
+  }
+}

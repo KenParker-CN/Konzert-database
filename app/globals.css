@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Google+Sans+Text:wght@400;500;600&display=swap');
+@import 'flag-icons/css/flag-icons.min.css';
 @import 'tailwindcss';
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";

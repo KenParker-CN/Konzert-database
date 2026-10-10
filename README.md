@@ -8,8 +8,12 @@ Composer and work data is fetched from CSV files in the
 [konzert-public-data](https://github.com/KenParker-CN/konzert-public-data)
 repository. The server loads `composers.csv` and composer-specific catalogue
 files from GitHub's raw content endpoint, caching responses for one hour.
-There is no local SQLite database, database CRUD interface, or administrator
-authentication.
+
+For the initial database integration, RV works are read from PostgreSQL with
+identical work/catalogue rows deduplicated at read time; other catalogues and
+the composer directory continue to use the CSV source. Set
+`DATABASE_URL` in `.env.local` to a PostgreSQL connection string for local
+development, for example `postgresql://postgres:<password>@localhost:5432/postgres`.
 
 Catalogue files currently supported: BWV, KV, Hob, HWV, RV, TWV, CPE, and
 Marnat.

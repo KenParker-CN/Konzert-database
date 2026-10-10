@@ -12,6 +12,9 @@ import type {Composer} from '@/lib/db/composers'
 import {useI18n} from '@/lib/i18n/client'
 import {localePath} from '@/lib/i18n/config'
 import MarqueeText from '@/components/common/MarqueeText'
+import {getComposerSurnameInitial, getLocalizedComposerName} from '@/lib/composer-name'
+import {getComposerAvatarSource} from '@/lib/composer-avatar'
+import Image from 'next/image'
 
 export default function ComposerDirectory({composers, search}: {
     composers: Composer[]
@@ -80,25 +83,28 @@ export default function ComposerDirectory({composers, search}: {
             <span>{pending ? t('composers.searching') : t('works.pageInfo', {current: 1, total: 1})}</span>
         </div>
         <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {composers.map(composer => (
-                <a
-                    key={composer.artistId}
-                    href={localePath(locale, `/composers/${composer.slug}`)}
-                    className="group flex min-w-0 items-center gap-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm hover:border-blue-300 hover:shadow-md"
-                >
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-base font-semibold text-blue-700">
-                        {composer.name.slice(0, 1)}
-                    </div>
-                    <div className="min-w-0">
-                        <MarqueeText className="heading text-base font-semibold text-slate-950 group-hover:text-blue-700">
-                            {composer.nameSort || composer.name}
-                        </MarqueeText>
-                        <MarqueeText className="mt-1 text-sm leading-5 text-slate-500">
-                            {composer.biography ?? ''}
-                        </MarqueeText>
-                    </div>
-                </a>
-            ))}
+            {composers.map(composer => {
+                const displayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
+                const avatarSrc = getComposerAvatarSource(composer.slug)
+                return (
+                    <a
+                        key={composer.artistId}
+                        href={localePath(locale, `/composers/${composer.slug}`)}
+                        className="group flex min-w-0 items-center gap-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm hover:border-blue-300 hover:shadow-md"
+                    >
+                        <div className="relative flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-blue-50 text-base font-semibold text-blue-700">
+                            {avatarSrc ? (
+                                <Image src={avatarSrc} alt="" fill sizes="48px" className="object-cover"/>
+                            ) : getComposerSurnameInitial(composer.name, composer.nameSort)}
+                        </div>
+                        <div className="min-w-0">
+                            <MarqueeText className="heading text-base font-semibold text-slate-950 group-hover:text-blue-700">
+                                {displayName === composer.name ? composer.nameSort || composer.name : displayName}
+                            </MarqueeText>
+                        </div>
+                    </a>
+                )
+            })}
         </div>
         {!composers.length && (
             <div className="mt-3 rounded-2xl border border-slate-200 bg-white px-6 py-14 text-center text-sm text-slate-500">

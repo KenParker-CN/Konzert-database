@@ -1,6 +1,13 @@
 import 'server-only';
 
-const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/KenParker-CN/konzert-public-data/main/csv';
+const CSV_SOURCES = [
+  // Prefer jsDelivr: raw.githubusercontent.com often times out on restricted networks.
+  'https://cdn.jsdelivr.net/gh/KenParker-CN/konzert-public-data@main/csv',
+  'https://raw.githubusercontent.com/KenParker-CN/konzert-public-data/main/csv',
+] as const;
+const COMPOSERS_REVALIDATE_SECONDS = 60;
+const CATALOG_REVALIDATE_SECONDS = 60;
+const isDev = process.env.NODE_ENV === 'development';
 
 interface CsvWork {
   catalogue: string;
@@ -30,34 +37,49 @@ interface CsvComposer {
 }
 
 const csvCache = new Map<string, CsvWork[]>();
-let composersCache: Array<{
-  artistId: number;
-  slug: string;
-  name: string;
-  nameSort: string;
-  type: string;
-  artistCategory: string;
-  startDate: string | null;
-  endDate: string | null;
-  biography: string | null;
-  workCount: number;
-}> | null = null;
+
+async function fetchCsv(path: string, revalidateSeconds: number) {
+  let lastError: unknown;
+
+  for (let index = 0; index < CSV_SOURCES.length; index++) {
+    const base = CSV_SOURCES[index];
+    const url = `${base}/${path}`;
+    const isLast = index === CSV_SOURCES.length - 1;
+    const init = {
+      ...(isDev
+        ? { cache: 'no-store' as const }
+        : { next: { revalidate: revalidateSeconds } }),
+      // Fail over quickly if the preferred CDN hangs; last source has no short timeout.
+      ...(isLast ? {} : { signal: AbortSignal.timeout(8000) }),
+    };
+
+    try {
+      const response = await fetch(url, init);
+      if (response.ok) return response;
+      lastError = new Error(`Failed to load ${path} from ${base}: ${response.status}`);
+    } catch (error) {
+      // Ignore abort/timeout from a failed source and try the next one.
+      lastError = error;
+    }
+  }
+
+  throw lastError instanceof Error
+    ? lastError
+    : new Error(`Failed to load ${path}`, { cause: lastError });
+}
 
 async function loadCatalog(catalogCode: string): Promise<CsvWork[]> {
-  if (csvCache.has(catalogCode)) {
+  // In-memory cache is process-scoped; skip in dev so CSV edits show up after refresh.
+  if (!isDev && csvCache.has(catalogCode)) {
     return csvCache.get(catalogCode)!;
   }
 
-  const url = `${GITHUB_RAW_BASE}/${catalogCode}.csv`;
-  const response = await fetch(url, { next: { revalidate: 3600 } });
-
-  if (!response.ok) {
-    throw new Error(`Failed to load ${catalogCode}.csv: ${response.status}`);
-  }
-
+  const response = await fetchCsv(`${catalogCode}.csv`, CATALOG_REVALIDATE_SECONDS);
   const works = parseCsvRecords<CsvWork>(await response.text());
 
-  csvCache.set(catalogCode, works);
+  if (!isDev) {
+    csvCache.set(catalogCode, works);
+  }
   return works;
 }
 
@@ -66,6 +88,15 @@ async function loadComposers(): Promise<Array<{
   slug: string;
   name: string;
   nameSort: string;
+  aliases: {
+    org: string;
+    en: string;
+    de: string;
+    fr: string;
+    ja: string;
+    zh: string;
+  };
+  nationalities: string[];
   type: string;
   artistCategory: string;
   startDate: string | null;
@@ -73,38 +104,35 @@ async function loadComposers(): Promise<Array<{
   biography: string | null;
   workCount: number;
 }>> {
-  if (composersCache) return composersCache;
-
-  const url = `${GITHUB_RAW_BASE}/composers.csv`;
-  const response = await fetch(url, { next: { revalidate: 3600 } });
-
-  if (!response.ok) {
-    throw new Error(`Failed to load composers.csv: ${response.status}`);
-  }
-
+  const response = await fetchCsv('composers.csv', COMPOSERS_REVALIDATE_SECONDS);
   const composers = parseCsvRecords(await response.text()) as CsvComposer[];
 
-  composersCache = composers.map((composer, index) => {
+  return composers.map((composer, index) => {
     const name = composer.Name || '';
     const slug = slugify(name);
-    const birth = composer.Birth?.replace(/\//g, '-') || '';
-    const died = composer.Died?.replace(/\//g, '-') || '';
-    
     return {
       artistId: index + 1,
       slug,
       name,
       nameSort: composer['Sort Name'] || '',
+      aliases: {
+        org: composer.alias_org || '',
+        en: composer.alias_en || '',
+        de: composer.alias_de || '',
+        fr: composer.alias_fr || '',
+        ja: composer.alias_jp || '',
+        zh: composer.alias_cn || '',
+      },
+      nationalities: [composer.Nationality, composer.Nationality_2].filter(Boolean),
       type: 'composer',
       artistCategory: 'classical',
-      startDate: birth ? `${birth.split('-')[0]}-${birth.split('-')[1].padStart(2, '0')}-${birth.split('-')[2].padStart(2, '0')}` : null,
-      endDate: died ? `${died.split('-')[0]}-${died.split('-')[1].padStart(2, '0')}-${died.split('-')[2].padStart(2, '0')}` : null,
+      startDate: composer.Birth || null,
+      endDate: composer.Died || null,
       biography: composer.Intro || '',
       workCount: 0,
     };
   });
 
-  return composersCache;
 }
 
 function slugify(name: string) {
@@ -163,6 +191,13 @@ function getCsvValue(record: CsvWork, ...fieldNames: string[]): string {
   for (const fieldName of fieldNames) {
     const value = record[fieldName];
     if (value) return value;
+    // Try case-insensitive match
+    const lowerFieldName = fieldName.toLowerCase();
+    for (const key in record) {
+      if (key.toLowerCase() === lowerFieldName && record[key]) {
+        return record[key];
+      }
+    }
   }
   return '';
 }
@@ -172,6 +207,15 @@ export async function getComposers(): Promise<Array<{
   slug: string;
   name: string;
   nameSort: string;
+  aliases: {
+    org: string;
+    en: string;
+    de: string;
+    fr: string;
+    ja: string;
+    zh: string;
+  };
+  nationalities: string[];
   type: string;
   artistCategory: string;
   startDate: string | null;
@@ -198,8 +242,14 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
 
   return works.map((work, index) => ({
     workId: index + 1,
-    catalogue: getCsvValue(work, 'Catalogue', 'catalogue', 'Wotquenne', 'Wq'),
-    opus: getCsvValue(work, 'Opus', 'opus'),
+    catalogue: catalogCode === 'Corelli'
+      ? getCsvValue(work, 'Opus', 'opus')
+      : catalogCode === 'MWV'
+      ? getCsvValue(work, 'MWV', 'Catalogue', 'catalogue')
+      : getCsvValue(work, 'Catalogue', 'catalogue', 'Wotquenne', 'Wq'),
+    opus: catalogCode === 'Corelli'
+      ? ''
+      : getCsvValue(work, 'Opus', 'opus'),
     secondaryCatalogue: getCsvValue(work, 'Helm', 'H'),
     date: getCsvValue(work, 'Date', 'date'),
     title: getCsvValue(work, 'Title', 'title'),

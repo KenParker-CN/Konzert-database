@@ -1,13 +1,25 @@
 import 'server-only'
 
 import { getComposers as loadComposers, getComposerWorks as loadComposerWorks } from '@/lib/data/csv-loader'
-import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
+import { getCatalogForComposer, hiddenCatalogues } from '@/lib/data/composer-catalog-map'
+import {getPostgresCatalogueWorkCount, getPostgresCatalogueWorks} from '@/lib/data/postgres'
+
+export type ComposerAliases = {
+    org: string
+    en: string
+    de: string
+    fr: string
+    ja: string
+    zh: string
+}
 
 export type Composer = {
     artistId: number
     slug: string
     name: string
     nameSort: string | null
+    aliases: ComposerAliases
+    nationalities: string[]
     type: string
     artistCategory: string
     startDate: string | null
@@ -34,7 +46,9 @@ export async function getComposers(search?: string): Promise<Composer[]> {
 
     if (search?.trim()) {
         const searchLower = search.trim().toLowerCase()
-        composers = composers.filter(c => c.name.toLowerCase().includes(searchLower))
+        composers = composers.filter(c =>
+            [c.name, ...Object.values(c.aliases)].some(name => name.toLowerCase().includes(searchLower)),
+        )
     }
 
     return composers
@@ -55,15 +69,27 @@ export async function getCatalogueDirectory() {
     const composers = await loadComposers()
     const catalogueEntries = composers.flatMap(composer => {
         const catalogue = getCatalogForComposer(composer.slug)
-        return catalogue ? [{composer, catalogue}] : []
+        return catalogue && !hiddenCatalogues.has(catalogue) ? [{composer, catalogue}] : []
     })
 
-    return Promise.all(catalogueEntries.map(async ({composer, catalogue}) => ({
-        catalogue,
-        composerName: composer.name,
-        composerSlug: composer.slug,
-        workCount: (await loadComposerWorks(catalogue)).length,
-    })))
+    return Promise.all(catalogueEntries.map(async ({composer, catalogue}) => {
+        let workCount = 0
+        try {
+            workCount = catalogue === 'RV'
+                ? await getPostgresCatalogueWorkCount(catalogue)
+                : (await loadComposerWorks(catalogue)).length
+        } catch {
+            workCount = 0
+        }
+
+        return {
+            catalogue,
+            composerName: composer.name,
+            composerAliases: composer.aliases,
+            composerSlug: composer.slug,
+            workCount,
+        }
+    }))
 }
 
 export async function getComposerWorks(artistId: number): Promise<ComposerWork[]> {
@@ -74,7 +100,9 @@ export async function getComposerWorks(artistId: number): Promise<ComposerWork[]
     const catalogCode = getCatalogForComposer(composer.slug)
     if (!catalogCode) return []
 
-    const works = await loadComposerWorks(catalogCode)
+    const works = catalogCode === 'RV'
+        ? await getPostgresCatalogueWorks(catalogCode)
+        : await loadComposerWorks(catalogCode)
     return works.map(w => ({
         workId: w.workId,
         catalogue: w.catalogue,
@@ -87,4 +115,44 @@ export async function getComposerWorks(artistId: number): Promise<ComposerWork[]
         instrumentation: w.instrumentation,
         details: w.details,
     }))
+}
+
+/** Load catalogue works without throwing — used by streaming works panels. */
+export async function getComposerWorksSafe(artistId: number): Promise<{
+    works: ComposerWork[]
+    error: boolean
+}> {
+    try {
+        return {works: await getComposerWorks(artistId), error: false}
+    } catch {
+        return {works: [], error: true}
+    }
+}
+
+export async function getCatalogWorksSafe(catalogCode: string): Promise<{
+    works: ComposerWork[]
+    error: boolean
+}> {
+    try {
+        const works = catalogCode === 'RV'
+            ? await getPostgresCatalogueWorks(catalogCode)
+            : await loadComposerWorks(catalogCode)
+        return {
+            works: works.map(w => ({
+                workId: w.workId,
+                catalogue: w.catalogue,
+                opus: w.opus,
+                secondaryCatalogue: w.secondaryCatalogue,
+                date: w.date,
+                title: w.title,
+                type: w.type,
+                key: w.key,
+                instrumentation: w.instrumentation,
+                details: w.details,
+            })),
+            error: false,
+        }
+    } catch {
+        return {works: [], error: true}
+    }
 }
