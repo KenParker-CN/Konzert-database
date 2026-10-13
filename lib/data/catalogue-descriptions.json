@@ -617,5 +617,91 @@
       "fr": "Le MWV (Mendelssohn-Werke-Verzeichnis) est un catalogue des œuvres de Felix Mendelssohn, le compositeur romantique allemand. Ses œuvres comprennent des symphonies, des concertos, de la musique de chambre, des œuvres pour piano et des lieder.",
       "ja": "MWV（メンデルスゾーン作品目録）はドイツのロマン派作曲家フェリックス・メンデルスゾーンの作品の目録です。彼の作品には交響曲、協奏曲、室内楽、ピアノ作品、歌曲が含まれます。"
     }
+  },
+  "Shostakovich": {
+    "name": {
+      "en": "Shostakovich Catalogue",
+      "de": "Shostakovich-Verzeichnis",
+      "fr": "Catalogue Chostakovitch",
+      "zh": "肖斯塔科维奇目录",
+      "ja": "ショスタコーヴィチ目録"
+    },
+    "abbr": "Op.",
+    "composer": "Dmitri Shostakovich",
+    "catalogueType": "opus catalogue",
+    "compiler": {
+      "name": "none (original opus numbering)"
+    },
+    "publication": {
+      "firstEdition": 1920,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Dmitri Shostakovich's compositions"
+    },
+    "organization": {
+      "method": "opus number",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 210
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Shostakovich catalogue lists the compositions of Dmitri Shostakovich by opus number, from the Scherzo op. 1 of 1920 to the late chamber works. It includes symphonies, string quartets, film music, songs, and incidental music; works without an opus number follow the sequential ordering of the source data.",
+      "zh": "肖斯塔科维奇目录按作品编号列出德米特里·肖斯塔科维奇的作品，从1920年的《谐谑曲》作品1到晚期室内乐作品。包括交响曲、弦乐四重奏、电影音乐、歌曲和戏剧配乐；无作品编号的作品按源数据的通序号排列。",
+      "de": "Das Shostakovich-Verzeichnis listet die Kompositionen von Dmitri Schostakowitsch nach Opusnummer, vom Scherzo op. 1 von 1920 bis zu den späten Kammermusikwerken. Es umfasst Sinfonien, Streichquartette, Filmmusik, Lieder und Schauspielmusik; Werke ohne Opusnummer folgen der fortlaufenden Nummerierung der Quelldaten.",
+      "fr": "Le catalogue Chostakovitch répertorie les compositions de Dmitri Chostakovitch par numéro d'opus, du Scherzo op. 1 de 1920 aux œuvres de chambre tardives. Il comprend des symphonies, des quatuors à cordes, de la musique de film, des chansons et de la musique de scène ; les œuvres sans numéro d'opus suivent l'ordre séquentiel des données sources.",
+      "ja": "ショスタコーヴィチ目録は、1920年の《スケルツォ》作品1から後期の室内楽作品まで、ドミートリイ・ショスタコーヴィチの作品を作品番号順に並べたものです。交響曲、弦楽四重奏曲、映画音楽、歌曲、劇付随音楽を含み、作品番号のない作品は元データの通し番号順に従います。"
+    }
+  },
+  "Tchaikovsky": {
+    "name": {
+      "en": "Tchaikovsky Catalogue",
+      "de": "Tchaikovsky-Verzeichnis",
+      "fr": "Catalogue Tchaïkovski",
+      "zh": "柴可夫斯基目录",
+      "ja": "チャイコフスキー目録"
+    },
+    "abbr": "TH",
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Various scholars"
+    },
+    "publication": {
+      "firstEdition": null,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Pyotr Ilyich Tchaikovsky's musical compositions"
+    },
+    "organization": {
+      "method": "TH number (chronological)",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 401
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Tchaikovsky catalogue (TH) is a thematic catalogue of the works of Pyotr Ilyich Tchaikovsky, covering symphonies, operas, ballets, piano works, chamber music, and songs. Works are also cross-referenced with the ČW numbering system; the seven symphonies are additionally identified by their key.",
+      "zh": "柴可夫斯基目录（TH）是彼得·伊里奇·柴可夫斯基作品的主题目录，涵盖交响曲、歌剧、芭蕾舞剧、钢琴作品、室内乐和歌曲。作品也对照ČW编号系统交叉引用；七部交响曲还以调性标识。",
+      "de": "Das Tchaikovsky-Verzeichnis (TH) ist ein thematisches Verzeichnis der Werke von Peter Iljitsch Tschaikowsky und umfasst Sinfonien, Opern, Ballette, Klavierwerke, Kammermusik und Lieder. Die Werke sind auch mit der ČW-Nummerierung verknüpft; die sieben Sinfonien werden zusätzlich durch ihre Tonart gekennzeichnet.",
+      "fr": "Le catalogue Tchaïkovski (TH) est un catalogue thématique des œuvres de Piotr Ilitch Tchaïkovski, couvrant les symphonies, opéras, ballets, œuvres pour piano, musique de chambre et chansons. Les œuvres sont aussi référencées avec le système de numérotation ČW ; les sept symphonies sont en outre identifiées par leur tonalité.",
+      "ja": "チャイコフスキー目録（TH）はピョートル・イリイチ・チャイコフスキーの作品の主題目録で、交響曲、オペラ、バレエ、ピアノ作品、室内楽、歌曲を網羅しています。作品はČW番号体系でも参照され、7曲の交響曲は調性でも示されます。"
+    }
   }
 }

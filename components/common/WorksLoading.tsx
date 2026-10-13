@@ -1,9 +1,6 @@
 export default function WorksLoading({label}: {label: string}) {
     return (
-        <section className="mt-8" aria-busy="true" aria-live="polite">
-            <div className="mb-3">
-                <div className="h-8 w-32 animate-pulse rounded-md bg-slate-200"/>
-            </div>
+        <section className="min-w-0" aria-busy="true" aria-live="polite">
             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
                 <div className="border-b border-slate-100 px-5 py-4">
                     <div className="h-10 w-full max-w-md animate-pulse rounded-lg bg-slate-100"/>

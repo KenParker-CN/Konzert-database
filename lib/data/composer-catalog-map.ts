@@ -13,11 +13,9 @@ export const composerCatalogMap: Record<string, string> = {
   'franz-schubert': 'Deutsch',
   'jean-philippe-rameau': 'RCT',
   'felix-mendelssohn': 'MWV',
-  'dmitri-shostakovich': 'shosta',
+  'dmitri-shostakovich': 'Shostakovich',
+  'pyotr-ilyich-tchaikovsky': 'Tchaikovsky',
 };
-
-// Catalogues to hide from the catalogue directory page
-export const hiddenCatalogues = new Set(['shosta']);
 
 export function getCatalogForComposer(composerSlug: string): string | undefined {
   return composerCatalogMap[composerSlug];

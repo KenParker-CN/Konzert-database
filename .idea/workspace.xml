@@ -4,56 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="mod: readme">
+    <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/AlbumDialog.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/AlbumGrid.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/TracklistPanel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/albums/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/ArtistDirectory.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/RelatedAlbums.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/WorksTable.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/[slug]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/artists/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/ComposerDirectory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/composers/ComposerDirectory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/composers/[name]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/composers/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/ComposerDirectory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/WorksTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/WorksScrollAnchor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/page.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/works/WorkExplorer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/works/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/BreadcrumbNav.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/CategoryOverview.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/CreateRowDialog.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/DatabaseAdmin.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/HeaderCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/MultiFkSelect.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/RowFormModal.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/SearchableFkSelect.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/SqlConsole.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/TablePagination.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/TablePicker.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/TablesOverview.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/[category]/[table]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/[category]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/actions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/fieldMetadata.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/shared.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/sql/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/database/tableMetadata.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/login/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/AppShell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppShell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/WikipediaIntro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/WikipediaIntro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/admin.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/albums.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/artists.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/catalogues.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/catalogues.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LanguageSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LanguageSelector.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/catalogues/CatalogueNotes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/CatalogueNotes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/CatalogWorksPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/CatalogWorksPanel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/ComposerWorksPanel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/MarqueeText.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/MusicBrainzWorks.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/WorksLoading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/WorksLoading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/composer-name.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer-name.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/catalogue-descriptions.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/catalogue-descriptions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/csv-loader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/csv-loader.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/musicbrainz.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/postgres.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/composers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/composers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/recordings.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/sqlite.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/works.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/works.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
@@ -61,11 +39,17 @@
       <change beforePath="$PROJECT_DIR$/messages/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/zh.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="afd63072-52ef-43a9-a46b-57e0e00982f9" value="" />
+    </colors>
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="276" />
@@ -98,62 +82,65 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.544970439939809" />
-      <entry key="MS500" value="3.819724999444165" />
-      <entry key="S2" value="7.294026611376086" />
-      <entry key="S5" value="8.756524015930937" />
-      <entry key="S10" value="9.347362163669548" />
-      <entry key="S30" value="9.775159899086413" />
-      <entry key="S60" value="9.888140510347453" />
-      <entry key="M2" value="10.341504198490558" />
-      <entry key="M5" value="21.878668396720684" />
-      <entry key="M10" value="47.393603039138114" />
-      <entry key="M15" value="65.65173265746601" />
-      <entry key="M30" value="99.99362921288306" />
-      <entry key="H1" value="148.8400848040599" />
-      <entry key="H2" value="230.39357598902677" />
-      <entry key="H4" value="332.9683911864384" />
-      <entry key="D1" value="504.35527560203883" />
-      <entry key="W1" value="547.3243083334198" />
+      <entry key="MS100" value="1.0748424233776537" />
+      <entry key="MS500" value="1.616684219251327" />
+      <entry key="S2" value="2.2602598427285367" />
+      <entry key="S5" value="2.629847776629468" />
+      <entry key="S10" value="2.799257318658016" />
+      <entry key="S30" value="2.929227238224893" />
+      <entry key="S60" value="2.9646850480543856" />
+      <entry key="M2" value="3.0267269146009714" />
+      <entry key="M5" value="4.414052848961173" />
+      <entry key="M10" value="10.049993396699158" />
+      <entry key="M15" value="16.774924348972533" />
+      <entry key="M30" value="35.360711494989964" />
+      <entry key="H1" value="66.0563595748103" />
+      <entry key="H2" value="112.28526771652002" />
+      <entry key="H4" value="172.90494900277676" />
+      <entry key="D1" value="476.6052120334579" />
+      <entry key="W1" value="1102.3720459258582" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="1.1396323622216417E-216" />
-      <entry key="S30" value="1.0445316192597826E-72" />
-      <entry key="S60" value="1.0220232968282979E-36" />
-      <entry key="M2" value="1.0109516787887566E-18" />
-      <entry key="M5" value="6.337500034556975E-8" />
-      <entry key="M10" value="2.5510362826846586E-4" />
-      <entry key="M15" value="0.004361508959330394" />
-      <entry key="M30" value="0.11523098911577383" />
-      <entry key="H1" value="0.9436317972543078" />
-      <entry key="H2" value="3.106652344051736" />
-      <entry key="H4" value="5.800200674287819" />
-      <entry key="D1" value="9.877374085851333" />
-      <entry key="W1" value="10.83188604612577" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="5.910383748187133E-286" />
+      <entry key="M2" value="2.43112808140317E-143" />
+      <entry key="M5" value="9.00167099901454E-58" />
+      <entry key="M10" value="3.0002784869099353E-29" />
+      <entry key="M15" value="9.655491339379809E-20" />
+      <entry key="M30" value="3.107328650043281E-10" />
+      <entry key="H1" value="1.76276165434902E-5" />
+      <entry key="H2" value="0.004198525526611842" />
+      <entry key="H4" value="0.06480438455489364" />
+      <entry key="D1" value="1.6834322904051564" />
+      <entry key="W1" value="8.800498839067464" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4904698182619927" />
-      <entry key="MS500" value="3.7892169647426317" />
-      <entry key="S2" value="7.279148244859967" />
-      <entry key="S5" value="8.749366585371156" />
-      <entry key="S10" value="9.343540530934419" />
-      <entry key="S30" value="9.773827464010393" />
-      <entry key="S60" value="9.887466566816588" />
-      <entry key="M2" value="10.3411516993052" />
-      <entry key="M5" value="21.878367250263697" />
-      <entry key="M10" value="47.393528702600626" />
-      <entry key="M15" value="65.65578318565916" />
-      <entry key="M30" value="100.1085437090435" />
-      <entry key="H1" value="149.7831698899991" />
-      <entry key="H2" value="233.49942103742458" />
-      <entry key="H4" value="338.7678250184477" />
-      <entry key="D1" value="514.232422074763" />
-      <entry key="W1" value="558.1561583535216" />
+      <entry key="MS100" value="0.24045817460121857" />
+      <entry key="MS500" value="1.2832821682958333" />
+      <entry key="S2" value="2.0049988678373856" />
+      <entry key="S5" value="2.4553112178940495" />
+      <entry key="S10" value="2.692595271078664" />
+      <entry key="S30" value="2.8883745419945472" />
+      <entry key="S60" value="2.9435239567357394" />
+      <entry key="M2" value="3.0159091418125694" />
+      <entry key="M5" value="4.408405392789955" />
+      <entry key="M10" value="10.044759766750325" />
+      <entry key="M15" value="16.769804885079328" />
+      <entry key="M30" value="35.356355581011655" />
+      <entry key="H1" value="66.05329583689782" />
+      <entry key="H2" value="112.28757129625947" />
+      <entry key="H4" value="172.96865730017046" />
+      <entry key="D1" value="478.288358996832" />
+      <entry key="W1" value="1111.1724744622848" />
     </decayedShown>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -169,65 +156,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Git.CreateWorkingTree.LastParentPath": "D:/Users/Parker/WebstormProjects",
-    "KEY_CHAT_IN_TOOLWINDOW": "false",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-GridPaste": "粘贴",
-    "Notification.DoNotAsk-GridPaste": "true",
-    "Python.clean.executor": "Run",
-    "Python.merge.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cline.proxy.unsupported.AutoDetectProxyData.dismissed": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "grid.search.filter.rows": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Users/Parker/WebstormProjects/parker-home",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.Next.js: 服务器端.executor": "Run",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.docs:build.executor": "Run",
-    "npm.docs:dev.executor": "Run",
-    "npm.pagefind.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "settings.javascript.runtime",
-    "settings.editor.splitter.proportion": "0.33258173",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\Parker\\AppData\\Local\\JetBrains\\WebStorm2026.2\\ts-go-native-preview\\v7.0.0-dev.jetbrains.20260702.4\\node_modules\\@typescript\\native-preview-win32-x64\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Git.CreateWorkingTree.LastParentPath&quot;: &quot;D:/Users/Parker/WebstormProjects&quot;,
+    &quot;KEY_CHAT_IN_TOOLWINDOW&quot;: &quot;false&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-GridPaste&quot;: &quot;粘贴&quot;,
+    &quot;Notification.DoNotAsk-GridPaste&quot;: &quot;true&quot;,
+    &quot;Python.clean.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cline.proxy.unsupported.AutoDetectProxyData.dismissed&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;grid.search.filter.rows&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Parker/WebstormProjects/parker-home&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: 服务器端.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.docs:build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.pagefind.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.33258173&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Parker\\AppData\\Local\\JetBrains\\WebStorm2026.2\\ts-go-native-preview\\v7.0.0-dev.jetbrains.20260702.4\\node_modules\\@typescript\\native-preview-win32-x64\\lib&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;sqlite&quot;
     ],
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;JSON&quot;
+    ],
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\Parker\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="69d8ad4e-77a7-4890-8735-63ada1fa54aa" reportId="clean.py/qodana/2026-09-03" />
@@ -241,11 +232,11 @@
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\docs\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Parker\WebstormProjects\Konzert-database" />
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\docs\components\" />
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\pages" />
       <recent name="D:\Users\Parker\WebstormProjects\parker-home" />
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\.vitepress" />
-      <recent name="D:\Users\Parker\WebstormProjects\parker-home\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -302,7 +293,10 @@
       <workItem from="1788434343645" duration="60000" />
       <workItem from="1788434411812" duration="16175000" />
       <workItem from="1791284521931" duration="2398000" />
-      <workItem from="1791289574648" duration="6476000" />
+      <workItem from="1791289574648" duration="45208000" />
+      <workItem from="1791577689276" duration="12483000" />
+      <workItem from="1791633398949" duration="30370000" />
+      <workItem from="1791865445499" duration="7614000" />
     </task>
     <task id="LOCAL-00001" summary="Added works into Kochel catalogue">
       <option name="closed" value="true" />

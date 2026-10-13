@@ -5,10 +5,10 @@ import { defaultLocale, isLocale } from './lib/i18n/config'
  * Locale proxy (Next.js 16 middleware replacement).
  *
  * - `/`                 → `/{defaultLocale}` (default `/en`)
- * - `/composers`         → `/{defaultLocale}/composers`
+ * - `/catalogues`       → `/{defaultLocale}/catalogues`
  * - `/xx/...` (invalid
  *   two-letter locale)  → `/{defaultLocale}/...`
- * - `/en/composers` (valid) → pass through
+ * - `/en/catalogues` (valid) → pass through
  *
  * `/api`, `/_next`, `/_vercel` and static assets are left untouched.
  */
@@ -27,7 +27,7 @@ export function proxy(request: NextRequest) {
         return NextResponse.next()
     }
 
-    // Looks like an invalid locale, e.g. `/xx/composers` — normalize to the default locale.
+    // Looks like an invalid locale, e.g. `/xx/catalogues` — normalize to the default locale.
     if (first && /^[a-z]{2}$/i.test(first)) {
         const remainder = segments.slice(1).join('/')
         return NextResponse.redirect(
@@ -35,7 +35,7 @@ export function proxy(request: NextRequest) {
         )
     }
 
-    // Unprefixed app path such as `/composers` → `/{defaultLocale}/composers`.
+    // Unprefixed app path such as `/catalogues` → `/{defaultLocale}/catalogues`.
     return NextResponse.redirect(new URL(`/${defaultLocale}${pathname}${search}`, request.url))
 }
 

@@ -5,9 +5,8 @@ const CSV_SOURCES = [
   'https://cdn.jsdelivr.net/gh/KenParker-CN/konzert-public-data@main/csv',
   'https://raw.githubusercontent.com/KenParker-CN/konzert-public-data/main/csv',
 ] as const;
-const COMPOSERS_REVALIDATE_SECONDS = 60;
-const CATALOG_REVALIDATE_SECONDS = 60;
-const isDev = process.env.NODE_ENV === 'development';
+const COMPOSER_CSV_SOURCES = [CSV_SOURCES[1], CSV_SOURCES[0]] as const;
+const KV_API_URL = 'https://dme.mozarteum.at/digital-editions/api/kv-entriesidx';
 
 interface CsvWork {
   catalogue: string;
@@ -18,9 +17,67 @@ interface CsvWork {
   [key: string]: string;
 }
 
+interface KvApiEntry {
+  work_id: number;
+  isPublished_KV: number;
+  work_catalog_nr: {
+    release: string;
+    nr: string;
+  };
+  work_catalog_ref_nrs: Array<{
+    release: string;
+    nr: string;
+  }> | null;
+  kv_title: {
+    lang: {
+      DE?: string;
+      EN?: string;
+    };
+  };
+  nicknames?: {
+    alias?: {
+      lang?: {
+        DE?: string;
+        EN?: string;
+      };
+    } | null;
+    new_kv?: string | null;
+  } | null;
+  movement?: string;
+  vocal_title?: string;
+  tempo?: string;
+  music_key?: string;
+  meter?: string;
+  measures?: string;
+  instruments?: string;
+  genres?: Array<{
+    lang?: {
+      DE?: string;
+      EN?: string;
+    };
+  }> | null;
+  workSeriesGrps?: Array<{
+    group?: {
+      lang?: {
+        DE?: string;
+        EN?: string;
+      };
+    };
+  }> | null;
+  yearOfBegin?: string;
+  yearOfTermination?: string;
+  creationLocs?: Array<{
+    lang?: {
+      DE?: string;
+      EN?: string;
+    };
+  }> | null;
+}
+
 interface CsvComposer {
   Name: string;
   'Sort Name': string;
+  Catalogue: string;
   Birth: string;
   Died: string;
   Nationality: string;
@@ -36,19 +93,21 @@ interface CsvComposer {
   [key: string]: string;
 }
 
-const csvCache = new Map<string, CsvWork[]>();
+const csvCache = new Map<string, Promise<CsvWork[]>>();
+let composersCache: ReturnType<typeof fetchAndParseComposers> | undefined;
 
-async function fetchCsv(path: string, revalidateSeconds: number) {
+async function fetchCsv(
+  path: string,
+  sources: readonly string[] = CSV_SOURCES,
+) {
   let lastError: unknown;
 
-  for (let index = 0; index < CSV_SOURCES.length; index++) {
-    const base = CSV_SOURCES[index];
+  for (let index = 0; index < sources.length; index++) {
+    const base = sources[index];
     const url = `${base}/${path}`;
-    const isLast = index === CSV_SOURCES.length - 1;
+    const isLast = index === sources.length - 1;
     const init = {
-      ...(isDev
-        ? { cache: 'no-store' as const }
-        : { next: { revalidate: revalidateSeconds } }),
+      cache: 'no-store' as const,
       // Fail over quickly if the preferred CDN hangs; last source has no short timeout.
       ...(isLast ? {} : { signal: AbortSignal.timeout(8000) }),
     };
@@ -68,22 +127,147 @@ async function fetchCsv(path: string, revalidateSeconds: number) {
     : new Error(`Failed to load ${path}`, { cause: lastError });
 }
 
-async function loadCatalog(catalogCode: string): Promise<CsvWork[]> {
-  // In-memory cache is process-scoped; skip in dev so CSV edits show up after refresh.
-  if (!isDev && csvCache.has(catalogCode)) {
-    return csvCache.get(catalogCode)!;
-  }
+function isKvApiEntry(value: unknown): value is KvApiEntry {
+  if (!value || typeof value !== 'object') return false;
+  const entry = value as Record<string, unknown>;
+  const catalogueNumber = entry.work_catalog_nr;
+  const title = entry.kv_title;
 
-  const response = await fetchCsv(`${catalogCode}.csv`, CATALOG_REVALIDATE_SECONDS);
-  const works = parseCsvRecords<CsvWork>(await response.text());
-
-  if (!isDev) {
-    csvCache.set(catalogCode, works);
-  }
-  return works;
+  return typeof entry.work_id === 'number'
+    && typeof entry.isPublished_KV === 'number'
+    && !!catalogueNumber
+    && typeof catalogueNumber === 'object'
+    && typeof (catalogueNumber as Record<string, unknown>).release === 'string'
+    && typeof (catalogueNumber as Record<string, unknown>).nr === 'string'
+    && !!title
+    && typeof title === 'object'
+    && !!(title as Record<string, unknown>).lang
+    && typeof (title as Record<string, unknown>).lang === 'object';
 }
 
-async function loadComposers(): Promise<Array<{
+const superscriptDigits: Record<string, string> = {
+  '0': '⁰',
+  '1': '¹',
+  '2': '²',
+  '3': '³',
+  '4': '⁴',
+  '5': '⁵',
+  '6': '⁶',
+  '7': '⁷',
+  '8': '⁸',
+  '9': '⁹',
+};
+
+function formatKvRelease(release: string): string {
+  const match = /^KV(\d+)$/i.exec(release);
+  return match ? `KV${[...match[1]].map(digit => superscriptDigits[digit]).join('')}` : release;
+}
+
+function mapKvApiEntries(value: unknown): CsvWork[] {
+  if (!Array.isArray(value) || value.length === 0 || !value.every(isKvApiEntry)) {
+    throw new Error('Mozarteum KV API returned an invalid response');
+  }
+
+  const publishedEntries = value.filter(entry => entry.isPublished_KV === 1);
+  if (publishedEntries.length === 0) {
+    throw new Error('Mozarteum KV API returned no published entries');
+  }
+
+  return publishedEntries.map(entry => {
+    const {release, nr} = entry.work_catalog_nr;
+    const catalogue = release
+      ? `${formatKvRelease(release)} ${nr}`.trim()
+      : `KV ${nr}`.trim();
+    const title = entry.kv_title.lang.EN?.trim() || entry.kv_title.lang.DE?.trim() || '';
+    const genres = (entry.genres ?? [])
+      .map(genre => genre.lang?.EN?.trim() || genre.lang?.DE?.trim() || '')
+      .filter(Boolean);
+    const groups = (entry.workSeriesGrps ?? [])
+      .map(workSeriesGroup => workSeriesGroup.group?.lang?.EN?.trim() || workSeriesGroup.group?.lang?.DE?.trim() || '')
+      .filter(Boolean);
+    const references = (entry.work_catalog_ref_nrs ?? [])
+      .filter(reference => reference.release !== release || reference.nr !== nr)
+      .map(reference => `${formatKvRelease(reference.release)} ${reference.nr}`.trim())
+      .filter(Boolean)
+      .join(', ');
+    const startYear = entry.yearOfBegin?.trim() ?? '';
+    const endYear = entry.yearOfTermination?.trim() ?? '';
+    const date = startYear && endYear && startYear !== endYear
+      ? `${startYear}–${endYear}`
+      : startYear || endYear;
+    const nickname = entry.nicknames?.alias?.lang?.EN?.trim()
+      || entry.nicknames?.alias?.lang?.DE?.trim()
+      || '';
+    const location = (entry.creationLocs ?? [])
+      .map(place => place.lang?.EN?.trim() || place.lang?.DE?.trim() || '')
+      .filter(place => place && !/^\[(unknown|unbekannt)\]$/i.test(place))
+      .join(', ');
+
+    return {
+      _workId: String(entry.work_id),
+      catalogue,
+      title,
+      type: groups[0] ?? '',
+      key: entry.music_key?.trim() ?? '',
+      instrumentation: entry.instruments?.trim() ?? '',
+      Date: date,
+      ...(entry.kv_title.lang.DE?.trim() && entry.kv_title.lang.DE.trim() !== title
+        ? {'German title': entry.kv_title.lang.DE.trim()}
+        : {}),
+      ...(nickname ? {Nickname: nickname} : {}),
+      ...(references ? {'Other catalogue references': references} : {}),
+      ...(entry.movement?.trim() ? {Movement: entry.movement.trim()} : {}),
+      ...(entry.vocal_title?.trim() ? {'Vocal title': entry.vocal_title.trim()} : {}),
+      ...(entry.tempo?.trim() ? {Tempo: entry.tempo.trim()} : {}),
+      ...(entry.meter?.trim() ? {Meter: entry.meter.trim()} : {}),
+      ...(entry.measures?.trim() ? {Measures: entry.measures.trim()} : {}),
+      ...(genres.length ? {Genres: genres.join('; ')} : {}),
+      ...(groups.length > 1 ? {Groups: groups.join('; ')} : {}),
+      ...(location ? {'Creation location': location} : {}),
+    };
+  });
+}
+
+async function loadKvCatalog(): Promise<CsvWork[]> {
+  try {
+    const response = await fetch(KV_API_URL, {
+      cache: 'no-store',
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!response.ok) {
+      throw new Error(`Mozarteum KV API request failed: ${response.status}`);
+    }
+    return mapKvApiEntries(await response.json());
+  } catch (apiError) {
+    try {
+      const response = await fetchCsv('KV.csv');
+      return parseCsvRecords<CsvWork>(await response.text());
+    } catch (csvError) {
+      throw new Error('Both the Mozarteum KV API and CSV fallback failed', {
+        cause: new AggregateError([apiError, csvError]),
+      });
+    }
+  }
+}
+
+async function loadCatalog(catalogCode: string): Promise<CsvWork[]> {
+  const cached = csvCache.get(catalogCode);
+  if (cached) return cached;
+
+  const request = catalogCode === 'KV'
+    ? loadKvCatalog()
+    : fetchCsv(`${catalogCode}.csv`)
+      .then(async response => parseCsvRecords<CsvWork>(await response.text()));
+  csvCache.set(catalogCode, request);
+  try {
+    return await request;
+  } catch (error) {
+    if (csvCache.get(catalogCode) === request) csvCache.delete(catalogCode);
+    throw error;
+  }
+}
+
+type ComposerCsvEntry = {
   artistId: number;
   slug: string;
   name: string;
@@ -103,13 +287,19 @@ async function loadComposers(): Promise<Array<{
   endDate: string | null;
   biography: string | null;
   workCount: number;
-}>> {
-  const response = await fetchCsv('composers.csv', COMPOSERS_REVALIDATE_SECONDS);
+  catalogueName: string | null | undefined;
+};
+
+async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
+  const response = await fetchCsv('composers.csv', COMPOSER_CSV_SOURCES);
   const composers = parseCsvRecords(await response.text()) as CsvComposer[];
 
   return composers.map((composer, index) => {
     const name = composer.Name || '';
     const slug = slugify(name);
+    const catalogueField = Object.keys(composer).find(
+      field => field.toLocaleLowerCase() === 'catalogue',
+    );
     return {
       artistId: index + 1,
       slug,
@@ -130,9 +320,27 @@ async function loadComposers(): Promise<Array<{
       endDate: composer.Died || null,
       biography: composer.Intro || '',
       workCount: 0,
+      // undefined: CSV without the Catalogue column; null: composer has no catalogue.
+      catalogueName: catalogueField === undefined ? undefined : composer[catalogueField].trim() || null,
     };
   });
 
+}
+
+async function loadComposers(): Promise<ComposerCsvEntry[]> {
+  if (!composersCache) composersCache = fetchAndParseComposers();
+  const request = composersCache;
+  try {
+    return await request;
+  } catch (error) {
+    if (composersCache === request) composersCache = undefined;
+    throw error;
+  }
+}
+
+export function clearCsvCache() {
+  csvCache.clear();
+  composersCache = undefined;
 }
 
 function slugify(name: string) {
@@ -202,27 +410,7 @@ function getCsvValue(record: CsvWork, ...fieldNames: string[]): string {
   return '';
 }
 
-export async function getComposers(): Promise<Array<{
-  artistId: number;
-  slug: string;
-  name: string;
-  nameSort: string;
-  aliases: {
-    org: string;
-    en: string;
-    de: string;
-    fr: string;
-    ja: string;
-    zh: string;
-  };
-  nationalities: string[];
-  type: string;
-  artistCategory: string;
-  startDate: string | null;
-  endDate: string | null;
-  biography: string | null;
-  workCount: number;
-}>> {
+export async function getComposers(): Promise<ComposerCsvEntry[]> {
   return loadComposers();
 }
 
@@ -240,26 +428,45 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
 }>> {
   const works = await loadCatalog(catalogCode);
 
-  return works.map((work, index) => ({
-    workId: index + 1,
-    catalogue: catalogCode === 'Corelli'
-      ? getCsvValue(work, 'Opus', 'opus')
-      : catalogCode === 'MWV'
-      ? getCsvValue(work, 'MWV', 'Catalogue', 'catalogue')
-      : getCsvValue(work, 'Catalogue', 'catalogue', 'Wotquenne', 'Wq'),
-    opus: catalogCode === 'Corelli'
-      ? ''
-      : getCsvValue(work, 'Opus', 'opus'),
-    secondaryCatalogue: getCsvValue(work, 'Helm', 'H'),
-    date: getCsvValue(work, 'Date', 'date'),
-    title: getCsvValue(work, 'Title', 'title'),
-    type: getCsvValue(work, 'Type', 'type'),
-    key: getCsvValue(work, 'Key', 'key'),
-    instrumentation: getCsvValue(work, 'Instrumentation', 'instrumentation'),
-    details: Object.fromEntries(
-      Object.entries(work).filter(([field]) => !/sort/i.test(field)),
-    ),
-  }));
+  return works.map((work, index) => {
+    const isOpusCatalogue = catalogCode === 'Corelli' || catalogCode === 'Shostakovich';
+    let type = getCsvValue(work, 'Type', 'type');
+    let key = getCsvValue(work, 'Key', 'key');
+    if (catalogCode === 'Tchaikovsky' && /^[A-G](#|b)? (major|minor)$/.test(type.trim()) && !key) {
+      // The Tchaikovsky CSV carries the key in the Type column for the symphonies.
+      key = type;
+      type = '';
+    }
+
+    return {
+      workId: Number(work._workId) || index + 1,
+      catalogue: isOpusCatalogue
+        ? getCsvValue(work, 'Opus', 'opus') || getCsvValue(work, 'SORT', 'sort')
+        : catalogCode === 'MWV'
+        ? getCsvValue(work, 'MWV', 'Catalogue', 'catalogue')
+        : catalogCode === 'LWV'
+        ? getCsvValue(work, 'Catalogue', 'LWV', 'catalogue')
+        : catalogCode === 'Tchaikovsky'
+        ? getCsvValue(work, 'TH', 'th')
+        : getCsvValue(work, 'Catalogue', 'catalogue', 'Wotquenne', 'Wq'),
+      opus: isOpusCatalogue
+        ? ''
+        : getCsvValue(work, 'Opus', 'opus'),
+      secondaryCatalogue: getCsvValue(work, 'Helm', 'H'),
+      date: catalogCode === 'Tchaikovsky'
+        ? getCsvValue(work, 'Year', 'year')
+        : getCsvValue(work, 'Date', 'date'),
+      title: getCsvValue(work, 'Title', 'title'),
+      type,
+      key,
+      instrumentation: catalogCode === 'Shostakovich'
+        ? getCsvValue(work, 'Setting', 'setting')
+        : getCsvValue(work, 'Instrumentation', 'instrumentation'),
+      details: Object.fromEntries(
+        Object.entries(work).filter(([field, value]) => field && !field.startsWith('_') && value && !/(sort|order)/i.test(field)),
+      ),
+    };
+  });
 }
 
 export async function getWorkFilterOptions(catalogCode: string) {

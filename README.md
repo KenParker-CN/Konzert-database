@@ -9,11 +9,9 @@ Composer and work data is fetched from CSV files in the
 repository. The server loads `composers.csv` and composer-specific catalogue
 files from GitHub's raw content endpoint, caching responses for one hour.
 
-For the initial database integration, RV works are read from PostgreSQL with
-identical work/catalogue rows deduplicated at read time; other catalogues and
-the composer directory continue to use the CSV source. Set
-`DATABASE_URL` in `.env.local` to a PostgreSQL connection string for local
-development, for example `postgresql://postgres:<password>@localhost:5432/postgres`.
+Mozart's KV catalogue is loaded from the
+[Digital Mozart Edition API](https://dme.mozarteum.at/digital-editions/api/kv-entriesidx),
+with the CSV catalogue used as a fallback if the API is unavailable.
 
 Catalogue files currently supported: BWV, KV, Hob, HWV, RV, TWV, CPE, and
 Marnat.
@@ -44,12 +42,12 @@ npm run start
 ```text
 app/
   [locale]/
-    composers/          Composer directory and detail pages
+    catalogues/         Catalogue directory and detail pages
   globals.css
 components/             Shared UI and layout components
 lib/
   data/                 GitHub CSV loading and catalogue mapping
-  db/composers.ts       Composer and composer-work accessors (CSV-backed)
+  db/composers.ts       Composer directory data and catalogue-work accessors
   i18n/                 Locale configuration and dictionaries
 messages/               English, Chinese, French, German, and Japanese text
 proxy.ts                Locale redirects

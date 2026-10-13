@@ -100,7 +100,7 @@ function renderRangeCell(group: MwvGroup, rowIndex: number, column: 0 | 1, label
         )
     }
 
-    const covered = mwvRangeDefinitions.some(item => item.column === column && item.codes.includes(code))
+    const covered = mwvRangeDefinitions.some(item => item.column === column && (item.codes as readonly string[]).includes(code))
     return covered ? null : <td className="border border-slate-200 px-2 py-2" />
 }
 

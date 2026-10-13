@@ -1,5 +1,6 @@
 import AppShell from '@/components/AppShell'
 import PageHeader from '@/components/PageHeader'
+import RefreshCatalogueCacheButton from '@/components/catalogues/RefreshCatalogueCacheButton'
 import {getCatalogueDirectory} from '@/lib/db/composers'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
@@ -26,9 +27,12 @@ export default async function CataloguesPage({params}: {params: Promise<{locale:
                     title={t('catalogues.title')}
                     description={t('catalogues.description')}
                 />
-                <p className="mb-4 text-sm text-slate-500">
-                    {t('catalogues.count', {count: catalogues.length})}
-                </p>
+                <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+                    <p className="text-sm text-slate-500">
+                        {t('catalogues.count', {count: catalogues.length})}
+                    </p>
+                    <RefreshCatalogueCacheButton/>
+                </div>
                 <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     {catalogues.map(({catalogue, composerName, composerAliases, composerSlug, workCount}, index) => {
                         const displayName = getLocalizedComposerName(composerName, composerAliases, locale)

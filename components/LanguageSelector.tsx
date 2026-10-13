@@ -87,7 +87,9 @@ export default function LanguageSelector() {
     const router = useRouter()
     const { locale, t } = useI18n()
     const [open, setOpen] = useState(false)
+    const [opensUpward, setOpensUpward] = useState(false)
     const containerRef = useRef<HTMLDivElement>(null)
+    const menuRef = useRef<HTMLUListElement>(null)
 
     const segments = pathname.split('/').filter(Boolean)
     const hasLocalePrefix = segments.length > 0 && isLocale(segments[0])
@@ -95,15 +97,28 @@ export default function LanguageSelector() {
 
     useEffect(() => {
         if (!open) return
+        function updatePlacement() {
+            const trigger = containerRef.current?.getBoundingClientRect()
+            if (!trigger) return
+            const menuHeight = menuRef.current?.getBoundingClientRect().height ?? 220
+            const roomBelow = window.innerHeight - trigger.bottom
+            const roomAbove = trigger.top
+            setOpensUpward(roomBelow < menuHeight && roomAbove > roomBelow)
+        }
         function onPointerDown(event: PointerEvent) {
             if (containerRef.current && !containerRef.current.contains(event.target as Node)) setOpen(false)
         }
         function onKeyDown(event: KeyboardEvent) {
             if (event.key === 'Escape') setOpen(false)
         }
+        updatePlacement()
+        window.addEventListener('resize', updatePlacement)
+        window.addEventListener('scroll', updatePlacement, true)
         document.addEventListener('pointerdown', onPointerDown)
         document.addEventListener('keydown', onKeyDown)
         return () => {
+            window.removeEventListener('resize', updatePlacement)
+            window.removeEventListener('scroll', updatePlacement, true)
             document.removeEventListener('pointerdown', onPointerDown)
             document.removeEventListener('keydown', onKeyDown)
         }
@@ -130,8 +145,8 @@ export default function LanguageSelector() {
                 <FlagIcon code={locale}/>
                 <ChevronDown size={14} aria-hidden="true" className="text-slate-400"/>
             </button>
-            {open && <ul role="listbox" aria-label={t('common.language')}
-                         className="absolute right-0 z-50 mt-2 min-w-40 overflow-hidden rounded-xl border border-slate-200 bg-white py-1 text-sm shadow-lg">
+            {open && <ul ref={menuRef} role="listbox" aria-label={t('common.language')}
+                         className={`absolute right-0 z-50 max-h-[70vh] min-w-40 overflow-y-auto rounded-xl border border-slate-200 bg-white py-1 text-sm shadow-lg ${opensUpward ? 'bottom-full mb-2' : 'top-full mt-2'}`}>
                 {locales.map(l => (
                     <li key={l}>
                         <button
