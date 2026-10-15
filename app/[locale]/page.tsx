@@ -2,7 +2,7 @@ import AppShell from '../../components/AppShell'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import {getI18n} from '@/lib/i18n/server'
 import {notFound} from 'next/navigation'
-import {ArrowUpRight, BookOpen} from 'lucide-react'
+import {IconArrowUpRight, IconBook2} from '@tabler/icons-react'
 
 export default async function HomePage({params}: { params: Promise<{ locale: string }> }) {
     const {locale} = await params
@@ -23,7 +23,7 @@ export default async function HomePage({params}: { params: Promise<{ locale: str
                         <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">{t('home.tagline')}</p>
                         <div className="mt-9 flex flex-wrap items-center gap-3">
                             <a href={localePath(locale, '/catalogues')} className="inline-flex items-center gap-2 bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
-                                {t('navigation.catalogues')}<ArrowUpRight size={16} />
+                                {t('navigation.catalogues')}<IconArrowUpRight size={16} />
                             </a>
                         </div>
                     </div>
@@ -31,8 +31,8 @@ export default async function HomePage({params}: { params: Promise<{ locale: str
 
                 <div className="mt-12 grid gap-px border border-slate-200 bg-slate-200 sm:mt-16 sm:grid-cols-1">
                     <a href={localePath(locale, '/catalogues')} className="group flex min-h-48 flex-col justify-between bg-white p-6 transition hover:bg-slate-50 sm:p-8">
-                        <div className="flex items-start justify-between"><span className="text-xs font-semibold uppercase tracking-[0.16em] text-blue-600">01 / {t('home.collectionLabel')}</span><BookOpen size={20} className="text-slate-400 transition group-hover:text-blue-600" /></div>
-                        <div className="mt-8 flex items-end justify-between gap-4"><div><h2 className="heading text-2xl font-semibold">{t('catalogues.title')}</h2><p className="mt-2 max-w-md text-sm leading-6 text-slate-600">{t('catalogues.description')}</p></div><ArrowUpRight size={19} className="mb-1 shrink-0 text-blue-600" /></div>
+                        <div className="flex items-start justify-between"><span className="text-xs font-semibold uppercase tracking-[0.16em] text-blue-600">01 / {t('home.collectionLabel')}</span><IconBook2 size={20} className="text-slate-400 transition group-hover:text-blue-600" /></div>
+                        <div className="mt-8 flex items-end justify-between gap-4"><div><h2 className="heading text-2xl font-semibold">{t('catalogues.title')}</h2><p className="mt-2 max-w-md text-sm leading-6 text-slate-600">{t('catalogues.description')}</p></div><IconArrowUpRight size={19} className="mb-1 shrink-0 text-blue-600" /></div>
                     </a>
                 </div>
             </section>

@@ -4,8 +4,7 @@ import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import type {WorkCategoryGroup} from '@/lib/data/work-groups'
 import {Dialog} from '@base-ui/react/dialog'
-import {ChevronRight} from 'lucide-react'
-import {useRef} from 'react'
+import {Button} from '@/components/ui/button'
 
 type WorkEntry = {
     workId: number
@@ -43,29 +42,23 @@ function getGroupWorkCount(group: WorkCategoryGroup): number {
 }
 
 export default function WorksTable({
-    title,
-    works,
+    group,
     catalogCode,
-    children = [],
-    path,
-    openPath,
-    onToggle,
-    depth = 0,
+    onSelectGroup,
+    otherTitle,
+    countOverride,
 }: {
-    title: string
-    works: WorkEntry[]
+    group: WorkCategoryGroup
     catalogCode?: string
-    children?: WorkCategoryGroup[]
-    path: string[]
-    openPath: string[]
-    onToggle: (path: string[]) => void
-    depth?: number
+    onSelectGroup: (group: WorkCategoryGroup) => void
+    otherTitle: string
+    /** Overrides the header count; used for paginated search results so the total number of matches is shown instead of the current page size. */
+    countOverride?: number
 }) {
     const {t, locale} = useI18n()
-    const summaryRef = useRef<HTMLElement>(null)
-    const localizedTitle = getLocalizedWorkTerm(title, 'type', locale)
-    const totalWorkCount = works.length + children.reduce((count, child) => count + getGroupWorkCount(child), 0)
-    const isOpen = path.every((key, index) => openPath[index] === key)
+    const {children = [], works} = group
+    const localizedTitle = getLocalizedWorkTerm(group.key === 'other' ? otherTitle : group.label, 'type', locale)
+    const totalWorkCount = countOverride ?? getGroupWorkCount(group)
     const getWorkTitle = (work: WorkEntry) => locale === 'de'
         ? work.details['German title'] || work.title
         : work.title
@@ -110,31 +103,31 @@ export default function WorksTable({
     }
 
     return (
-        <details
-            open={isOpen}
-            style={{marginInlineStart: depth ? `${depth * 1.25}rem` : undefined}}
-            className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
-        >
-            <summary
-                ref={summaryRef}
-                onClick={event => {
-                    event.preventDefault()
-                    if (!isOpen) {
-                        requestAnimationFrame(() => {
-                            summaryRef.current?.scrollIntoView({behavior: 'smooth', block: 'start'})
-                        })
-                    }
-                    onToggle(path)
-                }}
-                className="flex scroll-mt-4 cursor-pointer list-none items-center justify-between gap-3 p-4 [&::-webkit-details-marker]:hidden"
-            >
-                <span className="flex min-w-0 items-center gap-2">
-                    <ChevronRight size={18} className="shrink-0 text-slate-400 transition-transform group-open:rotate-90"/>
-                    <span className="heading select-none truncate text-base font-semibold text-slate-950">{localizedTitle}</span>
-                </span>
+        <section className="min-w-0 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+            <header className="flex items-start justify-between gap-3 border-b border-slate-200 p-4">
+                <h2 className="heading min-w-0 text-base font-semibold text-slate-950">{localizedTitle}</h2>
                 <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: totalWorkCount})}</span>
-            </summary>
-            <div className="max-h-[28rem] overflow-y-auto border-t border-slate-200">
+            </header>
+            {children.length > 0 && (
+                <ul aria-label={t('works.subgroups')} className="grid grid-cols-1 gap-2 border-b border-slate-200 p-3 sm:grid-cols-2">
+                    {children.map(child => (
+                        <li key={child.key}>
+                            <Button
+                                type="button"
+                                variant="outline"
+                                className="h-auto min-h-10 w-full justify-between gap-2 whitespace-normal py-2 text-left"
+                                onClick={() => onSelectGroup(child)}
+                            >
+                                <span className="min-w-0">{child.label}</span>
+                                <span className="shrink-0 text-xs text-muted-foreground">
+                                    {t('works.count', {count: getGroupWorkCount(child)})}
+                                </span>
+                            </Button>
+                        </li>
+                    ))}
+                </ul>
+            )}
+            <div className="max-h-[28rem] overflow-y-auto">
                 {works.map(work => (
                     <Dialog.Root key={work.workId}>
                         <Dialog.Trigger
@@ -207,20 +200,7 @@ export default function WorksTable({
                         </Dialog.Portal>
                     </Dialog.Root>
                 ))}
-                {children.map(child => (
-                    <WorksTable
-                        key={child.key}
-                        title={child.label}
-                        works={child.works}
-                        catalogCode={catalogCode}
-                        children={child.children}
-                        path={[...path, child.key]}
-                        openPath={openPath}
-                        onToggle={onToggle}
-                        depth={depth + 1}
-                    />
-                ))}
             </div>
-        </details>
+        </section>
     )
 }

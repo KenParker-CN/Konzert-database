@@ -5,41 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/loading.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/ComposerDirectory.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/WorksTable.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/WorksScrollAnchor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/loading.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/[name]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/composers/page.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AppShell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppShell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/LanguageSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LanguageSelector.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/catalogues/CatalogueNotes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/CatalogueNotes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/CatalogWorksPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/CatalogWorksPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/ComposerWorksPanel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/MarqueeText.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/MusicBrainzWorks.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ThemeSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ThemeSelector.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/catalogues/CatalogueNotes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/catalogues/RefreshCatalogueCacheButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/RefreshCatalogueCacheButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/catalogues/WorksAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorksAccordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/WikipediaIntro.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/WorksLoading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/WorksLoading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer-name.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/composer-name.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/SortableTableHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/blur-in-text.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/combobox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/country-select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/field.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/input-group.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/input-inline.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/novatrix-background.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/pagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/separator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/textarea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/toast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/toast.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haydn.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/composer-avatar.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data/catalogue-descriptions.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/catalogue-descriptions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data/csv-loader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/csv-loader.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/musicbrainz.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/postgres.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/work-groups.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/work-groups.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/composers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/composers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hooks/useTableSort.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/i18n/work-terms.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/i18n/work-terms.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/ja.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/cata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/corelli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/handel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/haydn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/jsbach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/mendelssohn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/mozart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/rameau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/ravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/shostakovich.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/tchaikovsky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/composer/vivaldi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/country-list.d.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,23 +111,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0748424233776537" />
-      <entry key="MS500" value="1.616684219251327" />
-      <entry key="S2" value="2.2602598427285367" />
-      <entry key="S5" value="2.629847776629468" />
-      <entry key="S10" value="2.799257318658016" />
-      <entry key="S30" value="2.929227238224893" />
-      <entry key="S60" value="2.9646850480543856" />
-      <entry key="M2" value="3.0267269146009714" />
-      <entry key="M5" value="4.414052848961173" />
-      <entry key="M10" value="10.049993396699158" />
-      <entry key="M15" value="16.774924348972533" />
-      <entry key="M30" value="35.360711494989964" />
-      <entry key="H1" value="66.0563595748103" />
-      <entry key="H2" value="112.28526771652002" />
-      <entry key="H4" value="172.90494900277676" />
-      <entry key="D1" value="476.6052120334579" />
-      <entry key="W1" value="1102.3720459258582" />
+      <entry key="MS100" value="1.0000000000002858" />
+      <entry key="MS500" value="1.0030989603360452" />
+      <entry key="S2" value="1.2383820873308047" />
+      <entry key="S5" value="1.7187092759553284" />
+      <entry key="S10" value="2.424124896256393" />
+      <entry key="S30" value="3.725526840550172" />
+      <entry key="S60" value="4.28677794055181" />
+      <entry key="M2" value="4.621892113273248" />
+      <entry key="M5" value="4.84323856669738" />
+      <entry key="M10" value="4.920667858965341" />
+      <entry key="M15" value="4.946898062244941" />
+      <entry key="M30" value="4.97334680214931" />
+      <entry key="H1" value="4.993297486018923" />
+      <entry key="H2" value="5.269823406946852" />
+      <entry key="H4" value="7.700634559423221" />
+      <entry key="D1" value="209.37942482127957" />
+      <entry key="W1" value="1006.4125779184186" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -107,36 +136,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="5.910383748187133E-286" />
-      <entry key="M2" value="2.43112808140317E-143" />
-      <entry key="M5" value="9.00167099901454E-58" />
-      <entry key="M10" value="3.0002784869099353E-29" />
-      <entry key="M15" value="9.655491339379809E-20" />
-      <entry key="M30" value="3.107328650043281E-10" />
-      <entry key="H1" value="1.76276165434902E-5" />
-      <entry key="H2" value="0.004198525526611842" />
-      <entry key="H4" value="0.06480438455489364" />
-      <entry key="D1" value="1.6834322904051564" />
-      <entry key="W1" value="8.800498839067464" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="3.19374046693531E-180" />
+      <entry key="M10" value="1.787103932885642E-90" />
+      <entry key="M15" value="1.4726511257284507E-60" />
+      <entry key="M30" value="1.2135283786250942E-30" />
+      <entry key="H1" value="1.1016026409849872E-15" />
+      <entry key="H2" value="3.319039988260421E-8" />
+      <entry key="H4" value="1.822058153374921E-4" />
+      <entry key="D1" value="0.6324438306559498" />
+      <entry key="W1" value="7.651880711736275" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.24045817460121857" />
-      <entry key="MS500" value="1.2832821682958333" />
-      <entry key="S2" value="2.0049988678373856" />
-      <entry key="S5" value="2.4553112178940495" />
-      <entry key="S10" value="2.692595271078664" />
-      <entry key="S30" value="2.8883745419945472" />
-      <entry key="S60" value="2.9435239567357394" />
-      <entry key="M2" value="3.0159091418125694" />
-      <entry key="M5" value="4.408405392789955" />
-      <entry key="M10" value="10.044759766750325" />
-      <entry key="M15" value="16.769804885079328" />
-      <entry key="M30" value="35.356355581011655" />
-      <entry key="H1" value="66.05329583689782" />
-      <entry key="H2" value="112.28757129625947" />
-      <entry key="H4" value="172.96865730017046" />
-      <entry key="D1" value="478.288358996832" />
-      <entry key="W1" value="1111.1724744622848" />
+      <entry key="MS100" value="0.8705505632963836" />
+      <entry key="MS500" value="0.975694342644057" />
+      <entry key="S2" value="1.2303193317344756" />
+      <entry key="S5" value="1.7144728099983135" />
+      <entry key="S10" value="2.421157042332509" />
+      <entry key="S30" value="3.723974368803671" />
+      <entry key="S60" value="4.285876415161581" />
+      <entry key="M2" value="4.621403584394951" />
+      <entry key="M5" value="4.84303312641914" />
+      <entry key="M10" value="4.920563380350203" />
+      <entry key="M15" value="4.9468280123651125" />
+      <entry key="M30" value="4.973311576467744" />
+      <entry key="H1" value="4.993279671196897" />
+      <entry key="H2" value="5.26981211708646" />
+      <entry key="H4" value="7.700801890650408" />
+      <entry key="D1" value="210.0117535820025" />
+      <entry key="W1" value="1014.0643959048351" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -296,7 +325,7 @@
       <workItem from="1791289574648" duration="45208000" />
       <workItem from="1791577689276" duration="12483000" />
       <workItem from="1791633398949" duration="30370000" />
-      <workItem from="1791865445499" duration="7614000" />
+      <workItem from="1791865445499" duration="30866000" />
     </task>
     <task id="LOCAL-00001" summary="Added works into Kochel catalogue">
       <option name="closed" value="true" />

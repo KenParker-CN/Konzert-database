@@ -1,37 +1,19 @@
 {
   "common": {
-    "search": "Rechercher",
-    "searching": "Recherche…",
-    "filter": "Filtrer",
-    "apply": "Appliquer",
     "close": "Fermer",
-    "open": "Ouvrir",
     "clear": "Effacer",
-    "cancel": "Annuler",
     "previous": "Précédent",
     "next": "Suivant",
-    "loading": "Chargement…",
-    "noResults": "Aucun résultat",
-    "language": "Langue",
-    "all": "Tout",
-    "yes": "Oui",
-    "no": "Non"
+    "language": "Langue"
   },
   "navigation": {
     "home": "Accueil",
     "works": "Œuvres",
     "catalogues": "Catalogues"
   },
-  "theme": {
-    "label": "Thème",
-    "light": "Clair",
-    "dark": "Sombre",
-    "system": "Système"
-  },
   "home": {
     "badge": "Archives de musique classique",
     "tagline": "Une archive en expansion de compositeurs, de catalogues et des liens qui unissent leurs œuvres.",
-    "discoverArchive": "Découvrir les archives",
     "collectionLabel": "Explorer"
   },
   "catalogues": {
@@ -43,44 +25,12 @@
     "refreshingCache": "Actualisation…",
     "refreshCacheFailed": "Échec de l’actualisation. Réessayez.",
     "coverLabel": "Catalogue d’œuvres classiques",
-    "browse": "Voir les œuvres",
     "allCatalogues": "Tous les catalogues",
-    "catalogue": "Catalogue",
-    "about": "À propos de ce catalogue",
-    "name": "Nom du catalogue",
-    "notes": "Remarques",
-    "notesMainGroup": "Groupe principal",
-    "notesGroup": "Groupe",
-    "notesOtherRanges": "Plages croisées",
-    "notesSpecialRange": "Plage supplémentaire",
-    "notesMwv": "Plage MWV",
-    "notesClassification": "Classification",
-    "notesOtherEntries": "Autres entrées",
-    "mwvVocalMusic": "Musique vocale (A–K)",
-    "mwvSacredVocalMusic": "Musique vocale sacrée (A–C)",
-    "mwvSecularVocalMusic": "Musique vocale profane (D–K)",
-    "mwvStageMusic": "Musique de scène (L–M)",
-    "mwvInstrumentalMusic": "Musique instrumentale (N–W)",
-    "mwvOrchestralMusic": "Musique orchestrale (N–P)",
-    "mwvChamberMusic": "Musique de chambre (Q–R)",
-    "mwvPianoMusic": "Musique pour piano (S–U)",
-    "mwvOrganMusic": "Musique d’orgue (V–W)",
-    "mwvCanons": "Canons (X–Y)",
-    "mwvVaria": "Divers (Z)",
-    "mwvAcappellaWorks": "Œuvres a cappella (F–G)",
-    "mwvSingersWorks": "Œuvres vocales (H–K)",
-    "mwvSingersAndPianoWorks": "Œuvres vocales avec piano (J–K)",
-    "compiler": "Compilateur",
-    "firstEdition": "Première édition",
-    "catalogueType": "Type de catalogue",
-    "worksCount": "Œuvres approximatives",
-    "organization": "Méthode d'organisation",
-    "chronological": "Chronologique"
+    "compositionList": "Liste des compositions de {composer}",
+    "compositionListsHeading": "Listes de compositions"
   },
   "works": {
-    "badge": "Archives de musique classique",
     "title": "Œuvres",
-    "description": "Explorez la base unifiée des œuvres, avec les détails de catalogue et les relations avec les compositeurs.",
     "searchPlaceholder": "Rechercher des œuvres…",
     "catalogue": "Catalogue",
     "opus": "Opus",
@@ -102,38 +52,22 @@
     "genres": "Genres",
     "creationLocation": "Lieu de création",
     "viewDetails": "Afficher les détails de l’œuvre",
-    "allCsvFields": "Numéro de catalogue",
-    "filterDate": "Filtrer par date",
-    "allTypes": "Tous les types",
-    "allKeys": "Toutes les tonalités",
-    "clearFilters": "Effacer les filtres",
-    "resultsCount": "{count} résultats",
-    "number": "#",
     "titleColumn": "Titre",
-    "composer": "Compositeur",
     "type": "Type",
     "key": "Tonalité",
     "instrumentation": "Instrumentation",
-    "applyFilters": "Appliquer les filtres",
-    "updating": "Mise à jour…",
     "count": "{count} œuvres",
-    "count_one": "{count} œuvre",
     "noWorks": "Aucune œuvre ne correspond à ces filtres.",
     "otherType": "Autres œuvres",
+    "groupNavigation": "Parcourir les groupes d’œuvres",
+    "subgroups": "Sous-groupes",
     "loading": "Chargement des œuvres…",
     "loadFailed": "Les œuvres n’ont pas pu être chargées pour le moment. Veuillez réessayer plus tard.",
-    "pageInfo": "Page {current} sur {total}",
-    "rowsPerPage": "Lignes par page",
-    "sortAsc": "Trier par ordre croissant",
-    "sortDesc": "Trier par ordre décroissant"
+    "pageInfo": "Page {current} sur {total}"
   },
   "composers": {
     "wikipedia": "Wikipédia",
     "loadingIntroduction": "Chargement de l’introduction…",
     "readOnWikipedia": "Lire sur Wikipédia ↗"
-  },
-  "pagination": {
-    "page": "Page",
-    "of": "sur"
   }
 }

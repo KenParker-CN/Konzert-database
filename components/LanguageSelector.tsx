@@ -2,7 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
-import { Check, ChevronDown } from 'lucide-react'
+import {IconCheck, IconChevronDown} from '@tabler/icons-react'
 import { useI18n } from '@/lib/i18n/client'
 import { isLocale, localePath, locales, type Locale } from '@/lib/i18n/config'
 
@@ -143,7 +143,7 @@ export default function LanguageSelector() {
                 className="flex h-9 items-center gap-1.5 rounded-lg px-1.5 text-slate-600 outline-none transition-colors hover:bg-slate-100 focus-visible:ring-4 focus-visible:ring-blue-100"
             >
                 <FlagIcon code={locale}/>
-                <ChevronDown size={14} aria-hidden="true" className="text-slate-400"/>
+                <IconChevronDown size={14} aria-hidden="true" className="text-slate-400"/>
             </button>
             {open && <ul ref={menuRef} role="listbox" aria-label={t('common.language')}
                          className={`absolute right-0 z-50 max-h-[70vh] min-w-40 overflow-y-auto rounded-xl border border-slate-200 bg-white py-1 text-sm shadow-lg ${opensUpward ? 'bottom-full mb-2' : 'top-full mt-2'}`}>
@@ -158,7 +158,7 @@ export default function LanguageSelector() {
                         >
                             <FlagIcon code={l}/>
                             <span className="flex-1">{languageNames[l]}</span>
-                            {l === locale && <Check size={14} className="text-blue-600" aria-hidden="true"/>}
+                            {l === locale && <IconCheck size={14} className="text-blue-600" aria-hidden="true"/>}
                         </button>
                     </li>
                 ))}

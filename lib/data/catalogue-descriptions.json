@@ -618,6 +618,92 @@
       "ja": "MWV（メンデルスゾーン作品目録）はドイツのロマン派作曲家フェリックス・メンデルスゾーンの作品の目録です。彼の作品には交響曲、協奏曲、室内楽、ピアノ作品、歌曲が含まれます。"
     }
   },
+  "GMW": {
+    "name": {
+      "en": "Gustav-Mahler-Werke",
+      "de": "Gustav-Mahler-Werke",
+      "fr": "Gustav-Mahler-Werke",
+      "zh": "马勒作品目录",
+      "ja": "グスタフ・マーラー作品目録"
+    },
+    "abbr": "GMW",
+    "composer": "Gustav Mahler",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Internationale Gustav Mahler Gesellschaft"
+    },
+    "publication": {
+      "firstEdition": 1983,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Gustav Mahler's musical compositions"
+    },
+    "organization": {
+      "method": "genre and chronological",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 76
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The Gustav-Mahler-Werke (GMW) is the critical thematic catalogue of Gustav Mahler's compositions, published by the Internationale Gustav Mahler Gesellschaft. It covers the symphonies, song cycles, and songs, including early withdrawn works such as Das klagende Lied and the original version of the First Symphony.",
+      "zh": "马勒作品目录（GMW）是国际马勒协会出版的古斯塔夫·马勒作品批评性主题目录。涵盖交响曲、声乐套曲与歌曲，包括早期撤回的作品，如《悲叹之歌》及第一交响曲的原始版本。",
+      "de": "Das Gustav-Mahler-Werke (GMW) ist das kritische thematische Verzeichnis der Kompositionen Gustav Mahlers, herausgegeben von der Internationalen Gustav Mahler Gesellschaft. Es umfasst die Sinfonien, Liederzyklen und Lieder, darunter auch frühe zurückgezogene Werke wie Das klagende Lied und die Urfassung der Ersten Sinfonie.",
+      "fr": "Le Gustav-Mahler-Werke (GMW) est le catalogue thématique critique des compositions de Gustav Mahler, publié par l'Internationale Gustav Mahler Gesellschaft. Il couvre les symphonies, les cycles de lieder et les lieder, y compris des œuvres de jeunesse retirées comme Das klagende Lied et la version primitive de la Première symphonie.",
+      "ja": "グスタフ・マーラー作品目録（GMW）は、国際グスタフ・マーラー協会が刊行したグスタフ・マーラー作品の校訂主題目録です。交響曲、歌曲集、歌曲を網羅し、《嘆きの歌》や交響曲第1番の初版など、初期に撤回された作品も含みます。"
+    }
+  },
+  "Gerard": {
+    "name": {
+      "en": "Gérard Thematic Catalogue",
+      "de": "Gérard-Thematisches Verzeichnis",
+      "fr": "Catalogue thématique Gérard",
+      "zh": "热拉尔主题目录",
+      "ja": "ジェラール主題目録"
+    },
+    "abbr": "G.",
+    "composer": "Luigi Boccherini",
+    "catalogueType": "thematic catalogue",
+    "compiler": {
+      "name": "Yves Gérard"
+    },
+    "publication": {
+      "firstEdition": 1969,
+      "revisedEditions": []
+    },
+    "scope": {
+      "works": "Luigi Boccherini's musical compositions"
+    },
+    "organization": {
+      "method": "chronological",
+      "chronological": true
+    },
+    "coverage": {
+      "approximateWorks": 592
+    },
+    "notes": {
+      "en": "",
+      "zh": "",
+      "de": "",
+      "fr": "",
+      "ja": ""
+    },
+    "description": {
+      "en": "The G. catalogue is Yves Gérard's thematic catalogue of Luigi Boccherini's compositions, first published in 1969. It numbers the works chronologically and covers his chamber music, string quintets and quartets, concertos, and vocal works.",
+      "zh": "G.（热拉尔目录）是法国音乐学家伊夫·热拉尔为路易吉·博凯里尼作品编制的主题目录，1969年首版。目录按创作年代编号，涵盖室内乐、弦乐五重奏与四重奏、协奏曲及声乐作品。",
+      "de": "Das G.-Verzeichnis ist der thematische Katalog der Kompositionen von Luigi Boccherini, erstellt von Yves Gérard und erstmals 1969 veröffentlicht. Er nummeriert die Werke chronologisch und umfasst Kammermusik, Streichquintette und -quartette, Konzerte und Vokalwerke.",
+      "fr": "Le catalogue G. est le catalogue thématique des compositions de Luigi Boccherini établi par Yves Gérard, publié pour la première fois en 1969. Il numérote les œuvres de façon chronologique et couvre la musique de chambre, les quintettes et quatuors à cordes, les concertos et les œuvres vocales.",
+      "ja": "G.目録は、イヴ・ジェラールがルイジ・ボッケリーニの作品をまとめた主題目録で、1969年に初版が刊行された。作品を年代順に採番しており、室内楽、弦楽五重奏曲・四重奏曲、協奏曲、声楽作品を網羅する。"
+    }
+  },
   "Shostakovich": {
     "name": {
       "en": "Shostakovich Catalogue",
@@ -663,11 +749,11 @@
   },
   "Tchaikovsky": {
     "name": {
-      "en": "Tchaikovsky Catalogue",
-      "de": "Tchaikovsky-Verzeichnis",
-      "fr": "Catalogue Tchaïkovski",
-      "zh": "柴可夫斯基目录",
-      "ja": "チャイコフスキー目録"
+      "en": "Tchaikovsky Handbook",
+      "de": "Tchaikovsky-Handbuch",
+      "fr": "Tchaikovsky Handbook",
+      "zh": "柴可夫斯基手册",
+      "ja": ""
     },
     "abbr": "TH",
     "composer": "Pyotr Ilyich Tchaikovsky",

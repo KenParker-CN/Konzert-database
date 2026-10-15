@@ -11,8 +11,10 @@ export const composerCatalogMap: Record<string, string> = {
   'arcangelo-corelli': 'Corelli',
   'dieterich-buxtehude': 'BuxWV',
   'franz-schubert': 'Deutsch',
+  'luigi-boccherini': 'Gerard',
   'jean-philippe-rameau': 'RCT',
   'felix-mendelssohn': 'MWV',
+  'gustav-mahler': 'GMW',
   'dmitri-shostakovich': 'Shostakovich',
   'pyotr-ilyich-tchaikovsky': 'Tchaikovsky',
 };

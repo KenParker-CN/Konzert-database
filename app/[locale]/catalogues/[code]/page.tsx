@@ -1,7 +1,7 @@
 import AppShell from '@/components/AppShell'
 import CatalogWorksPanel from '@/components/common/CatalogWorksPanel'
 import WorksLoading from '@/components/common/WorksLoading'
-import {ArrowLeft} from 'lucide-react'
+import {IconArrowLeft} from '@tabler/icons-react'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getI18n} from '@/lib/i18n/server'
@@ -34,6 +34,10 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
 
     const lifespan = [composer.startDate, composer.endDate].filter(Boolean).join('–') || null
     const composerDisplayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
+    const composerNameWidth = Array.from(composerDisplayName).reduce(
+        (width, character) => width + (/[\u2E80-\u9FFF\uF900-\uFAFF]/u.test(character) ? 1 : 0.52),
+        0,
+    )
     const ComposerHeading = 'h2'
 
     const catalogueDisplayName = composer.catalogueName?.trim()
@@ -46,17 +50,24 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                 <div className="mx-auto max-w-300 px-5 py-10 lg:px-10 lg:py-14">
                     <Link href={localePath(locale, '/catalogues')}
                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-700">
-                        <ArrowLeft size={16}/>
+                        <IconArrowLeft size={16}/>
                         {t('catalogues.allCatalogues')}
                     </Link>
 
-                    <div className="mt-7 grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,22rem)_minmax(0,1fr)]">
-                        <div className="flex min-w-0 flex-col gap-6">
-                            <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-                                <div className="min-w-0 text-center">
-                                    <ComposerHeading className="heading wrap-break-word text-2xl font-semibold leading-tight tracking-tight text-slate-950 sm:text-3xl">{composerDisplayName}</ComposerHeading>
+                    <div className="mt-7 flex flex-col gap-6">
+                        <div className="grid grid-cols-1 gap-4 md:grid-cols-[minmax(12rem,3fr)_minmax(0,7fr)]">
+                            <section className="min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+                                <div className="@container min-w-0">
+                                    <ComposerHeading
+                                        className="heading whitespace-nowrap font-semibold leading-tight tracking-tight text-slate-950"
+                                        style={{
+                                            fontSize: `clamp(1rem, calc(100cqw / ${Math.max(composerNameWidth, 1)}), 1.875rem)`,
+                                        }}
+                                    >
+                                        {composerDisplayName}
+                                    </ComposerHeading>
                                     {(composer.nationalities.length > 0 || lifespan) && (
-                                        <div className="mt-2 flex flex-wrap items-center justify-center gap-2 text-sm text-slate-500">
+                                        <div className="mt-2 flex flex-wrap items-center gap-2 text-sm text-slate-500">
                                             {composer.nationalities.map(code => {
                                                 const flagCode = getCountryFlagCode(code)
                                                 return flagCode ? (
@@ -73,23 +84,19 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                 </div>
                             </section>
 
-                            <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-                                <div className="flex min-w-0 flex-col text-center">
-                                    <h1 className="heading text-2xl font-semibold leading-tight tracking-tight text-slate-950 sm:text-3xl">
-                                        {catalogueDisplayName}
-                                    </h1>
-                                    {catalogueInfo?.compiler?.name && (
-                                        <p className="mt-2 text-sm text-slate-500">{catalogueInfo.compiler.name}</p>
-                                    )}
-                                </div>
+                            <section className="flex min-w-0 flex-col justify-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+                                <h1 className="heading wrap-break-word text-2xl font-semibold leading-tight tracking-tight text-slate-950 sm:text-3xl">
+                                    {catalogueDisplayName}
+                                </h1>
+                                {catalogueInfo?.compiler?.name && (
+                                    <p className="mt-2 text-sm text-slate-500">{catalogueInfo.compiler.name}</p>
+                                )}
                             </section>
                         </div>
 
-                        <div className="min-w-0">
-                            <Suspense fallback={<WorksLoading label={t('works.loading')}/>}>
-                                <CatalogWorksPanel locale={locale} catalogCode={catalogCode}/>
-                            </Suspense>
-                        </div>
+                        <Suspense fallback={<WorksLoading label={t('works.loading')}/>}>
+                            <CatalogWorksPanel locale={locale} catalogCode={catalogCode}/>
+                        </Suspense>
                     </div>
                 </div>
             </main>

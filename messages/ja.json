@@ -1,37 +1,19 @@
 {
   "common": {
-    "search": "検索",
-    "searching": "検索中…",
-    "filter": "フィルター",
-    "apply": "適用",
     "close": "閉じる",
-    "open": "開く",
     "clear": "クリア",
-    "cancel": "キャンセル",
     "previous": "前へ",
     "next": "次へ",
-    "loading": "読み込み中…",
-    "noResults": "結果がありません",
-    "language": "言語",
-    "all": "すべて",
-    "yes": "はい",
-    "no": "いいえ"
+    "language": "言語"
   },
   "navigation": {
     "home": "ホーム",
     "works": "作品",
     "catalogues": "作品カタログ"
   },
-  "theme": {
-    "label": "テーマ",
-    "light": "ライト",
-    "dark": "ダーク",
-    "system": "システム"
-  },
   "home": {
     "badge": "クラシック音楽アーカイブ",
     "tagline": "作曲家や作品カタログ、そして音楽を結ぶつながりを収めた、成長し続けるアーカイブです。",
-    "discoverArchive": "アーカイブを見る",
     "collectionLabel": "探索"
   },
   "catalogues": {
@@ -43,44 +25,12 @@
     "refreshingCache": "更新中…",
     "refreshCacheFailed": "更新できませんでした。もう一度お試しください。",
     "coverLabel": "クラシック作品カタログ",
-    "browse": "作品を見る",
     "allCatalogues": "すべてのカタログ",
-    "catalogue": "カタログ",
-    "about": "このカタログについて",
-    "name": "カタログ名",
-    "notes": "注記",
-    "notesMainGroup": "大分類",
-    "notesGroup": "分類",
-    "notesOtherRanges": "重複する範囲",
-    "notesSpecialRange": "追加範囲",
-    "notesMwv": "MWV範囲",
-    "notesClassification": "分類内容",
-    "notesOtherEntries": "その他の項目",
-    "mwvVocalMusic": "声楽（A–K）",
-    "mwvSacredVocalMusic": "宗教声楽（A–C）",
-    "mwvSecularVocalMusic": "世俗声楽（D–K）",
-    "mwvStageMusic": "舞台音楽（L–M）",
-    "mwvInstrumentalMusic": "器楽（N–W）",
-    "mwvOrchestralMusic": "管弦楽（N–P）",
-    "mwvChamberMusic": "室内楽（Q–R）",
-    "mwvPianoMusic": "ピアノ音楽（S–U）",
-    "mwvOrganMusic": "オルガン音楽（V–W）",
-    "mwvCanons": "カノン（X–Y）",
-    "mwvVaria": "その他（Z）",
-    "mwvAcappellaWorks": "ア・カペラ作品（F–G）",
-    "mwvSingersWorks": "声楽作品（H–K）",
-    "mwvSingersAndPianoWorks": "声楽とピアノの作品（J–K）",
-    "compiler": "編纂者",
-    "firstEdition": "初版",
-    "catalogueType": "カタログタイプ",
-    "worksCount": "作品数（概算）",
-    "organization": "組織方法",
-    "chronological": "年代順"
+    "compositionList": "{composer}の作品一覧",
+    "compositionListsHeading": "作品一覧"
   },
   "works": {
-    "badge": "クラシック音楽アーカイブ",
     "title": "作品",
-    "description": "カタログ詳細と作曲家の関係を統合した作品データベースを探索できます。",
     "searchPlaceholder": "作品を検索…",
     "catalogue": "カタログ",
     "opus": "作品番号",
@@ -102,38 +52,22 @@
     "genres": "ジャンル",
     "creationLocation": "作曲地",
     "viewDetails": "作品の詳細を表示",
-    "allCsvFields": "カタログ番号",
-    "filterDate": "日付で絞り込む",
-    "allTypes": "すべての種類",
-    "allKeys": "すべての調性",
-    "clearFilters": "絞り込みを解除",
-    "resultsCount": "{count} 件",
-    "number": "#",
     "titleColumn": "タイトル",
-    "composer": "作曲家",
     "type": "種類",
     "key": "調性",
     "instrumentation": "編成",
-    "applyFilters": "フィルターを適用",
-    "updating": "更新中…",
     "count": "{count} 件の作品",
-    "count_one": "{count} 件の作品",
     "noWorks": "条件に一致する作品がありません。",
     "otherType": "その他の作品",
+    "groupNavigation": "作品グループを閲覧",
+    "subgroups": "サブグループ",
     "loading": "作品を読み込み中…",
     "loadFailed": "作品を読み込めませんでした。しばらくしてからもう一度お試しください。",
-    "pageInfo": "{total} ページ中 {current} ページ",
-    "rowsPerPage": "1ページの行数",
-    "sortAsc": "昇順で並べ替え",
-    "sortDesc": "降順で並べ替え"
+    "pageInfo": "{total} ページ中 {current} ページ"
   },
   "composers": {
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "紹介文を読み込み中…",
     "readOnWikipedia": "ウィキペディアで読む ↗"
-  },
-  "pagination": {
-    "page": "ページ",
-    "of": "全"
   }
 }

@@ -1,12 +1,23 @@
 import 'server-only';
+import * as fs from 'node:fs/promises';
+import * as path from 'node:path';
+import {cookies} from 'next/headers';
 
-const CSV_SOURCES = [
-  // Prefer jsDelivr: raw.githubusercontent.com often times out on restricted networks.
-  'https://cdn.jsdelivr.net/gh/KenParker-CN/konzert-public-data@main/csv',
-  'https://raw.githubusercontent.com/KenParker-CN/konzert-public-data/main/csv',
-] as const;
-const COMPOSER_CSV_SOURCES = [CSV_SOURCES[1], CSV_SOURCES[0]] as const;
+const PUBLIC_DATA_REPO = 'KenParker-CN/konzert-public-data';
+const RAW_CSV_BASE = `https://raw.githubusercontent.com/${PUBLIC_DATA_REPO}/main/csv`;
+const CDN_CSV_BASE = `https://cdn.jsdelivr.net/gh/${PUBLIC_DATA_REPO}`;
+const GITHUB_API_BASE = `https://api.github.com/repos/${PUBLIC_DATA_REPO}`;
 const KV_API_URL = 'https://dme.mozarteum.at/digital-editions/api/kv-entriesidx';
+// Vendored copy of the API response, used in preference to the live endpoint.
+// Refresh with `node scripts/fetch-kv-entries.mjs`.
+const KV_SNAPSHOT_FILE = 'kv-entries.json';
+const DATA_CACHE_TTL_MS = 5 * 60 * 1000;
+const DATA_VERSION_COOKIE = 'catalogue-data-version';
+// Only reached when the snapshot above is missing or unreadable. The Mozarteum
+// API serves a ~6 MB payload and routinely takes ~10 s, so the budget sits well
+// below that: a slow call should abort and hand over to the KV.csv snapshot
+// instead of stalling the page.
+const KV_API_TIMEOUT_MS = 5000;
 
 interface CsvWork {
   catalogue: string;
@@ -93,38 +104,94 @@ interface CsvComposer {
   [key: string]: string;
 }
 
-const csvCache = new Map<string, Promise<CsvWork[]>>();
-let composersCache: ReturnType<typeof fetchAndParseComposers> | undefined;
+const csvCache = new Map<string, {
+  expiresAt: number;
+  version: string;
+  request: Promise<CsvWork[]>;
+}>();
+let composersCache: {
+  expiresAt: number;
+  version: string;
+  request: ReturnType<typeof fetchAndParseComposers>;
+} | undefined;
+const fallbackRevisionCache = new Map<string, {
+  expiresAt: number;
+  request: Promise<string>;
+}>();
 
-async function fetchCsv(
-  path: string,
-  sources: readonly string[] = CSV_SOURCES,
-) {
-  let lastError: unknown;
+async function getDataVersion(): Promise<string> {
+  const value = (await cookies()).get(DATA_VERSION_COOKIE)?.value;
+  return value && /^[a-z0-9-]{1,64}$/i.test(value) ? value : '';
+}
 
-  for (let index = 0; index < sources.length; index++) {
-    const base = sources[index];
-    const url = `${base}/${path}`;
-    const isLast = index === sources.length - 1;
-    const init = {
-      cache: 'no-store' as const,
-      // Fail over quickly if the preferred CDN hangs; last source has no short timeout.
-      ...(isLast ? {} : { signal: AbortSignal.timeout(8000) }),
-    };
+async function getFallbackRevision(version: string): Promise<string> {
+  for (const [key, entry] of fallbackRevisionCache) {
+    if (entry.expiresAt <= Date.now()) fallbackRevisionCache.delete(key);
+  }
+  const cached = fallbackRevisionCache.get(version);
+  if (cached && cached.expiresAt > Date.now()) return cached.request;
 
-    try {
-      const response = await fetch(url, init);
-      if (response.ok) return response;
-      lastError = new Error(`Failed to load ${path} from ${base}: ${response.status}`);
-    } catch (error) {
-      // Ignore abort/timeout from a failed source and try the next one.
-      lastError = error;
+  const request = (async () => {
+    const url = new URL(`${GITHUB_API_BASE}/commits/main`);
+    if (version) url.searchParams.set('_refresh', version);
+    const response = await fetch(url, {
+      cache: 'no-store',
+      headers: {
+        Accept: 'application/vnd.github+json',
+        'User-Agent': 'Konzert-database',
+      },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!response.ok) {
+      throw new Error(`Failed to resolve public data revision: ${response.status}`);
     }
+
+    const data: unknown = await response.json();
+    if (!data || typeof data !== 'object' || !('sha' in data)
+      || typeof data.sha !== 'string' || !/^[a-f0-9]{40}$/i.test(data.sha)) {
+      throw new Error('GitHub returned an invalid public data revision');
+    }
+    return data.sha;
+  })();
+  const cacheEntry = {expiresAt: Date.now() + DATA_CACHE_TTL_MS, request};
+  fallbackRevisionCache.set(version, cacheEntry);
+  try {
+    return await request;
+  } catch (error) {
+    if (fallbackRevisionCache.get(version) === cacheEntry) fallbackRevisionCache.delete(version);
+    throw error;
+  }
+}
+
+async function fetchCsv(path: string, version = '') {
+  const rawUrl = new URL(`${RAW_CSV_BASE}/${path}`);
+  rawUrl.searchParams.set('_refresh', version || Date.now().toString(36));
+  let rawError: unknown;
+
+  try {
+    const response = await fetch(rawUrl, {
+      cache: 'no-store',
+      signal: AbortSignal.timeout(8000),
+    });
+    if (response.ok) return response;
+    rawError = new Error(`Failed to load ${path} from GitHub raw: ${response.status}`);
+  } catch (error) {
+    rawError = error;
   }
 
-  throw lastError instanceof Error
-    ? lastError
-    : new Error(`Failed to load ${path}`, { cause: lastError });
+  const revision = await getFallbackRevision(version);
+  try {
+    const response = await fetch(`${CDN_CSV_BASE}@${revision}/csv/${path}`, {
+      cache: 'no-store',
+      signal: AbortSignal.timeout(15000),
+    });
+    if (response.ok) return response;
+    throw new Error(`Failed to load ${path} from pinned CDN revision ${revision}: ${response.status}`);
+  } catch (fallbackError) {
+    throw new Error(`Failed to load ${path} from GitHub raw and pinned CDN`, {
+      cause: new AggregateError([rawError, fallbackError]),
+    });
+  }
 }
 
 function isKvApiEntry(value: unknown): value is KvApiEntry {
@@ -200,7 +267,7 @@ function mapKvApiEntries(value: unknown): CsvWork[] {
       || '';
     const location = (entry.creationLocs ?? [])
       .map(place => place.lang?.EN?.trim() || place.lang?.DE?.trim() || '')
-      .filter(place => place && !/^\[(unknown|unbekannt)\]$/i.test(place))
+      .filter(place => place && !/^\[(unknown|unbekannt)]$/i.test(place))
       .join(', ');
 
     return {
@@ -228,41 +295,76 @@ function mapKvApiEntries(value: unknown): CsvWork[] {
   });
 }
 
-async function loadKvCatalog(): Promise<CsvWork[]> {
+/**
+ * Reads the checked-in KV snapshot from `public/kv-entries.json`.
+ *
+ * The Digital Mozart Edition API serves a ~6 MB payload that routinely takes
+ * ~10 s to download, which used to be paid on every cold start. The index is
+ * effectively frozen (the KV numbering has not changed in years), so it is
+ * vendored into the repo instead — regenerate with `scripts/fetch-kv-entries.mjs`.
+ *
+ * `resolveJsonModule` is enabled, but importing the payload statically would
+ * pull ~6 MB into the server bundle, so it is read from disk and parsed once.
+ */
+let kvSnapshotCache: {entries: unknown} | undefined;
+
+async function readKvSnapshot(): Promise<unknown> {
+  if (kvSnapshotCache) return kvSnapshotCache.entries;
+
+  const snapshotPath = path.join(process.cwd(), 'public', KV_SNAPSHOT_FILE);
+  const raw = await fs.readFile(snapshotPath, 'utf8');
+  const entries: unknown = JSON.parse(raw);
+  if (!Array.isArray(entries) || entries.length === 0) {
+    throw new Error(`KV snapshot ${KV_SNAPSHOT_FILE} is empty or malformed`);
+  }
+
+  kvSnapshotCache = {entries};
+  return entries;
+}
+
+async function loadKvCatalog(version: string): Promise<CsvWork[]> {
   try {
-    const response = await fetch(KV_API_URL, {
-      cache: 'no-store',
-      signal: AbortSignal.timeout(15000),
-    });
-    if (!response.ok) {
-      throw new Error(`Mozarteum KV API request failed: ${response.status}`);
-    }
-    return mapKvApiEntries(await response.json());
-  } catch (apiError) {
+    return mapKvApiEntries(await readKvSnapshot());
+  } catch (snapshotError) {
     try {
-      const response = await fetchCsv('KV.csv');
-      return parseCsvRecords<CsvWork>(await response.text());
-    } catch (csvError) {
-      throw new Error('Both the Mozarteum KV API and CSV fallback failed', {
-        cause: new AggregateError([apiError, csvError]),
+      const url = new URL(KV_API_URL);
+      url.searchParams.set('_refresh', version || Date.now().toString(36));
+      const response = await fetch(url, {
+        cache: 'no-store',
+        signal: AbortSignal.timeout(KV_API_TIMEOUT_MS),
       });
+      if (!response.ok) {
+        throw new Error(`Mozarteum KV API request failed: ${response.status}`);
+      }
+      return mapKvApiEntries(await response.json());
+    } catch (apiError) {
+      try {
+        const response = await fetchCsv('KV.csv', version);
+        return parseCsvRecords<CsvWork>(await response.text());
+      } catch (csvError) {
+        throw new Error('Both the KV snapshot, Mozarteum KV API, and CSV fallback failed', {
+          cause: new AggregateError([snapshotError, apiError, csvError]),
+        });
+      }
     }
   }
 }
 
 async function loadCatalog(catalogCode: string): Promise<CsvWork[]> {
+  const version = await getDataVersion();
   const cached = csvCache.get(catalogCode);
-  if (cached) return cached;
+  if (cached && cached.version === version && cached.expiresAt > Date.now()) return cached.request;
 
   const request = catalogCode === 'KV'
-    ? loadKvCatalog()
-    : fetchCsv(`${catalogCode}.csv`)
+    ? loadKvCatalog(version)
+    : fetchCsv(`${catalogCode}.csv`, version)
       .then(async response => parseCsvRecords<CsvWork>(await response.text()));
-  csvCache.set(catalogCode, request);
+  const cacheEntry = {expiresAt: Date.now() + DATA_CACHE_TTL_MS, version, request};
+  csvCache.set(catalogCode, cacheEntry);
   try {
     return await request;
   } catch (error) {
-    if (csvCache.get(catalogCode) === request) csvCache.delete(catalogCode);
+    if (csvCache.get(catalogCode) === cacheEntry) csvCache.delete(catalogCode);
     throw error;
   }
 }
@@ -290,8 +392,8 @@ type ComposerCsvEntry = {
   catalogueName: string | null | undefined;
 };
 
-async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
-  const response = await fetchCsv('composers.csv', COMPOSER_CSV_SOURCES);
+async function fetchAndParseComposers(version: string): Promise<ComposerCsvEntry[]> {
+  const response = await fetchCsv('composers.csv', version);
   const composers = parseCsvRecords(await response.text()) as CsvComposer[];
 
   return composers.map((composer, index) => {
@@ -328,12 +430,19 @@ async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
 }
 
 async function loadComposers(): Promise<ComposerCsvEntry[]> {
-  if (!composersCache) composersCache = fetchAndParseComposers();
-  const request = composersCache;
+  const version = await getDataVersion();
+  if (!composersCache || composersCache.version !== version || composersCache.expiresAt <= Date.now()) {
+    composersCache = {
+      expiresAt: Date.now() + DATA_CACHE_TTL_MS,
+      version,
+      request: fetchAndParseComposers(version || Date.now().toString(36)),
+    };
+  }
+  const cacheEntry = composersCache;
   try {
-    return await request;
+    return await cacheEntry.request;
   } catch (error) {
-    if (composersCache === request) composersCache = undefined;
+    if (composersCache === cacheEntry) composersCache = undefined;
     throw error;
   }
 }
@@ -341,6 +450,9 @@ async function loadComposers(): Promise<ComposerCsvEntry[]> {
 export function clearCsvCache() {
   csvCache.clear();
   composersCache = undefined;
+  // The snapshot never changes at runtime, but dropping it keeps "refresh"
+  // honest after someone re-runs `scripts/fetch-kv-entries.mjs`.
+  kvSnapshotCache = undefined;
 }
 
 function slugify(name: string) {
@@ -432,7 +544,7 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
     const isOpusCatalogue = catalogCode === 'Corelli' || catalogCode === 'Shostakovich';
     let type = getCsvValue(work, 'Type', 'type');
     let key = getCsvValue(work, 'Key', 'key');
-    if (catalogCode === 'Tchaikovsky' && /^[A-G](#|b)? (major|minor)$/.test(type.trim()) && !key) {
+    if (catalogCode === 'Tchaikovsky' && /^[A-G]([#b])? (major|minor)$/.test(type.trim()) && !key) {
       // The Tchaikovsky CSV carries the key in the Type column for the symphonies.
       key = type;
       type = '';
@@ -467,67 +579,4 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
       ),
     };
   });
-}
-
-export async function getWorkFilterOptions(catalogCode: string) {
-  const works = await loadCatalog(catalogCode);
-
-  const catalogues = [...new Set(works.map(w => w.Catalogue || w.catalogue || '').filter(Boolean))];
-  const types = [...new Set(works.map(w => w.Type || w.type || '').filter(Boolean))];
-  const keys = [...new Set(works.map(w => w.Key || w.key || '').filter(Boolean))];
-  const instrumentations = [...new Set(works.map(w => w.Instrumentation || w.instrumentation || '').filter(Boolean))];
-
-  return { catalogue: catalogues, type: types, key: keys, instrumentation: instrumentations };
-}
-
-export async function getWorks(catalogCode: string, filters: {
-  search?: string;
-  catalogue?: string;
-  type?: string;
-  key?: string;
-  instrumentation?: string;
-} = {}): Promise<Array<{
-  workId: number;
-  catalogue: string;
-  number: string;
-  title: string;
-  composer: string;
-  type: string;
-  key: string;
-  instrumentation: string;
-}>> {
-  const works = await loadCatalog(catalogCode);
-
-  return works
-    .filter(work => {
-      if (filters.search) {
-        const search = filters.search.toLowerCase();
-        const catalogue = (work.Catalogue || work.catalogue || '').toLowerCase();
-        const title = (work.Title || work.title || '').toLowerCase();
-        const type = (work.Type || work.type || '').toLowerCase();
-        const key = (work.Key || work.key || '').toLowerCase();
-        const instr = (work.Instrumentation || work.instrumentation || '').toLowerCase();
-        if (!catalogue.includes(search) && !title.includes(search) && !type.includes(search) && !key.includes(search) && !instr.includes(search)) {
-          return false;
-        }
-      }
-      if (filters.catalogue) {
-        const cat = (work.Catalogue || work.catalogue || '');
-        if (!cat.startsWith(filters.catalogue)) return false;
-      }
-      if (filters.type && (work.Type || work.type || '') !== filters.type) return false;
-      if (filters.key && (work.Key || work.key || '') !== filters.key) return false;
-      if (filters.instrumentation && !(work.Instrumentation || work.instrumentation || '').includes(filters.instrumentation)) return false;
-      return true;
-    })
-    .map((work, index) => ({
-      workId: index + 1,
-      catalogue: work.Catalogue || work.catalogue || '',
-      number: '',
-      title: work.Title || work.title || '',
-      composer: '',
-      type: work.Type || work.type || '',
-      key: work.Key || work.key || '',
-      instrumentation: work.Instrumentation || work.instrumentation || '',
-    }));
 }

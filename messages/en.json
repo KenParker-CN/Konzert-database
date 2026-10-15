@@ -1,37 +1,19 @@
 {
   "common": {
-    "search": "Search",
-    "searching": "Searching…",
-    "filter": "Filter",
-    "apply": "Apply",
     "close": "Close",
-    "open": "Open",
     "clear": "Clear",
-    "cancel": "Cancel",
     "previous": "Previous",
     "next": "Next",
-    "loading": "Loading…",
-    "noResults": "No results",
-    "language": "Language",
-    "all": "All",
-    "yes": "Yes",
-    "no": "No"
+    "language": "Language"
   },
   "navigation": {
     "home": "Home",
     "works": "Works",
     "catalogues": "Catalogues"
   },
-  "theme": {
-    "label": "Theme",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System"
-  },
   "home": {
     "badge": "Classical music archive",
     "tagline": "A growing archive of composers, catalogues, and the music that connects them.",
-    "discoverArchive": "Discover the archive",
     "collectionLabel": "Explore"
   },
   "catalogues": {
@@ -43,44 +25,12 @@
     "refreshingCache": "Refreshing…",
     "refreshCacheFailed": "Could not refresh data. Please try again.",
     "coverLabel": "Classical works catalogue",
-    "browse": "Browse works",
     "allCatalogues": "All catalogues",
-    "catalogue": "Catalogue",
-    "about": "About this catalogue",
-    "name": "Catalogue name",
-    "notes": "Notes",
-    "notesMainGroup": "Main group",
-    "notesGroup": "Group",
-    "notesOtherRanges": "Cross-ranges",
-    "notesSpecialRange": "Additional range",
-    "notesMwv": "MWV range",
-    "notesClassification": "Classification",
-    "notesOtherEntries": "Other entries",
-    "mwvVocalMusic": "Vocal music (A–K)",
-    "mwvSacredVocalMusic": "Sacred vocal music (A–C)",
-    "mwvSecularVocalMusic": "Secular vocal music (D–K)",
-    "mwvStageMusic": "Stage music (L–M)",
-    "mwvInstrumentalMusic": "Instrumental music (N–W)",
-    "mwvOrchestralMusic": "Orchestral music (N–P)",
-    "mwvChamberMusic": "Chamber music (Q–R)",
-    "mwvPianoMusic": "Piano music (S–U)",
-    "mwvOrganMusic": "Organ music (V–W)",
-    "mwvCanons": "Canons (X–Y)",
-    "mwvVaria": "Miscellaneous (Z)",
-    "mwvAcappellaWorks": "A cappella works (F–G)",
-    "mwvSingersWorks": "Works for voices (H–K)",
-    "mwvSingersAndPianoWorks": "Works for voices and piano (J–K)",
-    "compiler": "Compiler",
-    "firstEdition": "First edition",
-    "catalogueType": "Catalogue type",
-    "worksCount": "Approximate works",
-    "organization": "Organization method",
-    "chronological": "Chronological"
+    "compositionList": "List of compositions by {composer}",
+    "compositionListsHeading": "Composition lists"
   },
   "works": {
-    "badge": "Classical music archive",
     "title": "Works",
-    "description": "Explore the unified work database, with catalogue details and composer relationships resolved from the archive.",
     "searchPlaceholder": "Search works…",
     "catalogue": "Catalogue",
     "opus": "Opus",
@@ -102,38 +52,22 @@
     "genres": "Genres",
     "creationLocation": "Creation location",
     "viewDetails": "View work details",
-    "allCsvFields": "Catalogue number",
-    "filterDate": "Filter date",
-    "allTypes": "All types",
-    "allKeys": "All keys",
-    "clearFilters": "Clear filters",
-    "resultsCount": "{count} results",
-    "number": "#",
     "titleColumn": "Title",
-    "composer": "Composer",
     "type": "Type",
     "key": "Key",
     "instrumentation": "Instrumentation",
-    "applyFilters": "Apply filters",
-    "updating": "Updating…",
     "count": "{count} works",
-    "count_one": "{count} work",
     "noWorks": "No works match these filters.",
     "otherType": "Other works",
+    "groupNavigation": "Browse work groups",
+    "subgroups": "Subgroups",
     "loading": "Loading works…",
     "loadFailed": "Works could not be loaded right now. Please try again later.",
-    "pageInfo": "Page {current} of {total}",
-    "rowsPerPage": "Rows per page",
-    "sortAsc": "Sort ascending",
-    "sortDesc": "Sort descending"
+    "pageInfo": "Page {current} of {total}"
   },
   "composers": {
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "Loading introduction…",
     "readOnWikipedia": "Read on Wikipedia ↗"
-  },
-  "pagination": {
-    "page": "Page",
-    "of": "of"
   }
 }

@@ -11,23 +11,6 @@ export type ComposerAliases = {
     ja: string
     zh: string
 }
-
-export type Composer = {
-    artistId: number
-    slug: string
-    name: string
-    nameSort: string | null
-    aliases: ComposerAliases
-    nationalities: string[]
-    type: string
-    artistCategory: string
-    startDate: string | null
-    endDate: string | null
-    biography: string | null
-    workCount: number
-    catalogueName?: string | null
-}
-
 export type ComposerWork = {
     workId: number
     catalogue: string
@@ -67,6 +50,10 @@ export async function getCatalogueDirectory() {
             composerAliases: composer.aliases,
             composerSlug: composer.slug,
             workCount,
+            // `null`/empty means the composer has no named catalogue in the CSV, so the
+            // archive presents their works as a plain composition list instead of a
+            // catalogue volume.
+            hasCatalogueName: Boolean(composer.catalogueName?.trim()),
         }
     }))
 }

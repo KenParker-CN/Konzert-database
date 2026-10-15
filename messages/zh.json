@@ -1,37 +1,19 @@
 {
   "common": {
-    "search": "搜索",
-    "searching": "正在搜索…",
-    "filter": "筛选",
-    "apply": "应用",
     "close": "关闭",
-    "open": "打开",
     "clear": "清空",
-    "cancel": "取消",
     "previous": "上一页",
     "next": "下一页",
-    "loading": "加载中…",
-    "noResults": "没有结果",
-    "language": "语言",
-    "all": "全部",
-    "yes": "是",
-    "no": "否"
+    "language": "语言"
   },
   "navigation": {
     "home": "首页",
     "works": "作品",
     "catalogues": "作品目录"
   },
-  "theme": {
-    "label": "主题",
-    "light": "浅色",
-    "dark": "深色",
-    "system": "跟随系统"
-  },
   "home": {
     "badge": "古典音乐档案",
     "tagline": "持续扩展中的音乐档案，收录作曲家、作品目录，以及彼此相连的音乐。",
-    "discoverArchive": "探索档案馆藏",
     "collectionLabel": "探索"
   },
   "catalogues": {
@@ -43,44 +25,12 @@
     "refreshingCache": "正在刷新…",
     "refreshCacheFailed": "刷新失败，请重试。",
     "coverLabel": "古典作品目录",
-    "browse": "浏览作品",
     "allCatalogues": "所有目录",
-    "catalogue": "目录",
-    "about": "关于此目录",
-    "name": "目录名称",
-    "notes": "备注",
-    "notesMainGroup": "主类别",
-    "notesGroup": "类别",
-    "notesOtherRanges": "交叉范围",
-    "notesSpecialRange": "交叠范围",
-    "notesMwv": "MWV 范围",
-    "notesClassification": "分类说明",
-    "notesOtherEntries": "其他条目",
-    "mwvVocalMusic": "声乐（A–K）",
-    "mwvSacredVocalMusic": "宗教声乐（A–C）",
-    "mwvSecularVocalMusic": "世俗声乐（D–K）",
-    "mwvStageMusic": "舞台音乐（L–M）",
-    "mwvInstrumentalMusic": "器乐（N–W）",
-    "mwvOrchestralMusic": "管弦乐（N–P）",
-    "mwvChamberMusic": "室内乐（Q–R）",
-    "mwvPianoMusic": "钢琴音乐（S–U）",
-    "mwvOrganMusic": "管风琴音乐（V–W）",
-    "mwvCanons": "卡农（X–Y）",
-    "mwvVaria": "其他（Z）",
-    "mwvAcappellaWorks": "无伴奏合唱作品（F–G）",
-    "mwvSingersWorks": "声乐作品（H–K）",
-    "mwvSingersAndPianoWorks": "声乐与钢琴作品（J–K）",
-    "compiler": "编纂者",
-    "firstEdition": "初版年份",
-    "catalogueType": "目录类型",
-    "worksCount": "作品数量（约）",
-    "organization": "组织方式",
-    "chronological": "编年"
+    "compositionList": "{composer}作品列表",
+    "compositionListsHeading": "作品列表"
   },
   "works": {
-    "badge": "古典音乐档案",
     "title": "作品",
-    "description": "浏览统一的作品数据库，查看目录详情以及与作曲家的关联。",
     "searchPlaceholder": "搜索作品…",
     "catalogue": "目录号",
     "opus": "作品号",
@@ -102,38 +52,22 @@
     "genres": "体裁",
     "creationLocation": "创作地点",
     "viewDetails": "查看作品详情",
-    "allCsvFields": "目录号",
-    "filterDate": "筛选日期",
-    "allTypes": "所有类型",
-    "allKeys": "所有调性",
-    "clearFilters": "清除筛选",
-    "resultsCount": "{count} 项结果",
-    "number": "#",
     "titleColumn": "标题",
-    "composer": "作曲家",
     "type": "类型",
     "key": "调性",
     "instrumentation": "配器",
-    "applyFilters": "应用筛选",
-    "updating": "正在更新…",
     "count": "{count} 部作品",
-    "count_one": "{count} 部作品",
     "noWorks": "没有符合条件的作品。",
     "otherType": "其他作品",
+    "groupNavigation": "作品分组导航",
+    "subgroups": "子分组",
     "loading": "正在加载作品…",
     "loadFailed": "作品暂时无法加载，请稍后重试。",
-    "pageInfo": "第 {current} / {total} 页",
-    "rowsPerPage": "每页行数",
-    "sortAsc": "升序排序",
-    "sortDesc": "降序排序"
+    "pageInfo": "第 {current} / {total} 页"
   },
   "composers": {
     "wikipedia": "维基百科",
     "loadingIntroduction": "正在加载简介…",
     "readOnWikipedia": "在维基百科阅读 ↗"
-  },
-  "pagination": {
-    "page": "第",
-    "of": "页"
   }
 }
