@@ -3,6 +3,12 @@ import 'server-only'
 import { getComposers as loadComposers, getComposerWorks as loadComposerWorks } from '@/lib/data/csv-loader'
 import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
 
+const CATALOGUE_DIRECTORY_CACHE_TTL_MS = 5 * 60 * 1000
+let catalogueDirectoryCache: {
+    expiresAt: number
+    request: Promise<ReturnType<typeof getCatalogueDirectoryImpl>>
+} | undefined
+
 export type ComposerAliases = {
     org: string
     en: string
@@ -29,7 +35,7 @@ export async function getComposer(slug: string) {
     return composers.find(composer => composer.slug === slug) ?? null
 }
 
-export async function getCatalogueDirectory() {
+async function getCatalogueDirectoryImpl() {
     const composers = await loadComposers()
     const catalogueEntries = composers.flatMap(composer => {
         const catalogue = getCatalogForComposer(composer.slug)
@@ -58,6 +64,20 @@ export async function getCatalogueDirectory() {
     }))
 }
 
+export async function getCatalogueDirectory() {
+    if (!catalogueDirectoryCache || catalogueDirectoryCache.expiresAt <= Date.now()) {
+        catalogueDirectoryCache = {
+            expiresAt: Date.now() + CATALOGUE_DIRECTORY_CACHE_TTL_MS,
+            request: getCatalogueDirectoryImpl(),
+        }
+    }
+    return catalogueDirectoryCache.request
+}
+
+export function clearCatalogueDirectoryCache() {
+    catalogueDirectoryCache = undefined
+}
+
 export async function getCatalogWorksSafe(catalogCode: string): Promise<{
     works: ComposerWork[]
     error: boolean
@@ -79,7 +99,8 @@ export async function getCatalogWorksSafe(catalogCode: string): Promise<{
             })),
             error: false,
         }
-    } catch {
+    } catch (error) {
+        console.error(`[getCatalogWorksSafe] Failed to load ${catalogCode}:`, error)
         return {works: [], error: true}
     }
 }

@@ -17,6 +17,9 @@ export const composerCatalogMap: Record<string, string> = {
   'gustav-mahler': 'GMW',
   'dmitri-shostakovich': 'Shostakovich',
   'pyotr-ilyich-tchaikovsky': 'Tchaikovsky',
+  'henry-purcell': 'Zimmerman',
+  'ludwig-van-beethoven': 'Beethoven',
+  'antonin-dvorak': 'Burghauser',
 };
 
 export function getCatalogForComposer(composerSlug: string): string | undefined {

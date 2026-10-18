@@ -1,6 +1,7 @@
 import AppShell from '@/components/AppShell'
 import CatalogWorksPanel from '@/components/common/CatalogWorksPanel'
 import WorksLoading from '@/components/common/WorksLoading'
+import RefreshCatalogueWorksButton from '@/components/common/RefreshCatalogueWorksButton'
 import {IconArrowLeft} from '@tabler/icons-react'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
@@ -40,19 +41,24 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
     )
     const ComposerHeading = 'h2'
 
-    const catalogueDisplayName = composer.catalogueName?.trim()
-        || `${composer.nameSort?.split(',')[0]?.trim() || composer.name}'s works`
     const catalogueInfo = (catalogueDescriptions as Record<string, CatalogueDescription | undefined>)[code]
+
+    const catalogueDisplayName = catalogueInfo?.name?.[locale]
+        || composer.catalogueName?.trim()
+        || `${composer.nameSort?.split(',')[0]?.trim() || composer.name}'s works`
 
     return (
         <AppShell active="catalogues">
             <main className="min-h-screen">
                 <div className="mx-auto max-w-300 px-5 py-10 lg:px-10 lg:py-14">
-                    <Link href={localePath(locale, '/catalogues')}
-                       className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-700">
-                        <IconArrowLeft size={16}/>
-                        {t('catalogues.allCatalogues')}
-                    </Link>
+                    <div className="flex items-center justify-between">
+                        <Link href={localePath(locale, '/catalogues')}
+                           className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-700">
+                            <IconArrowLeft size={16}/>
+                            {t('catalogues.allCatalogues')}
+                        </Link>
+                        <RefreshCatalogueWorksButton catalogCode={catalogCode}/>
+                    </div>
 
                     <div className="mt-7 flex flex-col gap-6">
                         <div className="grid grid-cols-1 gap-4 md:grid-cols-[minmax(12rem,3fr)_minmax(0,7fr)]">

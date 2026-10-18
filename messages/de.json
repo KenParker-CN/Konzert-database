@@ -9,17 +9,26 @@
   "navigation": {
     "home": "Startseite",
     "works": "Werke",
-    "catalogues": "Werkverzeichnisse"
+    "catalogues": "Werkverzeichnisse",
+    "composers": "Komponisten"
+  },
+  "theme": {
+    "label": "Design",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
   },
   "home": {
     "badge": "Archiv klassischer Musik",
-    "tagline": "Ein wachsendes Archiv von Komponisten, Werkverzeichnissen und der Musik, die sie verbindet.",
-    "collectionLabel": "Entdecken"
+    "tagline": "Eine klare, vernetzte Heimat für Komponisten, Werke und Album-Sammlungen.",
+    "exploreWorks": "Werke entdecken",
+    "worksExplorerTitle": "Werke-Explorer",
+    "worksExplorerDescription": "Suche nach Katalognummern, Titeln, Komponisten und Besetzung."
   },
   "catalogues": {
     "badge": "Die Sammlung",
     "title": "Werkverzeichnisse",
-    "description": "Entdecken Sie die derzeit verfügbaren Werkverzeichnisse, präsentiert wie Bände in einer Musikbuchhandlung.",
+    "description": "Entdecken Sie die verfügbaren Werkverzeichnisse im Archiv.",
     "count": "{count} Kataloge",
     "refreshCache": "Daten aktualisieren",
     "refreshingCache": "Wird aktualisiert…",
@@ -32,26 +41,8 @@
   "works": {
     "title": "Werke",
     "searchPlaceholder": "Werke suchen…",
-    "catalogue": "Katalog",
-    "opus": "Opus",
-    "helm": "Helm",
-    "date": "Datum",
-    "details": "Details",
-    "recommendedRecording": "Empfohlene Aufnahme",
-    "wotquenne": "Wotquenne-Verzeichnisnummer",
-    "workparts": "Werkteile",
-    "note": "Anmerkung",
-    "germanTitle": "Deutscher Titel",
-    "nickname": "Beiname",
-    "otherCatalogueReferences": "Weitere Katalognummern",
-    "movement": "Satz",
-    "vocalTitle": "Vokaltitel",
-    "tempo": "Tempo",
-    "meter": "Taktart",
-    "measures": "Takte",
-    "genres": "Gattungen",
-    "creationLocation": "Entstehungsort",
-    "viewDetails": "Werksdetails anzeigen",
+    "catalogue": "Kata#",
+    "number": "#",
     "titleColumn": "Titel",
     "type": "Typ",
     "key": "Tonart",
@@ -66,8 +57,36 @@
     "pageInfo": "Seite {current} von {total}"
   },
   "composers": {
+    "badge": "Personen im Archiv",
+    "title": "Komponisten",
+    "description": "Finde Komponisten und entdecke ihre verbundenen Werke im Archiv.",
+    "searchPlaceholder": "Komponisten suchen…",
+    "searching": "Suche…",
+    "count": "{count} Komponisten",
+    "count_one": "{count} Komponist",
+    "noComposers": "Keine Komponisten entsprechen dieser Suche.",
+    "allComposers": "Alle Komponisten",
+    "previousComposer": "Vorheriger Komponist",
+    "nextComposer": "Nächster Komponist",
+    "works": "Werke",
+    "noWorks": "Keine zugehörigen Werke.",
+    "all": "Alle",
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "Einführung wird geladen…",
-    "readOnWikipedia": "Auf Wikipedia lesen ↗"
+    "readOnWikipedia": "Auf Wikipedia lesen ↗",
+    "period": {
+      "Medieval": "Mittelalter (500-1400)",
+      "Renaissance": "Renaissance (1400-1600)",
+      "Baroque": "Barock (1600-1750)",
+      "Classical": "Klassik (1750-1820)",
+      "Romantic": "Romantik (1820-1900)",
+      "Modern": "Moderne (1900-2000)",
+      "Contemporary": "Gegenwart (2000+)",
+      "present": "Gegenwart"
+    }
+  },
+  "pagination": {
+    "page": "Seite",
+    "of": "von"
   }
 }

@@ -9,17 +9,26 @@
   "navigation": {
     "home": "ホーム",
     "works": "作品",
-    "catalogues": "作品カタログ"
+    "catalogues": "作品カタログ",
+    "composers": "作曲家"
+  },
+  "theme": {
+    "label": "テーマ",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
   },
   "home": {
     "badge": "クラシック音楽アーカイブ",
-    "tagline": "作曲家や作品カタログ、そして音楽を結ぶつながりを収めた、成長し続けるアーカイブです。",
-    "collectionLabel": "探索"
+    "tagline": "作曲家、作品、アルバムコレクションをつなぐ、明確なホーム。",
+    "exploreWorks": "作品を探索",
+    "worksExplorerTitle": "作品エクスプローラー",
+    "worksExplorerDescription": "カタログ番号、タイトル、作曲家、編成で検索できます。"
   },
   "catalogues": {
     "badge": "コレクション",
     "title": "作品カタログ一覧",
-    "description": "現在アーカイブで利用できる作品カタログを、音楽書店の本棚のように並べて紹介します。",
+    "description": "アーカイブで利用できる作品カタログをご覧ください。",
     "count": "{count} 件のカタログ",
     "refreshCache": "データを更新",
     "refreshingCache": "更新中…",
@@ -33,25 +42,7 @@
     "title": "作品",
     "searchPlaceholder": "作品を検索…",
     "catalogue": "カタログ",
-    "opus": "作品番号",
-    "helm": "Helm カタログ",
-    "date": "日付",
-    "details": "詳細",
-    "recommendedRecording": "おすすめの録音",
-    "wotquenne": "ヴォトケン目録番号",
-    "workparts": "作品の楽章構成",
-    "note": "備考",
-    "germanTitle": "ドイツ語の題名",
-    "nickname": "別名",
-    "otherCatalogueReferences": "その他の作品目録番号",
-    "movement": "楽章",
-    "vocalTitle": "声楽作品の題名",
-    "tempo": "速度標語",
-    "meter": "拍子",
-    "measures": "小節数",
-    "genres": "ジャンル",
-    "creationLocation": "作曲地",
-    "viewDetails": "作品の詳細を表示",
+    "number": "#",
     "titleColumn": "タイトル",
     "type": "種類",
     "key": "調性",
@@ -66,8 +57,36 @@
     "pageInfo": "{total} ページ中 {current} ページ"
   },
   "composers": {
+    "badge": "アーカイブに収録された人物",
+    "title": "作曲家",
+    "description": "作曲家を見つけ、アーカイブ内の関連作品を辿れます。",
+    "searchPlaceholder": "作曲家を検索…",
+    "searching": "検索中…",
+    "count": "{count} 人の作曲家",
+    "count_one": "{count} 人の作曲家",
+    "noComposers": "条件に一致する作曲家がいません。",
+    "allComposers": "すべての作曲家",
+    "previousComposer": "前の作曲家",
+    "nextComposer": "次の作曲家",
+    "works": "作品",
+    "noWorks": "関連作品がありません。",
+    "all": "すべて",
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "紹介文を読み込み中…",
-    "readOnWikipedia": "ウィキペディアで読む ↗"
+    "readOnWikipedia": "ウィキペディアで読む ↗",
+    "period": {
+      "Medieval": "中世 (500-1400)",
+      "Renaissance": "ルネサンス (1400-1600)",
+      "Baroque": "バロック (1600-1750)",
+      "Classical": "古典派 (1750-1820)",
+      "Romantic": "ロマン派 (1820-1900)",
+      "Modern": "近代 (1900-2000)",
+      "Contemporary": "現代 (2000+)",
+      "present": "現代"
+    }
+  },
+  "pagination": {
+    "page": "ページ",
+    "of": "全"
   }
 }

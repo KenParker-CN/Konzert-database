@@ -12,3 +12,5 @@ tsconfig.tsbuildinfo
 qodana.yaml
 *.sqlite-shm
 *.sqlite-wal
+konzert-public-data/xlsx/
+konzert-public-data/scripts/

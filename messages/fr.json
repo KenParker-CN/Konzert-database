@@ -9,49 +9,40 @@
   "navigation": {
     "home": "Accueil",
     "works": "Œuvres",
-    "catalogues": "Catalogues"
+    "catalogues": "Catalogues",
+    "composers": "Compositeurs"
+  },
+  "theme": {
+    "label": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
   },
   "home": {
     "badge": "Archives de musique classique",
-    "tagline": "Une archive en expansion de compositeurs, de catalogues et des liens qui unissent leurs œuvres.",
-    "collectionLabel": "Explorer"
+    "tagline": "Un espace clair et connecté pour les compositeurs, les œuvres et les collections d’albums.",
+    "exploreWorks": "Explorer les œuvres",
+    "worksExplorerTitle": "Explorateur d’œuvres",
+    "worksExplorerDescription": "Recherchez par numéro de catalogue, titre, compositeur et instrumentation."
   },
   "catalogues": {
     "badge": "La collection",
-    "title": "Catalogues des œuvres",
-    "description": "Parcourez les catalogues actuellement disponibles dans les archives, présentés comme des volumes dans une librairie musicale.",
+    "title": "Catalogues d’œuvres",
+    "description": "Découvrez les catalogues d’œuvres actuellement disponibles dans les archives.",
     "count": "{count} catalogues",
     "refreshCache": "Actualiser les données",
     "refreshingCache": "Actualisation…",
-    "refreshCacheFailed": "Échec de l’actualisation. Réessayez.",
+    "refreshCacheFailed": "Échec de l’actualisation. Veuillez réessayer.",
     "coverLabel": "Catalogue d’œuvres classiques",
     "allCatalogues": "Tous les catalogues",
-    "compositionList": "Liste des compositions de {composer}",
-    "compositionListsHeading": "Listes de compositions"
+    "compositionList": "Liste des œuvres de {composer}",
+    "compositionListsHeading": "Listes d’œuvres"
   },
   "works": {
     "title": "Œuvres",
     "searchPlaceholder": "Rechercher des œuvres…",
-    "catalogue": "Catalogue",
-    "opus": "Opus",
-    "helm": "Catalogue Helm",
-    "date": "Date",
-    "details": "Détails",
-    "recommendedRecording": "Enregistrement recommandé",
-    "wotquenne": "Numéro du catalogue Wotquenne",
-    "workparts": "Parties de l’œuvre",
-    "note": "Remarque",
-    "germanTitle": "Titre allemand",
-    "nickname": "Surnom",
-    "otherCatalogueReferences": "Autres références de catalogue",
-    "movement": "Mouvement",
-    "vocalTitle": "Titre vocal",
-    "tempo": "Tempo",
-    "meter": "Mesure",
-    "measures": "Nombre de mesures",
-    "genres": "Genres",
-    "creationLocation": "Lieu de création",
-    "viewDetails": "Afficher les détails de l’œuvre",
+    "catalogue": "Cata#",
+    "number": "#",
     "titleColumn": "Titre",
     "type": "Type",
     "key": "Tonalité",
@@ -66,8 +57,36 @@
     "pageInfo": "Page {current} sur {total}"
   },
   "composers": {
+    "badge": "Les compositeurs des archives",
+    "title": "Compositeurs",
+    "description": "Trouvez des compositeurs et suivez leurs œuvres liées à travers les archives.",
+    "searchPlaceholder": "Rechercher des compositeurs…",
+    "searching": "Recherche…",
+    "count": "{count} compositeurs",
+    "count_one": "{count} compositeur",
+    "noComposers": "Aucun compositeur ne correspond à cette recherche.",
+    "allComposers": "Tous les compositeurs",
+    "previousComposer": "Compositeur précédent",
+    "nextComposer": "Compositeur suivant",
+    "works": "Œuvres",
+    "noWorks": "Aucune œuvre associée.",
+    "all": "Tout",
     "wikipedia": "Wikipédia",
     "loadingIntroduction": "Chargement de l’introduction…",
-    "readOnWikipedia": "Lire sur Wikipédia ↗"
+    "readOnWikipedia": "Lire sur Wikipédia ↗",
+    "period": {
+      "Medieval": "Médiéval (500-1400)",
+      "Renaissance": "Renaissance (1400-1600)",
+      "Baroque": "Baroque (1600-1750)",
+      "Classical": "Classique (1750-1820)",
+      "Romantic": "Romantique (1820-1900)",
+      "Modern": "Moderne (1900-2000)",
+      "Contemporary": "Contemporain (2000+)",
+      "present": "présent"
+    }
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "sur"
   }
 }

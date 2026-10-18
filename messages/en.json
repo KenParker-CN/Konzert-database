@@ -67,7 +67,7 @@
   },
   "composers": {
     "wikipedia": "Wikipedia",
-    "loadingIntroduction": "Loading introduction…",
-    "readOnWikipedia": "Read on Wikipedia ↗"
+    "loadingIntroduction": "Loading…",
+    "readOnWikipedia": "Read more on Wikipedia ↗"
   }
 }

@@ -6,19 +6,24 @@ works. Locale is derived from the URL prefix (`/en`, `/zh`, `/fr`, `/de`,
 
 ## Data
 
-Composer and work data is fetched from CSV files in the
+Composer and work data is read from the checked-in CSV snapshots in
+`data/catalogues/`. The app loads `composers.csv` and composer-specific
+catalogue files locally, then caches parsed data in memory for up to five
+minutes per server instance. The CSV source files are maintained in the
 [konzert-public-data](https://github.com/KenParker-CN/konzert-public-data)
-repository. The server loads `composers.csv` and composer-specific catalogue
-files from GitHub's raw content endpoint (with a pinned jsDelivr CDN
-revision as fallback), caching responses in memory for up to five minutes
-per server instance.
+repository and copied into this project when refreshed.
+
+After editing workbooks, run `konzert-public-data/convert-to-app-data.bat`
+to convert the XLSX files in `konzert-public-data/xlsx/` directly into
+`data/catalogues/`. The converter requires Node.js and the `xlsx` package
+installed in the public-data repository.
 
 Mozart's KV catalogue is read from the vendored snapshot in
 `public/kv-entries.json`, which holds the
 [Digital Mozart Edition](https://dme.mozarteum.at/digital-editions/api/kv-entriesidx)
 index. The endpoint serves a ~6 MB payload that takes around ten seconds to
-download, so it is only consulted if the snapshot is missing; `KV.csv` from
-the public-data repository is the final fallback. Refresh the snapshot with:
+download, so it is only consulted if the snapshot is missing; the local
+`data/catalogues/KV.csv` is the final fallback. Refresh the snapshot with:
 
 ```sh
 node scripts/fetch-kv-entries.mjs
@@ -27,10 +32,10 @@ node scripts/fetch-kv-entries.mjs
 Supported catalogues: BWV (Bach), KV (Mozart), Hob (Haydn), HWV (Handel),
 RV (Vivaldi), TWV (Telemann), CPE (C. P. E. Bach), Marnat (Ravel), LWV
 (Lully), Corelli, BuxWV (Buxtehude), Deutsch (Schubert), Gerard (Boccherini),
-RCT (Rameau), MWV (Mendelssohn), GMW (Mahler), Shostakovich, and
-Tchaikovsky. Works within a catalogue are grouped into hierarchical
-categories (for example MWV by catalogue letter and TWV by catalogue
-number) by `lib/data/work-groups.ts`.
+RCT (Rameau), MWV (Mendelssohn), GMW (Mahler), Shostakovich, Tchaikovsky,
+Beethoven (Op. / WoO), and Zimmerman (Purcell). Works within a catalogue are
+grouped into hierarchical categories (for example MWV by catalogue letter and
+TWV by catalogue number) by `lib/data/work-groups.ts`.
 
 ## Stack
 
