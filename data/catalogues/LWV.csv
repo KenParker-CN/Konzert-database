@@ -1,4 +1,4 @@
-SORT,LWV,Title,Type,Note
+SORT,LWV,Title,Genre,Note
 1,LWV 1,Ballet du temps,Ballet,Text: Isaac de Benserade
 2,LWV 2,Ballet du plaisirs,Ballet,Text: Isaac de Benserade
 4,LWV 4,Le Grand Ballet des Bienvenus,Ballet,Text: Isaac de Benserade
@@ -73,7 +73,7 @@ Bearbeter der Musik: André Campra"
 35,LWV 35,54 Trios de la Chambre oder Trios pour le coucher du roi,Trio,
 22,LWV 22,Les Plaisirs de L'Isle enchantée,,Text: Jean Baptiste Poquelin Molière
 55,LWV 55,Te Deum,,
-66,LWV 66,5 Marches,,
+66,LWV 66,5 Marches,March,
 70,LWV 70,"Plusieurs pieces de symphonie, noce de village, airs pour Madame la Dauphine",,
 72,LWV 72,4 Airs pour le Carrousel de Monseigneur,,
 75,LWV 75,[55 nicht datierbare instrumentalwerke],,

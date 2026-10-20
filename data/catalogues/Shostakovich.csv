@@ -1,6 +1,6 @@
-SORT,Opus,Title,Type,Key,Place,Date,Workparts,Instrumentation,Status,Dedication,Note
-1,op. 1,"Scherzo in F-sharp minor, op. 1",Scherzo,F-sharp minor,Petrograd,1920/7/15-1921/9/25,Allegretto · Meno mosso · Tempo I,orchestra: 3(III=picc).2.2.2-4.2.3.1-timp.perc:tgl/cyms/BD-strings,,my teacher Maximilian Oseevich Steinberg,
-2,op. 2,"8 Preludes, op. 2",Prelude,,Petrograd,1919 – 1921,"1. G minor Agitato (q = 100)
+SORT,Place,Date,Opus,Title,Genre,Key,Work structure,Instrumentation,Status,Dedication,Note
+1,Petrograd,1920/7/15-1921/9/25,op. 1,"Scherzo in F-sharp minor, op. 1",Scherzo,F-sharp minor,Allegretto · Meno mosso · Tempo I,orchestra: 3(III=picc).2.2.2-4.2.3.1-timp.perc:tgl/cyms/BD-strings,,my teacher Maximilian Oseevich Steinberg,
+2,Petrograd,1919 – 1921,op. 2,"8 Preludes, op. 2",Prelude,,"1. G minor Agitato (q = 100)
 2. G mixolydian Andante (q = 76)
 3. E minor Allegro non troppo e furioso (q . + q = 52) · Strepitoso (q . + q = 72) · Tempo I
 4. B flat major Allegretto (q = 76)
@@ -8,7 +8,7 @@ SORT,Opus,Title,Type,Key,Place,Date,Workparts,Instrumentation,Status,Dedication,
 6. F minor Andante (q . = 44)
 7. D flat major Moderato · Andante amoroso · Moderato · Andante cantabile
 8. D flat major Allegretto",Piano,,,
-3,op. 3,"Theme with Variations in B-flat major, op. 3",Keyboard Variation,B-flat major,Petrograd,1921 – 1922,"1. Theme Andantino
+3,Petrograd,1921 – 1922,op. 3,"Theme with Variations in B-flat major, op. 3",Keyboard Variation,B-flat major,"1. Theme Andantino
 2. Var. I Andantino
 3. Var. II Più mosso (Vivace)
 4. Var. III Andante
@@ -22,14 +22,14 @@ SORT,Opus,Title,Type,Key,Place,Date,Workparts,Instrumentation,Status,Dedication,
 12. Var. XI Moderato cantabile · [Cadenza]* · [Appassionato]*
 13. Finale Allegro · Maestoso · [Più mosso]* · Adagio · Andante[ino]* · Allegro
 14. Coda Presto",orchestra: 3(III=picc).2.2.2-4.3.3.1-timp.perc:tgl/cyms/BD-cel(ad lib)-pft(ad lib.)-strings,,Dedicated to Nikolai Alexandrovich Sokolov,
-4,op. 4,"2 Fables of Krylov, op. 4",Song,,Petrograd,1922 – 1924,"1. The Dragonfly and the Ant Con moto [Allegro] · Più mosso · Presto
+4,Petrograd,1922 – 1924,op. 4,"2 Fables of Krylov, op. 4",Song,,"1. The Dragonfly and the Ant Con moto [Allegro] · Più mosso · Presto
 2. The Ass and the Nightingale Moderato [Allegro] · Andante [Andantino] · Allegro · Poco meno mosso · Molto meno mosso · Allegro","mezzo-soprano, female choir and orchestra: 3(III=picc).2.2.3(III=dbn)-4.3.3.1-timp.perc:tgl/cyms-cel-harp-strings – mezzo
 soprano (No.1). The percussion group is omitted in No. 2 and, instead of the 
 mezzo-soprano, a female choir (at least 12 singers) is required.",,Dedicated to Mikhail Vladimirovich Kvadri,Texts: Ivan Krylov
-5,op. 5,"3 Fantastic Dances, op. 5",Piece,,Petrograd,1922/5,"1. Allegretto
+5,Petrograd,1922/5,op. 5,"3 Fantastic Dances, op. 5",Piece,,"1. Allegretto
 2. Andantino · Più mosso · Tempo I · Più mosso · Allegretto · Andantino
 3. Allegretto",piano,,Dedicated to Iosif Zakharovich Schwartz,
-6,op. 6,"Suite for 2 Pianos in F-sharp minor, op. 6",Suite,F-sharp minor,Petrograd,1922/3,"1. Prelude [F sharp minor] Andantino · Meno mosso · Adagio · Andantino
+6,Petrograd,1922/3,op. 6,"Suite for 2 Pianos in F-sharp minor, op. 6",Suite,F-sharp minor,"1. Prelude [F sharp minor] Andantino · Meno mosso · Adagio · Andantino
 poco moderato · Adagio · Andantino poco moderato · Andantino
 2. Fantastic Dance [A minor] Allegro vivo · Presto · Allargando
 3. Nocturne [D major] Andante · Più mosso · Cadenza · Andantino · Più mosso ·
@@ -37,24 +37,24 @@ Allegro · Andante mosso · Allegro · Andante mosso · Andante · Andante
 4. Finale [F sharp minor] Adagio · Allegro molto · Andante · Adagio · Andante ·
 Allegro molto · Adagio · Allegro molto · Poco meno · Allegretto · Allegro · 
 Tempo giusto",2 pianos,,To the memory of Dmitri Boleslavovich Shostakovich,
-7,op. 7,"Scherzo in E-flat major, op. 7",Scherzo,E-flat major,Leningrad-Gaspra-Leningrad,1924/10/7 – 1924/10/15,Allegro · Più mosso · Tempo I · Presto,"orchestra 
+7,Leningrad-Gaspra-Leningrad,1924/10/7 – 1924/10/15,op. 7,"Scherzo in E-flat major, op. 7",Scherzo,E-flat major,Allegro · Più mosso · Tempo I · Presto,"orchestra 
 2.picc.2.2.2-4.2.3.1-timp.perc:SD/cyms-pft-strings",,Dedicated to Pyotr Borisovich Ryazanov,
-8,op. 8,"Piano Trio No. 1 in C minor, op. 8",Trio,C minor,Gaspra-Moscow-Petrograd,1923/9/11 - 1923/11,Andante [e = 92] · Molto più mosso (q = h) · Andante [e = 92] · Allegro [q = 116] · Più mosso [q = 120] · Adagio [q = 54] · Andante [q = 69] · Meno mosso · Moderato [q = 96] · Allegro [q = 116] · Prestissimo fantastico (q = h) · Andante [e = 120] · Allegro · [Poco più mosso (e = 132)] · Coda Allegro [q = 116] · Allegro moderato [q = 96] · Allegro [q = 116],,,Dedicated to Tatyana Ivanovna Glivenko,
-9,op. 9,"3 Pieces, op. 9",Piece,,Petrograd,1923/12/30 - 1924/1,"1. Fantasia in F sharp minor
+8,Gaspra-Moscow-Petrograd,1923/9/11 - 1923/11,op. 8,"Piano Trio No. 1 in C minor, op. 8",Trio,C minor,Andante [e = 92] · Molto più mosso (q = h) · Andante [e = 92] · Allegro [q = 116] · Più mosso [q = 120] · Adagio [q = 54] · Andante [q = 69] · Meno mosso · Moderato [q = 96] · Allegro [q = 116] · Prestissimo fantastico (q = h) · Andante [e = 120] · Allegro · [Poco più mosso (e = 132)] · Coda Allegro [q = 116] · Allegro moderato [q = 96] · Allegro [q = 116],,,Dedicated to Tatyana Ivanovna Glivenko,
+9,Petrograd,1923/12/30 - 1924/1,op. 9,"3 Pieces, op. 9",Piece,,"1. Fantasia in F sharp minor
 2. Prelude in A minor
 3. Scherzo in C major",violoncello and piano,lost,"Dedicated to Zoya Dmitrievna Shostakovich (No. 1), Valerian Mikhailovich Bogdanov-Berezovs
 ky (No. 2) and Vladimir Ivanovich Kurchavov (No. 3)",
-10,op. 10,"Symphony No. 1 in F minor, op. 10",Symphony,F minor,Leningrad-Moscow-Oranienbaum-Leningrad,1924/1 - 1925/7/1,"1. Allegretto (q = 152) · Più mosso (q = 208) · Allegretto (q = 152) · Allegro non troppo (q = 160) · q = 152 · Allegro non troppo (q = 160) · q = 152
+10,Leningrad-Moscow-Oranienbaum-Leningrad,1924/1 - 1925/7/1,op. 10,"Symphony No. 1 in F minor, op. 10",Symphony,F minor,"1. Allegretto (q = 152) · Più mosso (q = 208) · Allegretto (q = 152) · Allegro non troppo (q = 160) · q = 152 · Allegro non troppo (q = 160) · q = 152
 2. Allegro (q = 192) · Meno mosso (q = 100) · L'istesso tempo (q = 100) · Allegro (q = 192) · Meno mosso (q = 100)
 3. Lento (q = 76) · Più mosso · Largo (q = 69) · q = 76 · Più mosso · q = 72 attacca
 4. Allegro molto (q = 208) · Lento (q = 116) · Allegro molto (q = 176) · Meno mosso (q = 144) · Allegro molto (q = 176) · Molto meno mosso (q = 116) · Adagio (q = 84) · Largo (q = 63) · Più mosso (h = 132) · Presto (h = 168)",3(III=picc).2.2.2-4.3.3.1-timp.perc:tgl/SD/BD/cym/tam-t/glsp-pft-strings,,Dedicated to Mikhail Vladimirovich Kvadri,
-11,op. 11,"2 Pieces for String Octet, op. 11",Piece,,Oranienbaum-Slavyansk,1924/7–1925/8/3,"1. Prelude [D minor] Adagio (q = 72) · Più mosso (h = 104) · Più mosso (h = 160) ·
+11,Oranienbaum-Slavyansk,1924/7–1925/8/3,op. 11,"2 Pieces for String Octet, op. 11",Piece,,"1. Prelude [D minor] Adagio (q = 72) · Più mosso (h = 104) · Più mosso (h = 160) ·
 Meno mosso · Adagio (q = 72)
 2. Scherzo [G minor] Allegro molto (q = 176) · Moderato · Allegro",,,Dedicated to the memory of Vladimir Ivanovich Kurchavov,
-12,op. 12,"Sonata for Piano No. 1 in C major, op. 12",Sonata,C major,Leningrad,1926/8/30–1926/10/20,Allegro (h = 104) · Meno mosso (h = 126) · Adagio (q = 72) ·  Allegro (h = 100) · Poco meno mosso (q = 144) · Adagio (e = 176) · Lento (q = 92) · Allegro (q = 176) · Meno mosso (q = 138) · Moderato (q = 16) · Allegro (q = 104),,,,
-13,op. 13,"Orchestration: Piano Sonata No. 8 in C minor, op. 13 “Pathétique”",Sonata,C minor,Petrograd,1921 – 1922,Adagio cantabile,2.2.2.2-2.0.0.0-strings,,"State Commission for the celebrations of the 10th anniversary of the October Revolution – subtitled ‘Proletarians of the World, Unite!’","[ludwig van beethoven (1770-1827)] 
+12,Leningrad,1926/8/30–1926/10/20,op. 12,"Sonata for Piano No. 1 in C major, op. 12",Sonata,C major,Allegro (h = 104) · Meno mosso (h = 126) · Adagio (q = 72) ·  Allegro (h = 100) · Poco meno mosso (q = 144) · Adagio (e = 176) · Lento (q = 92) · Allegro (q = 176) · Meno mosso (q = 138) · Moderato (q = 16) · Allegro (q = 104),,,,
+13,Petrograd,1921 – 1922,op. 13,"Orchestration: Piano Sonata No. 8 in C minor, op. 13 “Pathétique”",Sonata,C minor,Adagio cantabile,2.2.2.2-2.0.0.0-strings,,"State Commission for the celebrations of the 10th anniversary of the October Revolution – subtitled ‘Proletarians of the World, Unite!’","[ludwig van beethoven (1770-1827)] 
 Orchestration of the second movement (in A flat major)"
-13,op. 13,"Aphorisms, op. 13",Piece,,Leningrad,1927/2/27– 19274/7,"1. Recitative Moderato (q = 104)
+13,Leningrad,1927/2/27– 19274/7,op. 13,"Aphorisms, op. 13",Piece,,"1. Recitative Moderato (q = 104)
 2. Serenade Andantino amoroso (e = 168)
 3. Nocturne Appasionato (q = 92) · Adagio · Più mosso
 4. Elegy Largo mesto (q = 44)
@@ -64,10 +64,10 @@ Orchestration of the second movement (in A flat major)"
 8. Canon Moderato con moto (q = 144)
 9. Legend Moderato (e = 116)
 10. Lullaby Largo (e = 63)",piano,,Dedicated to Boleslav Leopoldovich Yavorsky,
-14,op. 14,"Symphony No. 2 in B major, op. 14 “To October – A Symphonic Dedication”",Symphony,B major,Leningrad,1925/12/30 – 1927/8,Largo (q = 46) · [Allegro molto] (q = 152) · Poco meno mosso (q = 138) · Allegro molto (q = 192) · Meno mosso (q = 100) · Moderato,"orchestra with mixed choir
+14,Leningrad,1925/12/30 – 1927/8,op. 14,"Symphony No. 2 in B major, op. 14 “To October – A Symphonic Dedication”",Symphony,B major,Largo (q = 46) · [Allegro molto] (q = 152) · Poco meno mosso (q = 138) · Allegro molto (q = 192) · Meno mosso (q = 100) · Moderato,"orchestra with mixed choir
 3(III=picc).2.2.2-4.3.3.1-timp.perc:tgl/SD/BD/cym/glsp/siren-strings",,,Text by Alexander Bezymensky
-15,op. 15,"the Nose, op. 15",Opera,,Leningrad-Detskoe Selo-Leningrad-Moscow-Leningrad,1927/6–1928/8/4,,,,,"Libretto by Dmitri Shostakovich, Alexander Preys, Evgeni Zamyatin and Georgi lonin after Nikolai Gogol’s novel"
-15.1,op. 15a,"Suite from “The Nose”, op. 15a",Suite,,Leningrad,1928/5/6,"1. Overture Allegro (q = 132) attacca
+15,Leningrad-Detskoe Selo-Leningrad-Moscow-Leningrad,1927/6–1928/8/4,op. 15,"the Nose, op. 15",Opera,,,,,,"Libretto by Dmitri Shostakovich, Alexander Preys, Evgeni Zamyatin and Georgi lonin after Nikolai Gogol’s novel"
+15.1,Leningrad,1928/5/6,op. 15a,"Suite from “The Nose”, op. 15a",Suite,,"1. Overture Allegro (q = 132) attacca
 2. Kovalyov’s Aria [Scene 5] Largo (q = 72-80) · Meno mosso
 3. Entr’acte from Act I Allegro molto (q = 132-144) 
 4. Entr’acte from Act II Moderato (e = 104) · Molto meno mosso (e = 72) attacca
@@ -75,13 +75,13 @@ Orchestration of the second movement (in A flat major)"
 6. Kovalyov’s Monologue [Scene 6] Andante (q = 100)
 7. Galop [Scene 3] Allegro molto (q = 176) · h = 112","tenor (No. 5), baritone (Nos. 2 and 6) and orchestra
 1(=picc).1(=corA).1(=Ebcl,bcl).1(=dbn)-1.1(=crt).1(=btrbn).0-perc:tgl/cast/flex/tom-t/tamb/SD/BD/cyms/tam-t/glsp/xyl-balalaika-domra-2hp-pft-strings(sm section)",,,
-16,op. 16,"Tahiti Trot (Tea for Two), op. 16",,,Leningrad,1927/9/1,Moderato,2(II=picc).2.1.1-4.2.1.0-timp.perc:tgl/SD/cym/glsp/xyl-cel-hp-strings,,To dear Nikolai Andreevich Malko as a token of my best feelings,"[vincent youmans (1898 - 1946)]
+16,Leningrad,1927/9/1,op. 16,"Tahiti Trot (Tea for Two), op. 16",,,Moderato,2(II=picc).2.1.1-4.2.1.0-timp.perc:tgl/SD/cym/glsp/xyl-cel-hp-strings,,To dear Nikolai Andreevich Malko as a token of my best feelings,"[vincent youmans (1898 - 1946)]
 Transcription of the song ‘Tea for Two’ from the 1925 musical ‘No, no, Nanette’"
-17,op. 17,"Orchestration: 2 Scarlatti Pieces, op. 17",Piece,,,1928/10-1928/11,"1. Pastorale Allegro non tanto
+17,,1928/10-1928/11,op. 17,"Orchestration: 2 Scarlatti Pieces, op. 17",Piece,,"1. Pastorale Allegro non tanto
 2. Capriccio Presto","wind band
 3(III=picc).2.2.2-2.2.1.0-timp",,,"[domenico scarlatti (1685 - 1757)]
 Orchestration of harpsichord sonatas D minor L413/K9 and E flat major L375/K20"
-18,op. 18,"New Babylon, op. 18",Film Music,,Leningrad,1928/12-1929/3,"Reel No. 1 ‘General Sale’ / Allegro non troppo · Allegro · Andantino · Allegro · Andantino · Allegro · Andante
+18,Leningrad,1928/12-1929/3,op. 18,"New Babylon, op. 18",Film Music,,"Reel No. 1 ‘General Sale’ / Allegro non troppo · Allegro · Andantino · Allegro · Andantino · Allegro · Andante
 Reel No. 2 ‘Head Over Heels’ / Allegro moderato · Andantino · Allegro vivo
 Reel No. 3 ‘The Siege of Paris’ / Largo · Allegro · Largo
 Reel No. 4 ‘18 March 1871’ / Andante · Allegro · Andante · Più mosso · Allegro · Molto meno mosso · Allegretto · [Andante semplice] · Adagio
@@ -90,14 +90,14 @@ Reel No. 6 ‘The Barricade’ / Adagio · Allegro moderato · Allegretto · Sch
 Reel No. 7 ‘To the Firing Squad’ / [Andante] · Allegro · Andante · Adagio · Allegro · Andante
 Reel No. 8 ‘Death’ / Largo · Allegro appassionato","1.1.1.1-2.1.1.0-perc(3):tgl/flex/tom-t/tamb/SD/BD/cyms/susp.cym/xyl-pft- 
 strings",,,Music to the silent film
-18.1,op. 18a,"Suite from “New Babylon”, op. 18a",Suite,,,,"1. War Allegro non troppo
+18.1,,,op. 18a,"Suite from “New Babylon”, op. 18a",Suite,,"1. War Allegro non troppo
 2. Paris Allegro moderato attacca
 3. The Siege of Paris Largo
 4. Operetta Moderato
 5. Paris Has Stood for Centuries Allegretto
 6. Versailles Adagio · Allegretto","1.1.1.1-2.1.1.0-perc(3):timp/tgl/flex/tamb/SD/BD/cyms/gong/tam-t/xyl-pft
 strings",,,compiled by Gennadi Rozhdestvensky (1976)
-19,op. 19,"the Bedbug, op. 19",Incidental Music,,Leningrad,1929/1-1929/2/13,"1. March Tempo di marcia
+19,Leningrad,1929/1-1929/2/13,op. 19,"the Bedbug, op. 19",Incidental Music,,"1. March Tempo di marcia
 2. Foxtrot Allegro non troppo [for two bayans]
 3. Galop and ‘Tryasuchka’ [‘Shaker’] / Foxtrot Allegro [for two bayans]
 4. Foxtrot (Wedding) / Intermezzo Allegretto
@@ -117,7 +117,7 @@ strings",,,compiled by Gennadi Rozhdestvensky (1976)
 18. Final March Giocoso","2.0.2.2ssax.0-1.2.1.1.perc:tgl/flex/tom-t/SD/BD/cyms-balalaika-gtr-strings
 male choir-accordion trio and piano on scene-additional brass: ahn, barhn, tuba",,,"Incidental music to Vladimir Mayakovsky’s ‘magical comedy’ in five acts and ten 
 scenes"
-19.1,op. 19a,"Suite from the Bedbug, op. 19a",Suite,,,,"1. March Tempo di marcia [No. 1]
+19.1,,,op. 19a,"Suite from the Bedbug, op. 19a",Suite,,"1. March Tempo di marcia [No. 1]
 2. Galop Allegro [No. 2]
 3. Foxtrot Allegro non troppo [No. 3]
 4. Waltz Andante [No. 6]
@@ -125,26 +125,26 @@ scenes"
 6. Scene in the Boulevard [Allegro moderato] [No. 10]
 7. Final March [Giocoso] [No. 15]",,,,"arranger of this compilation is not known. Its existence is documented by De
 rek C. Hulme"
-20,op. 20,"Symphony No. 3 in E‐flat major, op. 20 “the First of May”",Symphony,E-flat major,Leningrad-Crimea-Caucasus-Leningrad,1929/4 – 1929/10,Allegretto · Allegro · Più mosso · Meno mosso · Allegro · Andante · Allegro · Poco meno mosso · Largo · Allegro molto · Meno mosso · Andante · Largo · Moderato · Più mosso,"orchestra with mixed choir
+20,Leningrad-Crimea-Caucasus-Leningrad,1929/4 – 1929/10,op. 20,"Symphony No. 3 in E‐flat major, op. 20 “the First of May”",Symphony,E-flat major,Allegretto · Allegro · Più mosso · Meno mosso · Allegro · Andante · Allegro · Poco meno mosso · Largo · Allegro molto · Meno mosso · Andante · Largo · Moderato · Più mosso,"orchestra with mixed choir
 3(III=picc).2.2.2-4.3.3.1-timp.perc:tgl/SD/cyms/BD/tam-t/glsp/xyl-strings",,,Text by Semyon Kirsanov
-21,op. 21,"6 Romances on Words by Japanese Poets, op. 21",Romance,,Leningrad,1928/10/7–1932/5,"1. Love Andante
+21,Leningrad,1928/10/7–1932/5,op. 21,"6 Romances on Words by Japanese Poets, op. 21",Romance,,"1. Love Andante
 2. Before Suicide Adagio
 3. An Indiscreet Glance Allegretto
 4. For the First and Last Time Andante
 5. Hopeless Love Adagio
 6. Death Largo","tenor and orchestra
 2(II=picc).2.4(IV=Ebcl,bcl).3(III=dbn)-4.3.3.1-timp.perc:cyms/tam-t/glsp/xyl-2hp-strings",,Dedicated to Nina Vasilievna Varzar,
-22,op. 22,"the Age of Gold, op. 22",Opera,,Leningrad,1929/7/1-1924/10/31,,"2(II=picc).2(II=corA).3(II=Ebcl,III=bcl).2sax.2(II=dbn)-4.3.3.1.euph-timp.
+22,Leningrad,1929/7/1-1924/10/31,op. 22,"the Age of Gold, op. 22",Opera,,,"2(II=picc).2(II=corA).3(II=Ebcl,III=bcl).2sax.2(II=dbn)-4.3.3.1.euph-timp.
 perc:tgl/wdbl/tamb/SD/cyms/BD/tam-t/xyl-banjo-bayan-hp-cel-strings-banda:2crt/2tpt/2ahn/2barhn/2tuba",,,"Libretto by Alexander Ivanovsky, revised by Vladimir Boriskovich"
-22.1,op. 22a,"Suite from “The Age of Gold”, op. 22a",Suite,,Leningrad,"1930, revised 1935","1. Introduction [Nos. 1 and 2] Allegro non troppo (q = 112) · Allegretto (q = 168) · q = 120 · Più mosso (h = 92) · q = 168
+22.1,Leningrad,"1930, revised 1935",op. 22a,"Suite from “The Age of Gold”, op. 22a",Suite,,"1. Introduction [Nos. 1 and 2] Allegro non troppo (q = 112) · Allegretto (q = 168) · q = 120 · Più mosso (h = 92) · q = 168
 2. Adagio [No. 9] q = 72
 3. Polka [No. 30] Allegretto (q = 84) · Presto (q = 208)
 4. Dance [No. 11] Allegro (q = 144)","1.picc.1.corA.1.Ebcl.bcl.ssax.1.dbn-4.barhn.3.3.1-timp.perc:tgl/wdbl/
 tamb/SD/cyms/BD/tam-t/xyl-bayan-strings",,,
-23,op. 23,"Columbus, op. 23",Piece,,Leningrad,1929/1 - 1929/3,"1. Overture Allegretto poco moderato · Molto meno mosso
+23,Leningrad,1929/1 - 1929/3,op. 23,"Columbus, op. 23",Piece,,"1. Overture Allegretto poco moderato · Molto meno mosso
 2. Finale Moderato · Allegretto · Andantino · Allegro","3(II,III=picc).3(III=corA).4(III=Ebcl,IV=bcl).4(IV=dbn)-4.4.3.1-timp.perc:tgl/
 cast/flex/tom-t/tamb/SD/BD/cyms/tam-t/xyl-strings-mixed choir",,,2 orchestral pieces for insertion in Erwin Dressel’s opera ‘Armer Columbus’ (1927)
-24,op. 24,"the Gunshot, op. 24",Incidental Music,,Leningrad,1929 Autumn – 1929/12/18,"1. Dundya’s Romance [Allegro moderato] [for tenor]
+24,Leningrad,1929 Autumn – 1929/12/18,op. 24,"the Gunshot, op. 24",Incidental Music,,"1. Dundya’s Romance [Allegro moderato] [for tenor]
 2. Choir [Moderato]
 3. Episode No. 4 [Con moto]
 4. Entry of the Heads of Departments [Marciale] [brass only]
@@ -153,37 +153,37 @@ cast/flex/tom-t/tamb/SD/BD/cyms/tam-t/xyl-strings-mixed choir",,,2 orchestral pi
 7. Episode No. 10 Allegro
 8. Episode No. 11 Allegretto","1.0.1.1-1.1.1.1-timp.perc:rattle/wdbl/tamb/SD/BD/cyms,tam-t-balalaika(2)
 pft-str(only vlns)-mixed chorus-banda:2crt/ahn/thn/barhn",,,Incidental music to Alexander Bezymensky’s verse play comedy in three acts
-25,op. 25,"Virgin Soil, op. 25",Incidental Music,,Leningrad,1930 spring – 1930/5/3,,picc.0.1.1-1.1.1.1-timp-pft-strings(1.1.1.1.0),,,Incidental music to the play by Arkadi Gorbenko and Nikolai Lvov
-26,op. 26,"Alone, op. 26",Film Music,,Odessa – Leningrad,1930/9/17–1931/3/9,7 Reels,"3(III=picc).3(III=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.2.3.1-timp.
+25,Leningrad,1930 spring – 1930/5/3,op. 25,"Virgin Soil, op. 25",Incidental Music,,,picc.0.1.1-1.1.1.1-timp-pft-strings(1.1.1.1.0),,,Incidental music to the play by Arkadi Gorbenko and Nikolai Lvov
+26,Odessa – Leningrad,1930/9/17–1931/3/9,op. 26,"Alone, op. 26",Film Music,,7 Reels,"3(III=picc).3(III=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.2.3.1-timp.
 perc:tgl/wdbl/SD/BD/cyms/tam-t/glsp/xyl)-theremin-hp-harm-org-strings
 banda:2crt/2ahn/2barhn/2tuba-choir with soprano (Nos. 2 and 8), mezzo soprano (Nos. 24, 40) and tenor (Nos. 6, 8, 14, 25) solos",,,Music to the silent film
-27,op. 27,"the Bolt, op. 27",Opera,,Leningrad,1930 Autumn – 1931/1,,"2(II=picc).picc.2.corA.2.Ebcl(=bcl).2.dbn-6.3.3.1-timp.perc:tgl/tamb/SD/BD/
+27,Leningrad,1930 Autumn – 1931/1,op. 27,"the Bolt, op. 27",Opera,,,"2(II=picc).picc.2.corA.2.Ebcl(=bcl).2.dbn-6.3.3.1-timp.perc:tgl/tamb/SD/BD/
 cyms/gong/glsp/xyl-strings-banda (Finale): Ebcrt/2Bbcrt/2tpt/2thn/2barhn/2tuba",,,Libretto by Viktor Smirnov
-27.1,op. 27a,"Suite from “The Bolt” (Ballet Suite No. 5), op. 27a",Suite,,,"1931, revised 1934","1. Overture Adagio · Allegro [No. 1]
+27.1,,"1931, revised 1934",op. 27a,"Suite from “The Bolt” (Ballet Suite No. 5), op. 27a",Suite,,"1. Overture Adagio · Allegro [No. 1]
 2. Polka Allegretto · Allegro · Moderato · Allegretto · Più mosso · Allegretto ·Allegro [No. 11]
 3. Variation Moderato non troppo [No. 38]
 4. Tango Allegretto · Andante · Più mosso · Più mosso · Allegretto · Allegro ·Meno mosso · Allegro [No. 29]
 5. Intermezzo Allegretto [No. 10]
 6. Finale Allegro [No. 43]","3(II,III=picc).3(III=corA).3(III=Ebcl).3(III=dbn)-6.3.3.1-timp.perc:tgl/tamb/
 SD/BD/cym/tam-t/glsp/xyl-strings-banda:3crt/2tpt/2ahn/2thn/2barhn/2tuba",,,compiled by Alexander Gauk
-28,op. 28,"Rule, Britannia!, op. 28",Incidental Music,,Leningrad,1931/4,"1. The Internationale Allegro · Meno mosso 
+28,Leningrad,1931/4,op. 28,"Rule, Britannia!, op. 28",Incidental Music,,"1. The Internationale Allegro · Meno mosso 
 2. Infantry March Allegretto
 3. On the Soviet Road Allegretto non troppo
 4. Protest Allegro · Adagio · [Allegro]
 5. Lift the Flags Allegretto
 6. The Flags are Stirring Allegro",1(=picc).0.0.bcl.1-1.2.1.1-timp.perc:tgl/SD/cyms/BD-pft-strings-chorus,,,Incidental music to Adrian Piotrovsky’s play in four acts
-29,op. 29,"Lady Macbeth of the Mtsensk District, op. 29",Opera,,,1930/10/14-1930/12/17,,"2.picc.2.corA.2.Ebcl.bcl.2.dbn-4.3.3.1-timp.perc:tgl/flex/wdbl,/tamb/SD/BD/
+29,,1930/10/14-1930/12/17,op. 29,"Lady Macbeth of the Mtsensk District, op. 29",Opera,,,"2.picc.2.corA.2.Ebcl.bcl.2.dbn-4.3.3.1-timp.perc:tgl/flex/wdbl,/tamb/SD/BD/
 cyms/tam-t/glsp/xyl-2hp-cel-org (ad lib.)-strings; additional brass:8crt.4tpt.12hn(4A.4T.4Bar).4tuba",,Dedicated to Nina Vasilievna Varzar,"Libretto by Alexander Preis and Dmitri Shostakovich based on the story by Nikolai 
 Leskov. English translations by L. Soudakova, Vladimir Lakond, Sonia Benderoff, 
 Merle Puffer, Michel Dimitri Calvocoressi, Edward Downes and David Pountney. 
 German translation by Jörg Morgener and Siegfried Schoenbohm."
-29.1,op. 29a,"Suite from “Lady Macbeth of the Mtsensk District”, op. 29a",Suite,,,1932/12,"1. Allegro con brio
+29.1,,1932/12,op. 29a,"Suite from “Lady Macbeth of the Mtsensk District”, op. 29a",Suite,,"1. Allegro con brio
 2. Presto · Allegretto · Moderato · Presto · Moderato · Presto · Moderato ·Adagio · Allegro
 3. Allegretto","orchestra
 3(III=picc).3(III=corA).4(III=Ebclar,IV=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
 wdbl/SD/BD/cym/tam-t/xyl-2hp-strings-banda:4crt/2tpt/2ahn/2thn/2barhn/
 2euph",,,
-30,op. 30,"Golden Mountains, op. 30",Film Music,,Leningrad,1931 summer – 1931 autumn,"1. Galop (No. 1) Allegro 
+30,Leningrad,1931 summer – 1931 autumn,op. 30,"Golden Mountains, op. 30",Film Music,,"1. Galop (No. 1) Allegro 
 2. (No. 3) Presto
 3. (No. 10) Moderato
 4. (No. 11) Andantino · Allegro · Adagio · Andantino
@@ -199,14 +199,14 @@ wdbl/SD/BD/cym/tam-t/xyl-2hp-strings-banda:4crt/2tpt/2ahn/2thn/2barhn/
 14. Beginning of Part 7 (No. 99) Andante · Adagio
 15. [for five bassoons] Adagio","3(III=picc).3(III=corA).3(III=bcl).5(V=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/cyms/
 glsp/xyl-Hawaiian.gtr-hp-pft-bayan-org-strings-banda:2crt/2ahn/2barhn/2euph-domras/balalaikas",,"Dedicated to our co-author, the Worker correspondent of «Krasny Putilovets» Plant",Music to the film
-30.1,op. 30a,"Suite from ""Golden Mountains"", op. 30a",Suite,,Leningrad,1931,"1. Introduction Moderato [q = 88]
+30.1,Leningrad,1931,op. 30a,"Suite from ""Golden Mountains"", op. 30a",Suite,,"1. Introduction Moderato [q = 88]
 2. Waltz Andante · Più mosso
 3. Fugue Largo · Allegro
 4. Intermezzo Andante attacca
 5. Funeral March Largo attacca
 6. Finale Largo","3(III=picc).3(III=corA).3(III=bcl).ssax.asax.tsax.3(III=dbn)-8.4.4.2
 perc:timp/SD/BD/cyms/glsp/xyl-Hawaiian.gtr-2hp-org-strings",,,compiled by the composer
-31,op. 31,"Declared Dead, op. 31",Incidental Music,,Leningrad,1931 summer,"1. Overture Andante · Allegro
+31,Leningrad,1931 summer,op. 31,"Declared Dead, op. 31",Incidental Music,,"1. Overture Andante · Allegro
 2. Ruination of the City Allegro
 3. Mashenka’s First Song ‘Oh, how pleasant of an evening ...’ [No. 3]
 4. Mashenka’s Second Song ‘My dear, you see here and there ...’ [No. 4]
@@ -245,7 +245,7 @@ perc:timp/SD/BD/cyms/glsp/xyl-Hawaiian.gtr-2hp-org-strings",,,compiled by the co
 37. [Untitled] [No. 35]
 38. [Untitled] [No. 36]","2(II=picc).1.1.ssax.asax.tsax.1-2.2.1.1-perc:timp/SD/BD/cyms-banjo-pft
 strings(4.4.2.2.2)",,,Music to a music-hall show by Vsevolod Voyevodin and Evgeni Ryss
-31.1,op. 31a,"Suite from ""Declared Dead"", op. 31a",Suite,,,,"1. Transition to the Field Hospital Allegretto [No. 6] attacca
+31.1,,,op. 31a,"Suite from ""Declared Dead"", op. 31a",Suite,,"1. Transition to the Field Hospital Allegretto [No. 6] attacca
 2. Galop Allegro [No. 7] 
 3. Transition to the Field [Allegro (q = 100)] [No. 8] attacca
 4. The Field [A Landscape] Andantino [No. 9]
@@ -267,10 +267,10 @@ strings(4.4.2.2.2)",,,Music to a music-hall show by Vsevolod Voyevodin and Evgen
 19. Finale to Act I: Dance of the Temporary Conquerors Moderato · Più allegro al fine [No. 16]","1.picc.1.1.bcl.2.ssax.tsax-1.2.2.1-timp.perc(4/5):tgl/SD/TD/BD/sus,cym/
 cyms/cym(l)/tam.t/tamb/wdbl/xyl/glsp/police whistle/whip/lion‘s roar/flex/
 claxon-pft-strings",,,compiled and orchestrated by Gerard McBurney
-32,op. 32,"Hamlet, op. 32",Incidental Music,,Leningrad-Moscow,1931/12-1932/2,,2.picc.1.1.1-2.2.1.1-timp.perc:tgl/tamb/tom-t/SD/BD/cyms/gong/tam-t/flex strings-soprano.mezzo-soprano.bass choir,,,"Incidental music to William Shakespeare’s tragedy 
+32,Leningrad-Moscow,1931/12-1932/2,op. 32,"Hamlet, op. 32",Incidental Music,,,2.picc.1.1.1-2.2.1.1-timp.perc:tgl/tamb/tom-t/SD/BD/cyms/gong/tam-t/flex strings-soprano.mezzo-soprano.bass choir,,,"Incidental music to William Shakespeare’s tragedy 
 Russian translation by Mikhail Lozinsky with insertions from texts by Desiderius 
 Erasmus"
-32.1,op. 32a,"Suite from ""Hamlet"", op. 32a",Suite,,Leningrad-Moscow,1932,"1. Introduction and Night Patrol Allegro non troppo · Moderato. Poco allegretto [Nos. 1, 2]
+32.1,Leningrad-Moscow,1932,op. 32a,"Suite from ""Hamlet"", op. 32a",Suite,,"1. Introduction and Night Patrol Allegro non troppo · Moderato. Poco allegretto [Nos. 1, 2]
 2. Funeral March Adagio [No. 4]
 3. Flourish and Dancing Music Allegro [Nos. 7, 8]
 4. The Hunt Allegro [No. 16]
@@ -283,10 +283,10 @@ Erasmus"
 11. Requiem Adagio [No. 44]
 12. The Tournament Allegro [No. 45]
 13. Fortinbras’ March Allegretto [No. 50]",2(II=picc).1.1.1-2.2.1.1-timp.perc:tgl/tamb/SD/BD/cyms/tam-t-strings,,,compiled by the composer
-33,op. 33,"Encounter, op. 33",Film Music,,Leningrad,1932 Autumn,"1. Presto attacca
+33,Leningrad,1932 Autumn,op. 33,"Encounter, op. 33",Film Music,,"1. Presto attacca
 2. Andante 
 3. Andante · [Allegro]",3(III=picc).2.2.3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/cyms/glsp/2xyl-2hp-strings,,Commissioned to celebrate the fifteenth anniversary of the revolution,Music to the film
-34,op. 34,"24 Preludes, op. 34",Prelude,,Leningrad-Moscow,1932/12/30–1933/3/2,"1. C major Moderato (q = 69)
+34,Leningrad-Moscow,1932/12/30–1933/3/2,op. 34,"24 Preludes, op. 34",Prelude,,"1. C major Moderato (q = 69)
 2. A minor Allegretto (h . = 63)
 3. G major Andante (q = 88)
 4. E minor Moderato (q = 84)
@@ -310,15 +310,15 @@ Erasmus"
 22. G minor Adagio (q = 76)
 23. F major Moderato (q . = 76)
 24. D minor Allegretto (h = 76)",piano,,,
-35,op. 35,"Concerto for Piano and Orchestra No. 1 in C minor, op. 35",Concerto,C minor,Leningrad-Peterhof,1933/3/6–1933/7/20,"1. Allegro moderato (q = 96) · q = 108 · q = 132 · Allegro vivace (q = 160) · Allegretto (q = 132) · Allegro (q = 144) · Moderato (q = 84)
+35,Leningrad-Peterhof,1933/3/6–1933/7/20,op. 35,"Concerto for Piano and Orchestra No. 1 in C minor, op. 35",Concerto,C minor,"1. Allegro moderato (q = 96) · q = 108 · q = 132 · Allegro vivace (q = 160) · Allegretto (q = 132) · Allegro (q = 144) · Moderato (q = 84)
 2. Lento (q = 76) · Con moto · q = 88 · Più mosso (q = 120) · q = 100 · Largo (q = 88) ·q = 76 attacca
 3. Moderato (q = 108) · q = 84 · q = 108 attacca
 4. Allegro con brio (q = 184) · q = 168 · Presto (h = 108) · q = 184 · Allegretto poco moderato (q = 120) · Allegro con brio (q = 184) · Presto (h = 120)","Piano, String Orchestra, Trumpet",,,
-36,op. 36,"the Tale of the Priest and His Servant Balda, op. 36",Film Music,,Leningrad,1933/3/6–1934/11/5,,"4(III,IV=picc).3(III=corA).4(III=Ebcl,IV=bcl).ssax.tsax.2sax.3(III=dbn)
+36,Leningrad,1933/3/6–1934/11/5,op. 36,"the Tale of the Priest and His Servant Balda, op. 36",Film Music,,,"4(III,IV=picc).3(III=corA).4(III=Ebcl,IV=bcl).ssax.tsax.2sax.3(III=dbn)
 4.3.baritone.3.1-timp.perc:tgl/whistle/glass/rattle/whip/2wdbl/pistol/tamb/
 SD/BD/cyms/susp.cym/bells/glsp/xyl-balalaika-gtr(7str)-hp-accodion-strings",,,"Music to an animated cartoon film by Mikhail Tsekhanovsky, after Alexander Push- 
 kin’s tale"
-36.1,op. 36a,"Suite from “The Tale of the Priest and His Servant Balda”, op. 36a",Suite,,,,"1. Overture Allegro non troppo [No. 1]
+36.1,,,op. 36a,"Suite from “The Tale of the Priest and His Servant Balda”, op. 36a",Suite,,"1. Overture Allegro non troppo [No. 1]
 2. The Ghouls’ Procession Moderato [No. 23] 
 3. Carousel Allegretto [No. 7]
 4. Bazaar. Introduction Allegro [No. 2]
@@ -327,7 +327,7 @@ kin’s tale"
 7. Finale (repetition of the overture) Allegro non troppo [No. 1]","2.picc.3(III=corA).2(II=bcl).Ebcl.tsax.2.dbn-4.3.bar.3.1-perc:timp/wdbl/tamb/
 SD/BD/cyms/xyl-gtr-hp-strings",,,"compiled by Gennadi Rozhdestvensky (1978)
 According to Derek C. Hulme, Op. 36a was also compiled by the composer"
-37,op. 37,"the Human Comedy, op. 37",Incidental Music,,Leningrad,1933 – 1934/2,"1. Introduction Moderato (q = 132)
+37,Leningrad,1933 – 1934/2,op. 37,"the Human Comedy, op. 37",Incidental Music,,"1. Introduction Moderato (q = 132)
 2. Overture Moderato
 3. The Students’ Song Allegretto
 4. Waltz Allegro bravura (h k = 84) Da capo al Fine [for piano]
@@ -351,7 +351,7 @@ According to Derek C. Hulme, Op. 36a was also compiled by the composer"
 22. [Episode] Allegretto [for piano]",1.1.1.1-2.2.baritone.1.1-timp.perc:tgl/tamb/SD/cyms-pft-strings,,,"Incidental music to a play in 5 acts by Pavel Sukhotin adapted 
 from Honoré de Balzac’s novel cycle ‘La comédie humaine’ (‘Le Père Goriot’, ‘Lost 
 Illusions’, ‘The Firm of Nucingen’, ‘Splendour and Misery of Courtesans’)"
-38,op. 38,"Love and Hatred, op. 38",Film Music,,Leningrad-Moscow-Leningrad,1934/9-1934/10,"1. Overture
+38,Leningrad-Moscow-Leningrad,1934/9-1934/10,op. 38,"Love and Hatred, op. 38",Film Music,,"1. Overture
 2. How Long will my Heart Ache? [for female choir with orchestral refrains] 
 3. March
 4. Waltz
@@ -368,21 +368,21 @@ Illusions’, ‘The Firm of Nucingen’, ‘Splendour and Misery of Courtesans�
 15. No. 8 [without title, in C sharp minor]
 16. The Feast
 17. Without title [Vasilisa’s Suffering]",,,,Music to the film
-39,op. 39,"the Limpid Stream, op. 39",Ballet,,Leningrad,1934 – 1935,,"2.picc.2.corA.2.Ebcl.bcl.3(III=dbn)-6.3.3.1-timp.perc:tgl/wdbl/tamb/SD/BD/
+39,Leningrad,1934 – 1935,op. 39,"the Limpid Stream, op. 39",Ballet,,,"2.picc.2.corA.2.Ebcl.bcl.3(III=dbn)-6.3.3.1-timp.perc:tgl/wdbl/tamb/SD/BD/
 cyms/tam-t/glsp/xyl-hp-strings-banda:3crt/2tpt/2ahn/2thn/2barhn/2tubas",,,"Comedy Ballet in three acts and four scenes by Adrian Piotrovsky and Fyodor Lo
 pukhov"
-39.1,op. 39a,"Suite from “The Limpid Stream”, op. 39a",Suite,,,,"1. Waltz [No. 38] Andantino
+39.1,,,op. 39a,"Suite from “The Limpid Stream”, op. 39a",Suite,,"1. Waltz [No. 38] Andantino
 2. Russian Folk Dance [No. 12] Moderato con moto
 3. Galop [No. 32] Allegro
 4. Adagio [No. 29]
 5. Pizzicato [No. 41] Allegretto","3(III=picc).3(III=corA).3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/cyms/
 glsp-hp-strings",,,
-40,op. 40,"Sonata for Violoncello and Piano in D minor, op. 40",Sonata,D minor,Moscow-Leningrad,1934/8/14-1934/9/19,"1. Allegro non troppo (q = 138) · Tempo I · Largo (q = 60)
+40,Moscow-Leningrad,1934/8/14-1934/9/19,op. 40,"Sonata for Violoncello and Piano in D minor, op. 40",Sonata,D minor,"1. Allegro non troppo (q = 138) · Tempo I · Largo (q = 60)
 2. Allegro (q = 176)
 3. Largo (q = 60)
 4. Allegro (q = 176)",,,Dedicated to Viktor Lvovich Kubatsky,
-41,op. 41,"Maxim’s Youth, op. 41",Film Music,,Leningrad,1934 – 1935,,,,,Music to the film
-41.1,op. 41a,"Girlfriends, op. 41a",Film Music,,Leningrad,1934 – 1935,"1. Introduction Moderato [string quartet]
+41,Leningrad,1934 – 1935,op. 41,"Maxim’s Youth, op. 41",Film Music,,,,,,Music to the film
+41.1,Leningrad,1934 – 1935,op. 41a,"Girlfriends, op. 41a",Film Music,,"1. Introduction Moderato [string quartet]
 2. The Year 1914: The workers’ residential block and factory gates Allegretto [string quartet]
 3. The families wait for the strikers to return Allegretto [string quartet, trumpet, piano]
 4. ‘The Keys to Happiness’ Allegretto moderato [string quartet, trumpet, piano]
@@ -407,22 +407,22 @@ glsp-hp-strings",,,
 23. Andrei’s closing words Adagio [full orchestra]   
 * reconstruction","3(III=picc).2.2(II=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:SD/BD/cym/xyl-hp-org
 theremin-strings-male choir-3female voices-string quartet-banda:4crt/2ahn/2barhn/2euph",,Dedicated to Romain Rolland,
-42,op. 42,"5 Fragments, op. 42",Piece,,Leningrad,1935/6/9,"1. Moderato
+42,Leningrad,1935/6/9,op. 42,"5 Fragments, op. 42",Piece,,"1. Moderato
 2. Andante
 3. Largo
 4. Moderato
 5. Allegretto","small orchestra
 1.picc.1.corA.3(II=Ebcl,III=bcl).2(II=dbn)-2.1.1.1-perc:SD/xyl-hp-strings",,,
-43,op. 43,"Symphony No. 4 in C minor, op. 43",Symphony,C minor,Leningrad,1935/9/13–1936/4/26,"1. Allegro poco moderato (q = 92) · q = 54 · e = 108 · e = 138 · e = 60 · e = 108 · Presto (q = 168) · q = 184 · q = 69 · q = 92 · e = 60 · q = 108 · q = 72 · e = 69
+43,Leningrad,1935/9/13–1936/4/26,op. 43,"Symphony No. 4 in C minor, op. 43",Symphony,C minor,"1. Allegro poco moderato (q = 92) · q = 54 · e = 108 · e = 138 · e = 60 · e = 108 · Presto (q = 168) · q = 184 · q = 69 · q = 92 · e = 60 · q = 108 · q = 72 · e = 69
 2. Moderato con moto (e = 144)
 3. Largo (q = 69) · Allegro (h k = 84) · q = 126 · q = 184 · q = 100 · h k = 100 · h k = 50","4.2picc.4(IV=corA).4.Ebcl.bcl.3.dbn-8.4.3.2-timp.perc(6):tgl/cast/wdbl/SD/
 BD/cyms/tam-t/glsp/xyl-2hp-cel-strings",,,
-44,op. 44,"Salute to Spain!, op. 44",Incidental Music,,Leningrad,1936/10/26–1936/11/7,"1. Fanfares (three short items)
+44,Leningrad,1936/10/26–1936/11/7,op. 44,"Salute to Spain!, op. 44",Incidental Music,,"1. Fanfares (three short items)
 2. Song of Rosita Moderato
 3. Funeral March Andante
 4. Fragment Andante
 5. March Allegro non troppo",2.2.2.2-4.4.3.1-timp.perc:SD/cyms/glsp-strings,,,Incidental music to a play by Alexander Afinogenov
-45,op. 45,"Maxim’s Return, op. 45",Film Music,,Leningrad,1936/12–1937,"1. A Blue Balloon
+45,Leningrad,1936/12–1937,op. 45,"Maxim’s Return, op. 45",Film Music,,"1. A Blue Balloon
 2. Fourteenth year – running! Allegro
 3. March Marciale maestoso [No. 3]
 4. Fascinating Eyes Tempo di valse [No. 4]
@@ -441,19 +441,19 @@ BD/cyms/tam-t/glsp/xyl-2hp-cel-strings",,,
 17. Waltz [No. 30]
 18. [No. 31]","3(III=picc).2.3(III=Ebcl).2-4.3.3.1-timp.perc:SD/BD/cyms/glsp/xyl-hp-cel-pft
 strings-banda:8hn/2crt/2tpt-7domras-6balalaika-gtr-bayan-solo voice-male choir",,,Music to the film
-46,op. 46,"4 Romances on Poems by Alexander Pushkin, op. 46",Romance,,,1936 – 1937,"1. Renaissance Moderato (q = 72)
+46,,1936 – 1937,op. 46,"4 Romances on Poems by Alexander Pushkin, op. 46",Romance,,"1. Renaissance Moderato (q = 72)
 2. A Jealous Maiden, Sobbing Bitterly ... Allegretto (q = 144) · q = 116 · Andante (q = 88)
 3. Premonition Allegro (h k = 92) · Meno mosso (h k = 72) · Adagio · Tempo I (h k = 92)
 4. Stanzas Adagio (q = 76) · Poco più mosso (q = 96) · Più mosso (q = 112) · Moderato (q = 92) · Tempo I (q = 76) · Meno mosso",bass and piano,,,Composed in commemoration of the one-hundredth anniversary of the poet’s death
-46.1,op. 46a,"Arrangement: 3 Romances on Poems by Alexander Pushkin, op. 46a",Romance,,,1936,"1. Renaissance Moderato (q = 72)
+46.1,,1936,op. 46a,"Arrangement: 3 Romances on Poems by Alexander Pushkin, op. 46a",Romance,,"1. Renaissance Moderato (q = 72)
 2. A Jealous Maiden, Sobbing Bitterly ... Allegretto (q = 144) · q = 116 · Andante (q = 88)
 3. Premonition Allegro (h k = 92) · Meno mosso (h k = 72) · Adagio · Tempo I (h k = 92)","bass and small orchestra
 0.0.1.0-0.0.0.0-hp-strings",,,arranged by the composer
-47,op. 47,"Symphony No. 5 in D minor, op. 47",Symphony,D minor,Gaspra-Leningrad,1937/4/18–1937/7/20,"1. Moderato (q = 76, q = 104) · Allegro non troppo (q = 126, q = 132) · Poco sostenuto (q = 126, q = 138) · Largamente (q = 66) · Più mosso (q = 84) · Moderato (q = 42)
+47,Gaspra-Leningrad,1937/4/18–1937/7/20,op. 47,"Symphony No. 5 in D minor, op. 47",Symphony,D minor,"1. Moderato (q = 76, q = 104) · Allegro non troppo (q = 126, q = 132) · Poco sostenuto (q = 126, q = 138) · Largamente (q = 66) · Più mosso (q = 84) · Moderato (q = 42)
 2. Allegretto (q = 138)
 3. Largo (q = 50) · Largamente · Poco più mosso (q = 72, q = 50, q = 72, q = 50)
 4. Allegro non troppo (q = 88, q = 104, q = 108, q = 120, q = 126) · Allegro (q = 132) · Più mosso (h = 72, h = 92, h = 80) · Poco animato (— , q = 100-108, q = 116, e = 184)",2.picc.2.2.Ebcl.2.dbn-4.3.3.1-timp.perc:SD/tgl/cyms/BD/tam-t/xyl/glsp-2hp-cel-pft-strings,,,
-48,op. 48,"Volochayevka Days, op. 48",Film Music,,Leningrad,1936 – 1937,"1. Overture Allegretto
+48,Leningrad,1936 – 1937,op. 48,"Volochayevka Days, op. 48",Film Music,,"1. Overture Allegretto
 2. [No. 2]
 3. Japanese Attack Allegretto [No. 14]
 4. [Fragment] Allegro [No. 16]
@@ -464,13 +464,13 @@ strings-banda:8hn/2crt/2tpt-7domras-6balalaika-gtr-bayan-solo voice-male choir",
 9. 2 Russian Folksongs [in piano score] to accordionist Comrade Gvozdev
 I. Moderato
 II. Largo",3(III=picc).2.2.2-4.3.3.1-timp.perc:SD/BD/cyms-strings-male choir,,,Music to the film
-49,op. 49,"String Quartet No. 1 in C major, op. 49",Quartet,C major,Leningrad,1938/5/30–1938/7/17,"1. Moderato (q = 80) · Meno mosso
+49,Leningrad,1938/5/30–1938/7/17,op. 49,"String Quartet No. 1 in C major, op. 49",Quartet,C major,"1. Moderato (q = 80) · Meno mosso
 2. Moderato (q = 80)
 3. Allegro molto (h k = 96)
 4. Allegro (h = 152)",,,,
-50,op. 50,"Vyborg District, op. 50",Film Music,,Leningrad,1938/12,,,,,"Music to the film (part III in the ‘Maxim’ trilogy, which was awarded the Stalin Prize, 
+50,Leningrad,1938/12,op. 50,"Vyborg District, op. 50",Film Music,,,,,,"Music to the film (part III in the ‘Maxim’ trilogy, which was awarded the Stalin Prize, 
 First Class, in 1941 together with part I and II of the trilogy.)"
-50.1,op. 50a,"Suite From the ‘Maxim’ Film Trilogy, op. 50a",Suite,,,,"1. Prelude (‘Boldly, Friends, on we March!’) Moderato · Allegro non troppo · Adagio
+50.1,,,op. 50a,"Suite From the ‘Maxim’ Film Trilogy, op. 50a",Suite,,"1. Prelude (‘Boldly, Friends, on we March!’) Moderato · Allegro non troppo · Adagio
 2. Attack Sequence Allegro
 3. Death of the Old Worker Adagio
 4. Waltz Allegro sostenuto
@@ -481,27 +481,27 @@ First Class, in 1941 together with part I and II of the trilogy.)"
 glsp/xyl-2hp-strings-mixed choir ad lib. in No. 1-banda in Nos. 7 and 8: 2tpt/
 2asax/2tsax/2barsax/2tubas",,,"Compilation from ‘Maxim’s Youth’, Op. 41, ‘Maxim’s Return’, Op. 45, and ‘Vyborg 
 District’, Op. 50, by Levon Atovmyan (1961)"
-51,op. 51,"Friends, op. 51",Film Music,,Leningrad,1938/8,,,,,Music to the film
-52,op. 52,"the Great Citizen, op. 52",Film Music,,Leningrad,1938/12,,,,,Music to the film (part I)
-53,op. 53,"the Man With a Gun, op. 53",Film Music,,Leningrad,1938/9,"1. Overture Allegretto [No. 1]
+51,Leningrad,1938/8,op. 51,"Friends, op. 51",Film Music,,,,,,Music to the film
+52,Leningrad,1938/12,op. 52,"the Great Citizen, op. 52",Film Music,,,,,,Music to the film (part I)
+53,Leningrad,1938/9,op. 53,"the Man With a Gun, op. 53",Film Music,,"1. Overture Allegretto [No. 1]
 2. October Allegro moderato [No. 2]
 3. Smolny Presto [No. 3]
 4. Smolny Allegretto [No. 3a]
 5. Finale Moderato [No. 4]",2.picc.2.2.2.dbn-4.3.3.1-timp.perc:tgl/SD/BD/cyms/glsp-strings-banda:2crt/2tpt/2ahn/2thn/2barhn/2tubas,,,Music to the film
-54,op. 54,"Symphony No. 6 in B minor, op. 54",Symphony,B minor,Leningrad,1939/7–1939/10,"1. Largo (e = 72) · q = 44 · Poco più mosso e poco rubato (q = 52) · Moderato (q = 66) · Sostenuto · q = 52 · Sostenuto · Largo (q = 44)
+54,Leningrad,1939/7–1939/10,op. 54,"Symphony No. 6 in B minor, op. 54",Symphony,B minor,"1. Largo (e = 72) · q = 44 · Poco più mosso e poco rubato (q = 52) · Moderato (q = 66) · Sostenuto · q = 52 · Sostenuto · Largo (q = 44)
 2. Allegro (q = 88-96)
 3. Presto (h = 152)","3(III=picc).3(III=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
 tamb/SD/BD/cym/tam-t/xyl-hp-cel-strings",,,
-55,op. 55,"the Great Citizen, op. 55",Film Music,,Leningrad,1938/8–1939,,,,,music to the film (part II)
-56,op. 56,"the Story of a Silly Baby Mouse, op. 56",Film Music,,Leningrad,1939 Spring,Allegretto (q = 80) · Moderato (q = 60) · Allegro (q = 152) · Moderato con moto (q = 76) · Presto (h = 120) · Moderato (q = 60) · Allegro (h = 60) · Moderato (q = 60) · Allegro (q = h) · Moderato (q = 60) · q = 120 · q = 60,"2(II=picc).2(II=corA).2(II=bcl).2(II=dbn)-4.2.2.0-timp.perc:tgl/wdbl/tamb/SD/
+55,Leningrad,1938/8–1939,op. 55,"the Great Citizen, op. 55",Film Music,,,,,,music to the film (part II)
+56,Leningrad,1939 Spring,op. 56,"the Story of a Silly Baby Mouse, op. 56",Film Music,,Allegretto (q = 80) · Moderato (q = 60) · Allegro (q = 152) · Moderato con moto (q = 76) · Presto (h = 120) · Moderato (q = 60) · Allegro (h = 60) · Moderato (q = 60) · Allegro (q = h) · Moderato (q = 60) · q = 120 · q = 60,"2(II=picc).2(II=corA).2(II=bcl).2(II=dbn)-4.2.2.0-timp.perc:tgl/wdbl/tamb/SD/
 BD/cyms/susp.cyms/glsp/xyl-hp-cel-strings(2.2.2.2.2)",,,"Music to an animated cartoon, devoid of separate numbers, for eight singers and 
 small orchestra"
-57,op. 57,"Piano Quintet in G minor, op. 57",Quintet,G minor,Shalovo-Leningrad,1940/7–1940/9/14,"1. Prelude Lento (q = 72) · Poco più mosso (q . = 72) · Lento (q = 58) attacca
+57,Shalovo-Leningrad,1940/7–1940/9/14,op. 57,"Piano Quintet in G minor, op. 57",Quintet,G minor,"1. Prelude Lento (q = 72) · Poco più mosso (q . = 72) · Lento (q = 58) attacca
 2. Fugue Adagio (q = 84)
 3. Scherzo Allegretto (h . = 84)
 4. Intermezzo Lento (q = 72) attacca
 5. Finale Allegretto (h = 96)",,,,
-58,op. 58,"Reorchestration: Boris Godunov, op. 58",Opera,,Leningrad-Gaspra,1939/11/24–1940/5/10,"prologue
+58,Leningrad-Gaspra,1939/11/24–1940/5/10,op. 58,"Reorchestration: Boris Godunov, op. 58",Opera,,"prologue
 1. Scene 1 ‘Courtyard of the Moscow Novodevichy Convent’
 2. Scene 2 ‘Yard in the Moscow Kremlin. Entrance of the Tsar’s appartments. solemn sound of the bells’
 act i
@@ -517,7 +517,7 @@ act iv
 9. Scene 9 ‘The Granovitaya Palata in the Moscow Kremlin: The boyars’ extraordinary meeting’
 10. Scene 10 ‘Clearing near Kromy. Night’",3(III=picc).3(III=corA).2.Ebcl.bcl.3(III=dbn)-4.3.3.1-timp.perc:tgl/tamb/SD/BD/cyms/tam-t/t.bells/glsp/xyl-2-4hp-pft-cel-strings-banda on stage:2-4crt/3-6hn/4tpt/6hn/4barsaxhn/2-4tubas-balalaikas.domras(opt),,,"[modest musorgsky (1839 – 1881)] 
 Reorchestration of Musorgsky’s opera in four acts with prologue (10 tableaux) based on the piano score edited by Pavel Lamm"
-58.1,op. 58a,"King Lear, op. 58a",Incidental Music,,Leningrad,1940,"1. Introduction and Cordelia’s Ballad Andante
+58.1,Leningrad,1940,op. 58a,"King Lear, op. 58a",Incidental Music,,"1. Introduction and Cordelia’s Ballad Andante
 2. Returning from the Hunt Allegretto
 3. Ten Songs of the Fool
 I He who decides … Allegro [based on the tune ‘Jingle Bells’]
@@ -539,20 +539,20 @@ X That sir which serves and seeks for gain Moderato
 10. Fanfares I-V Allegro",1.picc.1.1.2-2.2.1.1-timp.perc:tgl/wdbl/tamb/SD/BD/cyms/gong-pft-strings,,,"Incidental music to William Shakespeare’s tragedy
 Translations by Mikhail Kuzmin, Anna Radlova and Samuil Marshak (‘Ten Songs 
 of the Fool’)"
-59,op. 59,"Korzinkina’s Adventures, op. 59",Film Music,,Leningrad,1940 Autumn,"1. Overture. Allegretto
+59,Leningrad,1940 Autumn,op. 59,"Korzinkina’s Adventures, op. 59",Film Music,,"1. Overture. Allegretto
 2. March. Allegretto
 3. The Chase. Presto
 4. Music at the Restaurant. Moderato non troppo
 5. Finale. Andantino","2.picc.2.3(III=Ebcl).2-4.2.2.1-timp.perc:tgl/tamb/SD/BD/cyms/xyl-hp-pft(No. 3 for piano solo, four hands)-strings-mixed choir",,,Music to the film
-60,op. 60,"Symphony No. 7 in C major, ‘Leningrad’, op. 60",Symphony,C major,Leningrad-Kuibyshev,1941/7/19 – 1941/12/27,"1. Allegretto (q = 116) · Poco più mosso (q = 126) · Poco più mosso (q = 108) · Meno mosso (q = 69) · Poco più mosso (q = 92) · Allegretto (q = 126)
+60,Leningrad-Kuibyshev,1941/7/19 – 1941/12/27,op. 60,"Symphony No. 7 in C major, ‘Leningrad’, op. 60",Symphony,C major,"1. Allegretto (q = 116) · Poco più mosso (q = 126) · Poco più mosso (q = 108) · Meno mosso (q = 69) · Poco più mosso (q = 92) · Allegretto (q = 126)
 2. Moderato (poco allegretto) (q = 96)
 3. Adagio (q = 112) · Largo (q = 92) · Adagio (q = 112) · Largo (q = 92) · Adagio (q = 112) · Largo (q = 92) · Moderato risoluto (q = 120) · Largo (q = 92) · q = 120 · Largo (q = 92) · Adagio (q = 112) · Largo (q = 92) · Adagio (q = 112) attacca
 4. Allegro non troppo (h = 132) · Moderato (q = 100)","3(III=picc,afl).3(III=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.3.3.1-timp.
 perc(5):tgl/tamb/2-3SD/BD/cyms/tam-t/xyl-2hp-pft-strings(16-20.14-18.12-16.10-14.8-12)-banda:4hn/3tpt/3trbn",,Dedicated to the City of Leningrad,
-61,op. 61,"Sonata for Piano No. 2 in B minor, op. 61",Sonata,B minor,Kuibyshev/Arkhangelskoe,January – 17 march 1943,"1. Allegretto
+61,Kuibyshev/Arkhangelskoe,January – 17 march 1943,op. 61,"Sonata for Piano No. 2 in B minor, op. 61",Sonata,B minor,"1. Allegretto
 2. Largo
 3. Moderato (con moto) · Allegretto con moto · Adagio · Moderato",piano,,Dedicated to the memory of Leonid Vladimirovich Nikolaev,
-62,op. 62,"6 Romances on Verses by W. Raleigh, R. Burns and W. Shakespeare, op. 62",Romance,,Kuibyshev,7 may - 25 october 1942,"1. The Wood, the Weed, the Wag (Sir Walter Raleigh to His Sonne) Largo (q = 54)
+62,Kuibyshev,7 may - 25 october 1942,op. 62,"6 Romances on Verses by W. Raleigh, R. Burns and W. Shakespeare, op. 62",Romance,,"1. The Wood, the Weed, the Wag (Sir Walter Raleigh to His Sonne) Largo (q = 54)
 2. O, Wert Thou in the Cauld Blast Moderato (q . = 76)
 3. McPherson before His Execution (McPherson’s Farewell) Allegretto (q = 112)
 4. Jenny (Comin’ thro’ the Rye) Moderato (q = 104)
@@ -563,14 +563,14 @@ to Isaac Davidovich Glikman (No. 3),
 to Yuri Vasilievich Sviridov (No. 4), 
 to Ivan Ivanovich Sollertinsky (No. 5),
 to Vissarion Yakovlevich Shebalin (No. 6)",
-62.1,op. 62a,"6 Romances on Verses by W. Raleigh, R. Burns and W. Shakespeare, op. 62a",Romance,,Arkhangelskoe,18 march 1943,,"3(III=picc).3(III=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
+62.1,Arkhangelskoe,18 march 1943,op. 62a,"6 Romances on Verses by W. Raleigh, R. Burns and W. Shakespeare, op. 62a",Romance,,,"3(III=picc).3(III=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
 tamb/SD/BD/cyms/tam-t/xyl-2hp-cel-strings",,,
-63,op. 63,"Native Leningrad, op. 63",Suite,,Kuibyshev,october 1942,"1. Overture Moderato non troppo · Più mosso
+63,Kuibyshev,october 1942,op. 63,"Native Leningrad, op. 63",Suite,,"1. Overture Moderato non troppo · Più mosso
 2. Song of Victorious October Allegretto
 3. Dance of the Youth Moderato · Allegro con brio · Molto meno mosso
 4. Ode to Leningrad Moderato","1.picc.1.2.1-2.3.3.1-timp.perc:tgl/tamb/SD/BD/cyms-balalaikas(adlib.)-pft
 strings-tenor, bass, mixed choir",,Written as a tribute to the courage of the citizens of Leningrad,Suite from the NKVD Song and Dance Ensemble Show ‘Motherland’
-64,op. 64,"Zoya, op. 64",Film Music,,Moscow,June 1944,"1. [No. 1] Allegretto
+64,Moscow,June 1944,op. 64,"Zoya, op. 64",Film Music,,"1. [No. 1] Allegretto
 2. [No. 2] Moderato
 3. [No. 3] Adagio
 4. [No. 4] Moderato
@@ -591,62 +591,62 @@ strings-tenor, bass, mixed choir",,Written as a tribute to the courage of the ci
 19. Zoya’s Song. Moderato con moto [No. 31]
 20. [No. 35] [con moto]","3(III=picc).3.4(Ebcl).3(III=dbn)-4.5.5.2-timp.perc:tgl/SD/BD/cyms/tam-t/glsp/
 xyl-2hp-strings-mixed choir",,,Music to the film
-64.1,op. 64a,"Suite From “Zoya”, op. 64a",Suite,,,,"1. Prelude ‘Song about Zoya’ Adagio · Moderato con moto
+64.1,,,op. 64a,"Suite From “Zoya”, op. 64a",Suite,,"1. Prelude ‘Song about Zoya’ Adagio · Moderato con moto
 2. Scene ‘Military Problem’ Allegretto · Allegro
 3. Prelude ‘Tragedy of a Loss’ Adagio
 4. March ‘Hero’s Victory’ Tempo di Marcia
 5. Finale ‘The Heroine’s Immortality’ Adagio","2.picc.3.3(III=bcl).Ebcl.2.dbn-4.5.5.2-timp.perc:tgl/tamb/SD/cyms/BD/glsp/
 tam-t/xyl-2hp-strings",,,for orchestra with choir (in No. 1) – assembled by Levon Atovmyan (1944 [?])
-65,op. 65,"Symphony No. 8 in C minor, op. 65",Symphony,C minor,Ivanovo-Moscow,2 July - 9 september 1943,"1. Adagio (q = 80) · Poco più mosso (q = 72) · Adagio (q = 32) · Allegro non troppo (q = 116) · Allegro (h = 69) · Adagio (e = 80) · Poco più mosso (e = 72) · Adagio (e = 80 · q = 56)
+65,Ivanovo-Moscow,2 July - 9 september 1943,op. 65,"Symphony No. 8 in C minor, op. 65",Symphony,C minor,"1. Adagio (q = 80) · Poco più mosso (q = 72) · Adagio (q = 32) · Allegro non troppo (q = 116) · Allegro (h = 69) · Adagio (e = 80) · Poco più mosso (e = 72) · Adagio (e = 80 · q = 56)
 2. Allegretto (q = 132 · q = 144) · L’istesso tempo
 3. Allegro non troppo (h = 152) attacca
 4. Largo (q = 50) attacca
 5. Allegretto (q = 136 · q = 152 · q = 168) · L’istesso tempo · Allegro (h = 108) · Adagio (q = 60) · Più mosso (h = 60) · Adagio (q = 60) Allegretto (q = 96 · q = 168 · q = 152) · Andante (q = 84)","4(III,IV=picc).2.corA.2.Ebcl.bcl.2.dbn-4.3.3.1-timp.perc:tgl/tamb/SD/BD/
 cym/susp.cym/tam-t/xyl-strings(16.14.12.12.10)",,Dedicated to Evgeni Alexandrovich Mravinsky,
-66,op. 66,"Russian River, op. 66",Incidental Music,,Moscow,17 december 1944,"1. March Allegretto
+66,Moscow,17 december 1944,op. 66,"Russian River, op. 66",Incidental Music,,"1. March Allegretto
 2. Football Presto
 3. The Battle of Stalingrad Moderato · Allegro
 4. Waltz
 5. Final Song Moderato",1.picc.1.2.1-2.3.2.1-timp.perc:SD/BD/cyms-strings-choir,,,"Incidental Music to the NKVD Song and Dance Ensemble Show ""the Great Russian River""
 Scenario by Mikhail Volpin, Iosif Dobrovolsky (also lyrics of Nos. 3 and 5) and Ni
 kolai Erdman"
-67,op. 67,"Piano Trio No. 2 in E minor, op. 67",Trio,E minor,Moscow/Ivanovo,december 1943 - 13 august 1944,"1. Andante (q = 69) · Moderato (q = 96) · Poco più mosso (q = 160)
+67,Moscow/Ivanovo,december 1943 - 13 august 1944,op. 67,"Piano Trio No. 2 in E minor, op. 67",Trio,E minor,"1. Andante (q = 69) · Moderato (q = 96) · Poco più mosso (q = 160)
 2. Allegro con brio (h . = 132)
 3. Largo (q = 112)
 4. Allegretto (e = 144 · e = 168) · Adagio (q = 69)",,,Dedicated to the memory of Ivan Ivanovich Sollertinsky,
-68,op. 68,"String Quartet No. 2 in A major, op. 68",Quartet,A major,Ivanovo,september 1944,"1. Overture Moderato con moto (q = 144)
+68,Ivanovo,september 1944,op. 68,"String Quartet No. 2 in A major, op. 68",Quartet,A major,"1. Overture Moderato con moto (q = 144)
 2. Recitative and Romance Adagio (q = 66-76) · q = 69 · Più mosso · Adagio
 3. Waltz Allegro (h . = 104)
 4. Theme with Variations Adagio (q = 72) · Moderato con moto (q = 116) · Allegretto · Più mosso (q = 160) · Più mosso (q = 168) · Allegro non troppo (h . = 76) · Allegro (h . = 126) · Adagio (q = 72)",,,Dedicated to Vissarion Yakovlevich Shebalin,
-69,op. 69,"Children’s Notebook, op. 69",Piece,,Moscow,"6 december 1944 (Nos. 1-6), 30 may 1945 (No. 7)","1. March. Allegretto
+69,Moscow,"6 december 1944 (Nos. 1-6), 30 may 1945 (No. 7)",op. 69,"Children’s Notebook, op. 69",Piece,,"1. March. Allegretto
 2. Waltz. Mopderato non troppo
 3. The Bear. Allegretto
 4. Funny Story. Allegro
 5. Sad Story. Moderato
 6. Clockwork. Doll Allegro
 7. Birthday. Tempo di valse",piano,,,
-70,op. 70,"Symphony No. 9 in E‐flat major, op. 70",Symphony,E-flat major,Moscow/Ivanovo,26 July – 30 august 1945,"1. Allegro (h = 132)
+70,Moscow/Ivanovo,26 July – 30 august 1945,op. 70,"Symphony No. 9 in E‐flat major, op. 70",Symphony,E-flat major,"1. Allegro (h = 132)
 2. Moderato (q = 208) · Adagio (q = 152)
 3. Presto (q . = 126) attacca
 4. Largo (e = 84) attacca
 5. Allegretto (q = 100) · q = 126 · Pocchissimo animato · (Pocchissimo animato) · q = 108 · Allegro (q = 208)",2.picc.2.2.2-4.2.3.1-timp.perc(2):tgl/tamb/SD/BD/cym-strings(16-20.14-18.12-16.12-16.10-14),,,
-71,op. 71,"Simple Folk, op. 71",Film Music,,Moscow,1945,"1. Overture
+71,Moscow,1945,op. 71,"Simple Folk, op. 71",Film Music,,"1. Overture
 2. Procession
 3. Departure
 4. Dream
 5. Finale",3(III=picc).3.3(III=Ebcl).2-4.3.3.1-timp-strings,,,Music to the film
-72,op. 72,"Victorious Spring, op. 72",Song,,Moscow,1945,"1. Song of the Lantern [for tenor and orchestra] Allegretto
+72,Moscow,1945,op. 72,"Victorious Spring, op. 72",Song,,"1. Song of the Lantern [for tenor and orchestra] Allegretto
 2. Lullaby [for soprano and female choir with orchestra] Andante",2(II=picc).2.2.2-4.3.3.1-timp.glsp-strings-female choir,,,"for the NKVD Song and Dance Ensemble Show ‘Victorious Spring’
 Scenario by Mikhail Volpin, Iosif Dobrovolsky and Nikolai Erdman. Lyrics by Mikhail Svetlov"
-73,op. 73,"String Quartet No. 3 in F major, op. 73",Quartet,F major,Moscow/Leningrad/Komarovo,January – 2 august 1946,"1. Allegretto (q = 112) · Poco più mosso
+73,Moscow/Leningrad/Komarovo,January – 2 august 1946,op. 73,"String Quartet No. 3 in F major, op. 73",Quartet,F major,"1. Allegretto (q = 112) · Poco più mosso
 2. Moderato con moto (q = 138) · Meno mosso · Adagio · Più mosso
 3. Allegro non troppo (q = 138)
 4. Adagio (q = 80 · q = 96 · q = 80 · q = 96) · Più mosso · (Adagio) attacca
 5. Moderato (q . = 100) · Meno mosso · Adagio",,,"Dedicated to the Beethoven String Quartet: Dmitri Mikhailovich Tsyganov, Vasili Petrovich Shirinsky, Vadim Vasilievich Borisovsky, Sergei Petrovich Shirinsky",
-74,op. 74,"Poem of the Motherland, op. 74",Cantata,,Moscow,summer – early october 1947,Allegretto · Allegro · Allegro molto · Moderato · Più mosso (Allegretto),"for mezzo-soprano, tenor, two baritones, bass, mixed choir and orchestra
+74,Moscow,summer – early october 1947,op. 74,"Poem of the Motherland, op. 74",Cantata,,Allegretto · Allegro · Allegro molto · Moderato · Più mosso (Allegretto),"for mezzo-soprano, tenor, two baritones, bass, mixed choir and orchestra
 3(III=picc).3(III=corA).3.2-4.3.3.1-timp.perc:tgl/SD/BD/cyms/tam-t/glsp/xyl
 hp(2)-strings-banda:3tpt/3trbn",,,
-75,op. 75,"the Young Guard, op. 75",Film Music,,Moscow,1947 - 1948,"part i 
+75,Moscow,1947 - 1948,op. 75,"the Young Guard, op. 75",Film Music,,"part i 
 1. Overture
 2. March [No. 2]
 3. Blasting [No. 4]
@@ -667,7 +667,7 @@ part ii
 17. Final of Part II [No. 39]
 18. Song with choir (not included in the film) [No. 40]
 19. Execution [No. 50]","4(III,IV=picc).3(III=corA).3(III=bcl).3(III=dbn)-4.5.5.2-timp.perc-hp-pft-strings",,,Music to the film (parts I & II) after Alexander Fadeev’s novel
-75.1,op. 75a,"Suite from “The Young Guard”, op. 75a",Suite,,,,"1. Prelude Moderato non troppo · Allegro vivo
+75.1,,,op. 75a,"Suite from “The Young Guard”, op. 75a",Suite,,"1. Prelude Moderato non troppo · Allegro vivo
 2. At the River Moderato · Allegro
 3. Scherzo Presto
 4. Uneasy Night Moderato
@@ -675,7 +675,7 @@ part ii
 6. Death of the Heroes Adagio
 7. Apotheosis Adagio · Moderato con moto","3(III=picc).3(III=corA).3(II=Ebcl,III=bcl).3(III=dbn)-4.3.3btpt.3.3btrbn.1-timp.
 perc:tgl/tamb/SD/BD/cyms-strings",,,compiled by Levon Atovmyan (1951)
-76,op. 76,"Pirogov, op. 76",Film Music,,Moscow,mid-august – early november 1947,"1. Overture Allegro
+76,Moscow,mid-august – early november 1947,op. 76,"Pirogov, op. 76",Film Music,,"1. Overture Allegro
 2. [without title, No. 1 – Scene on the road with the organ-grinder who has died of cholera] Moderato con moto
 3. [without title, No. 2 – Scene with Pirogov and his students] Moderato con moto
 4. [without title, No. 3 – Accompaniment to Pirogov’s words “We are in for a battle”] Moderato
@@ -688,18 +688,18 @@ perc:tgl/tamb/SD/BD/cyms-strings",,,compiled by Levon Atovmyan (1951)
 11. [without title, No. 9 – Ending] Allegretto · Moderato
 Appendix
 1. Scherzo Vivo",3(III=picc).3(III=corA).3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/cyms/tam-t/t.bells/glsp/xyl-hp.strings-banda:3tpt/barhn,,,Music to the film
-76.1,op. 76a,"Suite from “Pirogov”, op. 76a",Suite,,,,"1. Introduction Allegretto
+76.1,,,op. 76a,"Suite from “Pirogov”, op. 76a",Suite,,"1. Introduction Allegretto
 2. Scene Allegro)
 3. Waltz Allegretto
 4. Scherzo Vivo
 5. Finale Allegro moderato","3(III=picc).3.3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/tamb/SD/BD/cyms/t.
 bells/glsp/xyl-hp-strings",,,
-77,op. 77,"Concerto for Violin and Orchestra No. 1 in A minor, op. 77",Concerto,A minor,Komarovo,21 July 1947 – 24 march 1948,"1. Nocturne Moderato (q = 76) · Meno mosso (q = 72) · Tempo I (q = 76)
+77,Komarovo,21 July 1947 – 24 march 1948,op. 77,"Concerto for Violin and Orchestra No. 1 in A minor, op. 77",Concerto,A minor,"1. Nocturne Moderato (q = 76) · Meno mosso (q = 72) · Tempo I (q = 76)
 2. Scherzo Allegro (q = 126) · Poco più mosso (q = 132) · Allegro · Poco più mosso (q = 120)
 3. Passacaglia Andante (q = 72) · Cadenza — · L’istesso tempo (q = 80) · Più mosso (q = 168) · Allegretto (q = 144) · Allegro (q = 108) attacca
 4. Burlesque Allegro con brio (q = 168) · Presto (h = 108)","3(III=picc).3(III=corA).3(III=bcl).3(III=dbn)-4.0.0.1-timp.perc:tamb/tam-t/xyl
 2hp-cel-strings(14-16.14-16.12-16.12-16.10-14)",,Dedicated to David Fyodorovich Oistrakh,
-78,op. 78,"Michurin, op. 78",Film Music,,Komarovo/Koscow,July – mid september 1948,"1. Overture Moderato
+78,Komarovo/Koscow,July – mid september 1948,op. 78,"Michurin, op. 78",Film Music,,"1. Overture Moderato
 2. Autumnal Garden Moderato con moto
 3. Remembrance Moderato molto · Allegro · Più mosso
 4. Michurin’ Entry Moderato · Allegro non troppo · Moderato · Allegretto
@@ -714,9 +714,9 @@ bells/glsp/xyl-hp-strings",,,
 Appendix
 1. In the Garden Moderato con moto · Andantino","3(III=picc).3(III=corA).3.2-4.3.3.1-timp.perc:tgl/SD/BD/cyms/tam-t/glsp-2hp
 pft-strings-banda:3tpt/3trbn-mixed choir",,,Music to the film
-78.1,op. 78a,"Suite from “Michurin”, op. 78a",Suite,,,,,"3(III=picc).2.2.2-4.3.3.1-timp.perc:tgl/SD/BD/cym/glsp-hp-strings-banda:3tpt/
+78.1,,,op. 78a,"Suite from “Michurin”, op. 78a",Suite,,,"3(III=picc).2.2.2-4.3.3.1-timp.perc:tgl/SD/BD/cym/glsp-hp-strings-banda:3tpt/
 3trbn-mixed choir",,,compiled by Levon Atovmyan (1964)
-79,op. 79,"From Jewish Folk Poetry, op. 79",Song,,Repino/Moscow,July – 24 october 1948,"1. Lament over the Death of a Small Child [s, c] Moderato (q = 63)
+79,Repino/Moscow,July – 24 october 1948,op. 79,"From Jewish Folk Poetry, op. 79",Song,,"1. Lament over the Death of a Small Child [s, c] Moderato (q = 63)
 2. The Loving Mother and Aunt [s, c] Allegretto (q = 120)
 3. Lullaby [c] Andante (q = 96)
 4. Before a Long Separation [s, t] Adagio (q = 80) · Meno mosso (q = 69) · Tempo I (q = 80) · Meno mosso (q = 69) · Tempo I (q = 80) · Ancora meno mosso (q = 60)
@@ -727,10 +727,10 @@ pft-strings-banda:3tpt/3trbn-mixed choir",,,Music to the film
 9. The Good Life [t] Allegretto [Op. 79a: Allegro] (h = 92)
 10. Song of the Young Girl [s] Allegretto (h = 112)
 11. Happiness [s, c, t] Allegretto (h = 80)","Song cycle for soprano [s], contralto [c], tenor [t] and piano",,,
-79.1,op. 79a,"From Jewish Folk Poetry, op. 79a",Song,,Repino/Moscow,July – 1 october 1948,,"Song cycle for soprano, contralto, tenor and orchestra
+79.1,Repino/Moscow,July – 1 october 1948,op. 79a,"From Jewish Folk Poetry, op. 79a",Song,,,"Song cycle for soprano, contralto, tenor and orchestra
 2(II=picc).2(II=corA).3(III=bcl).3(III=dbn)-4.0.0.0-timp.perc:tamb/BD/cym/
 tam-t/xyl-2hp-strings (16-20.14-18.12-16.12-16.10-14)",,,
-80,op. 80,"Encounter on the Elbe, op. 80",Film Music,,Moscow,1948,"1. [No. 10 – Jazz piece] Moderato non troppo
+80,Moscow,1948,op. 80,"Encounter on the Elbe, op. 80",Film Music,,"1. [No. 10 – Jazz piece] Moderato non troppo
 2. Longing for Home [No. 13]. Andante
 3. [No. 22] Moderato
 4. [No. 23] Moderato
@@ -739,7 +739,7 @@ tam-t/xyl-2hp-strings (16-20.14-18.12-16.12-16.10-14)",,,
 7. [No. 28] Allegretto
 8. [No. 34] Moderato con moto","3(III=picc).3.3.2-4.3.3.1-timp.perc:tgl/SD/cyms/tam-t-cel-pft-strings-tenor
 mixed.choir",,,Texts by Evgeni Dolmatovsky and Vasili Lebedev-Kumach
-80.1,op. 80a,"Suite from “Encounter on the Elbe”, op. 80a",Suite,,,1948,"1. Prelude
+80.1,,1948,op. 80a,"Suite from “Encounter on the Elbe”, op. 80a",Suite,,"1. Prelude
 2. Longing for Home
 3. Dietrich’s Departure
 4. In the American Zone
@@ -748,7 +748,7 @@ mixed.choir",,,Texts by Evgeni Dolmatovsky and Vasili Lebedev-Kumach
 7. Conclusion
 8. Song of Peace","for mixed choir and orchestra
 2.1.4.asax.1-3.2.2.1-timp.perc-pft-strings",,,Texts by Evgeni Dolmatovsky (Nos. 2 and 8)
-81,op. 81,"the Song of the Forests, op. 81",Song,,Komarovo,July – 15 august 1949,"1. When the War was Over Andante (q = 76) · Poco più mosso (q = 92) · Più mosso (q = 116) · Più mosso (q = 116) · Poco più mosso (q = 138) · Tempo I (q = 76)
+81,Komarovo,July – 15 august 1949,op. 81,"the Song of the Forests, op. 81",Song,,"1. When the War was Over Andante (q = 76) · Poco più mosso (q = 92) · Più mosso (q = 116) · Più mosso (q = 116) · Poco più mosso (q = 138) · Tempo I (q = 76)
 2. Clothe the Homeland in Forests Allegro (h . = 69)
 3. Memory of the Past Adagio (q = 76) · Più mosso (h . = 54) · q = 120 · Moderato molto (q = 100) · Più mosso attacca
 4. The Pioneers Plant the Forests Allegretto (q = 100) attacca
@@ -757,7 +757,7 @@ mixed.choir",,,Texts by Evgeni Dolmatovsky and Vasili Lebedev-Kumach
 7. Glory Allegro non troppo (q = 132) · Moderato (q = 108) · Moderato con moto · Andante (q = 76)","Oratorio for tenor, bass, boys’ choir, mixed choir and orchestra 
 3(III=picc).3(III=corA).3.2-4.3.3.1-timp.perc:tgl/SD/cym/glsp-cel-2hp-strings
 banda:6tpt/6trbn",,,Text: Evgeni Dolmatovsky
-82,op. 82,"the Fall of Berlin, op. 82",Film Music,,Moscow,1949,"1. The River Oder [No. 1] Allegro non troppo
+82,Moscow,1949,op. 82,"the Fall of Berlin, op. 82",Film Music,,"1. The River Oder [No. 1] Allegro non troppo
 2. [No. 2] Allegro
 3. Finale [No. 3] Allegro
 4. Epilogue [No. 4] Moderato non troppo
@@ -776,15 +776,15 @@ banda:6tpt/6trbn",,,Text: Evgeni Dolmatovsky
 17. [No. 18] Allegro
 18. Metro [No. 19] Moderato","3(III=picc).3.3.2-4.6.5.3-timp.perc:tgl/SD/BD/cyms/tam-t-2hp-cel-2pft
 strings-mixed choir-children’s choir",,,Text by Evgeni Dolmatovsky (No. 5)
-82.1,op. 82a,"Suite from “The Fall of Berlin”, op. 82a",Suite,,,,,"for orchestra with choir
+82.1,,,op. 82a,"Suite from “The Fall of Berlin”, op. 82a",Suite,,,"for orchestra with choir
 3(III=picc).3.3.2-4.3.3.1.1-timp.perc-2hp-cel-2pft-strings",,,compiled by Levon Atovmyan (1950)
-83,op. 83,"String Quartet No. 4 in D major, op. 83",Quartet,D major,Moscow,may – 27 december 1949,"1. Allegretto 
+83,Moscow,may – 27 december 1949,op. 83,"String Quartet No. 4 in D major, op. 83",Quartet,D major,"1. Allegretto 
 2. Andantino
 3. Allegretto attacca
 4. Allegretto",,,Dedicated to the memory of Pyotr Vladimirovich Vilyams,
-84,op. 84,"2 Romances on Verses by Mikhail Lermontov, op. 84",Song,,Komarovo,25/26 June – 2 July 1950,"1. Ballad Moderato
+84,Komarovo,25/26 June – 2 July 1950,op. 84,"2 Romances on Verses by Mikhail Lermontov, op. 84",Song,,"1. Ballad Moderato
 2. Morning in the Caucasus Moderato con moto",for voice and piano,,,
-85,op. 85,"Belinsky, op. 85",Film Music,,Moscow,1950,"1. [No. 1] Moderato · Pesante
+85,Moscow,1950,op. 85,"Belinsky, op. 85",Film Music,,"1. [No. 1] Moderato · Pesante
 2. [No. 1a] Adagio
 3. [No. 2] Moderato non troppo
 4. [No. 3] Moderato
@@ -806,11 +806,11 @@ strings-mixed choir-children’s choir",,,Text by Evgeni Dolmatovsky (No. 5)
 20. [No. 18] Andante maestoso
 21. – Not alone on the path into the field [Ne odna vo pole dorozhenka]",3(III=picc).3.3.3(III=dbn)-4.3.3.1-timp.perc-gtr-strings-mixed choir,,,"Music to the film
 Text of No. 8 by Viktor Nekrasov"
-86,op. 86,"4 Songs to Words by Evgeni Dolmatovsky, op. 86",Song,,Moscow,1950 – 1951,"1. The Motherland Hears, the Motherland Knows Maestoso
+86,Moscow,1950 – 1951,op. 86,"4 Songs to Words by Evgeni Dolmatovsky, op. 86",Song,,"1. The Motherland Hears, the Motherland Knows Maestoso
 2. Rescue Me Moderato
 3. He Loves Me, He Loves Me Not Allegretto
 4. Lullaby Moderato",for voice and piano,,,
-87,op. 87,"24 Preludes and Fugues, op. 87",Prelude,,Moscow,10 october 1950 - 25 February 1951,"1 Prelude C major Moderato (q = 92) - Fugue. Moderato (h = 92) 4 voci
+87,Moscow,10 october 1950 - 25 February 1951,op. 87,"24 Preludes and Fugues, op. 87",Prelude,,"1 Prelude C major Moderato (q = 92) - Fugue. Moderato (h = 92) 4 voci
 2 Prelude A minor Allegro (h = 92) - Fugue. Allegretto (q = 116) 3 voci
 3 Prelude G major Moderato non troppo (q = 126) - Fugue. Allegro molto (q . = 126) · Meno mosso 3 voci
 4 Prelude E minor Andante (q = 100) - Fugue. Adagio (q = 80) · Più mosso (q = 116) 4 voci
@@ -834,7 +834,7 @@ Text of No. 8 by Viktor Nekrasov"
 22 Prelude G minor Moderato non troppo (q = 126) - Fugue. Moderato (q = 120) 4 voci
 23 Prelude F major Adagio (q = 48) - Fugue. Moderato con moto (h = 92) 3 voci
 24 Prelude D minor Andante (q = 88) - Fugue. Moderato (q = 92) · Più mosso (h . = 66) · Maestoso (h . = 56) 4 voci",for piano,,,
-88,op. 88,"10 Poems on Texts by Revolutionary Poets of the Late Nineteenth and Early Twentieth Century, op. 88",Song,,Moscow,spring 1951,"1. Boldly, Friends, on We March Moderato con moto (q . = 122)
+88,Moscow,spring 1951,op. 88,"10 Poems on Texts by Revolutionary Poets of the Late Nineteenth and Early Twentieth Century, op. 88",Song,,"1. Boldly, Friends, on We March Moderato con moto (q . = 122)
 2. One of the Many Andantino (q . = 60) · Meno mosso · Andantino · Andante (q = 86) · Andantino (q . = 60)
 3. Onto the Streets! Allegro molto (h = 60)
 4. The Meeting in Transit to Exile Andante (q = 52) · Meno mosso · Adagio · Andante
@@ -846,27 +846,27 @@ Text of No. 8 by Viktor Nekrasov"
 10. Song Andante von moto (q = 108) · Allegretto (q = 126) · Più mosso (q = 144) · Meno mosso",for mixed choir a cappella,,,"Texts by Leonid Radin (No. 1), Evgeni Tarasov (Nos. 2 and 7), anonimous (No. 3), 
 Alexei Gmyryov (Nos. 4, 5 and 8), Arkadi Kots (Nos. 6 and 9) and by N. A. Tan (Vla
 dimir Tan-Bogoraz), translation and adaptation of a text by Walt Whitman (No. 10)"
-89,op. 89,"the Unforgettable Year 1919, op. 89",Film Music,,Moscow,1951,,3(III=picc).2.Ebcl.2.2-4.3.4.1-timp.perc-pft-strings-mixed choir,,,Music to the film
-89.1,op. 89a,"Suite from “the Unforgettable Year 1919”, op. 89a",Suite,,,,"1. Prelude Moderato
+89,Moscow,1951,op. 89,"the Unforgettable Year 1919, op. 89",Film Music,,,3(III=picc).2.Ebcl.2.2-4.3.4.1-timp.perc-pft-strings-mixed choir,,,Music to the film
+89.1,,,op. 89a,"Suite from “the Unforgettable Year 1919”, op. 89a",Suite,,"1. Prelude Moderato
 2. Romance: Shibaev meets Katya Moderato con moto
 3. Scene from the Sea Battle Moderato molto
 4. Scherzo Presto
 5. The Assault on Krasnaya Gorka Allegro
 6. Intermezzo Andante
 7. Finale Allegro",3(III=picc).3.3.3(III=dbn)-4.3.3.1-2timp.perc:tgl/tamb/SD/BD/cyms/tam-t/glsp/xyl-cel/pft-strings-banda:3tpt/3trbn,,,compiled by Levon Atovmyan (1954)
-90,op. 90,"the Sun Shines Over Our Motherland, op. 90",Cantata,,Komarovo/Koscow,July – 29 september 1952,Moderato con moto · Allegro · Moderato con moto · Andante maestoso · Allegretto con moto · Andante maestoso · Allegro non troppo · Allegro · Andante,3(III=picc).3.3.2-4.3.3.1-timp.perc:tgl/SD/BD/cym/tam-t/glsp-2hp-strings-banda:3tpt/6trbn,,,Texts by Evgeni Dolmatovsky
-91,op. 91,"4 Monologues on Verses by Alexander Pushkin, op. 91",,,Moscow,october 1952,"1. Fragment Andante (q = 80) · Maestoso
+90,Komarovo/Koscow,July – 29 september 1952,op. 90,"the Sun Shines Over Our Motherland, op. 90",Cantata,,Moderato con moto · Allegro · Moderato con moto · Andante maestoso · Allegretto con moto · Andante maestoso · Allegro non troppo · Allegro · Andante,3(III=picc).3.3.2-4.3.3.1-timp.perc:tgl/SD/BD/cym/tam-t/glsp-2hp-strings-banda:3tpt/6trbn,,,Texts by Evgeni Dolmatovsky
+91,Moscow,october 1952,op. 91,"4 Monologues on Verses by Alexander Pushkin, op. 91",,,"1. Fragment Andante (q = 80) · Maestoso
 2. What Does My Name Mean to You?... Allegro (h . = 108)
 3. In the Depth of the Siberian Mines ... Adagio (q = 112)",for bass and piano,,,
-92,op. 92,"String Quartet No. 5 in B‐flat major, op. 92",Quartet,,Moscow,september - 1 november 1952,"1. Allegro non troppo
+92,Moscow,september - 1 november 1952,op. 92,"String Quartet No. 5 in B‐flat major, op. 92",Quartet,,"1. Allegro non troppo
 2. Andante
 3. Moderato · Allegro",,,Dedicated to the Beethoven String Quartet,
-93,op. 93,"Symphony No. 10 in E minor, op. 93",Symphony,,Komarovo/Moscow,summer – 25 october 1953,"1. Moderato (q = 96, q = 120, q = 108, q = 96)
+93,Komarovo/Moscow,summer – 25 october 1953,op. 93,"Symphony No. 10 in E minor, op. 93",Symphony,,"1. Moderato (q = 96, q = 120, q = 108, q = 96)
 2. Allegro (h = 176)
 3. Allegretto (q = 136, q = 96, q = 120, q = 96) · Largo (q = 72) · q = 96 · q = 138 · Più mosso (h . = 80)
 4. Andante (e = 126) · Allegro (q = 176) · L’istesso tempo","3(II,III=picc).3(III=corA).3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/tamb/SD/BD/cym/tam-t/xyl-strings",,,
-94,op. 94,"Concertino in A minor, op. 94",Concerto,,Moscow,1953,Adagio · Allegretto · Adagio · Allegretto · Adagio · Allegro,,,Dedicated to Maxim Dmitrievich Shostakovich,
-95,op. 95,"Song of the Great Rivers, op. 95",Film Music,,Moscow,1954,"1. [Introduction] Allegro
+94,Moscow,1953,op. 94,"Concertino in A minor, op. 94",Concerto,,Adagio · Allegretto · Adagio · Allegretto · Adagio · Allegro,,,Dedicated to Maxim Dmitrievich Shostakovich,
+95,Moscow,1954,op. 95,"Song of the Great Rivers, op. 95",Film Music,,"1. [Introduction] Allegro
 2. Song of Unity [No. 1] Allegro non troppo
 3. Prologue. Poem of Labour [No. 2]
 4. Indictment Episode [No. 3] Adagio
@@ -876,8 +876,8 @@ dimir Tan-Bogoraz), translation and adaptation of a text by Walt Whitman (No. 10
 8. Hard Labour [No. 8] Moderato",3(III=picc).3.3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:SD/BD/tam-t-hp-strings-bass-mixed choir,,,"Music to the documentary film
 Text by Bertolt Brecht (No. 1) translated by Semyon Kirsanov who also provided 
 the lyrics for No. 2"
-96,op. 96,"Festive Overture in A major, op. 96",Overture,,,1954,Allegretto · Presto · Poco meno mosso · Presto,3(III=picc).3.3.3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/cyms-strings-banda:4hn/3tpt/3trbn,,,
-97,op. 97,"the Gadfly, op. 97",,,Moscow,1955,"1. Overture Moderato con moto
+96,,1954,op. 96,"Festive Overture in A major, op. 96",Overture,,Allegretto · Presto · Poco meno mosso · Presto,3(III=picc).3.3.3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/cyms-strings-banda:4hn/3tpt/3trbn,,,
+97,Moscow,1955,op. 97,"the Gadfly, op. 97",,,"1. Overture Moderato con moto
 2. The Cliff Moderato
 3. The Austrians Allegro non troppo · Allegro vivace · Moderato con moto
 4. Youth Allegretto moderato
@@ -909,7 +909,7 @@ Appendix
 1. The Confession [not included in the film] Andante
 2. Ave Maria [not included in the film]
 3. Guitars",3(III=picc).2.3.2-4.3.3.1-timp.perc:tgl/tamb/SD/BD/cyms/tam-t/t.bells-mandolin-2gtr-hp-org-strings,,,
-97.1,op. 97a,"Suite from “the Gadfly”, op. 97a",Suite,,,,"1. Overture [No. 1] Moderato con moto
+97.1,,,op. 97a,"Suite from “the Gadfly”, op. 97a",Suite,,"1. Overture [No. 1] Moderato con moto
 2. Contredanse [No. 18] Moderato
 3. People’s Holiday [No. 21]
 4. Interlude [No. 22] Adagio attacca 
@@ -921,12 +921,12 @@ Appendix
 10. Nocturne [No. 26] Moderato
 11. Scene [No. 2] Moderato
 12. Finale [No. 7 and 3] Allegro non troppo · Allegro vivace · Moderato con moto",3(III=picc).3.3(III=asax).3(III=dbn)-4.3.3.1-timp.perc:tgl/tamb/SD/BD/cym/tam-t/t.bells/glsp/xyl-hp-cel-pft-strings,,,compiled by Levon Atovmyan (1955)
-98,op. 98,"5 Romances to Words by Evgeni Dolmatovsky, op. 98",Romance,,Komarovo,3 July – 1 september 1954,"1. Day of Our First Meeting Moderato con moto (q = 84) · Meno mosso
+98,Komarovo,3 July – 1 september 1954,op. 98,"5 Romances to Words by Evgeni Dolmatovsky, op. 98",Romance,,"1. Day of Our First Meeting Moderato con moto (q = 84) · Meno mosso
 2. Day of Declaration of Love Allegretto (h . = 108)
 3. Day of Tiffs Adagio (q = 80)
 4. Day of Happiness Allegro (q = 160)
 5. Day of Reminiscences Allegretto (h = 100)",for bass and piano,,,
-99,op. 99,"the First Echelon, op. 99",Film Music,,Moscow,1955 – 1956,"1. The Fire [No. 1]
+99,Moscow,1955 – 1956,op. 99,"the First Echelon, op. 99",Film Music,,"1. The Fire [No. 1]
 2. Waltz [No. 2]
 3. The Quarry [No. 3]
 4. Anya and Uzorov [No. 4]
@@ -946,7 +946,7 @@ Appendix
 18. Nocturnal Plough [No. 20]
 19. Conclusion [No. 21]
 20. Monetkin’s Field [No. 22]","3(III=picc).3.4(III=Ebcl,IV=sax).2-4.3.3.1-timp.perc:glsp/xyl/vibr-2mandolins-2gtr-bayan-pft-strings-mixed choir",,,Music to the film
-99.1,op. 99a,"Suite from “the First Echelon”, op. 99a",Suite,,,,"1. Overture Allegretto poco moderato
+99.1,,,op. 99a,"Suite from “the First Echelon”, op. 99a",Suite,,"1. Overture Allegretto poco moderato
 2. The Train Allegro molto
 3. Song of Youth Allegretto
 4. The Field Allegro molto
@@ -958,33 +958,33 @@ Appendix
 10. The Fire Allegro
 11. The House-Warming Allegro",3(III=picc).3.3.asax.3-4.3.3.1-timp:tgl/SD/BD/cyms/tam-t/glsp/xyl/vib-hp-cel-pft-strings-mixed choir,,,"for orchestra with choir compiled by Levon Atovmyan (1956)
 Texts by Sergei Vasiliev (Nos. 3 and 9)"
-100,op. 100,"Spanish Songs, op. 100",Song,,Komarovo,5 February – august 1956,"1. Farewell, Granada Largo (q = 66)
+100,Komarovo,5 February – august 1956,op. 100,"Spanish Songs, op. 100",Song,,"1. Farewell, Granada Largo (q = 66)
 2. Little Stars Allegro (q . = 100) · Allegro
 3. First Meeting Largo (q = 72) · Tempo di Valse (h . = 69) · Vivace (h = 112)
 4. Round Dance Allegretto (q . = 69) · Meno mosso (q = 80)
 5. Black Eyes Allegretto (q = 116) · Lento · Allegretto
 6. Dream (Barcarolle) Allegretto (q . = 50)",Arrangements of traditional folk songs for mezzo-soprano and piano,,,"Texts: anonymous Spanish traditional lyrics translated by Samuil Bolotin (Nos. 1 and 3), Tatyana Sikorskaya (2, 4 and 5) and jointly by both (No. 6)"
-101,op. 101,"String Quartet No. 6 in G major, op. 101",Quartet,,Komarovo,7 – 31 august 1956,"1. Allegretto  
+101,Komarovo,7 – 31 august 1956,op. 101,"String Quartet No. 6 in G major, op. 101",Quartet,,"1. Allegretto  
 2. Moderato con moto
 3. Lento
 4. Lento · Allegretto · Andante · Lento",,,,
-102,op. 102,"Concerto for Piano and Orchestra No. 2 in F major, op. 102",Concerto,,,January – 5 February 1957,"1. Allegro (q = 160)
+102,,January – 5 February 1957,op. 102,"Concerto for Piano and Orchestra No. 2 in F major, op. 102",Concerto,,"1. Allegro (q = 160)
 2. Andante (q = 76) attacca
 3. Allegro (q = 176)",3(picc).2.2.2-4.0.0.0-timp.SD-strings,,Dedicated to Maxim Dmitrievich Shostakovich,
-103,op. 103,"Symphony No. 11 in G minor, op. 103 “the Year 1905”",Symphony,,Moscow/Komarovo,18 February 1957 – 4 august 1957,"1. Palace Square Adagio (q = 66)
+103,Moscow/Komarovo,18 February 1957 – 4 august 1957,op. 103,"Symphony No. 11 in G minor, op. 103 “the Year 1905”",Symphony,,"1. Palace Square Adagio (q = 66)
 2. Ninth of January Allegro (q. = 176) · Adagio (q = 66) · Allegro (h = 108) · Ada
 gio (q = 66)
 3. Eternal Memory Adagio (q = 72) · Poco più mosso
 4. Tocsin Allegro non troppo (q = 120) · Allegro (q = 168) · Moderato (h. = 72) ·
 Adagio (q = 100) · Allegro (q = 176)","3(III=picc).3(III=corA).3(III=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/
 cyms/tam-t/t.bells/xyl-2-4hp-cel-strings(16-20.14-18.12-16.10-14.10-12)",,,
-104,op. 104,"2 Russian Folksongs, op. 104",Song,,Moscow,1957,"1. The Winds were Blowing Sderzhanno, netoroplivo [Moderato]
+104,Moscow,1957,op. 104,"2 Russian Folksongs, op. 104",Song,,"1. The Winds were Blowing Sderzhanno, netoroplivo [Moderato]
 2. As I was a Young Girl bystro, veselo [Allegro vivo]",Arrangements for mixed choir a cappella,,,Words: Traditional
-105,op. 105,"Moscow Cheryomushki, op. 105",Operetta,,Moscow,september 1957 – october 1958,,"4(III,IV=picc).3.3.2-4.3.3.1.timp.perc:tgl/cast/tamb/SD/BD/cyms/tam-t/glsp
+105,Moscow,september 1957 – october 1958,op. 105,"Moscow Cheryomushki, op. 105",Operetta,,,"4(III,IV=picc).3.3.2-4.3.3.1.timp.perc:tgl/cast/tamb/SD/BD/cyms/tam-t/glsp
 hp-strings",,,"Libretto by Vladimir Mass and Mikhail Chervinsky, English translation by David 
 Pountney, German translation by Ulrike Patow"
-105.1,op. 105a,"Cheryomushki, op. 105a",,,,,,,,,Film version
-106,op. 106,"Orchestration: Khovanshchina, op. 106",,,Moscow,march 1958 -26 april 1959,"act i
+105.1,,,op. 105a,"Cheryomushki, op. 105a",,,,,,,Film version
+106,Moscow,march 1958 -26 april 1959,op. 106,"Orchestration: Khovanshchina, op. 106",,,"act i
 1. Moscow, Red Square
 act ii
 2. Summer study of Prince Vasili Golitsin
@@ -999,25 +999,25 @@ cyms/BD/cyms/tam-t/glsp/t.bells/glsp-2-4hp-pft-cel-strings-banda(on and off
 stage):hns/tpts/trbns",,,"[modest musorgsky (1839 – 1881)] 
 Orchestration and completion of Modest Musorgsky’s folk musical drama 
 in five acts (6 tableaux)"
-106.1,op. 106a,"Khovanshchina, op. 106a",,,,,,,,,Film version
-107,op. 107,"Concerto for Violoncello and Orchestra No. 1 in E‐Flat major, op. 107",Concerto,,Komarovo,1 may –  20 July 1959,"1. Allegretto h = 116
+106.1,,,op. 106a,"Khovanshchina, op. 106a",,,,,,,Film version
+107,Komarovo,1 may –  20 July 1959,op. 107,"Concerto for Violoncello and Orchestra No. 1 in E‐Flat major, op. 107",Concerto,,"1. Allegretto h = 116
 2. Moderato q = 66
 3. Cadenza  — · Allegretto · Allegro q = 144 · Più mosso q = 160
 4. Allegro con moto h = 88",2(II=picc).2.2.2(II=dbn)-1.0.0.0-timp-cel-strings,,Dedicated to Mstislav Leopoldovich Rostropovich,
-108,op. 108,"String Quartet No. 7 in F‐Sharp minor, op. 108",Quartet,,Moscow,march 1960,"1. Allegretto
+108,Moscow,march 1960,op. 108,"String Quartet No. 7 in F‐Sharp minor, op. 108",Quartet,,"1. Allegretto
 2. Lento
 3. Allegro",,,Dedicated to the memory of Nina Vasilievna Shostakovich,
-109,op. 109,"Satires (Pictures of the Past, 5 Romances), op. 109",Romance,,,19 June 1960,"1. To a Critic Moderato (q = 108)
+109,,19 June 1960,op. 109,"Satires (Pictures of the Past, 5 Romances), op. 109",Romance,,"1. To a Critic Moderato (q = 108)
 2. Spring Awakening Moderato (q = 108) · Allegro (q = 152)
 3. Descendants Moderato (h . = 108) · Allegro molto (h . = 120)
 4. Misunderstanding Moderato (h . = 63) · Allegro (h . = 132) · Moderato (h . = 92)
 5. Kreutzer Sonata Adagio (q = 63) · Allegretto (h . = 63) · Allegro (q = 120) · Allegretto (h . = 63) · Più mosso (h = 100",,,Dedicated to Galina Pavlovna Vishnevskaya,Texts by Sasha Chorny [Alexander Glikberg]
-110,op. 110,"String Quartet No. 8 in C minor, op. 110",Quartet,,Dresden,12 – 14 July 1960,"1. Largo attacca
+110,Dresden,12 – 14 July 1960,op. 110,"String Quartet No. 8 in C minor, op. 110",Quartet,,"1. Largo attacca
 2. Allegro molto attacca
 3. Allegretto attacca
 4. Largo attacca
 5. Largo",,,Dedicated to the memory of the victims of fascism and war,
-111,op. 111,"Five Days – Five Nights, op. 111",Film Music,,Moscow/Dresden,July – august 1960,"1. Introduction [No. 1]
+111,Moscow/Dresden,July – august 1960,op. 111,"Five Days – Five Nights, op. 111",Film Music,,"1. Introduction [No. 1]
 2. [without title] [No. 2]
 3. Meeting with the Liberators on the Road [No. 3]
 4. ‘It was Nearly Half an Hour Ago’ [No. 4]
@@ -1033,18 +1033,18 @@ in five acts (6 tableaux)"
 14. Frau Rank’s Parting with the Paintings – Alarm [No. 16]
 15. Finale [No. 18]","3(III=picc).3.3.3(III=dbn)-4.3.3.1.timp.perc:tgl/SD/BD/cyms/tam-t/glsp-hp
 pft-org-strings",,,Music to the film
-111.1,op. 111a,"Suite from “Five Days – Five Nights”, op. 111a",Suite,,,,"1. Introduction Adagio
+111.1,,,op. 111a,"Suite from “Five Days – Five Nights”, op. 111a",Suite,,"1. Introduction Adagio
 2. Dresden in Ruins Largo
 3. Liberated Dresden Moderato · Presto · Largo · Allegro
 4. Interlude Andante · Moderato · Allegro
 5. Finale Moderato · Allegretto · Largo","3(III=picc).3.3.3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/cyms/tam-t/glsp-hp
 pft-strings",,,compiled by Levon Atovmyan (1961)
-112,op. 112,"Symphony No. 12 in D minor, op. 112 “the Year 1917”",Symphony,,Moscow,June 1960 – 22 august 1961,"1. Revolutionary Petrograd Moderato (q = 84) · Allegro (q = 184) · Più mosso (q = 192) · Allegro (q = 184) · Più mosso (q = 192) attacca
+112,Moscow,June 1960 – 22 august 1961,op. 112,"Symphony No. 12 in D minor, op. 112 “the Year 1917”",Symphony,,"1. Revolutionary Petrograd Moderato (q = 84) · Allegro (q = 184) · Più mosso (q = 192) · Allegro (q = 184) · Più mosso (q = 192) attacca
 2. Razliv Allegro (L’istesso tempo q = 192) · Adagio (q = 84) attacca
 3. Aurora Allegro (L’istesso tempo q = 84) · Allegro (q = 192) attacca
 4. The Dawn of Humanity L’istesso tempo (q = 192) · Moderato (q = 84)","3(III=picc).3.3.3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/cym/tam-t-strings(16
 20.14-18.12-16.12-16.10-14)",,Dedicated to the memory of Vladimir Ilyich Lenin,
-113,op. 113,"Symphony No. 13 in B‐flat minor, op. 113",Symphony,,,march – 20 July 1962,"1. Babi Yar Adagio (q = 58) · Più mosso (h = 92) · Adagio (q = 58) · Più mosso (h = 92) · Allegretto (h. = 88) · Adagio (q = 58) · Poco più mosso (q = 76) · Adagio (q = 58) · Più mosso (q = 72)
+113,,march – 20 July 1962,op. 113,"Symphony No. 13 in B‐flat minor, op. 113",Symphony,,"1. Babi Yar Adagio (q = 58) · Più mosso (h = 92) · Adagio (q = 58) · Più mosso (h = 92) · Allegretto (h. = 88) · Adagio (q = 58) · Poco più mosso (q = 76) · Adagio (q = 58) · Più mosso (q = 72)
 2. Humour Allegretto (h = 60)
 3. In the Store Adagio (q = 66) · Meno mosso. Sostenuto (q = 56) · Adagio (q = 66) · Meno mosso (q = 60, q = 56) · Largo (q = 48) · Adagio (q = 66)
 4. Fears Largo (q = 84) · Sostenuto (q = 76) · Più mosso (q = 88) · Moderato (q = 100) · Largo (q = 76) · Poco più mosso (q = 84) · Sostenuto · Allegretto (q = 104) · Largo (q = 76-88)
@@ -1052,20 +1052,20 @@ pft-strings",,,compiled by Levon Atovmyan (1961)
 3(III=picc).3(III=corA).3(II=Ebcl,III=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/cast/
 whip/wdbl/tamb/SD/BD/cyms/t.bells/tam-t/glsp/xyl-2-4hp-cel-pft-strings(16
 20.14-18.12-16.12-16.10-14)",,,Texts by Evgeni Evtushenko
-114,op. 114,"Katerina Izmailova, op. 114",,,Moscow,1956 – 31 January 1963,,"3(II=picc,III=picc,afl).3(III=corA).4(IV=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
+114,Moscow,1956 – 31 January 1963,op. 114,"Katerina Izmailova, op. 114",,,,"3(II=picc,III=picc,afl).3(III=corA).4(IV=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
 wdbl/tamb/SD/BD/cyms/tam-t/t.bells/glsp/xyl-2hp-cel-strings-stage band:4crt/
 2tpt/2ahn/2thn/2barhn/2tuba",,,"Revised version of ‘Lady Macbeth of the Mtsensk District’, Op. 29
 Revisions of the text by Isaac Glikman"
-114.1,op. 114a,"5 Entr’actes from “Lady Macbeth of Mtsensk” / “Katerina Izmailova”, op. 114a",,,,1956/1963,"1. Allegretto (entr’acte between scenes 1 and 2)
+114.1,,1956/1963,op. 114a,"5 Entr’actes from “Lady Macbeth of Mtsensk” / “Katerina Izmailova”, op. 114a",,,"1. Allegretto (entr’acte between scenes 1 and 2)
 2. Allegro con brio (entr’acte between scenes 2 and 3)
 3. Largo (entr’acte between scenes 4 and 5)
 4. Allegretto (entr’acte between scenes 6 and 7)
 5. Presto (entr’acte between scenes 7 and 8)","2.picc.2.corA.3(II=Ebcl).bcl.2.dbn-4.3.3.1-timp.perc:tgl/wdbl/SD/BD/cyms/
 tam-t/xyl-2hp-strings-banda:4crt/2tpt/2ahn/2thn/2barhn/2euph",,,
-115,op. 115,"Overture on Russian and Kirghiz Folk Themes in C major, op. 115",,,,"october 1963
-",Moderato (q = 88) · Allegro non troppo (q = 136) · Adagio (q = 96) · Allegro (q = 160) · Presto (q = 208),"2.picc.2.2.3(III=dbn)-4.2.3.1-timp.perc:tgl/tamb/cym-strings(minimum 
+115,,"october 1963
+",op. 115,"Overture on Russian and Kirghiz Folk Themes in C major, op. 115",,,Moderato (q = 88) · Allegro non troppo (q = 136) · Adagio (q = 96) · Allegro (q = 160) · Presto (q = 208),"2.picc.2.2.3(III=dbn)-4.2.3.1-timp.perc:tgl/tamb/cym-strings(minimum 
 16.14.12.12.10)",,In honour of the Centenary of Kirghizia’s voluntary incorporation into the Russian State,
-116,op. 116,"Hamlet, op. 116",Film Music,,Moscow/Repino/Gorki,1963 – 1964,"1. Overture [No. 1] Largo
+116,Moscow/Repino/Gorki,1963 – 1964,op. 116,"Hamlet, op. 116",Film Music,,"1. Overture [No. 1] Largo
 2. Military Music [No. 2] Allegretto
 3. Fanfares [No. 3] Allegro
 4. Ball at the Palace [No. 5] Presto
@@ -1100,7 +1100,7 @@ additional music
 4. Ophelia’s Song (II) [Andante]
 5. Ophelia’s Song (III) [Andante]
 6. The Gravedigger’s Song [Con moto]",3(III=picc).2.2.2-4.3.3.1-timp.perc:tgl/whip/wdbl/tamb/SD/BD/tam-t/xyl-hp-cel-pft-hpd-strings,,,
-116.1,op. 116a,"Suite from “Hamlet”, op. 116a",Suite,,,,"1. Introduction [No. 1 in the film score] Largo
+116.1,,,op. 116a,"Suite from “Hamlet”, op. 116a",Suite,,"1. Introduction [No. 1 in the film score] Largo
 2. Ball at the Palace [No. 5] Presto
 3. The Ghost [No. 9] Largo
 4. In the Garden [No. 19] Moderato ma non troppo
@@ -1109,19 +1109,19 @@ additional music
 7. Ophelia [No. 28] Andante
 8. Duel and Death of Hamlet [Nos. 32 and 34] Allegro)","3(III=picc).2.2.2-4.3.3.1-timp.perc:wdbl/whip/tamb/SD/BD/cyms/t.bells/
 tam-t-hp-pft-hpd-strings",,,compiled by Levon Atovmyan (1964)
-117,op. 117,"String Quartet No. 9 in E‐flat major, op. 117",Quartet,,Moscow,2 – 28 may 1964,"1. Moderato con moto
+117,Moscow,2 – 28 may 1964,op. 117,"String Quartet No. 9 in E‐flat major, op. 117",Quartet,,"1. Moderato con moto
 2. Adagio
 3. Allegretto
 4. Adagio
 5. Allegro",,,Dedicated to Irina Antonovna Shostakovich,
-118,op. 118,"String Quartet No. 10 in A‐flat major, op. 118",,,Dilizhan,9 – 20 July 1964,"1. Andante
+118,Dilizhan,9 – 20 July 1964,op. 118,"String Quartet No. 10 in A‐flat major, op. 118",,,"1. Andante
 2. Allegretto furioso
 3. Adagio attacca
 4. Allegretto",,,Dedicated to Moisei Samuilovich Weinberg [Mieczysław Weinberg],
-119,op. 119,"the Execution of Stepan Razin, op. 119",,,"Dilijan, Lake Balaton, Moscow",8 July – 14 september 1964,Moderato non troppo (q = 152) · Poco meno mosso (q = 126) · Andante (q = 88) · q = 96 · q = 120 · Adagio (q = 80) · Moderato (q = 126) · q = 132 · Allegro (q = 144) · Allegro (q = 168) · Adagio (q = 80) · Moderato (q = 126),"Vocal-symphonic poem for bass, mixed choir and orchestra 
+119,"Dilijan, Lake Balaton, Moscow",8 July – 14 september 1964,op. 119,"the Execution of Stepan Razin, op. 119",,,Moderato non troppo (q = 152) · Poco meno mosso (q = 126) · Andante (q = 88) · q = 96 · q = 120 · Adagio (q = 80) · Moderato (q = 126) · q = 132 · Allegro (q = 144) · Allegro (q = 168) · Adagio (q = 80) · Moderato (q = 126),"Vocal-symphonic poem for bass, mixed choir and orchestra 
 3(III=picc).3(III=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
 whip/tamb/SD/BD/cym/tam-t/bells/xyl-2hp-pft-cel-strings(20.18.16.14.12)",,,
-120,op. 120,"A Year Is Like a Lifetime, op. 120",Film Music,,Moscow,june 1965,"1. Overture [No. 1]
+120,Moscow,june 1965,op. 120,"A Year Is Like a Lifetime, op. 120",Film Music,,"1. Overture [No. 1]
 2. The Trick [No. 4]
 3. Jenny’s Flight [No. 5]
 4. Men’s Prison [No. 6]
@@ -1144,71 +1144,71 @@ whip/tamb/SD/BD/cym/tam-t/bells/xyl-2hp-pft-cel-strings(20.18.16.14.12)",,,
 21. War [No. 28]
 22. The Fort [No. 29]","3(III=picc).2.2.2-4.3.3.1-timp.perc-strings-mixed choir
 ",,,Music to the film
-124,op. 124,"2 Choruses, op. 124",,,Moscow,august 1963,"1. At the Tenth Verst
+124,Moscow,august 1963,op. 124,"2 Choruses, op. 124",,,"1. At the Tenth Verst
 2. The Street in Turmoil","3(III=picc).3(III=corA).3.3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/cyms/tam-t
 strings(five-stringed db required",,,"[alexander davidenko (1899 – 1934)]
 ‘The Road of October’
 Texts by Pyotr Ediet (No. 1) and M. Shorin (No. 2)"
-125,op. 125,"Reorchestration: Concerto for Violoncello and Orchestra in A minor, op. 125",Concerto,,Dilizhan,July 1963,"1. Nicht zu schnell
+125,Dilizhan,July 1963,op. 125,"Reorchestration: Concerto for Violoncello and Orchestra in A minor, op. 125",Concerto,,"1. Nicht zu schnell
 2. Langsam
 3. Sehr lebhaf",1.picc.2.2.2-4.2.0.0-timp-hp-strings,,Dedicated to Mstislav Leopoldovich Rostropovich,[robert schumann (1810 - 1856)]
-264,,https://www.boosey.com/downloads/schostakowitsch_werkverzeichnis.pdf,,,,,,,,,
-,,Arrangement: Symphonie No. 3 “Liturgique”,Symphony,,,1947,"1. Dies irae Allegro marcato (h = 76-80) 
+264,,,,https://www.boosey.com/downloads/schostakowitsch_werkverzeichnis.pdf,,,,,,,
+,,1947,,Arrangement: Symphonie No. 3 “Liturgique”,Symphony,,"1. Dies irae Allegro marcato (h = 76-80) 
 2. De profundis clamavi Adagio (q = 54)
 3. Dona nobis pacem Andante (q = 88) · Pesante · Adagio (q = 58) · Tempo I (Andante)",,,,"[arthur honegger (1892 – 1955)] 
 Arrangement for two pianos"
-,,"Arrangement: Military March in D major, op. 51/1, D. 733",March,D major,Petrograd,1921 – 1922,Allegro vivace,3(picc).2.2.2-4.2.3.1-timp.perc:tgl/BD-strings,not fully preserved,,"[franz schubert (1797-1828)] 
+,Petrograd,1921 – 1922,,"Arrangement: Military March in D major, op. 51/1, D. 733",March,D major,Allegro vivace,3(picc).2.2.2-4.2.3.1-timp.perc:tgl/BD-strings,not fully preserved,,"[franz schubert (1797-1828)] 
 Arrangement for large orchestra"
-,,Arrangement: Symphony No. 10,Symphony,,,1925 – 1929,Andante · Adagio · Andante come prima · Tempo Adagio,piano four hands,unfinished,,"[gustav mahler (1860 - 1911)] 
+,,1925 – 1929,,Arrangement: Symphony No. 10,Symphony,,Andante · Adagio · Andante come prima · Tempo Adagio,piano four hands,unfinished,,"[gustav mahler (1860 - 1911)] 
 Arrangement for piano four hands of the second movemet"
-,,Arrangement: Symphony of Psalms,Symphony,,,1937,"1. q = 92 attacca
+,,1937,,Arrangement: Symphony of Psalms,Symphony,,"1. q = 92 attacca
 2. e = 60 attacca
 3. q = 48 · h = 80 · q = 48 · h = 80 · Doppio movimento (q = 48)",piano four hands,,,"[igor stravinsky (1882 – 1971)] 
 Arrangement  
 Psalm 38, Verses 13 and 14 (No.1), Psalm 39, Verses 2, 3 and 4 (No. 2) and Psalm 150 (No. 3)"
-,,Orchestration: Overture to “The Green Company”,Overture,,Leningrad,1932,,,lost,,"[ivan dzerzhinsky (1909 - 1978)]
+,Leningrad,1932,,Orchestration: Overture to “The Green Company”,Overture,,,,lost,,"[ivan dzerzhinsky (1909 - 1978)]
 Orchestration of the overture to Ivan Dzerzhinsky’s operetta ‘The Green Company’"
-,,Bird of Peace,Song,,,1953/8/28,"Ne spesha, vyrazitelno [Calmo, espressivo]",Arrangement for voice and piano,,,"[joan smith] 
+,,1953/8/28,,Bird of Peace,Song,,"Ne spesha, vyrazitelno [Calmo, espressivo]",Arrangement for voice and piano,,,"[joan smith] 
 Russian translation by Lev Ozerov"
-,,"Orchestration: Fugue No. 7 in E‐flat major, Das Wohltemperierte Clavier II, BWV 876",Fugue,E-flat major,Petrograd,1921 – 1922,,2.2.2.2-1.0.0.0-strings,,,"[johann sebastian bach (1685-1750)]
+,Petrograd,1921 – 1922,,"Orchestration: Fugue No. 7 in E‐flat major, Das Wohltemperierte Clavier II, BWV 876",Fugue,E-flat major,,2.2.2.2-1.0.0.0-strings,,,"[johann sebastian bach (1685-1750)]
 Arrangement for small orchestra"
-,,Rerchestration: Wiener Blut (Vienna Blood),,,Leningrad,1941,,,,,"[johann strauss ii (1825 - 1899) · adolf müller (1839 - 1901)]
+,Leningrad,1941,,Rerchestration: Wiener Blut (Vienna Blood),,,,,,,"[johann strauss ii (1825 - 1899) · adolf müller (1839 - 1901)]
 Reorchestration by Shostakovich
 Russian text by Viktor Tipot"
-,,Orchestration: Vergnügungszug,,,Leningrad,1940,,2(II=picc).2.2.2-4.2.3.0-timp.perc:tgl/tamb/SD/cyms-strings,,,"[johann strauss ii (1825 - 1899)] 
+,Leningrad,1940,,Orchestration: Vergnügungszug,,,,2(II=picc).2.2.2-4.2.3.0-timp.perc:tgl/tamb/SD/cyms-strings,,,"[johann strauss ii (1825 - 1899)] 
 (EXCURSION TRAIN POLKA)
 Polka-Galop, Op. 281 orchestrated for insertion in a production of ‘Der Zigeunerbaron’ [The Gipsy Baron]"
-,,"Orchestration: Rhapsody No. 4 in E‐flat major, op. 119",Rhapsody,E-flat major,Petrograd,1921 – 1922,Allegro risoluto,3(III=picc).2(II=corA).2.2-4.3.3.1-timp.perc:tamb/BD/cyms-strings,not fully preserved,,"[johannes brahms (1833-1897)]
+,Petrograd,1921 – 1922,,"Orchestration: Rhapsody No. 4 in E‐flat major, op. 119",Rhapsody,E-flat major,Allegro risoluto,3(III=picc).2(II=corA).2.2-4.3.3.1-timp.perc:tamb/BD/cyms-strings,not fully preserved,,"[johannes brahms (1833-1897)]
 Orchestration"
-,,"Orchestration: Piano Sonata No. 32 in C minor, op. 111",Sonata,C minor,Petrograd,1921 – 1922,Maestoso – Allegro con brio ed appassionato,3(III=picc).2.2.2-4.2.3.1-timp.perc:tgl/BD/cyms/tam-t-strings,not fully preserved,,"[ludwig van beethoven (1770-1827)] 
+,Petrograd,1921 – 1922,,"Orchestration: Piano Sonata No. 32 in C minor, op. 111",Sonata,C minor,Maestoso – Allegro con brio ed appassionato,3(III=picc).2.2.2-4.2.3.1-timp.perc:tgl/BD/cyms/tam-t-strings,not fully preserved,,"[ludwig van beethoven (1770-1827)] 
 Orchestration of the first movement"
-,,Main Street,,,Leningrad,1927/10-1927/11,,2.picc.2.corA.2.Ebclbcl.2.dbn-6.3.3.1-timp.prc:tamb/SD/BD/tam-t-hp-strings,,,"[mikhail mikhailov (1904-1983)]
+,Leningrad,1927/10-1927/11,,Main Street,,,,2.picc.2.corA.2.Ebclbcl.2.dbn-6.3.3.1-timp.prc:tamb/SD/BD/tam-t-hp-strings,,,"[mikhail mikhailov (1904-1983)]
 Synesthetic stage composition in 2 acts on a text by Demyan Bedny"
-,,Arrangement: Polka in F‐sharp minor,,F-sharp minor,Kuibyshev,1941 (late),Introduzione Allegretto · Polka Scherzando · Coda,2 harps,,Commissioned by the harpist Vera Dulova,"[mili balakirev (1836 - 1910)] 
+,Kuibyshev,1941 (late),,Arrangement: Polka in F‐sharp minor,,F-sharp minor,Introduzione Allegretto · Polka Scherzando · Coda,2 harps,,Commissioned by the harpist Vera Dulova,"[mili balakirev (1836 - 1910)] 
 for two harps – arrangement of one of Balakirev’s piano pieces"
-,,Arrangement: Mephistopheles’s Song in Auerbach’s Cellar,,,,1940,,bass and orchestra,,,"[modest musorgsky (1839 - 1881)] 
+,,1940,,Arrangement: Mephistopheles’s Song in Auerbach’s Cellar,,,,bass and orchestra,,,"[modest musorgsky (1839 - 1881)] 
 (SONG OF THE FLEA) 
 Arrangement for bass and orchestra from Musorgsky’s song for contralto and piano (1879)"
-,,Orchestration: Songs and Dances of Death,,,Solotcho,31 July 1962,"1. Lullaby Lento doloroso
+,Solotcho,31 July 1962,,Orchestration: Songs and Dances of Death,,,"1. Lullaby Lento doloroso
 2. Serenade Moderato
 3. Trepak Lento assai tranquillo
 4. The Field Marshal Vivo · alla guerra","2(II=picc).2.2(II=bcl).2(II=dbn)-4.2.3.1-timp.perc:SD/cyms/tam-t-hp-strings 
 (12-16.10-14.8-12.8-12.6-10five strings)",,Dedicated to Galina Pavlovna Vishnevskaya,"[modest musorgsky (1839 - 1881)]
 Orchestration of Musorgsky’s song cycle
 Text by Count Arseni Golenishchev-Kutuzov"
-,,Arrangement: I Waited for Thee in the Grotto…,Song,,Petrograd,1921 – 1922,,2.2.2.2-4.0.0.0-timp-hp-strings,,,"[nikolai rimsky-korsakov (1844-1908)]
+,Petrograd,1921 – 1922,,Arrangement: I Waited for Thee in the Grotto…,Song,,,2.2.2.2-4.0.0.0-timp-hp-strings,,,"[nikolai rimsky-korsakov (1844-1908)]
 Arrangement for soprano and orchestra from Rimsky-Korsakov’s op. 40, 4
 Text: Apollon Maikov"
-,,Orchestration: Internationale,,,,1937,,3.3.4.3-4.3.3.1-timp.perc:tgl/chimes/tamb/SD/BD/cyms-strings-banda:crt/2ssax/2tsax/2barsax/2bsax,,,"[pierre de geyter (1848 – 1932)] 
+,,1937,,Orchestration: Internationale,,,,3.3.4.3-4.3.3.1-timp.perc:tgl/chimes/tamb/SD/BD/cyms-strings-banda:crt/2ssax/2tsax/2barsax/2bsax,,,"[pierre de geyter (1848 – 1932)] 
 Orchestration"
-,,"Arrangement: Bilder aus dem Osten, op. 66/5",,,Petrograd,1921 – 1922,Lebhaft,3(picc).2.2.2-4.2.3.1-timp.perc:BD/cyms-strings,not fully preserved,,"[robert schumann (1810-1856)] 
+,Petrograd,1921 – 1922,,"Arrangement: Bilder aus dem Osten, op. 66/5",,,Lebhaft,3(picc).2.2.2-4.2.3.1-timp.perc:BD/cyms-strings,not fully preserved,,"[robert schumann (1810-1856)] 
 Arrangement for large orchestra"
-,,Rothschild’s Violin,,,Kuibyshev - Moscow,1942 - 5 February 1944 (?),,"3(III=picc).3(III=corA).3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/tamb/SD/
+,Kuibyshev - Moscow,1942 - 5 February 1944 (?),,Rothschild’s Violin,,,,"3(III=picc).3(III=corA).3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/tamb/SD/
 BD/cyms/glsp-hp-strings",,,"[veniamin fleishman (1913-1941)] 
 Opera in one act, completed and partly orchestrated
 Libretto after Anton Chekhov by Alexander Preis"
-,,Arrangement: Passacaglia,Piece,,,1932 (late),Largo (q = 69),organ,,,arrangement of the entr’acte between scenes 4 and 4 from op. 29
-,,Arrangement: 27 Songs for the Front,Song,,Leningrad,1941/7/12 – 1941/7/14,"1. ‘Farewell’ Сдержанно [Sostenuto] [dmitri pokrass]
+,,1932 (late),,Arrangement: Passacaglia,Piece,,Largo (q = 69),organ,,,arrangement of the entr’acte between scenes 4 and 4 from op. 29
+,Leningrad,1941/7/12 – 1941/7/14,,Arrangement: 27 Songs for the Front,Song,,"1. ‘Farewell’ Сдержанно [Sostenuto] [dmitri pokrass]
 2. ‘Those Are No Ordinary Clouds But Thunderclouds’ Не спеша [Andante] [dmitri and daniil pokrass (1899 - 1978/1905 - 1954), from the music to the film ‘Sons of a Working People’]
 3. ‘Song About Shchors’ Довольно скоро. Ритмично [Allegretto. Ritmico] [matvei blanter (1903 - 1990)]
 4. ‘Do Not Touch Us!’ Moderato [yuri milyutin (1903 - 1968)], from the music to the film ‘Mitka-Lelyuk’]
@@ -1235,37 +1235,37 @@ Libretto after Anton Chekhov by Alexander Preis"
 25. Song of the Varangian Guest Andante non troppo [nikolai rimsky-korsakov (1844 - 1908), from ‘Sadko’, Scene 4]
 26. ‘I am Sitting on a Rock’ Умеренно скоро [Poco allegro] [mikhail ippolitovivanov (1859 - 1935)]
 27. ‘Where Did You Come From?’ Allegro · Un poco meno mosso · Vivace · Allegretto · Meno mosso assai [semyon gulak-artemovsky (1813 - 1873), from ‘A Cossack Beyond the Danube’, Duet of Odarka and Ivan Karas, Act I]",,,,Arrangements for voice(s) with violin and violoncello accompaniment
-,,the Little Mermaid,Ballet,,Petrograd,1922 – 1923,,,lost,,Ballet on a libretto by Yuri Iosifovich Slonimsky and Dmitri Shostakovich after Hans Christian Anderen’s eponymous fairy tale
-,,Dances of the Dolls,,,,,"1. Lyrical Waltz Moderato
+,Petrograd,1922 – 1923,,the Little Mermaid,Ballet,,,,lost,,Ballet on a libretto by Yuri Iosifovich Slonimsky and Dmitri Shostakovich after Hans Christian Anderen’s eponymous fairy tale
+,,,,Dances of the Dolls,,,"1. Lyrical Waltz Moderato
 2. Gavotte Tranquillo, leggiero
 3. Romance Moderato, espressivo
 4. Polka Allegro ma non troppo · Poco vivo · Tempo I
 5. Waltz-Scherzo (Petite Ballerina) Vivo, ma non troppo
 6. Hurdy-Gurdy Allegro non troppo
 7. Dance Allegro ma non troppo presto",,,,compiled and arranged by Levon Atovmyan (1952)
-,,Ballet Suite No. 4,Suite,,,,"1. Prelude [Variations] Andante (quasi Largo)
+,,,,Ballet Suite No. 4,Suite,,"1. Prelude [Variations] Andante (quasi Largo)
 2. Waltz Allegretto quasi allegro
 3. Scherzo Allegro vivo",3(III=picc).3(III=corA).3(III=Ebcl).3(III=dbn)-4.3.3.1-timp.perc(tgl/tamb/SD/cyms/glsp/xyl)-hp-cel-strings,,,compiled and arranged by Levon Atovmyan (1953)
-,,Ballet Suite No. 1,Suite,,,,"1. Lyrical Waltz Tempo moderato di valse
+,,,,Ballet Suite No. 1,Suite,,"1. Lyrical Waltz Tempo moderato di valse
 2. Dance Allegro non troppo · Più mosso · Tempo I
 3. Romance Moderato (q = 80)
 4. Polka Tempo di polca
 5. Waltz-Joke Allegro ma non troppo
 6. Gallop Presto",2(II=picc).1.2.1-3.2.2.1-timp.perc(tgl/tamb/SD/cym/glsp/xyl/vib)-cel-pft-strings,,,"compiled and arranged by Levon Atovmyan (no later than 1949)
 Originally Op. 84"
-,,Ballet Suite No. 2,Suite,,,,"1. Waltz Allegretto scherzoso
+,,,,Ballet Suite No. 2,Suite,,"1. Waltz Allegretto scherzoso
 2. Adagio
 3. Polka Allegretto
 4. Sentimental Romance Moderato ironico
 5. Spring Waltz Allegro scherzando · Pocchissimo meno mosso · Tempo I
 6. Finale (Gallop) Presto",2(II=picc).1.2.1-3.2.2.1-timp.perc(tgl/SD/BD/cyms/glsp/xyl/vib)-cel(=pft)-strings,,,compiled and arranged by Levon Atovmyan (no later than 1951)
-,,Ballet Suite No. 3,Suite,,,,"1. Waltz Allegro bravura · Poco meno mosso · Allegretto bravura
+,,,,Ballet Suite No. 3,Suite,,"1. Waltz Allegro bravura · Poco meno mosso · Allegretto bravura
 2. Gavotte Allegretto
 3. Dance Allegro
 4. Elegy Andantino
 5. Waltz Tempo di valse
 6. Finale (Gallop) Allegro · Poco meno · Tempo I · Allegro vivo",2(II=picc).1.2.1-3.2.2.1-timp.perc(tgl/SD/BD/cyms/glsp/xyl/vib)-hp-cel-pft-strings,,,compiled and arranged by Levon Atovmyan (no later than 1951)
-,,Waltzes from Film Music,,,,,"1. Waltz from Maxim’s Return, Op. 45
+,,,,Waltzes from Film Music,,,"1. Waltz from Maxim’s Return, Op. 45
 2. Waltz from S uite from ‘The Golden Mountains’, Op. 30a
 3. Waltz from Michurin, Op. 78
 4. Waltz from P i r ogov, Op. 76
@@ -1273,17 +1273,17 @@ Originally Op. 84"
 6. Waltz from T he First Echelon, Op. 99
 7. Waltz from S ong of the Great Rivers, Op. 95
 8. Waltz from T he Human Comey, Op. 37",for orchestra,,,compiled by Levon Atovmyan (second half of the 1950s)
-,,Katerina Izmailova,,,,1966,,,,,Film version
-,,"Arrangement: Hey, Let’s Bang!",Song,,Leningrad,1929 (?),,3(III=picc).2.2.0-4.2.3.1-timp.perc:BD/cyms/tam-t-strings,,,Folk song arrangement (‘Song of the Volga Boatmen’)
-,,Arrangement: Cudgel,Song,,,1930s (late),,2.2.2.2-4.2.3.1-timp-strings,,,"Folks song arrangement for bass and orchestra
+,,1966,,Katerina Izmailova,,,,,,,Film version
+,Leningrad,1929 (?),,"Arrangement: Hey, Let’s Bang!",Song,,,3(III=picc).2.2.0-4.2.3.1-timp.perc:BD/cyms/tam-t-strings,,,Folk song arrangement (‘Song of the Volga Boatmen’)
+,,1930s (late),,Arrangement: Cudgel,Song,,,2.2.2.2-4.2.3.1-timp-strings,,,"Folks song arrangement for bass and orchestra
 Text: Vasili Bogdanov"
-,,On Combat Course,Incidental Music,,Leningrad,1932 summer – 1932/8,,,,,"Incidental music to the eponymous TRAM production by Arkadi Gorbenko, Nikolai Lvov and Mikhail Sokolovsky. 
+,Leningrad,1932 summer – 1932/8,,On Combat Course,Incidental Music,,,,,,"Incidental music to the eponymous TRAM production by Arkadi Gorbenko, Nikolai Lvov and Mikhail Sokolovsky. 
 Music jointly composed by Feodosi Rubtsov and Dmitri Shostakovich"
-,,Evgeni Onegin,Incidental Music,,,1964 – 1965,,,,,"Incidental musical to Nikolai Akimov’s play after Alexander Pushkin’s verse novel 
+,,1964 – 1965,,Evgeni Onegin,Incidental Music,,,,,,"Incidental musical to Nikolai Akimov’s play after Alexander Pushkin’s verse novel 
 for orchestra"
-,,Invincible Red Army,Song,,,1943(?),,for voice (choir) and piano,,,"jointly composed by Dmitri Shostakovich and Aram Khachaturyan
+,,1943(?),,Invincible Red Army,Song,,,for voice (choir) and piano,,,"jointly composed by Dmitri Shostakovich and Aram Khachaturyan
 Text by Mikhail Golodny"
-,,11 Variations on a Theme by Glinka,Keyboard Variation,,,1957,"1. Var. I Moderato maestoso
+,,1957,,11 Variations on a Theme by Glinka,Keyboard Variation,,"1. Var. I Moderato maestoso
 2. Var. II Allegro
 3. Var. III Andante assai
 4. Var. IV Moderato assai · Moderato sostenuto
@@ -1296,10 +1296,10 @@ Text by Mikhail Golodny"
 11. Var. XI (Finale) Moderato maestoso",Piano,,Homage to Mikhail Glinka on the occasion of the centenary of Glinka’s death,"Jointly composed by Eugen Kapp (No. 1), Vissarion Shebalin (Nos. 2 and 3), Andrei 
 Eshpai (No. 4), Rodion Shchedrin (No. 5), Georgi Sviridov (No. 6), Yuri Levitin (No. 7),
 Dmitri Kabalevsky (No. 10) and Dmitri Shostakovich (Nos. 8, 9 and 11)."
-,,Narodovoltsy,Opera,,Polenovo – Leningrad,1934/7-1934/8,,,unfinished,,Libretto (probably) by Alexander Preis and Dmitri Shostakovich based on Anton Chekhov and Mikhail Saltykov-Shchedrin
-,,Katyusha Maslova,Opera,,Leningrad,1941 spring,,,unfinished,,"Libretto by Anatoli Mariengof after Lev Tolstoy’s novel ‘Resurrection’
+,Polenovo – Leningrad,1934/7-1934/8,,Narodovoltsy,Opera,,,,unfinished,,Libretto (probably) by Alexander Preis and Dmitri Shostakovich based on Anton Chekhov and Mikhail Saltykov-Shchedrin
+,Leningrad,1941 spring,,Katyusha Maslova,Opera,,,,unfinished,,"Libretto by Anatoli Mariengof after Lev Tolstoy’s novel ‘Resurrection’
 Sketches only"
-,,Orango,Opera,,Moscow-Leningrad,1932/6-1932/7,"1. Overture Adagio · Allegro
+,Moscow-Leningrad,1932/6-1932/7,,Orango,Opera,,"1. Overture Adagio · Allegro
 2. [for bass, choir and orchestra] L’istesso tempo · Alla marcia
 3. [Foreigners I and II, Veselchak Andantino · Alla marcia
 4. [Nastya’s Dance] Andante
@@ -1311,9 +1311,9 @@ Sketches only"
 10. [Susanna, Zoologist, Orango, Veselchak, Voice from the crowd, choir Adagio · Andantino · Allegretto · Meno mosso
 11. [Renée, Armand, Paul, Veselchak, choir Allegretto · Tempo di valse · L’istesso tempo · Alla marcia · Presto","2.picc.2.corA.2.Ebcl.ssax.asax.2.dbn-6.3.3.1-perc:timp/tgl/rattle/wdbl/cast/
 ratchet/tamb/SD/BD/cyms/tam-t/whistle/claxon-charleston/SD/tD/BD/susp.cym-swanee whistle/flex/glsp/xyl)-banjo-strings",unfinished,,Libretto by Count Alexei Tolstoy and Alexander Starchakov
-,,the 12 Chairs,Opera,,Leningrad,1939,,,unfinished,,"Libretto by Evgeni Petrov and V. Vladimirov after the like-named story by Ilya Ilf and Evgeni Petrov
+,Leningrad,1939,,the 12 Chairs,Opera,,,,unfinished,,"Libretto by Evgeni Petrov and V. Vladimirov after the like-named story by Ilya Ilf and Evgeni Petrov
 Most likely Shostakovich only sketched a few portions of the work."
-,,the Great Lightning,Opera,,Leningrad,1932/3-1932/6/11,"1. Overture Allegro attacca 
+,Leningrad,1932/3-1932/6/11,,the Great Lightning,Opera,,"1. Overture Allegro attacca 
 2. Scene Allegro
 3. The Architect’s Song Allegretto
 4. Scene with an American Allegro
@@ -1323,16 +1323,16 @@ Most likely Shostakovich only sketched a few portions of the work."
 8. Duet of Egor and Semyon Allegro
 9. March of the Models Allegro","2.picc.2.corA.2.Ebcl.ssax.2.dbn-4.3.3.1-timp.perc:tgl/wdbl/SD/cyms/BD/
 gong/glsp/xyl/flex/tam-t-harp-strings",unfinished,,Libretto by Nikolai Aseev
-,,Annie Laurie,Song,,,1944,Molto moderato (e = 80),"for voice and chamber orchestra
+,,1944,,Annie Laurie,Song,,Molto moderato (e = 80),"for voice and chamber orchestra
 2.0.2.0-4.0.0.0-strings",,,"Music and words by Lady John Scott after William Douglas of Fingland
 Russian translation by Nazari Raisky"
-,,"Rimsky-Korsakov, 6 fragments",Film Music,,,1952,"1. Moderato con moto
+,,1952,,"Rimsky-Korsakov, 6 fragments",Film Music,,"1. Moderato con moto
 2. Allegro
 3. Andante
 4. Andante
 5. Moderato
 6. Rimsky-Korsakov’s Correction","piano [Nos. 1-4, 6], piano trio [No. 5]",,,Music to the film
-,,the Gypsies,Opera,,Petrograd,1920 – 1921,"1. Choir of the Gypsies Allegro [No. 1]
+,Petrograd,1920 – 1921,,the Gypsies,Opera,,"1. Choir of the Gypsies Allegro [No. 1]
 2. Trio of the Old Man, Zemfira and Aleko Moderato [No. 2]
 3. Intermezzo Moderato [No. 3]
 4. Recitativo (of the Old Man) and Dance Moderato [No. 4]
@@ -1340,25 +1340,25 @@ Russian translation by Nazari Raisky"
 6. Duet (of Zemfira and Aleko) Presto [No. 11]
 7. The Old Man’s Arietta [No. 12]
 8. Trio of Zemfira, Aleko and the Old Man Moderato [No. 13]",,incomplete,,Opera after Alexander Pushkin
-,,the Gamblers,Opera,,Kuibyshev,28 december 1941 – June 1942,"act i
+,Kuibyshev,28 december 1941 – June 1942,,the Gamblers,Opera,,"act i
 1. Introduction Allegretto 
 2. Scenes in the hotel (figs. 8-104)
 3. Card gambling Scene","3(II=picc,III=afl).3(II=corA).4(III=Ebcl,IV=bcl).3(III=dbn)-4.3.3.1-timp.
 perc:tgl/cast/tamb/SD/BD/cyms/xyl-bbalalaika-2hp-pft-strings",unfinished,,"Opera after Nikolai Gogol’s comedy
 Libretto by the composer"
-,,the Tale of the Priest and His Servant Balda,Opera,,,,,"4(II,III=picc).3(III=corA).4(II=Ebcl,III=bcl).2ssax.2tsax.3(III=dbn)
+,,,,the Tale of the Priest and His Servant Balda,Opera,,,"4(II,III=picc).3(III=corA).4(II=Ebcl,III=bcl).2ssax.2tsax.3(III=dbn)
 4.3.Bar.3.1-timp.perc:tgl/rattle/wdbl/tamb/SD/BD/cyms/t.bells/pistol/glsp/
 xyl/vib-hp-accordion-bayan.gtr.balalaika-strings",,Commissioned by the RSFSR Ministry of Culture,Opera in two acts compiled by Sofia Khentova (1980)
-,,Taras Bulba,Opera,,Petrograd,1915 –1916,,,lost,,Opera on the eponimous novella by Nikolai Gogol
-,,3 Pieces,Piece,,Leningrad,1940,"1. Prelude
+,Petrograd,1915 –1916,,Taras Bulba,Opera,,,,lost,,Opera on the eponimous novella by Nikolai Gogol
+,Leningrad,1940,,3 Pieces,Piece,,"1. Prelude
 2. Gavotte
 3. Waltz",solo violin,lost,,Originally Op. 59.
-,,Merry March in D major,March,D major,Moscow,1949/5,Allegretto,for two pianos,,Dedicated to Maxim Dmitrievich Shostakovich,Originally Op. 81.
-,,Suite for Jazz Orchestra No. 2,Suite,,Leningrad,1938 summer- 1938 early autumn,"1. Scherzo Allegretto alla marcia
+,Moscow,1949/5,,Merry March in D major,March,D major,Allegretto,for two pianos,,Dedicated to Maxim Dmitrievich Shostakovich,Originally Op. 81.
+,Leningrad,1938 summer- 1938 early autumn,,Suite for Jazz Orchestra No. 2,Suite,,"1. Scherzo Allegretto alla marcia
 2. Lullaby Andante
 3. Serenade Allegretto","0.0.2asax.2tsax.barsax-0.4.2.1-perc(2):wdbl/SD/BD/2susp.cyms;tgl/cast/flex/
 tam-t/glsp/xyl-3gtr-3banjos-pft-strings(6.0.0.0.2)",,Commissioned by the USSR State Jazz Orchestra,Reconstructed and orchestrated by Gerard McBurney
-,,Arrangement: Suite on Finnish Themes,Suite,,,1939/12/3,"1. Introduction. Feast days are for lads like these ... Energico [instrumental] 
+,,1939/12/3,,Arrangement: Suite on Finnish Themes,Suite,,"1. Introduction. Feast days are for lads like these ... Energico [instrumental] 
 2. The blue sky above me ... Giocoso · Meno mosso · Tempo I
 3. I went out into the grove on a summer’s night ... Lento non troppo [instrumental]
 4. Here in our village ... Andante
@@ -1369,32 +1369,32 @@ tam-t/glsp/xyl-3gtr-3banjos-pft-strings(6.0.0.0.2)",,Commissioned by the USSR St
 Russian texts: Nos. 2, 4, 5 and 6 by Manashir Yakubov on the basis of the original 
 Finnish lyrics – No. 7 by Vladimir Garlitsky based on N. Borovko-Lange’s transla
 tion."
-,,Concerto for Piano and Orchestra,Concerto,,Leningrad,1926,,,,,sketches only
-,,Suite for Bassoon and Piano,Suite,,,1934(?),,,,,sketches only
-,,the Devils,Song,,,1905/4/19,,Romance for high voice and piano,,,"sketches, Text: Alexander Pushkin"
-,,Unfinished Symphony,Symphony,,Leningrad,1934/11 – early 1935,Adagio · Allegro non troppo,"4(III=picc).4(IV=corA).4(III=Ebcl,IV=bcl).4(IV=dbn)-8.4.3.1-timp.tam-t-strings",,,"Symphonic fragment of 137 bars which may have been conceived as the first mo
+,Leningrad,1926,,Concerto for Piano and Orchestra,Concerto,,,,,,sketches only
+,,1934(?),,Suite for Bassoon and Piano,Suite,,,,,,sketches only
+,,1905/4/19,,the Devils,Song,,,Romance for high voice and piano,,,"sketches, Text: Alexander Pushkin"
+,Leningrad,1934/11 – early 1935,,Unfinished Symphony,Symphony,,Adagio · Allegro non troppo,"4(III=picc).4(IV=corA).4(III=Ebcl,IV=bcl).4(IV=dbn)-8.4.3.1-timp.tam-t-strings",,,"Symphonic fragment of 137 bars which may have been conceived as the first mo
 vement of a Fourth Symphony"
-,,Anthem of the Soviet Union (I) ‘Glory to Our Soviet Motherland’ in G major,Anthem,G major,,1943,Moderato (q = 96),"for mixed choir and orchestra
+,,1943,,Anthem of the Soviet Union (I) ‘Glory to Our Soviet Motherland’ in G major,Anthem,G major,Moderato (q = 96),"for mixed choir and orchestra
 3(III=picc).3.3.2-4.3.3.1.timp.perc:tgl/SD/cyms-strings",,,Text by Evgeni Dolmatovsky
-,,There were kisses ...,Song,,,,Moderato,for bass and piano,,,Text by Evgeni Dolmatovsky
-,,Romance,Song,,,1938/1941,,voice and piano,lost,,Text by Heinrich Heine
-,,A Toast to Our Motherland,Song,,,1944,Presto,"for tenor, mixed choir and piano",,,Text by Iosif Utkin
-,,March of Peace Champions,Song,,,1950 (?),Marciale,for choir and piano,,,Text by Konstantin Simonov
-,,Our Song,Song,,,1950,Moderato maestoso,"for bass, mixed choir and piano",,,Text by Konstantin Simonov
-,,Song of the Regiment of the Guards,Song,,Leningrad,1941/7/15,Allegro comodo,"bass, mixed choir and piano for the music ensemble of the People’s Volunteer 
+,,,,There were kisses ...,Song,,Moderato,for bass and piano,,,Text by Evgeni Dolmatovsky
+,,1938/1941,,Romance,Song,,,voice and piano,lost,,Text by Heinrich Heine
+,,1944,,A Toast to Our Motherland,Song,,Presto,"for tenor, mixed choir and piano",,,Text by Iosif Utkin
+,,1950 (?),,March of Peace Champions,Song,,Marciale,for choir and piano,,,Text by Konstantin Simonov
+,,1950,,Our Song,Song,,Moderato maestoso,"for bass, mixed choir and piano",,,Text by Konstantin Simonov
+,Leningrad,1941/7/15,,Song of the Regiment of the Guards,Song,,Allegro comodo,"bass, mixed choir and piano for the music ensemble of the People’s Volunteer 
 Corps Theatre in Leningrad",,,Text by Lev Rakhmilevich
-,,From Karl Marx to Our Own Days,Song,,,1932/8,,,"unfinished, lost",,Text by Nikolai Aseev
-,,Anthem of the Soviet Union (II) ‘Unbreakable Union of Freeborn Republics’ in E-flat major,Anthem,E-flat major,,1943,Moderato,"for mixed choir and orchestra
+,,1932/8,,From Karl Marx to Our Own Days,Song,,,,"unfinished, lost",,Text by Nikolai Aseev
+,,1943,,Anthem of the Soviet Union (II) ‘Unbreakable Union of Freeborn Republics’ in E-flat major,Anthem,E-flat major,Moderato,"for mixed choir and orchestra
 3(III=picc).3(III=corA).4(III=Ebclar,IV=bcl).3(III=dbn)-4.3.3.1-timp.perc:tgl/
 SD/BD/cyms-strings",,,Text by Sergei Mikhalkov and El-Registan
-,,Our Native Russia Has Gained Strength from Storms,Song,,,october 1945,Moderato,"for mixed choir and orchestra
+,,october 1945,,Our Native Russia Has Gained Strength from Storms,Song,,Moderato,"for mixed choir and orchestra
 3(III=picc).3.3.3(III=db bn)-4.3.3.1-timp.perc:tgl/SD/BD/cyms-strings",,,Text by Stepan Shchipachyov
-,,A Great Day Has Come,Song,,Leningrad,1941,Moderato,"bass, choir and piano",,,Text by Vissarion Sayanov – written for the NKVD Ensemble
-,,Antiformalistic Rayok,Song,,,1948 – 1957 – late 60ies (?),Moderato (q = 92) · Allegretto (q k = 60) · Adagio · Moderato · Allegretto · Allegro · Moderato · Allegretto · Presto · Moderato · Adagio · Alla marcia · Maestoso ·  Meno mosso · Presto,"for four basses, mixed choir, piano and narrator",,,Text: Dmitri Shostakovich
-,,I Love…,Song,,Gaspra,1933/9/6,,tenor and piano,,,Text: Dmitri Shostakovich (?)
-,,Madrigal (Impromptu),Song,,Leningrad,1933/2/22,Allegretto maestoso,tenor and piano,,,Text: Mikhail Pravdin
-,,Lenin Symphony,Symphony,,,1938/4/15–1940(?),,"soloists, choir and orchestra",lost,,Text: Vladimir Mayakovsky’s poem ‘Vladimir Ilyich Lenin’ and verses by folk poets Suleiman Stalsky and Dzhambul Dzhabayev
-,,8 British and American Folksongs,Song,,,12 may/July 1943,"1. The Sailor’s Bride [Nevesta moryaka] Allegretto
+,Leningrad,1941,,A Great Day Has Come,Song,,Moderato,"bass, choir and piano",,,Text by Vissarion Sayanov – written for the NKVD Ensemble
+,,1948 – 1957 – late 60ies (?),,Antiformalistic Rayok,Song,,Moderato (q = 92) · Allegretto (q k = 60) · Adagio · Moderato · Allegretto · Allegro · Moderato · Allegretto · Presto · Moderato · Adagio · Alla marcia · Maestoso ·  Meno mosso · Presto,"for four basses, mixed choir, piano and narrator",,,Text: Dmitri Shostakovich
+,Gaspra,1933/9/6,,I Love…,Song,,,tenor and piano,,,Text: Dmitri Shostakovich (?)
+,Leningrad,1933/2/22,,Madrigal (Impromptu),Song,,Allegretto maestoso,tenor and piano,,,Text: Mikhail Pravdin
+,,1938/4/15–1940(?),,Lenin Symphony,Symphony,,,"soloists, choir and orchestra",lost,,Text: Vladimir Mayakovsky’s poem ‘Vladimir Ilyich Lenin’ and verses by folk poets Suleiman Stalsky and Dzhambul Dzhabayev
+,,12 may/July 1943,,8 British and American Folksongs,Song,,"1. The Sailor’s Bride [Nevesta moryaka] Allegretto
 2. John Anderson Lento, espressivo
 3. Billy Boy Vivo
 4. Oh, the Oak and the Ash [O, moi yasen i dub] Moderato
@@ -1414,11 +1414,11 @@ Translations by
 Samuil Bolotin (Nos. 1, 2, 4, 5, 8), 
 Tatyana Sikorskaya (Nos. 2, 3, 5, 7),
 Samuil Marshak (No. 6)"
-,,Greek Songs,Song,,,1952 – 1953,"1. Forward! [Song of the Greek Resistance] (q = 102)
+,,1952 – 1953,,Greek Songs,Song,,"1. Forward! [Song of the Greek Resistance] (q = 102)
 2. Pentozalis (q = 96)
 3. Zolongo (q = 58)
 4. Hymn of ELAS (q = 112)",Arrangements for voice and piano,,,"Texts by Kostís Palamás (No. 1), Sofia Mavroidi-Papadaki (No. 4) and traditional lyrics translated into Russian by Samuil Bolotin (Nos. 1, 2, 4) and Tatyana Sikorskaya (Nos. 1, 3). The melody of No. 1 was composed by Alekos Xenos, the one of No. 4 by A. Tsakonas."
-,,10 Russian Folksongs,Song,,Moscow,summer 1951,"1. All of a Sudden There was a Clap of Thunder over Moscow Ne spesha [Andante] (q = 108)
+,Moscow,summer 1951,,10 Russian Folksongs,Song,,"1. All of a Sudden There was a Clap of Thunder over Moscow Ne spesha [Andante] (q = 108)
 2. Beyond the Mountains, Beyond the Valleys Bystro [Allegro] (q = 128)
 3. Out of the Forest of Spears and Swords V tempie marsha [Alla marcia] (q = 120)
 4. Nights are Dark, the Clouds are Menacing Umerenno [Moderato] (e = 96)
@@ -1435,7 +1435,7 @@ for contralto, mixed choir and piano (Nos. 5 and 6),
 for soprano, female choir and piano (No. 7), 
 for mixed choir and piano (No. 8)，
 for soprano, mixed choir and piano (No. 9)",,,"Texts by Mikhail Shatrov (No. 1), Alexei Mashistov (No. 3), Vasili Mezhevich (No. 10) and traditional (Nos. 3-9)"
-,,"Suite from ‘Belinsky’, op. 85a",Suite,,,,"1. Overture Allegro
+,,,,"Suite from ‘Belinsky’, op. 85a",Suite,,"1. Overture Allegro
 2. Sorrowful Song (A Talk of Mine) Adagio
 3. People’s Might Allegro molto
 4. Intermezzo Moderato pesante
@@ -1443,79 +1443,79 @@ for soprano, mixed choir and piano (No. 9)",,,"Texts by Mikhail Shatrov (No. 1),
 6. Scene Moderato con moto
 7. Finale Allegro molto","for orchestra with choir
 3(III=picc).3.3.3(III=dbn)-4.3.3.1-timp.perc:tgl/SD/BD/cyms/tam-t/t.bells/glsp/xyl-hp-strings",,,Texts by Viktor Nekrasov (No. 3) and traditional (No. 2)
-,,3 Choruses for the 40th Anniversary of the October Revolution,,,,1957,"1. The Dawn of October Grave (q = 60)
+,,1957,,3 Choruses for the 40th Anniversary of the October Revolution,,,"1. The Dawn of October Grave (q = 60)
 2. We Cherish the October Dawns in Our Hearts Maestoso
 3. We Sing Glory to Our Motherland Maestoso",for choir and piano,,,Texts by Vladimir Kharitonov (No. 1) and Valentin Sidorov (Nos. 2 and 3)
-,,Symphonic Fragment in E-flat major,Symphony,E-flat major,,1945,Allegro non troppo,"4(III,IV=picc).4(IV=corA).5(IV=ebcl,V=bcl).4(IV=dbn)-4.4.4.2-timp.perc:SD/
+,,1945,,Symphonic Fragment in E-flat major,Symphony,E-flat major,Allegro non troppo,"4(III,IV=picc).4(IV=corA).5(IV=ebcl,V=bcl).4(IV=dbn)-4.4.4.2-timp.perc:SD/
 cyms/xyl-strings",,,"which may have been envisaged as the first movement of 
 a Ninth Symphony"
-,,2 Pieces for String Quartet,Piece,,Batumi,1931/10/31–1931/11/1,"1. Elegy [F sharp minor] Adagio · Più mosso · Tempo I
+,Batumi,1931/10/31–1931/11/1,,2 Pieces for String Quartet,Piece,,"1. Elegy [F sharp minor] Adagio · Più mosso · Tempo I
 2. Polka [B flat major] Allegretto · Allegro",,,Dedicated to the Jean-Baptiste Villaume Quartet,
-,,"2 Preludes, ""op. 1""",Prelude,,Petrograd,1919,"1. Prelude in G minor Agitato
+,Petrograd,1919,,"2 Preludes, ""op. 1""",Prelude,,"1. Prelude in G minor Agitato
 2. Prelude in G major Prestissimo",piano,,Dedicated to Boris Mikhailovich Kustodiev (No. 1),
-,,3 Piano Pieces,Piano Piece,,Petrograd,1919 – 1920,"1. Menuet Allegretto
+,Petrograd,1919 – 1920,,3 Piano Pieces,Piano Piece,,"1. Menuet Allegretto
 2. Prelude Lento, ma non troppo
 3. Intermezzo Allegretto",piano,,,
-,,3 Piano Pieces,Piano Piece,,Petrograd,1921 – 1922,"1. Humoreske in C major
+,Petrograd,1921 – 1922,,3 Piano Pieces,Piano Piece,,"1. Humoreske in C major
 2. Fugicha in F minor
 3. Chromatic Fugue in D minor",piano,fragments,,
-,,3 Pieces,Piece,,,1947 – 1948,,orchestra,lost,,
-,,5 Piano Pieces,Piano Piece,,Petrograd,1914 –1915,"1. The Soldier
+,,1947 – 1948,,3 Pieces,Piece,,,orchestra,lost,,
+,Petrograd,1914 –1915,,5 Piano Pieces,Piano Piece,,"1. The Soldier
 2. Fiery Sonata
 3. The Noise of a Train
 4. The Storm
 5. The Tempest",piano,lost,,
-,,5 Preludes,Prelude,,Petrograd,1921(?),"1. A minor Allegro moderato e scherzando [No. 5 from op. 2]
+,Petrograd,1921(?),,5 Preludes,Prelude,,"1. A minor Allegro moderato e scherzando [No. 5 from op. 2]
 2. G major Andante [No. 2 from op. 2]
 3. E minor Allegro moderato [No. 3 from op. 2]
 4. D flat major Moderato · Andante amoroso · Moderato · Andante cantabile [No. 7 from op. 2]
 5. F minor Andantino [No. 6 from op. 2]",piano,,,
-,,7 Fugues,Fugue,,Petrograd,1922 – 1923,"1. C major 2 voci  
+,Petrograd,1922 – 1923,,7 Fugues,Fugue,,"1. C major 2 voci  
 2. F major 4 voci 
 3. E minor 4 voci
 4. D minor 4 voci
 5. C minor 4 voci incomplete
 6. D major 4 voci incomplete
 7. C minor 4 voci incomplete",piano,,,
-,,Bagatelle,Bagatelle,,Petrograd,1919,,piano,,Dedicated to Marianna Fyodorovna Gramenitskaya,
-,,Ceremonial March in D‐flat major,March,D‐flat major,,1940 (late) - 1941 (early),Allegro non troppo,"military band
+,Petrograd,1919,,Bagatelle,Bagatelle,,,piano,,Dedicated to Marianna Fyodorovna Gramenitskaya,
+,,1940 (late) - 1941 (early),,Ceremonial March in D‐flat major,March,D‐flat major,Allegro non troppo,"military band
 2(II=picc).2.4(IV=Ebcl).2-4.2.3.2-perc:SD/BD/cyms-banda:2crt/2ahn/2thn/
 barhn/2tubas
 picc, ob, bn, horns III and IV, trbn ad lib.",,,
-,,Dance in C minor,Piano Piece,,Petrograd,1923/11/30,Moderato quasi Allegretto,piano,,Dedicated to Zoya Dmitrievna Shostakovich,
-,,Exercise Piece,Piano Piece,,Petrograd,1919 – 1920,,2 pianos,incomplete,,
-,,Exercise Pieces,Piano Piece,,Petrograd,1919 – 1920,"1. Piece in F Major Moderato · Presto
+,Petrograd,1923/11/30,,Dance in C minor,Piano Piece,,Moderato quasi Allegretto,piano,,Dedicated to Zoya Dmitrievna Shostakovich,
+,Petrograd,1919 – 1920,,Exercise Piece,Piano Piece,,,2 pianos,incomplete,,
+,Petrograd,1919 – 1920,,Exercise Pieces,Piano Piece,,"1. Piece in F Major Moderato · Presto
 2. Piece in F Major Andantino · Allegro
 3. Piece in C sharp Minor Adagio · Presto, molto agitato con fuoco · Prestissimo
 4. Movimento in C Major
 5. Piece in C Major [Presto] incomplete
 6. Piece in C Major incomplete",piano,,,
-,,Four Fugues,Piece,,Polenovo,1934/7/22-1934/7/28,"1. C major 4 voci
+,Polenovo,1934/7/22-1934/7/28,,Four Fugues,Piece,,"1. C major 4 voci
 2. A minor 3 voci
 3. G major 4 voci
 4. E minor 2 voci unfinished",piano,,,
-,,Funeral March on Sergei Kirov’s Death,March,,Leningrad,1934/12/,,,lost,,
-,,"Funeral March, in Memory of the Victims of the Revolution",March,,Petrograd,1918/1,,piano,,,
-,,German March from the Music to the Film “The Warmongers”,March,,,1950,Allegro,"for woodwinds and percussion
+,Leningrad,1934/12/,,Funeral March on Sergei Kirov’s Death,March,,,,lost,,
+,Petrograd,1918/1,,"Funeral March, in Memory of the Victims of the Revolution",March,,,piano,,,
+,,1950,,German March from the Music to the Film “The Warmongers”,March,,Allegro,"for woodwinds and percussion
 4(III,IV=picc).0.1.0-0.0.0.0-perc:tamb/6SD/4BD",,,
-,,Hymn to Freedom,Piano Piece,,Petrograd,1915 –1916,,piano,lost,,
-,,Hymn to Moscow,Hymn,,,1948,Moderato,for choir and piano,,,
-,,Impromptu,Piece,,Leningrad,1931/5/2,Adagio · Allegro,viola and piano,,Dedicated to Alexander Mikhailovich Ryvkin,
-,,In the Beginning Was…,Song,,Petrograd,1921 – 1922,,"soprano, contralto, tenor and bass or mixed choir",fragment,,
-,,Moderato,Piece,,Polenovo,1934/7-1934/8/15,,violoncello and piano,,,
-,,Murzilka,Piece,,,1944-1945,Allegretto,for piano,,,
-,,Nostalgia,Piano Piece,,Petrograd,1918,,piano,,,
-,,Novorossiisk Chimes,,,Moscow,1960,Moderato,3(III=picc).3(III=corA).3.2-4.3.3.1-timp.perc:tgl/SD/cyms-cel-strings,,"In Commemoration of the Heroes of the Great Patriotic War
+,Petrograd,1915 –1916,,Hymn to Freedom,Piano Piece,,,piano,lost,,
+,,1948,,Hymn to Moscow,Hymn,,Moderato,for choir and piano,,,
+,Leningrad,1931/5/2,,Impromptu,Piece,,Adagio · Allegro,viola and piano,,Dedicated to Alexander Mikhailovich Ryvkin,
+,Petrograd,1921 – 1922,,In the Beginning Was…,Song,,,"soprano, contralto, tenor and bass or mixed choir",fragment,,
+,Polenovo,1934/7-1934/8/15,,Moderato,Piece,,,violoncello and piano,,,
+,,1944-1945,,Murzilka,Piece,,Allegretto,for piano,,,
+,Petrograd,1918,,Nostalgia,Piano Piece,,,piano,,,
+,Moscow,1960,,Novorossiisk Chimes,,,Moderato,3(III=picc).3(III=corA).3.2-4.3.3.1-timp.perc:tgl/SD/cyms-cel-strings,,"In Commemoration of the Heroes of the Great Patriotic War
 Commissioned by the City of Novorossiisk",
-,,Piano Piece in G major,Piano Piece,G major,Petrograd,1922 – 1924,Mistico,,,,
-,,Piano Pieces from the Exercise Book “1919”,Piano Piece,,Petrograd,1919,"1. Piece in C major Moderato
+,Petrograd,1922 – 1924,,Piano Piece in G major,Piano Piece,G major,Mistico,,,,
+,Petrograd,1919,,Piano Pieces from the Exercise Book “1919”,Piano Piece,,"1. Piece in C major Moderato
 2. Prelude-March Adagio maestoso
 3. In the Forest Presto · Tempo di valse · Tempo I",piano,,,
-,,Piano Quintet,Quintet,,Petrograd,1923,"1. lost
+,Petrograd,1923,,Piano Quintet,Quintet,,"1. lost
 2. Fantastic Scherzo [beginning]",,unfinished,,
-,,Prelude,Prelude,,Petrograd,1920 – 1921,,violoncello,incomplete,,
-,,Revolutionary Symphony,Symphony,,Petrograd,1917 – 1918/4,,"orchestra, 1.1.1.1-0.0.1.0-SD-strings",fragments,,
-,,Russian Folksongs,Song,,Moscow,1952(?),"1. [Without title]
+,Petrograd,1920 – 1921,,Prelude,Prelude,,,violoncello,incomplete,,
+,Petrograd,1917 – 1918/4,,Revolutionary Symphony,Symphony,,,"orchestra, 1.1.1.1-0.0.1.0-SD-strings",fragments,,
+,Moscow,1952(?),,Russian Folksongs,Song,,"1. [Without title]
 2. Don’t Fly Away, Nightingale
 3. A Birch Tree On the Field
 4. Greeting (from Nikolai Rimsky-Korsakov’s opera ‘The Maid of Pskov’)
@@ -1534,17 +1534,17 @@ Commissioned by the City of Novorossiisk",
 17. How Fair the Birch Tree
 18. Wedding Song (on an arrangement by Mikhail Glinka)
 19. It is not Sleep that Bends my Head from Nikolai Rimsky-Korsakov’s opera ‘The Snow Maiden’",Arrangements for flute and piano,,,
-,,Scherzo,Scherzo,,Petrograd,1923 – 1924/2,,orchestra,lost,,
-,,Sonata for Piano,Sonata,,Petrograd,1923 – 1924,,,lost,,
-,,Sonata for Piano in B‐sharp minor,Sonata,B‐sharp minor,Petrograd,1920 – 1921,"1. [Allegro]
+,Petrograd,1923 – 1924/2,,Scherzo,Scherzo,,,orchestra,lost,,
+,Petrograd,1923 – 1924,,Sonata for Piano,Sonata,,,,lost,,
+,Petrograd,1920 – 1921,,Sonata for Piano in B‐sharp minor,Sonata,B‐sharp minor,"1. [Allegro]
 2. Andante con moto
 3. [Scherzo]
 4. [?]",,incomplete,,
-,,Suite for Jazz Orchestra No. 1,Suite,,Leningrad,1934/1-1934/2,"1. Waltz Moderato
+,Leningrad,1934/1-1934/2,,Suite for Jazz Orchestra No. 1,Suite,,"1. Waltz Moderato
 2. Polka Allegretto
 3. Foxtrot (Blues) Moderato","0.0.ssax(=asax).asax.tsax.0-0.2.1.0-perc:wdbl/SD/cyms/glsp/xyl-banjo-ha
 waiian gtr-pft-vln.db",,,
-,,Suite for Variety Orchestra No. 1,Suite,,,after 1956,"1. March Giocoso. Alla marcia
+,,after 1956,,Suite for Variety Orchestra No. 1,Suite,,"1. March Giocoso. Alla marcia
 2. Dance I Presto
 3. Dance II Allegretto scherzando · Poco meno mosso · Tempo I
 4. Little Polka Allegretto · Poco più mosso
@@ -1552,9 +1552,9 @@ waiian gtr-pft-vln.db",,,
 6. Waltz I Sostenuto · Tempo di valse · Poco più mosso
 7. Waltz II Allegretto poco moderato
 8. Finale Allegro moderato",2(II=picc).1.2.2asax.2tsax(I=ssax).1-3.3.3.1-timp.perc:tgl/tamb/SD/BD/cym/charleston/susp.cym/glsp/xyl/vib-gtr-hp-cel-2pft-acc-strings,,,
-,,Suite for Violin and Piano,Suite,,Petrograd,1923 – 1924,,,lost,Dedicated to Veniamin Iosifovich Sher,
-,,Tarantella,,,,1954(?),Presto,for two pianos,,,
-,,the Black Sea,Song,,,1944,Allegro moderato,"for bass, male choir and piano",,,
-,,Unfinished Sonata for Violin and Piano,Sonata,,,1945,1. Moderato con moto,,unfinished,,
-,,Unfinished String Quartet,Quartet,,,1961,1. Allegretto,,,,
-,,Variations on a Romance “The Lark” by Mikhail Glinka,Keyboard Variation,,Petrograd,1919,,piano,unfinished,,
+,Petrograd,1923 – 1924,,Suite for Violin and Piano,Suite,,,,lost,Dedicated to Veniamin Iosifovich Sher,
+,,1954(?),,Tarantella,,,Presto,for two pianos,,,
+,,1944,,the Black Sea,Song,,Allegro moderato,"for bass, male choir and piano",,,
+,,1945,,Unfinished Sonata for Violin and Piano,Sonata,,1. Moderato con moto,,unfinished,,
+,,1961,,Unfinished String Quartet,Quartet,,1. Allegretto,,,,
+,Petrograd,1919,,Variations on a Romance “The Lark” by Mikhail Glinka,Keyboard Variation,,,piano,unfinished,,

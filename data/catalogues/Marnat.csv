@@ -1,21 +1,21 @@
-SORT,Catalogue,Date,Title,Type,Key,Workpart,Instrumentation,Note
-1,M. 1,1888,Mouvement de sonate,,,,Piano,"Exercice pour les cours de Charles-René, [perdu]"
+SORT,Catalogue,Date,Title,Genre,Key,Work structure,Instrumentation,Note
+1,M. 1,1888,Mouvement de sonate,Sonata,,,Piano,"Exercice pour les cours de Charles-René, [perdu]"
 2,M. 2,1888,Variations sur un thème de Grieg,Keyboard Variation,,,Piano,"Exercice pour les cours de Charles-René, ""La mort d'Aase"", extrait de la musique de scène pour le Peer Gynt d'Ibsen"
 3,M. 3,1888,Variations sur un thème de Schumann,Keyboard Variation,,,Piano,"Exercice pour les cours de Charles-René, Choral ""Freu dich, o meine Seele"" de l'Album pour la jeunesse (Op. 68)"
 4,M. 4,1893,Ballade de la reine morte d'aimer: En Bohème était une reine,Mélodie,D minor,Andante (d),"Voice, Piano",Texte: Roland de Marès
-5,M. 5,1892-1893,Sérénade grotesque,,,Très rude (f♯),Solo Piano,
-6,M. 6,1895,Un grand sommeil noir: Un grand sommeil noir,,,Lent et sourd mais jamais très marqué (c♯),"Low Voice, Piano",Texte: Paul Verlaine
-7,M. 7,1895,Menuet antique,,F-sharp minor,Maestoso (f♯),Solo Piano,"arrangement for orchestra, Ravel, 1929 (Piccolo, 2 Flutes, 2 Oboes, English Horn, 2 Clarinets, Bass Clarinet, 2 Bassoon, Contrebassoon, 4 Horns, 3 Trumpets, 2 Trombones, Tuba, 2 Timpani, Harp, 2 Violins, Viola, Cello, Double Bass)"
-8,M. 8,1895,Habanera,,,En demi-teinte et d'un rythme las (f♯),2 Pianos,"Sites auriculaires, #1
+5,M. 5,1892-1893,Sérénade grotesque,Serenade,F-sharp minor,Très rude (f♯),Solo Piano,
+6,M. 6,1895,Un grand sommeil noir,,C-sharp minor,Lent et sourd mais jamais très marqué (c♯),"Low Voice, Piano",Texte: Paul Verlaine
+7,M. 7,1895,Menuet antique,Minuet,F-sharp minor,Maestoso (f♯),Solo Piano,"arrangement for orchestra, Ravel, 1929 (Piccolo, 2 Flutes, 2 Oboes, English Horn, 2 Clarinets, Bass Clarinet, 2 Bassoon, Contrebassoon, 4 Horns, 3 Trumpets, 2 Trombones, Tuba, 2 Timpani, Harp, 2 Violins, Viola, Cello, Double Bass)"
+8,M. 8,1895,Habanera,,F-sharp minor,En demi-teinte et d'un rythme las (f♯),2 Pianos,"Sites auriculaires, #1
 transcription pour orchestre: 3è partie de la Rhapsodie espagnole ,1907 (voir #54 ci-dessous)"
 9,M. 9,1896,Sainte: À la fenêtre recélant,Mélodie,G minor,Liturgiquement (g),"Violin, Piano",Texte: Stéphane Mallarmé
 10,M. 10,1896,D'Anne jouant de l'espinette: Lorsque je voy en ordre la brunette,,C-sharp minor,Très léger et d'un rythme précis (c♯),"Voice, Harpsichord/Piano","Texte:Clément Marot: Épigramme II, #22"
 11,M. 11,1896,La parade,,,"[2 valses, 2 marches, 1 mazurka]",Piano,Esquisse de ballet d'après un livret d'Antonine Meunier
 12,M. 12,1897,Violin Sonata,Sonata,,Allegro,"Piano, Violin",Sonate #1
 13,M. 13,1897,Entre cloches,,F minor,Allègrement (f),2 Pianos,"Sites auriculaires, #2"
-14,M. 14,1898,Valse,,D major,Moderato (E),Piano,
-15,M. 15,1898,Chanson du rouet: O mon cher rouet,Mélodie,,Très lent (f♯),"Voice, Piano",Texte: Leconte de Lisle
-16,M. 16,1898,"Si morne!: Se replier toujours, sur soi-même",Mélodie,,Très lent (f♯),"Voice, Piano",Texte:Émile Verhaeren
+14,M. 14,1898,Valse,Waltz,D major,Moderato (E),Piano,
+15,M. 15,1898,Chanson du rouet: O mon cher rouet,Mélodie,F-sharp minor,Très lent (f♯),"Voice, Piano",Texte: Leconte de Lisle
+16,M. 16,1898,"Si morne!: Se replier toujours, sur soi-même",Mélodie,F-sharp minor,Très lent (f♯),"Voice, Piano",Texte:Émile Verhaeren
 17,M. 17,1898,Schéhérazade,,,,"3 Flutes, 3 Oboes, 2 Clarinets, 3 Bassoons, Sarrusophone, 4 Horns, 4 Trumpets, 3 Trombones, Tuba, Timpani, Percussion, Celesta, 2 Harps, 2 Violins, Viola, Cello, Double Bass","Inspiré de Milles et une nuits, traduction de Mardrus
 version originale pour piano quatre mains
 deux transcriptions pour orchestre «similaires mais non identiques»
@@ -24,18 +24,18 @@ deux transcriptions pour orchestre «similaires mais non identiques»
 [esquisses détruites sauf une ""symphonie horlogère"" qui constitue le début de l'Heure espagnole ♯ 52 ci-dessous]"
 19,M. 19,1899,Pavane pour une infante défunte,,G major,Lent (G),Piano,"transcription pour orchestre, Ravel, 1910
 (2 Flutes, Oboes, 2 Clarinets, 2 Bassoon, Horn, Harp, 2 Violins, Viola, Cello, Double Bass)"
-20,M. 20,1899,Fugue,Piece,,,,"soustraite, par Ravel lui-même, du concours d'essai pour le prix de Rome
+20,M. 20,1899,Fugue,Fugue,,,,"soustraite, par Ravel lui-même, du concours d'essai pour le prix de Rome
 [Lost]"
-21,M. 21,1899,D'Anne qui me jecta de la neige: Anne par jeu me jecta de la neige,Mélodie,,Très lent (g♯),"Voice, Piano","Texte: Clément Marot: Épigramme I, #11"
+21,M. 21,1899,D'Anne qui me jecta de la neige: Anne par jeu me jecta de la neige,Mélodie,G-sharp minor,Très lent (g♯),"Voice, Piano","Texte: Clément Marot: Épigramme I, #11"
 22,M. 22,1900,Callerhoe,,,,,"Lost
 Pièce pour le concours d'essai au prix de Rome"
-23,M. 23,1900,Fugue,Piece,D major,,Piano,Pièce de concours pour le prix de Rome
-24,M. 24,1900,Fugue à quatre voix sur un thème de Reber,Piece,F major,,Piano,
+23,M. 23,1900,Fugue,Fugue,D major,,Piano,Pièce de concours pour le prix de Rome
+24,M. 24,1900,Fugue à quatre voix sur un thème de Reber,Fugue,F major,,Piano,
 25,M. 25,1900,Les Bayadères,,G minor,,"Soprano, Mixed Choir, Orchestra","Texte:Auteur inconnu
 Pièce de concours pour le prix de Rome"
 26,M. 26,1900,Prélude et fugue,,,,Piano,"Morceau de conservatoire pour le prix de composition
 [perdu]"
-27,M. 27,1900,Fugue,Piece,F major,,Piano,Pièce de concours pour le prix de Rome
+27,M. 27,1900,Fugue,Fugue,F major,,Piano,Pièce de concours pour le prix de Rome
 28,M. 28,1901,Tout est lumière,,A major,,"Soprano, Mixed Choir, Orchestra","Texte: Auteur inconnu
 Pièce de concours pour le prix de Rome"
 29,M. 29,1901,Myrrha,Cantata,,,"Soprano, Tenor, Baritone, Orchestra","Texte: Fernand Beissier, d'après la scène finale de ""Sardanapale"" de Lord Byron
@@ -43,7 +43,7 @@ Pièce de concours pour le prix de Rome"
 30,M. 30,1901,Jeux d'eau,,E major,Très doux (E),Piano,
 31,M. 31,1902,Semiramis,,,,,"Pièce pour le prix de composition du conservatoire
 [perdu]"
-32,M. 32,1902,Fugue,Piece,E-flat major,,Piano,Pièce de concours pour le prix de Rome
+32,M. 32,1902,Fugue,Fugue,E-flat major,,Piano,Pièce de concours pour le prix de Rome
 33,M. 33,1902,La nuit,,E-flat major,,"Soprano, Mixed Choir, Orchestra","Texte: Auteur inconnu
 Pièce de concours pour le prix de Rome"
 34,M. 34,1902,Alcyone,Cantata,,,,"Texte: Eugène et Edouard Adenis, d'après un épisode (Le Roi Ceix) des ""Métamorphoses"" d'Ovide
@@ -52,7 +52,7 @@ Pièce de concours pour le prix de Rome"
 2. Assez vif, très rythmé (A)
 3. Très lent (G♭)
 4. Vif et agité (F)",Strings,
-36,M. 36,1903,Fugue,Piece,E minor,,Piano,Pièce de concours pour le prix de Rome
+36,M. 36,1903,Fugue,Fugue,E minor,,Piano,Pièce de concours pour le prix de Rome
 37,M. 37,1903,Matinée de Provence,,,,"pièce chorale, en A, pour soprano et choeur mixte avec orchestre","Texte: Auteur inconnu
 Pièce de concours pour le prix de Rome"
 38,M. 38,1903,Alyssa,Cantata,,,"Soprano, Tenor, Baritone, Orchestra","Texte: Marguerite Coiffier d'après une légende irlandaise
@@ -60,13 +60,13 @@ Pièce de concours pour le prix de Rome"
 39,M. 39,1903,Manteau de fleurs: Toutes les fleurs de mon jardin sont roses,Mélodie,,,"Voice, Piano","Texte: Paul Gravollet
 arrangement pour voix et orchestre, Ravel, sans date
 ♯ 19 du recueil collectif intitulé Frissons: mélodies sur des textes de Paul Gravollet"
-40,M. 40,1903-1905,Sonatine pour piano,Sonata,,"1. Modéré (f♯)
+40,M. 40,1903-1905,Sonatine pour piano,Sonata,F-sharp minor,"1. Modéré (f♯)
 2. Mouvement de menuet (D♭)
 3. Animé (f♯)",Piano,
 41,M. 41,1903,Schéhérazade,Mélodie,,"1. Asie: Asie, Asie. Très lent (e♭)(Piccolo, 2 Flutes, 2 Oboes, English Horn, 2 Clarinets, 2 Bassoon, 4 Horns, 2 Trumpets, 3 Trombones, Tuba, Timpani, Triangle, Basque Drum, Side Drum, Cymbal, Bass Drum, Tam-tam, jeu de Timbres, 2 Harps, 2 Violins, Viola, Cello, Double Bass) 
 2. La Flute enchantée: L'ombre est douce et ton maître dort. Très lent (b♭)(2 Flutes, 2 Oboes, English Horn, 2 Clarinets, 2 Bassoon, 4 Horns, Triangle, Harp, 2 Violins, Viola, Cello, Double Bass) 
 3. L'indifférent: Tes yeux sont doux comme ceux d'une fille. Lent (c♯)(2 Flutes, 2 Oboes, English Horn, 2 Clarinets, 2 Bassoon, 2 Horns, Harp, 2 Violins, Viola, Cello, Double Bass)","Soprano/Tenor, 3 Flutes, 3 Oboes, 2 Clarinets, 2 Bassoons, 4 Horns, 2 Trumpets, 3 Trombones, Tuba, 2 Timpani, jeu de Timbres, Tam-tam, Percussions, carillon, Celesta, 3 Harps, 2 Violins, Viola, Cello, Double Bass",Texte: Tristan Klingsor
-42,M. 42,1904,Menuet,,C-sharp minor,,Piano,
+42,M. 42,1904,Menuet,Minuet,C-sharp minor,,Piano,
 43,M. 43,1904-1905,Miroirs,Suite,,"1. Noctuelles. Très léger (D♭)
 2. Oiseaux tristes. Très lent (e♭)
 3. Une barque sur l'océan. D'un rythme souple (f♯)
@@ -74,10 +74,10 @@ arrangement pour voix et orchestre, Ravel, sans date
 5. La vallée des cloches. Très lent (c♯)","1904/05, original: Piano
 1906/rev1926, Part III orchestration: 3 Flutes, 3 Oboes, 3 Clarinets, 2 Bassoons, 4 Horns, 2 Trumpets, 3 Trombones, Tuba, Percussion, Celesta, 2 Harps, 2 Violins, Viola, Cello, Double Bass
 1918 Part IV orchestration: 3 Flutes, 3 Oboes, 2 Clarinets, 3 Bassoons, 4 Horns, 2 Trumpets, 3 Trombones, Tuba, Xylophone, 3 Timpani, Percussion, crotales, Castanets, 2 Harps, 2 Violins, Viola, Cello, Double Bass",
-44,M. 44,1905,Fugue,Piece,C major,,Piano,Pièce de concours pour le prix de Rome
+44,M. 44,1905,Fugue,Fugue,C major,,Piano,Pièce de concours pour le prix de Rome
 45,M. 45,1905,L'aurore,,E-flat major,,"Tenor, Mixed Choir, Orchestra",Pièce de concours pour le prix de Rome
-46,M. 46,1905,Introduction et allegro,,,"1. Introduction. Très lent (G♭)
-2. Allegro (G♭)","Harp, Flute, Clarinet, 2 Violins, Viola et Cello",
+46,M. 46,1905,Introduction et allegro,,G-flat major,"1. Introduction. Très lent (G♭)
+2. Allegro (G♭)","Harp, Flute, Clarinet, 2 Violins, Viola, Cello",
 47,M. 47,1905,Noël des jouets: Le troupeau verni des moutons,,,,"Voice, Piano","Texte: Maurice Ravel
 
 transcription pour voix et orchestre, Ravel, 1906 révisé en 1913"
@@ -113,7 +113,7 @@ transcription pour voix et orchestre, Ravel, 1906 révisé en 1913"
 57.3,M. 57c,1913,Danse gracieuse de Daphnis,,,"1. Nocturne
 2. Interlude et Danse guerrière
 3. Scène de Daphnis et Chloé",Piano,
-58,M. 58,1909,Menuet sur le nom de Haydn,,,,Piano,pour un numéro consacré à Haydn par la Revue Musicale
+58,M. 58,1909,Menuet sur le nom de Haydn,Minuet,,,Piano,pour un numéro consacré à Haydn par la Revue Musicale
 59,M. 59,1909-1910,Saint François d'Assise,,,,pour solistes et choeurs avec orchestre,"Texte: Fioretti de saint François d'Assise
 [lost]"
 60,M. 60,1908-1910,"Ma mère l'oye (I), pièces enfantines",,,"1. Pavane de la belle au bois dormant [de ♯ 56 ci-devant] Lent (a)
@@ -144,7 +144,7 @@ orchestration, Ravel, 1911, O 62 ci-dessous"
 2. Placet futile: Princesse! à jalouser le destin Très modéré (F)
 3. Surgi de la croupe et du bond: Surgi de la croupe et du bond Lent (C)","Medium Voice, Piccolo, 2 Flutes, Clarinet, Bass Clarinet, 2 Violins, Viola, Cello, Piano
 1913 transcription: Voice, Piano",Texte: Stéphane Mallarmé
-65,M. 65,1913,Prélude,,,,Piano,
+65,M. 65,1913,Prélude,Prelude,,,Piano,
 66,M. 66,1913-1914,Zaspiak-Bat,,,,"Piano, Orchestra",[Esquisses sur des thèmes basques]
 67,M. 67,1914,Piano Trio in A minor,Trio,A minor,"1. Modéré (a)
 2. Pantoum. Assez vite (a)
@@ -160,7 +160,7 @@ orchestration, Ravel, 1911, O 62 ci-dessous"
 2. Forlane Allegretto (e)
 3. Menuet Allegro moderato (e)
 4. Rigaudon Assez vif (C)","2 Flutes, Oboes, English Horn, 2 Clarinets, 2 Bassoons, Trumpet, Harp, 2 Violins, Viola, Cello, Double Bass",
-69,M. 69,1914-1915,Trois chansons,Song,,"1. Nicolette
+69,M. 69,1914-1915,3 chansons,Chanson,,"1. Nicolette
 2. Trois beaux oiseaux du paradis
 3. Ronde","Mixed Choir (SATB) a cappella
 1915 version: Solo Medium Voice, Piano",Texte: Maurice Ravel
@@ -175,18 +175,18 @@ Wood Block, Castanets, Cheese Grater, Drum,
 Whip, Tam-tam,
 Prepared Piano,
 2 Violins, Viola, Violincello, Double Bass",Texte: Colette
-72,M. 72,1919-1920,La valse,,D major,Mouvement de valse viénoise (D),"3 Flutes, 3 Oboes, 3 Clarinets, 3 Bassoons, 4 Horns, 3 Trumpets, 3 Trombones, Tuba, 3 Timpani, Percussion, jeu de Timbres, crotales, Castanets, Tam-tam, 2 Harps, 2 Violins, Viola, Cello, Double Bass
+72,M. 72,1919-1920,La valse,Waltz,D major,Mouvement de valse viénoise (D),"3 Flutes, 3 Oboes, 3 Clarinets, 3 Bassoons, 4 Horns, 3 Trumpets, 3 Trombones, Tuba, 3 Timpani, Percussion, jeu de Timbres, crotales, Castanets, Tam-tam, 2 Harps, 2 Violins, Viola, Cello, Double Bass
 1920 transcription: Piano
 1920 transcription: 2 Pianos
 [????] transcription: Piano Four Hands",
-73,M. 73,1920-1922,Violin Sonata in A minor,,A minor,"1. Allegro (a)
+73,M. 73,1920-1922,Violin Sonata in A minor,Sonata,A minor,"1. Allegro (a)
 2. Très vif (a)
 3. Lent (a)
 4. Vif, avec entrain (C)","Violin, Cello","premier mouvement paru sous le titre Duo dans Le Tombeau de Claude Debussy, 1920"
 74,M. 74,1922,Berceuse sur le nom de Gabriel Fauré,,G major,Simplice (G),"Violin, Piano",
 75,M. 75,1923-1924,Ronsard à son âme: Amelette Ronsardelette,Mélodie,,,"Voice, Piano
 1915 orchestration: 2 Flutes, 2 Oboes, 2 Clarinets, Bassoon, Vibraphone, Tam-tam, Piano, 2 Violins, Viola, Cello, Double Bass",Texte: Douzain de Ronsard
-76,M. 76,1922-1924,"Tzigane, rhapsodie de concert",,D major,"Lento, quasi cadenza (D)","1. Solo Violin, Piano 
+76,M. 76,1922-1924,"Tzigane, rhapsodie de concert",Rhapsody,D major,"Lento, quasi cadenza (D)","1. Solo Violin, Piano 
 2. Solo Violin, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, Trumpet, Triangle, Timbres, Cymbal, Celesta, Harp, 2 Violins, Viola, Cello, Double Bass",
 77,M. 77,1923-1927,Violin Sonata in G major,Sonata,G major,"1. Allegretto (G)
 2. Blues. Moderato (A♯)
