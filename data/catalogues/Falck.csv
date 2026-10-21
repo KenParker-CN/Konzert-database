@@ -1,0 +1,116 @@
+SORT,Catalogue,Date,Title,Genre,Key,Work structure,Instrumentation,Note
+1 ,F. 1,1745,Sonate für 1 Klavier C-Dur,Sonata,C major,,Keyboard,
+2 ,F. 2,1778,Sonate für 1 Klavier,Sonata,C major,,Keyboard,
+3 ,F. 3,1745,Sonate für 1 Klavier,Sonata,D major,,Keyboard,
+4 ,F. 4,1778,Sonate für 1 Klavier,Sonata,D major,,Keyboard,
+5 ,F. 5,1748,Sonate für 1 Klavier,Sonata,E-flat major,,Keyboard,
+6 ,F. 6,,Sonate für 1 Klavier,Sonata,F major,,Keyboard,
+7 ,F. 7,,Sonate für 1 Klavier,Sonata,G major,,Keyboard,
+8 ,F. 8,,Sonate für 1 Klavier,Sonata,A major,,Keyboard,
+9 ,F. 9,,Sonate für 1 Klavier,Sonata,B-flat major,,Keyboard,
+10 ,F. 10,1773,Sonate für 2 Klaviere,Sonata,F major,,2 Keyboards,
+11 ,F. 11,,Sonate für 2 Klaviere,Sonata,D major,,2 Keyboards,lost
+12 ,F. 12,1765,12 Polonaisen,Dance,,C-c-D-d-Eb-eb-E-e-F-f-G-g,,
+13 ,F. 13,1765,Polonaise,Dance,C major,,Keyboard,
+14 ,F. 14,1733,Fantasie für Klavier,Fantasia,C major,,Keyboard,
+15 ,F. 15,1784,Fantasie für Klavier,Fantasia,C minor,,Keyboard,
+16 ,F. 16,1784,Fantasie für Klavier,Fantasia,C minor,,Keyboard,
+17 ,F. 17,,Fantasie für Klavier,Fantasia,D major,,Keyboard,
+18 ,F. 18,,Fantasie für Klavier,Fantasia,D minor,,Keyboard,
+19 ,F. 19,,Fantasie für Klavier,Fantasia,D minor,,Keyboard,
+20 ,F. 20,1784,Fantasie für Klavier,Fantasia,E minor,,Keyboard,
+21 ,F. 21,,Fantasie für Klavier,Fantasia,E minor,,Keyboard,
+22 ,F. 22,,Fantasie für Klavier,Fantasia,G major,,Keyboard,
+23 ,F. 23,,Fantasie für Klavier,Fantasia,A minor,,Keyboard,
+24 ,F. 24,,Suite g-Moll,Suite,G minor,,Keyboard,
+25 ,"F. 25,1",,Menuet,Minuet,,,Keyboard,
+25 ,"F. 25,2",,Presto,Piece,,,Keyboard,
+26 ,F. 26,,"Bourleska ""L'Imitation de la Chasse""",,,,Keyboard,
+27 ,F. 27,,La Reveille,Piece,,,Keyboard,
+28 ,F. 28,,Gigue,Dance,,,Keyboard,
+29 ,F. 29,,Andante (Preludio),Piece,,,Keyboard,
+30 ,F. 30,,Marsch Es-Dur,March,E-flat major,,Keyboard,
+31 ,F. 31,,"8 Fugen, BerIin 1778",Fugue,,C-c-D-d-Eb-e-Bb-f,Keyboard,
+32 ,F. 32,,,Fugue,C minor,,Keyboard,
+33 ,F. 33,,,Fugue,F major,,Keyboard,
+34 ,F. 34,,,Fugue,B-flat major,,Keyboard,
+35 ,F. 35,,"Fugue C-Dur ""Bruchstück""",Fugue,C major,,Organ,
+36 ,F. 36,,,Fugue,F major,,Organ,
+37 ,F. 37,,,Fugue,G minor,,Organ,
+38 ,"F. 38,1",,7 Choralvorspiel für Orgel,Choralvorspiel,,"1. Nun kommt der Heiden Heiland
+2. Christe, der du bist Tag und Licht
+3. Jesu, meine Freude
+4. Durch Adams Fall ist ganz verderbt
+5. Was mein Gott will, das g'scheh allzeit
+6. Wir Christenleut'
+7. Wir danken dir, Herr Jesu Christ",Organ,
+38 ,"F. 38,2",,Orgeltrio über „Allein Gott in der Höh sei Ehr“,Trio,,,Organ,lost
+39 ,F. 39,,Kanons und Ähnliches,Canon,,,,
+40 ,F. 40,,Konzert für 1 Klavier allein,Concerto,G major,,Keyboard,
+41 ,F. 41,,Konzert für 1 Klavier mit Streichorchester und Continuo,Concerto,D major,,,
+42 ,F. 42,,Konzert für 1 Klavier mit Streichorchester und Continuo,Concerto,E-flat major,,,
+43 ,F. 43,,Konzert für 1 Klavier mit Streichorchester und Continuo,Concerto,E minor,,,
+44 ,F. 44,,Konzert für 1 Klavier mit Streichorchester und Continuo,Concerto,F major,,,
+45 ,F. 45,,Konzert für 1 Klavier mit Streichorchester und Continuo,Concerto,A minor,,,
+46 ,F. 46,,"Konzert für 2 Klaviere mit Streichorchester, Hörnern, Pauken (und Trompeten)",Concerto,E-flat major,,,
+47 ,F. 47,,Triosonate für 2 Flöten und Baß,Sonata,D major,,,
+48 ,F. 48,,Triosonate für 2 Flöten und Baß,Sonata,D major,,,
+49 ,F. 49,,Triosonate für 2 Violinen (od Flöten?) und Baß,Sonata,A minor,,,
+50 ,F. 50,,Triosonate für 2 Violinen und Baß,Sonata,B-flat major,,,
+51 ,F. 51,,Sonate für Flöte und Baß,Sonata,F major,,"Flute, Basso continuo",lost
+52 ,F. 52,,Sonate für Flöte und Baß,Sonata,E major,,"Flute, Basso continuo",lost
+53 ,F. 53,,Sonate für Flöte und Baß,Sonata,D major,,"Flute, Basso continuo",lost
+54 ,F. 54,,Flötenduette e-Moll,Duet,E major,,2 Flutes,
+55 ,F. 55,,Flötenduette E-Dur,Duet,E major,,2 Flutes,
+56 ,F. 56,,Flötenduette E-Dur,Duet,E major,,2 Flutes,
+57 ,F. 57,,Flötenduette F-Dur,Duet,F major,,2 Flutes,
+58 ,F. 58,,Flötenduette f-Moll,Duet,F minor,,2 Flutes,
+59 ,F. 59,,Flötenduette G-Dur,Duet,G major,,2 Flutes,
+60 ,F. 60,,Bratschenduette C-Dur,Duet,C major,,2 Violas,
+61 ,F. 61,,Bratschenduette G-Dur,Duet,G major,,2 Violas,
+62 ,F. 62,,Bratschenduette g-Moll,Duet,G minor,,2 Violas,
+63 ,F. 63,,Sinfonie C-Dur,Sinfonia,C major,,String Quartet,
+64 ,F. 64,,Sinfonie D-Dur,Sinfonia,D major,,"2 Oboes (2nd mov: 2 Flutes), Bassoon, 2 Horns, 2 Violins, Viola, Cello",
+65 ,F. 65,,Sinfonie d-Moll,Sinfonia,D minor,,"2 Flutes, 2 Violins, Viola, Cello",
+66 ,F. 66,,Sinfonie d-Moll,Sinfonia,D minor,,"Strings, Basso continuo",
+67 ,F. 67,,Sinfonie F-Dur,Sinfonia,F major,,Strings,
+68 ,F. 68,,Sinfonie G-Dur,Sinfonia,G major,,"Oboe, Bassoon, Strings",
+69 ,F. 69,,Sinfonie G-Dur,Sinfonia,G major,,Strings,
+70 ,F. 70,,Sinfonie A-Dur,Sinfonia,A major,,"Oboe, Bassoon, Strings, [Continuo]",
+71 ,F. 71,,Sinfonie B-Dur,Sinfonia,B-flat major,,Strings,
+72 ,F. 72,1746,Wer mich liebet,Cantata,,,"3 Trombones, Timpani, 2 Violins, Viola, SATB Choir, Continuo",Pentecost
+73 ,F. 73,1747,Der Herr zu deiner Rechten,Cantata,,,"2 Oboes, 2 Horns, 2 Violins, Viola, SATB choir, Continuo",Feast of the Circumcision of Christ
+74 ,F. 74,,Wir sind Gottes Werke,Cantata,,,"2 Violins, Viola, SATB Choir, Continuo",Second Sunday after Epiphany
+75 ,F. 75,,Gott fähret auf,Cantata,,,,Ascension
+76 ,F. 76,,Introduzzione delle predicatione del Catechismo,Cantata,,,,
+77 ,F. 77,,Zu Ende derer Katechißmus Predigten di J. S. Bach,Cantata,,,,
+78 ,F. 78,,Heilig und Alle Lande,Cantata,,,,
+79 ,F. 79,,Bruchstück,Cantata,,,,
+80 ,F. 80,,Lasset uns ablegen die Werke der Finsternis,Cantata,,,,For Easter
+81 ,F. 81,,Der Herr wird mit Gerechtigkeit richten,Cantata,,,,
+82 ,F. 82,,Ihr Lichter jener schöner Höhn,Cantata,,,,Wie schön leuchtet uns.
+83 ,F. 83,,Erzittert und fallet,Cantata,,,,Easter
+84 ,F. 84,1755,Psalm 100: Dienet dem Herrn mit Freuden,Psalm,,,,from Psalm 100
+85 ,F. 85,,"Dies ist der Tag, da Jesu Leidenskraft",Cantata,,,,
+86 ,F. 86,1756,Der Höchste erhöret,Cantata,,,,
+87 ,F. 87,,Verhängnis dein Wüten,Cantata,,,,
+88 ,F. 88,,"Ertönet, ihr seligen Völker",Cantata,,,,Pentacoast
+89 ,F. 89,,Es ist eine Stimme eines Predigers in der Wüste,,,,,
+90 ,F. 90,1758,"O Himmel, schone",Cantata,,,,Weltliche kantata
+91 ,F. 91,,Wo geht die Lebensreise hin,Cantata,,,,Ascension
+92 ,F. 92,,O Wunder,Lied,,,,
+93 ,F. 93,,"Ach, daß du den Himmel zerrissest",Lied,,,,
+94 ,F. 94,,"Zerbrecht, zerreist",Cantata,,,,"Zerbrecht, zerreißt"
+95 ,F. 95,1768,"Auf, Christen, posaunt",Cantata,,,,Nach dem Hubertusburger Frieden. 13. Mars 1768
+96 ,F. 96,,"Heraus, verblendeter Hochmut",Cantata,,,,
+97 ,F. 97,,Cavata. Cantilena nuptiarum consolatoria,Cantata,,,,
+98 ,F. 98,,Deutsche Messe,Mass,,,,
+98 ,F. 98b,,Agnus Dei,,,,,"from F. 98, 5"
+99 ,F. 99,,Amen und Halleluja,Mass,,,,"from F. 98, 5 & F. 74, 2"
+100 ,F. 100,,Kyrie,,,,,
+101 ,F. 101,1756,"Blast Lermen, ihr Feinde",Cantata,,,,lost
+102 ,F. 102,1757,Blast Lermen (II),Cantata,,,,lost
+103 ,F. 103,1757,"Ja, Ja! Es hat mein Gott",Cantata,,,,lost
+104 ,F. 104,1757,"Halleluja, wohl diesem Volk",Cantata,,,,lost
+105 ,F. 105,1757,Viele sind berufen,Cantata,,,,lost
+106 ,F. 106,1779,Lausus und Lydie,Opera,,,,
