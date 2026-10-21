@@ -225,8 +225,8 @@ SORT,Opus,Title,Genre,Key,Work structure,Instrumentation
 34 ,op. 33/5,Bagatelles #5: Allegro ma non troppo,Bagatelle,C major,,
 34 ,op. 33/6,Bagatelles #6: Allegretto quasi Andante,Bagatelle,D major,,
 34 ,op. 33/7,Bagatelles #7: Presto,Bagatelle,A-flat major,,
-34 ,op. 34,6 Variations on an Original Theme,Keyboard Variation,,,Piano
-35 ,op. 35,15 Variations and a Fugue on a Theme to Ballet “Die Geschopfe des Prometheus”; “Eroica Variations”,Keyboard Variation,E-flat major,,Piano
+34 ,op. 34,6 Variations on an Original Theme,Keyboard Variations,,,Piano
+35 ,op. 35,15 Variations and a Fugue on a Theme to Ballet “Die Geschopfe des Prometheus”; “Eroica Variations”,Keyboard Variations,E-flat major,,Piano
 36 ,op. 36,Symphony No. 2,Symphony,D major,"1. Adagio molto / Allegro con brio
 2. Larghetto (la majeur)
 3. Scherzo. Allegro
@@ -257,7 +257,7 @@ SORT,Opus,Title,Genre,Key,Work structure,Instrumentation
 16. Allegretto (mi bémol majeur)",
 43 ,op. 43a,,Overture,C major,"1. Adagio
 2. Allegro molto con brio","2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso"
-44 ,op. 44,"14 Variations on “Ja, Ich Muß Mich Von Ihr Scheiden”",Keyboard Variation,E-flat major,,"Piano, Violin, Cello"
+44 ,op. 44,"14 Variations on “Ja, Ich Muß Mich Von Ihr Scheiden”",Keyboard Variations,E-flat major,,"Piano, Violin, Cello"
 45 ,op. 45,3 Marches,March,,,Piano Four Hands
 45 ,op. 45/1,3 Marches #1,March,C major,Allegro ma non troppo,Piano Four Hands
 45 ,op. 45/2,3 Marches #2,March,E-flat major,Vivace,Piano Four Hands
@@ -329,7 +329,7 @@ SORT,Opus,Title,Genre,Key,Work structure,Instrumentation
 64 ,op. 64,Transcription of the Trio op. 3,Sonata,E-flat major,,"Piano, Cello"
 65 ,op. 65,"“Ah, Perfido!”",Aria,,"1. Ah! perfido! Allegro con brio (sol majeur)
 2. Per pieta, non dirmi addio Arie - Adagio (mi bémol majeur)","Soprano, Orchestra"
-66 ,op. 66,"12 Variations on “Ein Mädchen oder Weibchen” from ""Die Zauberflote"" by Mozart",Keyboard Variation,F major,,"Piano, Cello"
+66 ,op. 66,"12 Variations on “Ein Mädchen oder Weibchen” from ""Die Zauberflote"" by Mozart",Keyboard Variations,F major,,"Piano, Cello"
 67 ,op. 67,Symphony No. 5,Symphony,C minor,"1. Allegro con brio
 2. Andante con moto (la bémol majeur)
 3. Allegro
@@ -446,7 +446,7 @@ Allegro vivace (do majeur) / Allegro ma non troppo)","Soloists, Choir, Orchestra
 4. Presto (do mineur)
 5. Allegretto con variazioni","2 Violins, Viola, Cello"
 75 ,op. 75,6 Lieder/Gesänge,Lied,,,"Voice, Piano"
-76 ,op. 76,6 Variations on an Original Theme,Keyboard Variation,D major,,Piano
+76 ,op. 76,6 Variations on an Original Theme,Keyboard Variations,D major,,Piano
 77 ,op. 77,Fantasia,Fantasia,G minor,,Piano
 78 ,op. 78,,Sonata,F-sharp major,"1. Adagio cantabile
 2. Allegro ma non troppo (do majeur)
@@ -560,13 +560,13 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 103 ,op. 103,,Octet,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons"
 103 ,op. 103a,,Quintet,E-flat major,,"2 Violins, 2 Violas, Cello"
 104 ,op. 104,,Quintet,C minor,,"2 Violins, 2 Violas, Cello"
-105 ,op. 105,6 Varied Themes,Keyboard Variation,,,Piano with Optional Flute or Violin
+105 ,op. 105,6 Varied Themes,Keyboard Variations,,,Piano with Optional Flute or Violin
 106 ,op. 106,Piano Sonata “Hammerklavier”,Sonata,B-flat major,"1. Allegro
 2. Scherzo. Assai vivace
 3. Adagio sostenuto. Appasionato e con molto sentimento (la majeur)
 4. Largo (fa majeur)
 5. Allegro risoluto",Piano
-107 ,op. 107,10 Varied Themes,Keyboard Variation,,"1. Air tirolien, (mi bémol majeur). Moderato
+107 ,op. 107,10 Varied Themes,Keyboard Variations,,"1. Air tirolien, (mi bémol majeur). Moderato
 2. Air écossais, (fa majeur). Allegretto, quasi vivace
 3. Air de la petite suisse, (sol majeur). Vivace
 4. Air écossais, (fa majeur). Allegretto scherzo
@@ -631,8 +631,8 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 10. Allegramente (la majeur)
 11. Andante, ma non troppo (si bémol majeur)
 12. Allegretto (sol majeur)",Piano
-120 ,op. 120,33 Variations on a Waltz by Diabelli,Keyboard Variation,C major,Vivace,
-121 ,op. 121a,10 Variations on “Ich Bin Der Schneider Kakadu”,Keyboard Variation,D major,"1. Introduzione. Adagio assai (sol mineur)
+120 ,op. 120,33 Variations on a Waltz by Diabelli,Keyboard Variations,C major,Vivace,
+121 ,op. 121a,10 Variations on “Ich Bin Der Schneider Kakadu”,Keyboard Variations,D major,"1. Introduzione. Adagio assai (sol mineur)
 2. Tema. Allegretto","Piano, Violin, Cello"
 121 ,op. 121b,"Opferlied: Die Flamme lodert, milder Schein",Lied,,"Mit innigem andachtigem Gefuhl, in ziemlich langsamer Bewegung","Soloists, Choir, Orchestra"
 122 ,op. 122,Bundeslied: In allen guten Stunden,Lied,,In rascher geschwinder Bewegung,"Soloists, Four‐Part Choir, Orchestra"
@@ -759,7 +759,7 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 999 ,WoO 27/1,3 Duets #1,Duo,C major,,"Clarinet, Bassoon"
 999 ,WoO 27/2,3 Duets #2,Duo,F major,,"Clarinet, Bassoon"
 999 ,WoO 27/3,3 Duets #3,Duo,B-flat major,,"Clarinet, Bassoon"
-999 ,WoO 28,8 Variations on “Là ci darem la mano”,,C major,,"2 Oboes, English Horn"
+999 ,WoO 28,8 Variations on “Là ci darem la mano”,Variations,C major,,"2 Oboes, English Horn"
 999 ,WoO 29,,March,B-flat major,,"2 Clarinets, 2 Horns, 2 Bassoons"
 999 ,WoO 30,3 Equali,,,,4 Trombones
 999 ,WoO 31,Two-part Fugue,Fugue,D major,,Organ (Fortepiano)
@@ -774,15 +774,15 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 999 ,WoO 37,,Trio,G major,,"Harpsichord, Flute, Bassoon"
 999 ,WoO 38,,Trio,E-flat major,,"Piano, Violin, Cello"
 999 ,WoO 39,,Trio,B-flat major,,"Piano, Violin, Cello"
-999 ,WoO 40,12 Variations on “Se vuol ballare”,Keyboard Variation,F major,,"Piano, Violin"
+999 ,WoO 40,12 Variations on “Se vuol ballare”,Keyboard Variations,F major,,"Piano, Violin"
 999 ,WoO 41,Rondo,Rondo,G major,,"Piano, Violin Obbligato"
 999 ,WoO 42,6 Allemandes,Dance,,,"Piano, Violin"
-999 ,WoO 43a,Adagio,,C minor,,"Mandolin, Piano"
-999 ,WoO 43b,Adagio,,E-flat major,,"Mandolin, Piano"
+999 ,WoO 43a,Adagio,Piece,C minor,,"Mandolin, Piano"
+999 ,WoO 43b,Adagio,Piece,E-flat major,,"Mandolin, Piano"
 999 ,WoO 44a,Sonatina (Allegro/Sonatensatz),Sonata,C major,,"Mandolin, Piano"
-999 ,WoO 44b,Andante with Variations,,D major,,"Mandolin, Piano"
-999 ,WoO 45,12 Variations on Handel’s Judas Maccabaeus,Keyboard Variation,G major,,"Piano, Cello"
-999 ,WoO 46,"7 Variations on “Bei Männern, welche Liebe fühlen”",Keyboard Variation,E-flat major,,"Piano, Cello"
+999 ,WoO 44b,Andante with Variations,Variations,D major,,"Mandolin, Piano"
+999 ,WoO 45,12 Variations on Handel’s Judas Maccabaeus,Keyboard Variations,G major,,"Piano, Cello"
+999 ,WoO 46,"7 Variations on “Bei Männern, welche Liebe fühlen”",Keyboard Variations,E-flat major,,"Piano, Cello"
 999 ,WoO 47,3 Piano Sonatas,Sonata,,,
 999 ,WoO 47/1,3 Piano Sonatas #1,Sonata,E-flat major,"1. Allegro cantabile
 2. Andante (si bémol majeur)
@@ -803,30 +803,30 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 999 ,WoO 55,Prelude,Prelude,F minor,,Piano/Organ
 999 ,WoO 56,Bagatelle No. 5,Bagatelle,C major,,Piano
 999 ,WoO 57,Andante “Andante favori”,Piano Piece,F major,,Piano
-999 ,WoO 58,2 Cadenzas for Mozart’s  K.466,,D minor,,"Piano, Orchestra"
+999 ,WoO 58,2 Cadenzas for Mozart’s  K.466,Cadenza,D minor,,"Piano, Orchestra"
 999 ,WoO 59,Bagatelle “Für Elise”,Bagatelle,A minor,,Piano
 999 ,WoO 60,Piano Piece,Piano Piece,B-flat major,,Piano
 999 ,WoO 61,Allegretto for Ferdinand Piringer,Piano Piece,B minor,,Piano
 999 ,WoO 61a,Piano Piece (Bagatelle) for Sarah Burney Payne,Piano Piece,G minor,,Piano
 999 ,WoO 62,Fragment and Sketches of a Quintet,Quintet,C major,,Strings
-999 ,WoO 63,9 Variations on a March by Ernst Christoph Dressler,Keyboard Variation,C minor,,Piano
-999 ,WoO 64,6 Variations on a Swiss theme,Keyboard Variation,F major,,Piano/Harp
-999 ,WoO 65,24 Variations on the theme “Venni amore” by Righini,Keyboard Variation,D major,,Piano
-999 ,WoO 66,13 Variations on “Es war einmal ein alter Mann”,Keyboard Variation,A major,,Piano
-999 ,WoO 67,8 Variations on a theme by Count Waldstein,Keyboard Variation,C major,,Piano Four Hands
-999 ,WoO 68,12 Variations on the “Minuetto alla Viganò”,Keyboard Variation,C major,,Piano
-999 ,WoO 69,9 Variations on “Quant’è bello L’amor contadino”,Keyboard Variation,A major,,Piano
-999 ,WoO 70,6 Variations on “Nel cor più non mi sento” from Paisiello’s “Bella Molinara”,Keyboard Variation,G major,,Piano
-999 ,WoO 71,12 Variations on Russian dance from “Das Waldmädchen” by Paul Wranitzky,Keyboard Variation,A major,,Piano
-999 ,WoO 72,8 Variations on “Une fièvre brûlante” from Richard Coeur de Lion by Grétry,Keyboard Variation,C major,,Piano
-999 ,WoO 73,"10 Variations on “La stessa, la stessissima” from “Falstaff” by Salieri",Keyboard Variation,B-flat major,,Piano
-999 ,WoO 74,6 Variations on “Ich denke dein”,Keyboard Variation,D major,,"Voice, Piano Four Hands"
-999 ,WoO 75,"7 Variations on “Kind, willst du ruhig schlafen”",Keyboard Variation,F major,,Piano
-999 ,WoO 76,8 Variations on the Trio “Tändeln und Scherzen”,Keyboard Variation,F major,,Piano
-999 ,WoO 77,6 Variations on an Original Theme,Keyboard Variation,G major,,Piano
-999 ,WoO 78,7 Variations on the Theme of “God Save the King”,Keyboard Variation,C major,,Piano
-999 ,WoO 79,5 Variations on the theme of “Rule Britannia”,Keyboard Variation,D major,,Piano
-999 ,WoO 80,32 Variations on an original theme,Keyboard Variation,C minor,,Piano
+999 ,WoO 63,9 Variations on a March by Ernst Christoph Dressler,Keyboard Variations,C minor,,Piano
+999 ,WoO 64,6 Variations on a Swiss theme,Keyboard Variations,F major,,Piano/Harp
+999 ,WoO 65,24 Variations on the theme “Venni amore” by Righini,Keyboard Variations,D major,,Piano
+999 ,WoO 66,13 Variations on “Es war einmal ein alter Mann”,Keyboard Variations,A major,,Piano
+999 ,WoO 67,8 Variations on a theme by Count Waldstein,Keyboard Variations,C major,,Piano Four Hands
+999 ,WoO 68,12 Variations on the “Minuetto alla Viganò”,Keyboard Variations,C major,,Piano
+999 ,WoO 69,9 Variations on “Quant’è bello L’amor contadino”,Keyboard Variations,A major,,Piano
+999 ,WoO 70,6 Variations on “Nel cor più non mi sento” from Paisiello’s “Bella Molinara”,Keyboard Variations,G major,,Piano
+999 ,WoO 71,12 Variations on Russian dance from “Das Waldmädchen” by Paul Wranitzky,Keyboard Variations,A major,,Piano
+999 ,WoO 72,8 Variations on “Une fièvre brûlante” from Richard Coeur de Lion by Grétry,Keyboard Variations,C major,,Piano
+999 ,WoO 73,"10 Variations on “La stessa, la stessissima” from “Falstaff” by Salieri",Keyboard Variations,B-flat major,,Piano
+999 ,WoO 74,6 Variations on “Ich denke dein”,Keyboard Variations,D major,,"Voice, Piano Four Hands"
+999 ,WoO 75,"7 Variations on “Kind, willst du ruhig schlafen”",Keyboard Variations,F major,,Piano
+999 ,WoO 76,8 Variations on the Trio “Tändeln und Scherzen”,Keyboard Variations,F major,,Piano
+999 ,WoO 77,6 Variations on an Original Theme,Keyboard Variations,G major,,Piano
+999 ,WoO 78,7 Variations on the Theme of “God Save the King”,Keyboard Variations,C major,,Piano
+999 ,WoO 79,5 Variations on the theme of “Rule Britannia”,Keyboard Variations,D major,,Piano
+999 ,WoO 80,32 Variations on an original theme,Keyboard Variations,C minor,,Piano
 999 ,WoO 81,Allemande,Dance,A major,,Piano
 999 ,WoO 82,Minuet,Dance,E-flat major,,Piano
 999 ,WoO 83,6 Ecossaises,Dance,E-flat major,,Piano
@@ -844,7 +844,7 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 999 ,WoO 94,“Germanias Wiedergeburt”,Chorus,,,"Bass, Choir, Orchestra"
 999 ,WoO 95,“Chor auf die verbündeten Fürsten”,Chorus,,,"Choir, Orchestra"
 999 ,WoO 96,“Leonore Prohaska”,Incidental Music,,,"soloists, chorus, and orchestra"
-999 ,WoO 97,“Es ist vollbracht!”,,,,"Bass, Choir, Orchestra"
+999 ,WoO 97,“Es ist vollbracht!”,Lied,,,"Bass, Choir, Orchestra"
 999 ,WoO 98,“Wo sich die Pulse”,Chorus,,,Soprano and orchestra
 999 ,WoO 99,Italian Songs “a cappella”,Lied,,,
 999 ,WoO 100,“Lob auf den Dicken”,Musical Joke,,,male voices
@@ -952,7 +952,7 @@ Allegretto (do majeur)","Voice, Piano"
 999 ,WoO 197,“Da ist das Werk”,Canon,,,
 999 ,WoO 198,“Wir irren allesamt”,Canon,,,
 999 ,WoO 199,"“Ich bin der Herr von ‘zu'”, 8 playful bars",Musical Joke,,,
-999 ,WoO 200,"“O Hoffnung!”, Theme for Variation for Archduke Rudolf",Keyboard Variation,,,
+999 ,WoO 200,"“O Hoffnung!”, Theme for Variation for Archduke Rudolf",Keyboard Variations,,,
 999 ,WoO 201,“Ich bin bereit… Amen!”,Musical Joke,,,
 999 ,WoO 202,"“Das Schöne zum Guten”, Albumblatt",Lied,,,
 999 ,WoO 203,“Das Schöne zu dem Guten”,Canon,,,

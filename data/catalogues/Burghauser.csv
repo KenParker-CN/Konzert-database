@@ -1,5 +1,5 @@
 SORT,Catalogue,Opus,Title,Genre,Key,Work structure,Instrumentation
-1,B1,,Forget-me-not Polka,,,,
+1,B1,,Forget-me-not Polka,Dance,,,
 2,B2,,Mass in B flat major,Mass,Bb major,,
 3,B3,,Polka,Dance,E major,,
 4,B4,,"""The Woman Harpist"" Polka",Dance,,,
@@ -44,7 +44,7 @@ SORT,Catalogue,Opus,Title,Genre,Key,Work structure,Instrumentation
 13,B13,,2 Songs for Baritone,Song,,"1. Kdybys, milé děvče, sedalo na trůnu
 2. A kdybys písní stvořená",
 14,B14,,Clarinet Quintet,Quintet,Bb minor,,
-15,B15,,7 Pieces for Small Orchestra (Interludes),,,"1. Capriccio (Allegro risouluto)
+15,B15,,7 Pieces for Small Orchestra (Interludes),Piece,,"1. Capriccio (Allegro risouluto)
 2. (Andante sostenuto)
 3. Con molta espressione
 4. Allegro con brio
@@ -70,7 +70,7 @@ SORT,Catalogue,Opus,Title,Genre,Key,Work structure,Instrumentation
 20,B20,,Sonata for Cello and Piano,Sonata,F minor,"I. Allegro molto
 II. Andante maestoso
 III. Allegro molto",
-21,B21,,"King and Collier, 1st setting",,,"1. dějství: Palouk v lese
+21,B21,,"King and Collier, 1st setting",Opera,,"1. dějství: Palouk v lese
 2. dějství. Lesnatá krajina
 3. dějství: Sál na hradě pražském","2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, bass drum, cymbals, harp, violins, violas, cellos, double basses + mixed choir + soloists"
 21.1,B21a,,Overture in F major,Overture,F major,,
@@ -84,11 +84,11 @@ III. Allegro molto",
 24.1,B24a,,Rosmarine,Song,,,
 25,B25,,2 Piano Trios #1,Trio,,,
 26,B26,,2 Piano Trios #2,Trio,,,
-27,B27,,"Hymn ""The Heirs of White Mountain"", 1st version",,,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 1 trombone, timpani, violins, violas, cellos, double basses + mixed choir"
+27,B27,,"Hymn ""The Heirs of White Mountain"", 1st version",Hymn,,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 1 trombone, timpani, violins, violas, cellos, double basses + mixed choir"
 28,B28,op. 5,Piano Quintet No. 1,Quartet,A major,"1. Allegro ma non troppo
 2. Andante sostenuto
 3. Finale. Allegro con brio",
-29,B29,op. 6,4 Songs on the Words of Serbian Folk Poems,,,"1. Panenka a tráva
+29,B29,op. 6,4 Songs on the Words of Serbian Folk Poems,Song,,"1. Panenka a tráva
 2. Připamatování
 3. Výklad znamení
 4. Lásce neujdeš",
@@ -116,7 +116,7 @@ III. Allegro molto",
 2. Poco allegro
 3. Poco adagio
 4. Finale. Allegro molto",
-40.1,B40a,,Andante appassionato,,,,
+40.1,B40a,,Andante appassionato,Piece,,,
 41,B41,op. 13,Symphony No. 4,Symphony,D minor,"1. Allegro
 2. Andante sostenuto e molto cantabile
 3. Allegro feroce
@@ -136,7 +136,7 @@ III. Allegro molto",
 2. Scherzo. Allegro vivace
 3. Poco andante
 4. Finale. Allegro assai",
-50,B50,op. 20,Moravian Duets,,,,
+50,B50,op. 20,Moravian Duets,Duet,,,
 51,B51,op. 21,Piano Trio No. 1,Trio,Bb major,"1. Allegro molto
 2. Adagio molto e mesto
 3. Allegretto scherzando
@@ -169,7 +169,7 @@ III. Allegro molto",
 58,B58,op. 28,2 Minuets,Dance,,"1. A flat major (Moderato)
 2. F major (Moderato)",
 59,B59,op. 29,4 Choruses,,,,
-60,B60,op. 29,Moravian Duets,,,,
+60,B60,op. 29,Moravian Duets,Duet,,,
 61,B61,op. 3,Evening Songs,Song,,"(op. 3):
 1. Ty hvězdičky
 2. Mně zdálo se
@@ -186,19 +186,19 @@ III. Allegro molto",
 11. Ten ptáček
 (bez op. čísla):
 12. Tak jak ten měsíc",
-62,B62,op. 32,Moravian Duets,,,,
+62,B62,op. 32,Moravian Duets,Duet,,,
 63,B63,op. 33,Concerto for Piano and Orchestra,Concerto,G minor,"1. Allegro agitato
 2. Andante sostenuto
 3. Finale. Allegro con fuoco","2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, timpani, violins, violas, cellos, double basses + piano solo"
-64,B64,op. 35,Dumka,,,,
-65,B65,op. 36,Tema con variazioni,,,,
+64,B64,op. 35,Dumka,Dance,,,
+65,B65,op. 36,Tema con variazioni,Variations,,,
 66,B66,,Choral Songs for Male Voices,Song,,,
 67,B67,op. 37,The Cunning Peasant,,,"1. dějství: Zahrada v knížecím zámku
 2. dějství: Dvůr na Martinově statku","1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, bass drum, triangle, harp, violins, violas, cellos, double basses + mixed choir + soloists"
 68,B68,op. 19b,Ave Maria,,,,
-69,B69,op. 38,Moravian Duets,,,,
-70,B70,op. 78,Symphonic Variations,,,,"1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, triangle, violins, violas, cellos, double basses"
-71,B71,op. 58,Stabat Mater,,,"1. Stabat mater dolorosa, B minor (Andante con moto)
+69,B69,op. 38,Moravian Duets,Duet,,,
+70,B70,op. 78,Symphonic Variations,Variations,,,"1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, triangle, violins, violas, cellos, double basses"
+71,B71,op. 58,Stabat Mater,Stabat Mater,,"1. Stabat mater dolorosa, B minor (Andante con moto)
 2. Qui est homo, E minor (Andante sostenuto)
 3. Eja mater, C minor (Andante con moto)
 4. Fac, ut ardeat cor meum, Bb minor (Largo)
@@ -209,8 +209,8 @@ III. Allegro molto",
 9. Inflammatus, D minor (Andante maestoso)
 10. Quando corpus morietur, B minor/D major (Andante con moto)","2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, organ (harmonium), violins, violas, cellos, double basses + mixed choir + soloists (soprano, contralto, tenor, bass)"
 72,B72,op. 41,Bouquet of Czech Folk Songs,Song,,,
-73,B73,,The Song of a Czech,,,,
-74,B74,op. 41,Scottish Dances,,,,
+73,B73,,The Song of a Czech,Song,,,
+74,B74,op. 41,Scottish Dances,Dance,,,
 75,B75,op. 34,String Quartet No. 9,Quartet,D minor,"1. Allegro
 2. Alla polka. Allegreto scherzando
 3. Adagio
@@ -221,7 +221,7 @@ III. Allegro molto",
 3. Andante con moto
 4. Finale. Allegro molto","2 oboes, 2 clarinets, 2 bassoons, 1 contrabassoon (ad libitum), 3 horns, 1 cello, 1 double bass"
 78,B78,op. 46,"Slavonic Dances, series I",Dance,,=B83,piano four hands
-79,B79,op. 47,Bagatelles,,,"1. Allegretto scherzando
+79,B79,op. 47,Bagatelles,Bagatelle,,"1. Allegretto scherzando
 2. Tempo di minuetto. Grazioso
 3. Allegretto scherzando
 4. Canon. Andante con moto
@@ -230,7 +230,7 @@ III. Allegro molto",
 2. Dumka. Poco allegretto
 3. Furiant. Presto
 4. Finale. Tema con variazioni. Allegretto grazioso, quasi andantino",
-81,B81,,Capriccio for Violin and Piano,,,,
+81,B81,,Capriccio for Violin and Piano,Caprice,,,
 82,B82,,Hymn to the Most Holy Trinity,Hymn,,"1. Dobrú noc, má milá
 2. Žalo dievča, žalo trávu
 3. Ach není, není tu
@@ -243,10 +243,10 @@ No. 5 - Allegro vivace, A major (skočná)
 No. 6 - Allegretto scherzando, D major (sousedská)
 No. 7 - Allegro assai, C minor (skočná)
 No. 8 - Presto, G minor (furiant)","1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, bass drum, cymbals, triangle, violins, violas, cellos, double basses"
-84,B84,op. 50,3 Modern Greek Poems for voice and piano,,,"1. Koljas
+84,B84,op. 50,3 Modern Greek Poems for voice and piano,Song,,"1. Koljas
 2. Nereidy
 3. Žalozpěv Pargy",
-84.1,B84a,op. 50,3 Modern Greek Poems for voice and orchestra,,,=B84,
+84.1,B84a,op. 50,3 Modern Greek Poems for voice and orchestra,Song,,=B84,
 85,B85,op. 42,Furiants,Dance,,"1. D major (Allegro con fuoco)
 2. F major (Allegro con fuoco)",
 86,B86,op. 45,Slavonic Rhapsodies,Rhapsody,,"Slavonic Rhapsody No. 1 in D major
@@ -312,7 +312,7 @@ No. 2. D major (Allegro vivace)",
 106,B106,op. 57,Sonata for Violin and Piano,Sonata,F major,"1. Allegro, ma non troppo
 2. Poco sostenuto
 3. Allegro molto",
-107,B107,,Moravian Duets (a cappella),,,,
+107,B107,,Moravian Duets (a cappella),Duet,,,
 108,B108,op. 53,Concerto for Violin and Orchestra,Concerto,A minor,"1. Allegro ma non troppo (att.)
 2. Adagio ma non troppo
 3. Finale. Allegro giocoso, ma non troppo","2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, timpani, violins, violas, cellos, double basses + violin solo"
@@ -339,7 +339,7 @@ No. 2. D major (Allegro vivace)",
 113,B113,,Children's Song,Song,,,
 114,B114,op. 53/A/1,"Polka ""For Prague Students""",Dance,,,"1 piccolo, 1 flute, 2 clarinets, 4 horns, 2 trumpets, 1 trombone, timpani, triangle, violins, violas, cellos, double basses"
 115,B115,,Ballad of King Matthias,Ballade,,,
-116,B116,,Moderato,,A major,,
+116,B116,,Moderato,Piece,A major,,
 117,B117,op. 59,Legends,,,"No. 1 – Allegretto non troppo, quasi andantino, D minor
 No. 2 – Molto moderato, G major
 No. 3 – Allegro giusto, G minor
@@ -386,8 +386,8 @@ No.10 – Andante, Bb minor",piano four hands
 2. Allegretto grazioso – Meno mosso
 3. Poco adagio
 4. Finale. Allegro con brio",
-131,B131,op. 66,Scherzo capriccioso,,,,"1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, bass drum, cymbals, triangle, harp, violins, violas, cellos, double basses"
-132,B132,op. 67,Hussite Overture,,,,"1 piccolo, 2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, bass drum, cymbals, triangle, harp (ad libitum), violins, violas, cellos, double basses"
+131,B131,op. 66,Scherzo capriccioso,Scherzo,,,"1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, bass drum, cymbals, triangle, harp, violins, violas, cellos, double basses"
+132,B132,op. 67,Hussite Overture,Overture,,,"1 piccolo, 2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, bass drum, cymbals, triangle, harp (ad libitum), violins, violas, cellos, double basses"
 133,B133,op. 68,From the Bohemian Forest,,,"1. Na přástkách (Allegro molto)
 2. U Černého jezera (Lento)
 3. Noc filipojakubská (Molto vivace)
@@ -414,10 +414,10 @@ No.10 – Andante, Bb minor",piano four hands
 16. Basso solo e Coro (""A tu na dvéře: buch, buch, buch!"")
 17. Soprano solo (""Maria Panno, při mně stůj"")
 18. Basso solo e Coro (""A slyš, tu právě nablízce"")","1 piccolo, 2 flutes, 2 oboes, 1 English horn, 3 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, triangle, tam-tam, bells, harp, violins, violas, cellos, double basses + mixed choir + soloists (soprano, tenor, bass)"
-136,B136,op. 12/1,Dumka,,,,
+136,B136,op. 12/1,Dumka,Dance,,,
 137,B137,op. 12/2,Furiant,,,,
 138,B138,,Humoresque,,F# major,,
-139,B139,op. 15/1,Ballade for Violin and Piano,,D minor,,
+139,B139,op. 15/1,Ballade for Violin and Piano,Ballade,D minor,,
 140,B140,,The Wild Duck,,,,
 141,B141,op. 70,Symphony No. 7,Symphony,D minor,"1. Allegro maestoso
 2. Poco Adagio
@@ -444,11 +444,11 @@ No. 8 (16) - Grazioso e lento ma non troppo, quasi tempo di valse, A flat major 
 2. Capriccio. Poco allegro
 3. Romanza. Allegro
 4. Elegia. Larghetto",
-150,B150,op. 75,Romantic Pieces for Violin and Piano,,,"1. Allegro moderato (Cavatina)
+150,B150,op. 75,Romantic Pieces for Violin and Piano,Piece,,"1. Allegro moderato (Cavatina)
 2. Allegro maestoso (Capriccio)
 3. Allegro appassionato (Romanza)
 4. Larghetto (Elegia)",
-151,B151,op. 14,"King and Collier, 2nd setting",,,,
+151,B151,op. 14,"King and Collier, 2nd setting",Opera,,,
 152,B152,,Cypresses,Quartet,,"1. Já vím, že v sladké naději (Moderato)
 2. V tak mnohém srdci mrtvo jest (Allegro ma non troppo)
 3. V té sladké moci očí tvých (Andante con moto)
@@ -467,7 +467,7 @@ No. 8 (16) - Grazioso e lento ma non troppo, quasi tempo di valse, A flat major 
 2. Dumka. Andante con moto
 3. Scherzo (Furiant)
 4. Finale. Allegro",
-156,B156,,2 Little Pearls,,,"1. Do kola (Vivace)
+156,B156,,2 Little Pearls,Song,,"1. Do kola (Vivace)
 2. Dědeček tančí s babičkou (Allegretto grazioso)",
 157,B157,op. 82,4 Songs,Song,,"1. Kéž duch můj sám
 2. Při vyšívání
@@ -507,7 +507,7 @@ No. 8 (16) - Grazioso e lento ma non troppo, quasi tempo di valse, A flat major 
 3. Allegretto grazioso
 4. Allegro ma non troppo","1 piccolo, 2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, violins, violas, cellos, double basses"
 164,B164,,Gavotte for 3 Violins,Dance,,,
-165,B165,op. 89,Requiem,,,"1. Requiem aeternam, Bb minor (Poco lento)
+165,B165,op. 89,Requiem,Requiem,,"1. Requiem aeternam, Bb minor (Poco lento)
 2. Graduale, Bb minor (Andante)
 3. Dies irae, Bb minor (Allegro impetuoso att.)
 4. Tuba mirum, E minor (Moderato)
@@ -650,7 +650,7 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 404,B404,,Waltz,Dance,,,
 405,B405,,Waltz,Dance,,,
 406,B406,,Ecossaisen,Dance,,,
-407,B407,,Allegretto,,A minor,,
+407,B407,,Allegretto,Piece,A minor,,
 408,B408,,Piano Quartet,Quartet,Bb major,,
 409,B409,,Themes,,,,
 410,B410,,Piano Piece,Piece,E minor,,
@@ -664,20 +664,20 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 418,B418,,Concerto for Violin (Symphony?),Concerto,G minor,,
 419,B419,,Sonata for Cello and Piano,Sonata,,,
 420,B420,,"""Ocean"" Symphony (""Neptune"")",Symphony,,,
-421,B421,,Capriccio,,,,
+421,B421,,Capriccio,Caprice,,,
 422,B422,,Suite in D minor,Suite,D minor,,
 423,B423,,Sketches,,,,
 424,B424,,Rhapsody in F minor,Rhapsody,F minor,,
 425,B425,,Concerto (?),Concerto,,,
 426,B426,,Piano Sonata,Sonata,,,
-427,B427,,Andante cantabile,,,,
+427,B427,,Andante cantabile,Piece,,,
 428,B428,,Sonatina for Cello and Piano,Sonata,,,
 429,B429,,Suite for Orchestra,Suite,,,
 430,B430,,Hiawatha,,,,
 431,B431,,Symphony in A major,Symphony,A major,,
 432,B432,,The Revelation of St. John,,,,
 433,B433,,Piano Pieces,Piece,,,
-434,B434,,Andante for Cello and Piano,,,,
+434,B434,,Andante for Cello and Piano,Piece,,,
 435,B435,,The Firefly,,,,
 436,B436,,Šárka,Opera,,,
 437,B437,,The Bridegroom's Arrival (a liturgical drama),Oratorio,,,
@@ -685,31 +685,31 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 439,B439,,Song of Songs,Oratorio,,,
 440,B440,,Vlasta's Death,Opera,,,
 441,B441,,Horymír,Opera,,,
-501,B501,,"Hymn ""The Heirs of White Mountain"", for v, klav-2-ms",,,,
+501,B501,,"Hymn ""The Heirs of White Mountain"", for v, klav-2-ms",Hymn,,,
 502,B502,,"The Stubborn Lovers, for v, klav-2-ms",,,,
-503,B503,,"Lenka's Song, for v, klav-2-ms",,,,
-504,B504,,"Serenade in E major, for v, klav-2-ms",,,,
-505,B505,,"Song of The Prince,for v, klav-2-ms",,,,
-506,B506,,"Slavonic Rhapsodies, for klav-4-ms",,,,
-507,B507,op. 54,"Festival March, for klav-2-ms",,,,
-507,B507,op. 51,"String Quartet, for klav-4-ms",,Eb major,,
-507,B507,op. 48,"String Sextet, for klav-4-ms",,A major,,
-508,B508,,"Prague Waltzes, for klav-2-ms",,,,
+503,B503,,"Lenka's Song, for v, klav-2-ms",Song,,,
+504,B504,,"Serenade in E major, for v, klav-2-ms",Serenade,,,
+505,B505,,"Song of The Prince,for v, klav-2-ms",Song,,,
+506,B506,,"Slavonic Rhapsodies, for klav-4-ms",Rhapsody,,,
+507,B507,op. 54,"Festival March, for klav-2-ms",March,,,
+507,B507,op. 51,"String Quartet, for klav-4-ms",Quartet,Eb major,,
+507,B507,op. 48,"String Sextet, for klav-4-ms",Sextet,A major,,
+508,B508,,"Prague Waltzes, for klav-2-ms",Waltz,,,
 508,B508,op. 64,,,,,
-509,B509,op. 40,"Nocturne, for klav-4-ms",,B major,,
-510,B510,op. 66,"Scherzo capriccioso, for klav-4-ms",,,,
+509,B509,op. 40,"Nocturne, for klav-4-ms",Nocturne,B major,,
+510,B510,op. 66,"Scherzo capriccioso, for klav-4-ms",Scherzo,,,
 511,B511,op. 67,"Husitská, for klav-4-ms",,,,
-512,B512,op. 70,"Symphony No. 7, for klav-4-ms",,,,
-513,B513,op. 52,"Piano Pieces, for klav-4-ms",,,,
-514,B514,op. 78,"Symphonic Variations, for klav-4-ms",,,,
-515,B515,op. 80,String Quartet,,E major,,
-516,B516,,"Concert overture, for klav-4-ms",,,,
-517,B517,op. 89,"Requiem, for v, klav-2-ms",,,,
-518,B518,op. 88,"Symphony No. 8, for klav-4-ms",,,,
+512,B512,op. 70,"Symphony No. 7, for klav-4-ms",Duet,,,
+513,B513,op. 52,"Piano Pieces, for klav-4-ms",Piece,,,
+514,B514,op. 78,"Symphonic Variations, for klav-4-ms",Variations,,,
+515,B515,op. 80,String Quartet,Quartet,E major,,
+516,B516,,"Concert overture, for klav-4-ms",Overture,,,
+517,B517,op. 89,"Requiem, for v, klav-2-ms",Requiem,,,
+518,B518,op. 88,"Symphony No. 8, for klav-4-ms",Duet,,,
 519,B519,op. 102,"The American Flag, for v, klav-2-ms",,,,
 520,B520,op. 90,"Piano Trio No. 4 ""Dumky"", for klav-4-ms",,,,
 521,B521,op. 95,"Symphony No. 9 ""From the New World"", for klav-4-ms",,,,
-522,B522,op. 104,"Concerto for Cello and Orchestra, for klav-2-ms",,B minor,,
+522,B522,op. 104,"Concerto for Cello and Orchestra, for klav-2-ms",Duet,B minor,,
 523,B523,,"Dimitrij, for v, klav-2-ms",,,,
 524,B524,op. 110,"The Wild Dove, for klav-4-ms",,,,
 525,B525,,"The Jacobin, 2nd version",,,,
@@ -727,27 +727,27 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 605,B605,,Old Folks at Home,,,,
 605.9,B605bis,,A Thousand Times We Greet Thee,Song,,,
 606,B606,,Vysoká Polka,Dance,,,
-701,B701,,String Quartet,,Bb major,,
-702,B702,,String Quartet,,D major,,
-703,B703,,String Quartet,,E minor,,
-703.1,B703a,,Sonata for Cello and Piano,,F minor,,
+701,B701,,String Quartet,Quartet,Bb major,,
+702,B702,,String Quartet,Quartet,D major,,
+703,B703,,String Quartet,Quartet,E minor,,
+703.1,B703a,,Sonata for Cello and Piano,Sonata,F minor,,
 704,B704,op. 12,String Quartet,,A minor,,
-705,B705,op. 26,Piano Trio,,G minor,,
-706,B706,op. 47,Bagatelles,,,,
-707,B707,op. 54,2 Waltzes,,,,
-708,B708,,"Moravian Duets, for 2 sopr, 2 alt",,,,
+705,B705,op. 26,Piano Trio,Trio,G minor,,
+706,B706,op. 47,Bagatelles,Bagatelle,,,
+707,B707,op. 54,2 Waltzes,Waltz,,,
+708,B708,,"Moravian Duets, for 2 sopr, 2 alt",Duet,,,
 801,B801,,,,,,
 802,B802,,,,,,
 803,B803,,The Battle of Novara,,,,
 804,B804,,Between You and Me,,,,
 805,B805,,Eyes of Love,,,,
-806,B806,,Mass in F minor,,,,
+806,B806,,Mass in F minor,Mass,,,
 807,B807,,,,,,
 808,B808,,,,,,
 809,B809,,,,,,
 809.9,B809bis,,Funeral March,March,,,
-810,B810,,Duets,,,,
+810,B810,,Duets,Duet,,,
 811,B811,,"Spring Song, for 2 voice, clav",,,,
-812,B812,,"Cantata ""Chaple in the Woods"" by Josef Lepold Zvonař, arr for v, clav",,,,
-813,B813,,"2 Polkas by Könamann, for orch",,,,
+812,B812,,"Cantata ""Chaple in the Woods"" by Josef Lepold Zvonař, arr for v, clav",Cantata,,,
+813,B813,,"2 Polkas by Könamann, for orch",Dance,,,
 ,,,Per Pedes Polka,Dance,,,
