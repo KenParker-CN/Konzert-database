@@ -1,557 +1,557 @@
-SORT_Kk,Kirkpatrick,Longo,Pestelli,Genre,Key,Movements,Instrumentation
-1,Kk. 1,L. 366,P. 57,Sonata,D minor,Allegro,Harpsichord
-2,Kk. 2,L. 388,P. 58,Sonata,G major,Presto,Harpsichord
-3,Kk. 3,L. 378,P. 59,Sonata,A minor,Presto,Harpsichord
-4,Kk. 4,L. 390,P. 60,Sonata,G minor,Allegro,Harpsichord
-5,Kk. 5,L. 367,P. 61,Sonata,D minor,Allegro,Harpsichord
-6,Kk. 6,L. 479,P. 62,Sonata,F major,Allegro,Harpsichord
-7,Kk. 7,L. 379,P. 63,Sonata,A minor,Presto,Harpsichord
-8,Kk. 8,L. 488,P. 64,Sonata,G minor,Allegro,Harpsichord
-9,Kk. 9,L. 413,P. 65,Sonata,D minor,Allegro,Harpsichord
-10,Kk. 10,L. 370,P. 66,Sonata,D minor,Presto,Harpsichord
-11,Kk. 11,L. 352,P. 67,Sonata,C minor,Allegro,Harpsichord
-12,Kk. 12,L. 489,P. 68,Sonata,G minor,Presto,Harpsichord
-13,Kk. 13,L. 486,P. 69,Sonata,G major,Presto,Harpsichord
-14,Kk. 14,L. 387,P. 70,Sonata,G major,Presto,Harpsichord
-15,Kk. 15,L. 374,P. 71,Sonata,E minor,Allegro,Harpsichord
-16,Kk. 16,L. 397,P. 72,Sonata,B-flat major,Presto,Harpsichord
-17,Kk. 17,L. 384,P. 73,Sonata,F major,Presto,Harpsichord
-18,Kk. 18,L. 416,P. 74,Sonata,D minor,Presto,Harpsichord
-19,Kk. 19,L. 383,P. 75,Sonata,F minor,Allegro,Harpsichord
-20,Kk. 20,L. 375,P. 76,Sonata,E major,Presto,Harpsichord
-21,Kk. 21,L. 363,P. 77,Sonata,D major,Allegro,Harpsichord
-22,Kk. 22,L. 360,P. 78,Sonata,C minor,Allegro,Harpsichord
-23,Kk. 23,L. 411,P. 79,Sonata,D major,Allegro,Harpsichord
-24,Kk. 24,L. 495,P. 80,Sonata,A major,Presto,Harpsichord
-25,Kk. 25,L. 481,P. 81,Sonata,F-sharp minor,Allegro,Harpsichord
-26,Kk. 26,L. 368,P. 82,Sonata,A major,Presto,Harpsichord
-27,Kk. 27,L. 449,P. 83,Sonata,B minor,Allegro,Harpsichord
-28,Kk. 28,L. 373,P. 84,Sonata,E major,Presto,Harpsichord
-29,Kk. 29,L. 461,P. 85,Sonata,D major,Presto,Harpsichord
-30,Kk. 30,L. 499,P. 86,Sonata,G minor,Moderato,Harpsichord
-31,Kk. 31,L. 231,P. 19,Sonata,G minor,Allegro,Harpsichord
-32,Kk. 32,L. 423,P. 14,Sonata,D minor,Aria,Harpsichord
-33,Kk. 33,L. 424,P. 130,Sonata,D major,-,Harpsichord
-34,Kk. 34,L. S 7,P. 15,Sonata,D minor,Larghetto,Harpsichord
-35,Kk. 35,L. 386,P. 20,Sonata,G minor,Allegro,Harpsichord
-36,Kk. 36,L. 245,P. 91,Sonata,A minor,Allegro,Harpsichord
-37,Kk. 37,L. 406,P. 2,Sonata,C minor,Allegro,Harpsichord
-38,Kk. 38,L. 478,P. 97,Sonata,F major,Allegro,Harpsichord
-39,Kk. 39,L. 391,P. 53,Sonata,A major,Allegro,Harpsichord
-40,Kk. 40,L. 357,P. 119,Sonata,C minor,Minuetto,Harpsichord
-41,Kk. 41,,P. 37,Sonata,D minor,Andante moderato,Harpsichord
-42,Kk. 42,L. S36,P. 120,Sonata,B-flat major,Minuetto,Harpsichord
-43,Kk. 43,L. 40,P. 133,Sonata,G minor,Allegro assai,Harpsichord
-44,Kk. 44,L. 432,P. 116,Sonata,F major,Allegro,Harpsichord
-45,Kk. 45,L. 265,P. 230,Sonata,D major,Allegro,Harpsichord
-46,Kk. 46,L. 25,P. 179,Sonata,E major,Presto,Harpsichord
-47,Kk. 47,L. 46,P. 115,Sonata,B-flat major,Presto,Harpsichord
-48,Kk. 48,L. 157,P. 87,Sonata,C minor,Presto,Harpsichord
-49,Kk. 49,L. 301,P. 178,Sonata,C major,Presto,Harpsichord
-50,Kk. 50,L. 440,P. 144,Sonata,F minor,Allegro,Harpsichord
-51,Kk. 51,L. 20,P. 151,Sonata,E-flat major,Allegro,Harpsichord
-52,Kk. 52,L. 267,P. 41,Sonata,D minor,Andante moderato,Harpsichord
-53,Kk. 53,L. 261,P. 161,Sonata,D major,Presto,Harpsichord
-54,Kk. 54,L. 241,P. 147,Sonata,A minor,Allegro,Harpsichord
-55,Kk. 55,L. 335,P. 117,Sonata,G major,Allegro,Harpsichord
-56,Kk. 56,L. 356,P. 50,Sonata,D major,Con spirito,Harpsichord
-57,Kk. 57,L. S38,P. 108,Sonata,B-flat major,Allegro,Harpsichord
-58,Kk. 58,L. 158,P. 39,Sonata,D major,-,Harpsichord
-59,Kk. 59,L. 71,P. 22,Sonata,D major,Allegro,Harpsichord
-60,Kk. 60,L. 13,P. 29,Sonata,D major,-,Harpsichord
-61,Kk. 61,L. 136,P. 16,Sonata,A minor,-,Harpsichord
-62,Kk. 62,L. 45,P. 49,Sonata,A major,Allegro,Harpsichord
-63,Kk. 63,L. 84,P. 32,Sonata,G major,Allegro,Harpsichord
-64,Kk. 64,L. 58,P. 33,Sonata,D minor,Allegro,Harpsichord
-65,Kk. 65,L. 195,P. 142,Sonata,A major,Allegro,Harpsichord
-66,Kk. 66,L. 496,P. 134,Sonata,B-flat major,Allegro,Harpsichord
-67,Kk. 67,L. 32,P. 125,Sonata,F-sharp minor,Allegro,Harpsichord
-68,Kk. 68,L. 114,P. 7,Sonata,E-flat major,-,Harpsichord
-69,Kk. 69,L. 382,P. 42,Sonata,F minor,-,Harpsichord
-70,Kk. 70,L. 50,P. 21,Sonata,B-flat major,-,Harpsichord
-71,Kk. 71,L. 81,P. 17,Sonata,G major,Allegro,Harpsichord
-72,Kk. 72,L. 401,P. 1,Sonata,C major,Allegro,Harpsichord
-73,Kk. 73,L. 217,P. 80,Sonata,C minor,Allegro - Minuetto - Minuetto,Harpsichord
-74,Kk. 74,L. 94,P. 35,Sonata,A major,Allegro,Harpsichord
-75,Kk. 75,L. 53,P. 23,Sonata,G major,Allegro,Harpsichord
-76,Kk. 76,L. 185,P. 23,Sonata,G minor,Presto,Harpsichord
-77,Kk. 77,L. 168,P. 10,Sonata,D minor,Moderato e cantabile - Minuet,Harpsichord
-78,Kk. 78,L. 75,P. 26,Sonata,F major,Allegro - Minuet,Harpsichord
-79,Kk. 79,L. 80,P. 204,Sonata,G major,Allegrissimo,Harpsichord
-80,Kk. 80,,P. 28,Sonata,G major,Minuet,Harpsichord
-81,Kk. 81,L. 271,P. 13,Sonata,E minor,Grave - Allegro - Grave - Allegro,Harpsichord
-82,Kk. 82,L. 30,P. 25,Sonata,F major,-,Harpsichord
-83,Kk. 83,L. S31,P. 31,Sonata,A major,- - -,Harpsichord
-84,Kk. 84,L. 10,P. 45,Sonata,C minor,-,Harpsichord
-85,Kk. 85,L. 166,P. 24,Sonata,F major,-,Harpsichord
-86,Kk. 86,L. 403,P. 122,Sonata,C major,Andante moderato,Harpsichord
-87,Kk. 87,L. 33,P. 43,Sonata,B minor,-,Harpsichord
-88,Kk. 88,L. 36,P. 8,Sonata,G minor,Grave - Andante moderato - Allegro - Minuet,Harpsichord
-89,Kk. 89,L. 211,P. 12,Sonata,D minor,Allegro - Grave - Allegro,Harpsichord
-90,Kk. 90,L. 106,P. 9,Sonata,D minor,Grave - Allegro - - - Allegro,Harpsichord
-91,Kk. 91,L. 176,P. 11,Sonata,G major,Grave - Allegro - Grave - Allegro,Harpsichord
-92,Kk. 92,L. 362,P. 44,Sonata,D minor,-,Harpsichord
-93,Kk. 93,L. 336,P. 38,Sonata,G minor,-,Harpsichord
-94,Kk. 94,,P. 27,Sonata,F major,Minuet,Harpsichord
-95,Kk. 95,L. 358,,Sonata,C major,-,Harpsichord
-96,Kk. 96,L. 465,P. 210,Sonata,D major,Allegrissimo,Harpsichord
-97,Kk. 97,,P. 5,Sonata,G minor,Allegro,Harpsichord
-98,Kk. 98,L. 325,P. 219,Sonata,E minor,Allegrissimo,Harpsichord
-99,Kk. 99,L. 317,P. 135,Sonata,C minor,Allegro,Harpsichord
-100,Kk. 100,L. 355,P. 232,Sonata,C major,Allegrissimo,Harpsichord
-101,Kk. 101,L. 494,P. 156,Sonata,A major,Allegro,Harpsichord
-102,Kk. 102,L. 89,P. 88,Sonata,G minor,Allegro,Harpsichord
-103,Kk. 103,L. 233,P. 233,Sonata,G major,Allegrissimo,Harpsichord
-104,Kk. 104,L. 442,P. 109,Sonata,G major,Allegro,Harpsichord
-105,Kk. 105,L. 204,P. 90,Sonata,G major,Allegro,Harpsichord
-106,Kk. 106,L. 437,P. 197,Sonata,F major,Allegro,Harpsichord
-107,Kk. 107,L. 474,P. 98,Sonata,F major,Allegro,Harpsichord
-108,Kk. 108,L. 249,P. 92,Sonata,G minor,Allegro,Harpsichord
-109,Kk. 109,L. 138,P. 290,Sonata,A minor,Adagio,Harpsichord
-110,Kk. 110,L. 469,P. 129,Sonata,A minor,Allegro,Harpsichord
-111,Kk. 111,L. 130,P. 99,Sonata,G minor,Allegro,Harpsichord
-112,Kk. 112,L. 298,P. 94,Sonata,B-flat major,Allegro,Harpsichord
-113,Kk. 113,L. 345,P. 160,Sonata,A major,Allegro,Harpsichord
-114,Kk. 114,L. 344,P. 141,Sonata,A major,Spirito e presto,Harpsichord
-115,Kk. 115,L. 407,P. 100,Sonata,C minor,Allegro,Harpsichord
-116,Kk. 116,L. 452,P. 111,Sonata,C minor,Allegro,Harpsichord
-117,Kk. 117,L. 244,P. 181,Sonata,C major,Allegro,Harpsichord
-118,Kk. 118,L. 122,P. 266,Sonata,D major,Non presto,Harpsichord
-119,Kk. 119,L. 415,P. 217,Sonata,D major,Allegro,Harpsichord
-120,Kk. 120,L. 215,P. 146,Sonata,D minor,Allegrissimo,Harpsichord
-121,Kk. 121,L. 181,P. 93,Sonata,G minor,Allegrissimo,Harpsichord
-122,Kk. 122,L. 334,P. 118,Sonata,D major,Allegro,Harpsichord
-123,Kk. 123,L. 111,P. 180,Sonata,E-flat major,Allegro,Harpsichord
-124,Kk. 124,L. 232,P. 110,Sonata,G major,Allegro,Harpsichord
-125,Kk. 125,L. 487,P. 152,Sonata,G major,Vivo,Harpsichord
-126,Kk. 126,L. 402,P. 128,Sonata,C minor,-,Harpsichord
-127,Kk. 127,L. 186,P. 198,Sonata,A-flat major,Allegro,Harpsichord
-128,Kk. 128,L. 296,P. 199,Sonata,B-flat minor,Allegro,Harpsichord
-129,Kk. 129,L. 460,P. 148,Sonata,C minor,Allegro,Harpsichord
-130,Kk. 130,L. 190,P. 272,Sonata,A-flat major,Allegro,Harpsichord
-131,Kk. 131,L. 300,P. 154,Sonata,B-flat minor,Allegro,Harpsichord
-132,Kk. 132,L. 457,P. 295,Sonata,C major,Cantabile,Harpsichord
-133,Kk. 133,L. 282,P. 218,Sonata,C major,Allegro,Harpsichord
-134,Kk. 134,L. 221,P. 143,Sonata,E major,Allegro,Harpsichord
-135,Kk. 135,L. 224,P. 234,Sonata,E major,Allegro,Harpsichord
-136,Kk. 136,L. 377,P. 113,Sonata,E major,Allegro,Harpsichord
-137,Kk. 137,L. 315,P. 231,Sonata,D major,Allegro,Harpsichord
-138,Kk. 138,L. 464,P. 95,Sonata,D minor,Allegro,Harpsichord
-139,Kk. 139,L. 6,P. 126,Sonata,C minor,Presto,Harpsichord
-140,Kk. 140,L. 107,P. 127,Sonata,D major,Allegro,Harpsichord
-141,Kk. 141,L. 422,P. 271,Sonata,D minor,Allegro,Harpsichord
-142,Kk. 142,,P. 240,Sonata,F-sharp minor,Allegro,Harpsichord
-143,Kk. 143,,P. 267,Sonata,C major,Allegro,Harpsichord
-144,Kk. 144,,P. 316,Sonata,G major,Cantabile,Harpsichord
-145,Kk. 145,L. 369,P. 105,Sonata,D major,-,Harpsichord
-146,Kk. 146,L. 349,P. 106,Sonata,G major,-,Harpsichord
-147,Kk. 147,L. 376,P. 48,Sonata,E minor,-,Harpsichord
-148,Kk. 148,L. 64,P. 291,Sonata,A minor,Andante,Harpsichord
-149,Kk. 149,L. 93,P. 241,Sonata,A minor,Allegro,Harpsichord
-150,Kk. 150,L. 117,P. 205,Sonata,F major,Allegro,Harpsichord
-151,Kk. 151,L. 330,P. 238,Sonata,F major,Andamte allegro,Harpsichord
-152,Kk. 152,L. 179,P. 114,Sonata,G major,Allegro,Harpsichord
-153,Kk. 153,L. 445,P. 235,Sonata,G major,Vivo,Harpsichord
-154,Kk. 154,L. 96,P. 183,Sonata,B-flat major,Allegro,Harpsichord
-155,Kk. 155,L. 197,P. 208,Sonata,B-flat major,Allegro,Harpsichord
-156,Kk. 156,L. 101,P. 248,Sonata,C major,Allegro,Harpsichord
-157,Kk. 157,L. 405,P. 391,Sonata,C major,Allegro,Harpsichord
-158,Kk. 158,L. 4,P. 123,Sonata,C minor,Andante,Harpsichord
-159,Kk. 159,L. 104,P. 418,Sonata,C major,Allegro,Harpsichord
-160,Kk. 160,L. 15,P. 131,Sonata,D major,Allegro,Harpsichord
-161,Kk. 161,L. 417,P. 216,Sonata,D major,Allegro,Harpsichord
-162,Kk. 162,L. 21,P. 162,Sonata,E major,Andante - Allegro,Harpsichord
-163,Kk. 163,L. 63,P. 206,Sonata,E major,Allegro,Harpsichord
-164,Kk. 164,L. 59,P. 274,Sonata,D major,Andante moderato,Harpsichord
-165,Kk. 165,L. 52,P. 292,Sonata,C major,Andante,Harpsichord
-166,Kk. 166,L. 51,P. 190,Sonata,C major,Allegro ma non molto,Harpsichord
-167,Kk. 167,L. 329,P. 200,Sonata,F major,Allegro,Harpsichord
-168,Kk. 168,L. 280,P. 182,Sonata,F major,Vivo,Harpsichord
-169,Kk. 169,L. 331,P. 247,Sonata,G major,Allegro,Harpsichord
-170,Kk. 170,L. 303,P. 164,Sonata,C major,Andante - Allegro,Harpsichord
-171,Kk. 171,L. 77,P. 153,Sonata,G major,Allegro,Harpsichord
-172,Kk. 172,L. S40,P. 313,Sonata,B-flat major,Allegro,Harpsichord
-173,Kk. 173,L. 447,P. 51,Sonata,B minor,Allegro,Harpsichord
-174,Kk. 174,L. 410,P. 149,Sonata,C minor,Allegro,Harpsichord
-175,Kk. 175,L. 429,P. 136,Sonata,A minor,Allegro,Harpsichord
-176,Kk. 176,L. 163,P. 163,Sonata,D minor,Cantabile Andante - Allegrissimo,Harpsichord
-177,Kk. 177,L. 364,P. 184,Sonata,D major,Andante,Harpsichord
-178,Kk. 178,L. 162,P. 392,Sonata,D major,Vivo,Harpsichord
-179,Kk. 179,L. 177,P. 89,Sonata,G minor,Allegro,Harpsichord
-180,Kk. 180,L. 272,P. 192,Sonata,G major,Allegro Vivo,Harpsichord
-181,Kk. 181,L. 194,P. 253,Sonata,A major,Allegro,Harpsichord
-182,Kk. 182,L. 139,P. 207,Sonata,A major,Allegro,Harpsichord
-183,Kk. 183,L. 473,P. 150,Sonata,F minor,Allegro,Harpsichord
-184,Kk. 184,L. 189,P. 102,Sonata,F minor,Allegro,Harpsichord
-185,Kk. 185,L. 173,P. 121,Sonata,F major,Andante,Harpsichord
-186,Kk. 186,L. 72,P. 46,Sonata,F major,Allegro,Harpsichord
-187,Kk. 187,L. 285,P. 145,Sonata,F minor,Allegro,Harpsichord
-188,Kk. 188,L. 239,P. 213,Sonata,A minor,Allegro,Harpsichord
-189,Kk. 189,L. 143,P. 257,Sonata,B-flat major,Allegro,Harpsichord
-190,Kk. 190,L. 250,P. 256,Sonata,B-flat major,Allegro,Harpsichord
-191,Kk. 191,L. 207,P. 18,Sonata,D minor,Allegro,Harpsichord
-192,Kk. 192,L. 216,P. 322,Sonata,E-flat major,Allegro,Harpsichord
-193,Kk. 193,L. 142,P. 254,Sonata,E-flat major,Allegro,Harpsichord
-194,Kk. 194,L. 28,P. 479,Sonata,F major,Andante,Harpsichord
-195,Kk. 195,L. S18,P. 185,Sonata,F major,Vivo,Harpsichord
-196,Kk. 196,L. 38,P. 244,Sonata,G minor,Allegro,Harpsichord
-197,Kk. 197,L. 147,P. 124,Sonata,B minor,Andante,Harpsichord
-198,Kk. 198,L. 22,P. 132,Sonata,E minor,Allegro,Harpsichord
-199,Kk. 199,L. 253,P. 276,Sonata,C major,Andante moderato,Harpsichord
-200,Kk. 200,L. 54,P. 242,Sonata,C major,Allegro,Harpsichord
-201,Kk. 201,L. 129,P. 252,Sonata,G major,Vivo,Harpsichord
-202,Kk. 202,L. 498,P. 173,Sonata,B-flat major,- - Allegro - -,Harpsichord
-203,Kk. 203,L. 380,P. 96,Sonata,E minor,Vivo non molto,Harpsichord
-204.1,Kk. 204a,,P. 170,Sonata,F minor,Allegro,Harpsichord
-204.2,Kk. 204b,,P. 255,Sonata,F minor,Allegro - Allegro - Allegrissimo,Harpsichord
-205,Kk. 205,L. S23,P. 171,Sonata,F major,Vivo,Harpsichord
-206,Kk. 206,L. 257,P. 307,Sonata,E major,Andante,Harpsichord
-207,Kk. 207,L. 371,P. 140,Sonata,E major,Allegro,Harpsichord
-208,Kk. 208,L. 238,P. 315,Sonata,A major,Adagio e cantabile,Harpsichord
-209,Kk. 209,L. 428,P. 209,Sonata,A major,Allegro,Harpsichord
-210,Kk. 210,L. 123,P. 293,Sonata,G major,Andante,Harpsichord
-211,Kk. 211,L. 133,P. 277,Sonata,A major,Andantino,Harpsichord
-212,Kk. 212,L. 135,P. 155,Sonata,A major,Allegro molto,Harpsichord
-213,Kk. 213,L. 108,P. 288,Sonata,D minor,Andante,Harpsichord
-214,Kk. 214,L. 165,P. 430,Sonata,D major,Allegro vivo,Harpsichord
-215,Kk. 215,L. 323,P. 281,Sonata,E major,Andante,Harpsichord
-216,Kk. 216,L. 273,P. 320,Sonata,E major,Allegro,Harpsichord
-217,Kk. 217,L. 42,P. 287,Sonata,A minor,Andante,Harpsichord
-218,Kk. 218,L. 392,P. 237,Sonata,A minor,Vivo,Harpsichord
-219,Kk. 219,L. 393,P. 278,Sonata,A major,Andante,Harpsichord
-220,Kk. 220,L. 342,P. 309,Sonata,A major,Allegro,Harpsichord
-221,Kk. 221,L. 259,P. 215,Sonata,A major,Allegro,Harpsichord
-222,Kk. 222,L. 309,P. 236,Sonata,A major,Vivo,Harpsichord
-223,Kk. 223,L. 214,P. 188,Sonata,D major,Allegro,Harpsichord
-224,Kk. 224,L. 268,P. 225,Sonata,D major,Vivo,Harpsichord
-225,Kk. 225,L. 351,P. 202,Sonata,C major,Allegro,Harpsichord
-226,Kk. 226,L. 112,P. 101,Sonata,C minor,Allegro,Harpsichord
-227,Kk. 227,L. 347,P. 52,Sonata,B minor,Allegro,Harpsichord
-228,Kk. 228,L. 399,P. 224,Sonata,B-flat major,Allegro,Harpsichord
-229,Kk. 229,L. 199,P. 139,Sonata,B-flat major,Allegro vivo,Harpsichord
-230,Kk. 230,L. 354,P. 47,Sonata,C minor,Allegro,Harpsichord
-231,Kk. 231,L. 409,P. 393,Sonata,C major,Allegro,Harpsichord
-232,Kk. 232,L. 62,P. 317,Sonata,E minor,Andante,Harpsichord
-233,Kk. 233,L. 467,P. 497,Sonata,E minor,Allegro,Harpsichord
-234,Kk. 234,L. 49,P. 286,Sonata,G minor,Andante,Harpsichord
-235,Kk. 235,L. 154,P. 172,Sonata,G major,Allegro,Harpsichord
-236,Kk. 236,L. 161,P. 201,Sonata,D major,Allegro,Harpsichord
-237,Kk. 237,L. 308,P. 446,Sonata,D major,Allegro,Harpsichord
-238,Kk. 238,L. 27,P. 55,Sonata,F minor,Andante,Harpsichord
-239,Kk. 239,L. 281,P. 56,Sonata,F minor,Allegro,Harpsichord
-240,Kk. 240,L. S29,P. 368,Sonata,G major,Allegro,Harpsichord
-241,Kk. 241,L. 180,P. 431,Sonata,G major,Allegro,Harpsichord
-242,Kk. 242,L. 202,P. 243,Sonata,C major,Vivo,Harpsichord
-243,Kk. 243,L. 353,P. 394,Sonata,C major,Allegro,Harpsichord
-244,Kk. 244,L. 348,P. 298,Sonata,B major,Allegro,Harpsichord
-245,Kk. 245,L. 450,P. 299,Sonata,B major,Allegro,Harpsichord
-246,Kk. 246,L. 260,P. 296,Sonata,C-sharp minor,Allegro,Harpsichord
-247,Kk. 247,L. 256,P. 297,Sonata,C-sharp minor,Allegro,Harpsichord
-248,Kk. 248,L. S35,P. 187,Sonata,B-flat major,Allegro,Harpsichord
-249,Kk. 249,L. 39,P. 424,Sonata,B-flat major,Allegro,Harpsichord
-250,Kk. 250,L. 174,P. 461,Sonata,C major,Allegro,Harpsichord
-251,Kk. 251,L. 305,P. 314,Sonata,C major,Allegro,Harpsichord
-252,Kk. 252,L. 159,P. 203,Sonata,E-flat major,Allegro,Harpsichord
-253,Kk. 253,L. 320,P. 239,Sonata,E-flat major,Allegro,Harpsichord
-254,Kk. 254,L. 219,P. 254,Sonata,C minor,Allegro,Harpsichord
-255,Kk. 255,L. 439,P. 226,Sonata,C major,Allegro,Harpsichord
-256,Kk. 256,L. 228,P. 480,Sonata,F major,Andante,Harpsichord
-257,Kk. 257,L. 169,P. 138,Sonata,F major,Allegro,Harpsichord
-258,Kk. 258,L. 178,P. 494,Sonata,D major,Andante,Harpsichord
-259,Kk. 259,L. 103,P. 469,Sonata,G major,Andante,Harpsichord
-260,Kk. 260,L. 124,P. 304,Sonata,G major,Allegro,Harpsichord
-261,Kk. 261,L. 148,P. 300,Sonata,B major,Allegro,Harpsichord
-262,Kk. 262,L. 446,P. 301,Sonata,B major,Vivo,Harpsichord
-263,Kk. 263,L. 321,P. 283,Sonata,E minor,Andante,Harpsichord
-264,Kk. 264,L. 466,P. 308,Sonata,E major,Vivo,Harpsichord
-265,Kk. 265,L. S32,P. 168,Sonata,A minor,Allegro,Harpsichord
-266,Kk. 266,L. 48,P. 251,Sonata,B-flat major,Andante,Harpsichord
-267,Kk. 267,L. 434,P. 363,Sonata,B-flat major,Allegro,Harpsichord
-268,Kk. 268,L. 41,P. 369,Sonata,A major,Allegro,Harpsichord
-269,Kk. 269,L. 307,P. 432,Sonata,A major,Allegro,Harpsichord
-270,Kk. 270,L. 459,P. 481,Sonata,C major,-,Harpsichord
-271,Kk. 271,L. 155,P. 447,Sonata,C major,Vivo,Harpsichord
-272,Kk. 272,L. 145,P. 518,Sonata,B-flat major,Allegro,Harpsichord
-273,Kk. 273,L. 398,P. 174,Sonata,B-flat major,Vivo - Moderato,Harpsichord
-274,Kk. 274,L. 297,P. 491,Sonata,F major,Andante,Harpsichord
-275,Kk. 275,L. 328,P. 430,Sonata,F major,Allegro,Harpsichord
-276,Kk. 276,L. S20,P. 433,Sonata,F major,Allegro,Harpsichord
-277,Kk. 277,L. 183,P. 275,Sonata,D major,Cantabile andantino,Harpsichord
-278,Kk. 278,L. S15,P. 434,Sonata,D major,Con velocita,Harpsichord
-279,Kk. 279,L. 468,P. 306,Sonata,A major,Andante,Harpsichord
-280,Kk. 280,L. 237,P. 395,Sonata,A major,Allegro,Harpsichord
-281,Kk. 281,L. 56,P. 289,Sonata,D major,Andante,Harpsichord
-282,Kk. 282,L. 484,P. 166,Sonata,D major,Allegro,Harpsichord
-283,Kk. 283,L. 318,P. 482,Sonata,G major,Andante Allegro,Harpsichord
-284,Kk. 284,L. 90,P. 169,Sonata,G major,Allegro,Harpsichord
-285,Kk. 285,L. 91,P. 321,Sonata,A major,Allegro,Harpsichord
-286,Kk. 286,L. 394,P. 410,Sonata,A major,Allegro,Harpsichord
-287,Kk. 287,L. S 9,P. 310,Sonata,D major,Andante Allegro,Harpsichord
-288,Kk. 288,L. 57,P. 311,Sonata,D major,Allegro,Harpsichord
-289,Kk. 289,L. 78,P. 249,Sonata,G major,Allegro,Harpsichord
-290,Kk. 290,L. 85,P. 396,Sonata,G major,Allegro,Harpsichord
-291,Kk. 291,L. 61,P. 282,Sonata,E minor,Andante,Harpsichord
-292,Kk. 292,L. 24,P. 223,Sonata,E minor,Allegro,Harpsichord
-293,Kk. 293,L. S44,P. 157,Sonata,B minor,Allegro,Harpsichord
-294,Kk. 294,L. 67,P. 470,Sonata,D minor,Andante,Harpsichord
-295,Kk. 295,L. 270,P. 211,Sonata,D minor,Allegro,Harpsichord
-296,Kk. 296,L. 198,P. 305,Sonata,F major,Andante,Harpsichord
-297,Kk. 297,L. S19,P. 448,Sonata,F major,Allegro,Harpsichord
-298,Kk. 298,L. S 6,P. 194,Sonata,D major,Allegro,Harpsichord
-299,Kk. 299,L. 210,P. 268,Sonata,D major,Allegro,Harpsichord
-300,Kk. 300,L. 92,P. 312,Sonata,A major,Andante,Harpsichord
-301,Kk. 301,L. 493,P. 361,Sonata,A major,Allegro,Harpsichord
-302,Kk. 302,L. 7,P. 279,Sonata,C minor,Andante,Harpsichord
-303,Kk. 303,L. 9,P. 212,Sonata,C minor,Allegro,Harpsichord
-304,Kk. 304,L. 88,P. 492,Sonata,G major,Andante,Harpsichord
-305,Kk. 305,L. 322,P. 397,Sonata,G major,Allegro,Harpsichord
-306,Kk. 306,L. 16,P. 456,Sonata,E-flat major,Allegro,Harpsichord
-307,Kk. 307,L. 115,P. 449,Sonata,E-flat major,Allegro,Harpsichord
-308,Kk. 308,L. 359,P. 318,Sonata,C major,Cantabile,Harpsichord
-309,Kk. 309,L. 454,P. 333,Sonata,C major,Allegro,Harpsichord
-310,Kk. 310,L. 248,P. 284,Sonata,B-flat major,Andante,Harpsichord
-311,Kk. 311,L. 144,P. 227,Sonata,B-flat major,Allegro,Harpsichord
-312,Kk. 312,L. 264,P. 334,Sonata,D major,Allegro,Harpsichord
-313,Kk. 313,L. 192,P. 398,Sonata,D major,Allegro,Harpsichord
-314,Kk. 314,L. 441,P. 505,Sonata,G major,Allegro,Harpsichord
-315,Kk. 315,L. 235,P. 54,Sonata,G minor,Allegro,Harpsichord
-316,Kk. 316,L. 299,P. 193,Sonata,F major,Allegro,Harpsichord
-317,Kk. 317,L. 66,P. 258,Sonata,F major,Allegro,Harpsichord
-318,Kk. 318,L. 31,P. 302,Sonata,F-sharp major,Andante,Harpsichord
-319,Kk. 319,L. 35,P. 303,Sonata,F-sharp major,Allegro,Harpsichord
-320,Kk. 320,L. 341,P. 335,Sonata,A major,Allegro,Harpsichord
-321,Kk. 321,L. 258,P. 450,Sonata,A major,Allegro,Harpsichord
-322,Kk. 322,L. 483,P. 360,Sonata,A major,Allegro,Harpsichord
-323,Kk. 323,L. 95,P. 411,Sonata,A major,Allegro,Harpsichord
-324,Kk. 324,L. 332,P. 285,Sonata,G major,Andante,Harpsichord
-325,Kk. 325,L. 37,P. 451,Sonata,G major,Allegro,Harpsichord
-326,Kk. 326,L. 201,P. 336,Sonata,C major,Allegro,Harpsichord
-327,Kk. 327,L. 152,P. 399,Sonata,C major,Allegro,Harpsichord
-328,Kk. 328,L. S27,P. 485,Sonata,G major,Andante comodo,Harpsichord
-329,Kk. 329,L. S 5,P. 337,Sonata,C major,Allegro,Harpsichord
-330,Kk. 330,L. 55,P. 222,Sonata,C major,Allegro,Harpsichord
-331,Kk. 331,L. 18,P. 471,Sonata,B-flat major,Andante,Harpsichord
-332,Kk. 332,L. 141,P. 519,Sonata,B-flat major,Allegro,Harpsichord
-333,Kk. 333,L. 269,P. 338,Sonata,D major,Allegro - Allegrissimo,Harpsichord
-334,Kk. 334,L. 100,P. 412,Sonata,B-flat major,Allegro,Harpsichord
-335,Kk. 335,L. S10,P. 339,Sonata,D major,Allegro,Harpsichord
-336,Kk. 336,L. 337,P. 262,Sonata,D major,Allegro,Harpsichord
-337,Kk. 337,L. S26,P. 340,Sonata,G major,Allegro,Harpsichord
-338,Kk. 338,L. 87,P. 400,Sonata,G major,Allegro,Harpsichord
-339,Kk. 339,L. 251,P. 189,Sonata,C major,Allegro,Harpsichord
-340,Kk. 340,L. 105,P. 420,Sonata,C major,Allegro,Harpsichord
-341,Kk. 341,L. 140,P. 103,Sonata,A minor,Allegro,Harpsichord
-342,Kk. 342,L. 191,P. 341,Sonata,A major,Allegro,Harpsichord
-343,Kk. 343,L. 291,P. 495,Sonata,A major,Allegro andante,Harpsichord
-344,Kk. 344,L. 295,P. 221,Sonata,A major,Allegro,Harpsichord
-345,Kk. 345,L. 306,P. 342,Sonata,D major,Allegro,Harpsichord
-346,Kk. 346,L. 60,P. 250,Sonata,D major,Allegro,Harpsichord
-347,Kk. 347,L. 126,P. 294,Sonata,G minor,Moderato cantabile,Harpsichord
-348,Kk. 348,L. 127,P. 462,Sonata,G major,Prestissimo,Harpsichord
-349,Kk. 349,L. 170,P. 452,Sonata,F major,Allegro,Harpsichord
-350,Kk. 350,L. 230,P. 413,Sonata,F major,Allegro,Harpsichord
-351,Kk. 351,L. S34,P. 165,Sonata,B-flat major,Andante - Allegrissimo,Harpsichord
-352,Kk. 352,L. S13,P. 343,Sonata,D major,Allegro,Harpsichord
-353,Kk. 353,L. 313,P. 401,Sonata,D major,Allegro,Harpsichord
-354,Kk. 354,L. 68,P. 486,Sonata,F major,Andante,Harpsichord
-355,Kk. 355,L. S22,P. 344,Sonata,F major,Allegro,Harpsichord
-356,Kk. 356,L. 443,P. 488,Sonata,C major,Con spirito Andante,Harpsichord
-357,Kk. 357,L. S45,P. 270,Sonata,C major,Allegro,Harpsichord
-358,Kk. 358,L. 412,P. 457,Sonata,D major,Allegro,Harpsichord
-359,Kk. 359,L. 448,P. 425,Sonata,D major,Allegrissimo,Harpsichord
-360,Kk. 360,L. 400,P. 520,Sonata,B-flat major,Allegro,Harpsichord
-361,Kk. 361,L. 247,P. 214,Sonata,B-flat major,Allegrissimo,Harpsichord
-362,Kk. 362,L. 156,P. 159,Sonata,C minor,Allegro,Harpsichord
-363,Kk. 363,L. 160,P. 104,Sonata,C minor,Presto,Harpsichord
-364,Kk. 364,L. 436,P. 345,Sonata,F minor,Allegro,Harpsichord
-365,Kk. 365,L. 480,P. 112,Sonata,F minor,Allegro,Harpsichord
-366,Kk. 366,L. 119,P. 263,Sonata,F major,Allegro,Harpsichord
-367,Kk. 367,L. 172,P. 453,Sonata,F major,Presto,Harpsichord
-368,Kk. 368,L. S30,P. 506,Sonata,A major,Allegro,Harpsichord
-369,Kk. 369,L. 240,P. 259,Sonata,A major,Allegro,Harpsichord
-370,Kk. 370,L. 316,P. 346,Sonata,E-flat major,Allegro,Harpsichord
-371,Kk. 371,L. 17,P. 264,Sonata,E-flat major,Allegro,Harpsichord
-372,Kk. 372,L. 302,P. 402,Sonata,G major,Allegro,Harpsichord
-373,Kk. 373,L. 98,P. 158,Sonata,G minor,Presto e fugato,Harpsichord
-374,Kk. 374,L. 76,P. 472,Sonata,G major,Andante,Harpsichord
-375,Kk. 375,L. 389,P. 414,Sonata,G major,Allegro,Harpsichord
-376,Kk. 376,L. 34,P. 246,Sonata,B minor,Allegro,Harpsichord
-377,Kk. 377,L. 263,P. 245,Sonata,B minor,Allegrissimo,Harpsichord
-378,Kk. 378,L. 276,P. 347,Sonata,F major,Allegro,Harpsichord
-379,Kk. 379,L. 73,P. 107,Sonata,F major,-,Harpsichord
-380,Kk. 380,L. 23,P. 483,Sonata,E major,Andante comodo,Harpsichord
-381,Kk. 381,L. 225,P. 323,Sonata,E major,Allegro,Harpsichord
-382,Kk. 382,L. S33,P. 508,Sonata,A minor,Allegro,Harpsichord
-383,Kk. 383,L. 134,P. 269,Sonata,A minor,Allegro,Harpsichord
-384,Kk. 384,L. 2,P. 487,Sonata,C major,Cantabile andante,Harpsichord
-385,Kk. 385,L. 284,P. 220,Sonata,C major,Allegro,Harpsichord
-386,Kk. 386,L. 171,P. 137,Sonata,F minor,Presto,Harpsichord
-387,Kk. 387,L. 175,P. 415,Sonata,F minor,Veloce e fugato,Harpsichord
-388,Kk. 388,L. 414,P. 370,Sonata,D major,Presto,Harpsichord
-389,Kk. 389,L. 482,P. 331,Sonata,D major,Allegro,Harpsichord
-390,Kk. 390,L. 234,P. 348,Sonata,G major,Allegro,Harpsichord
-391,Kk. 391,L. 79,P. 364,Sonata,G major,Allegro,Harpsichord
-392,Kk. 392,L. 246,P. 371,Sonata,B-flat major,Allegro,Harpsichord
-393,Kk. 393,L. 74,P. 326,Sonata,B-flat major,-,Harpsichord
-394,Kk. 394,L. 275,P. 349,Sonata,E minor,Allegro,Harpsichord
-395,Kk. 395,L. 65,P. 273,Sonata,E major,Allegro,Harpsichord
-396,Kk. 396,L. 110,P. 435,Sonata,D minor,Andante,Harpsichord
-397,Kk. 397,L. 208,P. 325,Sonata,D major,-,Harpsichord
-398,Kk. 398,L. 218,P. 493,Sonata,C major,Andante,Harpsichord
-399,Kk. 399,L. 274,P. 458,Sonata,C major,Allegro,Harpsichord
-400,Kk. 400,L. 213,P. 228,Sonata,D major,Allegro,Harpsichord
-401,Kk. 401,L. 365,P. 436,Sonata,D major,Allegro,Harpsichord
-402,Kk. 402,L. 427,P. 436,Sonata,E minor,Andante,Harpsichord
-403,Kk. 403,L. 470,P. 436,Sonata,E major,Allegro,Harpsichord
-404,Kk. 404,L. 222,P. 436,Sonata,A major,Andante,Harpsichord
-405,Kk. 405,L. 43,P. 436,Sonata,A major,Allegro,Harpsichord
-406,Kk. 406,L. 5,P. 436,Sonata,C major,Allegro,Harpsichord
-407,Kk. 407,L. S 4,P. 436,Sonata,C major,Allegro,Harpsichord
-408,Kk. 408,L. 346,P. 436,Sonata,B minor,Andante,Harpsichord
-409,Kk. 409,L. 150,P. 436,Sonata,B minor,Allegro,Harpsichord
-410,Kk. 410,L. S43,P. 372,Sonata,B-flat major,Allegro,Harpsichord
-411,Kk. 411,L. 69,P. 351,Sonata,B-flat major,Allegro,Harpsichord
-412,Kk. 412,L. 182,P. 463,Sonata,G major,Allegro,Harpsichord
-413,Kk. 413,L. 125,P. 416,Sonata,G major,Allegro,Harpsichord
-414,Kk. 414,L. 310,P. 373,Sonata,D major,Allegro,Harpsichord
-415,Kk. 415,L. S11,P. 175,Sonata,D major,Allegro,Harpsichord
-416,Kk. 416,L. 149,P. 454,Sonata,D major,Presto,Harpsichord
-417,Kk. 417,L. 462,P. 40,Sonata,D minor,Allegro moderato,Harpsichord
-418,Kk. 418,L. 26,P. 510,Sonata,F major,Allegro,Harpsichord
-419,Kk. 419,L. 279,P. 524,Sonata,F major,Presto,Harpsichord
-420,Kk. 420,L. S 2,P. 352,Sonata,C major,Allegro,Harpsichord
-421,Kk. 421,L. 252,P. 459,Sonata,C major,Allegro,Harpsichord
-422,Kk. 422,L. 451,P. 511,Sonata,C major,Allegro,Harpsichord
-423,Kk. 423,L. 102,P. 455,Sonata,C major,Presto,Harpsichord
-424,Kk. 424,L. 289,P. 374,Sonata,G major,Allegro,Harpsichord
-425,Kk. 425,L. 333,P. 426,Sonata,G major,Allegro molto,Harpsichord
-426,Kk. 426,L. 128,P. 128,Sonata,G minor,Andante,Harpsichord
-427,Kk. 427,L. 286,P. 286,Sonata,G major,Presto quanto sia possible,Harpsichord
-428,Kk. 428,L. 131,P. 131,Sonata,A major,Allegro,Harpsichord
-429,Kk. 429,L. 132,P. 132,Sonata,A major,Allegro,Harpsichord
-430,Kk. 430,L. 463,P. 463,Sonata,D major,Non presto,Harpsichord
-431,Kk. 431,L. 83,P. 365,Sonata,G major,Allegro,Harpsichord
-432,Kk. 432,L. 288,P. 288,Sonata,G major,Allegro,Harpsichord
-433,Kk. 433,L. 453,P. 453,Sonata,G major,Vivo,Harpsichord
-434,Kk. 434,L. 343,P. 498,Sonata,D minor,Andante,Harpsichord
-435,Kk. 435,L. 361,P. 466,Sonata,D major,Allegro,Harpsichord
-436,Kk. 436,L. 109,P. 404,Sonata,D major,Allegro,Harpsichord
-437,Kk. 437,L. 278,P. 499,Sonata,F major,Andante comodo,Harpsichord
-438,Kk. 438,L. 381,P. 467,Sonata,F major,Allegro,Harpsichord
-439,Kk. 439,L. 47,P. 473,Sonata,B-flat major,Moderato,Harpsichord
-440,Kk. 440,L. 97,P. 328,Sonata,B-flat major,-,Harpsichord
-441,Kk. 441,L. S39,P. 375,Sonata,B-flat major,Allegro,Harpsichord
-442,Kk. 442,L. 319,P. 229,Sonata,B-flat major,Allegro,Harpsichord
-443,Kk. 443,L. 418,P. 376,Sonata,D major,Allegro,Harpsichord
-444,Kk. 444,L. 420,P. 441,Sonata,D minor,Allegrissimo,Harpsichord
-445,Kk. 445,L. 385,P. 468,Sonata,F major,Allegro o presto,Harpsichord
-446,Kk. 446,L. 433,P. 177,Sonata,F major,Allegrissimo,Harpsichord
-447,Kk. 447,L. 294,P. 191,Sonata,F-sharp minor,Allegro,Harpsichord
-448,Kk. 448,L. 485,P. 261,Sonata,F-sharp minor,Allegro,Harpsichord
-449,Kk. 449,L. 444,P. 405,Sonata,G major,Allegro,Harpsichord
-450,Kk. 450,L. 338,P. 422,Sonata,G minor,Allegrissimo,Harpsichord
-451,Kk. 451,L. 243,P. 366,Sonata,A minor,Allegro,Harpsichord
-452,Kk. 452,,,Sonata,A major,Andante Allegro,Harpsichord
-453,Kk. 453,,P. 280,Sonata,A major,Andante,Harpsichord
-454,Kk. 454,L. 184,P. 423,Sonata,G major,Andante spirituoso,Harpsichord
-455,Kk. 455,L. 209,P. 354,Sonata,G major,Allegro,Harpsichord
-456,Kk. 456,L. 491,P. 377,Sonata,A major,Allegro,Harpsichord
-457,Kk. 457,L. 292,P. 442,Sonata,A major,Allegro,Harpsichord
-458,Kk. 458,L. 212,P. 260,Sonata,D major,Allegro,Harpsichord
-459,Kk. 459,L. S14,P. 167,Sonata,D minor,Allegro,Harpsichord
-460,Kk. 460,L. 324,P. 378,Sonata,C major,Allegro,Harpsichord
-461,Kk. 461,L. 8,P. 324,Sonata,C major,Allegro,Harpsichord
-462,Kk. 462,L. 438,P. 474,Sonata,F minor,Andante,Harpsichord
-463,Kk. 463,L. 471,P. 512,Sonata,F minor,Molto allegro,Harpsichord
-464,Kk. 464,L. 151,P. 460,Sonata,C major,Allegro,Harpsichord
-465,Kk. 465,L. 242,P. 406,Sonata,C major,Allegro,Harpsichord
-466,Kk. 466,L. 118,P. 501,Sonata,F minor,Andante,Harpsichord
-467,Kk. 467,L. 476,P. 513,Sonata,F minor,Allegrissimo,Harpsichord
-468,Kk. 468,L. 226,P. 507,Sonata,F major,Allegro,Harpsichord
-469,Kk. 469,L. 431,P. 514,Sonata,F major,Allegro molto,Harpsichord
-470,Kk. 470,L. 304,P. 379,Sonata,G major,Allegro,Harpsichord
-471,Kk. 471,L. 82,P. 327,Sonata,G major,-,Harpsichord
-472,Kk. 472,L. 99,P. 475,Sonata,B-flat major,Andante,Harpsichord
-473,Kk. 473,L. 229,P. 355,Sonata,B-flat major,Allegro,Harpsichord
-474,Kk. 474,L. 203,P. 502,Sonata,E-flat major,Andante cantabile,Harpsichord
-475,Kk. 475,L. 220,P. 319,Sonata,E-flat major,Allegrissimo,Harpsichord
-476,Kk. 476,L. 340,P. 427,Sonata,G minor,Allegro,Harpsichord
-477,Kk. 477,L. 290,P. 419,Sonata,G major,Allegrissimo,Harpsichord
-478,Kk. 478,L. 12,P. 503,Sonata,D major,Andante cantabile,Harpsichord
-479,Kk. 479,L. S16,P. 380,Sonata,D major,Allegrissimo,Harpsichord
-480,Kk. 480,L. S 8,P. 381,Sonata,D major,Presto,Harpsichord
-481,Kk. 481,L. 187,P. 504,Sonata,F minor,Andante cantabile,Harpsichord
-482,Kk. 482,L. 435,P. 356,Sonata,F major,Allegrissimo,Harpsichord
-483,Kk. 483,L. 472,P. 407,Sonata,F major,Presto,Harpsichord
-484,Kk. 484,L. 419,P. 428,Sonata,D major,Allegro,Harpsichord
-485,Kk. 485,L. 153,P. 490,Sonata,C major,Andante cantabile,Harpsichord
-486,Kk. 486,L. 455,P. 515,Sonata,C major,Allegro,Harpsichord
-487,Kk. 487,L. 205,P. 421,Sonata,C major,Allegro,Harpsichord
-488,Kk. 488,L. S37,P. 382,Sonata,B-flat major,Allegro,Harpsichord
-489,Kk. 489,L. S41,P. 522,Sonata,B-flat major,Allegro,Harpsichord
-490,Kk. 490,L. 206,P. 476,Sonata,D major,Cantabile,Harpsichord
-491,Kk. 491,L. 164,P. 484,Sonata,D major,Allegro,Harpsichord
-492,Kk. 492,L. 14,P. 443,Sonata,D major,Presto,Harpsichord
-493,Kk. 493,L. S24,P. 383,Sonata,G major,Allegro,Harpsichord
-494,Kk. 494,L. 287,P. 444,Sonata,G major,Allegro,Harpsichord
-495,Kk. 495,L. 426,P. 384,Sonata,E major,Allegro,Harpsichord
-496,Kk. 496,L. 372,P. 332,Sonata,E major,Allegro,Harpsichord
-497,Kk. 497,L. 146,P. 357,Sonata,B minor,Allegro,Harpsichord
-498,Kk. 498,L. 350,P. 367,Sonata,B minor,Allegro,Harpsichord
-499,Kk. 499,L. 193,P. 477,Sonata,A major,Andante,Harpsichord
-500,Kk. 500,L. 492,P. 358,Sonata,A major,Allegro,Harpsichord
-501,Kk. 501,L. 137,P. 385,Sonata,C major,Allegretto,Harpsichord
-502,Kk. 502,L. 3,P. 408,Sonata,C major,Allegro,Harpsichord
-503,Kk. 503,L. 196,P. 196,Sonata,B-flat major,Allegretto,Harpsichord
-504,Kk. 504,L. 29,P. 265,Sonata,B-flat major,Allegro,Harpsichord
-505,Kk. 505,L. 326,P. 386,Sonata,F major,Allegro non presto,Harpsichord
-506,Kk. 506,L. 70,P. 409,Sonata,F major,Allegro,Harpsichord
-507,Kk. 507,L. 113,P. 478,Sonata,E-flat major,Andantino cantabile,Harpsichord
-508,Kk. 508,L. 19,P. 516,Sonata,E-flat major,Allegro,Harpsichord
-509,Kk. 509,L. 311,P. 387,Sonata,D major,Allegro,Harpsichord
-510,Kk. 510,L. 277,P. 525,Sonata,D minor,Allegro,Harpsichord
-511,Kk. 511,L. 314,P. 388,Sonata,D major,Allegro,Harpsichord
-512,Kk. 512,L. 339,P. 359,Sonata,D major,Allegro,Harpsichord
-513,Kk. 513,L. S 3,P. 176,Sonata,C major,Moderato e Molto allegro - Presto,Harpsichord
-514,Kk. 514,L. 1,P. 389,Sonata,C major,Allegro,Harpsichord
-515,Kk. 515,L. 255,P. 417,Sonata,C major,Allegro,Harpsichord
-516,Kk. 516,L. S12,P. 523,Sonata,D minor,Allegretto,Harpsichord
-517,Kk. 517,L. 266,P. 517,Sonata,D minor,Prestissimo,Harpsichord
-518,Kk. 518,L. 116,P. 390,Sonata,F major,Allegro,Harpsichord
-519,Kk. 519,L. 475,P. 445,Sonata,F minor,Allegro assai,Harpsichord
-520,Kk. 520,L. 86,P. 362,Sonata,G major,Allegretto,Harpsichord
-521,Kk. 521,L. 408,P. 492,Sonata,G major,Allegro,Harpsichord
-522,Kk. 522,L. S25,P. 526,Sonata,G major,Allegro,Harpsichord
-523,Kk. 523,L. 490,P. 527,Sonata,G major,Allegro,Harpsichord
-524,Kk. 524,L. 283,P. 528,Sonata,F major,Allegro,Harpsichord
-525,Kk. 525,L. 188,P. 529,Sonata,F major,Allegro,Harpsichord
-526,Kk. 526,L. 456,P. 530,Sonata,C minor,Allegro comodo,Harpsichord
-527,Kk. 527,L. 458,P. 531,Sonata,C major,Allegro assai,Harpsichord
-528,Kk. 528,L. 200,P. 532,Sonata,B-flat major,Allegro,Harpsichord
-529,Kk. 529,L. 327,P. 533,Sonata,B-flat major,Allegro,Harpsichord
-530,Kk. 530,L. 44,P. 534,Sonata,E major,Allegro,Harpsichord
-531,Kk. 531,L. 430,P. 535,Sonata,E major,Allegro,Harpsichord
-532,Kk. 532,L. 223,P. 536,Sonata,A minor,Allegro,Harpsichord
-533,Kk. 533,L. 395,P. 537,Sonata,A major,Allegro assai,Harpsichord
-534,Kk. 534,L. 11,P. 538,Sonata,D major,Cantabile,Harpsichord
-535,Kk. 535,L. 262,P. 531,Sonata,D major,Allegro,Harpsichord
-536,Kk. 536,L. 236,P. 540,Sonata,A major,Cantabile,Harpsichord
-537,Kk. 537,L. 293,P. 541,Sonata,A major,Prestissimo,Harpsichord
-538,Kk. 538,L. 254,P. 542,Sonata,G major,Allegretto,Harpsichord
-539,Kk. 539,L. 121,P. 543,Sonata,G major,Allegro,Harpsichord
-540,Kk. 540,L. S17,P. 544,Sonata,F major,Allegretto,Harpsichord
-541,Kk. 541,L. 120,P. 545,Sonata,F major,Allegretto,Harpsichord
-542,Kk. 542,L. 167,P. 546,Sonata,F major,Allegretto,Harpsichord
-543,Kk. 543,L. 227,P. 547,Sonata,F major,Allegro,Harpsichord
-544,Kk. 544,L. 497,P. 548,Sonata,B-flat major,Cantabile,Harpsichord
-545,Kk. 545,L. 500,P. 549,Sonata,B-flat major,Prestissimo,Harpsichord
-546,Kk. 546,L. 312,P. 550,Sonata,G minor,Cantabile,Harpsichord
-547,Kk. 547,L. S28,P. 551,Sonata,G major,Allegro,Harpsichord
-548,Kk. 548,L. 404,P. 552,Sonata,C major,Allegretto,Harpsichord
-549,Kk. 549,L. S 1,P. 553,Sonata,C major,Allegro,Harpsichord
-550,Kk. 550,L. S42,P. 554,Sonata,B-flat major,Allegretto,Harpsichord
-551,Kk. 551,L. 396,P. 555,Sonata,B-flat major,Allegro,Harpsichord
-552,Kk. 552,L. 421,P. 556,Sonata,D minor,Allegretto,Harpsichord
-553,Kk. 553,L. 425,P. 557,Sonata,D minor,Allegro,Harpsichord
-554,Kk. 554,L. S21,P. 558,Sonata,F major,Allegretto,Harpsichord
-555,Kk. 555,L. 477,P. 559,Sonata,F minor,Allegro,Harpsichord
+SORT_Kk,Kirkpatrick,Longo,Pestelli,Title,Genre,Key,Movements,Instrumentation
+1,Kk. 1,L. 366,P. 57,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+2,Kk. 2,L. 388,P. 58,Sonata in G major,Sonata,G major,Presto,Harpsichord
+3,Kk. 3,L. 378,P. 59,Sonata in A minor,Sonata,A minor,Presto,Harpsichord
+4,Kk. 4,L. 390,P. 60,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+5,Kk. 5,L. 367,P. 61,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+6,Kk. 6,L. 479,P. 62,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+7,Kk. 7,L. 379,P. 63,Sonata in A minor,Sonata,A minor,Presto,Harpsichord
+8,Kk. 8,L. 488,P. 64,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+9,Kk. 9,L. 413,P. 65,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+10,Kk. 10,L. 370,P. 66,Sonata in D minor,Sonata,D minor,Presto,Harpsichord
+11,Kk. 11,L. 352,P. 67,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+12,Kk. 12,L. 489,P. 68,Sonata in G minor,Sonata,G minor,Presto,Harpsichord
+13,Kk. 13,L. 486,P. 69,Sonata in G major,Sonata,G major,Presto,Harpsichord
+14,Kk. 14,L. 387,P. 70,Sonata in G major,Sonata,G major,Presto,Harpsichord
+15,Kk. 15,L. 374,P. 71,Sonata in E minor,Sonata,E minor,Allegro,Harpsichord
+16,Kk. 16,L. 397,P. 72,Sonata in B-flat major,Sonata,B-flat major,Presto,Harpsichord
+17,Kk. 17,L. 384,P. 73,Sonata in F major,Sonata,F major,Presto,Harpsichord
+18,Kk. 18,L. 416,P. 74,Sonata in D minor,Sonata,D minor,Presto,Harpsichord
+19,Kk. 19,L. 383,P. 75,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+20,Kk. 20,L. 375,P. 76,Sonata in E major,Sonata,E major,Presto,Harpsichord
+21,Kk. 21,L. 363,P. 77,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+22,Kk. 22,L. 360,P. 78,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+23,Kk. 23,L. 411,P. 79,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+24,Kk. 24,L. 495,P. 80,Sonata in A major,Sonata,A major,Presto,Harpsichord
+25,Kk. 25,L. 481,P. 81,Sonata in F-sharp minor,Sonata,F-sharp minor,Allegro,Harpsichord
+26,Kk. 26,L. 368,P. 82,Sonata in A major,Sonata,A major,Presto,Harpsichord
+27,Kk. 27,L. 449,P. 83,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+28,Kk. 28,L. 373,P. 84,Sonata in E major,Sonata,E major,Presto,Harpsichord
+29,Kk. 29,L. 461,P. 85,Sonata in D major,Sonata,D major,Presto,Harpsichord
+30,Kk. 30,L. 499,P. 86,Sonata in G minor,Sonata,G minor,Moderato,Harpsichord
+31,Kk. 31,L. 231,P. 19,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+32,Kk. 32,L. 423,P. 14,Sonata in D minor,Sonata,D minor,Aria,Harpsichord
+33,Kk. 33,L. 424,P. 130,Sonata in D major,Sonata,D major,-,Harpsichord
+34,Kk. 34,L. S 7,P. 15,Sonata in D minor,Sonata,D minor,Larghetto,Harpsichord
+35,Kk. 35,L. 386,P. 20,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+36,Kk. 36,L. 245,P. 91,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+37,Kk. 37,L. 406,P. 2,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+38,Kk. 38,L. 478,P. 97,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+39,Kk. 39,L. 391,P. 53,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+40,Kk. 40,L. 357,P. 119,Sonata in C minor,Sonata,C minor,Minuetto,Harpsichord
+41,Kk. 41,,P. 37,Sonata in D minor,Sonata,D minor,Andante moderato,Harpsichord
+42,Kk. 42,L. S36,P. 120,Sonata in B-flat major,Sonata,B-flat major,Minuetto,Harpsichord
+43,Kk. 43,L. 40,P. 133,Sonata in G minor,Sonata,G minor,Allegro assai,Harpsichord
+44,Kk. 44,L. 432,P. 116,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+45,Kk. 45,L. 265,P. 230,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+46,Kk. 46,L. 25,P. 179,Sonata in E major,Sonata,E major,Presto,Harpsichord
+47,Kk. 47,L. 46,P. 115,Sonata in B-flat major,Sonata,B-flat major,Presto,Harpsichord
+48,Kk. 48,L. 157,P. 87,Sonata in C minor,Sonata,C minor,Presto,Harpsichord
+49,Kk. 49,L. 301,P. 178,Sonata in C major,Sonata,C major,Presto,Harpsichord
+50,Kk. 50,L. 440,P. 144,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+51,Kk. 51,L. 20,P. 151,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+52,Kk. 52,L. 267,P. 41,Sonata in D minor,Sonata,D minor,Andante moderato,Harpsichord
+53,Kk. 53,L. 261,P. 161,Sonata in D major,Sonata,D major,Presto,Harpsichord
+54,Kk. 54,L. 241,P. 147,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+55,Kk. 55,L. 335,P. 117,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+56,Kk. 56,L. 356,P. 50,Sonata in D major,Sonata,D major,Con spirito,Harpsichord
+57,Kk. 57,L. S38,P. 108,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+58,Kk. 58,L. 158,P. 39,Sonata in D major,Sonata,D major,-,Harpsichord
+59,Kk. 59,L. 71,P. 22,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+60,Kk. 60,L. 13,P. 29,Sonata in D major,Sonata,D major,-,Harpsichord
+61,Kk. 61,L. 136,P. 16,Sonata in A minor,Sonata,A minor,-,Harpsichord
+62,Kk. 62,L. 45,P. 49,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+63,Kk. 63,L. 84,P. 32,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+64,Kk. 64,L. 58,P. 33,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+65,Kk. 65,L. 195,P. 142,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+66,Kk. 66,L. 496,P. 134,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+67,Kk. 67,L. 32,P. 125,Sonata in F-sharp minor,Sonata,F-sharp minor,Allegro,Harpsichord
+68,Kk. 68,L. 114,P. 7,Sonata in E-flat major,Sonata,E-flat major,-,Harpsichord
+69,Kk. 69,L. 382,P. 42,Sonata in F minor,Sonata,F minor,-,Harpsichord
+70,Kk. 70,L. 50,P. 21,Sonata in B-flat major,Sonata,B-flat major,-,Harpsichord
+71,Kk. 71,L. 81,P. 17,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+72,Kk. 72,L. 401,P. 1,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+73,Kk. 73,L. 217,P. 80,Sonata in C minor,Sonata,C minor,Allegro - Minuetto - Minuetto,Harpsichord
+74,Kk. 74,L. 94,P. 35,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+75,Kk. 75,L. 53,P. 23,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+76,Kk. 76,L. 185,P. 23,Sonata in G minor,Sonata,G minor,Presto,Harpsichord
+77,Kk. 77,L. 168,P. 10,Sonata in D minor,Sonata,D minor,Moderato e cantabile - Minuet,Harpsichord
+78,Kk. 78,L. 75,P. 26,Sonata in F major,Sonata,F major,Allegro - Minuet,Harpsichord
+79,Kk. 79,L. 80,P. 204,Sonata in G major,Sonata,G major,Allegrissimo,Harpsichord
+80,Kk. 80,,P. 28,Sonata in G major,Sonata,G major,Minuet,Harpsichord
+81,Kk. 81,L. 271,P. 13,Sonata in E minor,Sonata,E minor,Grave - Allegro - Grave - Allegro,Harpsichord
+82,Kk. 82,L. 30,P. 25,Sonata in F major,Sonata,F major,-,Harpsichord
+83,Kk. 83,L. S31,P. 31,Sonata in A major,Sonata,A major,- - -,Harpsichord
+84,Kk. 84,L. 10,P. 45,Sonata in C minor,Sonata,C minor,-,Harpsichord
+85,Kk. 85,L. 166,P. 24,Sonata in F major,Sonata,F major,-,Harpsichord
+86,Kk. 86,L. 403,P. 122,Sonata in C major,Sonata,C major,Andante moderato,Harpsichord
+87,Kk. 87,L. 33,P. 43,Sonata in B minor,Sonata,B minor,-,Harpsichord
+88,Kk. 88,L. 36,P. 8,Sonata in G minor,Sonata,G minor,Grave - Andante moderato - Allegro - Minuet,Harpsichord
+89,Kk. 89,L. 211,P. 12,Sonata in D minor,Sonata,D minor,Allegro - Grave - Allegro,Harpsichord
+90,Kk. 90,L. 106,P. 9,Sonata in D minor,Sonata,D minor,Grave - Allegro - - - Allegro,Harpsichord
+91,Kk. 91,L. 176,P. 11,Sonata in G major,Sonata,G major,Grave - Allegro - Grave - Allegro,Harpsichord
+92,Kk. 92,L. 362,P. 44,Sonata in D minor,Sonata,D minor,-,Harpsichord
+93,Kk. 93,L. 336,P. 38,Sonata in G minor,Sonata,G minor,-,Harpsichord
+94,Kk. 94,,P. 27,Sonata in F major,Sonata,F major,Minuet,Harpsichord
+95,Kk. 95,L. 358,,Sonata in C major,Sonata,C major,-,Harpsichord
+96,Kk. 96,L. 465,P. 210,Sonata in D major,Sonata,D major,Allegrissimo,Harpsichord
+97,Kk. 97,,P. 5,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+98,Kk. 98,L. 325,P. 219,Sonata in E minor,Sonata,E minor,Allegrissimo,Harpsichord
+99,Kk. 99,L. 317,P. 135,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+100,Kk. 100,L. 355,P. 232,Sonata in C major,Sonata,C major,Allegrissimo,Harpsichord
+101,Kk. 101,L. 494,P. 156,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+102,Kk. 102,L. 89,P. 88,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+103,Kk. 103,L. 233,P. 233,Sonata in G major,Sonata,G major,Allegrissimo,Harpsichord
+104,Kk. 104,L. 442,P. 109,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+105,Kk. 105,L. 204,P. 90,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+106,Kk. 106,L. 437,P. 197,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+107,Kk. 107,L. 474,P. 98,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+108,Kk. 108,L. 249,P. 92,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+109,Kk. 109,L. 138,P. 290,Sonata in A minor,Sonata,A minor,Adagio,Harpsichord
+110,Kk. 110,L. 469,P. 129,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+111,Kk. 111,L. 130,P. 99,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+112,Kk. 112,L. 298,P. 94,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+113,Kk. 113,L. 345,P. 160,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+114,Kk. 114,L. 344,P. 141,Sonata in A major,Sonata,A major,Spirito e presto,Harpsichord
+115,Kk. 115,L. 407,P. 100,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+116,Kk. 116,L. 452,P. 111,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+117,Kk. 117,L. 244,P. 181,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+118,Kk. 118,L. 122,P. 266,Sonata in D major,Sonata,D major,Non presto,Harpsichord
+119,Kk. 119,L. 415,P. 217,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+120,Kk. 120,L. 215,P. 146,Sonata in D minor,Sonata,D minor,Allegrissimo,Harpsichord
+121,Kk. 121,L. 181,P. 93,Sonata in G minor,Sonata,G minor,Allegrissimo,Harpsichord
+122,Kk. 122,L. 334,P. 118,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+123,Kk. 123,L. 111,P. 180,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+124,Kk. 124,L. 232,P. 110,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+125,Kk. 125,L. 487,P. 152,Sonata in G major,Sonata,G major,Vivo,Harpsichord
+126,Kk. 126,L. 402,P. 128,Sonata in C minor,Sonata,C minor,-,Harpsichord
+127,Kk. 127,L. 186,P. 198,Sonata in A-flat major,Sonata,A-flat major,Allegro,Harpsichord
+128,Kk. 128,L. 296,P. 199,Sonata in B-flat minor,Sonata,B-flat minor,Allegro,Harpsichord
+129,Kk. 129,L. 460,P. 148,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+130,Kk. 130,L. 190,P. 272,Sonata in A-flat major,Sonata,A-flat major,Allegro,Harpsichord
+131,Kk. 131,L. 300,P. 154,Sonata in B-flat minor,Sonata,B-flat minor,Allegro,Harpsichord
+132,Kk. 132,L. 457,P. 295,Sonata in C major,Sonata,C major,Cantabile,Harpsichord
+133,Kk. 133,L. 282,P. 218,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+134,Kk. 134,L. 221,P. 143,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+135,Kk. 135,L. 224,P. 234,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+136,Kk. 136,L. 377,P. 113,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+137,Kk. 137,L. 315,P. 231,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+138,Kk. 138,L. 464,P. 95,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+139,Kk. 139,L. 6,P. 126,Sonata in C minor,Sonata,C minor,Presto,Harpsichord
+140,Kk. 140,L. 107,P. 127,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+141,Kk. 141,L. 422,P. 271,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+142,Kk. 142,,P. 240,Sonata in F-sharp minor,Sonata,F-sharp minor,Allegro,Harpsichord
+143,Kk. 143,,P. 267,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+144,Kk. 144,,P. 316,Sonata in G major,Sonata,G major,Cantabile,Harpsichord
+145,Kk. 145,L. 369,P. 105,Sonata in D major,Sonata,D major,-,Harpsichord
+146,Kk. 146,L. 349,P. 106,Sonata in G major,Sonata,G major,-,Harpsichord
+147,Kk. 147,L. 376,P. 48,Sonata in E minor,Sonata,E minor,-,Harpsichord
+148,Kk. 148,L. 64,P. 291,Sonata in A minor,Sonata,A minor,Andante,Harpsichord
+149,Kk. 149,L. 93,P. 241,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+150,Kk. 150,L. 117,P. 205,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+151,Kk. 151,L. 330,P. 238,Sonata in F major,Sonata,F major,Andamte allegro,Harpsichord
+152,Kk. 152,L. 179,P. 114,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+153,Kk. 153,L. 445,P. 235,Sonata in G major,Sonata,G major,Vivo,Harpsichord
+154,Kk. 154,L. 96,P. 183,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+155,Kk. 155,L. 197,P. 208,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+156,Kk. 156,L. 101,P. 248,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+157,Kk. 157,L. 405,P. 391,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+158,Kk. 158,L. 4,P. 123,Sonata in C minor,Sonata,C minor,Andante,Harpsichord
+159,Kk. 159,L. 104,P. 418,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+160,Kk. 160,L. 15,P. 131,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+161,Kk. 161,L. 417,P. 216,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+162,Kk. 162,L. 21,P. 162,Sonata in E major,Sonata,E major,Andante - Allegro,Harpsichord
+163,Kk. 163,L. 63,P. 206,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+164,Kk. 164,L. 59,P. 274,Sonata in D major,Sonata,D major,Andante moderato,Harpsichord
+165,Kk. 165,L. 52,P. 292,Sonata in C major,Sonata,C major,Andante,Harpsichord
+166,Kk. 166,L. 51,P. 190,Sonata in C major,Sonata,C major,Allegro ma non molto,Harpsichord
+167,Kk. 167,L. 329,P. 200,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+168,Kk. 168,L. 280,P. 182,Sonata in F major,Sonata,F major,Vivo,Harpsichord
+169,Kk. 169,L. 331,P. 247,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+170,Kk. 170,L. 303,P. 164,Sonata in C major,Sonata,C major,Andante - Allegro,Harpsichord
+171,Kk. 171,L. 77,P. 153,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+172,Kk. 172,L. S40,P. 313,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+173,Kk. 173,L. 447,P. 51,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+174,Kk. 174,L. 410,P. 149,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+175,Kk. 175,L. 429,P. 136,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+176,Kk. 176,L. 163,P. 163,Sonata in D minor,Sonata,D minor,Cantabile Andante - Allegrissimo,Harpsichord
+177,Kk. 177,L. 364,P. 184,Sonata in D major,Sonata,D major,Andante,Harpsichord
+178,Kk. 178,L. 162,P. 392,Sonata in D major,Sonata,D major,Vivo,Harpsichord
+179,Kk. 179,L. 177,P. 89,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+180,Kk. 180,L. 272,P. 192,Sonata in G major,Sonata,G major,Allegro Vivo,Harpsichord
+181,Kk. 181,L. 194,P. 253,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+182,Kk. 182,L. 139,P. 207,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+183,Kk. 183,L. 473,P. 150,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+184,Kk. 184,L. 189,P. 102,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+185,Kk. 185,L. 173,P. 121,Sonata in F major,Sonata,F major,Andante,Harpsichord
+186,Kk. 186,L. 72,P. 46,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+187,Kk. 187,L. 285,P. 145,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+188,Kk. 188,L. 239,P. 213,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+189,Kk. 189,L. 143,P. 257,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+190,Kk. 190,L. 250,P. 256,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+191,Kk. 191,L. 207,P. 18,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+192,Kk. 192,L. 216,P. 322,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+193,Kk. 193,L. 142,P. 254,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+194,Kk. 194,L. 28,P. 479,Sonata in F major,Sonata,F major,Andante,Harpsichord
+195,Kk. 195,L. S18,P. 185,Sonata in F major,Sonata,F major,Vivo,Harpsichord
+196,Kk. 196,L. 38,P. 244,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+197,Kk. 197,L. 147,P. 124,Sonata in B minor,Sonata,B minor,Andante,Harpsichord
+198,Kk. 198,L. 22,P. 132,Sonata in E minor,Sonata,E minor,Allegro,Harpsichord
+199,Kk. 199,L. 253,P. 276,Sonata in C major,Sonata,C major,Andante moderato,Harpsichord
+200,Kk. 200,L. 54,P. 242,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+201,Kk. 201,L. 129,P. 252,Sonata in G major,Sonata,G major,Vivo,Harpsichord
+202,Kk. 202,L. 498,P. 173,Sonata in B-flat major,Sonata,B-flat major,- - Allegro - -,Harpsichord
+203,Kk. 203,L. 380,P. 96,Sonata in E minor,Sonata,E minor,Vivo non molto,Harpsichord
+204.1,Kk. 204a,,P. 170,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+204.2,Kk. 204b,,P. 255,Sonata in F minor,Sonata,F minor,Allegro - Allegro - Allegrissimo,Harpsichord
+205,Kk. 205,L. S23,P. 171,Sonata in F major,Sonata,F major,Vivo,Harpsichord
+206,Kk. 206,L. 257,P. 307,Sonata in E major,Sonata,E major,Andante,Harpsichord
+207,Kk. 207,L. 371,P. 140,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+208,Kk. 208,L. 238,P. 315,Sonata in A major,Sonata,A major,Adagio e cantabile,Harpsichord
+209,Kk. 209,L. 428,P. 209,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+210,Kk. 210,L. 123,P. 293,Sonata in G major,Sonata,G major,Andante,Harpsichord
+211,Kk. 211,L. 133,P. 277,Sonata in A major,Sonata,A major,Andantino,Harpsichord
+212,Kk. 212,L. 135,P. 155,Sonata in A major,Sonata,A major,Allegro molto,Harpsichord
+213,Kk. 213,L. 108,P. 288,Sonata in D minor,Sonata,D minor,Andante,Harpsichord
+214,Kk. 214,L. 165,P. 430,Sonata in D major,Sonata,D major,Allegro vivo,Harpsichord
+215,Kk. 215,L. 323,P. 281,Sonata in E major,Sonata,E major,Andante,Harpsichord
+216,Kk. 216,L. 273,P. 320,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+217,Kk. 217,L. 42,P. 287,Sonata in A minor,Sonata,A minor,Andante,Harpsichord
+218,Kk. 218,L. 392,P. 237,Sonata in A minor,Sonata,A minor,Vivo,Harpsichord
+219,Kk. 219,L. 393,P. 278,Sonata in A major,Sonata,A major,Andante,Harpsichord
+220,Kk. 220,L. 342,P. 309,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+221,Kk. 221,L. 259,P. 215,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+222,Kk. 222,L. 309,P. 236,Sonata in A major,Sonata,A major,Vivo,Harpsichord
+223,Kk. 223,L. 214,P. 188,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+224,Kk. 224,L. 268,P. 225,Sonata in D major,Sonata,D major,Vivo,Harpsichord
+225,Kk. 225,L. 351,P. 202,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+226,Kk. 226,L. 112,P. 101,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+227,Kk. 227,L. 347,P. 52,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+228,Kk. 228,L. 399,P. 224,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+229,Kk. 229,L. 199,P. 139,Sonata in B-flat major,Sonata,B-flat major,Allegro vivo,Harpsichord
+230,Kk. 230,L. 354,P. 47,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+231,Kk. 231,L. 409,P. 393,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+232,Kk. 232,L. 62,P. 317,Sonata in E minor,Sonata,E minor,Andante,Harpsichord
+233,Kk. 233,L. 467,P. 497,Sonata in E minor,Sonata,E minor,Allegro,Harpsichord
+234,Kk. 234,L. 49,P. 286,Sonata in G minor,Sonata,G minor,Andante,Harpsichord
+235,Kk. 235,L. 154,P. 172,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+236,Kk. 236,L. 161,P. 201,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+237,Kk. 237,L. 308,P. 446,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+238,Kk. 238,L. 27,P. 55,Sonata in F minor,Sonata,F minor,Andante,Harpsichord
+239,Kk. 239,L. 281,P. 56,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+240,Kk. 240,L. S29,P. 368,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+241,Kk. 241,L. 180,P. 431,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+242,Kk. 242,L. 202,P. 243,Sonata in C major,Sonata,C major,Vivo,Harpsichord
+243,Kk. 243,L. 353,P. 394,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+244,Kk. 244,L. 348,P. 298,Sonata in B major,Sonata,B major,Allegro,Harpsichord
+245,Kk. 245,L. 450,P. 299,Sonata in B major,Sonata,B major,Allegro,Harpsichord
+246,Kk. 246,L. 260,P. 296,Sonata in C-sharp minor,Sonata,C-sharp minor,Allegro,Harpsichord
+247,Kk. 247,L. 256,P. 297,Sonata in C-sharp minor,Sonata,C-sharp minor,Allegro,Harpsichord
+248,Kk. 248,L. S35,P. 187,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+249,Kk. 249,L. 39,P. 424,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+250,Kk. 250,L. 174,P. 461,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+251,Kk. 251,L. 305,P. 314,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+252,Kk. 252,L. 159,P. 203,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+253,Kk. 253,L. 320,P. 239,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+254,Kk. 254,L. 219,P. 254,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+255,Kk. 255,L. 439,P. 226,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+256,Kk. 256,L. 228,P. 480,Sonata in F major,Sonata,F major,Andante,Harpsichord
+257,Kk. 257,L. 169,P. 138,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+258,Kk. 258,L. 178,P. 494,Sonata in D major,Sonata,D major,Andante,Harpsichord
+259,Kk. 259,L. 103,P. 469,Sonata in G major,Sonata,G major,Andante,Harpsichord
+260,Kk. 260,L. 124,P. 304,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+261,Kk. 261,L. 148,P. 300,Sonata in B major,Sonata,B major,Allegro,Harpsichord
+262,Kk. 262,L. 446,P. 301,Sonata in B major,Sonata,B major,Vivo,Harpsichord
+263,Kk. 263,L. 321,P. 283,Sonata in E minor,Sonata,E minor,Andante,Harpsichord
+264,Kk. 264,L. 466,P. 308,Sonata in E major,Sonata,E major,Vivo,Harpsichord
+265,Kk. 265,L. S32,P. 168,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+266,Kk. 266,L. 48,P. 251,Sonata in B-flat major,Sonata,B-flat major,Andante,Harpsichord
+267,Kk. 267,L. 434,P. 363,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+268,Kk. 268,L. 41,P. 369,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+269,Kk. 269,L. 307,P. 432,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+270,Kk. 270,L. 459,P. 481,Sonata in C major,Sonata,C major,-,Harpsichord
+271,Kk. 271,L. 155,P. 447,Sonata in C major,Sonata,C major,Vivo,Harpsichord
+272,Kk. 272,L. 145,P. 518,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+273,Kk. 273,L. 398,P. 174,Sonata in B-flat major,Sonata,B-flat major,Vivo - Moderato,Harpsichord
+274,Kk. 274,L. 297,P. 491,Sonata in F major,Sonata,F major,Andante,Harpsichord
+275,Kk. 275,L. 328,P. 430,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+276,Kk. 276,L. S20,P. 433,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+277,Kk. 277,L. 183,P. 275,Sonata in D major,Sonata,D major,Cantabile andantino,Harpsichord
+278,Kk. 278,L. S15,P. 434,Sonata in D major,Sonata,D major,Con velocita,Harpsichord
+279,Kk. 279,L. 468,P. 306,Sonata in A major,Sonata,A major,Andante,Harpsichord
+280,Kk. 280,L. 237,P. 395,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+281,Kk. 281,L. 56,P. 289,Sonata in D major,Sonata,D major,Andante,Harpsichord
+282,Kk. 282,L. 484,P. 166,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+283,Kk. 283,L. 318,P. 482,Sonata in G major,Sonata,G major,Andante Allegro,Harpsichord
+284,Kk. 284,L. 90,P. 169,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+285,Kk. 285,L. 91,P. 321,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+286,Kk. 286,L. 394,P. 410,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+287,Kk. 287,L. S 9,P. 310,Sonata in D major,Sonata,D major,Andante Allegro,Harpsichord
+288,Kk. 288,L. 57,P. 311,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+289,Kk. 289,L. 78,P. 249,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+290,Kk. 290,L. 85,P. 396,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+291,Kk. 291,L. 61,P. 282,Sonata in E minor,Sonata,E minor,Andante,Harpsichord
+292,Kk. 292,L. 24,P. 223,Sonata in E minor,Sonata,E minor,Allegro,Harpsichord
+293,Kk. 293,L. S44,P. 157,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+294,Kk. 294,L. 67,P. 470,Sonata in D minor,Sonata,D minor,Andante,Harpsichord
+295,Kk. 295,L. 270,P. 211,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+296,Kk. 296,L. 198,P. 305,Sonata in F major,Sonata,F major,Andante,Harpsichord
+297,Kk. 297,L. S19,P. 448,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+298,Kk. 298,L. S 6,P. 194,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+299,Kk. 299,L. 210,P. 268,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+300,Kk. 300,L. 92,P. 312,Sonata in A major,Sonata,A major,Andante,Harpsichord
+301,Kk. 301,L. 493,P. 361,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+302,Kk. 302,L. 7,P. 279,Sonata in C minor,Sonata,C minor,Andante,Harpsichord
+303,Kk. 303,L. 9,P. 212,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+304,Kk. 304,L. 88,P. 492,Sonata in G major,Sonata,G major,Andante,Harpsichord
+305,Kk. 305,L. 322,P. 397,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+306,Kk. 306,L. 16,P. 456,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+307,Kk. 307,L. 115,P. 449,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+308,Kk. 308,L. 359,P. 318,Sonata in C major,Sonata,C major,Cantabile,Harpsichord
+309,Kk. 309,L. 454,P. 333,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+310,Kk. 310,L. 248,P. 284,Sonata in B-flat major,Sonata,B-flat major,Andante,Harpsichord
+311,Kk. 311,L. 144,P. 227,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+312,Kk. 312,L. 264,P. 334,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+313,Kk. 313,L. 192,P. 398,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+314,Kk. 314,L. 441,P. 505,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+315,Kk. 315,L. 235,P. 54,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+316,Kk. 316,L. 299,P. 193,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+317,Kk. 317,L. 66,P. 258,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+318,Kk. 318,L. 31,P. 302,Sonata in F-sharp major,Sonata,F-sharp major,Andante,Harpsichord
+319,Kk. 319,L. 35,P. 303,Sonata in F-sharp major,Sonata,F-sharp major,Allegro,Harpsichord
+320,Kk. 320,L. 341,P. 335,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+321,Kk. 321,L. 258,P. 450,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+322,Kk. 322,L. 483,P. 360,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+323,Kk. 323,L. 95,P. 411,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+324,Kk. 324,L. 332,P. 285,Sonata in G major,Sonata,G major,Andante,Harpsichord
+325,Kk. 325,L. 37,P. 451,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+326,Kk. 326,L. 201,P. 336,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+327,Kk. 327,L. 152,P. 399,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+328,Kk. 328,L. S27,P. 485,Sonata in G major,Sonata,G major,Andante comodo,Harpsichord
+329,Kk. 329,L. S 5,P. 337,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+330,Kk. 330,L. 55,P. 222,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+331,Kk. 331,L. 18,P. 471,Sonata in B-flat major,Sonata,B-flat major,Andante,Harpsichord
+332,Kk. 332,L. 141,P. 519,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+333,Kk. 333,L. 269,P. 338,Sonata in D major,Sonata,D major,Allegro - Allegrissimo,Harpsichord
+334,Kk. 334,L. 100,P. 412,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+335,Kk. 335,L. S10,P. 339,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+336,Kk. 336,L. 337,P. 262,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+337,Kk. 337,L. S26,P. 340,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+338,Kk. 338,L. 87,P. 400,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+339,Kk. 339,L. 251,P. 189,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+340,Kk. 340,L. 105,P. 420,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+341,Kk. 341,L. 140,P. 103,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+342,Kk. 342,L. 191,P. 341,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+343,Kk. 343,L. 291,P. 495,Sonata in A major,Sonata,A major,Allegro andante,Harpsichord
+344,Kk. 344,L. 295,P. 221,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+345,Kk. 345,L. 306,P. 342,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+346,Kk. 346,L. 60,P. 250,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+347,Kk. 347,L. 126,P. 294,Sonata in G minor,Sonata,G minor,Moderato cantabile,Harpsichord
+348,Kk. 348,L. 127,P. 462,Sonata in G major,Sonata,G major,Prestissimo,Harpsichord
+349,Kk. 349,L. 170,P. 452,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+350,Kk. 350,L. 230,P. 413,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+351,Kk. 351,L. S34,P. 165,Sonata in B-flat major,Sonata,B-flat major,Andante - Allegrissimo,Harpsichord
+352,Kk. 352,L. S13,P. 343,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+353,Kk. 353,L. 313,P. 401,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+354,Kk. 354,L. 68,P. 486,Sonata in F major,Sonata,F major,Andante,Harpsichord
+355,Kk. 355,L. S22,P. 344,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+356,Kk. 356,L. 443,P. 488,Sonata in C major,Sonata,C major,Con spirito Andante,Harpsichord
+357,Kk. 357,L. S45,P. 270,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+358,Kk. 358,L. 412,P. 457,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+359,Kk. 359,L. 448,P. 425,Sonata in D major,Sonata,D major,Allegrissimo,Harpsichord
+360,Kk. 360,L. 400,P. 520,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+361,Kk. 361,L. 247,P. 214,Sonata in B-flat major,Sonata,B-flat major,Allegrissimo,Harpsichord
+362,Kk. 362,L. 156,P. 159,Sonata in C minor,Sonata,C minor,Allegro,Harpsichord
+363,Kk. 363,L. 160,P. 104,Sonata in C minor,Sonata,C minor,Presto,Harpsichord
+364,Kk. 364,L. 436,P. 345,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+365,Kk. 365,L. 480,P. 112,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
+366,Kk. 366,L. 119,P. 263,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+367,Kk. 367,L. 172,P. 453,Sonata in F major,Sonata,F major,Presto,Harpsichord
+368,Kk. 368,L. S30,P. 506,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+369,Kk. 369,L. 240,P. 259,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+370,Kk. 370,L. 316,P. 346,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+371,Kk. 371,L. 17,P. 264,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+372,Kk. 372,L. 302,P. 402,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+373,Kk. 373,L. 98,P. 158,Sonata in G minor,Sonata,G minor,Presto e fugato,Harpsichord
+374,Kk. 374,L. 76,P. 472,Sonata in G major,Sonata,G major,Andante,Harpsichord
+375,Kk. 375,L. 389,P. 414,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+376,Kk. 376,L. 34,P. 246,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+377,Kk. 377,L. 263,P. 245,Sonata in B minor,Sonata,B minor,Allegrissimo,Harpsichord
+378,Kk. 378,L. 276,P. 347,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+379,Kk. 379,L. 73,P. 107,Sonata in F major,Sonata,F major,-,Harpsichord
+380,Kk. 380,L. 23,P. 483,Sonata in E major,Sonata,E major,Andante comodo,Harpsichord
+381,Kk. 381,L. 225,P. 323,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+382,Kk. 382,L. S33,P. 508,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+383,Kk. 383,L. 134,P. 269,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+384,Kk. 384,L. 2,P. 487,Sonata in C major,Sonata,C major,Cantabile andante,Harpsichord
+385,Kk. 385,L. 284,P. 220,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+386,Kk. 386,L. 171,P. 137,Sonata in F minor,Sonata,F minor,Presto,Harpsichord
+387,Kk. 387,L. 175,P. 415,Sonata in F minor,Sonata,F minor,Veloce e fugato,Harpsichord
+388,Kk. 388,L. 414,P. 370,Sonata in D major,Sonata,D major,Presto,Harpsichord
+389,Kk. 389,L. 482,P. 331,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+390,Kk. 390,L. 234,P. 348,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+391,Kk. 391,L. 79,P. 364,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+392,Kk. 392,L. 246,P. 371,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+393,Kk. 393,L. 74,P. 326,Sonata in B-flat major,Sonata,B-flat major,-,Harpsichord
+394,Kk. 394,L. 275,P. 349,Sonata in E minor,Sonata,E minor,Allegro,Harpsichord
+395,Kk. 395,L. 65,P. 273,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+396,Kk. 396,L. 110,P. 435,Sonata in D minor,Sonata,D minor,Andante,Harpsichord
+397,Kk. 397,L. 208,P. 325,Sonata in D major,Sonata,D major,-,Harpsichord
+398,Kk. 398,L. 218,P. 493,Sonata in C major,Sonata,C major,Andante,Harpsichord
+399,Kk. 399,L. 274,P. 458,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+400,Kk. 400,L. 213,P. 228,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+401,Kk. 401,L. 365,P. 436,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+402,Kk. 402,L. 427,P. 436,Sonata in E minor,Sonata,E minor,Andante,Harpsichord
+403,Kk. 403,L. 470,P. 436,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+404,Kk. 404,L. 222,P. 436,Sonata in A major,Sonata,A major,Andante,Harpsichord
+405,Kk. 405,L. 43,P. 436,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+406,Kk. 406,L. 5,P. 436,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+407,Kk. 407,L. S 4,P. 436,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+408,Kk. 408,L. 346,P. 436,Sonata in B minor,Sonata,B minor,Andante,Harpsichord
+409,Kk. 409,L. 150,P. 436,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+410,Kk. 410,L. S43,P. 372,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+411,Kk. 411,L. 69,P. 351,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+412,Kk. 412,L. 182,P. 463,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+413,Kk. 413,L. 125,P. 416,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+414,Kk. 414,L. 310,P. 373,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+415,Kk. 415,L. S11,P. 175,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+416,Kk. 416,L. 149,P. 454,Sonata in D major,Sonata,D major,Presto,Harpsichord
+417,Kk. 417,L. 462,P. 40,Sonata in D minor,Sonata,D minor,Allegro moderato,Harpsichord
+418,Kk. 418,L. 26,P. 510,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+419,Kk. 419,L. 279,P. 524,Sonata in F major,Sonata,F major,Presto,Harpsichord
+420,Kk. 420,L. S 2,P. 352,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+421,Kk. 421,L. 252,P. 459,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+422,Kk. 422,L. 451,P. 511,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+423,Kk. 423,L. 102,P. 455,Sonata in C major,Sonata,C major,Presto,Harpsichord
+424,Kk. 424,L. 289,P. 374,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+425,Kk. 425,L. 333,P. 426,Sonata in G major,Sonata,G major,Allegro molto,Harpsichord
+426,Kk. 426,L. 128,P. 128,Sonata in G minor,Sonata,G minor,Andante,Harpsichord
+427,Kk. 427,L. 286,P. 286,Sonata in G major,Sonata,G major,Presto quanto sia possible,Harpsichord
+428,Kk. 428,L. 131,P. 131,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+429,Kk. 429,L. 132,P. 132,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+430,Kk. 430,L. 463,P. 463,Sonata in D major,Sonata,D major,Non presto,Harpsichord
+431,Kk. 431,L. 83,P. 365,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+432,Kk. 432,L. 288,P. 288,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+433,Kk. 433,L. 453,P. 453,Sonata in G major,Sonata,G major,Vivo,Harpsichord
+434,Kk. 434,L. 343,P. 498,Sonata in D minor,Sonata,D minor,Andante,Harpsichord
+435,Kk. 435,L. 361,P. 466,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+436,Kk. 436,L. 109,P. 404,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+437,Kk. 437,L. 278,P. 499,Sonata in F major,Sonata,F major,Andante comodo,Harpsichord
+438,Kk. 438,L. 381,P. 467,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+439,Kk. 439,L. 47,P. 473,Sonata in B-flat major,Sonata,B-flat major,Moderato,Harpsichord
+440,Kk. 440,L. 97,P. 328,Sonata in B-flat major,Sonata,B-flat major,-,Harpsichord
+441,Kk. 441,L. S39,P. 375,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+442,Kk. 442,L. 319,P. 229,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+443,Kk. 443,L. 418,P. 376,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+444,Kk. 444,L. 420,P. 441,Sonata in D minor,Sonata,D minor,Allegrissimo,Harpsichord
+445,Kk. 445,L. 385,P. 468,Sonata in F major,Sonata,F major,Allegro o presto,Harpsichord
+446,Kk. 446,L. 433,P. 177,Sonata in F major,Sonata,F major,Allegrissimo,Harpsichord
+447,Kk. 447,L. 294,P. 191,Sonata in F-sharp minor,Sonata,F-sharp minor,Allegro,Harpsichord
+448,Kk. 448,L. 485,P. 261,Sonata in F-sharp minor,Sonata,F-sharp minor,Allegro,Harpsichord
+449,Kk. 449,L. 444,P. 405,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+450,Kk. 450,L. 338,P. 422,Sonata in G minor,Sonata,G minor,Allegrissimo,Harpsichord
+451,Kk. 451,L. 243,P. 366,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+452,Kk. 452,,,Sonata in A major,Sonata,A major,Andante Allegro,Harpsichord
+453,Kk. 453,,P. 280,Sonata in A major,Sonata,A major,Andante,Harpsichord
+454,Kk. 454,L. 184,P. 423,Sonata in G major,Sonata,G major,Andante spirituoso,Harpsichord
+455,Kk. 455,L. 209,P. 354,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+456,Kk. 456,L. 491,P. 377,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+457,Kk. 457,L. 292,P. 442,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+458,Kk. 458,L. 212,P. 260,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+459,Kk. 459,L. S14,P. 167,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+460,Kk. 460,L. 324,P. 378,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+461,Kk. 461,L. 8,P. 324,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+462,Kk. 462,L. 438,P. 474,Sonata in F minor,Sonata,F minor,Andante,Harpsichord
+463,Kk. 463,L. 471,P. 512,Sonata in F minor,Sonata,F minor,Molto allegro,Harpsichord
+464,Kk. 464,L. 151,P. 460,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+465,Kk. 465,L. 242,P. 406,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+466,Kk. 466,L. 118,P. 501,Sonata in F minor,Sonata,F minor,Andante,Harpsichord
+467,Kk. 467,L. 476,P. 513,Sonata in F minor,Sonata,F minor,Allegrissimo,Harpsichord
+468,Kk. 468,L. 226,P. 507,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+469,Kk. 469,L. 431,P. 514,Sonata in F major,Sonata,F major,Allegro molto,Harpsichord
+470,Kk. 470,L. 304,P. 379,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+471,Kk. 471,L. 82,P. 327,Sonata in G major,Sonata,G major,-,Harpsichord
+472,Kk. 472,L. 99,P. 475,Sonata in B-flat major,Sonata,B-flat major,Andante,Harpsichord
+473,Kk. 473,L. 229,P. 355,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+474,Kk. 474,L. 203,P. 502,Sonata in E-flat major,Sonata,E-flat major,Andante cantabile,Harpsichord
+475,Kk. 475,L. 220,P. 319,Sonata in E-flat major,Sonata,E-flat major,Allegrissimo,Harpsichord
+476,Kk. 476,L. 340,P. 427,Sonata in G minor,Sonata,G minor,Allegro,Harpsichord
+477,Kk. 477,L. 290,P. 419,Sonata in G major,Sonata,G major,Allegrissimo,Harpsichord
+478,Kk. 478,L. 12,P. 503,Sonata in D major,Sonata,D major,Andante cantabile,Harpsichord
+479,Kk. 479,L. S16,P. 380,Sonata in D major,Sonata,D major,Allegrissimo,Harpsichord
+480,Kk. 480,L. S 8,P. 381,Sonata in D major,Sonata,D major,Presto,Harpsichord
+481,Kk. 481,L. 187,P. 504,Sonata in F minor,Sonata,F minor,Andante cantabile,Harpsichord
+482,Kk. 482,L. 435,P. 356,Sonata in F major,Sonata,F major,Allegrissimo,Harpsichord
+483,Kk. 483,L. 472,P. 407,Sonata in F major,Sonata,F major,Presto,Harpsichord
+484,Kk. 484,L. 419,P. 428,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+485,Kk. 485,L. 153,P. 490,Sonata in C major,Sonata,C major,Andante cantabile,Harpsichord
+486,Kk. 486,L. 455,P. 515,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+487,Kk. 487,L. 205,P. 421,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+488,Kk. 488,L. S37,P. 382,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+489,Kk. 489,L. S41,P. 522,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+490,Kk. 490,L. 206,P. 476,Sonata in D major,Sonata,D major,Cantabile,Harpsichord
+491,Kk. 491,L. 164,P. 484,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+492,Kk. 492,L. 14,P. 443,Sonata in D major,Sonata,D major,Presto,Harpsichord
+493,Kk. 493,L. S24,P. 383,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+494,Kk. 494,L. 287,P. 444,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+495,Kk. 495,L. 426,P. 384,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+496,Kk. 496,L. 372,P. 332,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+497,Kk. 497,L. 146,P. 357,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+498,Kk. 498,L. 350,P. 367,Sonata in B minor,Sonata,B minor,Allegro,Harpsichord
+499,Kk. 499,L. 193,P. 477,Sonata in A major,Sonata,A major,Andante,Harpsichord
+500,Kk. 500,L. 492,P. 358,Sonata in A major,Sonata,A major,Allegro,Harpsichord
+501,Kk. 501,L. 137,P. 385,Sonata in C major,Sonata,C major,Allegretto,Harpsichord
+502,Kk. 502,L. 3,P. 408,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+503,Kk. 503,L. 196,P. 196,Sonata in B-flat major,Sonata,B-flat major,Allegretto,Harpsichord
+504,Kk. 504,L. 29,P. 265,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+505,Kk. 505,L. 326,P. 386,Sonata in F major,Sonata,F major,Allegro non presto,Harpsichord
+506,Kk. 506,L. 70,P. 409,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+507,Kk. 507,L. 113,P. 478,Sonata in E-flat major,Sonata,E-flat major,Andantino cantabile,Harpsichord
+508,Kk. 508,L. 19,P. 516,Sonata in E-flat major,Sonata,E-flat major,Allegro,Harpsichord
+509,Kk. 509,L. 311,P. 387,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+510,Kk. 510,L. 277,P. 525,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+511,Kk. 511,L. 314,P. 388,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+512,Kk. 512,L. 339,P. 359,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+513,Kk. 513,L. S 3,P. 176,Sonata in C major,Sonata,C major,Moderato e Molto allegro - Presto,Harpsichord
+514,Kk. 514,L. 1,P. 389,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+515,Kk. 515,L. 255,P. 417,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+516,Kk. 516,L. S12,P. 523,Sonata in D minor,Sonata,D minor,Allegretto,Harpsichord
+517,Kk. 517,L. 266,P. 517,Sonata in D minor,Sonata,D minor,Prestissimo,Harpsichord
+518,Kk. 518,L. 116,P. 390,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+519,Kk. 519,L. 475,P. 445,Sonata in F minor,Sonata,F minor,Allegro assai,Harpsichord
+520,Kk. 520,L. 86,P. 362,Sonata in G major,Sonata,G major,Allegretto,Harpsichord
+521,Kk. 521,L. 408,P. 492,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+522,Kk. 522,L. S25,P. 526,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+523,Kk. 523,L. 490,P. 527,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+524,Kk. 524,L. 283,P. 528,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+525,Kk. 525,L. 188,P. 529,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+526,Kk. 526,L. 456,P. 530,Sonata in C minor,Sonata,C minor,Allegro comodo,Harpsichord
+527,Kk. 527,L. 458,P. 531,Sonata in C major,Sonata,C major,Allegro assai,Harpsichord
+528,Kk. 528,L. 200,P. 532,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+529,Kk. 529,L. 327,P. 533,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+530,Kk. 530,L. 44,P. 534,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+531,Kk. 531,L. 430,P. 535,Sonata in E major,Sonata,E major,Allegro,Harpsichord
+532,Kk. 532,L. 223,P. 536,Sonata in A minor,Sonata,A minor,Allegro,Harpsichord
+533,Kk. 533,L. 395,P. 537,Sonata in A major,Sonata,A major,Allegro assai,Harpsichord
+534,Kk. 534,L. 11,P. 538,Sonata in D major,Sonata,D major,Cantabile,Harpsichord
+535,Kk. 535,L. 262,P. 531,Sonata in D major,Sonata,D major,Allegro,Harpsichord
+536,Kk. 536,L. 236,P. 540,Sonata in A major,Sonata,A major,Cantabile,Harpsichord
+537,Kk. 537,L. 293,P. 541,Sonata in A major,Sonata,A major,Prestissimo,Harpsichord
+538,Kk. 538,L. 254,P. 542,Sonata in G major,Sonata,G major,Allegretto,Harpsichord
+539,Kk. 539,L. 121,P. 543,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+540,Kk. 540,L. S17,P. 544,Sonata in F major,Sonata,F major,Allegretto,Harpsichord
+541,Kk. 541,L. 120,P. 545,Sonata in F major,Sonata,F major,Allegretto,Harpsichord
+542,Kk. 542,L. 167,P. 546,Sonata in F major,Sonata,F major,Allegretto,Harpsichord
+543,Kk. 543,L. 227,P. 547,Sonata in F major,Sonata,F major,Allegro,Harpsichord
+544,Kk. 544,L. 497,P. 548,Sonata in B-flat major,Sonata,B-flat major,Cantabile,Harpsichord
+545,Kk. 545,L. 500,P. 549,Sonata in B-flat major,Sonata,B-flat major,Prestissimo,Harpsichord
+546,Kk. 546,L. 312,P. 550,Sonata in G minor,Sonata,G minor,Cantabile,Harpsichord
+547,Kk. 547,L. S28,P. 551,Sonata in G major,Sonata,G major,Allegro,Harpsichord
+548,Kk. 548,L. 404,P. 552,Sonata in C major,Sonata,C major,Allegretto,Harpsichord
+549,Kk. 549,L. S 1,P. 553,Sonata in C major,Sonata,C major,Allegro,Harpsichord
+550,Kk. 550,L. S42,P. 554,Sonata in B-flat major,Sonata,B-flat major,Allegretto,Harpsichord
+551,Kk. 551,L. 396,P. 555,Sonata in B-flat major,Sonata,B-flat major,Allegro,Harpsichord
+552,Kk. 552,L. 421,P. 556,Sonata in D minor,Sonata,D minor,Allegretto,Harpsichord
+553,Kk. 553,L. 425,P. 557,Sonata in D minor,Sonata,D minor,Allegro,Harpsichord
+554,Kk. 554,L. S21,P. 558,Sonata in F major,Sonata,F major,Allegretto,Harpsichord
+555,Kk. 555,L. 477,P. 559,Sonata in F minor,Sonata,F minor,Allegro,Harpsichord
