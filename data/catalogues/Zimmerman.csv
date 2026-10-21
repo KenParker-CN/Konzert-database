@@ -441,69 +441,69 @@ avec 2 flûtes, 2 hautbois, 2 trompettes, tambour, 2 violons, alto et basse cont
 avec hautbois, 2 violons, alto et bassse continue",Texte: Thomas Shadwell d'après William Shakespeare
 632,Z. 632,"Timon of Athens, the Man-Hater",Masque,,,"solistes (SSAB) et chœur (SSATB)
 avec 2 flûtes, 2 hautbois, trompette, 2 violons, alto et basse continue",Texte: Thomas Shadwell d'après William Shakespeare
-641,Z. 641,Air,,G major,,clavecin,
-642.1,Z. 642/1,Almand,,A minor,,clavecin,
-642.2,Z. 642/2,Corant,,A minor,,clavecin,
-643,Z. 643,Almand avec division,,G major,,clavecin,[variante de 660/2]
-644,Z. 644,Corant,,G major,,clavecin,[variante de 660/3]
+641,Z. 641,Air,Air,G major,,clavecin,
+642.1,Z. 642/1,Almand,Dance,A minor,,clavecin,
+642.2,Z. 642/2,Corant,Dance,A minor,,clavecin,
+643,Z. 643,Almand avec division,Dance,G major,,clavecin,[variante de 660/2]
+644,Z. 644,Corant,Dance,G major,,clavecin,[variante de 660/3]
 645,Z. 645,Ground in Gamut,,G major,,clavecin,
 646,Z. 646,Lilliburlero (A new Irish tune),,G major,,clavecin,
-647,Z. 647,March,,C major,,clavecin,[Titre original : Lesson]
-648,Z. 648,March,,C major,,clavecin,
-649,Z. 649,Minuet,,A minor,,clavecin,[sans titre dans certaines éditions]
-650,Z. 650,Minuet,,A minor,,clavecin,
-651,Z. 651,Minuet,,G major,,clavecin,[pourrait faire partie de 660]
+647,Z. 647,March,March,C major,,clavecin,[Titre original : Lesson]
+648,Z. 648,March,March,C major,,clavecin,
+649,Z. 649,Minuet,Minuet,A minor,,clavecin,[sans titre dans certaines éditions]
+650,Z. 650,Minuet,Minuet,A minor,,clavecin,
+651,Z. 651,Minuet,Minuet,G major,,clavecin,[pourrait faire partie de 660]
 652,Z. 652,Prelude,,A minor,,clavecin,[pourrait appartenir avec 654 à une Suite en la mineur]
-653,Z. 653,Rigadoon,,C major,,clavecin,
-654,Z. 654,Saraband avec division,,A minor,,clavecin,[pourrait appartenir avec 652 à une Suite en la mineur]
+653,Z. 653,Rigadoon,Dance,C major,,clavecin,
+654,Z. 654,Saraband avec division,Dance,A minor,,clavecin,[pourrait appartenir avec 652 à une Suite en la mineur]
 655,Z. 655,Scotch tune (A new Scotch tune),,G major,,clavecin,
 656,Z. 656,Sefauchi's Farewell,,D minor,,clavecin,"[lors du départ d'Angleterre en 1688 du castrato Giovanni Francesco Grossi,connu aussi comme Siface]"
-660,Z. 660,Suite,,G major,"1. Prélude en sol majeur)
+660,Z. 660,Suite,Suite,G major,"1. Prélude en sol majeur)
 2. Almand en sol majeur
 [variante dans 643]
 3. Corant en sol majeur
 4. Saraband en sol majeur",clavecin,
-661,Z. 661,Suite,,G minor,"1. Prelude en sol mineur
+661,Z. 661,Suite,Suite,G minor,"1. Prelude en sol mineur
 2. Almand en sol mineur
 3. Corant en sol mineur
 4. Saraband en sol mineur",clavecin,
-662,Z. 662,Suite,,G major,"1. Prelude en sol majeur
+662,Z. 662,Suite,Suite,G major,"1. Prelude en sol majeur
 2. Almand en sol majeur
 3. Corant en sol majeur",clavecin,[semble incomplète puisqu'il manque la Saraband habituelle]
-663,Z. 663,Suite,,A minor,"1. Prelude en la mineur
+663,Z. 663,Suite,Suite,A minor,"1. Prelude en la mineur
 2. Almand en la mineur
 3. Corant en la mineur
 [connu aussi sous Hornpipe]
 4. Saraband en la mineur",clavecin,
-664,Z. 664,Suite,,B-flat major,"1. Almand en si bémol majeur
+664,Z. 664,Suite,Suite,B-flat major,"1. Almand en si bémol majeur
 2. Corant en si bémol majeur
 3. Saraband en si bémol majeur",clavecin,[La Suite se termine par une Jigg par Lord Byron]
-665,Z. 665,Suite,,C major,"1. Prelude en do majeur
+665,Z. 665,Suite,Suite,C major,"1. Prelude en do majeur
 2. Almand en do majeur
 3. Corant en do majeur
 4. Saraband en do majeur
 5. Jigg. do majeur",clavecin,
-666,Z. 666,Suite,,C major,"1. Prelude en do majeur
+666,Z. 666,Suite,Suite,C major,"1. Prelude en do majeur
 2. Almand en do majeur
 3. Corant en do majeur
 [même que 665/3]
 4. Saraband en do majeur
 [même que 665/4]",clavecin,
-667,Z. 667,Suite,,D major,"1. Prelude en ré majeur
+667,Z. 667,Suite,Suite,D major,"1. Prelude en ré majeur
 2. Almand en ré majeur
 3. Hornpipe en ré majeur",clavecin,
-668,Z. 668,Suite,,D minor,"1. Almand (Bell Barr) en ré mineur
+668,Z. 668,Suite,Suite,D minor,"1. Almand (Bell Barr) en ré mineur
 2. Corant en ré mineur
 3. Hornpipe en ré mineur",clavecin,
-669,Z. 669,Suite,,F major,"1. Prelude en fa majeur
+669,Z. 669,Suite,Suite,F major,"1. Prelude en fa majeur
 2. Almand en fa majeur
 3. Corant en fa majeur
 4. Minuet en fa majeur
 [adapté pour cordes, 592/3]",clavecin,
 670,Z. 670,The Queen's Dolour,,A minor,,clavecin,
-675,Z. 675,Air,,D minor,,clavecin,"[Se compare avec un autre air en version plus élaborée, 696 1/2]"
-676,Z. 676,Air,,D minor,,clavecin,"[transcription du 3e minuet de Doouble Dealer, 592/7]"
-677,Z. 677,Canary,,B-flat major,,clavecin,"[même que Curtain tune in The Indian Queen, 630/18 - Une autre version existe en la majeur]"
+675,Z. 675,Air,Air,D minor,,clavecin,"[Se compare avec un autre air en version plus élaborée, 696 1/2]"
+676,Z. 676,Air,Air,D minor,,clavecin,"[transcription du 3e minuet de Doouble Dealer, 592/7]"
+677,Z. 677,Canary,Dance,B-flat major,,clavecin,"[même que Curtain tune in The Indian Queen, 630/18 - Une autre version existe en la majeur]"
 678,Z. 678,Trumpet tune,,C major,,clavecin,"Chacone, avec canon, en la mineur, pour clavecin"
 679,Z. 679,Chacone avec canon,,A minor,,clavecin,"[transcrit de Dioclesian, 627/26]"
 680,Z. 680,Chacone,,G minor,,clavecin,"[même que Curtain time de Timon of Athens, 632/20]"
@@ -513,18 +513,18 @@ avec 2 flûtes, 2 hautbois, trompette, 2 violons, alto et basse continue",Texte:
 684,Z. 684,Hornpipe ou Rondo,,D minor,,clavecin,"[transcription de la 2e pièce instrumentale de Abdelazer, 570/2]"
 685,Z. 685,Hornpipe,,E minor,,clavecin,"[même que Hornpipe de The Old Bachelor, 607/4]"
 686,Z. 686,Jig,,D minor,,clavecin,"[transcription de Jig de Abdelazer, 570/7]"
-687,Z. 687,March,,C major,,clavecin,"[transcription d'une pièce de The Married Beau, 603/8]"
-688,Z. 688,Minuet,,D minor,,clavecin,"[transcription d'un Ritornello dans Raise the voice, 334/6]"
+687,Z. 687,March,March,C major,,clavecin,"[transcription d'une pièce de The Married Beau, 603/8]"
+688,Z. 688,Minuet,Minuet,D minor,,clavecin,"[transcription d'un Ritornello dans Raise the voice, 334/6]"
 689,Z. 689,New Minuet,,D minor,,clavecin,"[transcription d'un chant de Timon of Athens, 632/15]"
-690,Z. 690,Ouverture,,C minor,"1. Grave (do mineur)
+690,Z. 690,Ouverture,Overture,C minor,"1. Grave (do mineur)
 [même que 630/3a]
 2. Canzona en do mineur
 [même que 630/3b]",clavecin,[même que 630/3a et 630/3b]
-691,Z. 691,Ouverture,,D major,"1. Grave (ré majeur)
+691,Z. 691,Ouverture,Overture,D major,"1. Grave (ré majeur)
 2. Canzona en ré majeur",clavecin,"[même que l'Ouverture de Timon of Athens, 632/1 ou l'Ouverture, en do majeur, 342/1]"
-692,Z. 692,Ouverture,,D major,"1. Grave (ré majeur)
+692,Z. 692,Ouverture,Overture,D major,"1. Grave (ré majeur)
 2. Canzona en ré majeur",clavecin,"[extrait de la première Symphonie de The Fairy Queen, 629/3a,b]"
-693,Z. 693,"Ouverture, Air and Jig in gamut",,G minor,"1a. Ouverture
+693,Z. 693,"Ouverture, Air and Jig in gamut",Overture,G minor,"1a. Ouverture
 Grave en sol mineur
 [même que 611/1]
 1b. Canzona en sol mineur
@@ -535,7 +535,7 @@ Grave en sol mineur
 [composition de Morgan]",clavecin,"[l'Ouverture provient de The Virtout Wife, 611/1, L'Air provient de Abdelazer, 570/6]"
 694,Z. 694,Song tune,,C major,,clavecin,[même que 353 et 351]
 695,Z. 695,Song tune,,C major,,clavecin,[même que 420]
-696,Z. 696,Suite,,D minor,"1. Air en ré mineur
+696,Z. 696,Suite,Suite,D minor,"1. Air en ré mineur
 [version de 675/1]
 2. Air en ré mineur",clavecin,
 697,Z. 697,Trumpet tune,,C major,,clavecin,"[adaptation de Trumpet Tune de Dioclesian, 627/2]"
@@ -547,7 +547,7 @@ Grave en sol mineur
 720,Z. 720,Voluntary,,G major,,Organ,
 721,Z. 721,Voluntary on the 100th Psalm,,A major,,Organ,
 730,Z. 730,Chacony à 4,,G minor,,"2 violons, alto et basse",
-731,Z. 731,"Fantasia ""3 parts upon a ground""",,F major,"1. … (fa majeur)
+731,Z. 731,"Fantasia ""3 parts upon a ground""",Fantasia,F major,"1. … (fa majeur)
 2. … (fa majeur)
 3. [Four parts in two] (fa majeur)
 4. [Three parts in one] (fa majeur)
@@ -555,49 +555,49 @@ Grave en sol mineur
 6. [Three parts in one] (fa majeur)
 7. … (fa majeur)
 8. … (fa majeur)",3 flûtes ou violons et basse,
-732,Z. 732,Fantasia à 3,,,"1. … (ré mineur)
+732,Z. 732,Fantasia à 3,Fantasia,,"1. … (ré mineur)
 2. Quick (ré mineur)
 3. … (la mineur)","violon, alto et basse",
-733,Z. 733,Fantasia à 3,,F major,"1. … (fa majeur)
+733,Z. 733,Fantasia à 3,Fantasia,F major,"1. … (fa majeur)
 2. Brisk (fa majeur)
 3. Slow (fa majeur)","violon, alto et basse",
-734,Z. 734,Fantasia à 3,,G minor,,"violon, alto et basse",
-735,Z. 735,Fantasia à 4,,G minor,"1. … (sol mineur)
+734,Z. 734,Fantasia à 3,Fantasia,G minor,,"violon, alto et basse",
+735,Z. 735,Fantasia à 4,Fantasia,G minor,"1. … (sol mineur)
 2. Slow (sol mineur)
 3. Brisk (sol mineur)","2 violons, alto et basse",
-736,Z. 736,Fantasia à 4,,B-flat major,"1. … (si bémol majeur)
+736,Z. 736,Fantasia à 4,Fantasia,B-flat major,"1. … (si bémol majeur)
 2. Brisk (si bémol majeur)
 3. Slow (la mineur)
 4. Brisk (si bémol majeur)","2 violons, alto et basse",
-737,Z. 737,Fantasia à 4,,F major,"1. … (fa majeur)
+737,Z. 737,Fantasia à 4,Fantasia,F major,"1. … (fa majeur)
 2. Slow (fa majeur)
 3. Quick (fa majeur)
 4. Slow (fa majeur)","2 violons, alto et basse",
-738,Z. 738,Fantasia à 4,,C minor,"1. … (do mineur)
+738,Z. 738,Fantasia à 4,Fantasia,C minor,"1. … (do mineur)
 2. Brisk (do mineur)
 3. Slow (do mineur)
 4. Quick (do mineur)
 5. Drag (do mineur)","2 violons, alto et basse",
-739,Z. 739,Fantasia à 4,,D minor,"1. … (ré mineur)
+739,Z. 739,Fantasia à 4,Fantasia,D minor,"1. … (ré mineur)
 2. Slow (ré mineur)
 3. Brisk (ré mineur)
 4. Slow (ré mineur)","2 violons, alto et basse",
-740,Z. 740,Fantasia à 4,,A minor,"1. … (la mineur)
+740,Z. 740,Fantasia à 4,Fantasia,A minor,"1. … (la mineur)
 2. Brisk (la mineur)
 3. Slow (fa majeur)
 4. Quick (la mineur)","2 violons, alto et basse",
-741,Z. 741,Fantasia à 4,,E minor,"1. … (mi mineur)
+741,Z. 741,Fantasia à 4,Fantasia,E minor,"1. … (mi mineur)
 2. Brisk (mi mineur)
 3. Slow (mi mineur)
 4. Quick (mi mineur)","2 violons, alto et basse",
-742,Z. 742,Fantasia à 4,,G major,"1. … (sol majeur)
+742,Z. 742,Fantasia à 4,Fantasia,G major,"1. … (sol majeur)
 2. Drag (sol mineur)
 3. Brisk (sol majeur)","2 violons, alto et basse",
-743,Z. 743,Fantasia à 4,,,"1. … (ré mineur)
+743,Z. 743,Fantasia à 4,Fantasia,,"1. … (ré mineur)
 2. Quick (ré mineur)
 3. … (la mineur)","2 violons, alto et basse",
-744,Z. 744,Fantasia à 4,,A minor,,"2 violons, basse de viole et basse",[incomplète]
-745,Z. 745,Fantasia upon one note à 5,,F major,"1. … (fa majeur)
+744,Z. 744,Fantasia à 4,Fantasia,A minor,,"2 violons, basse de viole et basse",[incomplète]
+745,Z. 745,Fantasia upon one note à 5,Fantasia,F major,"1. … (fa majeur)
 2. Brisk (fa majeur)
 3. Slow (fa mineur)
 4. Quick (fa majeur)","2 violons, 2 altos et basse",
@@ -808,7 +808,7 @@ Adagio (do mineur)
 999.077,Z. D77,The night is come,,,,,
 999.078,Z. D78,Soon as the morn salutes your eyes,,,,,
 999.09,Z. D90,Sanctus,,,,,
-999.091,Z. D91,Te Deum,,C major,,,
+999.091,Z. D91,Te Deum,Te Deum,C major,,,
 999.1,Z. D100,"Fie, nay prithee, John",,,,,
 999.101,Z. D101,"Hail happy words, abodes of peace",,,,,
 999.102,Z. D102,Let's live good honest lives,,,,,

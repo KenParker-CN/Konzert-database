@@ -531,7 +531,7 @@ soprano -> trpte, htb1, htb2, vln1; Viola -> htb3, vln3; ténor -> Viola
 34.1,BWV 34a,"O ewiges Feuer, o Ursprung der Liebe",Cantata,,,"solistes (S,A,T,B) et choeur (SATB) avec 3 trompettes, timbales, 2 flûtes traversières, 2 hautbois, 2 violons, alto et continuo",mariage
 35,BWV 35,Geist und Seele wird verwirret,Cantata,,,"soliste (A) avec 2 hautbois, cor anglais, orgue obligé, 2 violons, alto et continuo",12è dimanche après la Trinité
 36,BWV 36,Schwingt freudig euch empor,Cantata,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 hautbois d'amour, 2 violons, alto et continuo (orgue)",1er dimanche de l'Avent
-36.1,BWV 36a,Steigt freudig in die Luft,#N/A,,,anniversaire de Charlotte Fridericke Wilhelmine (1726),Musique perdue
+36.1,BWV 36a,Steigt freudig in die Luft,,,,anniversaire de Charlotte Fridericke Wilhelmine (1726),Musique perdue
 36.2,BWV 36b,Die Freude reget sich,Cantata,,,"solistes (S,A,T) et choeur (SATB) avec flûte traversière, hautbois d'amour, 2 violons, alto et continuo",anniversaire de Johann Florens Rivinus
 36.3,BWV 36c,Schwingt freudig euch empor,Cantata,,,"solistes (S,T,B) et choeur (SATB) avec hautbois d'amour, viole d'amour, 2 violons, alto et continuo",anniversaire pour un professeur de l'Université de Leipzig
 37,BWV 37,Wer da gläubet und getauft wird,Cantata,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 hautbois d'amour, 2 violons, alto et continuo",fête de l'Ascension
@@ -652,7 +652,7 @@ soprano -> trpte, htb1, htb2, vln1; Viola -> htb3, vln3; ténor -> Viola
 129,BWV 129,"Gelobet sei der Herr, mein Gott",Cantata,,,"solistes (S,A,B) et choeur (SATB) avec 3 trompettes, timbales, flûte traversière, 2 hautbois, hautbois d'amour, 2 violons, alto et continuo",fête de la Trinité
 130,BWV 130,"Herr Gott, dich loben alle wir",Cantata,,,"solistes (S,A,T,B) et choeur (SATB) avec 3 trompettes, timbales, flûte traversière, 3 hautbois, 2 violons, alto et continuo",fête de St-Michel
 131,BWV 131,"Aus der Tiefe rufe ich, Herr, zu dir",Cantata,,,"solistes (S,A,T,B) et choeur (SATB) avec hautbois, basson, violon, 2 altos et continuo",occasion non précisée; probablement pour des funérailles
-131.1,BWV 131a,Fuge in g-moll,,,,,
+131.1,BWV 131a,Fuge in g-moll,Fugue,,,,
 132,BWV 132,"Bereitet die Wege, bereitet die Bahn",Cantata,,,"solistes (S,A,T,B) et choeur (SATB) avec hautbois, basson, 2 violons, alto, violoncelle et continuo",4è dimanche de l'Avent
 133,BWV 133,Ich freue mich in dir,Cantata,,,"solistes (S,A,T,B) et choeur (SATB) avec cornet, 2 hautbois d'amour, 2 violons, alto et continuo",3è jour de la fête de Noël
 134,BWV 134,"Ein Herz, das seinen Jesum lebend weiss",Cantata,,,"solistes (A,T) et choeur (SATB) avec 2 hautbois, 2 violons, alto et continuo","3è jour de la fête de Pâques
@@ -825,14 +825,14 @@ Voir # 1 de BWV 54.
 Voir # 8 de BWV 198.
 05 Pfui dich, wie fein zerbrichst du den Tempel Choeur #114
 Voir # 45 de l'Oratorio de Noël, BWV 248(e).",,Musique perdue sauf pour les numéros suivants:
-248,BWV 248,Weihnachts Oratorium,oratorio,,,,
-248.1,BWV 248a,"Jauchzet, frohlocket!",oratorio,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 flûtes traversières, 2 hautbois, 2 hautbois d'amour, timbales, 3 trompettes, 2 violons, alto, violoncelle, basson et orgue",fête de Noël
-248.2,BWV 248b,Und es waren Hirten,oratorio,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 flûtes traversières, 2 hautbois d'amour, 2 cors anglais, 2 violons, alto et orgue",deuxième jour de la fête de Noël
+248,BWV 248,Weihnachts Oratorium,Oratorio,,,,
+248.1,BWV 248a,"Jauchzet, frohlocket!",Oratorio,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 flûtes traversières, 2 hautbois, 2 hautbois d'amour, timbales, 3 trompettes, 2 violons, alto, violoncelle, basson et orgue",fête de Noël
+248.2,BWV 248b,Und es waren Hirten,Oratorio,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 flûtes traversières, 2 hautbois d'amour, 2 cors anglais, 2 violons, alto et orgue",deuxième jour de la fête de Noël
 248.3,BWV 248c,"Herrscher des Himmels, erhöre das Lallen",,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 flûtes traversières, 2 hautbois, 2 hautbois d'amour, 3 trompettes, timbales, 2 violons, alto et orgue",troisième jour de la fête de Noël
 248.4,BWV 248d,"Fallt mit Danken, fallt mit Loben",,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 hautbois, 2 cors, 2 violons, alto et orgue",fête de la Circoncision du Christ
 248.5,BWV 248e,"Ehre sei dir, Gott! gesiugen",,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 hautbois d'amour, 2 violons, alto et orgue",dimanche après la fête de la Circoncision du Christ
 248.6,BWV 248f,"Herr, wenn die stolzen Feinde schnauben",,,,"solistes (S,A,T,B) et choeur (SATB) avec 2 hautbois d'amour, 3 trompettes, timbales, 2 violons, alto et orgue",fête de l'Épiphanie
-249,BWV 249,Oster Oratorium,,,,"solistes (S,A,T,B) et choeur (SATB) avec flûte traversière, 2 flûtes à bec, 2 hautbois, hautbois d'amour, 3 trompettes, timbales, 2 violons, alto, basson et continuo",dimanche de Pâques
+249,BWV 249,Oster Oratorium,Oratorio,,,"solistes (S,A,T,B) et choeur (SATB) avec flûte traversière, 2 flûtes à bec, 2 hautbois, hautbois d'amour, 3 trompettes, timbales, 2 violons, alto, basson et continuo",dimanche de Pâques
 249.1,BWV 249a,"Entfliehet, verschwindet, entweichet, ihr Sorgen ""Schaferkantate""",,,,"solistes (S,A,T,B) avec 2 flûtes à bec, flûte traversière, 2 hautbois, basson, 3 trombones, timpani, 2 violons, alto et continuo",anniversaire de naissance de Christian von Sachsen
 249.2,BWV 249b,"Verjaget, zerstreuet, zerrüttet, ihr Sterne
 ""Die Feier des Genius""",,,,,"Reprise de BWV 249 (nouveau texte)
@@ -1128,7 +1128,7 @@ repris du 2è mouvement de BWV 1044
 2. Vivace (si mineur) repris de la Sinfonia # 8 de BWV 76
 3. Andante (si mineur) apparenté à BWV 541
 4. Un poco Allegro",Organ,
-528.1,BWV 528a,Andante d-Moll,,D minor,,Organ,Variante de l'Andante (3è mouvement) de BWV 528
+528.1,BWV 528a,Andante d-Moll,Piece,D minor,,Organ,Variante de l'Andante (3è mouvement) de BWV 528
 529,BWV 529,Organ Sonata in C major,Sonata,C major,"1. Allegro
 2. Largo (la mineur)
 3. Allegro",Organ,
@@ -1467,10 +1467,10 @@ d'après Antonio Vivaldi ou W.F. Bach"
 799,BWV 799,Sinfonia in A minor,Sinfonia,A minor,,Keyboard,
 800,BWV 800,Sinfonia in B-flat major,Sinfonia,B-flat major,,Keyboard,
 801,BWV 801,Sinfonia in B minor,Sinfonia,B minor,,Keyboard,
-802,BWV 802,"Clavier-Übung III, 4 Duetti Nr. 1",Duo,E minor,,Keyboard,
-803,BWV 803,"Clavier-Übung III, 4 Duetti Nr. 2",Duo,F major,,Keyboard,
-804,BWV 804,"Clavier-Übung III, 4 Duetti Nr. 3",Duo,G major,,Keyboard,
-805,BWV 805,"Clavier-Übung III, 4 Duetti Nr. 4",Duo,A minor,,Keyboard,
+802,BWV 802,"Clavier-Übung III, 4 Duetti Nr. 1",Duet,E minor,,Keyboard,
+803,BWV 803,"Clavier-Übung III, 4 Duetti Nr. 2",Duet,F major,,Keyboard,
+804,BWV 804,"Clavier-Übung III, 4 Duetti Nr. 3",Duet,G major,,Keyboard,
+805,BWV 805,"Clavier-Übung III, 4 Duetti Nr. 4",Duet,A minor,,Keyboard,
 806,BWV 806,Suite in A major,Suite,A major,"1. Prélude
 2. Allemande
 3. Courante I
@@ -1578,7 +1578,7 @@ d'après Antonio Vivaldi ou W.F. Bach"
 5. Manuet I - alternatif
 6. Manuet II - trio (mi bémol mineur)",,
 819.1,BWV 819a,Suite in E-flat major,Suite,E-flat major,1. Allemande,,Mouvement alternatif
-820,BWV 820,Ouverture-Suite in F major,Ouverture-Suite,F major,"1. (Prélude)
+820,BWV 820,Ouverture-Suite in F major,Overture-Suite,F major,"1. (Prélude)
 2. Entrée
 3. Menuet
 4. Trio
@@ -1642,7 +1642,7 @@ d'après Antonio Vivaldi ou W.F. Bach"
 5. Sarabande
 6. Tempo di Gavotta
 7. Gigue",Keyboard,Extrait de: Anna Magdalena Bach Notebook 1725 # 2
-831,BWV 831,Clavier-Übung II/2,Ouverture-Suite,B minor,"1. Ouverture
+831,BWV 831,Clavier-Übung II/2,Overture-Suite,B minor,"1. Ouverture
 2. Courante
 3. Gavotte I
 4. Gavotte II (ré majeur)
@@ -1664,16 +1664,16 @@ d'après Antonio Vivaldi ou W.F. Bach"
 4. Sarabande
 5. Double. Allegro
 6. Air. Allegro",Keyboard,
-834,BWV 834,Allemande c-Moll,,C minor,,Keyboard,
-835,BWV 835,Allemande a-Moll,,A minor,,Keyboard,
-836,BWV 836,Allemande g-Moll,,G minor,,Keyboard,Extrait de: Klavierbuchlein fur Wilhelm Friedeman Bach
-837,BWV 837,Allemande g-Moll,,G minor,,Keyboard,"(fragment)
+834,BWV 834,Allemande c-Moll,Dance,C minor,,Keyboard,
+835,BWV 835,Allemande a-Moll,Dance,A minor,,Keyboard,
+836,BWV 836,Allemande g-Moll,Dance,G minor,,Keyboard,Extrait de: Klavierbuchlein fur Wilhelm Friedeman Bach
+837,BWV 837,Allemande g-Moll,Dance,G minor,,Keyboard,"(fragment)
 Extrait de: Klavierbuchlein fur Wilhelm Friedeman Bach"
-838,BWV 838,"Allemande, Courante",,A major,,Keyboard,
-839,BWV 839,Sarabande g-Moll,,G minor,,Keyboard,Extrait de: Notenbuch der Zeumerin
+838,BWV 838,"Allemande, Courante",Dance,A major,,Keyboard,
+839,BWV 839,Sarabande g-Moll,Dance,G minor,,Keyboard,Extrait de: Notenbuch der Zeumerin
 840,BWV 840,Courante G-Dur,,G major,,Keyboard,Extrait de: Notenbuch der Zeumerin
-841,BWV 841,Menuet G-Dur,,G major,,Keyboard,Extrait de: Klavierbuchlein de W.F. Bach (A.M. Bach 1722/9)
-842,BWV 842,Menuet g-Moll,,G minor,,Keyboard,Extrait de: Klavierbuchlein fur W.F. Bach
+841,BWV 841,Menuet G-Dur,Minuet,G major,,Keyboard,Extrait de: Klavierbuchlein de W.F. Bach (A.M. Bach 1722/9)
+842,BWV 842,Menuet g-Moll,Minuet,G minor,,Keyboard,Extrait de: Klavierbuchlein fur W.F. Bach
 846,BWV 846,"Prélude & Fugue, The Well-Tempered Clavier I/1",,C major,,Keyboard,
 846.1,BWV 846a,"Prélude & Fugue, The Well-Tempered Clavier I/2",Prelude,C major,,Keyboard,Variante de BWV 846
 847,BWV 847,"Prélude & Fugue, The Well-Tempered Clavier I/2",,C minor,,Keyboard,
@@ -1824,8 +1824,8 @@ Extrait de: Klavierbuchlein fur Wilhelm Friedeman Bach"
 4. Allemande",Keyboard,"Basé sur la Sonate #11 de Jan Adams Reinkens ""Hotus musicus"""
 967,BWV 967,Sonata in A minor,Sonata,A minor,(1 mouvement),Keyboard,"Adaptation pour clavier d'une sonate pour instrument, clavecin"
 968,BWV 968,Adagio,,G major,,Keyboard,"Adaptation du 1er mouvement de la 3e sonate pour violon, BWV1005"
-969,BWV 969,Andante,,G minor,,Keyboard,
-970,BWV 970,Presto,,D minor,,Keyboard,
+969,BWV 969,Andante,Piece,G minor,,Keyboard,
+970,BWV 970,Presto,Piece,D minor,,Keyboard,
 971,BWV 971,Clavier-Übung II/1,Concerto,F major,"1. ...
 2. Andante (ré mineur)
 3. Presto",Keyboard,
@@ -1884,7 +1884,7 @@ Extrait de: Klavierbuchlein fur Wilhelm Friedeman Bach"
 3. Allegro
 4. Adagio
 5. Vivace",Keyboard,Basé sur l'Op. 1 de John Ernst von Sachen-Weimar
-988,BWV 988,"Clavier-Übung IV, Goldberg Variations",,G major,"0. Aria
+988,BWV 988,"Clavier-Übung IV, Goldberg Variations",Keyboard Variations,G major,"0. Aria
 1. Variation 1 - a 1 clavier
 2. Variation 2 - a 1 clavier
 3. Variation 3 - canone all'unisono a 1 clavier
@@ -1915,7 +1915,7 @@ Extrait de: Klavierbuchlein fur Wilhelm Friedeman Bach"
 28. Variation 28 - a 2 claviere
 29. Variation 29 - a 1 ovvero 2 claviere
 30. Variation 30 - quodlibet a 1 clavier",Keyboard,
-989,BWV 989,Air varié à la manière italienne,,A minor,"0. Aria
+989,BWV 989,Air varié à la manière italienne,Air,A minor,"0. Aria
 1. Variation 1 - Largo
 2. Variation 2
 3. Variation 3
@@ -1926,7 +1926,7 @@ Extrait de: Klavierbuchlein fur Wilhelm Friedeman Bach"
 8. Variation 8 - Allegro
 9. Variation 9
 10. Variation 10",Keyboard,
-990,BWV 990,"Sarabande, partita",,C major,"1. ...
+990,BWV 990,"Sarabande, partita",Dance,C major,"1. ...
 2. ...
 3. ...
 4. ...
@@ -2275,7 +2275,7 @@ Repris de la Sinfonia de BWV 49","Harpsichord, 2 Violins, Viola, Basso Continuo"
 1065,BWV 1065,Concerto for 4 Harpsichords in A minor,Concerto,A minor,"1. Allegro
 2. Largo
 3. Allegro","4 Harpsichords, 2 Violins, Viola, Basso Continuo","based on concerto b-Moll, Op 3/10 by Vivaldi"
-1066,BWV 1066,Ouverture-Suite in C major,Ouverture-Suite,C major,"1. Ouverture
+1066,BWV 1066,Ouverture-Suite in C major,Overture-Suite,C major,"1. Ouverture
 2. Courante
 3. Gavotte I - alternativement
 4. Gavotte II
@@ -2286,7 +2286,7 @@ Repris de la Sinfonia de BWV 49","Harpsichord, 2 Violins, Viola, Basso Continuo"
 9. Bourrée II (do mineur)
 10. Passepied I
 11. Passepied II","2 Oboes, Bassoon, 2 Violins, Viola, Basso Continuo",
-1067,BWV 1067,Ouverture-Suite in B minor,Ouverture-Suite,B minor,"1. Ouverture
+1067,BWV 1067,Ouverture-Suite in B minor,Overture-Suite,B minor,"1. Ouverture
 2. Lentement
 3. Rondeau
 4. Sarabande
@@ -2296,13 +2296,13 @@ Repris de la Sinfonia de BWV 49","Harpsichord, 2 Violins, Viola, Basso Continuo"
 8. Double
 9. Menuet
 10. Badinerie","Transverse Flute, 2 Violins, Viola, Basso Continuo",
-1068,BWV 1068,Ouverture-Suite in D major,Ouverture-Suite,D major,"1. Ouverture
+1068,BWV 1068,Ouverture-Suite in D major,Overture-Suite,D major,"1. Ouverture
 2. Air
 3. Gavotte I
 4. Gavotte II
 5. Bourrée
 6. Gigue","3 Trumpets, timpani, 2 Oboes, 2 Violins, Viola, Basso Continuo",
-1069,BWV 1069,Ouverture-Suite in D major,Ouverture-Suite,D major,"1. Ouverture
+1069,BWV 1069,Ouverture-Suite in D major,Overture-Suite,D major,"1. Ouverture
 Repris du Choeur # 1 de BWV 110
 2. Bourrée I
 3. Bourrée II (si mineur)
@@ -2310,7 +2310,7 @@ Repris du Choeur # 1 de BWV 110
 5. Menuet I - alternativement
 6. Menuet II (2 Violins, Viola), Basso Continuo)
 7. Réjouissance","3 Trumpets, timpani, 3 Oboes, Bassoon, 2 Violins, Viola, Basso Continuo",
-1070,BWV 1070,Ouverture-Suite in G minor,Ouverture-Suite,G minor,"1. Larghetto...Un poco Allegro
+1070,BWV 1070,Ouverture-Suite in G minor,Overture-Suite,G minor,"1. Larghetto...Un poco Allegro
 2. Torneo
 3. Aria. Adagio (mi bémol majeur)
 4. Menuetto alternativo
@@ -2351,7 +2351,7 @@ Repris du Trio II de BWV 1046",,
 8c. Andante (mi bémol majeur)
 8d. Allegro
 9. Canone perpetuo, pour flûte, Violin, Basso Continuo",,
-1080,BWV 1080,L'Art de la fugue,,D major,"1. Contrapunctus # 1, pour clavecin
+1080,BWV 1080,L'Art de la fugue,Fugue,D major,"1. Contrapunctus # 1, pour clavecin
 2. Contrapunctus # 2, pour clavecin
 3. Contrapunctus # 3, pour clavecin
 4. Contrapunctus # 4, pour clavecin
@@ -2393,7 +2393,7 @@ Repris du Trio II de BWV 1046",,
 1084,BWV 1084,"O hilf, Christe, Gottes Sohn",Choralvorspiel,G minor,,SATB,
 1085,BWV 1085,"O Lamm Gottes, unschuldig",Choralvorspiel,F major,,Organ,
 1086,BWV 1086,Canon in C major,Canon,C major,,"V1, V2",
-1087,BWV 1087,14 Canons sur les 8 premières notes fondamentales de l'Air des Variations Goldberg,,G major,"1. Canon simplex
+1087,BWV 1087,14 Canons sur les 8 premières notes fondamentales de l'Air des Variations Goldberg,Canon,G major,"1. Canon simplex
 2. All' roverscio
 3. Beede vorigen Canones zugleich, motu recto e contrario
 4. Moru contrario e recto

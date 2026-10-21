@@ -1,6 +1,6 @@
 SORT,MWV,Opus,Date,Title,Genre,Key,Work structure,Instrumentation,Note
 1001 ,MWV A1,,,Gloria,,,,,
-1002 ,MWV A2,,,Magnificat,,,,,
+1002 ,MWV A2,,,Magnificat,Magnificat,,,,
 1003 ,MWV A3,,,Kyrie,,,,,
 1004 ,MWV A4,op. 111,1827,Tu es Petrus,Antiphon,A major,,"SSATB Choir, 2 Flutes, 2 Oboes, 2 Horns, 2 Trumpets, 3 Trombones, Timpani, 2 Violins, Viola, Cello, Double Bass",
 1005 ,MWV A5,,,"Choral „Christe, du Lamm Gottes“",,,,,
@@ -279,7 +279,7 @@ Choral (la mineur)",,"[non terminé - récitatifs, chœurs seulement]"
 2012 ,MWV B12,,,Kyrie,,,,,
 2013 ,MWV B13,,,"Choral „Jesus, meine Zuversicht“",,,,,
 2014 ,MWV B14,,,Choral „Allein Gott in der Höh sei Ehr“,,,,,
-2015 ,MWV B15,,,Te Deum,,,,,
+2015 ,MWV B15,,,Te Deum,Te Deum,,,,
 2016 ,MWV B16,,,"Choral „Was mein Gott will, das gscheh allzeit“",,,,,
 2017 ,MWV B17,,,„Salvum fac populum tuum“,,,,,
 2018 ,MWV B18,,,Antiphona et Responsorium „Hora est“,Antiphon,,,,
@@ -410,7 +410,7 @@ Grave","4 Solistes/Choir, a cappella",
 3003 ,MWV C3,,,Ave maris stella,,,,,
 3004 ,MWV C4,,,„The Lord God Almighty“,,,,,
 4001 ,MWV D1,,,Festmusik („Dürer-Festmusik“),,,,,
-4002 ,MWV D2,,,Begrüßung („Humboldt-Kantate“),,,,,
+4002 ,MWV D2,,,Begrüßung („Humboldt-Kantate“),Cantata,,,,
 4003 ,MWV D3,op. 60,1831/1843,Die erste Walpurgisnacht,Ballade,,"0. Ouverture, en la mineur, pour Orchestra
 
 1. Es lacht der Mai!
@@ -440,12 +440,12 @@ Allegro molto
 chœur, en la mineur
 Andante maestoso","Choir, Orchestra","Texte: Johann Wolfgang von Goethe
 [2 versions: 1831, 1843]"
-4004 ,MWV D4,WoO 9,,Festgesang,,,,,
+4004 ,MWV D4,WoO 9,,Festgesang,Lied,,,,
 4005 ,MWV D5,,,Bei Enthüllung der Statue Friedrich Augusts von Sachsen „Gott segne Sachsenland“,,,,,
 4006 ,MWV D6,op. 68,1846,"An die Kunstler: Der Menschheit Wurde, festgesang",Lied,B-flat major,Andante maestoso,"T, T, B, B, TTBB Male Choir, 4 Trumpets, 4 Horns, 4 Trombones, Ophicleide, Tuba",Texte: Schiller
 4041 ,MWV D41,,,Chorale,,D major,,Organ,
 5001 ,MWV E1,,,Kantate „In rührend feierlichen Tönen“ („Hochzeitskantate“),Cantata,,,,
-5002 ,MWV E2,,,Festgesang „Möge das Siegeszeichen“,,,,,
+5002 ,MWV E2,,,Festgesang „Möge das Siegeszeichen“,Lied,,,,
 6001 ,MWV F1,,,„Wenn der Abendwind durch die Wipfel zieht“,,,,,
 6002 ,MWV F2,,,„Lasset heut am edlen Ort“,,,,,
 6003 ,MWV F3,,,„The Sun is dancing on the Streams“,,,,,
@@ -926,7 +926,7 @@ Andante con moto / Allegro vivace / Allegro maestoso (ré majeur)","2 Flutes, 2 
 3. Adagio (la majeur)
 4. Allegro vivacissimo (la mineur) / Allegro maesto assai (la majeur)","2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 4 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass",
 14019 ,MWV N19,,,Symphony in C major,Symphony,C major,,,
-15001 ,MWV O1,,,Recitativo. Largo,,D minor,,Piano,
+15001 ,MWV O1,,,Recitativo. Largo,Piece,D minor,,Piano,
 15002 ,MWV O2,,,Piano Concerto in A minor,Concerto,A minor,,"Piano, Strings",
 15003 ,MWV O3,,,Violin Concerto in D minor,Concerto,D minor,,"Violin, Strings",
 15004 ,MWV O4,,,Concerto in D minor,Concerto,D minor,,"Violin, Piano, Strings",
@@ -936,12 +936,12 @@ Andante con moto / Allegro vivace / Allegro maestoso (ré majeur)","2 Flutes, 2 
 2. Andante (mi majeur)
 3. Presto (mi mineur) / Molto Allegro vivace (sol majeur)","Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass",Piano Concerto No. 1
 15008 ,MWV O8,op. 22,1825-1826,Capriccio brillant in B minor,Caprice,B minor,Andante / Allegro con fuoco,"Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass",
-15009 ,MWV O9,WoO 25,,"Fantasie und Variationen über Webers ""Preciosa"" [first two variations,  finale]",,C minor,,"2 Pianos, Orchestra",collaborative work with Ignaz Moscheles
+15009 ,MWV O9,WoO 25,,"Fantasie und Variationen über Webers ""Preciosa"" [first two variations,  finale]",Variations,C minor,,"2 Pianos, Orchestra",collaborative work with Ignaz Moscheles
 15010 ,MWV O10,op. 29,1834,Rondo brillant,,E-flat major,Presto,"Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass",
 15011 ,MWV O11,op. 40,1837,Piano Concerto in D minor,Concerto,D minor,"1. Allegro appasionato (ré mineur)
 2. Adagio. Molto sostenuto (si bémol majeur)
 3. Finale. Presto scherzando (ré majeur)","Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass",Piano Concerto No. 2
-15012 ,MWV O12,op. 43,1838,"Sérénade, Allegro giocoso",,B minor,"1. Sérénade. Andante (si mineur)
+15012 ,MWV O12,op. 43,1838,Sérénade - Allegro giocoso,,B minor,"1. Sérénade. Andante (si mineur)
 2. Allegro giocoso (si mineur)","Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass",
 15013 ,MWV O13,,,Piano Concerto in E minor,Concerto,E minor,,"Piano, Orchestra",incomplete
 15014 ,MWV O14,op. 64,1844,Violin Concerto in E minor,Concerto,E minor,"1. Allegro molto appassionato (mi mineur)
@@ -957,7 +957,7 @@ after 2 poems by Johann Wolfgang von Goethe"
 16007 ,MWV P7,op. 26,1830-1832,"Die Hebriden ""Fingals Hohle""",Overture,B minor,Allegro moderato,"2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass","Ouverture No. 2
 [1st version: 1830; 2nd version: 1832 - based on ""Die einsame Insel"" (1829)]"
 16008 ,MWV P8,,,Kindersinfonie,Symphony,,,,
-16009 ,MWV P9,,,Militärstück,,,,,
+16009 ,MWV P9,,,Militärstück,Piece,,,,
 16010 ,MWV P10,,,Tusch,,,,,
 16011 ,MWV P11,,,Prozessionsmarsch,March,,,,
 16012 ,MWV P12,op. 32,1833,Märchen von der schönen Melusine,Overture,F major,Allegro con moto,"2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 3 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass","Ouverture No. 4
@@ -969,16 +969,16 @@ after Grillparzer"
 16017 ,MWV P17,,,,March,E-flat major,,,
 16018 ,MWV P18,,,,March,E-flat major,,,
 16019 ,MWV P19,,,Prozessionsmarsch,March,,,,
-17001 ,MWV Q1,,,Fragment A-Dur für Violine und Klavier,,A major,,,
+17001 ,MWV Q1,,,Fragment A-Dur für Violine und Klavier,Piece,A major,,,
 17002 ,MWV Q2,,,"Sonate F-Dur für Violine und Klavier, Fragment",Sonata,F major,,,
 17003 ,MWV Q3,,,"Trio c-Moll für Klavier, Violine und Viola",Trio,C minor,,,
-17004 ,MWV Q4,,,Andante d-Moll für Violine und Klavier,,D minor,,,
+17004 ,MWV Q4,,,Andante d-Moll für Violine und Klavier,Piece,D minor,,,
 17005 ,MWV Q5,,,Fuge d-Moll für Violine und Klavier,Fugue,D minor,,,
-17006 ,MWV Q6,,,Fragment C-Dur für Violine und Klavier,,C major,,,
+17006 ,MWV Q6,,,Fragment C-Dur für Violine und Klavier,Piece,C major,,,
 17007 ,MWV Q7,,,Sonate F-Dur für Violine und Klavier,Sonata,F major,,,
-17008 ,MWV Q8,,,Menuett G-Dur für Violine und Klavier,,G major,,,
+17008 ,MWV Q8,,,Menuett G-Dur für Violine und Klavier,Minuet,G major,,,
 17009 ,MWV Q9,,,"Sonate d-Moll für Violine und Klavier, Fragment",Sonata,D minor,,,
-17010 ,MWV Q10,,,"Quartett d-Moll für Klavier, Violine, Viola und Violoncello",,D minor,,,
+17010 ,MWV Q10,,,"Quartett d-Moll für Klavier, Violine, Viola und Violoncello",Quartet,D minor,,,
 17011 ,MWV Q11,op. 1,1822,Quartet in C minor,Quartet,C minor,"1. Allegro vivace (do mineur)
 2. Adagio (la bémol majeur)
 3. Scherzo. Presto (do mineur)
@@ -1000,7 +1000,7 @@ after Grillparzer"
 2. Andante (mi majeur)
 3. Allegro molto (fa dièse mineur)
 4. Allegro vivace (si mineur)","Piano, Violin, Viola, Cello",Piano Quartet No. 3
-17019 ,MWV Q19,op. 17,1829,Variations concertantes,,D major,"0. Tema: Andante con moto
+17019 ,MWV Q19,op. 17,1829,Variations concertantes,Variations,D major,"0. Tema: Andante con moto
 1. ...
 2. ...
 3. Piu vivace
@@ -1010,10 +1010,10 @@ after Grillparzer"
 7. Presto ed agitato
 8. Tempo I","Piano, Cello",
 17020 ,MWV Q20,,,The Evening Bell,,B-flat major,,"Harp, Piano",
-17023 ,MWV Q23,op. 113,1833,Concertstuck # 1,,F minor,"1. Allegro con fuoco (fa mineur)
+17023 ,MWV Q23,op. 113,1833,Concertstuck # 1,Piece,F minor,"1. Allegro con fuoco (fa mineur)
 2. Andante (fa mineur)
 3. Presto (fa mineur)","Clarinet, Basset Horn, Piano",
-17024 ,MWV Q24,op. 114,1833,Concertstuck # 2,,D minor,"1. Presto (ré mineur)
+17024 ,MWV Q24,op. 114,1833,Concertstuck # 2,Piece,D minor,"1. Presto (ré mineur)
 2. Andante (ré mineur)
 3. Allegro grazioso (ré mineur)","Clarinet, Basset Horn, Piano",
 17026 ,MWV Q26,,,Violin Sonata in F major,Sonata,F major,,"Violin, Piano",
@@ -1051,7 +1051,7 @@ after Grillparzer"
 18016 ,MWV R16,,,"Fuge F-Dur für zwei Violinen, Viola und Violoncello, Fragment",Fugue,F major,,,
 18017 ,MWV R17,,,"Fuge C-Dur für zwei Violinen, Viola und Violoncello",Fugue,C major,,,
 18018 ,MWV R18,,,"Quartett Es-Dur für zwei Violinen, Viola und Violoncello",Quartet,E-flat major,,,
-18019 ,MWV R19,,,Duo d-Moll für zwei Violinen,,D minor,,,
+18019 ,MWV R19,,,Duo d-Moll für zwei Violinen,Duet,D minor,,,
 18020 ,MWV R20,op. 20,1825,,Octet,E-flat major,"1. Allegro moderato ma con fuoco (mi bémol majeur)
 2. Andante (do mineur)
 3. Scherzo. Allegro leggierissimo (sol mineur)
@@ -1079,7 +1079,7 @@ after Grillparzer"
 2. Scherzo. Assai leggiero vivace (do mineur)
 3. Adagio non troppo (la bémol majeur)
 4. Molto Allegro con fuoco (mi bémol majeur)","2 Violins, Viola, Cello",String Quartet No. 5
-18029 ,MWV R29,,,Andante B-Dur für Violine und Violoncello,,B-flat major,,,
+18029 ,MWV R29,,,Andante B-Dur für Violine und Violoncello,Piece,B-flat major,,,
 18030 ,MWV R30,op. 44/1,1838,Quartet in D major,Quartet,D major,"1. Molto Allegro vivace (ré majeur)
 2. Menuetto. Un poco Allegretto (ré majeur)
 3. Andante espressivo ma con moto(si mineur)
@@ -1109,21 +1109,21 @@ after Grillparzer"
 6. ...
 7. ...
 8. Allegro molto agitato / Andante / Allegro assai vivace",Piano Four Hands,[based on op. 83]
-20003 ,MWV T3,,,"Andante g-Moll, Fragment",,G minor,,,
-20004 ,MWV T4,op. 92,1841,Allegro brillant,,A major,Allegro assai vivace,Piano Four Hands,
-21006 ,MWV U6,,,Andante,,F major,,Piano,
+20003 ,MWV T3,,,"Andante g-Moll, Fragment",Piece,G minor,,,
+20004 ,MWV T4,op. 92,1841,Allegro brillant,Piece,A major,Allegro assai vivace,Piano Four Hands,
+21006 ,MWV U6,,,Andante,Piece,F major,,Piano,
 21008 ,MWV U8,,,Piano Sonata in A minor,Sonata,A minor,,Piano,
 21012 ,MWV U12,,,Pièce,Piece,E minor,,Piano,
-21013 ,MWV U13,,,Largo-Allegro,,C minor,,Piano,
-21016 ,MWV U16,,,Presto,,C minor,,Piano,
-21017 ,MWV U17,,,Presto,,C minor,,Piano,
+21013 ,MWV U13,,,Largo-Allegro,Piece,C minor,,Piano,
+21016 ,MWV U16,,,Presto,Piece,C minor,,Piano,
+21017 ,MWV U17,,,Presto,Piece,C minor,,Piano,
 21019 ,MWV U19,,,Piano Sonata in E minor,Sonata,E minor,,Piano,
-21028 ,MWV U28,,,Allegro,,A minor,,Piano,
+21028 ,MWV U28,,,Allegro,Piece,A minor,,Piano,
 21029 ,MWV U29,,,Etude in C major,Etude,C major,,Piano,
 21030 ,MWV U30,op. 105,1821,Violin Sonata in G minor,Sonata,G minor,"1. Allegro (sol mineur)
 2. Adagio cantabile e lento (do mineur)
 3. Presto (sol mineur)",Piano,Piano Sonata No. 2
-21031 ,MWV U31,,,Largo-Allegro molto,,c/C,,Piano,
+21031 ,MWV U31,,,Largo-Allegro molto,Piece,c/C,,Piano,
 21041 ,MWV U41,,,Fantaisia in C minor,Fantaisia,C minor,,Piano,
 21044 ,MWV U44,op. 7/2,1827,Mit heftiger Bewegung,Piece,B minor,Allegro vivace,Piano,
 21050 ,MWV U50,op. 5,1825,Cappricio in F-sharp minor,Caprice,F-sharp minor,Prestissimo,Piano,
@@ -1137,7 +1137,7 @@ after Grillparzer"
 21057 ,MWV U57,,,Fugue in E-flat major,Fugue,E-flat major,,String Quartet,
 21058 ,MWV U58,op. 119,,Perpetuum mobile,,C major,Prestissimo,Piano,
 21059 ,MWV U59,op. 7/3,1827,Kraftig und feurig,Piece,D major,Allegro vivace,Piano,
-21059 ,MWV U49,,,Andante alla marcia,,B major,,Organ,
+21059 ,MWV U49,,,Andante alla marcia,Piece,B major,,Organ,
 21060 ,MWV U60,op. 7/5,1827,Ernst und mit steigender Lebhaftigkeit,Piece,A major,Fuga,Piano,
 21061 ,MWV U61,op. 7/6,1827,Sensuchtig,Piece,E minor,Andante,Piano,
 21062 ,MWV U62,op. 7/7,1827,Leicht und luftig,Piece,E major,Presto,Piano,
@@ -1149,7 +1149,7 @@ after Grillparzer"
 21066 ,MWV U66,op. 35/1b,,Fugue in E minor,Fugue,E minor,Andante espressivo,,
 21067 ,MWV U67,op. 14,1824,Rondo capriccioso in E major,Caprice,E major,"1. Andante (mi majeur)
 2. Presto (mi mineur)",Piano,
-21069 ,MWV U69,WoO 2,1829,Scherzo in B minor,,B minor,Prestissimo,Piano,"[Publié dans ""Berliner allgemeine musikalische Zeitung""]"
+21069 ,MWV U69,WoO 2,1829,Scherzo in B minor,Scherzo,B minor,Prestissimo,Piano,"[Publié dans ""Berliner allgemeine musikalische Zeitung""]"
 21070 ,MWV U70,op. 16/1,1829,Fantaisia in A minor,Fantaisia,A minor,"1. Andante con moto (la mineur)
 2. Allegro vivace (la majeur)",Piano,
 21071 ,MWV U71,op. 16/2,1829,Caprice in E minor,Caprice,E minor,Scherzo. Presto,Piano,
@@ -1164,15 +1164,15 @@ after Grillparzer"
 21078 ,MWV U78,op. 19b/6,1830,"Andante sostenuto ""Venerianisches Gondellied""",Lied,G minor,,Piano,
 21080 ,MWV U80,op. 19b/2,1829,Andante espressivo,Lied,A minor,,Piano,
 21086 ,MWV U86,op. 19b/1,1829,Andante con moto,Lied,E major,,Piano,
-21087 ,MWV U87,,,Allegro,,B major,,Piano,
+21087 ,MWV U87,,,Allegro,Piece,B major,,Piano,
 21089 ,MWV U89,op. 19b/3,1829,"Molto Allegro e vivace ""Jagerlied""",Lied,A major,,Piano,
 21090 ,MWV U90,op. 19b/5,1830,Poco agitato,Lied,F-sharp minor,,Piano,
 21091 ,MWV U91,op. 35/3b,,Fugue in B minor,Fugue,B minor,Allegro con brio,,
 21092 ,MWV U92,op. 28,1833,"Fantaisie in F-sharp minor ""Sonate écossaise""",Fantaisia,F-sharp minor,"1. Con moto agitato / Andante / Con moto agitato
 2. Allegro con moto (la majeur / ré majeur)
 3. Presto (fa dièse mineur)",Piano,
-21093 ,MWV U93,WoO 19/1,,Andante cantabile,,B-flat major,,,
-21094 ,MWV U94,WoO 19/2,,Presto agitato,,G minor,,,
+21093 ,MWV U93,WoO 19/1,,Andante cantabile,Piece,B-flat major,,,
+21094 ,MWV U94,WoO 19/2,,Presto agitato,Piece,G minor,,,
 21095 ,MWV U95,op. 33/3,1833,Caprice in B-flat minor,Caprice,B-flat minor,Adagio / Presto con fuoco,Piano,
 21096 ,MWV U97,op. 30/5,1833,Andante grazioso,Lied,D major,,Piano,
 21097 ,MWV U98,op. 30/4,1834,Agitato e con fuoco,Lied,B minor,,Piano,
@@ -1188,9 +1188,9 @@ after Grillparzer"
 21108 ,MWV U108,op. 35/4b,,Fugue in A-flat major,Fugue,A-flat major,Con moto ma sostenuto,,
 21109 ,MWV U109,op. 53/2,1839,Allegro non troppo,Lied,E-flat major,,Piano,
 21110 ,MWV U110,op. 30/6,1833,"Allegretto tranquillo ""Venetianisches Gondellied""",Lied,F-sharp minor,,Piano,
-21111 ,MWV U111,op. 85/3,1835,Presto,,E-flat major,,Piano,
+21111 ,MWV U111,op. 85/3,1835,Presto,Piece,E-flat major,,Piano,
 21112 ,MWV U112,op. 33/2,1835,Caprice in E major,Caprice,E major,Allegro grazioso,Piano,
-21113 ,MWV U113,WoO 3,1835-1836,Scherzo a capriccio,,F-sharp minor,Presto scherzando,Piano,"[Publié dans ""L'album des pianistes""]"
+21113 ,MWV U113,WoO 3,1835-1836,Scherzo a capriccio,Scherzo,F-sharp minor,Presto scherzando,Piano,"[Publié dans ""L'album des pianistes""]"
 21114 ,MWV U114,op. 53/4,1841,Adagio,Lied,F major,,Piano,
 21115 ,MWV U115,op. 38/2,1837,Allegro non troppo,Lied,C minor,,Piano,
 21116 ,MWV U116,op. 35/1a,1837,Prelude in E minor,Prelude,E minor,Allegro con fuoco / Andante espressivo,Piano,
@@ -1213,7 +1213,7 @@ after Grillparzer"
 21137 ,MWV U137,op. 38/5,1837,Agitato,Lied,A minor,,Piano,
 21139 ,MWV U139,op. 118,1837,Capriccio in E major,Caprice,E major,"1. Andante (mi majeur)
 2. Allegro (mi mineur)",Piano,
-21141 ,MWV U141,WoO 6,,Andante cantabile e Presto agitato,,,,,
+21141 ,MWV U141,WoO 6,,Andante cantabile e Presto agitato,Piece,,,,
 21142 ,MWV U142,op. 104b/3,1838,Etude in A minor,Etude,A minor,Allegro vivace,Piano,
 21143 ,MWV U143,op. 53/1,1839,Andante con moto,Lied,A-flat major,,Piano,
 21144 ,MWV U144,op. 53/3,1839,Presto agitato,Lied,G minor,,Piano,
@@ -1225,14 +1225,14 @@ after Grillparzer"
 21153 ,MWV U153,op. 53/5,1841,"Allegro con fuoco ""Volkslied""",Lied,A minor,,Piano,
 21154 ,MWV U154,op. 53/6,1841,Molto Allegro vivace,Lied,A major,,Piano,
 21155 ,MWV U155,op. 85/6,1841,"Allegretto con moto,",Lied,B-flat major,,Piano,
-21156 ,MWV U156,op. 54,1841,17 Variations sérieuses,,,,Piano,
+21156 ,MWV U156,op. 54,1841,17 Variations sérieuses,Variations,,,Piano,
 21157 ,MWV U157,WoO 13,,Prelude and Fugue,,,,,
-21158 ,MWV U158,op. 82,1841,Variations,,E-flat major,"0. Tema: Andante assai espressivo
+21158 ,MWV U158,op. 82,1841,Variations,Variations,E-flat major,"0. Tema: Andante assai espressivo
 1. Variation I
 2. Variation II
 3. Variation III: Piu vivace
 4. Variation IV: Piu moderato",Piano,
-21159 ,MWV U159,op. 83,1841,Variations,,B-flat major,"0. Tema: Andante tranquillo
+21159 ,MWV U159,op. 83,1841,Variations,Variations,B-flat major,"0. Tema: Andante tranquillo
 1. Variation I: Cantabile
 2. Variation II
 3. Variation III: Allegro
@@ -1247,27 +1247,27 @@ after Grillparzer"
 21169 ,MWV U169,op. 72/4,1842,Andante con moto,Piece,D major,,Piano,
 21170 ,MWV U170,op. 72/2,1842,Andante sostenuto,Piece,E-flat major,,Piano,
 21171 ,MWV U171,op. 72/1,1842,Allegro non troppo,Piece,G major,,Piano,
-21172 ,MWV U172,op. 102/6,1845,"Allegro vivace ""Kinderstuck""",,A major,,Piano,
-21175 ,MWV U175,op. 62/4,1842,Allegro con anima,,G major,,Piano,
-21177 ,MWV U177,op. 62/3,1843,"Andante maestoso ""Trauermarsch""",,E minor,,Piano,
-21180 ,MWV U180,op. 67/1,1843,Andante,,E-flat major,,Piano,
-21181 ,MWV U181,op. 62/2,1843,Allegro con fuoco,,B-flat major,,Piano,
-21182 ,MWV U182,op. 67/4,1845,"Presto ""Spinnerlied: The Bee's Wedding""",,C major,,Piano,
-21184 ,MWV U184,op. 67/5,1844,Moderato,,B minor,,Piano,
-21185 ,MWV U185,op. 62/1,1844,Andante espressivo,,G major,,Piano,
+21172 ,MWV U172,op. 102/6,1845,"Allegro vivace ""Kinderstuck""",Piece,A major,,Piano,
+21175 ,MWV U175,op. 62/4,1842,Allegro con anima,Piece,G major,,Piano,
+21177 ,MWV U177,op. 62/3,1843,"Andante maestoso ""Trauermarsch""",Piece,E minor,,Piano,
+21180 ,MWV U180,op. 67/1,1843,Andante,Piece,E-flat major,,Piano,
+21181 ,MWV U181,op. 62/2,1843,Allegro con fuoco,Piece,B-flat major,,Piano,
+21182 ,MWV U182,op. 67/4,1845,"Presto ""Spinnerlied: The Bee's Wedding""",Piece,C major,,Piano,
+21184 ,MWV U184,op. 67/5,1844,Moderato,Piece,B minor,,Piano,
+21185 ,MWV U185,op. 62/1,1844,Andante espressivo,Piece,G major,,Piano,
 21187 ,MWV U187,,,Reiterlied: Immer fort,Lied,,,,
-21188 ,MWV U188,op. 67/6,1844,Allegro non troppo,,E major,,Piano,
-21190 ,MWV U190,op. 85/4,1835,Andante sostenuto,,D major,,Piano,
-21191 ,MWV U191,op. 85/5,1835,Allegretto,,A major,,Piano,
-21192 ,MWV U192,op. 102/2,1845,Adagio,,D major,,Piano,
-21193 ,MWV U193,,,Andante pastorale C-Dur,,C major,,,
-21194 ,MWV U194,op. 102/5,1845,"Allegro vivace ""Kinderstuck""",,A major,,Piano,
-21195 ,MWV U195,op. 102/3,1845,Presto,,C major,,Piano,
+21188 ,MWV U188,op. 67/6,1844,Allegro non troppo,Piece,E major,,Piano,
+21190 ,MWV U190,op. 85/4,1835,Andante sostenuto,Piece,D major,,Piano,
+21191 ,MWV U191,op. 85/5,1835,Allegretto,Piece,A major,,Piano,
+21192 ,MWV U192,op. 102/2,1845,Adagio,Piece,D major,,Piano,
+21193 ,MWV U193,,,Andante pastorale C-Dur,Piece,C major,,,
+21194 ,MWV U194,op. 102/5,1845,"Allegro vivace ""Kinderstuck""",Piece,A major,,Piano,
+21195 ,MWV U195,op. 102/3,1845,Presto,Piece,C major,,Piano,
 21196 ,MWV U196,,,Wie die Zeit läuft! g-Moll,,G minor,,,
 21197 ,MWV U197,,,Auf fröhliches Wiedersehn A-Dur,,,,,
-21198 ,MWV U198,,,Klavierstück für Fanny Russell,,,,,
-21199 ,MWV U199,,,Fuge a-Moll,,A minor,,,
-22001 ,MWV V1,,,2 Fugues,,,,,
+21198 ,MWV U198,,,Klavierstück für Fanny Russell,Piece,,,,
+21199 ,MWV U199,,,Fuge a-Moll,Fugue,A minor,,,
+22001 ,MWV V1,,,2 Fugues,Fugue,,,,
 23008 ,MWV W8,,,"Wie gross ist des Allmacht'gen Gute, chorale-prélude, 3 variations",,,,Organ,
 23009 ,MWV W9,,,Fantaisia in G minor,Fantaisia,G minor,,Organ,
 23013 ,MWV W13,op. 37/3b,,Fugue,Fugue,,,,
@@ -1277,7 +1277,7 @@ after Grillparzer"
 23022 ,MWV W22,op. 37/2a,1837,Prelude in G major,Prelude,G major,Andante con moto / …,Organ,
 23023 ,MWV W23,op. 37/3a,1837,Prelude in D minor,Prelude,D minor,Allegro / …,Organ,
 23026 ,MWV W26,,,Fugue in F minor,Fugue,F minor,,Organ,
-23033 ,MWV W33,,,Allegro,,D minor,,Piano,
+23033 ,MWV W33,,,Allegro,Piece,D minor,,Piano,
 23039 ,MWV W39,,,Chorale,,A-flat major,,Organ,
 23056 ,MWV W56,op. 65/1,1844,Organ Sonata # 1,Sonata,f/F,"1. Allegro moderato e serioso (fa mineur)
 2. Adagio (fa mineur)
@@ -1346,16 +1346,21 @@ after Grillparzer"
 26006 ,MWV Z6,,,Notenzitate in Briefen,,,,,
 26007 ,MWV Z7,,,Sonstiges,,,,,
 26008 ,MWV Z8,,,Nicht näher bestimmbare Notate,,,,,
-,,op. 100,1839-1844,4 Lieder,Lied,,,4 Voices a cappella,
-,,op. 102,1842-1845,Lieder ohne Worte,Lied,,,Piano,
-,,op. 104,1834-1838,"3 Préludes, 3 Études",,,,Piano,
-,,op. 104a,1836,3 Préludes,Prelude,,,Piano,
-,,op. 104b,1834-1838,3 Études,Etude,,,Piano,
-,,op. 112,1835,2 Chants sacrés,Lied,,,"V, Piano",
-,,op. 112/1,1835,"Arioso “Doch der Herr, er leitet die Irrenden recht”",Aria,G major,Allegretto,"T, Piano",
-,,op. 112/2,1835,Der du die Menschen lassest sterben,Aria,F major,,"S, Piano","[destiné à l'oratorio St. Paul (Paulus), Op. 36]"
-,,op. 115,1833,2 Chœurs sacrés,,,,TTBB Choir a cappella,
-,,op. 120,1837-1847,4 Lieder,Lied,,,4 Male Voices a cappella,
+,,op. 7,1827,7 Pièces caractéristiques,Piece,,,Piano,
+,,op. 8,1824-1828,12 Gesange,Lied,,,"V, Piano",
+,,op. 8/2,1828,Das Heimweh: Was ist's das mir den Athem hemmet,Lied,D minor,Vivace ed agitato,"V, Piano","Texte: Friedericke Robert
+[Composition de Fanny Mendelssohn]"
+,,op. 8/3,1828,Italien: Schoner und schoner schmuckt sich,Lied,G major,Allegro vivace,"V, Piano","Texte: F. Grillparzer
+[Composition de Fanny Mendelssohn]"
+,,op. 8/12,1828,Suleika und Hatem: An des lust'gen Brunnens Rand,Lied,E major,Allegretto,"2 Voices, Piano","Texte: Johann Wolfgang von Goethe
+[Composition de Fanny Mendelssohn]"
+,,op. 9,1829-1830,12 Lieder,Lied,,,"V, Piano",
+,,op. 9/7,1830,Sehnsucht: Fern und ferner schallt der Reigen,Lied,D major,Andante,"V, Piano","Texte: J.G. Droysen
+[Composition de Fanny Mendelssohn]"
+,,op. 9/10,1830,Verlust: Und wussten's die Blumen,Lied,D minor,Allegro con fuoco,"V, Piano","Texte: Heinrich Heine
+[Composition de Fanny Mendelssohn]"
+,,op. 9/12,1830,Die Nonne: Im stillen Klostergarten,Lied,A minor,Andante con moto,"V, Piano","Texte: Ludwig Uhland
+[Composition de Fanny Mendelssohn]"
 ,,op. 16,1829,3 Fantaisies or caprices,,,,Piano,
 ,,op. 19a,1830-1834,6 Gesange,Lied,,,"V, Piano",
 ,,op. 19b,1829-1830,Lieder ohne Worte,Lied,,,Piano,Book I
@@ -1380,7 +1385,6 @@ after Grillparzer"
 ,,op. 65,1844-1845,6 Sonatas,Sonata,,,Organ,
 ,,op. 67,1843-1845,Lieder ohne Worte,Lied,,,Piano,Book VI
 ,,op. 69,1847,3 Motets,Motet,,,V/Choir a cappella,
-,,op. 7,1827,7 Pièces caractéristiques,Piece,,,Piano,
 ,,op. 71,1842-1847,6 Lieder,Lied,,,"V, Piano",
 ,,op. 72,1842,"6 Kinderstucke ""Christmas Pieces""",Piece,,,Piano,
 ,,op. 75,1839-1844,"Wandersmann, 4 lieder",Lied,,,4-Male Choir a cappella,
@@ -1388,56 +1392,52 @@ after Grillparzer"
 ,,op. 77,1836-1847,3 Lieder,Lied,,,"2 Voices, Piano",
 ,,op. 78,1843-1844,3 Psaumes,Psalm,,,V/Choir a cappella,
 ,,op. 79,1843-1846,6 Antiennes,Antiphon,,,SSAATTBB Choir a cappella,
-,,op. 8,1824-1828,12 Gesange,Lied,,,"V, Piano",
-,,op. 8/12,1828,Suleika und Hatem: An des lust'gen Brunnens Rand,Lied,E major,Allegretto,"2 Voices, Piano","Texte: Johann Wolfgang von Goethe
-[Composition de Fanny Mendelssohn]"
-,,op. 8/2,1828,Das Heimweh: Was ist's das mir den Athem hemmet,Lied,D minor,Vivace ed agitato,"V, Piano","Texte: Friedericke Robert
-[Composition de Fanny Mendelssohn]"
-,,op. 8/3,1828,Italien: Schoner und schoner schmuckt sich,Lied,G major,Allegro vivace,"V, Piano","Texte: F. Grillparzer
-[Composition de Fanny Mendelssohn]"
 ,,op. 81,1827-1847,4 Pièces,Piece,,,"2 Violins, Viola, Cello",
 ,,op. 84,1831-1839,3 Lieder,Lied,,,"B, Piano",
 ,,op. 85,1834-1835,Lieder ohne Worte,Lied,,,Piano,Book VII
 ,,op. 86,1826-1847,6 Gesange,Lied,,,"V, Piano",
 ,,op. 88,1839-1844,6 Lieder,Lied,,,4 Voices a cappella,
-,,op. 9,1829-1830,12 Lieder,Lied,,,"V, Piano",
-,,op. 9/10,1830,Verlust: Und wussten's die Blumen,Lied,D minor,Allegro con fuoco,"V, Piano","Texte: Heinrich Heine
-[Composition de Fanny Mendelssohn]"
-,,op. 9/12,1830,Die Nonne: Im stillen Klostergarten,Lied,A minor,Andante con moto,"V, Piano","Texte: Ludwig Uhland
-[Composition de Fanny Mendelssohn]"
-,,op. 9/7,1830,Sehnsucht: Fern und ferner schallt der Reigen,Lied,D major,Andante,"V, Piano","JTexte: J.G. Droysen
-[Composition de Fanny Mendelssohn]"
 ,,op. 99,1841-1845,6 Gesange,Lied,,,"V, Piano",
-,,WoO 11,,3 Volkslieder pour deux voix avec accompagnement de piano,,,,,
+,,op. 100,1839-1844,4 Lieder,Lied,,,4 Voices a cappella,
+,,op. 102,1842-1845,Lieder ohne Worte,Lied,,,Piano,
+,,op. 104,1834-1838,"3 Préludes, 3 Études",,,,Piano,
+,,op. 104a,1836,3 Préludes,Prelude,,,Piano,
+,,op. 104b,1834-1838,3 Études,Etude,,,Piano,
+,,op. 112,1835,2 Chants sacrés,Lied,,,"V, Piano",
+,,op. 112/1,1835,"Arioso “Doch der Herr, er leitet die Irrenden recht”",Aria,G major,Allegretto,"T, Piano",
+,,op. 112/2,1835,Der du die Menschen lassest sterben,Aria,F major,,"S, Piano","[destiné à l'oratorio St. Paul (Paulus), Op. 36]"
+,,op. 115,1833,2 Chœurs sacrés,,,,TTBB Choir a cappella,
+,,op. 120,1837-1847,4 Lieder,Lied,,,4 Male Voices a cappella,
+,,WoO 4,,2 Romances pour voix avec accompagnement de piano,Romance,,,,
+,,WoO 4/1,,Keine von der Erde Schonen: Keine von der Erde Schonen,Romance,,,,
+,,WoO 11,,3 Volkslieder pour deux voix avec accompagnement de piano,Lied,,,,
 ,,WoO 17,,2 Gesange pour voix avec accompagnement de piano,Lied,,,,
 ,,WoO 18,,2 Gesange pour voix avec accompagnement de piano,Lied,,,,
 ,,WoO 19,,2 Musical Sketches,,,,,
 ,,WoO 26,1846,"Ehre sei Gott in der Höhe, Doppelchor für Sopran, Alt, Tenor und Bas",,D major,,,
-,,WoO 4,,2 Romances pour voix avec accompagnement de piano,Lied,,,,
-,,WoO 4/1,,Keine von der Erde Schonen: Keine von der Erde Schonen,,,,,
-,,,,15 Fugues,Fugue,,,String Quartet,
+,,,,Canon à trois parties,Canon,,,,
+,,,,Canon en deux parties,Canon,C minor,,Piano,
+,,,,Canon en deux parties,Canon,B minor,,Piano,
+,,,,Double canon à quatre parties,Canon,,,,
 ,,,,2 Études,Etude,,,Piano,
+,,,,15 Fugues,Fugue,,,String Quartet,
+,,,,3 Fugues,Fugue,,,Piano,
+,,,,Fugue in B major,Fugue,B major,,Organ,
+,,,,4 Gesange pour voix avec accompagnement de piano,Lied,,,,
+,,,,Lieder ohne Worte,Lied,F-sharp minor,,Piano,
+,,,,Lieder ohne Worte,Lied,A major,,Piano,
+,,,,Lieder ohne Worte,Lied,D minor,,Piano,
+,,,,Lieder ohne Worte,Lied,F-sharp minor,,Piano,
 ,,,,2 Petites pièces,Piece,,,Organ,
 ,,,,2 Petites pièces,Piece,,,Piano,
 ,,,,2 Pièces,Piece,,,Organ,
 ,,,,2 Pièces,Piece,,,Piano,
 ,,,,2 Pièces sacrées pour chœurs a cappella,Piece,,,,
-,,,,3 Fugues,Fugue,,,Piano,
-,,,,4 Gesange pour voix avec accompagnement de piano,Lied,,,,
 ,,,,4 Petites pièces,Piece,,,Organ,
 ,,,,5 Petites pièces,Piece,,,Piano,
 ,,,,6 Petites pièces,Piece,,,Organ,
-,,,,Canon à trois parties,Canon,,,,
-,,,,Canon en deux parties,Canon,C minor,,Piano,
-,,,,Canon en deux parties,Canon,B minor,,Piano,
-,,,,Double canon à quatre parties,Canon,,,,
 ,,,,Es kommt aus dem kindlichen Alter der Welt,,,,,
-,,,,Fugue in B major,Fugue,B major,,Organ,
 ,,,,Lass es heut am edlen Ort,,,,,
-,,,,Lento-Vivace,,G minor,,Piano Four Hands,
-,,,,Lieder ohne Worte,Lied,F-sharp minor,,Piano,
-,,,,Lieder ohne Worte,Lied,A major,,Piano,
-,,,,Lieder ohne Worte,Lied,D minor,,Piano,
-,,,,Lieder ohne Worte,Lied,F-sharp minor,,Piano,
-,,,,Presto,,F major,,"Violin, Piano",
-,,,,Presto,,F major,,"Violin, Piano",
+,,,,Lento-Vivace,Piece,G minor,,Piano Four Hands,
+,,,,Presto,Piece,F major,,"Violin, Piano",
+,,,,Presto,Piece,F major,,"Violin, Piano",
