@@ -1,0 +1,1146 @@
+SORT,Catalogue,Title,Genre,Instrumentation,Note
+1,H.1,"Messe [Mass for 4 voices, 2 treble instruments, and B.c.
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Mass,,
+2,H.2,"Messe pour les trépassés à 8 
+Pour solistes, double chœur [flûtes, cordes] et basse continue",Mass,,
+3,H.3,"Messe à 8 voix, 8 violons et flûtes 
+Pour solistes, double chœur, flûtes, cordes et basse continue",Mass,,
+4,H.4,"Messe à quatre chœurs 
+Pour solistes, quatre chœurs, cordes et basse continue",Mass,,
+5,H.5,"Messe pour le Port Royal 
+Pour solistes, chœur à l’unisson et basse continue",Mass,,
+6,H.6,"Messe à 4 voix, 4 violons, 2 flûtes et 2 hautbois pour Mr. Mauroy 
+Pour solistes, chœur, bois, cordes et basse continue",Mass,,
+7,H.7,"Messe des morts à 4 voix 
+Pour solistes, chœur et basse continue",Mass,,
+8,H.8,"Messe pour le samedi de Pâques à 4 voix 
+Pour solistes, chœur et basse continue",Mass,,
+9,H.9,"Messe de minuit à 4 voix, flûtes et violons pour Noël 
+Pour solistes, chœur, flûtes, cordes et basse continue",Mass,,
+10,H.10,"Messe des morts à 4 voix et symphonie 
+Pour solistes, chœur, bois, cordes et basse continue",Mass,,
+11,H.11,"Assumpta est Maria, Missa sex vocibus cum simphonia 
+Pour solistes, chœur, flûtes, cordes et basse continue",Mass,,
+12,H.12,"Prose des morts  
+« Dies iræ » 
+Pour solistes, double chœur, cordes et basse continue",Sequence,,
+13,H.13,"Prose pour le jour de Pâques 
+« Victimæ paschali laudes » 
+Pour trois voix et basse continue",Sequence,,
+15,H.15,"Stabat mater pour des religieuses  
+Pour soliste, chœur à l’unisson et basse continue",Sequence,,
+17,H.17,"Autre [antienne] 
+« Veni sponsa Christi » 
+Pour deux voix, flûte et basse continue",Antiphon,,
+18,H.18,"Salve Regina 
+Pour trois voix et basse continue",Antiphon,,
+19,H.19,"Ave Regina cælorum 
+Pour trois voix et basse continue",Antiphon,,
+20,H.20,"Sub tuum præsidium 
+Pour trois voix et basse continue",Antiphon,,
+21,H.21,"Alma Redemptoris mater 
+Pour deux voix et basse continue",Antiphon,,
+22,H.22,"Ave Regina 
+Pour deux voix et basse continue",Antiphon,,
+23,H.23,"Salve Regina à trois voix pareilles 
+Pour trois voix et basse continue",Antiphon,,
+23.1,H.23a,"Prélude pour Salve Regina à 3 
+Pour deux dessus instrumentaux et basse continue",Antiphon,,
+24,H.24,"Salve Regina à trois chœurs 
+Pour trois chœurs et basse continue",Antiphon,,
+25,H.25,"Antiphona in honorem Beatæ Virginis a redemptione captivorum 
+« Beata es Maria » 
+Pour deux voix, deux dessus instrumentaux et basse continue",Antiphon,,
+26,H.26,"Inviolata integra 
+Pour trois voix et basse continue",Antiphon,,
+27,H.27,"Salve Regina des Jésuites  
+Pour une voix et basse continue",Antiphon,,
+28,H.28,"Antiphona sine organo ad Virginem/ Sub tuum præsidium 
+Pour trois voix",Antiphon,,
+30,H.30,"Regina coeli, for 3 voices and continuo",Antiphon,,
+31,H.31,"Regina cæli, pour 1 vx, 2 fls, bc",Antiphon,,
+32,H.32,"Antienne à la Vierge à 2 dessus 
+« Regina cæli » 
+Pour deux voix et basse continue",Antiphon,,
+33,H.33,"Première antienne pour les vêpres d’un confesseur non pontife 
+« Domine, quinque talenta » 
+Pour trois voix et basse continue",Antiphon,,Antiennes pour les vêpres d'un confesseur non pontife #1
+34,H.34,"Troisième antienne pour les vêpres d’un confesseur non pontife 
+« Fidelus servus et prudens » 
+Pour deux voix, deux violons et basse continue",Antiphon,,Antiennes pour les vêpres d'un confesseur non pontife #2
+35,H.35,"Cinquième antienne pour les vêpres d’un confesseur non pontife 
+« Serve bone »  
+Pour deux voix et basse continue",Antiphon,,Antiennes pour les vêpres d'un confesseur non pontife #3
+36,H.36,"Salut pour la veille des O 
+« O salutaris hostia » 
+Pour trois voix et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #0
+37,H.37,"Premier O 
+« O sapientia »
+Pour trois voix et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #1
+38,H.38,"Second O 
+« O Adonai » 
+Pour trois voix et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #2
+39,H.39,"Troisième O
+« O radix Jesse » 
+Pour trois voix et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #3
+40,H.40,"Quatrième O
+« O clavis David » 
+Pour solistes, chœur, orchestre et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #4
+41,H.41,"Cinquième O 
+« O Oriens »
+Pour solistes, chœur, orchestre et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #5
+42,H.42,"Sixième O 
+« O rex gentium » 
+Pour une voix, deux violons, et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #6
+43,H.43,"Septième O
+« O Emmanuel rex » 
+Pour trois voix et basse continue",Antiphon,,Salut de la veille des O et les 7 O suivant le romain #7
+44,H.44,"Alma redemptoris à quatre voix et deux violons 
+Pour solistes, chœur, deux violons et basse continue",Antiphon,,Antiennes à la Verge pour toute l'année à 4 voix et 2 violons #1
+45,H.45,"Ave regina cælorum à quatre voix et deux dessus de violon 
+Pour solistes, chœur, deux violons et basse continue",Antiphon,,Antiennes à la Verge pour toute l'année à 4 voix et 2 violons #2
+46,H.46,"Regina cæli à quatre voix et 2 dessus de violon 
+Pour solistes, chœur, deux violons et basse continue",Antiphon,,Antiennes à la Verge pour toute l'année à 4 voix et 2 violons #3
+47,H.47,"Salve regina à 4 voix et 2 violons 
+Pour solistes, chœur, deux violons et basse continue",Antiphon,,Antiennes à la Verge pour toute l'année à 4 voix et 2 violons #4
+50,H.50,"Après Dixit Dominus 
+« Assumpta est Maria » 
+Pour une voix, deux violons, et basse continue",Antiphon,,
+51,H.51,"Pour les mêmes vêpres, Antienne après Lætatus sum 
+« In odorem unguentorum » 
+Pour une voix, deux flûtes et basse continue",Antiphon,,
+52,H.52,"Antienne pour les mêmes vêpres après Lauda Jerusalem Dominum 
+« Pulchra es et decora » 
+Pour trois voix et basse continue",Antiphon,,
+53,H.53,"Jesu corona Virginum, Hymne au commun des Vierges à deux dessus et une flûte 
+Pour trois voix et basse continue",Hymn,,
+54,H.54,"Hymne du Saint Esprit à 3 voix pareilles avec symphonie et chœur si l’on veut 
+« Veni creator spiritus » 
+Pour trois voix, deux violons et basse continue",Hymn,,
+55,H.55,"In Sanctum Nicasium Rothomagensem, Archiepiscopum et Martyrem #1",Hymn,,
+56,H.56,"In Sanctum Nicasium Rothomagensem, Archiepiscopum et Martyrem #2",Hymn,,
+57,H.57,"In Sanctum Nicasium Rothomagensem, Archiepiscopum et Martyrem #3",Hymn,,
+58,H.58,"In Sanctum Nicasium Rothomagensem, Archiepiscopum et Martyrem #4",Hymn,,
+59,H.59,"Gaudia Virginis Mariæ 
+Pour trois voix et basse continue",Hymn,,
+60,H.60,"Hymne pour toutes les fêtes de la Vierge 
+« Ave maris stella » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Hymn,,
+61,H.61,"Pour un reposoir/ Pange lingua pour 3 vx, 2 d. inst., bc",,,
+62,H.62,"Pange lingua pour des religieuses Pour le Port Royal 
+Pour soliste, chœur à l’unisson et basse continue",Hymn,,
+63,H. 63,"Ave maris stella 
+Pour deux voix et basse continue",Hymn,,
+64,H. 64,Hymne du St Sacrement ('Pange lingua'),Hymn,,
+65,H. 65,"Ave maris stella  
+Pour solistes, chœur, cordes et basse continue",Hymn,,
+66,H. 66,"Hymne du Saint Esprit/ Veni creator [incomplet] pour 5 vx, ch. à 4, 2 fls, cordes (4), bc",,,
+67,H. 67,"Ave maris stella 
+Pour six voix et basse continue",Hymn,,
+68,H. 68,"Pange lingua à 4 pour le Jeudi Saint 
+Pour quatre voix et basse continue",Hymn,,
+69,H.69,"Veni creator pour un dessus seul au catéchisme 
+Pour une voix et basse continue",Hymn,,
+70,H.70,"Veni creator spiritus pour un dessus seul pour le catéchisme 
+Pour une voix et basse continue",Hymn,,
+71,H.71,Iste Confessor,Hymn,,
+72,H.72,"Magnificat  
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Magnificat,,
+73,H.73,"Magnificat à 3 voix sur une basse obligée 
+Pour trois voix, deux dessus instrumentaux et basse continue",Magnificat,,
+74,H.74,"Magnificat à 8 voix et 8 instruments 
+Pour solistes, double chœur, double orchestre et basse continue",Magnificat,,
+75,H.75,"Magnificat à 3 dessus 
+Pour trois voix et basse continue",Magnificat,,
+76,H.76,Canticum B.V.M.,Magnificat,,
+76.1,H.76a,"Prélude pour le Pr Magnificat à 4 voix sans instruments  
+Pour solistes, chœur et basse continue",Prelude,,
+77,H.77,"Magnificat  
+Pour solistes, chœur, flûtes, cordes et basse continue",Magnificat,,
+78,H.78,"Magnificat 
+Pour solistes, chœur, flûtes, cordes et basse continue",Magnificat,,
+79,H.79,"Troisième Magnificat à 4 voix avec instruments 
+Pour solistes, chœur, flûtes, cordes et basse continue",Magnificat,,
+80,H.80,"Magnificat
+Pour quatre voix et basse continue",Magnificat,,
+81,H.81,"Magnificat pour le Port Royal 
+Pour solistes, chœur et basse continue",Magnificat,,
+82,H.82,"Litanies de la Vierge à 3 voix pareilles pour 3 vx, bc",,,
+83,H.83,"Litanies de la Vierge à 6 voix et deux dessus de violes 
+Pour solistes, chœur, dessus de violes et basse continue",Litany,,
+84,H.84,"Litanies de la Vierge à 3 voix pareilles avec instruments 
+Pour trois voix, deux dessus instrumentaux et basse continue",Litany,,
+85,H.85,"Litanies de la Vierge 
+Pour solistes, chœur, flûtes, cordes et basse continue",Litany,,
+86,H.86,"Litanies de la Vierge à deux dessus et une basse chantante 
+Pour trois voix et basse continue",Litany,,
+87,H.87,"Litanies de la Vierge à 4 voix 
+Pour solistes, chœur et basse continue",Litany,,
+88,H.88,"Litanies de la Vierge à 4 voix 
+Pour solistes, chœur et basse continue",Litany,,
+89,H.89,"Litanies de la Vierge  
+Pour solistes, chœur et basse continue",Litany,,
+90,H.90,"Courtes litanies de la Vierge à 4 voix pour 4 vx, ch.à 4, bc",,,
+91,H.91,"Leçon de ténèbres 
+Pour trois voix, deux flûtes et basse continue",Leçons et répons de ténèbres,,
+92,H.92,"Autre leçon de ténèbres/ Troisième du Mercredi saint 
+Pour deux voix et basse continue",Leçons et répons de ténèbres,,
+93,H.93,"Troisième leçon du Jeudi saint 
+Pour deux voix et basse continue",Leçons et répons de ténèbres,,
+94,H.94,"Autre Jerusalem pour les leçons de ténèbres à 2 voix
+pour la seconde du Jeudi saint ""Jerusalem convertere""
+pour 2 vx, bc",,,
+95,H.95,"Troisième leçon du Vendredi saint 
+Pour deux voix, deux dessus instrumentaux et basse continue",Leçons et répons de ténèbres,,
+96,H.96,"Première leçon du Mercredi saint 
+Pour une voix et basse continue",Leçons et répons de ténèbres,,Les Neuf Leçons de ténébres
+97,H.97,"Seconde leçon du Mercredi saint 
+Pour une voix et basse continue",Leçons et répons de ténèbres,,Les Neuf Leçons de ténébres
+98,H.98,"Troisième leçon du Mercredi saint 
+Pour deux voix et basse continue",Leçons et répons de ténèbres,,Les Neuf Leçons de ténébres
+99,H.99,"Lettres hébraïques de la première leçon de ténèbres du Vendredi saint  
+Pour trois voix, basse continue",,,
+99.1,H.99a,"Lettres hébraïques de la première leçon de ténèbres du Vendredi Saint/Première lettre 
+Pour trois voix et basse continue",,,
+100,H.100,"Ritornelles pour la première leçon de ténèbres du Vendredi saint  
+Pour deux violons ou deux violes, basse continue",,,
+100.1,H.100a,"Prélude devant De Lamentatione pour le Jeudi et le Vendredi Saint 
+Pour deux violons et basse continue",,,
+101,H.101,"Prélude pour la première leçon de ténèbres du Mercredi saint pour 2 d. inst., bc",,,
+102,H.102,"Première leçon de ténèbres du Jeudi saint 
+Pour une voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+103,H.103,"Seconde leçon du Jeudi saint 
+Pour deux voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+104,H.104,"Troisième leçon du Jeudi saint 
+Pour une voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+105,H.105,"Première leçon du Vendredi saint 
+Pour une voix, un dessus de viole et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+106,H.106,"Seconde leçon du Vendredi saint 
+Pour une voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+107,H.107,"Seconde leçon du Jeudi saint à voix seule 
+Pour une voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+108,H.108,"Troisième leçon du Mercredi saint à trois parties 
+Pour trois voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+109,H.109,"Troisième leçon du Jeudi saint à 3 voix 
+Pour trois voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+110,H.110,"Troisième leçon du Vendredi saint  
+Pour trois voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
+111,H.111,"Premier répons après la première leçon du premier nocturne 
+« In monte Oliveti » 
+Pour trois voix et basse continue",Leçon de ténèbres,,Les Neuf Répons de chaque jour #1
+112,H.112,"Second répons après la seconde leçon du premier nocturne 
+« Tristis est anima mea » 
+ Pour deux voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #2
+113,H.113,"Troisième répons après la troisième leçon du premier nocturne 
+« Amicus meus » 
+ Pour une voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #3
+114,H.114,"Quatrième répons après la première leçon du second nocturne 
+« Unus ex discipulis meis » 
+ Pour deux voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #4
+115,H.115,"Cinquième répons après la seconde leçon du second nocturne 
+« Eram quasi agnus innocens » 
+Pour une voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #5
+116,H.116,"Sixième répons après la troisième leçon du second nocturne 
+« Una hora non potuistis » 
+Pour trois voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #6
+117,H.117,"Septième répons après la première leçon du troisième nocturne 
+« Seniores populi » 
+Pour une voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #7
+118,H.118,"Huitième répons après la seconde leçon du troisième nocturne 
+« Revelabunt cæli »  
+Pour deux voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #8
+119,H.119,"Neuvième répons après la troisième leçon du troisième nocturne du Mercredi saint 
+« O Juda » 
+Pour deux voix et basse continue",Répon de ténèbres,,Les Neuf Répons de chaque jour #9
+120,H.120,Première leçon de ténèbres du Mercredi saint pour une basse,Leçon de ténèbres,,
+121,H.121,"Première leçon des ténèbres du Jeudi saint pour une basse 
+Pour une voix et basse continue",Leçon de ténèbres,,
+122,H.122,"Première leçon de ténèbres du Vendredi saint pour une basse 
+Pour une voix et basse continue",Leçon de ténèbres,,
+123,H.123,"Troisième leçon de ténèbres du Mercredi saint pour une basse taille avec 2 flûtes et deux violons 
+Pour une voix, deux flûtes, deux violons et basse continue",Leçon de ténèbres,,Les Troisièmes Leçons de ténèbres pour une basse taille avec 2 flûtes et 2 violons #1
+124,H.124,"Troisième leçon de ténèbres du Jeudi saint pour une basse taille avec 2 flûtes et 2 violons 
+ Pour une voix, deux flûtes, deux violons et basse continue",Leçon de ténèbres,,Les Troisièmes Leçons de ténèbres pour une basse taille avec 2 flûtes et 2 violons #2
+125,H.125,"Troisième leçon de ténèbres du Vendredi saint pour une basse taille avec 2 flûtes et deux violons 
+Pour une voix, deux flûtes, deux violons et basse continue",Leçon de ténèbres,,Les Troisièmes Leçons de ténèbres pour une basse taille avec 2 flûtes et 2 violons #3
+126,H.126,"Second répons après la seconde leçon du premier nocturne du Mercredi saint 
+« Tristis est anima mea » 
+Pour deux voix et basse continue",Répon de ténèbres,,
+127,H.127,"Premier répons après la première leçon du second nocturne du Mercredi saint 
+« Amicus meus » 
+Pour une voix, deux flûtes et basse continue",Répon de ténèbres,,
+128,H.128,"Second répons après la seconde leçon du premier nocturne du Jeudi saint 
+« Velum templi » 
+Pour solistes, chœur, flûtes, cordes et basse continue",Répon de ténèbres,,
+129,H.129,"Second répons après la seconde leçon du second nocturne du Jeudi saint 
+« Tenebræ factæ sunt » 
+Pour une voix, flûtes, cordes et basse continue",Répon de ténèbres,,
+130,H.130,"Second répons après la seconde leçon du premier nocturne de Vendredi saint 
+« Jerusalem surge » 
+Pour deux voix, deux flûtes et basse continue",Répon de ténèbres,,
+131,H.131,"Troisième répons après la 3e leçon du second nocturne du Vendredi saint 
+« Ecce quomodo » 
+Pour une voix, cordes et basse continue",Répon de ténèbres,,
+132,H.132,"Répons ""Unus ex discipulis meis"" pour 1vx, 2 vns, bc.",Répon de ténèbres,,
+133,H.133,"Premier répons après la première leçon du second nocturne du Jeudi saint 
+« Tamquam ad latronem » 
+Pour une voix, deux flûtes, deux violons et basse continue",Répon de ténèbres,,
+134,H.134,"Second répons après la seconde leçon du second nocturne du Vendredi saint 
+« O vos omnes » 
+Pour une voix, flûtes et basse continue",Répon de ténèbres,,
+135,H.135,"Troisième leçon de ténèbres du Mercredi saint 
+Pour solistes, double chœur, flûtes, violons et basse continue",Leçon de ténèbres,,
+136,H.136,"Troisième leçon de ténèbres du Mercredi saint 
+Pour solistes, double chœur, flûtes, violons et basse continue",Leçon de ténèbres,,
+137,H.137,"Troisième leçon de ténèbres du Vendredi saint 
+Pour solistes, double chœur, flûtes, violons et basse continue",Leçon de ténèbres,,
+138,H.138,"Seconde leçon de ténèbres du Mercredi saint 
+Pour une voix et basse continue",Leçon de ténèbres,,
+139,H.139,"Seconde leçon de ténèbres du Jeudi saint 
+Pour une voix et basse continue",Leçon de ténèbres,,
+140,H.140,"Seconde leçon de ténèbres du Vendredi saint 
+Pour une voix et basse continue",Leçon de ténèbres,,
+141,H.141,"Troisième leçon de ténèbres du Mercredi saint pour une basse 
+Pour une voix, deux dessus instrumentaux et basse continue",Leçon de ténèbres,,
+142,H.142,"Troisième leçon de ténèbres du Jeudi saint pour une basse ""Aleph. Ego vir videns""
+pour 1 vx,2 d. inst., bc",Leçon de ténèbres,,
+143,H.143,"Troisième leçon de ténèbres du Vendredi saint pour une basse ""Incipit oratio Jeremie""
+pour 1 vx,2 d. inst., bc",Leçon de ténèbres,,
+144,H.144,"Répons après la première leçon de ténèbres du Jeudi saint pour une haute taille et 2 flûtes 
+« Omnes amici mei » 
+Pour une voix, deux flûtes et basse continue",Répon de ténèbres,,
+145,H.145,"Te Deum à 8 voix avec flûtes et violons  
+Pour solistes, double chœur, double orchestre et basse continue",Te Deum,,
+145.1,H.145a,"Prélude pour le Te Deum à 8, for strings",Prelude,,
+146,H.146,"Te Deum 
+Pour solistes, chœur, bois, trompettes, timbales, cordes et basse continue",Te Deum,,
+147,H.147,"Te Deum à quatre voix 
+Pour solistes, chœur, instruments et basse continue",Te Deum,,
+148,H.148,"VIème Te Deum 
+Pour solistes, chœur et basse continue",,,
+149,H.149,"Laudate pueri Dominum 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",,,
+150,H.150,"Nisi Dominus 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",,,
+151,H.151,"Confitebor à 4 voix et 2 violons (ps.110)pour 5 vx,2vns, bc",,,
+152,H.152,"Laudate Dominum omnes gentes (ps.116) pour 5 vx, ch. à 4, 2 d. inst., bc",,,
+153,H.153,"Dixit Dominus 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",,,
+154,H.154,Psalm 3: ('Beatus vir qui timet Dominum'),,,
+155,H.155,"< Memento Domine >(ps.131) pour 5 vx, ch. à 4, 2 d. inst., bc",,,
+156,H.156,"De profundis 
+Pour solistes, chœur et basse continue",,,
+157,H.157,"Miserere à 2 dessus, 2 flûtes et basse continue 
+Pour deux voix, deux flûtes et basse continue",Miserere,,
+158,H.158,"Psalmus David 147us
+<Lauda Jerusalem >
+pour 5 vx, ch.à4, 2vns, bc,",,,
+159,H.159,"Laudate Dominum 
+Pour trois voix, deux dessus instrumentaux et basse continue",,,
+160,H.160,Psalmus 2us 6us supra centesimum à 4 voix,Psalm,,
+160.1,H.160a,"Prélude pour Nisi Dominus à 4 voix sans instruments 
+Pour solistes, chœur et basse continue",Prelude,,
+161,H.161,"Psalm. David vigesimus primus post centesimum 
+« Lætatus sum » 
+Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
+162,H.162,"Exaudiat à 8 voix, flûtes et violons",,,
+163,H.163,"Psalmus David VIII  
+« Domine Dominus noster » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
+164,H.164,"Prière pour le Roi <Domine in virtute tua >(ps.20)
+pour 3 vx, 2 d. inst., bc",Psalm,,
+165,H.165,"Precatio pro Rege <Exaudiat te Domine > (ps.19)
+pour 3 vx, 2 d. inst., bc",Psalm,,
+166,H.166,"Precatio pro filio Regis 
+« Deus judicium tuum » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
+167,H.167,"Quam dilecta / Psalm[us] Dav[id] octogesimus tertius 
+Pour solistes, double chœur, flûtes, cordes et basse continue",Psalm,,
+168,H.168,"Psalmus David 5tus [recte 2us] in tempore belli pro Rege 
+« Quare fremuerunt gentes » 
+Pour solistes, double chœur, flûtes, cordes et basse continue",Psalm,,
+169,H.169,"Psalmus David 125us <In convertendo Dominus >
+pour 7 vx, ch. à 8, cordes, bc",Psalm,,
+170,H.170,"Psalmus David centesimus trigesimus sextus 
+« Super flumina Babylonis » 
+Pour trois voix, deux flûtes et basse continue",Psalm,,
+171,H.171,"Super flumina / Psalmus 136 octo vocibus cum instrumentis 
+Pour solistes, double chœur, flûtes, cordes et basse continue",,,
+171.1,H.171a,"Prélude pour Super flumina
+pour cordes (4), bc",,,
+172,H.172,"Psalmus 3us
+<Domine quid multiplicati sunt>
+pour 3 vx,2 d. inst., bc",,,
+173,H.173,"Miserere à deux dessus, une haute-contre et basse continue 
+Pour trois voix et basse continue",Miserere,,
+174,H.174,"Quemadmodum desiderat cervus 
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
+175,H.175,"< Beatus vir > (ps.1)
+pour 3 vx, 2 d. inst., bc",,,
+176,H.176,Psalm 97: (Cantate Domino canticum novum'),,,
+177,H.177,"<Laudate Dominum de calis> (ps.148)
+pour 3 vx, 2 d. inst., bc",,,
+178,H.178,"Psalmus Davidis centesimus vigesimus septimus 
+« Beati omnes » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
+179,H.179,"Psalmus David septuagesimus quintus 
+« Notus in Judæa Deus » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
+180,H.180,"Exaudiat pour le Roy 
+Pour solistes, chœur et basse continue",,,
+181,H.181,"Psalmus David 84us< Benedixisti Domine >  pour 3 vx,2 d. inst., bc",,,
+182,H.182,"Psalmus David centesimus sexdecimus sine organo 
+« Laudate Dominum »  
+Pour quatre voix",Psalm,,
+183,H.183,"Psalmus David 107us ”Paratum cor meum Deus » pour 3 vx, bc",,,
+184,H.184,"Psalmus David 5us [recte 2uS] “Quare fremuerunt gentes“ pour 3 vx,2 d. inst., bc",,,
+185,H.185,"Psalmus David 91us “Bonum est confiteri Domino” pour 3 vx,2 d. inst., bc",,,
+186,H.186,"Psalmus David octogesimus tertius 
+« Quam dilecta » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
+187,H.187,"Psalmus 86us ”Fundamenta ejus” pour 3 vx, bc",,,
+188,H.188,"Psalmus 62us “Deus Deus meus“ pour 3 vx, 2 d. inst., bc",,,
+189,H.189,"De profundis 
+Pour solistes, double chœur, flûtes, cordes et basse continue",,,
+190,H.190,"Psalmus 109us, Dixit Dominus 8 vocibus et totidem instrumentis 
+Pour solistes, double chœur, double orchestre et basse continue",Psalm,,
+191,H.191,"Psalmus 147  
+« Lauda Jerusalem Dominum » 
+Pour solistes, double chœur, cordes et basse continue",Psalm,,
+192,H.192,"""omnes gentes"" ps. 46
+pour 3 vx, 2 d. inst, bc",,,
+193,H.193,"Psalmus David 50mus 
+« Miserere des Jésuites » 
+Pour solistes, chœur, deux violons, et basse continue",Psalm,,
+194,H.194,"Psalmus David 99us « Jubilate Deo » pour 3 vx, 2 d. inst., bc",,,
+195,H.195,"Bonum est confiteri Domino / Psalmus David 91us 
+Pour solistes, chœur, deux dessus de viole et basse continue",,,
+196,H.196,"Psalmus David 12us 
+« Usquequo Domine » 
+Pour quatre voix, flûtes et basse continue",Psalm,,
+197,H.197,"Psalmus David 109us 
+« Dixit Dominus » 
+Pour solistes, chœur et basse continue",Psalm,,
+197.1,H.197a,"Prélude pour le 
+premier Dixit Dominus pour 2 d. inst., bc",,,
+198,H.198,"Psalmus David 4us « Cum invocarem » pour 5 vx, ch. à 4, fls, cordes (4), bc",,,
+199,H.199,Psalm 3: ('Beatus vir qui timet Dominum'),,,
+200,H.200,"Psalmus David 110us/ Confitebor pour 5 vx, ch. à 4, bc",,,
+200.1,H.200a,"Prélude pour le premier 
+Confitebor  pour 2 d. inst., bc",Prelude,,
+201,H.201,"Psalmus David 34us « Judica Domine » pour 4 vx, 2 d. inst., bc",,,
+202,H.202,"Dixit Dominus/ Psalmus David 109us 
+Pour solistes, chœur, flûtes, hautbois, cordes et basse continue",,,
+203,H.203,Psalmus supra centesimum duodecimus,Psalm,,
+203.1,H.203a,"Prélude pour Laudate pueri à 4 voix sans instruments en G re sol naturel 
+Pour solistes, chœur et basse continue",Prelude,,
+204,H.204,"Psaume 109 
+« Dixit Dominus » 
+Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
+205,H.205,"Gloria Patri pour le De profundis en C sol ut bémol à quatre voix, 4 violons et flûtes",,,
+206,H.206,"Psalmus David 5tus post septuagesimum 
+« Notus in Judæa » 
+Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
+207,H.207,"Psalmus Davidis post octogesimum septimus  
+« Domine Deus salutis meæ » 
+Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
+208,H.208,"Psalmus undecimus Davidis post centesimum, Beatus vir qui timet Dominum 4 vocibus cum 
+symphonia 
+Pour solistes, chœur, flûtes, hautbois, cordes et basse continue",Psalm,,
+209,H.209,Psalmus David 115us,Psalm,,
+209.1,H.209a,"Prélude pour Credidi à 4 voix sans instruments C sol ut 
+Pour solistes, chœur et basse continue",Prelude,,
+210,H.210,"Lauda Jerusalem, Psalmus David 147us 
+Pour solistes, chœur et basse continue",,,
+211,H.211,"De profundis 
+Pour solistes, chœur et basse continue",,,
+212,H.212,"Psalmus David 129us quatuor vocibus « De profundis » 
+Pours solistes chœur et basse continue",Psalm,,
+213,H.213,"De profundis 
+Pour solistes, chœur et basse continue",,,
+214,H.214,"Psalmus Davidis decimus sextus post centesimum 
+« Laudate Dominum » 
+Pour solistes, chœur et basse continue",Psalm,,
+215,H.215,"Psalmus David 67us 
+« Exurgat Deus » 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Psalm,,
+216,H.216,"Psalmus Davidis CXXIus / Lætatus sum 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Psalm,,
+217,H.217,"Psalmus David 123us « Nisi quia Dominus » pour 3 vx, ch. à 4, 2 d. inst., bc",,,
+218,H.218,"Psalmus David 45us « Deus noster refugium » pour 3 vx, ch. à 4, 2 d. inst., bc",,,
+219,H.219,"Miserere [ : Psalmus] 50 à 4 voix et 4 instruments
+Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
+220,H.220,"Psalmus David 110us à 4 voix 
+« Confitebor tibi Domine » 
+Pour solistes, chœur et basse continue",Psalm,,
+221,H.221,"Psalmus David 111us à 4 voix  
+« Beatus vir » 
+Pour solistes, chœur, et basse continue",Psalm,,
+222,H.222,"Court De profundis (ps.129) pour 3 vx, ch. à 4, bc",,,
+223,H.223,"Laudate Dominum omnes gentes octo vocibus et totidem instrumentis 
+Pour solistes, double chœur, double orchestre et basse continue",,,
+224,H.224,"Beatus vir qui timet Dominum omnes gentes octo vocibus et totidem instrumentis 
+Pour solistes, double chœur, double orchestre et basse continue",,,
+225,H.225,"Confitebor à 4 voix et instruments 
+Pour solistes, chœur, cordes et basse continue",,,
+226,H.226,"Dixit Dominus pour le Port Royal 
+Pour solistes, chœur et basse continue",,,
+227,H.227,"Laudate Dominum omnes gentes pour le Port Royal 
+Pour solistes, chœur et basse continue",,,
+228,H.228,"Psalmus David LXX, 3e psalm du 1er nocturne du Mercredi saint 
+« In te Domine speravi » 
+Pour solistes, chœur, cordes et basse continue",Psalm,,
+229,H.229,"Psalmus David 26us, 3e psalme du 1er nocturne du Jeudi saint 
+« Dominus illuminatio mea »  
+Pour solistes, chœur, cordes et basse continue",Psalm,,
+230,H.230,"Psalmus David 15us, 3e psaume du 1er nocturne du vendredi saint  
+« Conserva me Domine »  
+Pour solistes, chœur, cordes et basse continue",Psalm,,
+231,H.231,"Nisi Dominus 
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
+232,H.232,"De profundis 
+Pour trois voix, deux dessus instrumentaux et basse continue",,,
+233,H.233,Ave vernum Corpus,,,
+234,H.234,"Pie Jesu
+Pour solistes, double chœur et basse continue",Motet,,
+235,H.235,O sacrum convivium,,,
+236,H.236,"Elévation 
+« O salutaris hostia » 
+Pour une voix, deux flûtes et basse continue",Elévation,,
+237,H.237,"Elévation pour la paix 
+« O bone Jesu »  
+Pour trois voix, deux dessus instrumentaux et basse continue",Elévation,,
+238,H.238,"Élévation 
+« Gaudete dilectissimi » 
+Pour une voix, deux dessus instrumentaux et basse continue",Elévation,,
+239,H.239,"O sacrum à 3 « O sacrum convivium » pour 3 vx, bc",,,
+240,H.240,"O sacrum pour trois religieuses « O sacrum convivium » pour 3 vx, bc",,,
+241,H.241,"Elevatio « Venite fideles » pour 1 vx, 2 d. inst., bc",,,
+242,H.242,"Ecce panis voce sola, Elévation 
+Pour une voix et basse continue",,,
+243,H.243,"Panis angelicus voce sola/ Élévation pour 1 vx, bc",,,
+244,H.244,"Élévation à 2 dessus et une basse chantante « O bone Jesu » pour 3 vx, bc",,,
+245,H.245,"Elévation  
+« O pretiosum » 
+Pour une voix, deux violons et basse continue",Elévation,,
+246,H.246,"Élévation « Caro mea vere est cibus » pour 3 vx, bc",,,
+247,H.247,"O pretiosum 
+Pour une voix et basse continue",,,
+248,H.248,"Elévation 
+« O salutaris hostia » 
+Pour une voix, deux dessus instrumentaux et basse continue",Elévation,,
+249,H.249,"« O salutaris hostia » 
+Pour une voix et basse continue",,,
+250,H.250,"Elevatio « Ascendat ad te Dominus » pour 1 vx, 2 d. inst., bc",,,
+251,H.251,"Elévation à 5 sans dessus de violon 
+« Transfige dulcissime Jesu » 
+Pour cinq voix et basse continue",Elévation,,
+253,H.253,"O amor, o bonita, o charitas
+Elévation à 2 dessus et une basse chantante ou pour une haute contre, taille et basse 
+chantante en le transposant un ton plus haut 
+Pour trois voix et basse continue",Motet,,
+253.1,H.253a,Prélude pour O amor à 3 violons,Prelude,,
+254,H.254,"« O pretiosium et admirabile convivium » 
+Pour deux voix et basse continue",,,
+255,H.255,"« O pretiosum et admirandum convivium » pour 3 vx, 2 d. inst., bc",,,
+256,H.256,"Elévation à trois dessus 
+« O clementissime Domine Jesu » 
+Pour trois voix et basse continue",Elévation,,
+257,H.257,"Élévation « Gustate et videte » pour 1 vx, bc",,,
+258,H.258,"Elevatio « Nonne Deo subjecta erit » pour 1 vx, bc",,,
+259,H.259,"Élévation 
+« Tranfige amabilis Jesu » 
+Pour trois voix et basse continue",Elévation,,
+260,H.260,"Elevatio « O sacramentum pietatis » pour 3 vx, 2 fls, 2 vns, bc",,,
+261,H.261,"O salutaris à 3 dessus  
+Pour trois voix et basse continue",Motet,,
+262,H.262,"O salutaris  
+Pour une voix, deux hautbois et basse continue",,,
+263,H.263,"Elévation 
+« Pie Jesu » 
+Pour deux voix et basse continue",Elévation,,
+264,H.264,O amantissime salvator noster Jesu dulcis,,,
+265,H.265,"Élévation « Bone pastor » pour 3 vx, bc",,,
+266,H.266,"« Ave verum corpus » pour 1 vx, 2 fls, bc",,,
+267,H.267,"Élévation 
+« Verbum aro, panem verum » 
+Pour trois voix et basse continue",Elévation,,
+268,H.268,"Elévation à voix seule pour une taille 
+« Lauda Sion salvatorem » 
+Pour une voix et basse continue",Elévation,,
+269,H.269,"A l’élévation de la ste hostie 
+Pour deux voix et basse continue",,,
+270,H.270,"Pour le Saint Sacrement à 3 voix pareilles 
+« O dulce, o ineffabile convivium » 
+Pour trois voix et basse continue",,,
+271,H.271,"Pour le Saint Sacrement à 3 voix pareilles « Amate Jesum omnes gentes » H.271 pour 3 vx, bc",,,
+272,H.272,"Élévation à 2 dessus et une basse « Quare tristis est anima mea » H.272 pour 3 vx, bc",,,
+273,H.273,"Elévation 
+« O vere, o bone » 
+Pour une voix et basse continue",Elévation,,
+274,H.274,"Elévation 
+« O sacramentum pietatis » 
+Pour une voix, deux flûtes, deux violons et basse continue",Elévation,,
+275,H. 275,"Elévation 
+« Panis quem ego dabo » 
+Pour cinq voix, deux flûtes et basse continue",Elévation,,
+276,H. 276,"« Adoramus te Christe » H.276 pour 3 vx, 2 fls, bc",,,
+277,H. 277,"« Cantemus Domino » H.277 pour 2 vx, bc",,,
+278,H. 278,"Motet du St Sacrement à 4 
+« O sacrum convivium » 
+Pour quatre voix et basse continue",Motet,,
+279,H. 279,"Motet à voix seule pour une Élévation 
+« O amor, o bonitas » 
+Pour une voix et basse continue",Motet,,
+280,H. 280,"Motet du Saint Sacrement 
+« Egredimini filiæ Sion » 
+Pour une voix, deux dessus instrumentaux et basse continue",Motet,,
+281,H. 281,"Domine salvum  
+Pour solistes, deux dessus instrumentaux et basse continue",Motet,,
+282,H. 282,"« Domine salvum » 
+Pour deux voix et basse continue",Motet,,
+283,H.283,"Domine savum de la messe à 8 
+Pour double chœur, double orchestre et basse continue",Motet,,
+284,H.284,"Domine salvum à trois voix pareilles avec orgue H.284 pour 3 vx, bc",,,
+285,H.285,"Domine salvum 
+Pour solistes, quatre chœurs, cordes et basse continue",Motet,,
+286,H.286,"Domine salvum H.286 pour 3 vx, 2 d. inst., bc",,,
+287,H.287,"Domine salvum H.287 pour 3 vx, 2 d. inst., bc",,,
+288,H.288,"Domine salvum pour trois religieuses H.288 pour 3 vx, bc",,,
+289,H.289,"« Domine salvum » H.289 [inachevé] pour 3 vx, 2 d. inst., bc",,,
+290,H.290,"Domine salvum sine organo en C sol ut 
+Pour quatre voix",Motet,,
+291,H.291,"Domine salvum 
+Pour double chœur, double orchestre et basse continue",Motet,,
+292,H.292,"Domine salvum 
+Pour solistes, chœur et basse continue",Motet,,
+293,H.293,"« Domine salvum » H.293 pour 3 vx, 2 d. inst., bc",,,
+294,H.294,"Autre Domine H.294 pour 3 vx, 2 d. inst., bc",,,
+295,H.295,"« Domine salvum » H.295 pour 3 vx, 2 d. inst., bc",,,
+296,H.296,"« Domine salvum » H.296 pour 3 vx, bc",,,
+297,H.297,"Domine salvum pour un haut et un bas dessus H.297 pour 2 vx, bc",,,
+298,H.298,"« Domine salvum » H.298 [incomplet] pour 3 vx, bc",,,
+298.1,H.298a,"Prélude pour un Domine salvum à 
+3 voix pareilles H.298a pour 2 d. inst., bc",,,
+299,H.299,"Domine salvum H.299 pour 2 vx, ch. à 4, 2 fls, 2 hbs, cordes (4), bc",,,
+300,H.300,"Domine salvum à 3 dessus H.300 pour 3 vx, bc",,,
+301,H.301,"Domine salvum à 3 voix pareilles H.301 pour 3 vx, bc",,,
+302,H.302,"Domine salvum à 3 voix pareilles H.302 pour 3 vx, bc",,,
+303,H.303,"Domine salvum 
+Pour chœur, flûtes, cordes et basse continue",Motet,,
+304,H.304,"« Domine salvum » H.304 pour 2 vx, bc",,,
+305,H.305,"Motet « Domine salvum » H.305 pour3 vx, fls, hbs, vns, bc",,,
+306,H.306,"[Pour Saint Bernard] 
+« Gaudete fideles » 
+Pour deux voix, deux flûtes et basse continue",Motet,,
+307,H.307,"O doctor optime 
+Pour deux voix et basse continue",Motet,,
+308,H.308,"« Haec dies » H.308 pour 2 vx, 2 fls, bc",,,
+309,H.309,"Nativité de la Vierge 
+« Sicut spina rosam » 
+Pour deux voix et basse continue",Motet,,
+310,H.310,"Saint François « Jubilate Deo fideles » H.310 pour 2 vx, 2 fls, bc",,,
+311,H.311,"Motet pour les trépassés/Plainte de âmes du purgatoire
+« Miseremini mei » 
+Pour solistes, double chœur, [flûtes, cordes] et basse continue",Motet,,
+312,H.312,"O filii à 3 voix pareilles « Alleluia. O filii et filiæ » H.312 pour 3 vx, bc",,,
+313,H.313,"Pour la conception de la Vierge  
+« Conceptio tua Dei genitrix Virgo » 
+Pour deux voix et basse continue",Motet,,
+314,H.314,"In nativitatem Domini canticum 
+Pour quatre voix, deux flûtes, deux violons et basse continue",Motet,,
+315,H.315,"Pour Ste Anne 
+« Gaude felix Anna » 
+Pour deux voix et basse continue",Motet,,
+316,H.316,"In circumcisione Domini 
+Pour troix voix, deux dessus instrumentaux et basse continue",Motet,,
+317,H.317,"Pour le jour de Ste Geneviève 
+« Gaudia festivæ percurrant » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Motet,,
+318,H.318,"In festo purificationis 
+« Erat senex in Jerusalem » 
+Pour trois voix, deux dessus instrumentaux et basse continue",Motet,,
+319,H.319,"Motet pour la Trinité « O altitudo divitiarum » H.319 pour 3 vx, bc",,,
+320,H.320,"Motet de Saint Louis « In tympanis et organis » H.320 [incomplet] pour 1 vx, 2 d. inst.",,,
+321,H.321,"Motet de Saint Laurent « Beatus Laurentius » H.321 pour 1 vx, 2 d. inst.",,,
+322,H.322,"Motet de la Vierge pour toutes ses fêtes 
+« Quam pulchra es » 
+Pour trois voix, deux flûtes et basse continue",Motet,,
+323,H.323,"In honorem Sancti Ludovici Regis Galliæ canticum tribus vocibus cum symphonia 
+« In tympanis et organis »",Motet,,
+324,H.324,"In nomine Jesu « O nomen Jesu » H.324 [incomplet] pour 3 vx, bc",,,
+325,H.325,"Canticum Annæ « Exultavit cor meum » H.325 pour 3 vx, 2 d. inst., bc",,,
+326,H.326,"Gratiarum actiones ex sacris codicibus excerptæ pro restituta serenessimi Galliarum Delphini 
+salute 
+Pour trois voix, deux flûtes, basse de flûte et basse continue",Motet,,
+327,H.327,"Motet pour toutes les fêtes de la Vierge « Corde et animo Christo » H.327 pour 3 vx, 2 d. inst., bc",,,
+328,H.328,"Supplicatio pro defunctis ad beatam Virginem 
+« Languentibus in purgatorio » 
+Pour trois voix, deux flûtes, flûte à bec basse et basse continue",Motet,,
+329,H.329,"Ave vernum Corpus
+Pour un reposoir 
+Pour trois voix, deux flûtes, cordes et basse continue",Motet,,
+330,H.330,"Gaudia beatæ Virginis Mariæ 
+Pour trois voix, deux dessus instrumentaux et basse continue",Motet,,
+331,H.331,"Luctus de morte augustissimæ Mariæ Theresiæ Reginæ Galliæ 
+Pour trois voix, deux dessus instrumentaux et basse continue",Motet,,
+332,H.332,"In honorem Sancti Ludovici regis Galliæ H.332 « In tympanis et organis » pour 3 vx, 2 d. inst., bc",,,
+333,H.333,"Pro omnibus festis B.V.M. 
+« Annuntiate superi » 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Motet,,
+334,H.334,"Motet pour la Vierge 
+« Alma Dei creatoris » 
+Pour une voix et basse continue",Motet,,
+335,H.335,"Ver « Surge, propera, amica mea » H.335 pour 2 vx, bc",Motet,,Quatuor anni tempestates #1
+336,H.336,"Æstas « Nolite me considerare » H.336 pour 2 vx, bc",Motet,,Quatuor anni tempestates #2
+336.1,H.336a,Prélude pour l'été à 3 flûtes,,,
+337,H.337,"Autumnus « Osculetur me osculo oris sui » H.337 pour 2 vx, bc",Motet,,Quatuor anni tempestates #3
+338,H.338,"Hyems « Surge aquilo et veni auster » H.338 pour 2 vx, bc",Motet,,Quatuor anni tempestates #4
+339,H.339,"Chant joyeux du temps de Pâques « Alleluia. O filii et filiæ » H.339 pour 6 vx, ch. à 5, 2 d. de vle, bc",Motet,,
+340,H.340,"Ad beatam Virginem Canticum  
+« Hodie salus » 
+Pour trois voix, deux flûtes, deux violons et basse continue",Motet,,
+341,H.341,"Gratiarum actiones pro restituta Regis christianissimi sanitate  
+« Circumdederunt me dolores » 
+Pour deux voix, deux flûtes, deux violons et basse continue",Motet,,
+342,H.342,"Ste Thérèse 
+« Flores O Gallia » 
+Pour trois voix et basse continue",Motet,,
+343,H.343,"Magdalena lugens voce sola cum symphonia 
+« Sola vivebat in antris » 
+Pour une voix, deux dessus instrumentaux et basse continue",Motet,,
+344,H.344,"In festo corporis Christi canticum « Venite ad me omnes » H.344 pour 5 vx, ch. à 5, 2 d. inst., bc",,,
+345,H.345,"Canticum Zachariæ 
+« Benedictus Dominus » 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Motet,,
+346,H.346,"Pour le Saint Sacrement au reposoir 
+« Oculi omnium » 
+Pour solistes, chœur, deux flûtes et basse continue",Motet,,
+347,H.347,"In honorem Sancti Benedicti « Exultet omnium turba fidelium » H.347 pour 2 vx, bc",,,
+348,H.348,"Motet du Saint Sacrement pour un reposoir « Ecce panis angelorum » H.348 pour 3 vx, 2 d. inst., bc",,,
+349,H.349,"Pour la Passion de Notre Seigneur / Première pause 
+Pour deux voix et basse continue",Motet,,
+350,H.350,"Pour la Passion de Notre Seigneur / Seconde pause 
+Pour deux voix et basse continue",Motet,,
+351,H.351,"Pour le jour de la Passion de Notre Seigneur Jésus-Christ 
+Pour trois voix et basse continue",Motet,,
+352,H.352,"Second motet pour le catéchisme à la pause du milieu/ A la Vierge « Sub tuum præsidium » H.352 pour 1 vx, bc",,,
+353,H.353,"In Assumptione Beatæ Mariæ Virginis « Suspirabat Maria dum cælum » H.353 pour 4 vx, ch. à 4, 2 fls, cordes 
+(4), bc",,,
+354,H.354,"Motet pour Saint François de Borgia « Beatus vir qui inventus est » H.354 pour 1 vx, 2 d. inst., bc",,,
+355,H.355,"In honorem Sancti Xaverij canticum 
+Pour solistes, chœur, flûtes, cordes et basse continue",Motet,,
+355.1,H.355a,"Canticum de Sancto Xaverio « Vidi angelum volantem » pour 5 vx, ch. à 4, 2 fls, hbs, cordes (4), bc",,,
+356,H.356,"O filii pour les voix, violons, flûtes et orgue « Alleluia. O filii et filiæ »pour 1 vx, ch. à 4, fls, cordes (4), bc",Motet,,
+357,H.357,"In purificationem B.V.M. canticum « Psallite cælites » pour 2 vx, 2 fls, 2 vns, bc",,,
+358,H.358,"In festo corporis Christi canticum « Pandite portas populi » pour 3 vx, 2 d. inst., bc",,,
+359,H.359,"Motet pour la Vierge à 2 voix
+« Omni die dic Mariæ »  
+Pour deux voix et basse continue",Motet,,
+360,H.360,"Pour la Vierge « Felix namque es » pour 2 vx, bc",,,
+361,H.361,"Pour plusieurs martyrs, motet à voix seule sans accompagnement 
+« Sancti Dei » 
+Pour une voix",Motet,,
+362,H.362,"Pour le Saint Esprit « Veni creator spiritus »  pour 3 vx, bc",,,
+363,H.363,"Motet pendant la guerre « Quare fremuerunt » 
+Pour solistes, chœur, deux violons et basse continue",Motet,,
+364,H.364,"Pour le Saint Esprit « Veni sancte spiritus » 
+pour 3 vx, bc",,,
+364.1,H.364a,"pour 3 vx, bc",,,
+365,H.365,"In honorem Sancti Ludovici regis Galliæ canticum « Dies tubæ et clangoris »
+pour 6 vx, ch. à 4, 2 fls, 2 hbs, cordes (4), bc",Motet,,
+365.1,H.365a,"pour 6 vx, ch. à 4, 2 fls, 2 hbs, cordes (4), bc",,,
+366,H.366,"Pour le Saint Esprit « Veni sancte spiritus » pour 3 vx, bc",,,
+367,H.367,"La prière à la Vierge du Père Bernard 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Motet,,
+368,H.368,"Motet de Saint Joseph « Justus germinabit sicut lilium » pour 4 vx, ch. à 4, bc",,,
+369,H.369,"Pro virgine non martyre « Ante torum hujus virginis » pour 3 vx, bc",,,
+370,H.370,"Pour le catéchisme 
+« Gloria in excelsis Deo » 
+Pour une voix et basse continue",Motet,,
+371,H.371,"A la Vierge à 4 voix pareilles 
+« Ego mater agnitionis » 
+Pour quatre voix et basse continue",Motet,,
+372,H.372,"Pour la seconde fois que le Saint Sacrement vient au même reposoir 
+Pour solistes, chœur, cordes et basse continue",Motet,,
+373,H.373,"Sola vivebat in antris Magdalena lugens 
+Pour deux voix, deux flûtes et basse continue",Motet,,
+374,H.374,"« Flores, flores o Gallia » pour 2 vx, 2 fls, bc",,,
+375,H.375,"Pour un confesseur non pontife 
+« Euge serve bone » 
+Pour deux voix et basse continue",Motet,,
+376,H.376,"Pour un confesseur 
+« Beatus vir qui inventus est » 
+Pour une voix et basse continue",Motet,,
+377,H.377,"Pour tous les saints « O vos amici mei »  pour 1 vx, bc",,,
+378,H.378,"Pour le Carême [Ce numéro a été enregistré par erreur comme deuxième partie de H.425] 
+Pour trois voix et basse continue",Motet,,
+379,H.379,"Pour plusieurs fêtes « Cur mundus militat » pour 3 vx, bc",,,
+380,H.380,"Première méditation 
+« Desolatione desolata est terra » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #1
+381,H.381,"Deuxième méditation 
+« Sicut pullus hirundinis sic clamabo » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #2
+382,H.382,"Troisième méditation  
+« Tristis est anima mea » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #3
+383,H.383,"Quatrième méditation 
+« Ecce Judas » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #4
+384,H.384,"Cinquième méditation 
+« Cum cenasset Jesus » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #5
+385,H.385,"Sixième méditation 
+« Quarebat Pilatus »  
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #6
+386,H.386,"Septième méditation  
+« Tenebræ factæ sunt » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #7
+387,H.387,"Huitième méditation 
+« Stabat mater dolorosa » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #8
+388,H.388,"Neuvième méditation, Magdalena lugens 
+« Sola vivebat in antris » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #9
+389,H.389,"Dixième méditation 
+« Tentavit Deus Abraham » 
+Pour trois voix et basse continue",Motet,,Méditations pour le Carême #10
+390,H.390,"Motet de la Vierge à 4 
+Pour solistes, chœur et basse continue",Motet,,
+391,H.391,"Judith sive Bethulia liberata 
+Pour solistes, chœur, deux flûtes, cordes et basse continue",Motet,,
+392,H.392,"Canticum pro pace 
+Pour solistes, double chœur, cordes et basse continue",Motet,,
+393,H.393,"Canticum in nativitatem Domini 
+Pour trois voix, 2 dessus instrumentaux et basse continue",Motet,,
+394,H.394,"In honorem Cæciliæ, Valeriani et Tiburtii Canticum 
+Pour trois voix, deux dessus instrumentaux et basse continue",Motet,,
+395,H.395,"Pour la fête de l’Epiphanie 
+Pour trois voix, deux dessus instrumentaux et basse continue",Motet,,
+396,H.396,"Historia Esther pour 7 vx, ch. à 4, 2 vns, fl, bc",,,
+397,H.397,"Cæcilia virgo et martyr octo vocibus 
+Pour solistes, double chœur, double orchestre et basse continue",Motet,,
+398,H.398,"Pestis Mediolanensis 
+Pour solistes, double chœur, deux flûtes, double orchestre et basse continue",Motet,,
+399,H.399,"Filius prodigus 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Motet,,
+400,H.400,"Canticum in honorem Beatæ Virginis Mariæ inter homines et angelos 
+Pour cinq voix et basse continue",Motet,,
+401,H.401,"Extremum Dei judicium 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Motet,,
+402,H.402,"Sacrificium Abrahæ 
+Pour solistes, chœur, deux violons et basse continue",Motet,,
+403,H.403,"Mors Saülis et Jonathæ 
+Pour solistes, chœur, deux violons et basse continue",Motet,,
+404,H.404,"Josue 
+Pour solistes, double chœur, double orchestre et basse continue",Motet,,
+405,H.405,"In resurrectione Domini Nostri Jesu Christi pour 3 vx, 2 d. inst., bc",,,
+406,H.406,"In circumcisione Domini, Dialogus inter angelum et pastores 
+Pour trois voix et basse continue",Motet,,
+407,H.407,"Dialogus inter esurientem, sitientem et Christum 
+Pour trois voix et basse continue",Motet,,
+408,H.408,"Elévation 
+« Famem meam quis replebit » 
+Pour trois voix, deux violons, deux violes et basse continue",Motet,,
+409,H.409,"In obitum augustissimæ nec non piissimæ Gallorum reginæ lamentum 
+Pour solistes, chœur, flûtes, cordes et basse continue",Motet,,
+410,H.410,"Prælium Michaelis Archangeli factum in cælo cum dracone 
+Pour solistes, double chœur, cordes et basse continue",Motet,,
+411,H.411,"Cædes Sanctorum Innocentium 
+Pour solistes, chœur, deux violons et basse continue",Motet,,
+412,H.412,"Nuptiæ sacræ 
+Pour solistes, chœur, deux dessus de viole et basse continue",Motet,,
+413,H.413,"Cæcilia virgo et martyr 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Motet,,
+414,H.414,"In navitivitatem Domini Nostri Jesu Christi canticum 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Motet,,
+415,H.415,"Cæcilia virgo et martyr pour 6 vx, ch. à 6, 2 d. de vle, bc",,,
+415.1,H.415a,"Prologue de la Sainte Cæcile 
+après l'ouverture/ Harmonia cælestis",,,
+416,H.416,"In nativitatem Domini canticum  
+Pour solistes, chœur, flûtes, cordes et basse continue",Motet,,
+417,H.417,"Dialogus inter Christum et homines 
+Pour quatre voix, deux flûtes, deux violons et basse continue",Motet,,
+418,H.418,"In honorem Sti Ludovici regis Galliæ 
+Pour trois voix, deux flûtes, deux violons et basse continue",Motet,,
+419,H.419,"Pour Saint Augustin mourant pour 2 vx, bc",,,
+420,H.420,"Dialogus inter angelos et pastores Judæa in nativitatem Domini 
+Pour solistes, chœur, flûtes, cordes et basse continue",Motet,,
+421,H.421,"In nativitate Domini Nostri Jesu Christi canticum 
+Pour trois voix et basse continue",Motet,,
+422,H.422,"Judicium Salomonis 
+ Pour solistes, chœur, bois, cordes et basse continue",Motet,,
+423,H.423,"Dialogus inter Magdalenam et Jesum  
+Pour deux voix et basse continue",Motet,,
+424,H.424,"Le Reniement de Saint Pierre 
+Pour solistes, chœur et basse continue",Motet,,
+425,H.425,"Dialogus inter Christum et peccatores 
+Pour trois voix et basse continue",Motet,,
+425.1,H.425a,"Prélude pour Mementote peccatores
+pour 2 d. inst., bc",,,
+426,H.426,"« Quæ est ista quæ ascendit de deserto » pour 2 vx, bc",,,
+427,H.427,"Pie Jesu 
+Pour trois voix, deux dessus instrumentaux et basse continue",Motet,,
+428,H.428,"« ...et invocate sanctum nomen ejus » [incomplet] pour 4 vx, bc",,,
+429,H.429,"« Eamus, volamus o chare sodales » pour 3 vx, 2 d. inst., bc",,,
+430,H.430,"« ...gaudium meum qui es pax » [incomplet] pour 5 vx, bc",,,
+431,H.431,"Gratitudinis erga Deum canticum « Os meum cur taces » pour 3 vx, 2 d. inst., bc",,,
+432,H.432,"Offertoire pour lesacre d'un évêque à 4
+parties de voix et d'instruments
+pour 4 vx, ch. à 4, cordes (4), bc",,,
+433,H.433,"Domine non secundum pour une basse taille avec 2 violons, bc",,,
+434,H.434,"Motet pour une longue offrande 
+pour 5 vx, ch. à 4, 2 fls, 2 hbs, cordes (4), bc",Motet,,
+435,H.435,"« O cælestis Jerusalem » pour 3 vx, bc",,,
+436,H.436,"Dilecte mi, for 3 voices and continuo",Motet,,
+437,H.437,"« Ferte, ferte coronas cælestes » pour 3 vx, bc",,,
+438,H.438,"« Venite et audite omnes » 
+ Pour trois voix et basse continue",Motet,,
+439,H.439,"Bone pastor 
+ Pour trois voix et basse continue",Motet,,
+440,H.440,"À ta haute valeur 
+Pour une voix et basse continue",Air,,
+441,H.441,"Ah ! laissez-moi rêver 
+Pour une voix et basse continue",Air,,
+442,H.442,"Ah ! qu’ils sont courts les beaux jours 
+Pour une voix et basse continue",Air,,
+443,H.443,"Ah! qu’on est malheureux d’avoir eu des désirs 
+Pour une voix et basse continue",Air,,
+443.1,H.443bis,"Au bord d’une fontaine 
+Pour une voix et basse continue",Air,,
+444,H.444,"Allons sous ce vert feuillage 
+Pour deux voix et basse continue",Air,,
+445,H.445,"Amour, vous avez beau redoubler mes alarmes 
+Pour une voix et basse continue",Air,,
+446,H.446,"Auprès du feu l’on fait l’amour 
+Pour une voix et basse continue",Air,,
+447,H.447,"Ayant bu du vin clairet 
+Pour deux voix et basse continue",Air,,
+448,H.448,"Beaux petits yeux d’écarlate 
+Pour trois voix et basse continue",Air,,
+449,H.449,"Brillantes fleurs naissez 
+Pour une voix et basse continue",Air,,
+449.1,H.449a,"Feuillages verts naissez 
+Pour deux voix et basse continue",Air,,
+449.2,H.449b,"Charmantes fleurs naissez 
+Pour deux voix et basse continue",Air,,
+450,H.450,"Celle qui fait tout mon tourment 
+ Pour une voix et basse continue",Air,,
+451,H.451,"Consolez-vous, chers enfants de Bacchus  
+ Pour une voix",Air,,
+452,H.452,"En vain rivaux assidus 
+Pour une voix et basse continue",Air,,
+453,H.453,Faites trêve à vos chansonettes,,,
+454,H.454,"Fenchon, la gentille Fenchon 
+Pour trois voix et basse continue",Air,,
+454.1,H.454bis,"Il faut aimer, c’est un mal nécessaire 
+Pour une voix",Air,,
+455,H.455,"Non, non, je ne l’aime plus 
+Pour une voix et basse continue",Air,,
+456,H.456,"Oiseaux de ces bocages  
+Pour une voix et basse continue",Air,,
+457,H.457,"[airs sur des stances du Cid]
+Percé jusques au fond du cœur 
+Pour une voix et basse continue",Air,,
+458,H.458,"[airs sur des stances du Cid]
+Père, maîtresse, honneur, amour 
+Pour une voix et basse continue",Air,,
+459,H.459,"[airs sur des stances du Cid]
+Que je sens de rudes combats 
+Pour une voix et basse continue",Air,,
+459.1,H.459bis,"Que Louis par sa vaillance 
+Pour une voix et basse continue",Air,,
+460,H.460,"Qu'il est doux, charmante Climène",,,
+460.3,H.460c,"Qu'ils sont doux, bouteille jolie",Air,,
+460.3,H.460c,"Un flambeau, Jeannette Isabelle",,,
+461,H.461,"Quoi ! je ne verrai plus 
+Pour une voix et basse continue",Air,,
+462,H.462,"Quoi ! rien ne peut vous arrêter 
+Pour une voix et basse continue",Air,,
+463,H.463,"Rendez-moi mes plaisirs  
+Pour une voix et basse continue",Air,,
+464,H.464,"Rentrez trop indiscrets soupirs 
+Pour une voix et basse continue",Air,,
+465,H.465,"Retirons-nous, fuyons 
+Pour une voix et basse continue",Air,,
+466,H.466,"Ruisseau qui nourrit dans ce bois 
+Pour une voix et basse continue",Air,,
+467,H.467,"Sans frayeur dans ce bois 
+Pour une voix et basse continue",Air,,
+468,H.468,"Tout renaît, tout fleurit 
+Pour deux voix et basse continue",Air,,
+469,H.469,"Tristes déserts, sombre retraite 
+ Pour une voix et basse continue",Air,,
+470,H.470,"Veux-tu, compère Grégoire 
+Pour trois voix",Air,,
+471,H.471,"Orphée descendant aux enfers 
+Pour trois voix, deux violons, flûte traversière, flûte à bec et basse continue",Cantata,,
+472,H.472,Serenata a tre voci  e simphonia,,,
+473,H.473,"Epithalamio in lode dell’Altezza Serenissima Elettorale di Massimiliano Emanuel Duca di Baviera, Concento a cinque voci con stromenti 
+Pour solistes, chœur, bois, trompettes, timbales, cordes et basse continue",Cantata,,
+474,H.474,"Epitaphium Carpentarij 
+Pour six voix et basse continue",Cantata,,
+475,H.475,Beate mie pene,,,
+476,H.476,Superbo amore,,,
+477,H.477,Il mondo cosi va,,,
+478,H.478,"Coulez, coulez charmans ruisseaux",,,
+479,H.479,"Petite Pastorale 
+Pour trois voix, deux flûtes et basse continue",Pastorale en musique,,
+480,H.480,"Les Plaisirs de Versailles 
+Pour solistes, chœur, deux dessus instrumentaux, basse de flûte et basse continue",Divertissement,,
+481,H.481,"Actéon  
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Pastorale en musique,,
+481.1,H.481a,Actéon changé en biche,,,
+482,H.482,"Sur la naissance de Notre Seigneur Jésus-Christ, Pastorale 
+Pour solistes, chœur, deux dessus de violes et basse continue",Pastorale en musique,,
+483,H.483,"Pastorale sur la naissance de Notre Seigneur Jésus Christ
+Pour solistes, chœur, deux flûtes, deux dessus de violes et basse continue",Pastorale en musique,,
+483.1,H.483a,"Seconde partie du noël français qui commence par ""Que nos soupirs"" 
+Pour solistes, chœur, deux flûtes, deux dessus de violes et basse continue",,,
+484,H.484,"Il faut rire et chanter, dispute de bergers 
+Pour solistes, chœur, deux dessus instrumentaux et basse continue",Pastorale en musique,,
+485,H.485,"La Fête de Rueil 
+Pour solistes, chœur, cordes et basse continue",Divertissement,,
+486,H.486,"La Couronne de fleurs, Pastorale 
+Pour solistes, chœur, deux dessus de viole et basse continue",Pastorale en musique,,
+487,H.487,"Les Arts Florissants  
+Pour solistes, chœur, deux flûtes, deux dessus de viole et basse continue",Idylle en musique,,
+488,H.488,"La Descente d’Orphée aux Enfers 
+Pour solistes, chœur, deux dessus instrumentaux, violes et basse continue",Pastorale en musique,,
+489,H.489,Idyle sur le retour de la santé du Roi,,,
+490,H.490,"David et Jonathas 
+Pour solistes, chœur, bois, cordes et basse continue",Tragédie en musique,,
+491,H.491,"Médée 
+Pour solistes, chœur, bois, cuivres, timbales, cordes et basse continue",Tragédie en musique,,
+492,H.492,"Amor vince ogni cosa / Pastoraletta 1a del Sgr Charpentier 
+Pour cinq voix, deux dessus instrumentaux et basse continue",Pastoraletta,,
+493,H.493,Pastoraletta italienne,,,
+494,H.494,"Ouverture de la Comtesse d’Escarbagnas et Intermèdes nouveaux du Mariage forcé 
+Pour trois voix, cordes et basse continue",Intermède,,
+494.1,H.494/1,Ouverture de la Comtesse d’Escarbagnas,,,
+494.2,H.494/2,Ouverture de la Comtesse d’Escarbagnas?,,,
+494.3,H.494/3,Intermèdes nouveaux du Mariage forcé?,,,
+494.4,H.494/4,Intermèdes nouveaux du Mariage forcé,,,
+495,H.495,"Le Malade imaginaire  
+Pour solistes, chœur, deux flûtes, mortiers d’apothicaire, cordes et basse continue",Intermède,,
+495.1,H.495a,"Le Malade imaginaire « avec les deffences » (prologue et 1er intermède) 
+Pour solistes, deux flûtes, cordes et basse continue",Intermède,,
+495.2,H.495b,Le Malade imaginaire,,,
+495.3,H.495c,"Profitez du printemps 
+Pour une voix et basse continue",Air,,
+496,H.496,"Circé
+Pour solistes, chœur, cordes et basse continue",Pastorale en musique,,
+497,H.497,"Le Sicilien
+Pour deux voix, cordes et basse continue",Intermède,,
+498,H.498,"Ouverture du prologue de Polieucte pour le collège d’Harcourt 
+Pour cordes, trompette, timbales et basse continue",Overture,,
+499,H.499,"Les Amour d’Acis et de Galathée/ L’Inconnu 
+Pour flûtes, hautbois, cordes et basse continue",Pastorale en musique,,
+499.1,H.499a,"Le Bavolet 
+Pour une voix et basse continue",Air,,
+499.2,H.499b,"« Si Claudine ma voisine » 
+Pour une voix",Air,,
+500,H.500,"Les Fous divertissants 
+Pour quatre voix, cordes et basse continue",Divertissement,,
+501,H.501,"La Pierre philosophale 
+Pour solistes, chœur, cordes et basse continue",Divertissement,,
+502,H.502,"Endimion/ Tragédie mêlée de musique (anonyme) pour 3 vx, ch. à 4, cordes (4), bc",Tragédie en musique,,
+503,H.503,Air pour les paysans dans la Noce de village au lieu de l'air du marié (Brécourt) pour cordes (4),Pastorale en musique,,
+504,H.504,"Andromède  
+Pour solistes, chœur, flûtes, cordes et basse continue",Pastorale en musique,,
+505,H.505,"Le rendez-vous des Tuileries 
+Pour cordes",Divertissement,,
+506,H.506,"Dialogue d’Angélique et de Médor 
+Pour deux voix et basse continue",Dialogue en musique,,
+507,H.507,"Vénus et Adonis H.507 (Donneau de Visé) pour 2 vx, cordes (4), bc",,,
+508,H.508,"[Symphonies] Pour un reposoir 
+Pour cordes",Sinfonia,,
+509,H.509,"Symphonie devant Regina 
+Pour deux dessus instrumentaux et basse continue",Sinfonia,,
+510,H.510,"Prélude  
+Pour deux dessus et basse",Prelude,,
+511,H.511,"Pour O filii pour 2 d. inst., b.",,,
+512,H.512,"[Prélude] 
+Pour deux dessus instrumentaux et basse",Prelude,,
+513,H.513,"Messe pour plusieurs instruments au lieu des orgues 
+Pour bois et cordes",Sinfonia,,
+514,H.514,"Offerte pour l’orgue et pour les violons, flûtes et hautbois  
+Pour cordes, bois et basse continue",Sinfonia,,
+515,H.515,"Symphonies pour un reposoir 
+Pour cordes et basse continue",Sinfonia,,
+516,H.516,"Psalm 110: Après Confitebor [:] antienne [en] D la re sol bécarre 
+Pour flûtes, cordes et basse continue",Sinfonia,,
+517,H.517,"Psalm 126: Après Beati omnes
+antienne en G re sol béccare",Sinfonia,,
+518,H.518,"Pour le sacre d'un évêque
+pour cordes (5)",Sinfonia,,
+519,H.519,"Symphonies pour le Jugement de Salomon 
+pour cordes (4)",Sinfonia,,
+520,H.520,"Prélude, menuet et passepied pour les fûtes et hautbois 
+Pour bois",Suite,,
+521,H.521,"Prélude non encore employé pour ce qu’on voudra 
+Pour cordes",Prelude,,
+522,H.522,"Offerte non encore exécutée 
+Pour cordes et bois",Sinfonia,,
+523,H.523,"Pour un reposoir : Ouverture dès que la procession paraît 
+Pour flûtes, cordes et basse continue",Sinfonia,,
+524,H.524,"Ouverture pour l’église 
+Pour cordes et flûtes",Sinfonia,,
+525,H.525,"Antienne 
+Pour flûtes, cordes et basse continue",Sinfonia,,
+526,H.526,"Antienne 
+Pour flutes, cordes et basse continue",Sinfonia,,
+527,H.527,"Prélude pour Sub tuum præsidium à trois violons pour 2 vns, bc",Prelude,,
+528,H.528,"Prélude en G re sol bémol à 4 pour les violons et flûtes 
+Pour flûtes, cordes et basse continue",Prelude,,
+529,H.529,Symphonie en G ré sol bémol à 3 flûtes ou violons,Sinfonia,,
+530,H.530,"Prélude en C sol ut bécarre à quatre parties de violons avec flûtes pour fls, cordes (4), bc",Prelude,,
+531,H.531,"[Noëls pour les instruments] 
+Pour flûtes, cordes et basse continue",Sinfonia,,
+531.1,H.531/1,O créateur,,,
+531.2,H.531/2,Laissez paître vos bêtes,,,
+531.3,H.531/3,Vous qui désirez sans fin,,,
+532,H.532,"Antienne pour les violons, flûtes et hautbois à quatre part[ies] 
+pour 2 fls, hbs, cordes (4), bc",Sinfonia,,
+533,H.533,"Prélude pour le second Magnificat à 4 voix sans instruments pour 2 d. inst., bc",Prelude,,
+534,H.534,"Noëls sur les instruments 
+Pour flûtes, cordes et basse continue",Sinfonia,,
+534.1,H.534/1,Les Bourgeois de Châtre,,,
+534.1,H.534/1,Où s’en vont ces gais bergers,,,
+534.2,H.534/2,Où s’en vont ces gais bergers,,,
+534.3,H.534/3,Joseph est bien marié,,,
+534.4,H.534/4,Or nous dites Marie,,,
+534.5,H.534/5,A la venue de Noël,,,
+534.6,H.534/6,Une jeune pucelle,,,
+535,H.535,"Prélude pour le Domine salvum en F ut fa à 4 voix 
+Pour deux desssus instrumentaux et basse continue",Prelude,,
+536,H.536,"Ouverture pour le sacre d’un évêque  
+Pour cordes, flûtes et hautbois (si possible) et basse continue",Sinfonia,,
+537,H.537,"Ouverture pour le sacre d’un évêque pour les vi[ol]ons, fl[ûtes] et hautbois 
+Pour cordes, flûtes et hautbois (si possible) et basse continue",Sinfonia,,
+538,H.538,"Prélude pour [...] pour 2 d. inst., bc",Prelude,,
+539,H.539,"Prélude pour le second Dixit Dominus à 4 voix pour 2 d. inst., bc",Prelude,,
+540,H.540,"Ouverture pour quelque belle entreprise, à cinq 
+Pour cinq parties instrumentales",Sinfonia,,
+541,H.541,"Menuet pour les flûtes allemandes, Autre menuet pour les mêmes flûtes
+pour 2 fls tr, b",Minuet,,
+542,H.542,Caprice pour trois violons,Caprice,,
+543,H.543,"Gigue/Chaconne [fin d'un mouvement de danse]
+pour b. de vle",,,
+544,H.544,"[fin d'une ouverture]
+pour 2 d. inst., bc",,,
+545,H.545,"Concert pour quatre parties de violes
+pour 2 d. de vle, t. de vle, b. de vle",Suite,,
+546,H.546,"Commencement d’ouverture pour ce que l’on voudra en la rectifiant
+Pour cordes",Sinfonia,,
+547,H.547,"Marche de triomphe pour les violons, trompettes, timbales, flûtes et hautbois, Second air de trompettes, violons, 
+flûtes et hautbois et timbales",Air,,
+547.1,H.547/1,"Marche de triomphe pour les violons, trompettes, timbales, flûtes et hautbois",Air,,
+547.2,H.547/2,"Second air de trompettes, violons, flûtes et hautbois et timbales",Air,,
+548,H.548,"Sonate pour 2 flûtes allemandes, 2 dessus de violon, 1 basse de viole, 1 basse de violon à 5 cordes, un clavecin et un théorbe",Sonata,,
+548.1,H.548bis,"Trio de Monsieur Charpentier 
+Pour deux dessus instrumentaux et basse continue",Sonata,,
+549,H.549,Remarques sur les messes à 16 parties d'ltalie,,,
+550,H.550,Règles de composition,,,
+551,H.551,Abrégé des règles de l'accompagnement,,,
