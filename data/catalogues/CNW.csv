@@ -1,48 +1,48 @@
 SORT,Date,Catalogue,FS,Danish Title,Title,Genre,Key,Roles,Work structure,Instrumentation
-1,1899–1901,CNW 1,25,Saul og David,Saul and David,Opera,,"Saul (B.Bar.); Jonathan (T.); Mikal (S.); David (T.); Samuel (B.); Abner (B.); Troldkvinden i Endor (A.); Abisaj (S.); En ung Pige (S.); Vagten (B.); Jomfruer, Præster, Krigsfolk og Folk",4 acts,"2 fl., fl./fl.picc., ob., ob./cor.ingl., 2 cl., cl.b., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., ptti., trgl., gr.c., tam., camp., arpa, vl.1, vl.2, va., vc., cb."
-2,1905–06,CNW 2,39,Maskarade,Masquerade,Opera,,"Jeronimus (B.); Magdalone (Mezz.S.); Leander (T.); Henrik (B.Bar.); Arv (T.); Leonard (T.Bar.); Leonora (S.); Pernille (S.); En Vægter (B.); En Vagtmester (Bar.); En Mand, der sælger Masker (Bar.); En Magister (Bar.); En Dreng, der sælger Blomster (S.); Maskarademesteren (B.Bar.); En Student (T.); 1. Student (T.); 2. Student (T.); 3. Student (T.); 4. Student (T.); 5. Student (T.); 1. Pige (S.); 2. Pige (S.); 3. Pige (S.); En Officer (B.); Dansemesteren; Hans Kæreste; Vulcan; Kor af Studenter, Officerer, unge Piger, maskerede Personer af begge Køn",3 acts,"2 fl., fl. / fl.picc., 2 ob., cor.ingl., 2 cl., cl.b., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., trgl., tamb.picc., gr.c., ptti., cast., tam., glsp., camp., vl.1, vl.2, va., vc., cb."
-3,1889-90,CNW 3,9,"Musik til Andreas Munchs skuespil ""En Aften paa Giske""",Music for Andreas Munch's Play 'An Evening at Giske',Incidental Music,,,"1. Forspil. Moderato quasi allegretto
+1,1899–1901,CNW 1,FS 25,Saul og David,Saul and David,Opera,,"Saul (B.Bar.); Jonathan (T.); Mikal (S.); David (T.); Samuel (B.); Abner (B.); Troldkvinden i Endor (A.); Abisaj (S.); En ung Pige (S.); Vagten (B.); Jomfruer, Præster, Krigsfolk og Folk",4 acts,"2 fl., fl./fl.picc., ob., ob./cor.ingl., 2 cl., cl.b., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., ptti., trgl., gr.c., tam., camp., arpa, vl.1, vl.2, va., vc., cb."
+2,1905–06,CNW 2,FS 39,Maskarade,Masquerade,Opera,,"Jeronimus (B.); Magdalone (Mezz.S.); Leander (T.); Henrik (B.Bar.); Arv (T.); Leonard (T.Bar.); Leonora (S.); Pernille (S.); En Vægter (B.); En Vagtmester (Bar.); En Mand, der sælger Masker (Bar.); En Magister (Bar.); En Dreng, der sælger Blomster (S.); Maskarademesteren (B.Bar.); En Student (T.); 1. Student (T.); 2. Student (T.); 3. Student (T.); 4. Student (T.); 5. Student (T.); 1. Pige (S.); 2. Pige (S.); 3. Pige (S.); En Officer (B.); Dansemesteren; Hans Kæreste; Vulcan; Kor af Studenter, Officerer, unge Piger, maskerede Personer af begge Køn",3 acts,"2 fl., fl. / fl.picc., 2 ob., cor.ingl., 2 cl., cl.b., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., trgl., tamb.picc., gr.c., ptti., cast., tam., glsp., camp., vl.1, vl.2, va., vc., cb."
+3,1889-90,CNW 3,FS 9,"Musik til Andreas Munchs skuespil ""En Aften paa Giske""",Music for Andreas Munch's Play 'An Evening at Giske',Incidental Music,,,"1. Forspil. Moderato quasi allegretto
 2. Slutningskor ""Hil dig du høje hugprude Konge!"". Andante maestoso","fl., ob., 2 cl., 4 cor., 2 tr., 2 trb., timp., vl.1, vl.2, va., vc., cb."
-4,"1893, 1899",CNW 4,17,"Musik til Holger Drachmanns melodrama ""Snefrid""",Music for Holger Drachmann's Melodrama 'Snefrid',Incidental Music,,"Kong Harald Haarfager; Gunnar, Kongens Skjald; Svase, en Finne-Høvding; Snefrid, hans Datter; Thorleif Spake, Kongens gode Mand; En Finne-Kone",,"1893 version: fl./fl.picc., ob., 2 cor., 2 tr., 2 trb., tb., timp., vl.1, vl.2, va., vc., cb.
+4,"1893, 1899",CNW 4,FS 17,"Musik til Holger Drachmanns melodrama ""Snefrid""",Music for Holger Drachmann's Melodrama 'Snefrid',Incidental Music,,"Kong Harald Haarfager; Gunnar, Kongens Skjald; Svase, en Finne-Høvding; Snefrid, hans Datter; Thorleif Spake, Kongens gode Mand; En Finne-Kone",,"1893 version: fl./fl.picc., ob., 2 cor., 2 tr., 2 trb., tb., timp., vl.1, vl.2, va., vc., cb.
 
 1899 version: fl., fl./fl.picc., ob., 2 cl., fg., 2 cor., 2 tr., trb.b., timp., vl.1, vl.2, va., vc., cb.
 
 Reciter version: reciter, vl.1, vl.2, va., vc., pf."
-5,1901,CNW 5,42,"Sang til Helge Rodes skuespil ""Kampene i Stefan Borgs Hjem""",Song for Helge Rode's Play 'The Fights in Stefan Borg's House',Song,,,"""Skal Blomsterne da visne"". Andantino quasi allegretto","voice, pf."
-6,1901,CNW 6,30,"Sang til Gustav Wied og Jens Petersens skuespil ""Atalanta""",Song for Gustav Wied and Jens Petersen's Play 'Atalanta',Song,,,"""Den Sol, som dukker op i Øst"". Tempo giusto","voice, armon."
-7,1906,CNW 7,37,"Musik til Holger Drachmanns melodrama ""Hr. Oluf han rider–""",Music for Holger Drachmann's Melodrama 'Sir Oluf He Rides–',Incidental Music,,Fru Merthe; Hr. Oluf Stigsøn; Jomfru Helle; Fru Rigmor Guldholm; Sidsel; Den Fremmede (Sidsel); Pater Anselm; Mester Martin; Hr. Fink til Flaarup; Hr. Viderik Vind; Gaardnisse; Skovnisse; Den gamle Kvinde ude i Skoven; Elvermøen og hendes Søstre; Alfer og Blomster-Alfer; Den ældre Vandrer,"Hellelidens Sang, CNW 132
+5,1901,CNW 5,FS 42,"Sang til Helge Rodes skuespil ""Kampene i Stefan Borgs Hjem""",Song for Helge Rode's Play 'The Fights in Stefan Borg's House',Song,,,"""Skal Blomsterne da visne"". Andantino quasi allegretto","voice, pf."
+6,1901,CNW 6,FS 30,"Sang til Gustav Wied og Jens Petersens skuespil ""Atalanta""",Song for Gustav Wied and Jens Petersen's Play 'Atalanta',Song,,,"""Den Sol, som dukker op i Øst"". Tempo giusto","voice, armon."
+7,1906,CNW 7,FS 37,"Musik til Holger Drachmanns melodrama ""Hr. Oluf han rider–""",Music for Holger Drachmann's Melodrama 'Sir Oluf He Rides–',Incidental Music,,Fru Merthe; Hr. Oluf Stigsøn; Jomfru Helle; Fru Rigmor Guldholm; Sidsel; Den Fremmede (Sidsel); Pater Anselm; Mester Martin; Hr. Fink til Flaarup; Hr. Viderik Vind; Gaardnisse; Skovnisse; Den gamle Kvinde ude i Skoven; Elvermøen og hendes Søstre; Alfer og Blomster-Alfer; Den ældre Vandrer,"Hellelidens Sang, CNW 132
 Hr. Olufs Sang, CNW 133
 Dansevise, CNW 134
 Alfedans (arrangement of Fem klaverstykker, No. 5), CNW 81","2 fl., fl. / fl.picc., 2 ob., 2 cl., 2 fg., cfg., 4 cor., 3 tr., 3 trb., tb., timp., trgl., ptti., ptto.sosp., tbno., gr.c., tam., gong, cmplli., org., arpa, vl.1, vl.2, va., vc., cb.
 SATB Choir"
-8,1907–08,CNW 8,44,"Musik til Lauritz Christian Nielsens skuespil ""Willemoes""",Music for Lauritz Christian Nielsen's Play 'Willemoes',Incidental Music,,Vibeke,"1. ""Fædreland! Fædreland!"". Tempo di marcia
+8,1907–08,CNW 8,FS 44,"Musik til Lauritz Christian Nielsens skuespil ""Willemoes""",Music for Lauritz Christian Nielsen's Play 'Willemoes',Incidental Music,,Vibeke,"1. ""Fædreland! Fædreland!"". Tempo di marcia
 2. ""Ja, tag os, vor Moder i din løfterige Favn"". Andantino
 3. ""Havet omkring Danmark"". Moderato
 4. Forspil. Andantino espressivo
 5. Vibekes Sang ""Jeg mødte en Sang paa den alfare Vej"". Andantino (drømmende)","fl., 2 cl., 2 cor., 2 tr., trb.b., timp., gr.c., vl.1, vl.2, va., vc., cb., clavecin (keyb.)
 male choir"
-9,1908,CNW 9,45,"Musik til Otto Benzons skuespil ""Forældre""",Music for Otto Benzon's Play 'Parents',Incidental Music,,,"1. Tempo giusto
+9,1908,CNW 9,FS 45,"Musik til Otto Benzons skuespil ""Forældre""",Music for Otto Benzon's Play 'Parents',Incidental Music,,,"1. Tempo giusto
 2. ...
 3. Tempo giusto",pf.
-10,1907–08,CNW 10,43,"Musik til Ludvig Holsteins skuespil ""Tove""",Music for Ludvig Holstein's Play 'Tove',Incidental Music,,Bengt; Palle; Tove; Volmer; Folkvard; Moderen; Munken; Jægere; En Sanger,,"fl., fl./fl.picc., ob., 2 cl., fg., 2 cor., 2 tr., 2 trb., timp., vl.1, vl.2, va., vc., cb.
+10,1907–08,CNW 10,FS 43,"Musik til Ludvig Holsteins skuespil ""Tove""",Music for Ludvig Holstein's Play 'Tove',Incidental Music,,Bengt; Palle; Tove; Volmer; Folkvard; Moderen; Munken; Jægere; En Sanger,,"fl., fl./fl.picc., ob., 2 cl., fg., 2 cor., 2 tr., 2 trb., timp., vl.1, vl.2, va., vc., cb.
 SSAA choir"
-11,1909,CNW 11,50,"Musik til Jeppe Aakjærs skuespil ""Ulvens Søn""",Music for Jeppe Aakjær's Play 'The Wolf's Son',Incidental Music,,,"Kommer I snart, I Husmænd!   CNW 152
+11,1909,CNW 11,FS 50,"Musik til Jeppe Aakjærs skuespil ""Ulvens Søn""",Music for Jeppe Aakjær's Play 'The Wolf's Son',Incidental Music,,,"Kommer I snart, I Husmænd!   CNW 152
 Gamle Anders Røgters Sang  CNW 151","fl., ob., cl., fg., 2 cor., 2 tr., trb.b., timp., ptti., gr.c.
 male choir"
-12,1910,CNW 12,57,"Musik til Adam Oehlenschlägers skuespil ""Hagbarth og Signe""",Music for Adam Oehlenschläger's Play 'Hagbarth and Signe',Incidental Music,,Halloge; Kor af Terner,,"fl., ob., 2 cl., 2 fg., 2 cor., 4 lurs, tamb.picc., arpa"
-13,1913,CNW 13,65,"Musik til Adam Oehlenschlägers skuespil ""Sanct Hansaftenspil""",Music for Adam Oehlenschläger's 'Midsummer Eve Play',Incidental Music,,Ludvig; Marie; Sanct Kirsten; Ellepigen; Egen,,"fl., fl./fl.picc., ob., 4 cl., 2 fg., 4 cor., 2 cnt., tr., 2 trb.t., trb.b., tb., cb., timp.timpani
+12,1910,CNW 12,FS 57,"Musik til Adam Oehlenschlägers skuespil ""Hagbarth og Signe""",Music for Adam Oehlenschläger's Play 'Hagbarth and Signe',Incidental Music,,Halloge; Kor af Terner,,"fl., ob., 2 cl., 2 fg., 2 cor., 4 lurs, tamb.picc., arpa"
+13,1913,CNW 13,FS 65,"Musik til Adam Oehlenschlägers skuespil ""Sanct Hansaftenspil""",Music for Adam Oehlenschläger's 'Midsummer Eve Play',Incidental Music,,Ludvig; Marie; Sanct Kirsten; Ellepigen; Egen,,"fl., fl./fl.picc., ob., 4 cl., 2 fg., 4 cor., 2 cnt., tr., 2 trb.t., trb.b., tb., cb., timp.timpani
 bar. + children choir + SATB choir"
-14,1915–16,CNW 14,71,"Musik til Einar Christiansens skuespil ""Fædreland""",Music for Einar Christiansen's Play 'Native Land',Incidental Music,,,"1a. Soldatermarsch
+14,1915–16,CNW 14,FS 71,"Musik til Einar Christiansens skuespil ""Fædreland""",Music for Einar Christiansen's Play 'Native Land',Incidental Music,,,"1a. Soldatermarsch
 1b. Soldatermarsch
 2. ""Denne er Dagen, som Herren har gjort!"". Andantino","fl., fl./fl.picc., 2 ob., 2 cl., fg., 2 cor., 2 tr., 2 trb., tb., tamb.picc., gr.c., trgl., pf.
 SSA choir"
-15,1916,CNW 15,80,"Musik til Helge Rodes prolog ""Shakespeare""",Music for Helge Rode's Prologue 'Shakespeare',Incidental Music,,,,"fl./fl.picc., fl., 2 ob., 2 cl., 2 fg., 2 cor., 2 tr., trb.b., vl.1, vl.2, va., vc., cb.
+15,1916,CNW 15,FS 80,"Musik til Helge Rodes prolog ""Shakespeare""",Music for Helge Rode's Prologue 'Shakespeare',Incidental Music,,,,"fl./fl.picc., fl., 2 ob., 2 cl., 2 fg., 2 cor., 2 tr., trb.b., vl.1, vl.2, va., vc., cb.
 STB+SATB Choir"
-16,1917-18,CNW 16,88,"Kvad til Jóhan Sigurjónssons skuespil ""Løgneren""",Ballad for Jóhan Sigurjónsson's Play 'The Liar',Ballade,,Skjalden,"1. Dagene skriver Lykkens Runer
+16,1917-18,CNW 16,FS 88,"Kvad til Jóhan Sigurjónssons skuespil ""Løgneren""",Ballad for Jóhan Sigurjónsson's Play 'The Liar',Ballade,,Skjalden,"1. Dagene skriver Lykkens Runer
 2. Dagene skriver Sorgens Runer","voice, arpa"
-17,1917–19,CNW 17,89,"Musik til Adam Oehlenschlägers skuespil ""Aladdin eller Den forunderlige Lampe"", op. 34","Music for Adam Oehlenschläger's Play 'Aladdin or the Wonderful Lamp', op. 34",Incidental Music,,Ringens Aand; Lampens Aand; Aladdin; Nureddin; Første Bjergpige; Anden Bjergpige; Morgiane; Gulnare; Soliman; Hinbad; Spøgelset; Sindbad; Fatime,5 acts,"fl., 2 fl./fl.picc., 2 ob., cor.ingl., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., tb., timp., tbno., 4 tamb.picc., trgl., gr.c., ptti., cast., glsp., xil., cel., org., arpa, vl.1, vl.2, va., vc., cb.
+17,1917–19,CNW 17,FS 89,"Musik til Adam Oehlenschlägers skuespil ""Aladdin eller Den forunderlige Lampe"", op. 34","Music for Adam Oehlenschläger's Play 'Aladdin or the Wonderful Lamp', op. 34",Incidental Music,,Ringens Aand; Lampens Aand; Aladdin; Nureddin; Første Bjergpige; Anden Bjergpige; Morgiane; Gulnare; Soliman; Hinbad; Spøgelset; Sindbad; Fatime,5 acts,"fl., 2 fl./fl.picc., 2 ob., cor.ingl., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., tb., timp., tbno., 4 tamb.picc., trgl., gr.c., ptti., cast., glsp., xil., cel., org., arpa, vl.1, vl.2, va., vc., cb.
 SATB Choir"
-18,1920-21,CNW 18,94,"Musik til Helge Rodes skuespil ""Moderen"", op. 41","Music for Helge Rode's Play 'The Mother', op. 41",Incidental Music,,,"Saga-Drøm  CNW 35
+18,1920-21,CNW 18,FS 94,"Musik til Helge Rodes skuespil ""Moderen"", op. 41","Music for Helge Rode's Play 'The Mother', op. 41",Incidental Music,,,"Saga-Drøm  CNW 35
 Vildt gaar Storm mod sorte Vande  CNW 230
 Min Pige er saa lys som Rav   CNW 231
 Dengang Ørnen var flyveklar  CNW 232
@@ -53,17 +53,17 @@ Dengang Døden var i vente  CNW 236
 Sangen til Danmark  CNW 237","Orch ver: 3 fl., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., gr.c., trgl., ptti., ptto.sosp., cmplli., arpa, pf., vl.1, vl.2, va., vc., cb.
 S+T+Bar+SATB
 also has a V+P ver (Nos. 2, 4, 6, 8, 7, 9, 10, 11, 16, 15, 19, 1, 22 from the original version)"
-19,1921,CNW 19,98,"Sange til Einar Christiansens skuespil ""Cosmus""",Songs for Einar Christiansen's Play 'Cosmus',Song,,,"1. Fiskerens Sang ""Solen springer ud som en Rose"". Langtdragen og med Foredrag i Overensstemmelse med Ordene
+19,1921,CNW 19,FS 98,"Sange til Einar Christiansens skuespil ""Cosmus""",Songs for Einar Christiansen's Play 'Cosmus',Song,,,"1. Fiskerens Sang ""Solen springer ud som en Rose"". Langtdragen og med Foredrag i Overensstemmelse med Ordene
 2. ""Da Klokketaarnet styrted"". Magtfuldt",T+SATB
-20,1922,CNW 20,102,"Musik til Hans Hartvig Seedorff Pedersens ""Hyldest til Holberg""",Music for Hans Hartvig Seedorff Pedersen's 'Homage to Holberg',Incidental Music,,1. Muse; 2. Muse; 3. Muse; 4. Muse,"1. ""Hvem har kaldt, os hid i Dag?"" Allegro moderato
+20,1922,CNW 20,FS 102,"Musik til Hans Hartvig Seedorff Pedersens ""Hyldest til Holberg""",Music for Hans Hartvig Seedorff Pedersen's 'Homage to Holberg',Incidental Music,,1. Muse; 2. Muse; 3. Muse; 4. Muse,"1. ""Hvem har kaldt, os hid i Dag?"" Allegro moderato
 2. ""Det er Spillet som begynder!"" Allegro
 3. ""Nu løfter Holbergs Træ sit Løv"" Poco adagio","fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., timp., vl.1, vl.2, va., vc., cb.
 Bar+SATB"
-21,1935,CNW 21,117,"Musik til Harald Bergstedts friluftsspil ""Ebbe Skammelsen""",Music for Harald Bergstedt's Open-Air Play 'Ebbe Skammelsen',Incidental Music,,Ebbe Skammelsen; Adelil; Narren; Pigerne; Svendene; Kor i Skoven,3 parts,"fl., ob., 2 cl., 2 fg., 3 cor., tb.
+21,1935,CNW 21,FS 117,"Musik til Harald Bergstedts friluftsspil ""Ebbe Skammelsen""",Music for Harald Bergstedt's Open-Air Play 'Ebbe Skammelsen',Incidental Music,,Ebbe Skammelsen; Adelil; Narren; Pigerne; Svendene; Kor i Skoven,3 parts,"fl., ob., 2 cl., 2 fg., 3 cor., tb.
 Bar+SATB"
-22,1929,CNW 22,147,"Sang til Vilhelm From Bartrumsens skuespil ""Fra Rold til Rebild""",Song for Vilhelm From Bartrumsen's Play 'From Rold to Rebild',Song,,Hans; Kor af Jyder,"""Vi er Jyder"" Marschtempo","fl., cl., tr., trb., timp., vl.1, vl.2, va., vc., cb., pf.
+22,1929,CNW 22,FS 147,"Sang til Vilhelm From Bartrumsens skuespil ""Fra Rold til Rebild""",Song for Vilhelm From Bartrumsen's Play 'From Rold to Rebild',Song,,Hans; Kor af Jyder,"""Vi er Jyder"" Marschtempo","fl., cl., tr., trb., timp., vl.1, vl.2, va., vc., cb., pf.
 Choir"
-23,1930,CNW 23,150,"Musik til Sophus Michaëlis' skuespil ""Amor og Digteren""",Music for Sophus Michaëlis's Play 'Cupid and the Poet',Incidental Music,,Digteren; Drengen (Amor); Divaen,"0. Overture. Allegretto con brio
+23,1930,CNW 23,FS 150,"Musik til Sophus Michaëlis' skuespil ""Amor og Digteren""",Music for Sophus Michaëlis's Play 'Cupid and the Poet',Incidental Music,,Digteren; Drengen (Amor); Divaen,"0. Overture. Allegretto con brio
 1. ""Og ses maa under Sengen"". Andante
 2. ""Hvad var det nu, jeg skrev?"". Andantino
 3. ""Du Pebersvend! vor Sang du ved"". Andantino
@@ -76,7 +76,7 @@ Choir"
 10. ""Med Vemod mindes jeg min stakkels Moder"". Andante sostenuto
 11. ""Fra Fyrreskovens Kuppelsal"". Andante tranquillo","2 fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb., timp., pf./clav., vl.1, vl.2, va., vc., cb.
 SATB Choir"
-24,1931,CNW 24,156,"Musik til ""Grundtvig-Paaske-Aften""",Music for a 'Grundtvig Easter Evening',Incidental Music,,Englekor,"1. Paradis ""Jeg er ikke længer, saa vidt man ved"" Andantino
+24,1931,CNW 24,FS 156,"Musik til ""Grundtvig-Paaske-Aften""",Music for a 'Grundtvig Easter Evening',Incidental Music,,Englekor,"1. Paradis ""Jeg er ikke længer, saa vidt man ved"" Andantino
 2. Haddings Undrykkelse ""Blottet var Skoven"" Tempo giusto
 3. Før ""Nyaars Morgen"" Andante pesante
 4. De Levendes Land. Andantino
@@ -85,122 +85,122 @@ SATB Choir"
 7. Engle-Kor ""Dragener bundet, Døden harmistetsin Brod"" Andantino con moto
 8. Den signede Dag (Composer: C.E.F. Weyse)","fl., ob., cl., fg., 2 cor., 2 trb., timp.
 Reciter+TTBB Choir"
-25,1889–94,CNW 25,16,"Symfoni nr. 1, op. 7","Symphony No. 1, op. 7",Symphony,G minor,,"1. Allegro orgoglioso (g)
+25,1889–94,CNW 25,FS 16,"Symfoni nr. 1, op. 7","Symphony No. 1, op. 7",Symphony,G minor,,"1. Allegro orgoglioso (g)
 2. Andante (G)
 3. Allegro comodo (Eb)
 4. Finale. Allegro con fuoco","2 fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., tb., timp., vl.1, vl.2, va., vc., cb."
-26,1901–02,CNW 26,29,"Symfoni nr. 2, op. 16 ""De Fire Temperamenter""","Symphony No. 2, op. 16 ""The Four Temperaments""",Symphony,B minor,,"1. Allegro collerico (b)
+26,1901–02,CNW 26,FS 29,"Symfoni nr. 2, op. 16 ""De Fire Temperamenter""","Symphony No. 2, op. 16 ""The Four Temperaments""",Symphony,B minor,,"1. Allegro collerico (b)
 2. Allegro commodo e flemmatico (g)
 3. Andante malincolico (eb)
 4. Allegro sanguineo (D)","2 fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., 2 trb.t, trb.b., tb., timp., vl.1, vl.2, va., vc., cb."
-27,1910–11,CNW 27,60,"Symfoni nr. 3, op. 27 ""Sinfonia espansiva""","Symphony No. 3, op. 27",Symphony,,,"1. Allegro espansivo
+27,1910–11,CNW 27,FS 60,"Symfoni nr. 3, op. 27 ""Sinfonia espansiva""","Symphony No. 3, op. 27",Symphony,,,"1. Allegro espansivo
 2. Andante pastorale
 3. Allegretto un poco
 4. Finale. Allegro","2 fl., fl./fl.picc., 2 ob., ob./cor.ingl., 2 cl., 2 fg., fg./cfg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., vl.1, vl.2, va., vc., cb.
 Soloists: S./cl., Bar./trb."
-28,1914–16,CNW 28,76,"Symfoni nr. 4, op. 29 ""Det uudslukkelige""","Symphony No. 4, op. 29 ""The Inexstinguishable""",Symphony,,,"1. Allegro
+28,1914–16,CNW 28,FS 76,"Symfoni nr. 4, op. 29 ""Det uudslukkelige""","Symphony No. 4, op. 29 ""The Inexstinguishable""",Symphony,,,"1. Allegro
 2. Poco allegretto
 3. Poco adagio quasi andante
 4. Allegro","2 fl./picc., fl./fl.picc., 3 ob., 3 cl., 2 fg., fg./cfg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., timp., vl.1, vl.2, va., vc., cb."
-29,1920–22,CNW 29,97,"Symfoni nr. 5, op. 50","Symphony No. 5, op. 50",Symphony,,,"1. Tempo giusto. Adagio
+29,1920–22,CNW 29,FS 97,"Symfoni nr. 5, op. 50","Symphony No. 5, op. 50",Symphony,,,"1. Tempo giusto. Adagio
 2. Allegro. Presto. Andante poco tranquillo. Allegro (Tempo I)","2 fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., ptti., tbno., trgl., tamb.picc., cel., vl.1, vl.2, va., vc., cb."
-30,1924–25,CNW 30,116,"Symfoni nr. 6 ""Sinfonia semplice""",Symphony No. 6,Symphony,,,"1. Tempo giusto
+30,1924–25,CNW 30,FS 116,"Symfoni nr. 6 ""Sinfonia semplice""",Symphony No. 6,Symphony,,,"1. Tempo giusto
 2. Allegretto
 3. Proposta seria. Adagio
 4. Tema med variationer. Allegro","fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., tb., timp., trgl., ptto.sosp., tamb.picc., gr.c., cmplli., xil., vl.1, vl.2, va., vc., cb."
 31,1887,CNW 31,,Andante tranquillo e Scherzo,Andante tranquillo e Scherzo,,,,"1. Andante tranquillo
 2. Scherzo. Presto","vl.1, vl.2, va., vc., cb."
-32,1888–89,CNW 32,6,"Suite for strygeorkester, opus 1","Suite for String Orchestra, Opus 1",,,,"1. Præludium. Andante con moto
+32,1888–89,CNW 32,FS 6,"Suite for strygeorkester, opus 1","Suite for String Orchestra, Opus 1",,,,"1. Præludium. Andante con moto
 2. Intermezzo. Allegro moderato
 3. Finale. Andante con moto",
-33,1888,CNW 33,7,Symfonisk Rhapsodi,"Symphonic Rhapsody, for Orchestra",,,,Allegro,"2 fl., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., tb., timp., vl.1, vl.2, va., vc., cb"
-34,1903,CNW 34,32,"Helios, opus 17","Helios, opus 17",Overture,,,Andante tranquillo. Allegro ma non troppo. Presto. Tempo I (allegro ma non troppo). Andante tranquillo,"2 fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., vl.1, vl.2, va., vc., cb."
-35,1907–08,CNW 35,46,"Saga-Drøm, opus 39, for orkester","Saga Dream, Opus 39, for Orchestra",,,,"Andante tranquillo
+33,1888,CNW 33,FS 7,Symfonisk Rhapsodi,"Symphonic Rhapsody, for Orchestra",,,,Allegro,"2 fl., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., tb., timp., vl.1, vl.2, va., vc., cb"
+34,1903,CNW 34,FS 32,"Helios, opus 17","Helios, opus 17",Overture,,,Andante tranquillo. Allegro ma non troppo. Presto. Tempo I (allegro ma non troppo). Andante tranquillo,"2 fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., vl.1, vl.2, va., vc., cb."
+35,1907–08,CNW 35,FS 46,"Saga-Drøm, opus 39, for orkester","Saga Dream, Opus 39, for Orchestra",,,,"Andante tranquillo
 Contained in CNW 18","3 fl., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., ptto.sosp., cmplli., vl.1, vl.2, va., vc., cb."
-36,1910,CNW 36,58,"Ved en ung Kunstners Baare
+36,1910,CNW 36,FS 58,"Ved en ung Kunstners Baare
 for strygeorkester","At the Bier of a Young Artist, for String Orchestra",,,,Andante lamentoso,"vl.1, vl.2, va., vc., cb."
-37,1912,CNW 37,63,"Nærmere Gud til dig, Parafrase for blæseorkester","Nearer My God to Thee, Paraphrase for Wind Band",,,,Andante,"2 fl., 2 fl.picc., 2 ob., 6 cl., 2 fg., 4 cor., 8 tr., 2 flic.sopr., 2 flic.ctrl., 2 flic.ten., 2 flic.bar., 3 trb., 2 tb., timp., ptti., tamb.picc., gr.c., tam., 2 cb."
-38,1917–18,CNW 38,87,"Pan og Syrinx, opus 49, Naturscene for orkester","Pan and Syrinx, Opus 49, Pastoral Scene for Orchestra",,,,Andantino (quasi allegretto),"fl., fl./fl.picc., ob., ob./cor.ingl., 2 cl., 2 fg., 4 cor., 2 tr., timp., ptti., tamb., trgl., tamb.picc., rgnlla., cmplli., xil., vl.1, vl.2, va., vc., cb."
-39,1927,CNW 39,123,"Rhapsodisk ouverture, En fantasirejse til Færøerne","Rhapsody Overture, An Imaginary Journey to the Faroe Islands",,,,Andante sostenuto,"2 fl., fl. / fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., timp., trgl., ptto.sosp., tamb.picc., gr.c., vl.1, vl.2, va., vc., cb."
+37,1912,CNW 37,FS 63,"Nærmere Gud til dig, Parafrase for blæseorkester","Nearer My God to Thee, Paraphrase for Wind Band",,,,Andante,"2 fl., 2 fl.picc., 2 ob., 6 cl., 2 fg., 4 cor., 8 tr., 2 flic.sopr., 2 flic.ctrl., 2 flic.ten., 2 flic.bar., 3 trb., 2 tb., timp., ptti., tamb.picc., gr.c., tam., 2 cb."
+38,1917–18,CNW 38,FS 87,"Pan og Syrinx, opus 49, Naturscene for orkester","Pan and Syrinx, Opus 49, Pastoral Scene for Orchestra",,,,Andantino (quasi allegretto),"fl., fl./fl.picc., ob., ob./cor.ingl., 2 cl., 2 fg., 4 cor., 2 tr., timp., ptti., tamb., trgl., tamb.picc., rgnlla., cmplli., xil., vl.1, vl.2, va., vc., cb."
+39,1927,CNW 39,FS 123,"Rhapsodisk ouverture, En fantasirejse til Færøerne","Rhapsody Overture, An Imaginary Journey to the Faroe Islands",,,,Andante sostenuto,"2 fl., fl. / fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., timp., trgl., ptto.sosp., tamb.picc., gr.c., vl.1, vl.2, va., vc., cb."
 40,1928,CNW 40,,"Bøhmisk-Dansk Folketone, Parafrase for strygeorkester","Bohemian-Danish Folk Song, Paraphrase for String Orchestra",,,,Andante con moto,"vl.1, vl.2, va., vc., cb."
-41,1911–12,CNW 41,61,"Koncert for violin og orkester, op. 33","Concerto for Violin and Orchestra, op. 33",Concerto,,,"1. Largo - Allegro cavallerésco
+41,1911–12,CNW 41,FS 61,"Koncert for violin og orkester, op. 33","Concerto for Violin and Orchestra, op. 33",Concerto,,,"1. Largo - Allegro cavallerésco
 2. Poco adagio - Allegretto scherzando","fl., fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 2 tr., 2 trb.t., trb.b., timp., vl.1, vl.2, va., vc., cb.
 Soloist: vl."
-42,1926,CNW 42,119,Koncert for fløjte og orkester,Concerto for Flute and Orchestra,Concerto,,,"1. Allegro moderato
+42,1926,CNW 42,FS 119,Koncert for fløjte og orkester,Concerto for Flute and Orchestra,Concerto,,,"1. Allegro moderato
 2. Allegretto, un poco","2 ob., 2 cl., 2 fg., 4 cor., trb.b., timp., vl.1, vl.2, va., vc., cb.
 Soloist: fl."
-43,1928,CNW 43,129,"Koncert for klarinet og orkester, op. 57","Concerto for Clarinet and Orchestra, Opus 57",Concerto,,,"1. Allegretto un poco
+43,1928,CNW 43,FS 129,"Koncert for klarinet og orkester, op. 57","Concerto for Clarinet and Orchestra, Opus 57",Concerto,,,"1. Allegretto un poco
 2. Poco adagio
 3. Allegro non troppo
 4. Allegro vivace","2 fg., 2 cor., tamb.picc., vl.1, vl.2, va., vc., cb.
 Soloist: cl."
-44,1870-1881,CNW 44,1,"Polka, for violin","Polka, for violin",,,,,vl
+44,1870-1881,CNW 44,FS 1,"Polka, for violin","Polka, for violin",,,,,vl
 45,1890,CNW 45,,Grüss,Greeting,,G major,,Andante,vl
-46,1927–28,CNW 46,104,"Præludium og tema med variationer, opus 48","Prelude, Theme and Variations, Opus 48, for Solo Violin",,,,"Prelude. Theme
+46,1927–28,CNW 46,FS 104,"Præludium og tema med variationer, opus 48","Prelude, Theme and Variations, Opus 48, for Solo Violin",,,,"Prelude. Theme
 Poco adagio e con fantasia. Andante",vl
-47,1927–28,CNW 47,128,"Preludio e Presto, opus 52, for soloviolin","Preludio e Presto, Opus 52, for Solo Violin",,,,"1. Preludio. Con fantasia
+47,1927–28,CNW 47,FS 128,"Preludio e Presto, opus 52, for soloviolin","Preludio e Presto, Opus 52, for Solo Violin",,,,"1. Preludio. Con fantasia
 2. Presto",vl
-48,1922–23,CNW 48,3e,Duet for violiner,Duet for Violins,Duet,,,"1. Allegro
+48,1922–23,CNW 48,FS 3e,Duet for violiner,Duet for Violins,Duet,,,"1. Allegro
 2. Andante
 3. Rondo. Allegro vivace",
-49,1883,CNW 49,3d,"Kvartet for to violiner, bratsch og cello","Quartet for 2 Violins, Viola and Cello",Quartet,D minor,,"1. Allegro vivace
+49,1883,CNW 49,FS 3d,"Kvartet for to violiner, bratsch og cello","Quartet for 2 Violins, Viola and Cello",Quartet,D minor,,"1. Allegro vivace
 2. Andante
 3. Scherzo - Trio - Scherzo. Allegro
 4. Finale. Allegro molto",
-50,1887–88,CNW 50,3k,"Sats for to violiner, bratsch og cello","Movement for 2 Violins, Viola and Cello",Quartet,F major,,Allegro,
-51,1887–88,CNW 51,3k,"Sats for to violiner, bratsch og cello","Movement for 2 Violins, Viola and Cello",Quartet,F major,,Allegro molto,
-52,1888,CNW 52,3c?,"Sats for to violiner, bratsch og cello","Movement for 2 Violins, Viola and Cello",Quartet,F major,,Allegro moderato,
-53,,CNW 53,3c?,Trauermarsch,Trauermarsch,March,,,,"2 Violins, Viola, Cello"
-54,,CNW 54,3c?,"Sats for to violiner, bratsch og cello","Movement for Two Violins, Viola and Cello",Quartet,F-sharp minor,,Andante sostenuto,
-55,1887–88,CNW 55,4,"Kvartet for to violiner, bratsch og cello, op. 13","Quartet for 2 Violins, Viola and Cello, op. 13",Quartet,G minor,,"1. Allegro energico (g)
+50,1887–88,CNW 50,FS 3k,"Sats for to violiner, bratsch og cello","Movement for 2 Violins, Viola and Cello",Quartet,F major,,Allegro,
+51,1887–88,CNW 51,FS 3k,"Sats for to violiner, bratsch og cello","Movement for 2 Violins, Viola and Cello",Quartet,F major,,Allegro molto,
+52,1888,CNW 52,FS 3c?,"Sats for to violiner, bratsch og cello","Movement for 2 Violins, Viola and Cello",Quartet,F major,,Allegro moderato,
+53,,CNW 53,FS 3c?,Trauermarsch,Trauermarsch,March,,,,"2 Violins, Viola, Cello"
+54,,CNW 54,FS 3c?,"Sats for to violiner, bratsch og cello","Movement for Two Violins, Viola and Cello",Quartet,F-sharp minor,,Andante sostenuto,
+55,1887–88,CNW 55,FS 4,"Kvartet for to violiner, bratsch og cello, op. 13","Quartet for 2 Violins, Viola and Cello, op. 13",Quartet,G minor,,"1. Allegro energico (g)
 2. Andante amoroso (Eb)
 3. Scherzo. Allegro molto (c)
 4. Finale. Allegro (inquieto) (g)",
-56,"1890, 1892",CNW 56,11,"Kvartet for to violiner, bratsch og cello, op. 5","Quartet for 2 Violins, Viola and Cello, op. 5",Quartet,F minor,,"1. Allegro non troppo ma energico (f)
+56,"1890, 1892",CNW 56,FS 11,"Kvartet for to violiner, bratsch og cello, op. 5","Quartet for 2 Violins, Viola and Cello, op. 5",Quartet,F minor,,"1. Allegro non troppo ma energico (f)
 2. Un poco adagio (c)
 3. Allegretto scherzando (f)
 4. Finale. Allegro appassionato (f)",
-57,1897–98,CNW 57,23,"Kvartet for to violiner, bratsch og cello, op. 14","Quartet for 2 Violins, Viola and Cello, op. 14",Quartet,E-flat major,,"1. Allegro con brio (Eb)
+57,1897–98,CNW 57,FS 23,"Kvartet for to violiner, bratsch og cello, op. 14","Quartet for 2 Violins, Viola and Cello, op. 14",Quartet,E-flat major,,"1. Allegro con brio (Eb)
 2. Andante sostenuto (Eb)
 3. Allegretto pastorale (c)
 4. Finale. Allegro coraggioso (Eb)",
-58,1906,CNW 58,36,"Kvartet for to violiner, bratsch og cello, op. 44 ""Piacevolezza""","Quartet for 2 Violins, Viola and Cello, op. 44",Quartet,F major,,"1. Allegro non tanto e comodo (F)
+58,1906,CNW 58,FS 36,"Kvartet for to violiner, bratsch og cello, op. 44 ""Piacevolezza""","Quartet for 2 Violins, Viola and Cello, op. 44",Quartet,F major,,"1. Allegro non tanto e comodo (F)
 2. Adagio con sentimento religioso (C)
 3. Allegretto moderato ed innocente (a)
 4. Molto adagio - Allegro non tanto, ma molto scherzoso (F)",
-59,1888–89,CNW 59,5,"Kvintet for to violiner, to bratscher og cello","Quintet for 2 Violins, 2 Violas and Cello",Quartet,,,"1. Allegro pastorale
+59,1888–89,CNW 59,FS 5,"Kvintet for to violiner, to bratscher og cello","Quintet for 2 Violins, 2 Violas and Cello",Quartet,,,"1. Allegro pastorale
 2. Adagio
 3. Allegretto scherzando
 4. Finale. Allegro molto","vl.1, vl.2, va.1, va.2, vc."
 60,1888,CNW 60,,Romance for violin og klaver,Romance for Violin and Piano,Duet,G major,,Andante con moto,"vl., pf."
 61,,CNW 61,,Romance for violin og klaver,Romance for Violin and Piano,Duet,D major,,Andante sostenuto,"vl., pf."
-62,1881?,CNW 62,3b,Sonate for violin og klaver,Sonata for Violin and Piano,Sonata,G major,,"1. Allegro
+62,1881?,CNW 62,FS 3b,Sonate for violin og klaver,Sonata for Violin and Piano,Sonata,G major,,"1. Allegro
 2. Andante grazioso
 3. Scherzo","vl., pf."
-63,1895,CNW 63,20,"Sonate nr. 1 for violin og klaver, op. 9","Sonata No. 1 for Violin and Piano, op. 9",Sonata,A major,,"1. Allegro glorioso
+63,1895,CNW 63,FS 20,"Sonate nr. 1 for violin og klaver, op. 9","Sonata No. 1 for Violin and Piano, op. 9",Sonata,A major,,"1. Allegro glorioso
 2. Andante
 3. Allegro piacevole e giovanile","vl., pf."
-64,1912,CNW 64,64,"Sonate nr. 2 for violin og klaver, op. 35","Sonata No. 2 for Violin and Piano, op. 35",Sonata,,,"1. Allegro con tiepidézza
+64,1912,CNW 64,FS 64,"Sonate nr. 2 for violin og klaver, op. 35","Sonata No. 2 for Violin and Piano, op. 35",Sonata,,,"1. Allegro con tiepidézza
 2. Molto adagio
 3. Allegro piacévole","vl., pf."
-65,1889–90,CNW 65,8,"Fantasistykker for obo og klaver, op. 2","Fantasy Pieces for Oboe and Piano, op. 2",Duet,,,"1. Romance. Andante con duolo
+65,1889–90,CNW 65,FS 8,"Fantasistykker for obo og klaver, op. 2","Fantasy Pieces for Oboe and Piano, op. 2",Duet,,,"1. Romance. Andante con duolo
 2. Humoresque. Allegretto scherzando","ob., pf."
-66,1880?,CNW 66,3h,Fantasistykke for klarinet og klaver,Fantasy Piece for Clarinet and Piano,Duet,,,Andante cantabile,"cl., pf."
-67,1913,CNW 67,132,Canto serioso for horn og klaver,Canto Serioso for French Horn and Piano,Duet,C major,,Andante sostenuto,"cor., pf.
+66,1880?,CNW 66,FS 3h,Fantasistykke for klarinet og klaver,Fantasy Piece for Clarinet and Piano,Duet,,,Andante cantabile,"cl., pf."
+67,1913,CNW 67,FS 132,Canto serioso for horn og klaver,Canto Serioso for French Horn and Piano,Duet,C major,,Andante sostenuto,"cor., pf.
 version in E for vc., pf."
-68,1880?,CNW 68,3i,"Trio for violin, cello og klaver","Trio for Violin, Cello and Piano",,,,"1. ...
+68,1880?,CNW 68,FS 3i,"Trio for violin, cello og klaver","Trio for Violin, Cello and Piano",,,,"1. ...
 2. Andante
 3. Allegretto grazioso","vl., vc., pf."
-69,1914,CNW 69,68,"Serenata in vano, for klarinet, fagot, horn, cello og kontrabas","Serenata in Vano, for Clarinet, Bassoon, French Horn, Cello and Double Bass",,,,Allegro non troppo ma brioso,"cl., fg., cor., vc., cb."
-70,1922,CNW 70,100,"Kvintet for fløjte, obo, klarinet, horn og fagot, opus 43","Quintet for Flute, Oboe, Clarinet, French Horn and Bassoon, Opus 43",,,,"1. Allegro ben moderato
+69,1914,CNW 69,FS 68,"Serenata in vano, for klarinet, fagot, horn, cello og kontrabas","Serenata in Vano, for Clarinet, Bassoon, French Horn, Cello and Double Bass",,,,Allegro non troppo ma brioso,"cl., fg., cor., vc., cb."
+70,1922,CNW 70,FS 100,"Kvintet for fløjte, obo, klarinet, horn og fagot, opus 43","Quintet for Flute, Oboe, Clarinet, French Horn and Bassoon, Opus 43",,,,"1. Allegro ben moderato
 2. Menuet
 3. Præludium. Tema med variationer. Adagio - Un poco andantino
 Adaptation of CNW 184","fl., ob./cor.ingl., cl., cor., fg."
-71,1918,CNW 71,77,Tre stykker for langeleg,3 Pieces for Langeleik,,,,"1. Naar Solen skinner. Allegro
+71,1918,CNW 71,FS 77,Tre stykker for langeleg,3 Pieces for Langeleik,,,,"1. Naar Solen skinner. Allegro
 2. Det tunge Budskab. Andante
 3. Som Fisken i Vandet. Allegretto",langeleik
-72,1931,CNW 72,157,Allegretto for to blokfløjter,Allegretto for Two Recorders,,,,Allegretto,2 fl.dolce
-73,1881–83?,CNW 73,3f,To karakterstykker for klaver,2 Character Pieces for Piano,,,,"1. Andante con moto (F)
+72,1931,CNW 72,FS 157,Allegretto for to blokfløjter,Allegretto for Two Recorders,,,,Allegretto,2 fl.dolce
+73,1881–83?,CNW 73,FS 3f,To karakterstykker for klaver,2 Character Pieces for Piano,,,,"1. Andante con moto (F)
 2. Andante quasi allegretto (Eb)",pf.
 74,1880-1890,CNW 74,,Norsk folkedans,Norwegian Folk Dance,,,,Allegretto,pf.
 75,1884-1886,CNW 75,,Andante,Andante,,,,Andante,pf.
@@ -209,37 +209,37 @@ Adaptation of CNW 184","fl., ob./cor.ingl., cl., cor., fg."
 78,,CNW 78,,Allegretto,Allegretto,,,,Allegretto,pf.
 79,,CNW 79,,Klaverstykke,Piano Piece,,,,,pf.
 80,1887–91,CNW 80,,Menuet,Minuet,,,,,pf.
-81,,CNW 81,10,"Fem klaverstykker, opus 3","5 Piano Pieces, Opus 3",,,,"1. Folketone. Andante
+81,,CNW 81,FS 10,"Fem klaverstykker, opus 3","5 Piano Pieces, Opus 3",,,,"1. Folketone. Andante
 2. Humoreske. Allegretto giocoso
 3. Arabeske. Moderato
 4. Mignon. Moderato grazioso
 5. Alfedans. Tempo di valse",pf.
-82,1894,CNW 82,19,"Symphonisk Suite, opus 8","Symphonic Suite, Opus 8",,,,"1. Intonation. Maestoso
+82,1894,CNW 82,FS 19,"Symphonisk Suite, opus 8","Symphonic Suite, Opus 8",,,,"1. Intonation. Maestoso
 2. Quasi allegretto
 3. Andante
 4. Finale. Allegro",pf.
-83,1897,CNW 83,22,"Humoreske-Bagateller, opus 11","Humoresque-Bagatelles, Opus 11",,,,"1. Goddag! Goddag!. Allegretto
+83,1897,CNW 83,FS 22,"Humoreske-Bagateller, opus 11","Humoresque-Bagatelles, Opus 11",,,,"1. Goddag! Goddag!. Allegretto
 2. Snurretoppen!. Presto
 3. En lille langsom Vals. Valse lento
 4. Sprællemanden. Poco allegretto
 5. Dukke-Marsch. Allegretto moderato
 6. Spilleværket. Allegretto scherzando",pf.
-84,1900,CNW 84,24,Fest-præludium ved Aarhundredskiftet,Festival Prelude for the New Century,,,,Tempo giusto,pf.
-85,1905,CNW 85,34,"Drømmen om ""Glade Jul""",A Dream about 'Silent Night',,,,Poco adagio,pf.
-86,1916–17,CNW 86,79,"Chaconne, opus 32","Chaconne, Opus 32",,,,Tempo giusto,pf.
-87,1917,CNW 87,81,"Thema med Variationer, opus 40","Theme and Variations, Opus 40",,,,Andante,pf.
-88,1919,CNW 88,91,"Suite, opus 45","Suite, opus 45",,,,"1. Allegretto un pochettino
+84,1900,CNW 84,FS 24,Fest-præludium ved Aarhundredskiftet,Festival Prelude for the New Century,,,,Tempo giusto,pf.
+85,1905,CNW 85,FS 34,"Drømmen om ""Glade Jul""",A Dream about 'Silent Night',,,,Poco adagio,pf.
+86,1916–17,CNW 86,FS 79,"Chaconne, opus 32","Chaconne, Opus 32",,,,Tempo giusto,pf.
+87,1917,CNW 87,FS 81,"Thema med Variationer, opus 40","Theme and Variations, Opus 40",,,,Andante,pf.
+88,1919,CNW 88,FS 91,"Suite, opus 45","Suite, opus 45",,,,"1. Allegretto un pochettino
 2. Poco moderato
 3. Molto adagio e patetico
 4. Allegretto innocente
 5. Allegretto vivo
 6. Allegro non troppo ma vigoroso",pf.
 89,1921-,CNW 89,,Klaverstykke,Piano Piece,,,,,pf.
-90,1928,CNW 90,131,Tre klaverstykker,3 Piano Pieces,,,,"1. Impromptu. Allegro fluente
+90,1928,CNW 90,FS 131,Tre klaverstykker,3 Piano Pieces,,,,"1. Impromptu. Allegro fluente
 2. Molto adagio
 3. Allegro non troppo",pf.
 91,1929,CNW 91,,Andantino,Andantino,,,,Andantino,pf.
-92,1929–30,CNW 92,148,"Klavermusik for Smaa og Store I & II, opus 53","Piano Music for Young and Old I & II, Opus 53",,,,"1. Allegretto 
+92,1929–30,CNW 92,FS 148,"Klavermusik for Smaa og Store I & II, opus 53","Piano Music for Young and Old I & II, Opus 53",,,,"1. Allegretto 
 2. Allegretto 
 3a. Allegro scherzoso 
 3b. Grazioso 
@@ -266,12 +266,12 @@ Adaptation of CNW 184","fl., ob./cor.ingl., cl., cor., fg."
 24. Molto adagio",pf.
 93,1929-,CNW 93,,Stykke for tasteinstrument,Piece for Keyboard Instrument,,,,,keyb.
 94,1930-1931,CNW 94,,Et lille klaverstykke,A Little Piano Piece,,,,Allegro,pf.
-95,1930-1931,CNW 95,159,Klaverstykke,Piano Piece,,,,,pf.
-96,1929,CNW 96,136,"29 smaa Præludier for Orgel eller Harmonium, opus 51","29 Little Preludes for Organ or Harmonium, Opus 51",,,,,org./arm.
+95,1930-1931,CNW 95,FS 159,Klaverstykke,Piano Piece,,,,,pf.
+96,1929,CNW 96,FS 136,"29 smaa Præludier for Orgel eller Harmonium, opus 51","29 Little Preludes for Organ or Harmonium, Opus 51",,,,,org./arm.
 97,1929,CNW 97,,Melodi,Melody,,,,Adagio,org.
-98,1931,CNW 98,137,To præludier,2 Preludes,,,,,org.
-99,1930–31,CNW 99,155,"Commotio, opus 58","Commotio, opus 58",,,,Adagio,org.
-100,1896,CNW 100,21,"Hymnus Amoris, opus 12","Hymnus Amoris, Opus 12",,,,"1. Barndom. Andantino quasi allegretto
+98,1931,CNW 98,FS 137,To præludier,2 Preludes,,,,,org.
+99,1930–31,CNW 99,FS 155,"Commotio, opus 58","Commotio, opus 58",,,,Adagio,org.
+100,1896,CNW 100,FS 21,"Hymnus Amoris, opus 12","Hymnus Amoris, Opus 12",,,,"1. Barndom. Andantino quasi allegretto
 2. Ungdom “Amor est votum meum” Molto animato
 3. Manddom “Amor est fons meus” Allegro moderato, con energia
 4. En ulykkelig kvinde “Amor est dolor meus” Molto agitato
@@ -279,6 +279,6 @@ Adaptation of CNW 184","fl., ob./cor.ingl., cl., cor., fg."
 Choir: S., A., T., B.
 Boys' choir or children's choir
 Soloists: S., S., T., Bar., B."
-101,1903–04,CNW 101,33,"Søvnen, opus 18, for kor og orkester","Sleep, Opus 18, for Choir and Orchestra",,,,"""Milde Søvn, du store Moder"" Andante tranquillo
+101,1903–04,CNW 101,FS 33,"Søvnen, opus 18, for kor og orkester","Sleep, Opus 18, for Choir and Orchestra",,,,"""Milde Søvn, du store Moder"" Andante tranquillo
 ""En Kval, en Tynge... vé mig er jeg vaagen?"" Molto agitato","fl., 2 fl./fl.picc., 2 ob., 2 cl., 2 fg., 4 cor., 3 tr., 2 trb.t., trb.b., tb., timp., tam., cmplli., vl.1, vl.2, va., vc., cb.
 Choir: S., A., T., B."
