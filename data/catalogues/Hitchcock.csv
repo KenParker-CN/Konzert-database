@@ -126,7 +126,7 @@ Pour trois voix et basse continue",Hymn,,
 60,H.60,"Hymne pour toutes les fêtes de la Vierge 
 « Ave maris stella » 
 Pour trois voix, deux dessus instrumentaux et basse continue",Hymn,,
-61,H.61,"Pour un reposoir/ Pange lingua pour 3 vx, 2 d. inst., bc",,,
+61,H.61,"Pour un reposoir/ Pange lingua pour 3 vx, 2 d. inst., bc",Hymn,,
 62,H.62,"Pange lingua pour des religieuses Pour le Port Royal 
 Pour soliste, chœur à l’unisson et basse continue",Hymn,,
 63,H. 63,"Ave maris stella 
@@ -134,7 +134,7 @@ Pour deux voix et basse continue",Hymn,,
 64,H. 64,Hymne du St Sacrement ('Pange lingua'),Hymn,,
 65,H. 65,"Ave maris stella  
 Pour solistes, chœur, cordes et basse continue",Hymn,,
-66,H. 66,"Hymne du Saint Esprit/ Veni creator [incomplet] pour 5 vx, ch. à 4, 2 fls, cordes (4), bc",,,
+66,H. 66,"Hymne du Saint Esprit/ Veni creator [incomplet] pour 5 vx, ch. à 4, 2 fls, cordes (4), bc",Hymn,,
 67,H. 67,"Ave maris stella 
 Pour six voix et basse continue",Hymn,,
 68,H. 68,"Pange lingua à 4 pour le Jeudi Saint 
@@ -165,7 +165,7 @@ Pour solistes, chœur, flûtes, cordes et basse continue",Magnificat,,
 Pour quatre voix et basse continue",Magnificat,,
 81,H.81,"Magnificat pour le Port Royal 
 Pour solistes, chœur et basse continue",Magnificat,,
-82,H.82,"Litanies de la Vierge à 3 voix pareilles pour 3 vx, bc",,,
+82,H.82,"Litanies de la Vierge à 3 voix pareilles pour 3 vx, bc",Litany,,
 83,H.83,"Litanies de la Vierge à 6 voix et deux dessus de violes 
 Pour solistes, chœur, dessus de violes et basse continue",Litany,,
 84,H.84,"Litanies de la Vierge à 3 voix pareilles avec instruments 
@@ -180,24 +180,24 @@ Pour solistes, chœur et basse continue",Litany,,
 Pour solistes, chœur et basse continue",Litany,,
 89,H.89,"Litanies de la Vierge  
 Pour solistes, chœur et basse continue",Litany,,
-90,H.90,"Courtes litanies de la Vierge à 4 voix pour 4 vx, ch.à 4, bc",,,
+90,H.90,"Courtes litanies de la Vierge à 4 voix pour 4 vx, ch.à 4, bc",Litany,,
 91,H.91,"Leçon de ténèbres 
-Pour trois voix, deux flûtes et basse continue",Leçons et répons de ténèbres,,
+Pour trois voix, deux flûtes et basse continue",Leçon de ténèbres,,
 92,H.92,"Autre leçon de ténèbres/ Troisième du Mercredi saint 
-Pour deux voix et basse continue",Leçons et répons de ténèbres,,
+Pour deux voix et basse continue",Leçon de ténèbres,,
 93,H.93,"Troisième leçon du Jeudi saint 
-Pour deux voix et basse continue",Leçons et répons de ténèbres,,
+Pour deux voix et basse continue",Leçon de ténèbres,,
 94,H.94,"Autre Jerusalem pour les leçons de ténèbres à 2 voix
 pour la seconde du Jeudi saint ""Jerusalem convertere""
-pour 2 vx, bc",,,
+pour 2 vx, bc",Leçon de ténèbres,,
 95,H.95,"Troisième leçon du Vendredi saint 
-Pour deux voix, deux dessus instrumentaux et basse continue",Leçons et répons de ténèbres,,
+Pour deux voix, deux dessus instrumentaux et basse continue",Leçon de ténèbres,,
 96,H.96,"Première leçon du Mercredi saint 
-Pour une voix et basse continue",Leçons et répons de ténèbres,,Les Neuf Leçons de ténébres
+Pour une voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
 97,H.97,"Seconde leçon du Mercredi saint 
-Pour une voix et basse continue",Leçons et répons de ténèbres,,Les Neuf Leçons de ténébres
+Pour une voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
 98,H.98,"Troisième leçon du Mercredi saint 
-Pour deux voix et basse continue",Leçons et répons de ténèbres,,Les Neuf Leçons de ténébres
+Pour deux voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
 99,H.99,"Lettres hébraïques de la première leçon de ténèbres du Vendredi saint  
 Pour trois voix, basse continue",,,
 99.1,H.99a,"Lettres hébraïques de la première leçon de ténèbres du Vendredi Saint/Première lettre 
@@ -206,7 +206,7 @@ Pour trois voix et basse continue",,,
 Pour deux violons ou deux violes, basse continue",,,
 100.1,H.100a,"Prélude devant De Lamentatione pour le Jeudi et le Vendredi Saint 
 Pour deux violons et basse continue",,,
-101,H.101,"Prélude pour la première leçon de ténèbres du Mercredi saint pour 2 d. inst., bc",,,
+101,H.101,"Prélude pour la première leçon de ténèbres du Mercredi saint pour 2 d. inst., bc",Prelude,,
 102,H.102,"Première leçon de ténèbres du Jeudi saint 
 Pour une voix et basse continue",Leçon de ténèbres,,Les Neuf Leçons de ténébres
 103,H.103,"Seconde leçon du Jeudi saint 
@@ -365,21 +365,21 @@ pour 7 vx, ch. à 8, cordes, bc",Psalm,,
 « Super flumina Babylonis » 
 Pour trois voix, deux flûtes et basse continue",Psalm,,
 171,H.171,"Super flumina / Psalmus 136 octo vocibus cum instrumentis 
-Pour solistes, double chœur, flûtes, cordes et basse continue",,,
+Pour solistes, double chœur, flûtes, cordes et basse continue",Psalm,,
 171.1,H.171a,"Prélude pour Super flumina
-pour cordes (4), bc",,,
+pour cordes (4), bc",Prelude,,
 172,H.172,"Psalmus 3us
 <Domine quid multiplicati sunt>
-pour 3 vx,2 d. inst., bc",,,
+pour 3 vx,2 d. inst., bc",Psalm,,
 173,H.173,"Miserere à deux dessus, une haute-contre et basse continue 
 Pour trois voix et basse continue",Miserere,,
 174,H.174,"Quemadmodum desiderat cervus 
 Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
 175,H.175,"< Beatus vir > (ps.1)
-pour 3 vx, 2 d. inst., bc",,,
-176,H.176,Psalm 97: (Cantate Domino canticum novum'),,,
+pour 3 vx, 2 d. inst., bc",Psalm,,
+176,H.176,Psalm 97: (Cantate Domino canticum novum'),Psalm,,
 177,H.177,"<Laudate Dominum de calis> (ps.148)
-pour 3 vx, 2 d. inst., bc",,,
+pour 3 vx, 2 d. inst., bc",Psalm,,
 178,H.178,"Psalmus Davidis centesimus vigesimus septimus 
 « Beati omnes » 
 Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
@@ -388,33 +388,33 @@ Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
 Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
 180,H.180,"Exaudiat pour le Roy 
 Pour solistes, chœur et basse continue",,,
-181,H.181,"Psalmus David 84us< Benedixisti Domine >  pour 3 vx,2 d. inst., bc",,,
+181,H.181,"Psalmus David 84us< Benedixisti Domine >  pour 3 vx,2 d. inst., bc",Psalm,,
 182,H.182,"Psalmus David centesimus sexdecimus sine organo 
 « Laudate Dominum »  
 Pour quatre voix",Psalm,,
-183,H.183,"Psalmus David 107us ”Paratum cor meum Deus » pour 3 vx, bc",,,
-184,H.184,"Psalmus David 5us [recte 2uS] “Quare fremuerunt gentes“ pour 3 vx,2 d. inst., bc",,,
-185,H.185,"Psalmus David 91us “Bonum est confiteri Domino” pour 3 vx,2 d. inst., bc",,,
+183,H.183,"Psalmus David 107us ”Paratum cor meum Deus » pour 3 vx, bc",Psalm,,
+184,H.184,"Psalmus David 5us [recte 2uS] “Quare fremuerunt gentes“ pour 3 vx,2 d. inst., bc",Psalm,,
+185,H.185,"Psalmus David 91us “Bonum est confiteri Domino” pour 3 vx,2 d. inst., bc",Psalm,,
 186,H.186,"Psalmus David octogesimus tertius 
 « Quam dilecta » 
 Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
-187,H.187,"Psalmus 86us ”Fundamenta ejus” pour 3 vx, bc",,,
-188,H.188,"Psalmus 62us “Deus Deus meus“ pour 3 vx, 2 d. inst., bc",,,
+187,H.187,"Psalmus 86us ”Fundamenta ejus” pour 3 vx, bc",Psalm,,
+188,H.188,"Psalmus 62us “Deus Deus meus“ pour 3 vx, 2 d. inst., bc",Psalm,,
 189,H.189,"De profundis 
-Pour solistes, double chœur, flûtes, cordes et basse continue",,,
+Pour solistes, double chœur, flûtes, cordes et basse continue",Psalm,,
 190,H.190,"Psalmus 109us, Dixit Dominus 8 vocibus et totidem instrumentis 
 Pour solistes, double chœur, double orchestre et basse continue",Psalm,,
 191,H.191,"Psalmus 147  
 « Lauda Jerusalem Dominum » 
 Pour solistes, double chœur, cordes et basse continue",Psalm,,
 192,H.192,"""omnes gentes"" ps. 46
-pour 3 vx, 2 d. inst, bc",,,
+pour 3 vx, 2 d. inst, bc",Psalm,,
 193,H.193,"Psalmus David 50mus 
 « Miserere des Jésuites » 
 Pour solistes, chœur, deux violons, et basse continue",Psalm,,
-194,H.194,"Psalmus David 99us « Jubilate Deo » pour 3 vx, 2 d. inst., bc",,,
+194,H.194,"Psalmus David 99us « Jubilate Deo » pour 3 vx, 2 d. inst., bc",Psalm,,
 195,H.195,"Bonum est confiteri Domino / Psalmus David 91us 
-Pour solistes, chœur, deux dessus de viole et basse continue",,,
+Pour solistes, chœur, deux dessus de viole et basse continue",Psalm,,
 196,H.196,"Psalmus David 12us 
 « Usquequo Domine » 
 Pour quatre voix, flûtes et basse continue",Psalm,,
@@ -422,22 +422,22 @@ Pour quatre voix, flûtes et basse continue",Psalm,,
 « Dixit Dominus » 
 Pour solistes, chœur et basse continue",Psalm,,
 197.1,H.197a,"Prélude pour le 
-premier Dixit Dominus pour 2 d. inst., bc",,,
-198,H.198,"Psalmus David 4us « Cum invocarem » pour 5 vx, ch. à 4, fls, cordes (4), bc",,,
-199,H.199,Psalm 3: ('Beatus vir qui timet Dominum'),,,
-200,H.200,"Psalmus David 110us/ Confitebor pour 5 vx, ch. à 4, bc",,,
+premier Dixit Dominus pour 2 d. inst., bc",Psalm,,
+198,H.198,"Psalmus David 4us « Cum invocarem » pour 5 vx, ch. à 4, fls, cordes (4), bc",Psalm,,
+199,H.199,Psalm 3: ('Beatus vir qui timet Dominum'),Psalm,,
+200,H.200,"Psalmus David 110us/ Confitebor pour 5 vx, ch. à 4, bc",Psalm,,
 200.1,H.200a,"Prélude pour le premier 
 Confitebor  pour 2 d. inst., bc",Prelude,,
-201,H.201,"Psalmus David 34us « Judica Domine » pour 4 vx, 2 d. inst., bc",,,
+201,H.201,"Psalmus David 34us « Judica Domine » pour 4 vx, 2 d. inst., bc",Psalm,,
 202,H.202,"Dixit Dominus/ Psalmus David 109us 
-Pour solistes, chœur, flûtes, hautbois, cordes et basse continue",,,
+Pour solistes, chœur, flûtes, hautbois, cordes et basse continue",Psalm,,
 203,H.203,Psalmus supra centesimum duodecimus,Psalm,,
 203.1,H.203a,"Prélude pour Laudate pueri à 4 voix sans instruments en G re sol naturel 
 Pour solistes, chœur et basse continue",Prelude,,
 204,H.204,"Psaume 109 
 « Dixit Dominus » 
 Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
-205,H.205,"Gloria Patri pour le De profundis en C sol ut bémol à quatre voix, 4 violons et flûtes",,,
+205,H.205,"Gloria Patri pour le De profundis en C sol ut bémol à quatre voix, 4 violons et flûtes",Psalm,,
 206,H.206,"Psalmus David 5tus post septuagesimum 
 « Notus in Judæa » 
 Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
@@ -451,13 +451,13 @@ Pour solistes, chœur, flûtes, hautbois, cordes et basse continue",Psalm,,
 209.1,H.209a,"Prélude pour Credidi à 4 voix sans instruments C sol ut 
 Pour solistes, chœur et basse continue",Prelude,,
 210,H.210,"Lauda Jerusalem, Psalmus David 147us 
-Pour solistes, chœur et basse continue",,,
+Pour solistes, chœur et basse continue",Psalm,,
 211,H.211,"De profundis 
-Pour solistes, chœur et basse continue",,,
+Pour solistes, chœur et basse continue",Psalm,,
 212,H.212,"Psalmus David 129us quatuor vocibus « De profundis » 
 Pours solistes chœur et basse continue",Psalm,,
 213,H.213,"De profundis 
-Pour solistes, chœur et basse continue",,,
+Pour solistes, chœur et basse continue",Psalm,,
 214,H.214,"Psalmus Davidis decimus sextus post centesimum 
 « Laudate Dominum » 
 Pour solistes, chœur et basse continue",Psalm,,
@@ -466,8 +466,8 @@ Pour solistes, chœur et basse continue",Psalm,,
 Pour solistes, chœur, deux dessus instrumentaux et basse continue",Psalm,,
 216,H.216,"Psalmus Davidis CXXIus / Lætatus sum 
 Pour solistes, chœur, deux dessus instrumentaux et basse continue",Psalm,,
-217,H.217,"Psalmus David 123us « Nisi quia Dominus » pour 3 vx, ch. à 4, 2 d. inst., bc",,,
-218,H.218,"Psalmus David 45us « Deus noster refugium » pour 3 vx, ch. à 4, 2 d. inst., bc",,,
+217,H.217,"Psalmus David 123us « Nisi quia Dominus » pour 3 vx, ch. à 4, 2 d. inst., bc",Psalm,,
+218,H.218,"Psalmus David 45us « Deus noster refugium » pour 3 vx, ch. à 4, 2 d. inst., bc",Psalm,,
 219,H.219,"Miserere [ : Psalmus] 50 à 4 voix et 4 instruments
 Pour solistes, chœur, flûtes, cordes et basse continue",Psalm,,
 220,H.220,"Psalmus David 110us à 4 voix 
@@ -476,17 +476,17 @@ Pour solistes, chœur et basse continue",Psalm,,
 221,H.221,"Psalmus David 111us à 4 voix  
 « Beatus vir » 
 Pour solistes, chœur, et basse continue",Psalm,,
-222,H.222,"Court De profundis (ps.129) pour 3 vx, ch. à 4, bc",,,
+222,H.222,"Court De profundis (ps.129) pour 3 vx, ch. à 4, bc",Psalm,,
 223,H.223,"Laudate Dominum omnes gentes octo vocibus et totidem instrumentis 
-Pour solistes, double chœur, double orchestre et basse continue",,,
+Pour solistes, double chœur, double orchestre et basse continue",Psalm,,
 224,H.224,"Beatus vir qui timet Dominum omnes gentes octo vocibus et totidem instrumentis 
-Pour solistes, double chœur, double orchestre et basse continue",,,
+Pour solistes, double chœur, double orchestre et basse continue",Psalm,,
 225,H.225,"Confitebor à 4 voix et instruments 
-Pour solistes, chœur, cordes et basse continue",,,
+Pour solistes, chœur, cordes et basse continue",Psalm,,
 226,H.226,"Dixit Dominus pour le Port Royal 
-Pour solistes, chœur et basse continue",,,
+Pour solistes, chœur et basse continue",Psalm,,
 227,H.227,"Laudate Dominum omnes gentes pour le Port Royal 
-Pour solistes, chœur et basse continue",,,
+Pour solistes, chœur et basse continue",Psalm,,
 228,H.228,"Psalmus David LXX, 3e psalm du 1er nocturne du Mercredi saint 
 « In te Domine speravi » 
 Pour solistes, chœur, cordes et basse continue",Psalm,,
@@ -499,7 +499,7 @@ Pour solistes, chœur, cordes et basse continue",Psalm,,
 231,H.231,"Nisi Dominus 
 Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
 232,H.232,"De profundis 
-Pour trois voix, deux dessus instrumentaux et basse continue",,,
+Pour trois voix, deux dessus instrumentaux et basse continue",Psalm,,
 233,H.233,Ave vernum Corpus,,,
 234,H.234,"Pie Jesu
 Pour solistes, double chœur et basse continue",Motet,,
