@@ -1,71 +1,130 @@
-SORT,Catalogue,Title,Genre,Key,Work structure,Instrumentation,Note
-1,RCT 1,Premier Livre de pièces de clavecin,Suite,A minor,,Harpsichord,
-2,RCT 2,Deuxième Suite,Suite,E minor,,Harpsichord,Pièces de clavecin avec une méthode # 2
-3,RCT 3,Troisième Suite,Suite,D major,,Harpsichord,Pièces de clavecin avec une méthode #3
-4,RCT 4,Menuet en Rondeau,Minuet,C major,,Harpsichord,Pièces de clavecin avec une méthode # 1
-5,RCT 5,Quatrième Suite de de pièces de clavecin,Suite,A minor,,Harpsichord,Nouvelles suites de pièces de clavecin #1
-6,RCT 6,,Suite,G major,,Harpsichord,Nouvelles suites de pièces de clavecin #2
-7,RCT 7,Premier Concert,,C major,,Harpsichord,Pièces de clavecin en concerts #1
-8,RCT 8,Deuxième Concert,,,,Harpsichord,Pièces de clavecin en concerts #2
-9,RCT 9,Troisième Concert,,G major,,Harpsichord,Pièces de clavecin en concerts #3
-10,RCT 10,Quatrième Concert,,B-flat major,,Harpsichord,Pièces de clavecin en concerts #4
-11,RCT 11,Cinquième Concert,,,,Harpsichord,Pièces de clavecin en concerts #5
-12,RCT 12,La Dauphine,,,,,
-12.1,RCT 12bis,Les Petits marteaux,,,,,
-13,RCT 13,Deus noster refugium et virtus,,,,,Psalm 45
-14,RCT 14,In convertendo Dominus,,,,,Psalm CXXVI
-15,RCT 15,Quam dilecta tabernacula,,,,,Psalm CXXXIII
-16,RCT 16,Laboravi clamans,,,,,Psalm LXIX
-17,RCT 17,"Ah! loin de rire, pleurons",,,,,
-18,RCT 18,"Avec du vin, endormons-nous, Canon à la 4te",Canon,E major,,,
-18.1,RCT 18bis,L'épouse entre deux draps,,,,,formerly attributed to François Couperin
-19,RCT 19,"Mes chers amis, quittez vos rouges bords",,,,,
-20,RCT 20,"Réveillez-vous, dormeur sans fin",,,,,
-20.1,RCT 20bis,Si tu ne prends garde à toi,,,,,
-21.1,RCT 21.1,"L'Amante préoccupée, ou A l'objet que j'adore",,,,,
-21.2,RCT 21.2,"Lucas, pour se gausser de nous",,,,,
-21.3,RCT 21.3,"Non, non, le dieu qui sait aimer",,,,,
-21.4,RCT 21.4,"Un Bourbon ouvre sa carrière, ou Un Héros ouvre sa carrière",,,,,RCT 29
-22,RCT 22,Les Amants trahis,,,,,
-23,RCT 23,"Aquilon et Orithie, ou Enlèvement d'Orithie",,,,,
-24,RCT 24,Le berger fidèle,,,,,
-25,RCT 25,[Cantate pour le jour de la Saint-Louïs],Cantata,,,,
-26,RCT 26,L'Impatience,,,,,
-27,RCT 27,Orphée,,,,,
-28,RCT 28,Thétis,,,,,
-29,RCT 29,"Acante et Céphise, ou La Sympathie",Pastoral héroïque,,,,
-30,RCT 30,Anacréon,Ballet,,,,
-31,RCT 31,"Les Boréades, ou Abaris",Tragédie en musique,,,,
-32,RCT 32,Castor et Pollux,Tragédie en musique,,,,
-33,RCT 33,"Les courses de Tempé, Pastorale avec un divertissement",,,,,
-34,RCT 34,Daphnis et Eglé,Pastoral héroïque,,,,
-35,RCT 35,Dardanus,Tragédie en musique,,,,
-36,RCT 36,L'Endriague,,,,,
-37,RCT 37,L'enrôlement d'Arlequin,,,,,
-38,RCT 38,"Les Festes de l’Hymen et de l’Amour, ou les Dieux d’Égypte",Ballet héroïque,,,,
-39,RCT 39,Les Fêtes de Polymnie,Opéra-ballet,,,,
-40,RCT 40,Les Fêtes de Ramire,Ballet,,,,
-41,RCT 41,"Les Fêtes d'Hébé, ou Les Talents Lyriques",Opéra-ballet,,,,
-42,RCT 42,"La Guirlande, ou les Fleurs enchantées",Ballet,,,,
-43,RCT 43,Hippolite et Aricie,Tragédie en musique,,,,
-44,RCT 44,Les Indes galantes,Opéra-ballet,,,,
-45,RCT 45,Io,Ballet,,,,
-46,RCT 46,Linus,Tragédie en musique,,,,
-47,RCT 47,Lisis et Délie,Pastoral,,,,
-48,RCT 48,"La Naissance d'Osiris, ou La fête Pamilie",Ballet,,,,
-49,RCT 49,Naïs,Pastoral héroïque,,,,
-50,RCT 50,Nélée et Myrthis,Ballet,,,,
-51,RCT 51,"Les Paladins, ou Le Vénitien",Comédie lyrique,,,,
-52,RCT 52,Pigmalion,Ballet,,,,
-53,RCT 53,"Platée, ou Junon jalouse",Comédie lyrique,,,,
-54,RCT 54,La Princesse de Navarre,Comédie-ballet,,,,
-55,RCT 55,"La Robe de dissension, ou Le Faux prodige",,,,,
-55,RCT 55bis,"La Rose, ou Les Jardins de l'Hymen",,,,,
-56,RCT 56,Samson,,,,,
-57,RCT 57,"Les Sibarites, ou Sibaris",,,,,
-58,RCT 58,Anacréon,Ballet,,,,
-58.3,RCT 58.3,Les Surprises de l'Amour,Opéra-ballet,,,,
-59,RCT 59,Le Temple de la gloire,Opéra-ballet,,,,
-60,RCT 60,Zaïs,Pastoral héroïque,,,,
-61,RCT 61,Zéphire,Ballet,,,,
-62,RCT 62,Zoroastre,Tragédie en musique,,,,
+SORT,Catalogue,Title,Genre,Key,Work structure,Instrumentation,Librettist,Note
+1,RCT 1,Premier Livre de pièces de clavecin,Suite,A minor,"I. Prélude
+II. Allemande 1
+III. Allemande 2
+IV. Courante
+V. Gigue
+VI. Sarabande 1 & 2
+VII. Vénitienne
+VIII. Gavotte
+IX. Menuet",Harpsichord,,
+2,RCT 2,Deuxième Suite,Suite,E minor,"1. Allemande
+2. Courante
+3. Gigue en Rondeau
+4. Le Rappel des oiseaux
+5. 1er & 2me Rigaudon
+6. Double du 2me Rigaudon
+7. Musette en Rondeau
+8. Tambourin
+9. La Villageoise (Rondeau)",Harpsichord,,Pièces de clavecin avec une méthode # 2
+3,RCT 3,Troisième Suite,Suite,D major,"1. Les Tendres plaintes
+2. Les Niais de Sologne
+3. Les Soupirs
+4. La Joyeuse
+5. La Follette
+6. L'Entretien des Muses
+7. Les Tourbillons
+8. Les Cyclopes (Rondeau)
+9. Le Lardon (Menuet)
+10. La Boiteuse",Harpsichord,,Pièces de clavecin avec une méthode #3
+4,RCT 4,Menuet en Rondeau,Minuet,C major,,Harpsichord,,Pièces de clavecin avec une méthode # 1
+5,RCT 5,Nouvelles suites de pièces de clavecin #1,Suite,A minor,"1. Allemande 
+2. Courante 
+3. Sarabande 
+4. Les trois Mains 
+5. Fanfarinette 
+6. La Triomphante 
+7. Gavotte et Doubles",Harpsichord,,
+6,RCT 6,Nouvelles suites de pièces de clavecin #2,Suite,G major,"1. Les Tricotets (Rondeau) 
+2. L'Indifférente 
+3. Menuet 1 & 2 
+4. La Poule 
+5. Les Triolets 
+6. Les Sauvages 
+7. L'Enharmonique
+8. L'Egyptienne",Harpsichord,,
+7,RCT 7,Premier Concert,Suite,C major,"1. La Coulicam
+2. La Livri (Rondeau gracieux)
+3. Le Vézinet",Harpsichord,,Pièces de clavecin en concerts #1
+8,RCT 8,Deuxième Concert,Suite,G major,"1. La Laborde
+2. La Boucon
+3. L'Agaçante
+4. Premier Menuet – Deuxième Menuet",Harpsichord,,Pièces de clavecin en concerts #2
+9,RCT 9,Troisième Concert,Suite,G major,"1. La Lapoplinière
+2. La Timide (Rondeau gracieux 1 & 2)
+3. Tambourin 1 & 2",Harpsichord,,Pièces de clavecin en concerts #3
+10,RCT 10,Quatrième Concert,Suite,B-flat major,"1. La Pantomime
+2. L'Indiscrète
+3. La Rameau",Harpsichord,,Pièces de clavecin en concerts #4
+11,RCT 11,Cinquième Concert,Suite,D minor,"1. La Forqueray (Fugue)
+2. La Cupis
+3. La Marais",Harpsichord,,Pièces de clavecin en concerts #5
+12,RCT 12,La Dauphine,Piece,,,Harpsichord,,
+12.1,RCT 12bis,Les Petits marteaux,Piece,,,Harpsichord,,
+13,RCT 13,Deus noster refugium et virtus,Motet,,,,,Psalm 45
+14,RCT 14,In convertendo Dominus,Motet,,,,,Psalm CXXVI
+15,RCT 15,Quam dilecta tabernacula,Motet,,,,,Psalm CXXXIII
+16,RCT 16,Laboravi clamans,Motet,,,,,Psalm LXIX
+17,RCT 17,"Ah! loin de rire, pleurons",Canon,,,,,
+18,RCT 18,"Avec du vin, endormons-nous, Canon à la 4te",Canon,E major,,,,
+18.1,RCT 18bis,L'épouse entre deux draps,Canon,,,,,formerly attributed to François Couperin
+19,RCT 19,"Mes chers amis, quittez vos rouges bords",Canon,,,,,
+20,RCT 20,"Réveillez-vous, dormeur sans fin",Canon,,,,,
+20.1,RCT 20bis,Si tu ne prends garde à toi,Canon,,,,,
+21.1,RCT 21.1,"L'Amante préoccupée, ou A l'objet que j'adore",Song,,,,,
+21.2,RCT 21.2,"Lucas, pour se gausser de nous",Song,,,,,
+21.3,RCT 21.3,"Non, non, le dieu qui sait aimer",Song,,,,,
+21.4,RCT 21.4,"Un Bourbon ouvre sa carrière, ou Un Héros ouvre sa carrière",Song,,,,,from RCT 29
+22,RCT 22,Les Amants trahis,Cantata,,,,,
+23,RCT 23,"Aquilon et Orithie, ou Enlèvement d'Orithie",Cantata,,,,,
+24,RCT 24,Le Berger fidèle,Cantata,,,,,
+25,RCT 25,[Cantate pour le jour de la Saint-Louïs],Cantata,,,,,
+26,RCT 26,L'Impatience,Cantata,,,,,
+27,RCT 27,Orphée,Cantata,,,,,
+28,RCT 28,Thétis,Cantata,,,,,
+29,RCT 29,"Acante et Céphise, ou La Sympathie",Pastoral héroïque,,,,"Text: Marmontel, Jean-François",
+30,RCT 30,Anacréon,Acte de ballet,,,,"Bernard, Pierre-Joseph",
+31,RCT 31,"Les Boréades, ou Abaris",Tragédie en musique,,,,,
+32,RCT 32,Castor et Pollux,Tragédie en musique,,,,"Bernard, Pierre-Joseph",
+32,RCT 32a,Castor et Pollux,Tragédie en musique,,,,"Bernard, Pierre-Joseph",
+32,RCT 32b,"Castor et Pollux, 1754 (Le Triomphe de L'Amitié)",Tragédie en musique,,,,"Bernard, Pierre-Joseph",
+33,RCT 33,"Les courses de Tempé, Pastorale avec un divertissement",Pastorale en musique,,,,,
+34,RCT 34,Daphnis et Eglé,Pastoral héroïque,,,,,
+35,RCT 35,Dardanus,Tragédie en musique,,,,"Leclerc de La Bruère, Charles-Antoine",
+35,RCT 35a,"Dardanus, version de 1739",Tragédie en musique,,,,"Leclerc de La Bruère, Charles-Antoine",
+35,RCT 35b,"Dardanus, version de 1744",Tragédie en musique,,,,"Leclerc de La Bruère, Charles-Antoine",
+36,RCT 36,L'Endriague,Opéra comique,,,,,
+37,RCT 37,L'enrôlement d'Arlequin,Opéra comique,,,,,
+38,RCT 38,"Les Festes de l’Hymen et de l’Amour, ou les Dieux d’Égypte",Ballet héroïque,,,,"Cahusac, Louis de",
+39,RCT 39,Les Fêtes de Polymnie,Ballet héroïque,,,,"Cahusac, Louis de",
+40,RCT 40,Les Fêtes de Ramire,Acte de ballet,,,,,
+41,RCT 41,"Les Fêtes d'Hébé, ou Les Talents Lyriques",Entrée de ballet,,,,"Gautier de Montdorge, Antoine-César",
+42,RCT 42,"La Guirlande, ou les Fleurs enchantées",Acte de ballet,,,,"Marmontel, Jean-François",
+43,RCT 43,Hippolite et Aricie,Tragédie en musique,,,,"Pellegrin, Simon-Joseph",
+44,RCT 44,Les Indes galantes,Ballet héroïque,,,,"Fuzelier, Louis",
+45,RCT 45,Io,Acte de ballet,,,,,
+46,RCT 46,Linus,Tragédie en musique,,,,,
+47,RCT 47,Lisis et Délie,Pastorale en musique,,,,,
+48,RCT 48,"La Naissance d'Osiris, ou La fête Pamilie",Ballet allégorique,,,,,
+49,RCT 49,Naïs,Pastoral héroïque,,,,"Cahusac, Louis de",
+50,RCT 50,Nélée et Myrthis,Pastorale en musique,,,,,
+51,RCT 51,"Les Paladins, ou Le Vénitien",Comédie-ballet,,,,"Duplat de Monticourt, Jean-François
+",
+52,RCT 52,Pigmalion,Acte de ballet,,,,"Ballot de Sauvot, Sylvain",
+53,RCT 53,"Platée, ou Junon jalouse",Ballet bouffon,,,,"Ballot de Sauvot, Sylvain
+Valois d'Orville, Adrien-Joseph de
+Autreau, Jacques",
+54,RCT 54,La Princesse de Navarre,Comédie-ballet,,,,,
+55,RCT 55,"La Robe de dissension, ou Le Faux prodige",Opéra comique,,,,,
+55,RCT 55bis,"La Rose, ou Les Jardins de l'Hymen",Opéra comique,,,,,
+56,RCT 56,Samson,Tragédie en musique,,,,,
+57,RCT 57,"Les Sibarites, ou Sibaris",Acte de ballet,,,,"Marmontel, Jean-François",
+58,RCT 58b,"Anacréon, Version de 1757",Acte de ballet,,,,"Marmontel, Jean-François
+Bernard, Pierre-Joseph",
+58.3,RCT 58.3,Les Surprises de l'Amour,Acte de ballet,,,,,
+59,RCT 59,"Le Temple de la gloire, Version de 1745",Opéra-ballet,,,,Voltaire,
+60,RCT 60,Zaïs,Ballet héroïque,,,,"Cahusac, Louis de",
+61,RCT 61,Zéphire,Pastorale en musique,,,,,
+62,RCT 62,Zoroastre,Tragédie en musique,,,,"Cahusac, Louis de",
+62,RCT 62a,"Zoroastre, Version de 1749",Tragédie en musique,,,,"Cahusac, Louis de",
+62,RCT 62b,"Zoroastre, Version de 1756",Tragédie en musique,,,,"Cahusac, Louis de",
