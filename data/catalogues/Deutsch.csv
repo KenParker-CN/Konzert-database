@@ -32,11 +32,11 @@ SORT,Catalogue,Opus,Date,Title,Genre,Key,Work Structure,Instrumentation,Note
 19.1,D. 19A,,1810 ca,,Quartet,,,,verschollen
 19.2,D. 19B,,1812 ca,Mehrere Walzer und ein Marsch für Klavier,,,,Piano,verschollen
 20,D. 20,,,Ouvertüre in B für Streichquartett,Overture,Bb major,,String Qaurtet,verschollen
-21,D. 21,,1812,6 Variationen für Klavier,Keyboard Variation,Eb major,,Piano,verschollen
+21,D. 21,,1812,6 Variationen für Klavier,Keyboard Variations,Eb major,,Piano,verschollen
 22,D. 22,,1812,12 Menuette mit Trios für Klavier,Dance,,,Piano,verschollen
 23,D. 23,op. posth 131/3,1812,"Klaglied ""Meine Ruh ist dahin""",Lied,,,,"Strophenlied
 Text: Rochlitz, Johann Friedrich"
-24,D. 24,,1812 ?,7 Variationen für Klavier,Keyboard Variation,F major,,Piano,"Fragment, verschollen"
+24,D. 24,,1812 ?,7 Variationen für Klavier,Keyboard Variations,F major,,Piano,"Fragment, verschollen"
 24.1,D. 24A,,1812 ?,,Fugue,C major,,,
 24.2,D. 24B,,1812 ?,,Fugue,G major,,,
 24.3,D. 24C,,1812 ?,,Fugue,D minor,,,
@@ -188,7 +188,7 @@ Text: Rochlitz, Johann Friedrich"
 153,D. 153,NL 39/1,1815,Als ich sie erröten sah,,,,,
 154,D. 154,,1815,Sonate für Klavier,Sonata,E major,,Piano,Fragment
 155,D. 155,op. posth 165/3,1815,Das Bild,,,,,
-156,D. 156,,1815,10 Variationen für Klavier,Keyboard Variation,F major,,Piano,
+156,D. 156,,1815,10 Variationen für Klavier,Keyboard Variations,F major,,Piano,
 157,D. 157,,1815,Sonate für Klavier,Sonata,E major,,Piano,
 158,D. 158,,1815,Ecossaise für Klavier,Dance,D minor - F major,,Piano,
 159,D. 159,op. posth 116,1816,Die Erwartung,,,,,
@@ -623,7 +623,7 @@ Text: Rochlitz, Johann Friedrich"
 573,D. 573,op. 98/3,1817,Iphigenia,,,,,
 574,D. 574,op. posth 162,1817,Sonate für Violine und Klavier,Sonata,A major,,"Violin, Piano",
 575,D. 575,op. posth 147,1817,Sonate für Klavier,Sonata,B major,,Piano,
-576,D. 576,,1817,13 Variationen über ein Thema von Anselm Hüttenbrenner für Klavier,Keyboard Variation,A minor,,Piano,
+576,D. 576,,1817,13 Variationen über ein Thema von Anselm Hüttenbrenner für Klavier,Keyboard Variations,A minor,,Piano,
 577,D. 577,,1817,Entzückung an Laura,,,,,
 578,D. 578,NL 29/4,1817,Abschied,Lied,,,,Strophenlied
 579,D. 579,,1817,Der Knabe in der Wiege,,,,,
@@ -647,14 +647,14 @@ Text: Rochlitz, Johann Friedrich"
 595,D. 595,op. 88/2,1817,Thekla (eine Geisterstimme),,,,,
 596,D. 596,,1817,Lied eines Kindes,Lied,,,,Fragment
 597,D. 597,,1817,"Ouvertüre ""im italienischen Stile"" in C für Klavier zu 4 Händen",Overture,C major,,Piano Four Hands,
-597.1,D. 597A,,1817,Variationen für Violine,Variation,A major,,Violin,Entwurf; verschollen
+597.1,D. 597A,,1817,Variationen für Violine,Variations,A major,,Violin,Entwurf; verschollen
 598,D. 598,op. 11/1,1817,Das Dörfchen,,,,,
 598.1,D. 598A,,,Generalbaßübungen,,,,,see D. Anh. I/32
 599,D. 599,op. 75,1818,4 Polonaisen für Klavier zu 4 Händen,Dance,,,Piano Four Hands,
 600,D. 600,,1814,Menuett in cis für Klavier,Dance,C-sharp minor,,Piano,
 601,D. 601,,,Ouvertüre in B für Streichquartett,Overture,Bb major,,String Qaurtet,see D. 470
 602,D. 602,op. 27,1824 pubd,3 Marches Héroiques für Klavier zu 4 Händen,March,,,Piano Four Hands,
-603,D. 603,,,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variation,Bb major,,Piano Four Hands,see D. 968A
+603,D. 603,,,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variations,Bb major,,Piano Four Hands,see D. 968A
 604,D. 604,,1817 ?,,Piano Piece,A major,,,
 605,D. 605,,1823 ?,Fantasie für Klavier,Fantasia,C major,,Piano,
 605.1,D. 605A,,1818 ?,Fantasie für Klavier,Fantasia,C major,,Piano,"""Grazer Fantasie"""
@@ -677,7 +677,7 @@ Text: Rochlitz, Johann Friedrich"
 621,D. 621,,1818,"Deutsches Requiem ""Trauermesse""",Mass,G minor,,,
 622,D. 622,NL 21/1,1818,Der Blumenbrief,Lied,,,,Strophenlied
 623,D. 623,NL 10/3,1818,Das Marienbild,,,,,
-624,D. 624,op. 10,1818,Acht Variationen über ein französisches Lied für Klavier zu 4 Händen,Keyboard Variation,E minor,,Piano Four Hands,
+624,D. 624,op. 10,1818,Acht Variationen über ein französisches Lied für Klavier zu 4 Händen,Keyboard Variations,E minor,,Piano Four Hands,
 625,D. 625,,1818,Sonate für Klavier,Sonata,F minor,,Piano,Fragment
 626,D. 626,NL 34/2,1818,Blondel zu Marien,,,,,
 627,D. 627,op. posth 173/6,1818,Das Abendrot,,,,,
@@ -784,7 +784,7 @@ Text: Rochlitz, Johann Friedrich"
 715,D. 715,NL 38/3,1821,Versunken,,,,,
 716,D. 716,NL 14/1,1821,Grenzen der Menschheit,,,,,
 717,D. 717,op. 31,1821,Suleika II,,,,,
-718,D. 718,,1821,Variation über einen Walzer von Anton Diabelli für Klavier,Keyboard Variation,C minor,,Piano,
+718,D. 718,,1821,Variation über einen Walzer von Anton Diabelli für Klavier,Keyboard Variations,C minor,,Piano,
 719,D. 719,op. 14/2,1821,Geheimes,,,,,
 720,D. 720,op. 14/1,1821,Suleika I,,,,,
 721,D. 721,,1821,Mahomets Gesang,Lied,,,,
@@ -900,7 +900,7 @@ Text: Rochlitz, Johann Friedrich"
 799,D. 799,NL 20/1,1825,Im Abendrot,,,,,
 800,D. 800,op. 41,1825,Der Einsame,,,,,
 801,D. 801,op. 60/2,1826 pubd,Dithyrambe,,,,,
-802,D. 802,op. posth 160,1824,Variationen für Flöte und Klavier,Variation,E minor,,"Flue, Piano",
+802,D. 802,op. posth 160,1824,Variationen für Flöte und Klavier,Variations,E minor,,"Flue, Piano",
 803,D. 803,op. posth 166,1824,Oktett in F,Octet,F major,,,
 804,D. 804,op. 29,1824,,Quartet,A minor,,,
 805,D. 805,NL 22/1,1824,Der Sieg,,,,,
@@ -911,7 +911,7 @@ Text: Rochlitz, Johann Friedrich"
 810,D. 810,,1824,,Quartet,D minor,,,
 811,D. 811,op. posth 149,1824,Salve Regina,Motet,C major,,,
 812,D. 812,op. posth 140,1824,Sonate für Klavier zu 4 Händen,Sonata,C major,,Piano Four Hands,"""Grand Duo"""
-813,D. 813,op. 35,1824,Acht Variationen über ein eigenes Thema für Klavier zu 4 Händen,Keyboard Variation,Ab major,,Piano Four Hands,
+813,D. 813,op. 35,1824,Acht Variationen über ein eigenes Thema für Klavier zu 4 Händen,Keyboard Variations,Ab major,,Piano Four Hands,
 814,D. 814,,1824,4 Ländler für Klavier zu 4 Händen,Dance,,,Piano Four Hands,
 815,D. 815,op. posth 139,1824,Gebet,,,,,
 816,D. 816,,1824,3 Deutsche für Klavier,Dance,,,Piano,
@@ -1025,7 +1025,7 @@ Text: Rochlitz, Johann Friedrich"
 905,D. 905,op. 81/2,1827,An die Laute,Lied,,,,Strophenlied
 906,D. 906,NL 17/2,1827,Der Vater mit dem Kind,,,,,
 907,D. 907,op. 86,1826 ?,Romanze des Richard Löwenherz,,,,,
-908,D. 908,op. 82/1,1827,"Acht Variationen über ein Thema aus der Oper ""Marie"" von Hérold für Klavier zu 4 Händen",Keyboard Variation,,,Piano Four Hands,
+908,D. 908,op. 82/1,1827,"Acht Variationen über ein Thema aus der Oper ""Marie"" von Hérold für Klavier zu 4 Händen",Keyboard Variations,,,Piano Four Hands,
 909,D. 909,op. 96/2,1827,Jägers Liebeslied,Lied,,,,Strophenlied
 910,D. 910,NL 24/1,1827,Schiffers Scheidelied,Lied,,,,
 911,D. 911,op. 89,1827,Winterreise,,,,,
@@ -1132,7 +1132,7 @@ Text: Rochlitz, Johann Friedrich"
 966.2,D. 966B,,1819 post,Entwürfe für ein Orchesterstück,Piece,A major,,,draft
 967,D. 967,,,Fugenentwürfe für Klavier,Fugue,,,Piano,see D. 37A
 968,D. 968,,?,Allegro moderato und Andante für Klavier zu 4 Händen,Piano Piece,,,Piano Four Hands,
-968.1,D. 968A,op. posth 82/2,?,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variation,Bb major,,Piano Four Hands,früher D. 603
+968.1,D. 968A,op. posth 82/2,?,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variations,Bb major,,Piano Four Hands,früher D. 603
 968.2,D. 968B,op. posth 121,?,Deux Marches Caractéristiques für Klavier zu 4 Händen,March,C major,,Piano Four Hands,früher D 886
 969,D. 969,op. 77,1827 pubd,"12 Walzer ""Valses nobles"" für Klavier",Dance,,,Piano,
 970,D. 970,,?,6 Ländler für Klavier,Dance,,,Piano,
