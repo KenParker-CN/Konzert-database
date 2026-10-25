@@ -171,7 +171,7 @@ III. Prière. Commodo",Harmonium,
 91,R. 91,,,1875 - ,Offertoire,,E minor,Adagio,Harmonium/Organ,
 92,R. 92,,,1882,Offertoire,,F major,Maestoso,Harmonium/Organ,
 93,R. 93,,,1892,Adagio,,G major,,Organ,
-94,R. 94,,,1894-09,"Préludes et fugues (3), 1ᵉʳ Livre",,,"Ia. Prélude. Allegro moderato
+94,R. 94,99,op. 99,1894-09,"Préludes et fugues (3), 1ᵉʳ Livre",,,"Ia. Prélude. Allegro moderato
 Ib. Fugue. Dolce,legato,moderato
 IIa. Prélude. Doux et calme, sans lenteur
 IIb. Fugue. Allegretto
@@ -179,7 +179,7 @@ IIIa. Prélude. Vivace
 IIIb. Fugue. Allegro maestoso",Organ,
 95,R. 95,101,op. 101,1895,"Fantasie, op. 101",,D-flat major,Andantino - Andante - Allegro,Organ,
 96,R. 96,107,op. 107,1897-11,"Marche religieuse, op. 107",,F major,Allegro maestoso,Organ,
-97,R. 97,,,1898-02,"Préludes et fugues (3), 2ᵉ Livre",,,"Ia. Prélude. Assez lent
+97,R. 97,109,op. 109,1898-02,"Préludes et fugues (3), 2ᵉ Livre",,,"Ia. Prélude. Assez lent
 Ib. Fugue. Meme mouvement
 IIa. Prélude. Allegretto
 IIb. Fugue. Allegretto scherzando
@@ -360,7 +360,7 @@ Finale. Allegro vivace","2 flutes, 2 oboes (cor anglais), 2 clarinets, 2 bassoon
 165.5,R. 165/5,,,'1863-02,Finale. Allegro vivace,Piece,,,,
 166,R. 166,,,1863,"Spartacus, ouverture",Overture,,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns (chrom.), 2 trumpets (chrom.), 3 trombones, timpani, harp, cymbals, strings.",
 167,R. 167,,,1864,"Pamponette, polka pour orchestre",Dance,,,,
-168,R. 168,,,"1870-11 pndt
+168,R. 168,34,op. 34,"1870-11 pndt
 1871-11 orch",Marche heroïque,March,,Allegro animato,"piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 horns (chrom.), 2 trumpets (chrom.), 3 trombones, tuba, timpani, military drum, cymbals, bass drum, harps, strings.",
 169,R. 169,31,op. 31,"1871-02 pndt
 1872-03 orch","Le Rouet d'Omphale, poème symphonique, op. 31",Symphonic Poem,,Andantino - Allegro,"1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 1st and 2nd horns in D, 3rd and 4th horns in E, 2 chromatic trumpets in E, 3 trombones, timpani in E, G#, 1 cymbal ('frappe avec un tampon'), 1 triangle, bass drum (with timpani sticks), harp, strings",
@@ -386,9 +386,10 @@ Poco sostenuto","1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, I contra
 182,R. 182,,,1915-01,"Hail! California, pour orchestre, orgue et musique militaire",,,"Allegro
 Maestoso","Piccolo (or 3rd flute), 2 flutes, 2 oboes, 2 clarinets in A, 2 bassoons, contrabassoon, 4 horns in F, 4 trumpets in C, 3 trombones, double basses, timpani, cymbals, bass drum, triangle, tambour, celesta, organ, harps (added later), castanets (added later), 1st and 2nd violins, violas, violoncelles, double basses, military band.",
 183,R. 183,6,op. 6,1857,"Tarentelle, pour flûte, clarinette avec accompagnement d'orchestre ou de piano, op. 6",Tarentelle,A minor,Presto ma non troppo - Molto leggiero,"Flute solo, clarinet (A) solo, piccolo, 2 oboes, 2 bassoons, 2 horns (chrom.), 2 trumpets, 2 trombones, timpani, strings",
-184,R. 184,58,op. 58,1857 - 1858-03-03,"Concerto (2ᵉ) pour violon avec accompagnement d'orchestre ou de piano, op. 58",Concerto,C major,"Allegro moderato e maestoso
-Andante espressivo - Allegro scherzando quasi Allegretto","Violin solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, timpani, strings. 3 trombones, harp (2nd movement)",
-185,R. 185,,,1858-08 - 1858-11,Concerto (1ᵉʳ) pour piano avec accompagnement d'orchestre,Concerto,,"Andante - Allegro assai
+184,R. 184,58,op. 58,1857 - 1858-03-03,"Concerto (2ᵉ) pour violon avec accompagnement d'orchestre ou de piano, op. 58",Concerto,C major,"I. Allegro moderato e maestoso
+II. Andante espressivo
+III. Allegro scherzando quasi Allegretto","Violin solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, timpani, strings. 3 trombones, harp (2nd movement)",
+185,R. 185,17,op. 17,1858-08 - 1858-11,Concerto (1ᵉʳ) pour piano avec accompagnement d'orchestre,Concerto,,"Andante - Allegro assai
 Andante sostenuto quasi adagio
 Allegro con fuoco","Piano solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns (nat.), 2 horns (chrom.), 2 trumpets, timpani, strings",
 186,R. 186,20,op. 20,1859,"Concerto [1ᵉʳ] pour violon avec accompagnement d'orchestre, op. 20",Concerto,A major,"I. Allegro
@@ -406,15 +407,15 @@ Presto","Piano solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns (chrom.
 Andante
 Allegro n troppo","Piano solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns (chrom.), 2 trumpets (chrom.), 3 trombones, timpani, strings.",
 192,R. 192,37,op. 37,1871-03-25,"Romance pour flûte/violon avec accompagnement d'orchestre ou de piano, op. 37",Romance,D-flat major,Moderato assai,"Flute/Violin solo, 2 oboes, 2 clarinets, 2 bassoons, 4 horns (2 chrom. horns, 2 nat. horns), 2 trumpets, timpani, strings",original motif on R. 88
-193,R. 193,,,1872-11,Concerto [1ᵉʳ] pour violoncelle avec accompagnement d'orchestre ou de piano,Concerto,,"I. Allegro non troppo
+193,R. 193,33,op. 33,1872-11,Concerto [1ᵉʳ] pour violoncelle avec accompagnement d'orchestre ou de piano,Concerto,,"I. Allegro non troppo
 II. Allegretto con moto
 III. Un peu moins vite","violoncelle solo, 2 futes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns (F), 2 trumpets (F chrom.), timpani (E, A), strings",
-194,R. 194,,,-1873-02-08,"Allegro appassionato, pour violoncelle avec accompagnement de piano ou orchestre",Piece,,Allegro,"violoncelle solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, strings",
+194,R. 194,43,op. 43,-1873-02-08,"Allegro appassionato, pour violoncelle avec accompagnement de piano ou orchestre",Piece,,Allegro,"violoncelle solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, strings",
 195,R. 195,36,op. 36,1874,"Romance pour cor/violoncelle avec accompagnement d'orchestre ou de piano, op. 36",Romance,F major,Moderato,"Solo horn (or violoncelle), 2 flutes, 1 oboe, 2 clarinets, 1 bassoon, strings",
-196,R. 196,,,1874-08,Romance pour violon avec accompagnement d'orchestre ou de piano,Romance,,Allegretto,"Violin solo, 1 flute, 1 oboe, 1 clarinet, 1 bassoon, 2 horns, strings",
+196,R. 196,48,op. 48,1874-08,Romance pour violon avec accompagnement d'orchestre ou de piano,Romance,,Allegretto,"Violin solo, 1 flute, 1 oboe, 1 clarinet, 1 bassoon, 2 horns, strings",
 197,R. 197,44,op. 44,'1875-09,"Concerto (4ᵉ) pour piano avec accompagnement d'orchestre, op. 44",Concerto,C minor,"Allegro moderato - Andante
 Allegro vivace - Allegro","Piano solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, 3 trombones, timpani, strings",
-198,R. 198,,,1880-03,Concerto (3ᵉ) pour violon avec accompagnement d'orchestre ou de piano,Concerto,,"Allegro non troppo
+198,R. 198,61,op. 61,1880-03,Concerto (3ᵉ) pour violon avec accompagnement d'orchestre ou de piano,Concerto,,"Allegro non troppo
 Andantino quasi Allegretto
 Molto moderato e maestoso - Allegro non troppo","Violin solo, 2 flutes (piccolo), 2 oboes, 2 clarinets, 2 bassoons, 2 horns (chrom.), 2 trumpets (chrom.), 3 trombones, timpani, strings",
 199,R. 199,62,op. 62,1880-07,"Morceau de concert pour violon avec accompagnement d'orchestre ou de piano, op. 62",Piece,E minor,"Largemente
@@ -427,13 +428,13 @@ orch 188-02-23","Havanaise pour violon avec accompagnement d'orchestre ou de pia
 orch 1887-11","Morceau de concert pour cor avec accompagnement d'orchestre ou de piano, op. 94",Piece,F minor,Allegro moderato,"Solo horn, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 3 trombones, timpani, strings",
 204,R. 204,89,op. 89,'1891-04-01,"Africa, fantasie pour piano avec accompagnement d'orchestre, op. 89",Fantasia,,"Molto Allegro
 Andantino espressivo","Piano solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 cornets, 3 trombones, timpani, triangle, cymbals, strings",
-205,R. 205,103,op. 103,1896-03 - 1896-04,"Concerto (5ᵉ) pour piano et orchestre, F, op. 103",Concerto,F major,"Allegro animato
+205,R. 205,103,op. 103,1896-03 - 1896-04,"Concerto (5ᵉ) pour piano et orchestre, op. 103",Concerto,F major,"Allegro animato
 Andante
 Molto allegro","Piano solo, piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4horns, 2 trumpets, 3 trombones, timpani, tam-tam, strings",
 206,R. 206,119,op. 119,1902-11,"Concerto (2ᵉ) pour violoncelle et orchestre, op. 119",Concerto,D minor,"Allegro moderato e maestoso
 Allegro non troppo","violoncelle solo, 2 flutes, 2 oboes, 2 clarinets,2 bassoons, 4 horns, 2 trumpets, timpani, strings",
 207,R. 207,122,op. 122,1904,"Caprice andalous pour violon avec accompagnement d'orchestre, op. 122",Caprice,,Allegro moderato,"Violin solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, 3 trombones, timpani, harps (ad libitum), strings",
-208,R. 208,132,op. 132,'1910,"La Muse et le Poète, pour violon et violoncelle avec accompagnement d'orchestre ou de piano, op. 132",,,Andantino,"Violin and violoncelle solos, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, 3 trombones, timpani, harp, strings",
+208,R. 208,132,op. 132,1910,"La Muse et le Poète, pour violon et violoncelle avec accompagnement d'orchestre ou de piano, op. 132",,,Andantino,"Violin and violoncelle solos, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, 3 trombones, timpani, harp, strings",
 209,R. 209,154,op. 154,1918,"Morceau de concert pour arpa avec accompagnement d'orchestre, op. 154",Piece,G major,Allegro non troppo,"Harp solo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, timpani, strings",
 210,R. 210,156,op. 156,1919-03,"Cyprès et Lauriers, pour orgue et orchestre, op. 156",,,"Cyprès. Poco adagio
 Lauriers. Allegro non troppo","Organ solo, piccolo, 2 flutes, 2 oboes, 2clarinets, 2 bassoons, contrabassoon, 4 horns, 3 trumpets, 3 trombones, tuba, timpani, triangle, cymbals, drum, bass drum, harps, strings",
@@ -447,7 +448,7 @@ tarentelle. prsto","violoncello, orchestra",
 211.3,R. 211/3,,,1919,Gavotte,Dance,,,"violoncelle solo, 1 flute, 1 oboe, 2 clarinets, strings",
 211.4,R. 211/4,,,1862-1866,Romance,Romance,,,"Solo violoncelle, 2 flutes, 2 oboes, 2 clarinets (LA), 2 bassoons, strings",
 211.5,R. 211/5,,,1919,Tarentelle,Tarentelle,,,"solo violoncelle, flutes, oboes, clarinets (A), bassoons, horns (F), trumpets (C), timpani (D, A), strings",
-212,R. 212,,,1920,"Odelette, pour flûte avec accompagnement d'orchestre",,,Andantino,"Flute solo, 2 Oboes, 2 Bassoons, Strings",
+212,R. 212,162,op. 162,1920,"Odelette, pour flûte avec accompagnement d'orchestre",,,Andantino,"Flute solo, 2 Oboes, 2 Bassoons, Strings",
 213,R. 213,,,1855,Passacaglia de JS Bach,,,,"2 Flutes, 2 Oboes, oboe da caccia, 2 bassoons, tromba da tirarsi, 3 trombones, 2 harps, 2 Violins, viola, basso",
 214,R. 214,,,1858-06,Prélude de la 6ᵉ sonate de violon avec accompagnement de piano d'apres la 29ᵉ cantate de JS Bach,Prelude,,Allegro,"violin, Piano",
 215,R. 215,,,,Transcr pour piano d'apres des ouvres de JS Bach,,,,Piano,
@@ -673,96 +674,108 @@ replaced by trumpets in publication. Other instruments modified are 2 Clarinette
 308,R. 308,,,1850 (ca.),Incomplete ballet,Ballet,,,"1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 4 bassoons, 4 horns, 2 trumpets,
 triangle, cymbals, timpani, strings (B written to designate violoncellos and basses)",
 309,R. 309,,,1863,Une nuit de Cléopatre d'après Théophile Gautier,,,,,
-310,R. 310,,,,Pierrot Astrnome,,,,,
-311,R. 311,,,,,,,,,
-312,R. 312,,,,,,,,,
-313,R. 313,,,,,,,,,
-314,R. 314,,,,,,,,,
-315,R. 315,,,,,,,,,
-316,R. 316,,,,,,,,,
-317,R. 317,,,,,,,,,
-318,R. 318,,,,,,,,,
-319,R. 319,,,,,,,,,
-320,R. 320,,,,,,,,,
-321,R. 321,,,,,,,,,
-322,R. 322,,,,,,,,,
-323,R. 323,,,,,,,,,
-324,R. 324,,,,,,,,,
-325,R. 325,,,,,,,,,
-326,R. 326,,,,,,,,,
-327,R. 327,,,,,,,,,
-328,R. 328,,,,,,,,,
-329,R. 329,,,,,,,,,
-330,R. 330,,,,,,,,,
-331,R. 331,,,,,,,,,
-332,R. 332,,,,,,,,,
-333,R. 333,,,,,,,,,
-334,R. 334,,,,,,,,,
-335,R. 335,,,,,,,,,
-336,R. 336,,,,,,,,,
-337,R. 337,,,,,,,,,
-338,R. 338,,,,,,,,,
-339,R. 339,,,,,,,,,
-340,R. 340,,,,,,,,,
-341,R. 341,,,,,,,,,
-342,R. 342,,,,,,,,,
-343,R. 343,,,,,,,,,
-344,R. 344,,,,,,,,,
-345,R. 345,,,,,,,,,
-346,R. 346,,,,,,,,,
-347,R. 347,,,,,,,,,
-,,4,op. 4,,,,,,,
-,,5,op. 5,,,,,,,
-,,10,op. 10,,,,,,,
-,,12,op. 12,,,,,,,
-,,17,op. 17,,,,,,,
-,,19,op. 19,,,,,,,
-,,26,op. 26,,,,,,,
-,,33,op. 33,,,,,,,
-,,34,op. 34,,,,,,,
-,,42,op. 42,,,,,,,
-,,43,op. 43,,,,,,,
-,,45,op. 45,,,,,,,
-,,46,op. 46,,,,,,,
-,,48,op. 48,,,,,,,
-,,53,op. 53,,,,,,,
-,,54,op. 54,,,,,,,
-,,57,op. 57,,,,,,,
-,,61,op. 61,,,,,,,
-,,68,op. 68,,,,,,,
-,,69,op. 69,,,,,,,
-,,71,op. 71,,,,,,,
-,,74,op. 74,,,,,,,
-,,82,op. 82,,,,,,,
-,,84,op. 84,,,,,,,
-,,98,op. 98,,,,,,,
-,,99,op. 99,,,,,,,
-,,109,op. 109,,,,,,,
-,,113,op. 113,,,,,,,
-,,114,op. 114,,,,,,,
-,,115,op. 115,,,,,,,
-,,116,op. 116,,,,,,,
-,,118,op. 118,,,,,,,
-,,121,op. 121,,,,,,,
-,,126,op. 126,,,,,,,
-,,127,op. 127,,,,,,,
-,,128,op. 128,,,,,,,
-,,129,op. 129,,,,,,,
-,,130,op. 130,,,,,,,
-,,131,op. 131,,,,,,,
-,,134,op. 134,,,,,,,
-,,137,op. 137,,,,,,,
-,,138,op. 138,,,,,,,
-,,140,op. 140,,,,,,,
-,,141,op. 141,,,,,,,
-,,142,op. 142,,,,,,,
-,,145,op. 145,,,,,,,
-,,146,op. 146,,,,,,,
-,,147,op. 147,,,,,,,
-,,148,op. 148,,,,,,,
-,,149,op. 149,,,,,,,
-,,151,op. 151,,,,,,,
-,,159,op. 159,,,,,,,
-,,162,op. 162,,,,,,,
-,,164,op. 164,,,,,,,
-,,165,op. 165,,,,,,,
+310,R. 310,,,1907-03,Pierrot Astrnome,,,,,
+311,R. 311,,,1898,"Déjanire, musique pour la tragédie",,,,"2 military orchestras and 1 string orchestra:
+'1er Orchestre: 
+Petite Flute réb, Gde Flute ut, 1e et 2er Hautbois, Petite Clarinette en mib, 1er et 2e Gdes Clar. sib, Clar. Basse sib, Saxophones—Altos mib, Tenors sib, Baryton mib, Bassons ut, 1er et 2e Cornets sib, 1er et 2e Trompettes mib, 1er et 2 Cors mib, 4 Trombones ut, Saxhorns—soprano mib, 2 Contraltos sib, 2 Altos mib, 1er 2e Baryton sib, Saxhorn Basse sib, Contrebasse mib, Contrebasse sib, et a cordes ut, timbales mib, do, Grosse Caisse et Cymbales.' 
+28 staves.
+
+'2e Orchestre: Petite Flûte réb, Gde Flûte en ut, 1er et 2e Hautbois, Petite Clarinette mib, 1er et 2e Gdes Clar. sib, Clar. basse. sib, Saxophones—Altos mib, Tenors sib, Baryton mib, Basse sib, Bassons, 2 Cornets sib, 2 Trompettes, 2 Cors, 4 Trombones ut, Saxhorns—Soprano mib, 2 Contraltos sib, 2 Altos mib, I"" 2 Baryton sib, Saxhorn Basse sib, Contrebasse mib, Contrebasse sib, et a cordes ut, timbales mib, do, Grosse Caisse et Cymbales.' 
+[Saxophone basse is the additional instrument.] 29 staves.
+
+Final: 
+2 flutes (piccolo), 2 oboes (cor anglais), 2 clarinets (sib), 2 bassoons, 2 horns (fa), 3 trumpets (ut), 3 trombones, timpani (mib, sib), triangle, castanets, tambourine, bass drum, cymbals, harps, strings",
+312,R. 312,,,1902-01 - 1902-04,"Parysatis, Drame en trois actes et un prologue, Musique de scène — chœurs et ballet",,,,"1er orchestre d'harmonie, 
+2me orchestre d'harmonie, orchestre d'instruments à cordes, 20 harpes a pédales Érard, 25 trompettes d'harmonie, I7 trompes de chasse.
+
+Orchestra in ms. reproduced by Durand:
+1 piccolo, 2 flutes, 2 oboes, cor anglais, 2 clarinets, 1 bass clarinet, 3 bassoons, 1 contrabassoon, 4 horns, 4 trumpets, 3 trombones, I tuba, timpani, antique cymbals (crotals), bass drum, cymbals, triangle, tambourine, drums, tam-tam, 4 harps, strings",
+313,R. 313,,,1850 (ca.),Antigone (Sophocles),,,,"Flutes, oboes, clarinets (Bb), bassoons, horns (D), horns (Bb, bass), trumpets (D),violins, violas, basses (violoncellos, contrabasses)",
+314,R. 314,,,1850 (ca.),"Le Martye de Vivia (Jean Reboul), Mystère en trois actes",,,,"Piccolo, flute, 2 oboes (cor anglais), 2 clarinets, 2 bassoons, 2 horns (Eb), 2 trumpets (Eb), trombone (Bb), timpani (Eb, G), triangle, tambourine, cymbals, antique cymbals, violins, violas, basses",
+315,R. 315,,,1892-12,Romance (pour le Gil-Blas) (Émile Bergerat),,,,"tenor voice, harp",
+316,R. 316,,,1893 (ca.),Vercignétroix (Edmond Cottinet),,,,"Cor anglais, clarinets (Bb), 2 darbukas, 2 small drums, 1 large drum, trumpets (Eb)",
+317,R. 317,,,1893-10-09,Antigone (Sophocles),,,,"4 flutes, 2 oboes, 2 clarinets, cymbals, 2 harps, violins, violas, violoncellos
+
+singers: 2 choeurs, solo C-D¹",
+318,R. 318,,,1897,Psyché (Molière),,,,"tenor solo, male choir, piano accompagnement",
+319,R. 319,,,1902?,Les Burgraves (Victor Hugo),,,,"trumpet, soprano, baritone, chorus",
+320,R. 320,,,1902-12,Andromaque (Racine),,,,"piccolo, flutes (2 flutes Or 1 piccolo and 1 flute), 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets, 3 trombones, timpani, cymbals, triangle, strings (5)",
+321,R. 321,130,op. 130,1908,La Foi (Eugène Brieux),,,,"3 flutes (piccolo), 2 oboes (cor anglais), 2 clarinets, 2 bassoons, 4 horns, 3 trumpets, 3 trombones, 2 harps, harmonium, crotals, citterns, tam-tam, cymbals, bass drum, timpani (petite timbales et timbales ordinaires'), triangle, castanets, (gong, sacred bells), strings 
+
+Note: sistrums are on stage and repeat c¹",
+322,R. 322,,,1913 (ca.),La Nuite florentine (Émile Bergerat),,,,"voice, string quartet",
+323,R. 323,,,1916,On ne Bandine pas avec L'Amour (Alfred de Musset),,,,"2 flutes, 2 oboes, 2 clarinets, cor anglais, 2 bassoons, 4 horns, 2 trumpets,
+3 trombones, timpani, strings, organ, harp, chorus.",
+324,R. 324,,,1858-10,"Macbeth, Scène lyrique",,,,"Piccolo, 2 flutes, oboe, cor anglais, 2 clarinets (A), 2 bassoons, 3 kettle drums, 2 horns (E), 2 horns (C), strings (5)",
+325,R. 325,,,1859 (ca.),Roméo et Juliette,,,,"voice, Piano",
+326,R. 326,,,1859 (ca.),Hamlet,,,,"voice, Piano",
+327,R. 327,,,1859 (ca.),Antoine et Cléopetre,,,,"voice, Piano",
+328,R. 328,10,op. 10,1860-12,"Scène d'Horace (Corneille), op. 10, Mise en musique",,,,"Soprano, Baryton, Piano or Orchestra: 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 chromatic horns, 2 chromatic trumpets, 3 trombones, contrabass trombone, timpani, cymbals, bass drum, strings (5)",
+329,R. 329,116,op. 116,1900-09,"Lola (Stéphan Bordèse), op. 116, Scène dramatique en vers",,,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns (ord.), 2 horns (chrom.), 2 trumpets, 3 trombones, timpani, cymbals, tambourine, castanets, harp, strings",
+330,R. 330,,,1859-03-07,"Eglé, Pastorale",,,,"clavecin, chalumeau",
+331,R. 331,128,op. 128,1908,"L'Assassinat du Duc de Guise, op. 128",,,,"Piano, harmonium, flute, oboe, clarinet, bassoon, horn, strings (5)",
+332,R. 332,,,1857-04-01,"La Toilette de la Marquise de Présalé, Scène lyrique",,,,"soprano solo, female chorus, piano/harp",
+333,R. 333,,,1858,La Courante,,,,,
+334,R. 334,,,,"Nina Zombi, Opéra comique en deux actes",,,,,"The music, an opera-comique in 2 acts, was composed by ten musicians:
+Ch. de Beriot, Codes, Ducoing, A. Duvernoy, d'Estribaud, Ferrand, Guiraud, Joncières,
+Gaix de Mansour, and Saint-Saens, with Saint-Saens writing the finale"
+335,R. 335,,,1883,Gabriella di Vergy. Drama lirico,,,,"piano, harp",
+336,R. 336,,,,"Le Chateau de la Roche-Cardon, ou Les Cruautés du Sort, Drame bouffon en trois actes",,,,"Lyre, Bassoon",
+337,R. 337,,,,Les Heures,,,,"Piano, narrator",
+338,R. 338,,,1917,Mélodrame,,,,"harp, violin",
+339,R. 339,,,,MAÎTRE PIERRE (Gounod-Gallet),,,,,
+340,R. 340,,,1879-1895,"Frédégonde, Drame lyrique en cinq actes, with E. Guiraud",,,,"2 flutes (3 flutes), piccolo, 2 oboes, cor anglais, 2 clarinets, bass clarinet, 2 bassoons, sarusophone C.B., contrabassoon, 2 horns (nat.), 2 horns (chrom.), 4 trumpets, 3 trombones, tuba, timpani, bass drum, cymbals, triangle, drum, harps, strings",
+341,R. 341,,,1900-06,PROLOGUE for PROMéTHéE Op. 82 by Gabriel Faure,,,,"‘Orchestre d’harmonie, cordes et harpes. [Parts found; 12 1ᵉʳˢ Violons (one numbered 15), 11 2ᵉᵐᵉˢ Violons (one numbered 15), 6 Harpes (one numbered 11), 1 Gde flûte, 1 Hautbois, 1 1ᵉʳᵉ petite clarinette mi♭, 1 2ᵉᵐᵉ petite clarinette mi♭, 5 1ᵉʳᵉˢ Gᵈᵉˢ clarinettes si♭, 2 2ᵉᵐᵉˢ Gᵈᵉˢ clarinettes si♭, 2 3ᵉᵐᵉˢ Gᵈᵉˢ clarinettes si♭, 1 clarinette alto mi♭, 1 1ᵉʳᵉ et 2ᵉᵐᵉ clarinettes basses si♭ (superposées), 1 1ᵉʳ Basson ut, 1 2ᵉᵐᵉ Basson ut, 1 1ᵉʳᵉ Trompette Fa, 1 2ᵉᵐᵉ Trompette Fa, 1 Saxophone soprano Si♭, 2 Saxophones altos mi♭, 1 1ᵉʳ Saxophone ténor si♭, 1 2ᵉᵐᵉ Saxophone ténor si♭, 1 1ᵉʳ Piston si♭, 1 2ᵉ Piston si♭, 1 1ᵉʳ Bugle si♭, 1 2ᵉ Bugle si♭, 1 1ᵉʳ Trombone Ut, 1 2ᵉᵐᵉ Trombone Ut, 1 3ᵉᵐᵉ Trombone Ut, 1 4ᵉᵐᵉ Trombone Ut, 1ᵉʳ Baryton si♭, 1 2ᵉᵐᵉ Baryton si♭, 1 Saxo‑baryton mi♭, 1 Contrebasse à cordes ut, 3 Basses si♭, 1 Contrebasse mi♭, 2 Contrebasses si♭.’",
+342,R. 342,,,,RESTORATIONS OF OPERAS BY GLUCK,,,"Orphée et Euridice
+Armide
+Echo et Narcisse",,
+343,R. 343,,,1914,TRIO DES PARQUES d'HIPPOLYTE ET ARICIE de Rameau,,,,"2 Flutes, 2 oboes, 2 clarinets, 2 bassoons, 1st and 2nd violins, violas,
+violoncellos, double basses. Vocal parts: 1st, 2nd, and 3rd Parque and Pluton.",
+344,R. 344,,,1892,LE MALADE IMAGINAIRE de Charpentier (Molière),,,,"Piccolo, flute, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets,
+2 trombones, timpani (Bb, F), violins, violas, violoncellos, contrabasses, 2 mortiers (Bb, F).",
+345,R. 345,,,1892,LE SICILIEN de Lully (Molière),,,,"2 flutes, 2 oboes, 2 bassoons, 1st and 2nd violins, 3rd violins, violas,
+violoncellos, harpsichord.",
+346,R. 346,,,,"LA FILLE DU TOURNEUR D'IVOIRE, unpublished poème antique",,,,,
+347,R. 347,,,,Marcellus,,,,,
+,,12,op. 12,1858,Oratorio de Noël,,,,,
+,,4,op. 4,,Mass,,,,,
+,,5,op. 5,,Tantum ergo,,,,,
+,,19,op. 19,,Les Noces de Prométhée,,,,,
+,,26,op. 26,,Mélodies persanes,,,,,
+,,42,op. 42,,Cœli enarrant,,,,,
+,,45,op. 45,,"Le déluge, Poème biblique en trois parties",,,,,
+,,46,op. 46,,Les soldats de Gédéon,,,,,
+,,53,op. 53,,Chœurs (2) sur des poésies extraites de L'Art d'être Grande-Père de Victor Hugo,,,,,
+,,54,op. 54,,Messe de Requiem,,,,,
+,,57,op. 57,,"La Lyre et la Harpe, Poésie de Victor Hugo",,,,,
+,,68,op. 68,,Chœurs (2),,,,,
+,,69,op. 69,,Hymne à Victor Hugo,,,,,
+,,71,op. 71,,Chœurs (2),,,,,
+,,74,op. 74,,Saltarelle,,,,,
+,,82,op. 82,,"La Fiancée du timbalier, Ballade de Victor Hugo",,,,,
+,,84,op. 84,,Les Guerriers,,,,,
+,,98,op. 98,,"Pallas Athénée, Hymne pour soprano et orchestre, chanté aux Fêtes d'Orange",,,,,
+,,113,op. 113,,Chants d'automne,,,,,
+,,114,op. 114,,La Nuit,,,,,
+,,115,op. 115,,Le Feu céleste,,,,,
+,,118,op. 118,,Romance du soir,,,,,
+,,121,op. 121,,À la France,,,,,
+,,126,op. 126,,"La gloire de Corneille, Cantate pour soli, chœur et orchestre",,,,,
+,,127,op. 127,,"Praise Ye the Lord, Psaume CL",,,,,
+,,129,op. 129,,Le Matin,,,,,
+,,131,op. 131,,La Gloire,,,,,
+,,134,op. 134,,Aux aviateurs,,,,,
+,,137,op. 137,,Aux mineurs,,,,,
+,,138,op. 138,,Hymne au printemps,,,,,
+,,140,op. 140,,"La Terre promise, Oratorio en trois parties pour soli, chœur, et orchestre",,,,,
+,,141,op. 141,,Chœurs (2),,,,,
+,,142,op. 142,,Hymne au travail,,,,,
+,,145,op. 145,,Ave Maria,,,,,
+,,146,op. 146,,La Cendre rouge,,,,,
+,,147,op. 147,,Tu es Petrus,,,,,
+,,148,op. 148,,Quam Dilecta,,,,,
+,,149,op. 149,,Laudate Dominum,,,,,
+,,151,op. 151,,Chœurs (3),,,,,
+,,159,op. 159,,Hymne à la paix,,,,,
+,,164,op. 164,,Aux conquérants de l'air,,,,,
+,,165,op. 165,,Le Printemps,,,,,
