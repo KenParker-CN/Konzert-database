@@ -1,165 +1,165 @@
 SORT,Opus,Title,Genre,Key,Instrumentation,Work structure,Note
-1,op. 1,"Klaviersonate Nr. 1, Joseph Joachim gewidmet",,C-Dur,,,
-2,op. 2,"Klaviersonate Nr. 2, Clara Schumann gewidmet",,fis-Moll,,,
-3,op. 3,"Sechs Gesänge für eine Tenor- oder Sopranstimme und Klavier, Bettina von Arnim gewidmet",,,,,
-4,op. 4,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",,es-Moll,,,
-5,op. 5,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",,f-Moll,,,
-6,op. 6,"Sechs Gesänge für eine Tenor- oder Sopranstimme und Klavier, Luise und Minna Japha gewidmet",,,,,
-7,op. 7,"Sechs Gesänge für eine Singstimme und Klavier, Albert Dietrich gewidmet",,,,,
-8,op. 8,Klaviertrio Nr. 1,,H-Dur,,,
-9,op. 9,"Sechzhen Variationen für Klavier über ein Thema von Robert Schumann, Clara Schumann gewidmet",,fis-Moll,,,
-10,op. 10,"Vier Balladen für Klavier, Julius Otto Grimm gewidmet",,,,,
-11,op. 11,Serenade Nr. 1 für großes Orchester,,D-Dur,"2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2 Vl, Vla, Vc, Kb",,
+1,op. 1,"Klaviersonate Nr. 1, Joseph Joachim gewidmet",Sonata,C-Dur,,,
+2,op. 2,"Klaviersonate Nr. 2, Clara Schumann gewidmet",Sonata,fis-Moll,,,
+3,op. 3,"Sechs Gesänge für eine Tenor- oder Sopranstimme und Klavier, Bettina von Arnim gewidmet",Song,,,,
+4,op. 4,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,es-Moll,,,
+5,op. 5,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,f-Moll,,,
+6,op. 6,"Sechs Gesänge für eine Tenor- oder Sopranstimme und Klavier, Luise und Minna Japha gewidmet",Song,,,,
+7,op. 7,"Sechs Gesänge für eine Singstimme und Klavier, Albert Dietrich gewidmet",Song,,,,
+8,op. 8,Klaviertrio Nr. 1,Trio,H-Dur,,,
+9,op. 9,"Sechzhen Variationen für Klavier über ein Thema von Robert Schumann, Clara Schumann gewidmet",Keyboard Variations,fis-Moll,,,
+10,op. 10,"Vier Balladen für Klavier, Julius Otto Grimm gewidmet",Ballade,,,,
+11,op. 11,Serenade Nr. 1 für großes Orchester,Serenade,D-Dur,"2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2 Vl, Vla, Vc, Kb",,
 12,op. 12,Ave Maria für Frauenchor mit Orchester- oder Orgelbegleitung,,F-Dur,"Sopran I und II, Alt I und II, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Vl, Vla, Vc, Kb",,
-13,op. 13,Begräbnisgesang für Chor und Blasinstrumente,,c-Moll,"Sopran, Alt, Tenor, Baß I und II, 2Ob, 2Klar, 2Fg, 2Hrn, 3Pos, Tuba, Pauken",,
-14,op. 14,Acht Lieder und Romanzen für eine Singstimme und Klavier,,,,,
-15,op. 15,Klavierkonzert Nr. 1,,d-Moll,"Soloklavier, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
-16,op. 16,Serenade Nr. 2 für kleines Orchester,,A-Dur,"Piccolo, 2 Fl, 2 Ob, 2 Klar, 2 Fg, 2 Hrn, Vla, Vc, Kb",,
-17,op. 17,Vier Gesänge für Frauenchor mit Begleitung von zwei Hörnern und Harfe,,,"Soprano I und II, Alt, 2Hrn, Harfe",,
-18,op. 18,Streichsextett Nr. 1,,B-Dur,"2Vl, 2Vla, 2Vc",,
+13,op. 13,Begräbnisgesang für Chor und Blasinstrumente,Song,c-Moll,"Sopran, Alt, Tenor, Baß I und II, 2Ob, 2Klar, 2Fg, 2Hrn, 3Pos, Tuba, Pauken",,
+14,op. 14,Acht Lieder und Romanzen für eine Singstimme und Klavier,Lied,,,,
+15,op. 15,Klavierkonzert Nr. 1,Concerto,d-Moll,"Soloklavier, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
+16,op. 16,Serenade Nr. 2 für kleines Orchester,Serenade,A-Dur,"Piccolo, 2 Fl, 2 Ob, 2 Klar, 2 Fg, 2 Hrn, Vla, Vc, Kb",,
+17,op. 17,Vier Gesänge für Frauenchor mit Begleitung von zwei Hörnern und Harfe,Song,,"Soprano I und II, Alt, 2Hrn, Harfe",,
+18,op. 18,Streichsextett Nr. 1,Sextet,B-Dur,"2Vl, 2Vla, 2Vc",,
 19,op. 19,Fünf Gedichte für eine Singstimme und Klavier,,,,,
-20,op. 20,Drei Duette für Sopran und Alt mit Klavier,,,,,
-21,op. 21,Variationen für Klavier,,D-Dur,,"Nr. 1 über ein eigenes Thema (D)
+20,op. 20,Drei Duette für Sopran und Alt mit Klavier,Duet,,,,
+21,op. 21,Variationen für Klavier,Keyboard Variations,D-Dur,,"Nr. 1 über ein eigenes Thema (D)
 Nr. 2 über ein ungarisches Lied (D)",
-22,op. 22,Sieben Marienlieder für gemischten Chor a cappella,,,,,
-23,op. 23,"Variationen für Klavier zu vier Händen über ein Thema von Robert Schumann, Julie Schumann gewidmet",,Es-Dur,,,
-24,op. 24,Variationen für Klavier über ein Thema von Händel,,B-Dur,,,
-25,op. 25,"Klavierquartett Nr. 1, Baron Reinhard von Dalwigk gewidmet",,g-Moll,"Pf, Vl, Vla, Vc",,
-26,op. 26,"Klavierquartett Nr. 2, Frau Dr. Elisabeth Rösing gewidmet",,A-Dur,"Pf, Vl, Vla, Vc",,
-27,op. 27,"Der 13. Psalm ,,Herr,wie lange willst dumich [!] so gar vergessen’‘, für dreistimmigen Frauenchor mit Orgel oder Klavier",,,"Soprano I und II, Alt, Orgel/Pianoforte",,
-28,op. 28,"Vier Duette für Alt und Bariton mit Klavier, Amalie Joachim gewidmet",,,,"No. 1, Die Nonne und der Ritter, text: Eichendorff
+22,op. 22,Sieben Marienlieder für gemischten Chor a cappella,Lied,,,,
+23,op. 23,"Variationen für Klavier zu vier Händen über ein Thema von Robert Schumann, Julie Schumann gewidmet",Keyboard Variations,Es-Dur,,,
+24,op. 24,Variationen für Klavier über ein Thema von Händel,Keyboard Variations,B-Dur,,,
+25,op. 25,"Klavierquartett Nr. 1, Baron Reinhard von Dalwigk gewidmet",Quartet,g-Moll,"Pf, Vl, Vla, Vc",,
+26,op. 26,"Klavierquartett Nr. 2, Frau Dr. Elisabeth Rösing gewidmet",Quartet,A-Dur,"Pf, Vl, Vla, Vc",,
+27,op. 27,"Der 13. Psalm ,,Herr,wie lange willst dumich [!] so gar vergessen’‘, für dreistimmigen Frauenchor mit Orgel oder Klavier",Psalm,,"Soprano I und II, Alt, Orgel/Pianoforte",,
+28,op. 28,"Vier Duette für Alt und Bariton mit Klavier, Amalie Joachim gewidmet",Duet,,,"No. 1, Die Nonne und der Ritter, text: Eichendorff
 No. 2, Vor der Thür, text: anonymous (Alt-deutsch)
 No. 3, Es rauschet das Wasser, text: Goethe
 No. 4, Der Jäger und sein Liebchen, text: Hoffmann von Fallersleben",
 29,op. 29,Zwei Motetten für fünfstimmigen gemischten Chor a cappella,Motet,,"Sopran, Alt, Tenor, Baß I und II (Nr. 2, 3.Satz auch Alt I und Il)","Nr. 1, Es ist das Heil uns kommen her
 Nr. 2, Schaffe in mir, Gott, ein rein Herz",
-30,op. 30,Geistliches Lied für vierstimmigen gemischten Chor mit Begleitung der Orgel oder des Pianoforte,,,"Sopran, Alt, Tenor, Baß, Orgel/Pianoforte",,
-31,op. 31,"Drei Quartette für Sopran, Alt, Tenor, Baß und Klavier",,,,,
-32,op. 32,Neun Lieder und Gesänge für eine Singstimme und Klavier,,,,,
-33,op. 33,"Romanzen ,,Magelone-Lieder’‘ für eine Singstimme und Klavier, Julius Stockhausen gewidmet",,,,,
-34,op. 34,"Klavierquintett, der Prinzessin Anna von Hessen gewidmet",,f-Moll,"Pf, 2Vl, Vla, Vc",,
-34.2,op. 34b,"Sonate für zwei Klaviere, der Prinzessin Anna von Hessen gewidmet",,f-Moll,,,
-35,op. 35,"Studien für Klavier, Variationen über ein Thema von Paganini",,a-Moll,,,
-36,op. 36,Streichsextett Nr. 2,,G-Dur,"2Vl, 2Vla, 2Vc",,
+30,op. 30,Geistliches Lied für vierstimmigen gemischten Chor mit Begleitung der Orgel oder des Pianoforte,Lied,,"Sopran, Alt, Tenor, Baß, Orgel/Pianoforte",,
+31,op. 31,"Drei Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
+32,op. 32,Neun Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
+33,op. 33,"Romanzen ,,Magelone-Lieder’‘ für eine Singstimme und Klavier, Julius Stockhausen gewidmet",Lied,,,,
+34,op. 34,"Klavierquintett, der Prinzessin Anna von Hessen gewidmet",Quintet,f-Moll,"Pf, 2Vl, Vla, Vc",,
+34.2,op. 34b,"Sonate für zwei Klaviere, der Prinzessin Anna von Hessen gewidmet",Sonata,f-Moll,,,
+35,op. 35,"Studien für Klavier, Variationen über ein Thema von Paganini",Etude,a-Moll,,,
+36,op. 36,Streichsextett Nr. 2,Sextet,G-Dur,"2Vl, 2Vla, 2Vc",,
 37,op. 37,Drei Geistliche Chöre für Frauenchor a cappella,,,"Sopran I und II, Alt I und II, Sopran- und Altsolo in Nr.3.",,
-38,op. 38,"Sonate Nr. 1 für Klavier und Violoncello, Josef Gänsbacher gewidmet",,e-Moll,,,
+38,op. 38,"Sonate Nr. 1 für Klavier und Violoncello, Josef Gänsbacher gewidmet",Sonata,e-Moll,,,
 39,op. 39,"Walzer für mit Klavier, Eduard Hanslick gewidmet",Dance,,,,
-40,op. 40,Horntrio,,Es-Dur,"Klavier, Violine, Waldhorn (oder Violoncello oder Viola)",,
-41,op. 41,Fünf Lieder für vierstimmigen Männerchor,,,,,
-42,op. 42,Drei Gesänge für sechsstimmigen Chor a cappella,,,,"No. 1, Abendständchen, text: Brentano
+40,op. 40,Horntrio,Trio,Es-Dur,"Klavier, Violine, Waldhorn (oder Violoncello oder Viola)",,
+41,op. 41,Fünf Lieder für vierstimmigen Männerchor,Lied,,,,
+42,op. 42,Drei Gesänge für sechsstimmigen Chor a cappella,Song,,,"No. 1, Abendständchen, text: Brentano
 No. 2, Vineta, text: W. Müller
 No. 3, Darthulas Grabgesang, text: Ossian",
-43,op. 43,Vier Gesänge für eine Singstimme und Klavier,,,,,
+43,op. 43,Vier Gesänge für eine Singstimme und Klavier,Song,,,,
 44,op. 44,Zwölf Lieder und Romanzen fürvierstimmigen Frauenchor a cappella oder mit Klavier ad libitum,Lied,,,,
-45,op. 45,"Ein Deutsches Requiem nach Worten der Heiligen Schrift für Soli, Chor und Orchester (Orgel ad lib.)",,,"Sopran-Solo (Nr. 5), Bariton-Solo (Nr. 3 und 6), Chor (SATB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg (ad lib.), 4Hrn, 2Trp, 3Pos, Tuba, Pauken, Harfe (mindestens doppelt besetzt), 2Vl, Vla, 2Vc, Kb.",,
-46,op. 46,Vier Lieder für eine Singstimme und Klavier,,,,,
-47,op. 47,Fünf Lieder für eine Singstimme und Klavier,,,,,
-48,op. 48,Sieben Lieder für eine Singstimme und Klavier,,,,,
-49,op. 49,Fünf Lieder für eine Singstimme und Klavier,,,,,
-50,op. 50,"Rinaldo, Kantate von Goethe für Tenor-Solo, Männerchor und Orchester",,,"Tenor-Solo, Chor (TTBB), Picc, 2Fl, 2Ob, 2Klar, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
+45,op. 45,"Ein Deutsches Requiem nach Worten der Heiligen Schrift für Soli, Chor und Orchester (Orgel ad lib.)",Requiem,,"Sopran-Solo (Nr. 5), Bariton-Solo (Nr. 3 und 6), Chor (SATB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg (ad lib.), 4Hrn, 2Trp, 3Pos, Tuba, Pauken, Harfe (mindestens doppelt besetzt), 2Vl, Vla, 2Vc, Kb.",,
+46,op. 46,Vier Lieder für eine Singstimme und Klavier,Lied,,,,
+47,op. 47,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
+48,op. 48,Sieben Lieder für eine Singstimme und Klavier,Lied,,,,
+49,op. 49,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
+50,op. 50,"Rinaldo, Kantate von Goethe für Tenor-Solo, Männerchor und Orchester",Cantata,,"Tenor-Solo, Chor (TTBB), Picc, 2Fl, 2Ob, 2Klar, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
 51,op. 51,"Zwei Streichquartett, Theodor Billroth gewidmet",Quartet,,,"Nr. 1 c-Moll
 Nr. 2 a-Moll",
-52,op. 52,"Liebeslieder, Walzer für Gesang und Klavier zu vier Händen",,,,,
-53,op. 53,"Rhapsodie ,,Alt-Rhapsodie’‘ für eine Altstimme, Mannerchor und Orchester, Fragment aus Goethes Harzreise im Winter",,,"Alt-Solo, Chor (TTBB), 2Fl, 2Ob, 2Klar,2Fg, 2Hrn, 2Vl, Vla, Vc, Kb",,
-54,op. 54,Schicksalslied von Friedrich Hölderlin für Chor und Orchester,,,"Chor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
-55,op. 55,"Triumphlied für achtstimmigen Chor und Orchester (Orgel ad lib.), Kaiser Wilhelm I.gewidmet",,,"Bariton-Solo, Doppelchor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, Tuba, Pauken, 2Vl, Vla, Vc, Kb, Orgel ad lib",,
-56.1,op. 56a,Variationen für Orchester über ein Thema von Joseph Haydn,,B-Dur,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, Pauken, Triangel, 2Vl, Vla, Vc, Kb",,
-56.2,op. 56b,Variationen für zwei Klaviere über ein Thema von Joseph Haydn,,B-Dur,,,
-57,op. 57,Acht Lieder und Gesänge für eine Singstimme und Klavier,,,,,
-58,op. 58,Acht Lieder und Gesänge für eine Singstimme und Klavier,,,,,
-59,op. 59,Acht Lieder und Gesänge für eine Singstimme und Klavier,,,,,
-60,op. 60,Klavierquartett Nr. 3,,c-Moll,,,
-61,op. 61,Vier Duette für Sopran und Alt mit Klavier,,,,,
-62,op. 62,Sieben Lieder für eine Singstimme und Klavier,,,,,
-63,op. 63,Neun Lieder und Gesänge für eine Singstimme und Klavier,,,,,
-64,op. 64,"Drei Quartette für Sopran, Alt, Tenor, Baß und Klavier",,,,,
-65,op. 65,"Neue Liebeslieder, Walzer für vier Singstimmen und Klavier zu vier Händen",,,,,
-66,op. 66,Fünf Duette für Sopran und Alt mit Klavier,,,,,
-67,op. 67,"Streichquartett Nr. 3, Theodor Billroth gewidmet",,B-Dur,,,
-68,op. 68,Symphonie Nr. 1,,c-Moll,"2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
-69,op. 69,Neun Gesänge für eine Singstimme und Klavier,,,,,
-70,op. 70,Vier Gesänge für eine Singstimme und Klavier,,,,,
-71,op. 71,Fünf Lieder für eine Singstimme und Klavier,,,,,
-72,op. 72,Fünf Lieder für eine Singstimme und Klavier,,,,,
-73,op. 73,Symphonie Nr. 2,,D-Dur,"2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
+52,op. 52,"Liebeslieder, Walzer für Gesang und Klavier zu vier Händen",Lied,,,,
+53,op. 53,"Rhapsodie ,,Alt-Rhapsodie’‘ für eine Altstimme, Mannerchor und Orchester, Fragment aus Goethes Harzreise im Winter",Rhapsody,,"Alt-Solo, Chor (TTBB), 2Fl, 2Ob, 2Klar,2Fg, 2Hrn, 2Vl, Vla, Vc, Kb",,
+54,op. 54,Schicksalslied von Friedrich Hölderlin für Chor und Orchester,Lied,,"Chor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
+55,op. 55,"Triumphlied für achtstimmigen Chor und Orchester (Orgel ad lib.), Kaiser Wilhelm I.gewidmet",Lied,,"Bariton-Solo, Doppelchor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, Tuba, Pauken, 2Vl, Vla, Vc, Kb, Orgel ad lib",,
+56.1,op. 56a,Variationen für Orchester über ein Thema von Joseph Haydn,Variations,B-Dur,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, Pauken, Triangel, 2Vl, Vla, Vc, Kb",,
+56.2,op. 56b,Variationen für zwei Klaviere über ein Thema von Joseph Haydn,Keyboard Variations,B-Dur,,,
+57,op. 57,Acht Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
+58,op. 58,Acht Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
+59,op. 59,Acht Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
+60,op. 60,Klavierquartett Nr. 3,Quartet,c-Moll,,,
+61,op. 61,Vier Duette für Sopran und Alt mit Klavier,Duet,,,,
+62,op. 62,Sieben Lieder für eine Singstimme und Klavier,Lied,,,,
+63,op. 63,Neun Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
+64,op. 64,"Drei Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
+65,op. 65,"Neue Liebeslieder, Walzer für vier Singstimmen und Klavier zu vier Händen",Lied,,,,
+66,op. 66,Fünf Duette für Sopran und Alt mit Klavier,Duet,,,,
+67,op. 67,"Streichquartett Nr. 3, Theodor Billroth gewidmet",Quartet,B-Dur,,,
+68,op. 68,Symphonie Nr. 1,Symphony,c-Moll,"2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
+69,op. 69,Neun Gesänge für eine Singstimme und Klavier,Song,,,,
+70,op. 70,Vier Gesänge für eine Singstimme und Klavier,Song,,,,
+71,op. 71,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
+72,op. 72,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
+73,op. 73,Symphonie Nr. 2,Symphony,D-Dur,"2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
 74,op. 74,"Zwei Motetten für fünfstimmigen gemischten Chor a cappella, Philipp Spitta gewidmet",Motet,,"Nr. 1: SATB/SSATBB/SATB
 Nr. 2: SATB","Nr. 1, Warum ist das Licht gegeben dem Mühseligen
 Nr. 2, O Heiland, reiß die Himmel auf",
-75,op. 75,"Balladen und Romanzen für zwei Singstimmen und Klavier, Julius Allgeyer gewidmet",,,,,
-76,op.  76,Acht Klavierstücke,,,,,
-77,op. 77,"Violinkonzert, Joseph Joachim gewidmet",,D-Dur,"Solo-Violine, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb.",,
-78,op. 78,Violinsonate Nr. 1,,G-Dur,"Violine, Pianoforte",,
+75,op. 75,"Balladen und Romanzen für zwei Singstimmen und Klavier, Julius Allgeyer gewidmet",Ballade,,,,
+76,op.  76,Acht Klavierstücke,Piano Piece,,,,
+77,op. 77,"Violinkonzert, Joseph Joachim gewidmet",Concerto,D-Dur,"Solo-Violine, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb.",,
+78,op. 78,Violinsonate Nr. 1,Sonata,G-Dur,"Violine, Pianoforte",,
 79,op. 79,"Zwei Rhapsodie für Klavier, Elisabet von Herzogenberg gewidmet",Rhapsody,,,"Nr. 1, h-Moll
 Nr. 2, g-Moll",
-80,op. 80,Akademische Festouverture für großes Orchester,,c-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, BaBtuba, Pauken, Große Trommel, Becken, Triangel, 2Vl, Vla, Vc, Kb",,
-81,op. 81,Tragische Ouverture für Orchester,,d-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
+80,op. 80,Akademische Festouverture für großes Orchester,Overture,c-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, BaBtuba, Pauken, Große Trommel, Becken, Triangel, 2Vl, Vla, Vc, Kb",,
+81,op. 81,Tragische Ouverture für Orchester,Overture,d-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
 82,op. 82,"Nänie von Friedrich Schiller für Chor und Orchester (Harfe ad libitum), Henriette Feuerbach gewidmet",,,"Chor(SATB), 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 3Pos, Pauken, Harfe (wenn möglich mehrfach besetzt), 2Vl, Vla, Vc, Kb",,
-83,op. 83,"Klavierkonzert Nr. 2, Eduard Marxsen gewidmet",,B-Dur,"Solo-Klavier, Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
-84,op. 84,Fünf Romanzen und Lieder für eine oder zwei Singstimmen und Klavier,,,,"1. Sommerabend. „Geh schlafen Tochter, schlafen“
+83,op. 83,"Klavierkonzert Nr. 2, Eduard Marxsen gewidmet",Concerto,B-Dur,"Solo-Klavier, Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
+84,op. 84,Fünf Romanzen und Lieder für eine oder zwei Singstimmen und Klavier,Romance,,,"1. Sommerabend. „Geh schlafen Tochter, schlafen“
 2. Der Kranz. „Mutter half mir armen Tochter“
 3. In den Beeren. „Singe, Mädchen, hell und klar“
 4. Vergebliches Ständchen. „Guten Abend, mein Schatz“
 5. Spannung. „Gut’n Abend mein tausiger Schatz“",
-85,op. 85,Sechs Lieder für eine Singstimme und Klavier,,,,"1. Sommerabend — „Dämmernd liegt der Sommerabend“
+85,op. 85,Sechs Lieder für eine Singstimme und Klavier,Lied,,,"1. Sommerabend — „Dämmernd liegt der Sommerabend“
 2. Mondenschein — „Nacht liegt auf den fremden Wegen“
 3. Mädchenlied — „Ach, und du, mein kühles Wasser“
 4. Ade! — „Wie schienen die Sterne so hell“
 5. Frühlingslied — „Mit geheimnisvollen Düften“
 6. In Waldeseinsamkeit — „Ich saß zu Deinen Füßen“",
-86,op. 86,Sechs Lieder für eine tiefere Stimme und Klavier,,,,"1. Therese — „Du milchjunger Knabe“
+86,op. 86,Sechs Lieder für eine tiefere Stimme und Klavier,Lied,,,"1. Therese — „Du milchjunger Knabe“
 2. Feldeinsamkeit — „Ich ruhe still im hohen grünen Gras“
 3. Nachtwandler — „Störe nicht den leisen Schlummer“
 4. Ueber die Haide — „Ueber die Haide hallet mein Schritt“
 5. Versunken — „Es brausen der Liebe Wogen“
 6. Todessehnen — „Ach, wer nimmt von meiner Seele“",
-87,op. 87,Klaviertrio Nr. 2,,C-Dur,,,
-88,op. 88,Streichquintett Nr. 1,,F-Dur,"2Vl, 2Vla, Vc",,
-89,op. 89,"Gesang der Parzen von Goethe für sechsstimmigen Chor und Orchester, Herzog Georg von Sachsen-Meiningen gewidmet",,,"Chor(SAATBB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
-90,op. 90,Symphonie Nr. 3,,F-Dur,"2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
+87,op. 87,Klaviertrio Nr. 2,Trio,C-Dur,,,
+88,op. 88,Streichquintett Nr. 1,Quintet,F-Dur,"2Vl, 2Vla, Vc",,
+89,op. 89,"Gesang der Parzen von Goethe für sechsstimmigen Chor und Orchester, Herzog Georg von Sachsen-Meiningen gewidmet",Song,,"Chor(SAATBB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
+90,op. 90,Symphonie Nr. 3,Symphony,F-Dur,"2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
 91,op. 91,"Zwei Gesänge für eine Altstimme, Viola und Klavier",Song,,,,
-92,op. 92,"Vier Quartette für Sopran, Alt, Tenor, Baß und Klavier",,,,,
-93.1,op. 93a,Sechs Lieder und Romanzen für vierstimmigen gemischten Chor a cappella,,,,,
-93.2,op. 93b,"Tafellied ,,Dank der Damen’’ von Joseph von Eichendorff für sechsstimmigen gemischten Chor und Klavier, Den Freunden in Krefeld gewidmet",,,,,
-94,op. 94,Fünf Lieder für eine tiefe Stimme und Klavier,,,,"1. Mit vierzig Jahren
+92,op. 92,"Vier Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
+93.1,op. 93a,Sechs Lieder und Romanzen für vierstimmigen gemischten Chor a cappella,Lied,,,,
+93.2,op. 93b,"Tafellied ,,Dank der Damen’’ von Joseph von Eichendorff für sechsstimmigen gemischten Chor und Klavier, Den Freunden in Krefeld gewidmet",Lied,,,,
+94,op. 94,Fünf Lieder für eine tiefe Stimme und Klavier,Lied,,,"1. Mit vierzig Jahren
 2. Steig’ auf, geliebter Schatten
 3. Mein Herz ist schwer
 4. Sapphische Ode
 5. Kein Haus, keine Heimath (aus einem Drama)",
-95,op. 95,Sieben Lieder für gemischten Chor,,,"Nr. 1, 4, 6, 7 (SATB)
+95,op. 95,Sieben Lieder für gemischten Chor,Lied,,"Nr. 1, 4, 6, 7 (SATB)
 Nr. 2 (SSAATTBB)
 Nr. 3 (SATBB)
 Nr. 5 (SAATBB)",,
-96,op. 96,Vier Lieder für eine Singstimme und Klavier,,,,,
-97,op. 97,Sechs Lieder für eine Singstimme und Klavier,,,,,
-98,op. 98,Symphonie Nr. 4,,e-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, Triangel, 2 Vl, Vla, Vc, Kb",,
-99,op. 99,Sonate Nr. 2 für Klavier und Violoncello,,F-Dur,,,
-100,op. 100,Violinsonate Nr. 2,,A-Dur,,,
-101,op. 101,Klaviertrio Nr. 3,,c-Moll,,,
-102,op. 102,Konzert (Doppelkonzert) für Violine und Violoncello mit Orchester,,a-Moll,"Solo-Violine und Solo-Cello, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
+96,op. 96,Vier Lieder für eine Singstimme und Klavier,Lied,,,,
+97,op. 97,Sechs Lieder für eine Singstimme und Klavier,Lied,,,,
+98,op. 98,Symphonie Nr. 4,Symphony,e-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, Triangel, 2 Vl, Vla, Vc, Kb",,
+99,op. 99,Sonate Nr. 2 für Klavier und Violoncello,Sonata,F-Dur,,,
+100,op. 100,Violinsonate Nr. 2,Sonata,A-Dur,,,
+101,op. 101,Klaviertrio Nr. 3,Trio,c-Moll,,,
+102,op. 102,Konzert (Doppelkonzert) für Violine und Violoncello mit Orchester,Concerto,a-Moll,"Solo-Violine und Solo-Cello, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
 103,op. 103,Zigeunerlieder für eine Singstimme und Klavier,Lied,,,,
-104,op. 104,Fünf Gesänge für eine Singstimme und Klavier,,,,,
-105,op. 105,Fünf Lieder für eine tiefe Stimme und Klavier,,,,,
+104,op. 104,Fünf Gesänge für eine Singstimme und Klavier,Song,,,,
+105,op. 105,Fünf Lieder für eine tiefe Stimme und Klavier,Lied,,,,
 108,op. 108,"Violinsonate Nr. 3, Hans von Bülow gewidmet",Sonata,d-Moll,,,
 109,op. 109,"Fest- und Gedenksprüche für achtstimmigen Chor a cappella, Carl Petersen gewidmet",,,,,
-110,op. 110,Drei Motetten für vier- und achtstimmigen Chor a cappella,,,"Nr. 1, 3: Doppelchor (SATB, SATB)
+110,op. 110,Drei Motetten für vier- und achtstimmigen Chor a cappella,Motet,,"Nr. 1, 3: Doppelchor (SATB, SATB)
 Nr. 2: Vierstimmiger Chor (SATB)",,
-111,op. 111,Streichquintett Nr. 2,,G-Dur,,,
-112,op. 112,"Sechs Quartette für Sopran, Alt, Tenor, Baß und Klavier",,,,,
-113,op. 113,Dreizehn Kanons für Frauenstimmen,,,,,
-114,op. 114,Klarinettentrio,,a-Moll,"Pianoforte, Clarinet/Viola, Violoncello",,
-115,op. 115,Klarinettenrquintett,,h-Moll,"Clarinet/Viola, 2 Violins, Viola, Violoncello",,
-116,op. 116,Sieben Fantasien für Klavier,,,,,
+111,op. 111,Streichquintett Nr. 2,Quintet,G-Dur,,,
+112,op. 112,"Sechs Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
+113,op. 113,Dreizehn Kanons für Frauenstimmen,Canon,,,,
+114,op. 114,Klarinettentrio,Trio,a-Moll,"Pianoforte, Clarinet/Viola, Violoncello",,
+115,op. 115,Klarinettenrquintett,Quintet,h-Moll,"Clarinet/Viola, 2 Violins, Viola, Violoncello",,
+116,op. 116,Sieben Fantasien für Klavier,Fantasia,,,,
 117,op. 117,Drei Intermezzi für Klavier,,,,,
-118,op. 118,Sechs Klavierstücke,,,,,
-119,op. 119,Vier Klavierstücke,,,,,
+118,op. 118,Sechs Klavierstücke,Piano Piece,,,,
+119,op. 119,Vier Klavierstücke,Piano Piece,,,,
 120,op. 120,Zwei Sonaten für Klavier und Klarinette (oder Bratsche),Sonata,,,"Nr. 1, f-Moll 
 Nr. 2, Es-Dur",
-121,op. 121,"Vier Ernste Gesänge für eine Baßstimme und Klavier, Max Klinger gewidmet",,,,,
-122,op. 122,Elf Choralvorspiele für Orgel,,,,,
-999.01,WoO 1,Ungarische Tänze,,,"1. Piano Four Hands
+121,op. 121,"Vier Ernste Gesänge für eine Baßstimme und Klavier, Max Klinger gewidmet",Song,,,,
+122,op. 122,Elf Choralvorspiele für Orgel,Choralvorspiel,,,,
+999.01,WoO 1,Ungarische Tänze,Dance,,"1. Piano Four Hands
 2. Solo Piano [Nr. 1-10]
 3. Orchestration [Nr. 1, 3, 10]: Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, Triangel, Große Trommel und Becken, 2Vl, Vla, Vc, Kb",,
-999.02,WoO 2,"Scherzo ,,F.A.E.-Sonate‘‘ für Klavier und Violine",,c-Moll,,,
+999.02,WoO 2,"Scherzo ,,F.A.E.-Sonate‘‘ für Klavier und Violine",Scherzo,c-Moll,,,
 999.03,WoO 3,Zwei Gavotten für Klavier,Dance,,,"Nr. 1, a-Moll 
 Nr. 2, A-Dur",
 999.04,WoO 4,Zwei Giguen für Klavier,Dance,,,"Nr. 1, a-Moll 
@@ -167,43 +167,65 @@ Nr. 2, h-Moll",
 999.05,WoO 5,Zwei Sarabanden für Klavier,Dance,,,"Nr. 1, a-Moll 
 Nr. 2, h-Moll",
 999.06,WoO 6,51 Übungen für Klavier,,,,,
-999.07,WoO 7,"Choralvorspiel und Fuge für Orgel über ,,O Traurigkeit, o Herzeleid‘‘",,a-Moll,,,
+999.07,WoO 7,"Choralvorspiel und Fuge für Orgel über ,,O Traurigkeit, o Herzeleid‘‘",Choralvorspiel,a-Moll,,,
 999.08,WoO 8,Fuge für Orgel,,as-Moll,,,
 999.09,WoO 9,Präludium und Fuge für Orgel,,a-Moll,,,
 999.1,WoO 10,Präludium und Fuge für Orgel,,g-Moll,,,
-999.11,WoO 11,"Kadenz zum 3. Satz von J. S. Bachs Cembalokonzert d-moll, BWV 1052",,,,,
-999.12,WoO 12,"Kadenzen zum 1. und 3. Satz von Beethovens Klavierkonzert Nr.4, op. 58",,,,,
-999.13,WoO 13,"Kadenzen zum 1. und 2. Satz von Mozarts Klavierkonzert G-Dur, KV 453",,,,,
-999.14,WoO 14,"Kadenz zum 1. Satz von Mozarts Klavierkonzert d-moll, KV 466",,,,,
-999.15,WoO 15,"Kadenz zum 1. Satz von Mozarts Klavierkonzert c-moll, KV 491",,,,,
-999.16,WoO 16,Kleine Hochzeiskantate für vier Singstimmen und Klavier,,,,,
+999.11,WoO 11,"Kadenz zum 3. Satz von J. S. Bachs Cembalokonzert d-moll, BWV 1052",Cadenza,,,,
+999.12,WoO 12,"Kadenzen zum 1. und 3. Satz von Beethovens Klavierkonzert Nr.4, op. 58",Cadenza,,,,
+999.13,WoO 13,"Kadenzen zum 1. und 2. Satz von Mozarts Klavierkonzert G-Dur, KV 453",Cadenza,,,,
+999.14,WoO 14,"Kadenz zum 1. Satz von Mozarts Klavierkonzert d-moll, KV 466",Cadenza,,,,
+999.15,WoO 15,"Kadenz zum 1. Satz von Mozarts Klavierkonzert c-moll, KV 491",Cadenza,,,,
+999.16,WoO 16,Kleine Hochzeiskantate für vier Singstimmen und Klavier,Cantata,,,,
 999.17,WoO 17,Kyrie fur vier Singstimmen und Basso continuo,,g-Moll,,,
-999.18,WoO 18,Missa canonica für vier-bis sechsstimmigen gemischten Chor a cappella,,C-Dur,,"1. Sanktus As-Dur
+999.18,WoO 18,Missa canonica für vier-bis sechsstimmigen gemischten Chor a cappella,Mass,C-Dur,,"1. Sanktus As-Dur
 2. Benedictus F-Dur
 3. Agnus Dei f-Moll
 4. Dona nobis C-Dur",
-999.19,WoO 19,"Dein Herzlein Mild, Lied für vierstimmigen Frauenchor",,,,,
-999.2,WoO 20,"Dem dunkeln schoß der heil'gen Erde, Lied für gemischten Chor a cappella",,,,,
-999.21,WoO 21,"Mondnacht, Lied für eine Singstimme und Klavier",,,,,
-999.22,WoO 22,"Fünf Lieder ,,Ophelia-Lieder‘‘ für eine Singstimme und Klavier",,,,,
-999.23,WoO 23,Regenlied für eine Singstimme und Klavier,,,,,
-999.24,WoO 24,"Grausam Erweiset sich Amor, Kanon für vier Frauenstimmen",,,,,
-999.25,WoO 25,"Mir Lächelt kein Frühling, Kanon für vier gemischte Stimmen",,,,,
-999.26,WoO 26,"O Wie Sanft, Kanon für vier Frauenstimmen",,,,,
-999.27,WoO 27,"Spruch ,,In dieser Welt des Trugs‘‘, Kanon für eine Singstimme und Bratsche",,,,,
-999.28,WoO 28,"Töne, Linderner Klang, Kanon für vier Stimmen",,,,,
+999.19,WoO 19,"Dein Herzlein Mild, Lied für vierstimmigen Frauenchor",Lied,,,,
+999.2,WoO 20,"Dem dunkeln schoß der heil'gen Erde, Lied für gemischten Chor a cappella",Lied,,,,
+999.21,WoO 21,"Mondnacht, Lied für eine Singstimme und Klavier",Lied,,,,
+999.22,WoO 22,"Fünf Lieder ,,Ophelia-Lieder‘‘ für eine Singstimme und Klavier",Lied,,,,
+999.23,WoO 23,Regenlied für eine Singstimme und Klavier,Lied,,,,
+999.24,WoO 24,"Grausam Erweiset sich Amor, Kanon für vier Frauenstimmen",Canon,,,,
+999.25,WoO 25,"Mir Lächelt kein Frühling, Kanon für vier gemischte Stimmen",Canon,,,,
+999.26,WoO 26,"O Wie Sanft, Kanon für vier Frauenstimmen",Canon,,,,
+999.27,WoO 27,"Spruch ,,In dieser Welt des Trugs‘‘, Kanon für eine Singstimme und Bratsche",Canon,,,,
+999.28,WoO 28,"Töne, Linderner Klang, Kanon für vier Stimmen",Canon,,,,
 999.29,WoO 29,"Wann?, Kanon für Sopran und Alt",Canon,,,,
 999.3,WoO 30,"Zu Rauch muss Werden, Kanon für vier Stimmen",Canon,,,,
 999.31,WoO 31,"Volks-Kinderlieder für eine Singstimme und Klavier, Den Kindern Robert und Clara Schumanns gewidmet",Lied,,,,
-999.32,WoO 32,28 Deutsche Volksrlieder für eine Singstimme und Klavier,,,,,
-999.33,WoO 33,49 Deutsche Volksrlieder,,,"42 für eine Singstimme mit Klavierbegleitung
+999.32,WoO 32,28 Deutsche Volksrlieder für eine Singstimme und Klavier,Lied,,,,
+999.33,WoO 33,49 Deutsche Volksrlieder,Lied,,"42 für eine Singstimme mit Klavierbegleitung
 7 für vierstimmigen Chor und Vorsanger",,
-999.34,WoO 34,"14 Deutsche Volksrlieder für gemischten Chor, Der Wiener Singakademie gewidmet",,,,,
+999.34,WoO 34,"14 Deutsche Volksrlieder für gemischten Chor, Der Wiener Singakademie gewidmet",Lied,,,,
 999.35,WoO 35,Zwölf Deutsche Volksrlieder für vierstimmigen gemischten Chor,Lied,,,,
-999.36,WoO 36,Acht Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,,,,,
-999.37,WoO 37,16 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,,,,,
-999.38,WoO 38,20 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,,,"Nr. 2, 8, 10, 11, 13, 14, 17, 18: SSA
+999.36,WoO 36,Acht Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,,,
+999.37,WoO 37,16 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,,,
+999.38,WoO 38,20 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,"Nr. 2, 8, 10, 11, 13, 14, 17, 18: SSA
 die übrigen: SSAA",,
+,,Präludium und Aria für Klavier,,a-Moll,,,
+,,Sonate für Klavier und Violine,Sonata,a-Moll,,,
+,,"[Franz Schubert] Kyrie und Credo aus der Messe, D. 678",Performing Material,As-Dur,,,"Wien, 2. März 1874"
+,,Klavierstuck,Varia,B-Dur,,,
+,,"[Franz Schubert] Zwei Märsche, D. 968B, Bearbeitung für Klavier zu zwei Händen",Arrangement,C-Dur,,,
+,,"[Ludwig van Beethoven] Finale aus Streichquartett op. 59 Nr. 3, Bearbeitung für Klavier",Arrangement,C-Dur,,,
+,,"[Ludwig van Beethoven] Chorphantasie, op.80",Performing Material,C-Dur,,,"Wien, 7. Dezember 1873"
+,,"[Ludwig van Beethoven] Ouvertüre ""Zur Namensfeier"", op.115",Performing Material,C-Dur,,,"Wien, 9. November 1873"
+,,Adagio/Andante für Klavierquartett,Piece,cis-Moll,,,
+,,[Luigi Cherubini] Requiem,Performing Material,c-Moll,,,"Wien, 6. und 8. April 1873"
+,,Klavierstücke,Piano Piece,c-Moll,,,
+,,"[Georg Friedrich Händel] Orgelkonzert Nr. 4, op.7",Performing Material,d-Moll,,,"Wien, 8. Dezember 1872"
+,,"[Ludwig van Beethoven] Missa solemnis, op.123",Performing Material,d-Moll,,,"Wien, 6. Dezember 1874"
+,,"[Robert Schumann] Klavierquintett, op. 44, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
+,,"[Ludwig van Beethoven] Klavierkonzert Nr. 5, op.73",Performing Material,Es-Dur,,,"Wien, 8. November 1874"
+,,Klaviertrio 1. Satz,Trio,Es-Dur,,,
+,,"[Johann Sebastian Bach] Orgeltoccata (Präludium) aus BWV 540, Bearbeitung für Klavier",Arrangement,F-Dur,,,
+,,Ouverture für Orchester,Overture,F-Dur,,,
+,,Instrumentalkanon,Varia,f-Moll,,,
+,,Klaviersonate,Sonata,g-Moll,,,
+,,"[Hector Berlioz] Harold-Symphonie, op. 16",Performing Material,h-Moll,,,"Wien, 8. November 1874"
+,,Streichquartett,Quartet,h-Moll,,,
 ,,"[Christoph Willibald Gluck]Gavotte A-Dur aus der Oper ,,Iphigénie en Aulide‘‘, Bearbeitung für Klavier, Clara Schumann gewidmet",Arrangement,,,,
 ,,"[Franz Schubert] 16 Ländler D. 366 und 4 Ländler D. 814, Bearbeitung für Klavier zu zwei und zu vier Händen",Arrangement,,,,
 ,,"[Franz Schubert] An Schwager Kronos, op. 19 Nr. 1, D. 369, Bearbeitung für Singstimme und Orchester",Arrangement,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
@@ -215,16 +237,12 @@ die übrigen: SSAA",,
 ,,"[Franz Schubert] Gruppe aus dem Tartarus, op. 24 Nr. 1, D. 583, Bearbeitung mit Orchesterbegleitung",Arrangement,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
 ,,"[Franz Schubert] Memnon, op. 6 Nr. 1, D. 541, Bearbeitung für eine Singstimme und Orchester",Arrangement,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Vl, Vla, Vc, Kb",,
 ,,"[Franz Schubert] Scherzo aus dem Oktett op. posth. 166, D. 803, Bearbeitung für Klavier",Arrangement,,,,
-,,"[Franz Schubert] Zwei Märsche, D. 968B, Bearbeitung für Klavier zu zwei Händen",Arrangement,C-Dur,,,
 ,,"[G.F. Händel] Sechs Duette, Generalbaßaussetzung",Arrangement,,,,
 ,,"[G.F. Händel] Sieben Duette und zwei Trios, Generalbaßaussetzung",Arrangement,,,,
 ,,"[J.S. Bach] Choral,,Ach Gott,wie manches Herzeleid“ aus der Kantate, BWV 44, Figurierte Generalbaßaussetzung",Arrangement,,,,
-,,"[Johann Sebastian Bach] Orgeltoccata (Präludium) aus BWV 540, Bearbeitung für Klavier",Arrangement,F-Dur,,,
 ,,"[Joseph Joachim] Ouverture zu Hermann Grimms ,,Demetrius‘‘, op. 6, Bearbeitung für zwei Klaviere",Arrangement,,,,
 ,,"[Joseph Joachim] Ouverture zu Shakespeares ,,Hamlet‘‘, op. 4, Bearbeitung für Klavier zu vier Händen",Arrangement,,,,
 ,,"[Joseph Joachim] Ouverture zu Shakespeares ,,Heinrich IV‘‘, op. 7, Bearbeitung für zwei Klaviere",Arrangement,,,,
-,,"[Ludwig van Beethoven] Finale aus Streichquartett op. 59 Nr. 3, Bearbeitung für Klavier",Arrangement,C-Dur,,,
-,,"[Robert Schumann] Klavierquintett, op. 44, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
 ,,"[Robert Schumann] Scherzo aus dem Klavierquartett Es-Dur, op. 47, Bearbeitung für Klavier zu vier Händen",Arrangement,,,,
 ,,"[Robert Schumann] Scherzo aus dem Klavierquintett Es-Dur, op. 44, Bearbeitung für Klavier",Arrangement,,,,
 ,,Fünf Klavierstudien,Arrangement,,"I. F. Chopin: Etude, op. 25 Nr. 2, Bearbeitung für Klavier zu zwei Händen
@@ -240,15 +258,12 @@ V. J.S. Bach: Chaconne aus der Partita für Violine solo BWV, 1004, Bearbeitung 
 ,,"Zwei Frühlingslieder, Lieder für eine Singstimme und Klavier",Lied,,,,
 ,,"[Christoph Willibald Gluck] Szene aus „Alceste“ „Wo bin ich“ / „Nein, nicht ein Opfer kann ichs nennen“",Performing Material,,,,"Wien, 8. Dezember 1872"
 ,,"[Franz Schubert] Arie „Der Tag entflieht, der Abend glüht“ aus „Das Zauberglöckchen“, D 723/II",Performing Material,,,,"Wien, 7. Dezember 1873"
-,,"[Franz Schubert] Kyrie und Credo aus der Messe, D. 678",Performing Material,As-Dur,,,"Wien, 2. März 1874"
 ,,[Georg Friedrich Händel] „Dettinger Te Deum“,Performing Material,,,,"Wien, 10. November 1872"
 ,,[Georg Friedrich Händel] Oratorium „Alexanderfest“,Performing Material,,,,"Wien, 9. November 1873"
 ,,[Georg Friedrich Händel] Oratorium „Salomo“,Performing Material,,,,"Wien, 31. März 1874"
 ,,[Georg Friedrich Händel] Oratorium „Saul“,Performing Material,,,,"Wien, 28. Februar 1873"
-,,"[Georg Friedrich Händel] Orgelkonzert Nr. 4, op.7",Performing Material,d-Moll,,,"Wien, 8. Dezember 1872"
 ,,[Giovanni Gabrieli] Chorsatz „Benedictus“,Performing Material,,,,"Wien, 6. Januar 1864"
 ,,[Giovanni Rovetta] Chorsatz „Salve Regina“,Performing Material,,,,"Detmold, Dezember 1857 und Wien, 6. Januar 1864"
-,,"[Hector Berlioz] Harold-Symphonie, op. 16",Performing Material,h-Moll,,,"Wien, 8. November 1874"
 ,,[Heinrich Isaac] Chorsatz „Innsbruck ich muß dich lassen“,Performing Material,,,,"Wien, 15. November 1863 und 10. November 1872"
 ,,"[Heinrich Schütz] „Sauli Bekehrung“, SWV 415",Performing Material,,,,"Wien, 6. Januar 1864"
 ,,"[J.S. Bach] Kantate ""Christ lag in Todesbanden"", BWV 4",Performing Material,,,,Detmold Herbst 1858; Wien 23.3.1873
@@ -264,11 +279,6 @@ V. J.S. Bach: Chaconne aus der Partita für Violine solo BWV, 1004, Bearbeitung 
 ,,[Johannes Eccard] Chorsatz „Der Christen Triumphlied aufs Osterfest“,Performing Material,,,,"Wien, 6. Januar 1864"
 ,,[Johannes Eccard] Chorsatz „Übers Gebirg Maria geht“,Performing Material,,,,"Wien, 10. und 15. November 1872"
 ,,"[Ludwig van Beethoven] Chor ""Wo sich die Pulse jugendlich jagen"", WoO 98",Performing Material,,,,"Wien, 23. März 1873"
-,,"[Ludwig van Beethoven] Chorphantasie, op.80",Performing Material,C-Dur,,,"Wien, 7. Dezember 1873"
-,,"[Ludwig van Beethoven] Klavierkonzert Nr. 5, op.73",Performing Material,Es-Dur,,,"Wien, 8. November 1874"
-,,"[Ludwig van Beethoven] Missa solemnis, op.123",Performing Material,d-Moll,,,"Wien, 6. Dezember 1874"
-,,"[Ludwig van Beethoven] Ouvertüre ""Zur Namensfeier"", op.115",Performing Material,C-Dur,,,"Wien, 9. November 1873"
-,,[Luigi Cherubini] Requiem,Performing Material,c-Moll,,,"Wien, 6. und 8. April 1873"
 ,,"[Max Bruch] Oratorium ""Odysseus"", op. 41",Performing Material,,,,"Wien, 18. April 1875"
 ,,"[Robert Schumann] Musik zu Manfred, op. 115",Performing Material,,,,"Wien, 2. März 1874"
 ,,"[Wolfgang Amadeus Mozart] Arie Nr.26 aus „Davidde penitente“, KV 469",Performing Material,,,,"Wien, 28. Februar 1875"
@@ -283,9 +293,7 @@ Fg, KontraFg, 2 Vi, Vla, 2 Vc, Kb",,
 ,,"Brautgesang, für vierstimmigen Frauenchor, Sopransolo und Orchester",Varia,,,,
 ,,"Die Müllerin, Lied für eine Singstimme und Klavier",Varia,,,,
 ,,"Hymne, Trio für zwei Violinen, Kontrabaß oder Violoncello, Zur Verherrlichung des großen Joachim",Varia,,,,
-,,Instrumentalkanon,Varia,f-Moll,,,
 ,,Klavierskizzen,Varia,,,,
-,,Klavierstuck,Varia,B-Dur,,,
 ,,Kreis-Kanon,Varia,,,,
 ,,Mehrere Skizzen,Varia,,,,
 ,,"Neapolitanische Canzonetta, Klavierbegleitung und Transposition",Varia,,,,
@@ -296,7 +304,6 @@ Fg, KontraFg, 2 Vi, Vla, 2 Vc, Kb",,
 ,,Variation für Klavier über ein Thema von Schumann,Varia,,,,
 ,,Adagio für Klavier und Violoncello,,,,,
 ,,Adagio und Scherzo für Violine und Orchester,,,,,
-,,Adagio/Andante für Klavierquartett,,cis-Moll,,,
 ,,"Brautlied „Welch ein Scheiden ist seliger“, Lied für eine Singstimme und Klavier [?]",,,,,
 ,,"Credo, für gemischen Chor a cappella",,,,,
 ,,Drei Lieder für Männerchor,,,,,
@@ -304,21 +311,14 @@ Fg, KontraFg, 2 Vi, Vla, 2 Vc, Kb",,
 ,,Fünf Gesänge für eine Singstimme und Klavier,,,,,
 ,,Fünf Gesänge für gemischten Chor a cappella,,,,,
 ,,Kanons,,,,,
-,,Klaviersonate,,g-Moll,,,
-,,Klavierstücke,,c-Moll,,,
 ,,Klavierstücke „Blätter aus dem Tagebuch eines Musikers“,,,,,
-,,Klaviertrio 1. Satz,,Es-Dur,,,
 ,,Klaviertrios,,,,,
 ,,Morgenständchen,,,,,
 ,,Motette,,,,,
 ,,"Nachtigall „O Nachtigall, dein süßer Schall“, Lied für eine Singstimme und Klavier",,,,,
 ,,"Notturno, Quartett für Sopran, Alt, Tenor, Baß und Klavier",,,,,
-,,Ouverture für Orchester,,F-Dur,,,
 ,,Phantasie über einen beliebten Walzer für Klavier,,,,,
-,,Präludium und Aria für Klavier,,a-Moll,,,
 ,,"Psalm 22 für Baritonsolo, Chor und Orchester",,,,,
 ,,"Rinaldo, Ursprunglicher Schlußchor",,,,,
-,,Sonate für Klavier und Violine,,a-Moll,,,
-,,Streichquartett,,h-Moll,,,
 ,,Symphonie/Sonate für zwei Klaviere (zwei Sätze),,,,,
 ,,Ungarische Tänze für Klavier,,,,,
