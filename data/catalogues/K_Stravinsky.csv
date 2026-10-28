@@ -1,0 +1,313 @@
+SORT,Catalogue,Opus,Title,Genre,,Work structure,Instrumentation
+1,K1,,Sonate für Klavier in fis-moll,Sonata,F-sharp minor,"I. Allegro
+II. Scherzo. Vivo
+III. Andante
+IV. Finale. Allegro – Andante",Piano
+2,K2,op. 2,Фавнъ и пастушка (Faun und Schäferin. Liederzyklus für Mezzosopran und Orchester nach drei Gedichten von Alexander Puschkin),,,,"Flauto Picc., 2 Flauti, 2 Oboi, 2 Clarinetti in B (A), 2 Fagotti, 4 Corni in F, 2 Trombe in B (A), Timpani, Piatti e Gran Cassa, Canto Mezzosoprano, Violini I, Violini II, Viole, Contrebassi"
+3,K3,op. 1,Symphonie Nr. 1 Es-Dur für großes Orchester,Symphony,E-flat major,"I.
+II. Scherzo
+III. Largo
+IV. Finale","3 Flauti (3. anche Piccolo), 2 Oboi, 3 Clarinetti in B, 2 Fagotti, 4 Corni in F, 3 Trombe in B e A, 3 Tromboni, Tuba, Timpani, Triangolo, Piatti e Gran Cassa, Violini I, Violini II, Viole, Violoncelli, Contrabassi
+2nd edition:"
+4,K4,op. 6,Zwei Lieder für eine Singstimme (Mezzo-Sopran) und Klavier,,,"[I]. Весна. (Монаcтырская)
+[II]. Росянка. (Хлыстовская)",
+5,K5,op. 3,Scherzo fantastique pour grand orchestre (Le vol de l’abeille),Scherzo,,,"Petite Flûte, 3 grandes Flûtes (2. aussi Flûte alto en sol, 3. aussi petite Flûte), 2 Hautbois, Cor anglais, 3 Clarinettes en la (3. aussi Clarinette en ré), Clarinette basse en la, 2 Bassons, Contrebasson, 4 Cors en fa, 2 Trompettes en la, Trompette alto en fa, Cymbales, Celesta, 2 Harpes, Quatuor des cordes"
+6,K6,,Pastorale pour chant et piano,Vocalise,,,"1. Voice and Piano
+2. Voice and winds (Oboe, Cor anglais, Clarinet in A, Bassoon)"
+7,K7,op. 4,Feuerwerk. Eine Fantasie für großes Orchester,Fantasia,,,"Fl. piccolo, Flauti grandi I / II, 2 Oboi I. II (poi C. Ingl.), 3 Clarinetti in A / I / II / III (poi Cl. basso), 2 Fagotti, 6 Corni in F, 3 Trombe in A, 3 Tromboni tenori e Tuba, Timpani, Triangolo, Piatti, Gran Cassa, Celesta, Campanelli, Arpa I, Arpa II, Arpa III, 16 Violini I, 14 Violini II, 12 Viole, 10 Violoncelli, 8 Contrabbassi"
+8,K8,,Trauergesang (Trauermarsch) sur la mort de Rimsky-Korssakow,March,,,
+9,K9,op. 7,Vier Etüden für Klavier,Etude,,"I. Con moto c-Moll
+II. Allegro brillante D-Dur
+III. Andantino e-Moll
+IV. Vivo Fis-Dur",
+10,K10,op. 8,Жаръ – птица (L’oiseau de feu. Conte dansé en deux tableaux),Ballet,,,"2 Flauti piccoli (I. II. poi Fl. Gr. III), 2 Flauti grandi, 3 Oboi, Corno Inglese, 3 Clarinetti in A (I. II. III. poi Cl. picc. In D), Clarinetto basso in B, 3 Fagotti (I. II. III. poi Contrafagotto II), Contrafagotto, 4 Corni in F, 3 Trombe in A, 3 Tromboni e Tuba, Timpani, Triangolo, Tambour de Basque, Piatti, Gr. Cassa, Tam-tam, Campanelli, Xylophon, Celesta, Piano, 3 Arpe, 16 Violini I, 16 Violini II, 14 Viole, 8 Violoncelli, 6 Contrabassi
+
+sur la scène: 3 Trombe in A, 2 Tube ten. in B, 2 Tube bassi in F, 2 Campane"
+11,K11,op. 9,"Zwei Gedichte von Paul Verlaine, für eine Singstimme (Bariton) und Klavier",,,"Originial: [1.][Sagesse]
+[2.][La Bonne Chanson]
+
+Orchestrated: 
+[1.] La Bonne Chanson
+[2.] Sagesse","1. Orginal version: Baritone, Piano
+2. Orchestral version: Flauto I. II, Clarinetti I. II in Si b, Corni I. II in Fa, Canto, Violini I, Violini II, Viole, Violoncelli, Contrabassi"
+12,K12,,Петрушка (Pétrouchka. Scènes burlesques en quatre tableaux d’Igor Stravinsky et Alexandre Benois),Ballet,,,"2 Flauti piccolo (Fl. picc. I =– poi Fl. gr. IV, Fl. Picc. II = poi Fl. gr. III), 2 Flauti grandi, 4 Oboi (Ob. IV = poi Corno Inglese), 3 Clarinetti in Si b (poi in La), Clarinetto basso in Si b (poi Clar. IV), 3 Fagotti, Contrafagotto (poi Fag. IV), 4 Corni in F, 2 Pistoni in Si b (poi in La), 2 Trombe in Sib (poi in La, poi Tromba I = Tr. Picc. in Re), 3 Tromboni, Tuba, Timpani, Cassa, Piatti, Tamtam, Triangolo, Tambour de Basque, Tambour militaire (Dans la coulisse), Tambour de Provence (Tambourin; Dans la coulisse), Campanelli, Celesta à 2 et à 4 mains, Piano, 2 Harpes, Xylophone, Quintuor à corde"
+13,K13,,Два стихотворенія (Deux Poésies de K. Balmont pour chant et piano),,,"I. Незабудочка ‒ цвђточекъ
+II. Голубь","1. Sopran, Klavier
+2. 
+[1st song]: Flauto I, Clarinetti I. II in Sib, Piano, Soprano Solo, Violino I, Violino II, Violoncello
+[2nd song]: Flauto I, II, Clarinetti I. II in Sib, Piano, Soprano Solo, Violino I, Violino II, Viola, Violoncello [Flute I. II, Clarinets I. II in B, Piano, Solo Soprano, Violin I, Violin II, Viola, Violoncello"
+14,K14,,Звђздоликій [Swjesdoliki] (Le Roi des étoiles. Cantate pour chant [choeur d’hommes] et orchestre),Cantata,,,"Tenori, Bassi, Flauto piccolo, 3 Flauti (3° muta in Flauto piccolo 2), 4 Oboi, Corno Inglese, Clarinetto piccolo in mi b, 2 Clarinetti in Si b, Clarinetto in La, 3 Fagotti, Contrafagotto, 8 Corni in F, 3 Trombe in Do, 3 Tromboni, Tuba, Celesta, Timpani, Gran Cassa, Tam-tam, Arpa, Violini I, Violini II, Viole, Violoncelli, Contrabassi"
+15,K15,,Le Sacre du Printemps. Tableaux de la Russie paienne,,,,"3 Flûtes (3 e aussi 2 e petite Flûte), 1 Flûte alto en sol, 4 Hautbois (4 e aussi 2 e Cor Anglais), 1 Cor Anglais, 1 Petite Clarinette en ré et mi b, 3 Clarinettes (3 e aussi 2 e Clarinette basse) en si b et la, 1 Clarinette basse en si b, 4 Bassons (4 e aussi 2 e Contrebasson), 1 Contrebasson, 8 Cors en fa (7 e et 8 e aussi Tubas ténors en si b, 1 Petite Trompette en ré, 4 Trompettes en ut ( 4 e aussi Trompette basse en mi b, 3 Trombones, 2 Tubas, Timbales, Grosse Caisse, Tam-Tam, Triangle, Tambour de basque, Guero, Crash, Cymbales antiques en lab et sib Cordes"
+16,K16,,Три стихотворенія изъ японской лирики (Trois poésies de la lyrique japonaise),Song,,"I. Akahito
+II. Mazatsumi
+III. Tsaraiuki","Soprano, 2 flutes (la 2de –pet. fl.), 2 clarinets (la 2de –cl.bas.), piano, 2 violins, viola, violoncello"
+17,K17,,Три Пђсенки (Trois petites chansons (Souvenirs de mon enfance) pour voix et piano),Song,,"I. Сороченька
+II. Bopoha
+III. Чичеръ-Ючеръ","1. Voice and Piano
+2. Flute, 2 Oboes, 2 Clarinets in B flat, 2 Bassoons, Strings (First Violins, Second Violins, Violas, Violoncellos)"
+18,K18,,Le Rossignol. Conte lyrique en trois actes,Opera,,,"Piccolo Flauto, 2 Flauti grandi, 2 Oboi, Corno inglese, 3 clarinetti (3° anche cl. basso), 2 fagotti, Contrafagotto (anche fag. 3°), 4 corni, 4 trombe, 3 tromboni, Tuba, Timpani, Batteria (Piatti, Tamburo militare, Triangolo, Gran cassa, Piatti antichi, Campanelle I e II, Tamburino, Tam-tam), Pianoforte, Celesta, 2 Arpe, Chatarra ad. lib. , Mandolino ad. lib. , Archi [Piccolo flute, 2 Flutes, 2 Oboes, 3 Clarinets (3rd also Bass clarinet) 2 Bassoons, Contrabassoon (also 3rd Bass.), 4 Horns, 4 Trumpets, 3 Trombones, Tuba, Timpani, Percussion (Cymbals, Snare drum, Triangle, Big drum, Tambourine, Cymbales antiques, Glockenspiel I and II, Tam-tam), Pianoforte, Celesta, 2 Harps, Guitar ad libitum , Mandolin ad libitum , Strings"
+19,K19,,Trois Pièces pour quatuor à cordes,Piece,,,
+20,K20,,Pribaoutki. Chansons plaisantes pour une voix accompagnée par huit instruments,Song-cycle,,,"Canto, Flauto grande, Oboe, Corno Inglese, Clarinetto in La, Clarinetto in Sib, Fagotto, Violino, Viola, Violoncello, Contrabasso"
+21,K21,,"Trois Pièces faciles pour piano à quatre mains, main gauche facile",Piano Piece,,"I. Marche
+II. Valse
+III. Polka",
+22,K22,,Berceuses du chat. Suite de chants pour vois moyenne et trois clarinettes,Song-cycle,,,"middle voice; piccolo clarinet in E flat, clarinet in A (= clarinet in B flat) and bass clarinet in B flat (= clarinet in A)"
+23,K23,,Байка (Renard. Histoire burlesque chantée et jouée),Opera-Ballet,,,"2 tenors and 2 basses); instruments (according to nomenclature): Flauto piccolo, Flauto grande, Corno Inglese, Clarinetto piccolo in Mi b , Clarinetto in A, Clarinetto in Si b , Fagotto, 2 Corni in F, Tromba in A, Tromba in Si b , Cimbalum, Timpani, Piatti e Gran Cassa, Tamb.[our] d.[e] B.[asque] avec grelots, Tamb.[our] d.[e] B.[asque] sans grelots, Caisse claire, Triangolo, Violino I (Solo), Violino II ( Solo), Viola (Sola), Violoncello (Solo), Contrebasso (Solo)"
+24,K24,,"Trois Histoires pour enfants, pour une voix et piano",,,,"1. Chant, Piano
+2. Piccolo, 2 Flauti, 2 Oboi, 2 Clarinetti in A, 2 Corni in F, Tromba in C, Timpani, Canto (Song), Violini I, Violini II, Viola, Violoncello, Contrabasso"
+25,K25,,"Cinq Pièces faciles pour piano à quatre mains, main droit facile",Piece,,"I. Andante
+II. Española
+III. Balalaïka
+IV. Napolitana
+V. Galop",
+26,K26,,Chant du Rossignol. Poème symphonique pour orchestre,Symphonic Poem,,"I. La Fête au Palais de l'Empereur de Chine
+II. Les deux Rossignols
+III. Maladie et guérison de l'Empereur de Chine","2 Flûtes, 2 Hautbois, 2 Clarinettes, 2 Bassons, 4 Cors, 3 Trompettes, 3 Trombones, Tuba, Timbales, Batterie, Céleste, Piano, 2 Harpes, Cordes"
+27,K27,,Etude pour pianola,Etude,,,
+28,K28,,Unterschale. Russische Bauernlieder. Vier Chöre für gleiche Stimmen,Song,,"No. 1, Beim Heiland von Tschigissi
+No. 2, Herbst
+No. 3, Der Hecht
+No. 4, Freund Dicksack",
+29,K29,,"Histoire du Soldat, A réciter, jouer et danser.",Opera,,,"Story-teller (not acted but spoken); soldier, devil (acting roles); princess (pantomime); ~ (Instruments): Clarinetto in La e B b , Fagotto, Cornet à pistons in A e Si b , Trombone (Tenore e Basso), Batterie* (Tambourine de Basque, Cymbal**, Triangle, 1 Caisse claire, 1 Caisse claire sans timbre petite taille, 1 Caisse claire sans timbre grand taille, Grosse Caisse), Violino, Contrabasso"
+30,K30,,Rag-time pour onze instruments,,,,"Grande Flûte, Clarinette en La, Cor en Fa, Cornet à Pistons en Sib, Trombone, Caisse claire à corde, Caisse claire sans corde, Grande Caisse, Cymbale, Cymbalum, 1er Violon, 2e Violon, Alto, Contrebasse"
+31,K31,,Quatre Chants russes pour voix et piano,,,"[1.] Селезень (ХороводнАЯ)
+[2.] Запђвная
+[3.] Подблюдная
+[4.] Cектантска",
+32,K32,,Piano-Rag music,,,,
+33,K33,,Trois Pièces pour clarinette seule,Piece,,,Clarinet in A (1st and 2nd piece) and Bb (3rd piece)
+34,K34,,"Pulcinella. Suite italienne, Ballet avec chant en un tableau",Ballet,,,"STB, 2 Flûtes, 2 Hautbois, 2 Bassons, 2 Cors en Fa, 1 Trompette en Ut, 1 Trombone (Ténor Basse), Quintette Solo (1 erViolon, 2 meViolon, Alto, Violoncelle, Contrebasse), Quintette Orchestre (4 I ersViolons, 4 II mesViolons, 4 Altos, 3 Violoncelles, 3 Contrebasses"
+35,K35,,Concertino pour quartuor à cordes,Concertino,,,"Original: String quartet
+
+Orchestrated: Flauto, Oboe, Corno Inglese, Clarinetto in A, 2 Fagotti, 2 Trombe in B, Trombone tenore, Trombone basso, Violino obligato, Violoncello obligato"
+36,K36,,"Symphonies d’instruments à vent, à la mémoire de Claude Debussy",,,,"Original version:3 Flutes, Alto Flute in G, 2 Oboes, English horn, Clarinet in B flat, Alto Clarinet in F, 3 Bassoons (3 = Contrabassoon), 4 Horns in F, 2 Trumpets in C, Trumpet in A, 3 Trombones, Tuba
+
+Revised version:3 Flauti, 2 Oboi, Corno Inglese, 3 Clarinetti in Si b, 2 Fagotti, Contrafagotto (anche Fagotto 3), 4 Corni in Fa, 3 Trombe in Si b, 3 Tromboni, Tuba"
+37,K37,,Les cinq Doigts. Huit pièces très faciles sur cinq notes pour piano,Piece,,,"Original edition: Piano; 
+Orchestrated version: a) First edition: 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, Horn in F, 2 Violins, 2 Violas, 2 Cellos"
+38,K38,,Suite No. 2 pour petit orchestre,Suite,,"I. Marche
+II. Valse
+III. Polka
+IV. Galop","Flauto piccolo, 2 Flauti grandi, Oboe, 2 Clarinetti in La (Si b), 2 Fagotti, Corno in Fa, Tromba in Do, Tromba in La, Trombone, Tuba, Caisse claire, Piatte, Gran Cassa, Piano, Violino I, Violino II, Viola, Violoncello, Contrabasso"
+39,K39,,Mavra. Opéra bouffe en 1 acte d’après A. Pouchkine,Opera buffa,,,"Flauto piccolo, 2 Flauti grandi, 2 Oboi, Corno inglese, Clarinetto piccolo in Mi b, 2 Clarinetti in Si b / in La, 2 Fagotti, Violino I, Violino II, Viola, 4 Corni in Fa, 2 Trombe in Do, 2 Trombe in La, 2 Tromboni tenori, Trombone basso, Tuba, Timpani, Violoncelli, Contrabassi"
+40,K40,,Свадебка (Les Noces. Scènes chorégraphiques russes avec chant et musique),Ballet,,,"(Soloists): Soprano, Mezzo soprano, Tenor, Bass; ~ (Chorus): Soprano, Alto, Tenor, Bass; ~ (Orchestra): Piano I-IV, Piatti, Caisse claire sans timbre, Tambour sans timbre, Caisse claire à timbre, Tambour à timbre, Xylophone, Timpani, Grosse Caisse, Tambour de Basque, Triangolo (Triangle), deux crotales, une cloche"
+41,K41,,Octuor pour instruments à vent,Octet,,"I. Sinfonia
+II. Tema con Variazione - Finale","Flauto, Clarinetto in Si b e La, 2 Fagotti, Tromba in Do, Tromba in La, Trombone Tenore, Trombone Basso"
+42,K42,,Concerto pour Piano suivi d’orchestre d’harmonie,Concerto,,"I. Largo
+II. Larghissimo
+III. Allegro","Flauto Piccolo, 2 Flauti grandi, 2 Oboi, Corno Inglese, 2 Clarinetti in La, 2 Fagotti (Fag. II. = C. Fag.), 4 Corni in Fa, 4 Trombe in Do, 3 Tromboni, Tuba, Timpani, Contrabassi"
+43,K43,,Sonate pour piano,Sonata,,"I.
+II. Adagietto 
+III.",
+44,K44,,Sérénade en La en quatre mouvements pour piano,Serenade,,"I. Hymne
+II. Romanza 
+III. Rondoletto
+IV. Cadenza finala",
+45,K45,,Suite No. 1 pour petit orchestre,Suite,,"I. Andante
+II. Napolitana 
+III. Española
+IV. Balalaïka","Flauto piccolo, 2 Flauti grandi, Oboe, 2 Clarinetti in La, 2 Fagotti, Corno in Fa, Tromba in Do, Trombone, Tuba, Gran Cassa, Violino I, Violino II, Viola, Violoncello, Contrabasso"
+46,K46,,Отче Нашъ (Pater noster pour chœur mixte a cappella),,,,
+47,K47,,Oedipus Rex. Opéra-oratorio en deux actes d’après Sophocle par Igor Strawinsky et Jean Cocteau,Opera,,,"Flauto Piccola (poi F. Gr. 3°), Flauti Grandi 1° 2°), 2 Oboi, Corno Inglese, 3 Clarinetti in Si b, 2 Fagotti, Contrafagotto, 4 Corni in Fa, 4 Trombe in Do, Tromboni 1° 2°, Trombone 3° & Tuba, Timpani, Violini 1, Violini 2, Viole, Violoncelli, Contrabassi"
+48,K48,,Apollon Musagète. Ballet en deux tableaux pour orchestre à cordes,Ballet,,,"2 Solo Violins, 2 Solo Violas, Solo Double bass, 8 First Violins, 8 Second Violins, 6 Violas, 4 First Violoncellos, 4 Second Violoncellos, 4 Double basses"
+49,K49,,Le Baiser de la Fée. Ballet-Allégorie en quatre tableaux,Ballet,,,"Ottavino (anche Flauto 3), 2 Flauti, 2 Oboi, Corno Inglese, 2 Clarinetti in Si b e La, Clarinetto Basso in Si b (anche Clarinetto 3), 2 Fagotti, 4 Corni in Fa, 3 Trombe in Do, 3 Tromboni, Tuba, Timpani, Gran Cassa, Arpa, Violini I, Violini II, Viole, Violoncelli, Contrabassi"
+50,K50,,Capriccio pour Piano et Orchestre en trois parties,Caprice,,,"Solo Piano, Piccolo Flute (= 3rd Flute), 3 Flutes (3rd Flute = Piccolo Flute), 2 Oboes, English horn, Piccolo Clarinet in E flat (= 2nd Clarinet), 3 Clarinets (1st Clarinet in B flat and A; 2nd Clarinet in B flat = Piccolo Clarinet in E flat; 3rd Clarinet in A = Bass Clarinet in B flat), Bass Clarinet in B Flat (= 3rd Clarinet), 2 Bassoons, 4 Horns in F, 2 Trumpets in C, 3 Trombones, Tuba, Timpani, Strings Concertino (Violin, Viola, Violoncello, Double bass), Strings Ripieno (Violins, Violas, Violoncellos, Double basses"
+51,K51,,Quatre Études pour orchestre,Etude,,,"Piccolo Flute (= 3rd Flute), 3 Flutes (3rd Flute = Piccolo Flute), 3 Oboes (3rd Oboe = English horn), English horn (= 3rd Oboe), Piccolo Clarinet in E flat, 2 Clarinets in B flat and A, Bass Clarinet in B flat, 2 Bassoons, 4 Horns in F, 4 Trumpets in C, 4 Trombones, Tuba, Piano, Harp, Timpani, Violins I, Violins II, Violas, Violoncellos, Double Basses"
+52,K52,,Symphonie de psaumes pour choeur [mixte] et orchestre,Symphony,,,"Four-part mixed chorus, Piccolo Flute (= 5th Flute), 5 Flutes (5th Flute = Piccolo Flute), 4 Oboes, English horn, 3 Bassoons, Contrabassoon, 4 Horns in F, Piccolo Trumpet in D, 4 Trumpets in C, 2 Tenor Trombones, Bass Trombone, Tuba, Timpani, Big Drum, Harp, 2 Pianos, Violoncellos, Double basses"
+53,K53,,Concerto en ré pour violon et orchestre,Concerto,,,"Solo-Violin; Piccolo Flute, 2 Flutes, 2 Oboes, English horn, Piccolo Clarinet in E flat, 2 Clarinets (1st Clarinet in A and B flat, 2nd Clarinet in B flat), 3 Bassoons (3rd Bassoon = Contrabassoon), Contrabassoon (= 3rd Bassoon), 4 Horns in F, 3 Trumpets in C, 2 Tenor Trombones, Bass Trombone, Tuba, 3 Timpani, Big Drum, Strings (8 First Violins included 2 Solo Violins, 8 Second Violins, 6 Violas included Solo Viola, 4 Violoncellos included 2 Solo Violoncellos, 4 Double Basses included Solo Double Bass)"
+54,K54,,Duo Concertant pour violon et piano en cinq mouvements,Duet,,"I. Cantilène
+II. Eglogue I 
+III. Eglogue II
+IV. Gigue
+V. Dithyrambe",
+55,K55,,Символъ Вђры ((Russe) Credo pour chœur mixte a cappella),,,,
+56,K56,,"Perséphone
+
+Mélodrame en trois tableaux d’André Gide",Opera,,,"Female narrator, Tenor, 3 Silent Roles (Demeter, Triptolemos, Mercury), Nymphs, Shadows, Danaids, four-part mixed chorus (Soprano, Alto, Tenor, Bass), Boy’s Choir (Soprano, Alto), Piccolo Flute (= 3rd Flute), 3 Flutes (3rd Flute = Piccolo Flute), 3 Oboes (3rd Oboe = English horn), English horn (= 3rd Oboe), 3 Clarinets in B b and A (3rd Clarinet = Bass Clarinet), Bass Clarinet (= 3rd Clarinet), 3 Bassoons (3rd Bassoon = Contrabassoo), Contrabassoon (= 3rd Bassoon), 4 Horns in F, 3 Trumpets in C (3rd Trumpet = Trumpet in D = Piccolo Trumpet), Piccolo Trumpet in D (= 3rd Trumpet), 2 Tenor Trombones, Bass Trombone, Tuba, Timpani, Batterie (Big Drum, Snare Drum, Xylophone), 2 Harps, Piano, 2 Solo Violins, Solo Viola, Solo Violoncello, Strings (First Violins, Second Violins, Violas, Violoncelli, Double Basses)"
+57,K57,,Богороднце Дђво (Ave Maria pour chœur mixte a cappella),,,,
+58,K58,,Concerto per due pianoforti soli,Concerto,,"I. Con moto
+II. Notturno
+III. Quattro variazioni
+IV. Preludio e Fuga",
+59,K59,,"Jeu de Cartes
+
+Ballet en trois donnés",Ballet,,,"Piccolo Flute (= 2nd Flute), 2 Flutes (2nd Flute = Piccolo Flute), 2 Oboes (2nd Oboe = English horn), English horn (= 2nd Oboe), 2 Clarinets in B b and A, 2 Bassoons, 4 Horns in F, 2 Trumpets in C, 3 Trombones, Tuba, 3 Timpani, Big Drum, Solo Violin, Solo Viola, Solo Violoncello, Solo Double Bass, Strings (12 First Violins, 10 Second Violins, 8 Violas, 6 Violoncellos, 6 Double Basses)"
+60,K60,,Concerto (Dumbarton Oaks) pour orchestre de chambre,Concerto,E-flat major,"I. Tempo giusto
+II. Allegretto 
+III. Con moto","Flute, Clarinet in Bb, Bassoon, 2 Horns in F, 3 Solo Violins, 3 Solo Violas, 2 Solo Violoncellos, 2 Solo Double basses"
+61,K61,,Symphonie pour orchestre,Symphony,C major,"I. Moderato alla breve
+II. Larghetto concertante 
+III. Allegretto
+IV. Largo","1 Piccolo Flute (also 3rd Flute), 3 Flutes (3rd Flute = Piccolo Flute), 2 Oboes, 2 Clarinets in A and B b, 2 Bassoons, 4 Horns in F, 2 Trumpets in C, 2 Tenor Trombones, 1 Bass Trombone, 1 Tuba, Timpani, 3 Solo Violas, Strings (First Violins, Second Violins, Violas, Violoncellos, Double Basses)"
+62,K62,,"Tango
+
+for piano solo",,,,"Original version: Piano
+
+Version Guenther: 3 Flutes, 2 Oboes, 2 Clarinets in B flat, Bass Clarinet in B flat, 2 Bassoons, 2 Alto Saxophones in E flat, Tenor Saxophone in B flat, 2 Horns in F, 3 Trumpets in B flat, 3 Trombones, Tuba, Batterie (Snare Drums, Bells), Guitar, Piano, Strings (1st Violins, 2nd Violins, Violas, Violoncellos, Double Basses)
+
+Strawinsky’s Orchestration: 4 Clarinetti, Clarinetto Basso, 4 Trompeti, 3 Tromboni, Guitar, 3 Violini, Viola, Violoncello, Contrabasso"
+63,K63,,"Danses concertantes
+
+pour [petit] orchestre",,,"I. Marche Introduction
+II. Pas d'Action 
+III. Thème varié
+IV. Pas de Deux
+V. Marche - Conclusion","Flute, Oboe, Clarinet (A and B b ), Bassoon, 2 Horns in F, Trumpet in B b , Trombone, 2 Timpani, 4 Solo Violins, Solo Viola, Solo Violoncello, 6 Violins (included 4 Solo Violins), 4 Violas (included Solo Viola), 3 Violoncellos (included Solo Violoncello), 2 Double basses"
+64,K64,,"Circus Polka
+
+composed for a young elephant",,,"[1.] E major
+[2.] E major
+[3.] F sharp major
+[4.] E flat major
+[5.] E major
+[6.] B flat major
+[7.] E major","Complete Band original instrumentation (Raksin): 
+8 Flutes/Piccolo, 1 Solo 1st B-flat Clarinet, 1 Solo 2nd B-flat Clarinet, 5 1st B-flat Clarinets, 5 2nd B-flat Clarinets, 4 E-flat Alto Saxophones, 2 E-flat Baritone Saxophones, 1 Solo 1st B-flat Cornet, 1 Solo 2nd B-flat Cornet, 3 1st B-flat Cornets, 3 2nd B-flat Cornets, 3 3rd B-flat Cornets, 2 1st F Horns, 2 2nd F Horns, 2 1st Trombones, 2 2nd Trombones, 1 3rd Trombone, 1 4st Trombone, 1 1st Euphonium (Baritone B. C.), 1 2nd Euphonium (Baritone B. C.), 3 1st Tubas, 3 2nd Tubas, Snare Drum/Xylophone, Bass Drum/Cymbals, 1 Hammond Organ; 
+
+Version for Band first edition (Raksin): 
+3 Flutes/Piccolo, 2 Solo Clarinets I, 2 Solo Clarinets II, 2 Clarinets I, 2 Clarinets II, 1 Alto Saxophone, 1 Bariton Saxophone, 2 Solo Cornets I, 2 Solo Cornets II, 2 Cornets I, 2 Cornets II, 2 Cornets III, 1 Baritone I, 1 Baritone II, 2 Horns I, 2 Horns II, 1 Trombone I, 1 Trombone II, 1 Trombone III, 1 Trombone IV, 1 Tuba I, 1 Tuba II, 2 Snare Drums, 2 Cymbals; Orchestrated version Strawinsky: Piccolo Flute, Flute, 2 Oboes, 2 Clarinets in A, 2 Bassoons, 4 Horns in F, 2 Trumpets in B b, 3 Trombones, Tuba, Timpani, Percussion (Snare Drum, Bass Drum, Cymbals), Strings (Violin I, Violin II, Viola, ‘Cello, Bass)."
+65,K65,,Four Norwegian Moods for orchestra,,,"I. Intrada
+II. Song (Lied)
+III. Wedding Dance (Hochzeitstanz)
+IV. Cortège (Festzug)","Piccolo Flute (= 2nd Flute), 2 Flutes (2nd Flute = Piccolo Flute), 2 Oboes (2nd Oboe = English horn), English horn (= 2nd Oboe), 2 Clarinets in B b (also in A), 2 Bassoons, 4 Horns in F, 2 Trumpets in B b, 2 Trombones, Tuba, 3 Timpani, 2 Solo Violins, 1 Solo Viola, Strings (Violins I, Violins II, Violas, Violoncellos, Double Basses)"
+66,K66,,"Ode
+
+Elegical chant in three parts",,,"I. Eulogy
+II. Eclogue
+III. Epitaph","Piccolo Flute (doubling 2nd Flute), 2 Flutes, 2 Oboes, 2 Clarinets in B b, 2 Bassoons, 4 Horns in F, 2 Trumpets in B b, Timpani, 3 Solo Violins, 3 Solo Violas, 1 Solo Violoncello, Violins I, Violins II, Violas, Violoncellos, Basses"
+67,K67,,Sonata for Two Pianos,Sonata,,"[I.] Moderato 
+[II.] Theme with Variations. Largo 
+[III.] Allegretto",2 Pianos
+68,K68,,"Babel
+
+Cantata based on words from Book of Moses I",Cantata,,,"male narrator ; two-part male chorus, (Tenor, Bass); Piccolo Flute (= 3rd Flute), 3 Flutes (3rd Flute = Piccolo Flute), 2 Oboes, 2 Clarinets in B b, 1 Bass Clarinet in B b, 2 Bassoons, 1 Contrabassoon*, 4 Horns in F, 2 Trumpets in C, 3 Trombones, Timpani, Harp, Striings (First Violins**, Second Violins**, Violas, Violoncellos, Double Basses)"
+69,K69,,"Scènes de ballet
+
+for orchestra",,,,"Piccolo Flute (= 2nd Flute),2 Flutes (2nd Flute = Piccolo Flute, 2 Oboes, 2 Clarinets (changing B b and A), Bassoon, 2 Horns in F, 3 Trumpets (changing C and B b), 3 Trombones, Tuba, Timpani, Piano, 3 Solo Violins, 4 Solo Violas, 2 Solo Violoncellos, 2 x 4 first and second Tutti Violins, Strings* (1st and 2nd Violins, Violas, Violoncellos, Double Basses)"
+70,K70,,Scherzo à la Russe,Scherzo,,,"Piccolo Flute (= 2nd Flute), 2 Flutes (2nd Flute = Piccolo Flute), 2 Oboes, 2 Clarinets in Bb, 2 Bassoons, 4 Horns in F, 3 Trumpets in C, 3 Trombones, Tuba, Percussion (Tambourine, Triangle, Cymbals, Snare Drum with and without snares, Big Drum), Harp, Piano, 3 Solo Violins, 1 Solo Viola, Strings (First Violins, Second Violins, Violas, Violoncellos, Double Basses)"
+71,K71,,"Hommage à Nadia Boulanger
+
+Petit canon pour la fête de Nadia Boulanger",Canon,,,"Cantus [Soprano], Alto"
+72,K72,,"Élegie
+
+composée à l’intention de Germain Prévost, pour être jouée à la mémoire de Alphonse Onnou fondateur du Quatuor Pro Arte pour Viola ou Violon seul",,,,
+73,K73,,Symphony in three movements,Symphony,,"I.
+II. Andante
+III. Con moto","Piccolo Flute, 2 Flutes, 2 Oboes, 3 Clarinets in A and B b (3rd Clarinet = Bass Clarinet), Bass Clarinet in B b (= 3rd Clarinet), 2 Bassoons, 1 Contrabassoon, 4 Horns in F, 3 Trumpets in C, 3 Trombones, 1 Tuba, Timpani, Percussion (Big Drum), Piano, Harp, 4 Solo Violins, Solo Viola, 2 Solo Violoncellos, Strings (First Violins, Second Violins, Violas, Violoncellos, Double Basses)"
+74,K74,,"Ebony Concerto
+
+for jazz orchestra",Concerto,,"[I]. Allegro moderato
+[II]. Andante
+[III]. Moderato","Solo Bb Clarinet, 2 Alto Saxophones Eb, 2 Tenor Saxophones Bb, 1 Baritone Saxophone Eb, 1 Bass Clarinet Bb, 3 Clarinets, 1 French Horn, 5 Trumpets Bb, 3 Trombones, Piano, Harp, Guitar, Double Bass, 3 Tom-Toms, Cymbals, 2 Drums"
+75,K75,,"Concerto en pour orchestre à cordes ""Basler Concerto""",,D major,"I. Vivace
+II. Arioso. Andantino
+III. Rondo. Allegro","8 First Violins, 8 Second Violins, 6 Violas, 6 Violoncellos, 4 Double basses (included 2 Solo Violins, 5 Solo Violas, 5 Solo Violoncellos, 4 Solo Double basses)"
+76,K76,,"Orpheus
+
+Ballet in three scenes",Ballet,,,"Piccolo Flute, 2 Flutes, 2 Oboes (2nd Oboe = English horn), English horn (= 2nd Oboe), 2 Clarinets in B b, 2 Bassoons, 2 Horns in F, 2 Trumpets in B b, 2 Trombones (2. Trombone = Bass Trombone), Bass Trombone (= 2nd Trombone), Timpani, Harp, 2 Solo Violins, Solo Viola, 4 Solo Violoncellos, Solo Double bass, Strings ([6 = Minimum forces required ] First Violins**, [6 = Minimum forces required ] Second Violins**, [5 = Minimum forces required ] Violas, [4 = Minimum forces required ] Violoncellos***, [3 = Minimum forces required ] Double basses)"
+77,K77,,"Mass
+
+for Mixed Chorus and Double Wind Quintet",Mass,,,"Solo Soprano, Solo Alto, Solo Tenor, Solo Bass, four-part mixed chorus (Sopranos, Altos, Tenors, Basses), 2 Oboes, English horn, 2 Bassoons, 2 Trumpets in Bb, 2 Tenor Trombones, Bass Trombone"
+78,K78,,"The Rake’s Progress
+
+an Opera in three acts",Opera,,,"1 Soprano, 2 Mezzo-sopranos, 2 Tenors, 1 Baritone, 2 Basses, four-part mixed chorus (Soprano, Alto, Tenor, Bass), Piccolo Flute (= 2nd Flute), 2 Flutes (2nd Flute = Piccolo Flute), 2 Oboes (2nd Oboe = English horn), English horn (= 2nd Oboe), 2 Clarinets in B flat, 2 Bassoons, 2 Horns in F, 2 Trumpets in B flat, Cembalo, Piano, Timpani, 4 Solo Violins, 3 Solo Violas, 2 Solo Violoncellos, Solo Double Bass, Strings (First Violins, Second Violins, Violas, Violoncellos, Double Basses)"
+79,K79,,"Cantata
+
+for Soprano, Tenor, Female Chorus, and a small Instrumental Ensemble",Cantata,,,"Solo Soprano, Solo Tenor; four-part female choir (Soprano two-part, Alto two-part); 2 Flutes, 2 Oboes (2nd Oboe = English horn), English horn (= 2. Oboe), 1 Violoncello"
+80,K80,,"Septet 1953
+
+for Clarinet, Horn, Bassoon, Piano, Violin, Viola and Violoncello",,,"I. 
+II. Passacaglia & Gigue","Clarinetto in La, Corno in Fa, Fagotto, Piano, Violino, Viola, Violoncello – Clarinet [in A], Horn [in F], Bassoon, Piano, Violin, Viola, Violoncello"
+81,K81,,Three Songs from William Shakespeare,Song,,"I. Musick to heare
+II. Full fadom five
+III. When Dasies pied","Mezzo-Soprano, grand Flute, Clarinet sounds as written, Viola"
+82,K82,,"Praeludium
+
+for Jazz ensemble",,,,"2 Alto Saxophones in E b, 1 Tenor Saxophone in B b, 1 Baritone Saxophone in E b, 3 Trumpets in B b, 2 Trombones, 3 Solo Violins, 1 Viola, 1 Violoncello, Contrabass, Guitar, Timpani in Eb and Bb and Snare Drum"
+83,K83,,"Four [Russian] Songs
+
+for voice, flute, harp and guitar",Song,,,
+84,K84,,"In memoriam Dylan Thomas
+
+Dirge-Canons and Song for Tenor voice, String quartet and four trombones",,,,
+85,K85,,"Greeting Prelude
+
+for the 18th birthday of Pierre Monteux",Prelude,,,"Piccolo Flute, 2 Flutes, 2 Oboes, 2 Clarinets in C, 2 Bassoons, Contrabassoon, 4 Horns in F, 2 Trumpets in C, 2 Tenor Trombones, Bass trombone, Tuba, Timpani, Big drum, Pianoforte, Strings (First Violins, Second Violins, Violas, Violoncellos, Double basses)"
+86,K86,,"Canticum Sacrum
+
+Ad Honorem Sancti Marci Nominis for tenor and baritone soli, chorus and orchestra",,,,"Solo Tenor, Solo Baritone, four-part mixed chorus (Sopranos, Altos, Tenors, Basses), Flute, 2 Oboes, Cor anglais, 2 Bassoons, Contrabassoon, 3 Trumpets in C, Bass Trumpet in C, 2 Tenor Trombones, Bass Trombone, Contrabass Trombone, Harp, Organ, 3 Solo-Double Basses, Violas, Double Basses"
+87,K87,,"J. S. Bach: Choral-Variationen
+
+über das Weihnachtslied „Vom Himmel hoch da komm’ ich her“",,,,"mixed choir in four-parts (Soprano, Alto, Tenor, Bass), 2 Flutes, English horn, 2 Bassoons, Contrabassoon, 3 Trumpets in C, 2 Tenor trombones, Bass trombone, Harp, 3 Solo Double basses, Strings (Violas, Double basses)"
+88,K88,,"Ἀγών (Agōn)
+
+Ballet for twelve dancers",Ballet,,,"Piccolo Flute (= 3rd Flute), 3 Flutes (3rd Flute = Piccolo Flute), 2 Oboes, Englisch horn, 2 Clarinets in B b, Bass Clarinet in B b, 2 Bassoons, Contrabassoon, 4 Horns in F, 4 Trumpets in C, 2 Tenor Trombones, Bass Trombone, Harp, Mandolin, Piano, Percussion (3 Tom-toms or high Timpani in E b, G b, B b), Xylophone, Castanets, Solo Violin, Solo Viola, 3 Solo Violoncellos, 3 Solo Double Basses, Strings (First Violins, Second Violins, Violas, Violoncellos, Double Basses)"
+89,K89,,"Threni
+
+id est lamentationes Jeremiae prophetae for soprano, contralto, 2 tenors, bass and basso profondo soli, mixed chorus and orchestra",,,,"Solo Soprano, Solo Alto Contralto), 2 Solo Tenors, Solo Bass, Solo Basso profondo, mixed chorus in five parts (Soprano, First Alto, Second Alto, Tenor, Bass), 2 grand Flutes, 2 Oboes, English horn, 2 Clarinets in A and B b (2nd Clarinet = Alto Clarinet), Alto Clarinet (= 2nd Clarinet), Bass Clarinet, Sarrusophone, 4 Horns in F, Alto Trombone, Tenor Trombone, Bass Trombone, Flügelhorn, Tuba, Timpani, Tam-tam, Piano, Strings (Violin I, Violin II*, Viola, Violoncello, Double Bass)"
+90,K90,,"Epitaphium
+
+für das Grabmal des Prinzen Max Egon zu Fürstenberg",,,,"Flute, Clarinet in C, Harp"
+91,K91,,"Movements
+
+for Piano and Orchestra",,,"I.
+II.
+III.
+IV.
+V.","2 Flutes (2nd doubling Piccolo), Oboe, Cor anglais, Clarinet in B b, Bass Clarinet in B b, Bassoon, 2 Trumpets in B b, 2 Tenor Trombones, Bass Trombone, Harp, Celeste, Strings (6, 6, 5, 5, 2)"
+92,K92,,"Double Canon
+
+for String Quartet",Canon,,,"1. Violine, 2. Violine, Viola, Violoncello"
+93,K93,,"Tres Sacrae Cantiones
+
+by Carlo Gesualdo di Venosa",,,,"I: Cantus, Altus, Quintus, Sextus, Tenor, Bassus; 
+II: Cantus, Altus, Quintus, Sextus, Tenor, Bassus; 
+III: Cantus, Sextus, Altus, Septima pars, Tenor, Quintus, Bassus"
+94,K94,,"Monumentum pro Gesualdo di Venosa
+
+ad CD annum. Three madrigals recomposed for instruments",,,,"2 Oboes, 2 Bassoons, 4 Horns in F, 2 Trumpets in C, 2 Tenor Trombones, Bass Trombone, 2 Solo Violins, 3 Solo Violas, 4 Solo Violoncellos, Strings (First Violins, Second Violins, Violas, Violoncellos)"
+95,K95,,"A Sermon, a Narrative and a Prayer
+
+Cantata for alto and tenor soli, speaker, chorus and orchestra",Cantata,,,"Solo Alto, Solo Soprano, Speaker, eight-part mixed chorus (Soprano, Alto, Tenor, Bass, each divided into two parts), Flute, Alto Flute in G, 2 Oboes, Clarinet in Bb, Bass Clarinet, 2 Bassoons, 4 Horns in F, 3 Trumpets in Bb, 2 Tenor Trombones, Bass Trombone, Tuba, 3 Tam-tams (high Tam-tam, middle Tam-tam, low Tam-tam) ), Piano, Harp, 4 Solo Violins, 2 Solo Violas, 4 Solo Violoncellos, Solo Double bass, Strings (8 First Violins, 7 Second Violins, 6 Violas, 5 Violoncellos, 4 Double basses"
+96,K96,,"Anthem
+
+(The dove descending breaks the air) for chorus a cappella",,,,
+97,K97,,Berceuse,,,,
+98,K98,,"The Flood
+
+A Musical Play for tenor solo, two bass soloists, and chorus, with speaking parts, a Narrator, and a Caller, and for orchestra",,,,"5 Narrators, 3 silent roles, Tenor Solo; 2 Bass Soloists); 4 male, 4 female Dancers; mixed chorus for three voices (Soprano, Alto, Tenor), Piccolo Flute ( = 3rd Flute) 3 Flutes (3rd Flute = Piccolo Flute), Alto Flute, 2 Oboes, English Horn, 2 Clarinets, Bass Clarinet, Contrabass Clarinet, 2 Bassoons, Contrabassoon, 4 Horns, 3 Trumpets, Alto Trombone ( = 1st Tenor Trombone), 2 Tenor Trombones (1st Tenor Trombone = Alto Trombone), Contrabass Tuba, Timpani, 3 Tom-Toms, Marimbaphone, Cymbal, Bass Drum, Celesta, Piano, Harp, 2 Solo Violins, Solo Viola, Solo Violoncello, Solo Double Bass, Strings (1st Violins, 2nd Violins, Violas, Violoncellos, Kontrabässe)"
+99,K99,,Canzonetta,,,,
+100,K100,,Elegie für J[ohn]. F[itzgerald]. K[ennedy],,,,"Mezzo Soprano[c¹ - e²] (Bariton[c - e¹]), Clarinetto I in Si b, Clarinetto II in Si b, Clarinetto alto in Mib [Mezzo soprano (Baritone), Clarinet I in B flat, Clarinet II in B flat, Alto Clarinet in E flat]"
+101,K101,,"אברהם ויצחק (Abraham and Isaac)
+
+A Sacred Ballad for Baritone and Chamber Orchestra",Ballade,,,"Solo baritone, 2 Flutes, Alto Flute, Oboe, English horn, Clarinet, Bass Clarinet, 2 Bassoons, Horn, 2 Trumpets, Tenor Trombone, Bass Trombone, Tuba, Solo Viola, Solo Violoncello, Solo Double bass, Strings (First Violins, Second Violins, Violas, Violoncellos, Double basses)"
+102,K102,,"Fanfare
+
+for a new theatre",Fanfare,,,2 trumpets
+103,K103,,"Variations
+
+Aldous Huxley in memoriam",Variations,,,"2 Flutes, Alto Flute, 2 Oboes, English horn, 2 Clarinets, Bass clarinet, 2 Bassoons, 4 Horns, 3 Trumpets, 3 Trombones, Harp, Piano, 2 Solo Double basses, Strings (12 Violins, 10 Violas, 8 Violoncellos, 4+2 Double basses)"
+104,K104,,"Introitus
+
+T. S. Eliot in memoriam for Male Chorus and Chamber Ensemble",,,,"two-part male choir Tenor-Bass, Harp, Piano, High Tamtam, Low Tamtam, Solo Viola, Solo Double Bass"
+105,K105,,Canon [on a Russian popular tune] for Concert Introduction or Encore,Canon,,,"Flauto piccolo, 2 Flauti grandi, 2 Oboi, Corno Inglese, 2 Clarinetti in La, Clarinetto basso in Si b, 2 Fagotti, Contrafagotto, 4 Corni in Fa, 3 Trombe in Do, 2 Tromboni Tenore, Trombone basso, Tuba, 5 Timpani, Gran Cassa, Piano, Arpa, Violini I, Violini II, Viole, Violoncelli, Contrabassi"
+106,K106,,"Requiem Canticles
+
+for contralto and bass soli, chorus and orchestra",,,,"Alto Solo, Bass Solo, four-part mixed chorus (included Solo Soprano, Solo Alto, Solo Tenor, Solo Bass), Piccolo Flute (= 3rd Flute), 3 Flutes (3rde Flute = Piccolo Flute), Alto Flute, 2 Bassoons, 4 Horns, 2 Trumpets, 2 Tenor Trombones, Bass Trombone, 5 Timpani (2 players), Percussion (2 players) (Xylophone, Vibraphone, bells), Harp, Piano, Celesta, 2 Solo Violins, Solo Viola, Solo Violoncello, 2 Solo Double Basses, Strings (1st Violins, 2nd Violins, Violas, Violoncellos, Double Basses)"
+107,K107,,"The Owl and the Pussy-Cat
+
+for voice and piano",Song,,,
+108,K108,,"Hugo Wolf. Two sacred songs
+
+from the Spanisches Liederbuch",Song,,"[I.] Herr, was trägt der Boden hier
+[II.] Wunden trägst du","vocal: Mezzo soprano; instrumental: 3 Clarinets in A, 2 Horns in F, 2 Solo-Violinen, Solo-Bratsche, Solo-Violoncello, Solo-Kontrabass"
+109,K109,,[Sketches for a Piano Sonata],,,,
+110,K110,,"[Preludes and Fugues]
+
+from the Well-Tempered Clavier by Johann Sebastian Bach, arranged for Woodwind and Strings",Arrangement,,"Vol. 1: 
+No. 4 in c sharp minor
+No. 10 in e minor
+No. 24 in b flat minor
+
+Vol. 2: 
+No. 6 in d minor","3 clarinets, 2 bassoons, strings"
