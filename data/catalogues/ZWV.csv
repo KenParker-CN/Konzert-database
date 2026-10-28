@@ -1,0 +1,209 @@
+SORT,Catalogue,Title,Genre,Key,Instrumentation,Note
+128,ZWV 128,"Ave Regina coelorum, (6 Settings; a,d,C,g,G,a)",,,"#1,2,3,4: SATB, ch.; B.c.
+#5: SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.
+#6: STB, soli; SATB, ch,; 2Vn.; Va.; B.c.",
+221,ZWV 221,O sing unto the Lord,Anthem,,,19th century transcription
+185,ZWV 185,Capriccio,Caprice,A major,2Hn.; 2Ob.; Bn.; 2Vn.; B.c.,
+182,ZWV 182,Capriccio,Caprice,D major,2Hn.; 2Ob.; Bn.; 2Vn.; Va.; B.c.,
+183,ZWV 183,Capriccio,Caprice,G major,2Hn.; 2Ob.; Bn.; 2Vn.; Va.; B.c.,
+184,ZWV 184,Capriccio,Caprice,F major,2Hn.; 2Ob.; Bn.; 2Vn.; Va.; B.c.,
+190,ZWV 190,Capriccio,Caprice,G major,2Hn.; 2Ob.; Bn.; 2Vn.; Va.; B.c.,
+181,ZWV 181,"Trio or Quartet Sonatas, (6; F,g,B,g,F,c)",Sonata,,2Ob. (#3 Ob. & Vn.); Bn.; B.c.,
+187,ZWV 187,Hipocondrie à 7 Concertanti,,A major,2Ob.; Bn.; 2Vn.; Va.; B.c.,
+188,ZWV 188,Overture à 7 Concertanti,Overture,F major,2Ob.; Bn.; 2Vn.; Va.; B.c.,
+189,ZWV 189,Simphonie à 8 Concertanti,Sinfonia,A minor,2Ob.; Bn.; 2Vn.; Va.; Vc.; B.c.,
+179,ZWV 179,Cantilena circularis 'Vide Domine',,C major,a 4,
+178,ZWV 178,Crab canons 'Emit amor' (2),Canon,C major,"a 4 (#1), a 2 (#2)",
+28,ZWV 28,Kyrie,,D minor,a 4; 2Ob.; 2Vn.; 2Va.; B.c.,
+95,ZWV 95,De profundis,,A minor,à 4; Instruments ad libitum,
+171,ZWV 171,O magnum mysterium,Motet,E minor,"A, solo; 2Fl.; 2 Rec.; 2Vn.; Va.; B.c.",
+126,ZWV 126,Alma Redemptoris Mater,,D major,"A, solo; 2Fl.; 2Vn.; Va.; B.c.",
+164,ZWV 164,Barbara dira effera,Motet,F major,"A, solo; 2Ob.; 2Bn.; 2Vn.; Va.; B.c.",
+29,ZWV 29,Christe eleison,,E minor,"A, solo; 2Vn.; 2Va.; B.c.",
+244,ZWV 244,Tantum ergo,Tantum ergo,C minor,"A, solo; Ob.; 2Vn.; Va.; B.c.",
+75,ZWV 75,Beatus vir,,A minor,"A, solo; SATB, ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+218,ZWV 218,Salve Regina,,,,Anton Reichenauer (?1694-1730)
+53,ZWV 53,"Lamentationes pro hebdomada, (6; c,F,B,g,A,F)",,,"ATB, soli; 2Fl.; 2Ob.; Chal.; 2Vn.; Va.; 2Vc.; B.c.",
+54,ZWV 54,"Lamentationes pro hebdomada, (3; B,F,F)",,,"ATB, soli; B.c.",
+63,ZWV 63,I penitento al Sepolchro del Redentore,Oratorio,,"ATB, soli; SATB, ch.; 2Fl.; 2Ob.; 2Bn.; 2Vn.; Va.; B.c.",
+97,ZWV 97,De profundis,,D minor,"ATBBB, soli; SATB, ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+50,ZWV 50,De profundis,,D minor,"ATBBB, soli; SATB, ch.; 3Trbn.; 2Ob.; 2Vn.; 2Va.; B.c.",
+165,ZWV 165,Chvalte Boha silného,Motet,G major,"B, solo; 2Hn.; 2Ob.; 2Vn.; Va.; B.c.",
+139,ZWV 139,Salve Regina,,D minor,"B, solo; 2Ob.; 2Vn.; B.c.",
+71,ZWV 71,Confitibor tibi Domine,,C minor,"B, solo; 2Ob.; 2Vn.; Va.; Org.",
+37,ZWV 37,Agnus Dei,,C major,"B, solo; SATB, ch.; Ob.; 2Vn.; B.c.",
+82,ZWV 82,Laudate pueri,,F major,"B, solo; SSA, ch.; Tpt.; 2Vn.; Va.; Org.",
+186,ZWV 186,Concerto à 8 Concertanti,Concerto,G major,Ob.; Bn.; 2Vn.; Va.; Vc.; B.c.,
+38,ZWV 38,Agnus Dei,,G major,"S, soli; SATB, ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+176,ZWV 176,"Italian Arias, (8; A,d,E,A,a,E,D,C)",,,"S, solo (#1,2,4,5,7), A, solo (#3,6), B, solo (#8); 2Vn.; Va.; B.c.",
+123,ZWV 123,Alma Redemptoris Mater,,A major,"S, solo; 2Vn.; B.c.",
+135,ZWV 135,Salve Regina,,A minor,"S, solo; Fl.; 2Ob.; 2Vn.; Va.; B.c.",
+107,ZWV 107,Magnificat,Magnificat,C major,"S, solo; SATB, ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+57,ZWV 57,Miserere,Miserere,C minor,"S, solo; SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+151,ZWV 151,Litaniae Lauretanae 'Consolatrix afflictorum',Litany,G major,"S, solo; SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+161,ZWV 161,Angelus Domini descendit,Offertory,A major,"S, solo; SATTB, ch.; 2Vn.; Va.; B.c.",
+211,ZWV 211,Qui nihil sortis felicitis,Motet,B major,"SA, soli; 3Ob.; Bn.; 2Vn.; Va.; B.c.",
+127,ZWV 127,Alma Redemptoris Mater,,D minor,"SA, soli; Ob.; Vn.; Va.; B.c.",
+88,ZWV 88,Laetatus sum,,D major,"SA, soli; SATB, ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+233,ZWV 233,Eja triumphos pangite,Offertory,C major,"SA, soli; SATB, ch.; 2Tpt.; 2Vn.; B.c.",
+108,ZWV 108,Magnificat,Magnificat,D major,"SA, soli; SATB, ch.; 2Tpt.; Timp.; 2Ob.; 2Bn.; 2Vn.; 2Va.; B.c.",
+111,ZWV 111,Creator alme siderum,,D minor,"SA, soli; SATB, ch.; 2Vn.; Va.; B.c.",
+110,ZWV 110,Ave maris stella,,D minor,"SA, soli; SATB, ch.; B.c.",
+34,ZWV 34,"Sanctus, Agnus",,G minor,"SAATB, ch.; B.c.",
+146,ZWV 146,Te Deum,Te Deum,D major,"SAATB, soli & ch.I; SATB, ch.II; 4Tpt.; Timp.; 2Fl.; 2Ob.; 2Bn.; 2Vn.; Va.; B.c.",
+61,ZWV 61,Il Serpente del bronzo,Oratorio,,"SAATB, soli; SATB, ch.I; SATB, ch.II; 2Fl.; 2Ob.; 2Vn.; Va.; B.c.",
+60,ZWV 60,Deus Dux fortissime,,,"SAB, soli; SATB, ch.I; SATB, ch.II; 2Vn.; Va.; B.c.",
+94,ZWV 94,Beati omnes,,G minor,"SAT, soli; SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+152,ZWV 152,Litaniae Lauretanae 'Salus infirmorum',Litany,F major,"SAT, soli; SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+91,ZWV 91,In convertendo,,G minor,"SAT, soli; SATB, ch.; 2Vn.; Va.; B.c.",
+150,ZWV 150,Litaniae Lauretanae,Litany,G major,"SATB, ch.",
+35,ZWV 35,Sanctus,,A minor,"SATB, ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+102,ZWV 102,Lauda Jerusalem,,A minor,"SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+129,ZWV 129,"Regina coeli, (3 Settings C,a,C)",,,"SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+137,ZWV 137,Salve Regina,,A minor,"SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+170,ZWV 170,Haec dies,Hymn,F major,"SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+141,ZWV 141,Salve Regina,,G minor,"SATB, ch.; 2Vn.; 2Va.; B.c.",
+125,ZWV 125,Alma Redemptoris Mater,,A minor,"SATB, ch.; 2Vn.; B.c.",
+112,ZWV 112,Crudelis Herodes,,G minor,"SATB, ch.; B.c.",
+115,ZWV 115,Jam sol recessit,,D minor,"SATB, ch.; B.c.",
+116,ZWV 116,Jesu corona virginum,,D minor,"SATB, ch.; B.c.",
+119,ZWV 119,Veni Creator Spiritus,,A minor,"SATB, ch.; B.c.",
+120,ZWV 120,Veni Creator Spiritus,,C major,"SATB, ch.; B.c.",
+157,ZWV 157,"Sub tuum praesidium, (10 Settings; g,c,d,d,e,F,g,G,d,g)",,,"SATB, ch.; B.c.",
+158,ZWV 158,Statio quadruplex pro Processione Theophorica,,B major,"SATB, ch.; B.c.",
+163,ZWV 163,"Asperges me (4 Settings; F,F,G,G)",,,"SATB, ch.; B.c.",
+206,ZWV 206,Benedictus Dominus,,G minor,"SATB, ch.; B.c.",
+124,ZWV 124,Alma Redemptoris Mater,,A minor,"SATB, ch.; Vn.; 2Va.; B.c.",
+113,ZWV 113,Deus tuorum militum,,C major,"SATB, ch.; Vn.; B.c.",
+114,ZWV 114,Exesultet orbis gaudiis,,D major,"SATB, ch.; Vn.; B.c.",
+117,ZWV 117,Iste confessore,,A minor,"SATB, ch.; Vn.; B.c.",
+136,ZWV 136,Salve Regina,,A minor,"SATB, ch.; Vns.; B.c.",
+167,ZWV 167,Da pacem Domine,,B major,"SATB, ch.I; SATB, ch.II; 2Ob.; 2Vn.; Va.; B.c.",
+32,ZWV 32,Credo a due chori,,F major,"SATB, ch.I; SATB, ch.II; 3Trbn.; 2Ob.; 2Vn.; 2Va.; B.c.",
+17,ZWV 17,Missa Sanctissimae Trinitatis,Mass,A minor,"SATB, soli & ch.; 2Fl.; 2Ob.; Chal.; 2Vn.; Va.; B.c.",
+47,ZWV 47,"Invitatorium, Lectiones, et Responsoria",,,"SATB, soli & ch.; 2Fl.; 2Ob.; Chal.; 2Vn.; Va.; B.c.",
+156,ZWV 156,Litaniae de Sancto Xaverio,Litany,F major,"SATB, soli & ch.; 2Hn.; 2Ob.; 2Vn.; Va.; B.c.",
+27,ZWV 27,Kyrie,,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+66,ZWV 66,Dixit Dominus,,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+72,ZWV 72,Confitibor tibi Domine,,E minor,"SATB, soli & ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+76,ZWV 76,Beatus vir,,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+83,ZWV 83,In exitu Israel,,D minor,"SATB, soli & ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+147,ZWV 147,Litaniae de Venerabili Sacramento,Litany,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; 2Va.; B.c.",
+3,ZWV 3,Missa Corporis Domini,Mass,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+6,ZWV 6,Missa Fidei,Mass,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+18,ZWV 18,Missa Votiva,Mass,E minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+19,ZWV 19,Missa Dei Patris,Mass,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+20,ZWV 20,Missa Dei Filii,Mass,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+21,ZWV 21,Missa Omnium Sanctorum,Mass,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+67,ZWV 67,Dixit Dominus,,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+70,ZWV 70,Confitibor tibi Domine,,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+73,ZWV 73,Confitibor tibi Domine,,E minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+84,ZWV 84,In exitu Israel,,G minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+85,ZWV 85,Credidi,,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+92,ZWV 92,Nisi Dominus,,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+98,ZWV 98,Memento Domine David,,E major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+99,ZWV 99,Ecce nunc benedicite,,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+101,ZWV 101,Domine probasti me,,F major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+118,ZWV 118,Ut queant laxis,,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+140,ZWV 140,Salve Regina,,G minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+153,ZWV 153,Litaniae Omnium Sanctorum,Litany,A minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+155,ZWV 155,Litaniae Xaverianae,Litany,C minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+169,ZWV 169,Haec dies,Hymn,C major,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c.",
+33,ZWV 33,Credo,,G minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c. ?",
+39,ZWV 39,Agnus Dei,,G minor,"SATB, soli & ch.; 2Ob.; 2Vn.; Va.; B.c. ?",
+1,ZWV 1,Missa Sancta Caeciliae,Mass,G major,"SATB, soli & ch.; 2Ob.; Bn.; 2Vn.; Va.; Va.d'G.; Vc.; B.c.",
+8,ZWV 8,Missa Nativitatis Domini,Mass,D major,"SATB, soli & ch.; 2Tpt. (or 2Hn.); 2Fl. (or 2Rec.); 2Ob.; 2Vn.; Va.; B.c.",
+10,ZWV 10,Missa Charitatis,Mass,D major,"SATB, soli & ch.; 2Tpt. (or 2Hn.); 3Ob.; 2Vn.; Va.; B.c.",
+175,ZWV 175,Sub olea pacis， Melodrama de Sancto Wenceslao,,,"SATB, soli & ch.; 2Tpt.; Timp.; 2Fl.; 2Rec.; 2Ob.; Chal.; 2Vn.; Va.; B.c.",
+14,ZWV 14,Missa Sancti Josephi,Mass,D major,"SATB, soli & ch.; 2Tpt.; Timp.; 2Hn.; 2Fl.; 2Ob.; 2Vn.; 2Va.; Vne.; B.c.",
+4,ZWV 4,Missa Sancti Spiritus,Mass,D major,"SATB, soli & ch.; 2Tpt.; Timp.; 2Ob.; 2Vn.; 2Va.; B.c.",
+68,ZWV 68,Dixit Dominus,,D major,"SATB, soli & ch.; 2Tpt.; Timp.; 2Ob.; 2Vn.; 2Va.; B.c.",
+148,ZWV 148,Litaniae de Venerabili Sacramento,Litany,D major,"SATB, soli & ch.; 2Tpt.; Timp.; 3Ob.; 2Vn.; Va.; B.c.",
+31,ZWV 31,Credo,,D minor,"SATB, soli & ch.; 2Vn.; 2Va.; B.c.",
+49,ZWV 49,Requiem,Requiem,F major,"SATB, soli & ch.; 2Vn.; 2Va.; Org.",
+149,ZWV 149,Litaniae Lauretanae,Litany,C major,"SATB, soli & ch.; 2Vn.; Va.; B.c.",
+100,ZWV 100,Confitibor tibi Domine,,B minor,"SATB, soli & ch.; 2Vn.; Va.; Org.",
+15,ZWV 15,Missa Eucharistica,Mass,D major,"SATB, soli & ch.; 3Tpt.; Timp.; 2Hn.; 2Fl.; 2Ob.; Chal.; 2Vn.; Va.; B.c.",
+11,ZWV 11,Missa Circumcisionis D.N.J.C.,Mass,D major,"SATB, soli & ch.; 3Tpt.; Timp.; 2Hn.; 3Ob.; 2Vn.; Va.; B.c.",
+48,ZWV 48,Requiem,Requiem,D major,"SATB, soli & ch.; 3Trbn.; 2Fl.; 2Ob.; Chal.; 2Bn.; 2Vn.; 2Va.; B.c.",
+2,ZWV 2,Missa Judica me,Mass,F major,"SATB, soli & ch.; 3Trbn.; 2Ob.; 2Vn.; 2Va.; B.c.",
+26,ZWV 26,"Kyrie, Sanctus, Agnus Dei",,D minor,"SATB, soli & ch.; 3Trbn.; 2Ob.; 2Vn.; 2Va.; B.c.",
+30,ZWV 30,Gloria,,F major,"SATB, soli & ch.; 3Trbn.; 2Ob.; 2Vn.; 2Va.; B.c.",
+45,ZWV 45,Requiem,Requiem,C minor,"SATB, soli & ch.; 3Trbn.; 2Vn.; Va.; B.c.",
+55,ZWV 55,"Responsoria pro hebdomada, (27)",,,"SATB, soli & ch.; 3Trbn.; 3Va.; Vc., Vne.; Bn.; Org.",
+12,ZWV 12,Missa Divi Xaverii,Mass,D major,"SATB, soli & ch.; 4Tpt.; Timp.; 2Fl.; 2Ob.; 2Vn.; 2Va.; B.c.",
+7,ZWV 7,Missa Paschalis,Mass,D major,"SATB, soli & ch.; 4Tpt.; Timp.; 2Ob.; 2Vn.; 2Va.; B.c.",
+9,ZWV 9,Missa Corporis Domini,Mass,D major,"SATB, soli & ch.; 4Tpt.; Timp.; 2Ob.; 2Vn.; Va.; B.c.",
+58,ZWV 58,Immisit Dominus pestilentiam,,,"SATB, soli & ch.; Fl.; 2Ob.; Chal.; 2Vn.; Va.; B.c.",
+59,ZWV 59,"Attendite et videte, 1712",,,"SATB, soli; SAATTBB, ch.; 2Ob.; Bn.; 2Vn.; 2Va.; B.c.",
+46,ZWV 46,Requiem,Requiem,D major,"SATBB, soli; SATB, ch.; 2Tpt.; Timp.; 2Hn.; 2Fl.; 2Ob.; Chal.; 2Vn.; Va.; B.c.",
+154,ZWV 154,Litaniae Xaverianae,Litany,D major,"SATBBB, soli; SATB, ch.; 2Tpt.; Timp.; 2Ob.; 2Vn.; 2Va.; B.c.",
+130,ZWV 130,Regina coeli,,A major,"SS, soli; SSATB, ch.; Vn.; B.c.",
+134,ZWV 134,Regina coeli,,F major,"SSA, soli; 2Ob.; 2Vn.; Va.; B.c.",
+62,ZWV 62,Gesù al Calvario,Oratorio,,"SSAAA, soli; SATB, ch.; 2Fl.; 2Ob.; Chal.; 2Bn.; 2Vn.; Va.; B.c.",
+13,ZWV 13,Missa Gratias agimus tibi,Mass,D major,"SSAATB, soli; SATB, ch.; 4Tpt.; Timp.; 2Fl.; 2Ob.; 2Vn.; Va.; B.c.",
+145,ZWV 145,Te Deum,Te Deum,D major,"SSATB, soli & ch.; 2Tpt.; Timp.; 2Ob.; 2Vn.; Va.; B.c.",
+16,ZWV 16,Missa Purificationis BVM,Mass,D major,"SSATB, soli; SATB, ch.; 4Tpt.; Timp.; 2Fl.; 2Ob.; Bn.; 2Vn.; Va.; B.c.",
+36,ZWV 36,Sanctus,,D minor,"SSATTB, ch.; B.c.",
+177,ZWV 177,Serenata,,,"SSSSA, soli; SATB, ch.; 2Hn.; 2Fl.; 2Ob.; 2Bn.; 2Vn.; Va.; B.c.",
+56,ZWV 56,Miserere,Miserere,D minor,"STB, soli; SATB, ch.; 3Trbn.; 2Ob.; 2Vn.; 2Va.; B.c.",
+81,ZWV 81,Laudate pueri,,D major,"T (S), solo; Tpt.; (2Ob.); 2Vn.; Va.; Org.",
+172,ZWV 172,"Pro, quos criminis",Hymn,F major,"T, solo; 2Fl.; 2 Rec.; 2Vn.; Va.; B.c.",
+168,ZWV 168,Gaude laetars,Motet,A major,"T, solo; 2Vn.; Va.; B.c.",
+104,ZWV 104,Lauda Jerusalem,,F major,"T, solo; SATB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+166,ZWV 166,Currite ad aras,Offertory,C major,"T, solo; SATB, ch.; 2Vn.; Va.; B.c.",
+87,ZWV 87,Laudate Dominum,,F major,"T, solo; SATTB, ch.; 2Ob.; 2Vn.; Va.; B.c.",
+96,ZWV 96,De profundis,,C minor,"TB, soli; SATB, ch.; 2Vn.; Va.; Org.",
+219,ZWV 219,Salve Regina,,,,Valentin Rathgeber (1682-1750)
+5,ZWV 5,Missa Spei,Mass,C major,,Missing
+22,ZWV 22,Missa Sancti Blasii,Mass,C major,,Doubtful attribution
+23,ZWV 23,Missa,Mass,D major,,Doubtful attribution
+69,ZWV 69,Dixit Dominus,,F major,,Missing
+74,ZWV 74,Confitibor tibi Domine,,G major,,Missing
+77,ZWV 77,Beatus vir,,D minor,,Missing
+78,ZWV 78,Laudate pueri,,A major,,Missing
+79,ZWV 79,Laudate pueri,,A minor,,Missing
+80,ZWV 80,Laudate pueri,,A minor,,Missing
+86,ZWV 86,Laudate Dominum,,F major,,Missing
+89,ZWV 89,Laetatus sum,,D major,,Missing
+90,ZWV 90,Laetatus sum,,A major,,Missing
+93,ZWV 93,Nisi Dominus,,A minor,,Missing
+103,ZWV 103,Lauda Jerusalem,,D minor,,Missing
+106,ZWV 106,Magnificat,Magnificat,A minor,,Missing
+131,ZWV 131,Regina coeli,,A major,,Missing
+132,ZWV 132,Regina coeli,,C major,,Missing
+133,ZWV 133,Regina coeli,,D major,,Incomplete sketch
+138,ZWV 138,"Salve Regina, (2 Settings; C,D)",,,,Missing
+159,ZWV 159,Pange lingua 'pro stationibus Theophoriae',,C minor,,Missing parts
+162,ZWV 162,"O sponsa amata; Sion salvatorum, (2 Arias; D,G)",,,,Doubtful attribution
+191,ZWV 191,Canons on the Hexachord (9),,C major,,
+200,ZWV 200,Missa,Mass,C major,,
+201,ZWV 201,Credo,,D major,,
+202,ZWV 202,"Sanctus, Agnus",,G major,,
+203,ZWV 203,Lamentationes Ieremiae Prophetae,,,,
+204,ZWV 204,Salve Regina,,A minor,,
+205,ZWV 205,Salve Regina,,F major,,
+207,ZWV 207,Bendedictus sit Deus Pater,,D major,,
+208,ZWV 208,Graduale Propter veritatem,,F major,,
+209,ZWV 209,Sollicitus fossor,Motet,D major,,
+210,ZWV 210,Veni Sancte Spiritus,,D major,,
+212,ZWV 212,"Trumpet Fanfares, (6)",Fanfare,C major,,
+213,ZWV 213,Mass,Mass,D major,,Domenico Sarri (1679-1744)
+214,ZWV 214,Mass,Mass,D major,,Carlo Baliani (?1680-1747)
+215,ZWV 215,Mass,Mass,G minor,,Francesco Conti (1670-1747)
+216,ZWV 216,Credo,,D major,,
+217,ZWV 217,Salve Regina duplex,,F major,,Gallus Zeiler (1705-1755)
+220,ZWV 220,"Cantiones sacrae, (18)",,,,"Giovianni Palestrina (1525-1594); 2nd Motet Book, 1592"
+230,ZWV 230,Agnus Dei,,A minor,,Listed in Inventarium
+231,ZWV 231,Aria animae poenitentis,,C minor,,Listed in Inventarium
+232,ZWV 232,Ave Regina,,A minor,,Listed in Inventarium
+234,ZWV 234,Gaudia mills,Motet,C major,,Listed in Inventarium
+236,ZWV 236,Iste confessore,Hymn,C major,,Listed in Inventarium
+240,ZWV 240,Missa Sanctae Conservationis,Mass,,,Missing
+241,ZWV 241,Missa Theophorica a 2 Cori,Mass,,,Listed in Inventarium
+242,ZWV 242,Missa tranquilli animi,Mass,,,
+243,ZWV 243,Quid statis. De Beata Virgine Maria,,,,Listed in Inventarium
+245,ZWV 245,Via laureata,,,,Music lost
+247,ZWV 247,Requiem,Requiem,,,
+deest,ZWV d't,Missa in honorem B. Alberti Magni,Mass,D major,,ex. Grodzisk Wielkoposki (Poland)
+deest,ZWV d't,Missa,Mass,D major,,ex. Grodzisk Wielkoposki (Poland)
