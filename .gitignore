@@ -12,6 +12,5 @@ tsconfig.tsbuildinfo
 qodana.yaml
 *.sqlite-shm
 *.sqlite-wal
-konzert-public-data/xlsx/
-konzert-public-data/scripts/
+konzert-public-data/
 data/catalogues/.xlsx-sync-manifest.json
