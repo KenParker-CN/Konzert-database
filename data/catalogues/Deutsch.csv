@@ -6,7 +6,7 @@ SORT,Catalogue,Opus,Date,Title,Genre,Key,Work Structure,Instrumentation,Note
 2,D. 2,,,Satz für Streichquartett,Quartet,G major,,String Qaurtet,Fragment; Komposition von Albert Stadler; siehe D Anh. I/4
 2.1,D. 2A,,1811 ?,Overture in D major (Ouvertüre in D),Overture,D major,,,fragment; formerly D. 996
 2.2,D. 2B,,1811 ?,,Symphony,D major,,,fragment; formerly D. 997
-2.3,D. 2C,,1811 ?,Bruchstück aus einem Satz für Streichquartett,Quartet,D minor/F major,,String Qaurtet,früher D 998
+2.3,D. 2C,,1811 ?,Bruchstück aus einem Satz für Streichquartett,Quartet,,,String Qaurtet,früher D 998
 2.4,D. 2D,,1811,6 Menuette für Bläser,Dance,,,Brass,früher D 995
 2.5,D. 2E,,1811,Fantasie für Klavier,Fantasia,C minor,,Piano,früher D 993
 2.6,D. 2F,,1811,Trio eines Menuetts,Trio,,,,Particell-Entwurf
@@ -27,12 +27,12 @@ SORT,Catalogue,Opus,Date,Title,Genre,Key,Work Structure,Instrumentation,Note
 15.1,D. 15A,,1812 ca,"Der Geistertanz ""Die bretterne Kammer der Toten erbebt"", 2nd setting",Lied,,,,"Text: Matthisson, Friedrich von"
 16,D. 16,,1826 post,Kontrapunktübungen,,,,,
 17,D. 17,,1812 ?,Quell' innocente figlio,,,,,"Text: Metastasio, Pietro"
-18,D. 18,,1811,,Quartet,G minor-Bb major,,,
+769,D. 769,,1824,2 Deutsche für Klavier,Dance,,,Piano,
 19,D. 19,,1810 ca,,Quartet,,,,verschollen
 19.1,D. 19A,,1810 ca,,Quartet,,,,verschollen
 19.2,D. 19B,,1812 ca,Mehrere Walzer und ein Marsch für Klavier,,,,Piano,verschollen
-20,D. 20,,,Ouvertüre in B für Streichquartett,Overture,Bb major,,String Qaurtet,verschollen
-21,D. 21,,1812,6 Variationen für Klavier,Keyboard Variations,Eb major,,Piano,verschollen
+334,D. 334,,1815,Menuett in A mit Trio in E für Klavier,Dance,,,Piano,
+20,D. 20,,,Ouvertüre in B für Streichquartett,Overture,B-flat major,,String Qaurtet,verschollen
 22,D. 22,,1812,12 Menuette mit Trios für Klavier,Dance,,,Piano,verschollen
 23,D. 23,op. posth 131/3,1812,"Klaglied ""Meine Ruh ist dahin""",Lied,,,,"Strophenlied
 Text: Rochlitz, Johann Friedrich"
@@ -48,7 +48,7 @@ Text: Rochlitz, Johann Friedrich"
 25.3,D. 25C,,1812 ?,Fuge für 2 Stimmen,Fugue,F major,,2 Voices,Fragment
 26,D. 26,,1812,Overture in D major (Ouvertüre in D),Overture,D major,,,
 27,D. 27,,1812,Salve Regina,Antiphon,F major,,,
-28,D. 28,,1812,"Trio für Klavier, Violine und Violoncello",Piano Trio,Bb major,,"Piano, Violin, Cello",einsätzig
+28,D. 28,,1812,"Trio für Klavier, Violine und Violoncello",Piano Trio,B-flat major,,"Piano, Violin, Cello",einsätzig
 29,D. 29,,1812,Andante für Klavier,Piano Piece,C major,,Piano,
 30,D. 30,,1812,"Der Jüngling am Bache ""An der Quelle saß der Knabe"", 1st setting",Lied,,,,"Text: Schiller, Friedrich von"
 31,D. 31,,1812,Kyrie für eine Messe,,D minor,,,
@@ -56,19 +56,19 @@ Text: Rochlitz, Johann Friedrich"
 33,D. 33,,1812,Entra l'uomo allor che nasce,Cantata,,,,"Text: Metastasio, Pietro"
 34,D. 34,,1812,Te solo adoro,Cantata,,,,"Text: Metastasio, Pietro"
 35,D. 35,,1812,"Serbate, o Dei custodi",Cantata,,,,"Text: Metastasio, Pietro"
-36,D. 36,,1813,,Quartet,Bb major,,,
+36,D. 36,,1813,,Quartet,B-flat major,,,
 37,D. 37,op. 74,1812,"Die Advokaten ""Mein Herr, ich komm mich anzufragen""",Lied,,,,"Text: Engelhart, Vinzenz (?) Baron von (1766-1823)"
 37.1,D. 37A,,1813 ?,4 Fugenentwürfe für Klavier,Fugue,,,Piano,früher D 967
 38,D. 38,,1813 ?,Totengräberlied,Lied,,,,
 39,D. 39,,1810 ?,Lebenstraum,,,,,Entwurf
 39.1,D. 39A,,1813,3 Menuette und Trios für Orchester,Dance,,,,lost
-40,D. 40,,,,Quartet,Eb major,,,verschollen
+45,D. 45,,1813,Kyrie,,B-flat major,,,
 41,D. 41,,1813,30 Menuette mit Trios für Klavier,Dance,,,Piano,
 41.1,D. 41A,,1813,Fuge für Klavier (?),Fugue,E minor,,Piano (?),Fragment
 42,D. 42,,1813 ?,Misero pargoletto,,,,,
 43,D. 43,,1813,Dreifach ist der Schritt der Zeit (Spruch des Konfuzius),,,,,
 44,D. 44,,1813,Totengräberlied,Lied,,,,
-45,D. 45,,1813,Kyrie,,Bb major,,,
+68,D. 68,,1813,,Quartet,B-flat major,,,
 46,D. 46,,1813,,Quartet,C major,,,
 47,D. 47,,1813,Dithyrambe,,,,,
 48,D. 48,,1813,Fantasie für Klavier zu 4 Händen,Fantasia,C minor,,Piano Four Hands,"""Grande Sonate"""
@@ -91,7 +91,7 @@ Text: Rochlitz, Johann Friedrich"
 65,D. 65,,1813,Schmerz verzerret ihr Gesicht,,,,,Entwurf
 66,D. 66,,1813,Kyrie,,F major,,,
 67,D. 67,,1813,Frisch atmet des Morgens lebendiger Hauch,,,,,
-68,D. 68,,1813,,Quartet,Bb major,,,
+94.1,D. 94A,,1814 ca,Fragment eines Orchesterstücks,Piece,B-flat major,,,fragment
 69,D. 69,,1813,Dreifach ist der Schritt der Zeit (Spruch des Konfuzius),,,,,
 70,D. 70,,1813,Dreifach ist der Schritt der Zeit (Spruch des Konfuzius),,,,,
 71,D. 71,,1813,Die 2 Tugendwege,,,,,
@@ -105,7 +105,7 @@ Text: Rochlitz, Johann Friedrich"
 76,D. 76,,1813,Pensa che questo istante,,,,,
 77,D. 77,NL 12,1815,Der Taucher,,,,,
 78,D. 78,,1813,Son fra l'onde,,,,,
-79,D. 79,,1813,"Nonett in es für Bläser ""Franz Schuberts Begräbniß-Feyer""",,Eb minor,,Brass,
+106,D. 106,,1814,Salve Regina,Motet,B-flat major,,,
 80,D. 80,,1813,Ertöne Leier (Auf die Namensfeier meines Vaters),,,,,
 81,D. 81,,1813,Auf den Sieg der Deutschen,,,,,
 82,D. 82,,1813,Sinfonie Nr. 1,Symphony,D major,,,
@@ -113,7 +113,7 @@ Text: Rochlitz, Johann Friedrich"
 84,D. 84,,1814,Des Teufels Lustschloß,,,,,
 85,D. 85,,,Offertorium in C(Clamavi ad te),Offertory,C major,,,
 86,D. 86,,1813 ?,Menuett in D für Streichquartett,Dance,D major,,String Qaurtet,
-87,D. 87,op. posth 125/1,1813,,Quartet,Eb major,,,
+111.1,D. 111A,,1814,,Trio,B-flat major,,,Fragment
 87.1,D. 87A,,1813,Andante für Streichquartett (?),Quartet,C major,,String Qaurtet,
 88,D. 88,,1813,Verschwunden sind die Schmerzen,,,,,
 89,D. 89,,1813,5 Menuette mit 6 Trios und 5 Deutsche mit 7 Trios und 1 Coda für Streichquartett,Dance,,,String Qaurtet,
@@ -124,7 +124,7 @@ Text: Rochlitz, Johann Friedrich"
 93.2,D. 93/2,,1815 ?,Don Gayseros Nr. 2,Lied,,,,Fragment
 93.3,D. 93/3,,1815 ?,Don Gayseros Nr. 3,Lied,,,,Fragment
 94,D. 94,,1811 ca,,Quartet,D major,,,
-94.1,D. 94A,,1814 ca,Fragment eines Orchesterstücks,Piece,Bb major,,,fragment
+112,D. 112,op. posth 168,1814,,Quartet,B-flat major,,,
 94.2,D. 94B,,1814,5 Menuette und 6 Deutsche für Streichquartett und 2 Hörner,Dance,,,"String Qaurtet, 2 Horns",verschollen
 95,D. 95,NL 42/5,1814,Adelaide,,,,,
 96,D. 96,,,"Quartett in G für Flöte, Bratsche, Gitarre und Violoncello",Quartet,G major,,"Flute, Viola, Guitar, Cello",
@@ -137,14 +137,14 @@ Text: Rochlitz, Johann Friedrich"
 103,D. 103,,1814,Satz für Streichquartett,Quartet,C minor,,String Qaurtet,Fragment
 104,D. 104,,1814,Die Befreier Europas in Paris,,,,,
 105,D. 105,,1814,Messe in F,Mass,F major,,,
-106,D. 106,,1814,Salve Regina,Motet,Bb major,,,
+125,D. 125,,1815,Sinfonie Nr. 2,Symphony,B-flat major,,,
 107,D. 107,,1814,Lied aus der Ferne,Lied,,,,
 108,D. 108,,1814,Der Abend,Lied,,,,Strophenlied
 109,D. 109,,1814,Lied der Liebe,Lied,,,,
 110,D. 110,,1814,Wer ist groß?,,,,,
 111,D. 111,,,Der Taucher,,,,,see D. 77
-111.1,D. 111A,,1814,,Trio,Bb major,,,Fragment
-112,D. 112,op. posth 168,1814,,Quartet,Bb major,,,
+324,D. 324,op. posth 141,1815,Messe in B,Mass,B-flat major,,,
+374,D. 374,,1816,Elf Ländler für Violine,Dance,B-flat major,,Violin,
 113,D. 113,op. 58/2,1814,An Emma,,,,,
 114,D. 114,,1814,Romanze,,,,,
 115,D. 115,NL 31/3,1814,An Laura (als sie Klopstocks Auferstehungslied sang),,,,,
@@ -157,7 +157,7 @@ Text: Rochlitz, Johann Friedrich"
 122,D. 122,,1814,Ammenlied,Lied,,,,
 123,D. 123,NL 37/2,1814,Sehnsucht,,,,,
 124,D. 124,,1814,Am See,,,,,
-125,D. 125,,1815,Sinfonie Nr. 2,Symphony,Bb major,,,
+378,D. 378,,1816,Acht Ländler für Klavier,Dance,B-flat major,,Piano,
 126,D. 126,NL 20/2,1814,"Szene aus ""Faust""",,,,,
 127,D. 127,,,"Selig alle, die im Herrn entschliefen",,,,,
 128,D. 128,,1812 ?,12 Wiener Deutsche für Klavier,Dance,,,Piano,
@@ -171,7 +171,7 @@ Text: Rochlitz, Johann Friedrich"
 136,D. 136,op. 46,1815 ?,Offertorium (Totus in corde),Offertory,C major,,,
 137,D. 137,,1817,Adrast,,,,,
 138,D. 138,op. 5/1,1815,Rastlose Liebe,,,,,
-139,D. 139,,1815,Deutscher mit Trio für Klavier,Dance,C-sharp major - A major,,Piano,
+386,D. 386,,1816,Salve Regina für Chor,Motet,B-flat major,,,
 140,D. 140,,1815,Klage um Ali Bey,,,,,
 141,D. 141,op. posth 131/1,1815,Der Mondabend,Lied,,,,Strophenlied
 142,D. 142,op. 92/3,1816,Geistes-Gruß,,,,,
@@ -190,7 +190,7 @@ Text: Rochlitz, Johann Friedrich"
 155,D. 155,op. posth 165/3,1815,Das Bild,,,,,
 156,D. 156,,1815,10 Variationen für Klavier,Keyboard Variations,F major,,Piano,
 157,D. 157,,1815,Sonate für Klavier,Sonata,E major,,Piano,
-158,D. 158,,1815,Ecossaise für Klavier,Dance,D minor - F major,,Piano,
+470,D. 470,,1816,Overture in B flat major (Ouvertüre in B),Overture,B-flat major,,,"belongs to D. 472 ?; fragment of a string quartet version, formerly D. 601"
 159,D. 159,op. posth 116,1816,Die Erwartung,,,,,
 160,D. 160,,1815,Am Flusse,,,,,
 161,D. 161,op. 19/2,1815,An Mignon,,,,,
@@ -363,7 +363,7 @@ Text: Rochlitz, Johann Friedrich"
 321,D. 321,NL 20/3,1815,Mignon,,,,,
 322,D. 322,NL 28/1,1815,Hermann und Thusnelda,,,,,
 323,D. 323,,1816,Klage der Ceres,,,,,
-324,D. 324,op. posth 141,1815,Messe in B,Mass,Bb major,,,
+471,D. 471,,1816,,Trio,B-flat major,,,Fragment
 325,D. 325,,1815,Harfenspieler,,,,,
 326,D. 326,,1815,Die Freunde von Salamanka,,,,,
 327,D. 327,,1815,Lorma,,,,,
@@ -374,7 +374,7 @@ Text: Rochlitz, Johann Friedrich"
 331,D. 331,,1816 ca,Der Entfernten,,,,,
 332,D. 332,,,Der Entfernten,,,,,see D. 331
 333,D. 333,,,Laß dein Vertrauen nicht schwinden,,,,,"see D. 796, Nr. 21"
-334,D. 334,,1815,Menuett in A mit Trio in E für Klavier,Dance,A major - E major,,Piano,
+485,D. 485,,1816,Sinfonie Nr. 5,Symphony,B-flat major,,,
 335,D. 335,,1813 ?,Menuett mit 2 Trios in E für Klavier,Dance,E major,,Piano,
 336,D. 336,,,Menuett mit Trio in D für Klavier,Dance,D major,,Piano,
 337,D. 337,,1816 ca,Die Einsiedelei,,,,,
@@ -414,11 +414,11 @@ Text: Rochlitz, Johann Friedrich"
 371,D. 371,,1816,Klage,,,,,
 372,D. 372,,1816,An die Natur,,,,,
 373,D. 373,,1816 ?,Lied (Mutter geht durch ihre Kammern),Lied,,,,Strophenlied
-374,D. 374,,1816,Elf Ländler für Violine,Dance,Bb major,,Violin,
+580,D. 580,,1817,Polonaise in B für Violine und Orchester,,B-flat major,,"Violin, Orchestra",
 375,D. 375,NL 5,1816,Der Tod Oskars,,,,,
 376,D. 376,,1816,Lorma,,,,,
 377,D. 377,,1816,Das Grab,,,,,
-378,D. 378,,1816,Acht Ländler für Klavier,Dance,Bb major,,Piano,
+581,D. 581,,1817,,Trio,B-flat major,,,
 379,D. 379,,1816,Deutsches Salve Regina,Motet,F major,,,
 380,D. 380,,1816,3 Menuette mit je 2 Trios für Klavier,Dance,,,Piano,
 381,D. 381,,1816,Morgenlied,Lied,,,,
@@ -426,7 +426,7 @@ Text: Rochlitz, Johann Friedrich"
 383,D. 383,,1816,Stabat Mater (Jesus Christus schwebt am Kreuze),,,,,
 384,D. 384,op. posth 137/1,1816,Sonate für Violine und Klavier,Sonata,D major,,"Violin, Piano",
 385,D. 385,op. posth 137/2,1816,Sonate für Violine und Klavier,Sonata,A minor,,"Violin, Piano",
-386,D. 386,,1816,Salve Regina für Chor,Motet,Bb major,,,
+601,D. 601,,,Ouvertüre in B für Streichquartett,Overture,B-flat major,,String Qaurtet,see D. 470
 387,D. 387,,1816,Die Schlacht,,,,,
 388,D. 388,,1816,Laura am Klavier,,,,,
 389,D. 389,,1816,Des Mädchens Klage,,,,,
@@ -512,8 +512,8 @@ Text: Rochlitz, Johann Friedrich"
 467,D. 467,,1816,Pflicht und Liebe,,,,,Fragment
 468,D. 468,,1816,An den Mond,Lied,,,,Strophenlied
 469,D. 469,,1816,Mignon,,,,,
-470,D. 470,,1816,Overture in B flat major (Ouvertüre in B),Overture,Bb major,,,"belongs to D. 472 ?; fragment of a string quartet version, formerly D. 601"
-471,D. 471,,1816,,Trio,Bb major,,,Fragment
+603,D. 603,,,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variations,B-flat major,,Piano Four Hands,see D. 968A
+617,D. 617,op. 30,1818,Sonate für Klavier zu 4 Händen,Sonata,B-flat major,,Piano Four Hands,
 472,D. 472,op. posth 128,1816,Kantate zu Ehren von Josef Spendou,Cantata,,,,hierzu auch D 470?
 473,D. 473,NL 23/2,1816,Liedesend,,,,,
 474,D. 474,NL 19/1,1816,"Lied des Orpheus, als er in die Hölle ging",Lied,,,,
@@ -530,7 +530,7 @@ Text: Rochlitz, Johann Friedrich"
 482,D. 482,,1816,Der Sänger am Felsen,Lied,,,,Strophenlied
 483,D. 483,,1816,Ferne von der großen Stadt,Lied,,,,Strophenlied
 484,D. 484,,1816,Gesang der Geister über den Wassern,Lied,,,,
-485,D. 485,,1816,Sinfonie Nr. 5,Symphony,Bb major,,,
+618.1,D. 618A,,1818,Polonaise in B für Klavier zu 4 Händen,,B-flat major,,Piano Four Hands,Entwurf
 486,D. 486,,1816,Magnificat in C,Magnificat,C major,,,
 487,D. 487,,1816,Adagio e Rondo concertante für Klavierquartett,Quartet,F major,,Piano Quartet,
 488,D. 488,,1816,Offertorium(Auguste jam coelestium),Offertory,,,,
@@ -551,13 +551,13 @@ Text: Rochlitz, Johann Friedrich"
 502,D. 502,,1816,Herbstlied,Lied,,,,Strophenlied
 503,D. 503,,1816,Mailied,Lied,,,,
 504,D. 504,op. 6/3,1816,Am Grabe Anselmos,,,,,
-505,D. 505,,1818 ?,Adagio für Klavier,Piano Piece,Db major,,Piano,
+730,D. 730,,1821,,Tantum Ergo,B-flat major,,,
 506,D. 506,op. posth 145,1817 ?,Rondo für Klavier,Rondo,E major,,Piano,
 507,D. 507,,1816,Skolie,Lied,,,,Strophenlied
 508,D. 508,NL 38/2,1816,Lebenslied,Lied,,,,Strophenlied
 509,D. 509,,1816,Leiden der Trennung,,,,,
 510,D. 510,,1816,Vedi quanto adoro,,,,,
-511,D. 511,,1817 ca,Ecossaise für Klavier,Dance,Eb major,,Piano,
+898,D. 898,op. posth 99,1828 ?,"Trio für Klavier, Violine und Violoncello",Trio,B-flat major,,"Piano, Violin, Cello",
 512,D. 512,,,Klage,,,,,
 513,D. 513,,1817 ?,La pastorella al prato,,,,,
 513.1,D. 513A,,1817 ?,Nur wer die Liebe kennt,,,,,Entwurf
@@ -614,10 +614,10 @@ Text: Rochlitz, Johann Friedrich"
 564,D. 564,NL 29/3,1817,Gretchen im Zwinger,,,,,
 565,D. 565,,1817,Der Strom,,,,,
 566,D. 566,,1817,Sonate für Klavier,Sonata,E minor,,Piano,
-567,D. 567,,,Sonate für Klavier,Sonata,Db major,,Piano,see D. 568
-568,D. 568,op. posth 122,1817,Sonate für Klavier,Sonata,Eb major,,Piano,
+960,D. 960,,1828,Sonate für Klavier,Sonata,B-flat major,,Piano,
+968.1,D. 968A,op. posth 82/2,?,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variations,B-flat major,,Piano Four Hands,früher D. 603
 569,D. 569,,1817,Das Grab,,,,,
-570,D. 570,,1817 ?,Scherzo und Allegro für Klavier,,D major - F# minor,,Piano,
+988.1,D. 988A,,1820 post,Begleitung für Klavier,Piano Piece,B-flat major,,Piano,
 571,D. 571,,1817,Sonate für Klavier,Sonata,F-sharp minor,,Piano,Fragment
 572,D. 572,,1817,Lied im Freien,Lied,,,,
 573,D. 573,op. 98/3,1817,Iphigenia,,,,,
@@ -629,8 +629,8 @@ Text: Rochlitz, Johann Friedrich"
 579,D. 579,,1817,Der Knabe in der Wiege,,,,,
 579.1,D. 579A,,1817,Vollendung,,,,,
 579.2,D. 579B,,1817,Die Erde,,,,,
-580,D. 580,,1817,Polonaise in B für Violine und Orchester,,Bb major,,"Violin, Orchestra",
-581,D. 581,,1817,,Trio,Bb major,,,
+593,D. 593,,1817,2 Scherzi für Klavier,Scherzo,,,Piano,
+643,D. 643,,1819,Deutscher und Ecossaise für Klavier,Dance,,,Piano,
 582,D. 582,,,Augenblicke im Elysium,,,,,see D. 990B
 583,D. 583,op. 24/1,1817,Gruppe aus dem Tartarus,,,,,
 584,D. 584,NL 6,1817,Elysium,,,,,
@@ -642,7 +642,7 @@ Text: Rochlitz, Johann Friedrich"
 590,D. 590,,1817,"Ouvertüre ""im italienischen Stile"" in D",Overture,D major,,,
 591,D. 591,op. posth 170,1817,"Ouvertüre ""im italienischen Stile"" in C",Overture,C major,,,
 592,D. 592,,1817,"Ouvertüre ""im italienischen Stile"" in D für Klavier zu 4 Händen",Overture,D major,,Piano Four Hands,
-593,D. 593,,1817,2 Scherzi für Klavier,Scherzo,Bb major - Db major,,Piano,
+139,D. 139,,1815,Deutscher mit Trio für Klavier,Dance,,,Piano,
 594,D. 594,op. posth 110,1817,Der Kampf,,,,,
 595,D. 595,op. 88/2,1817,Thekla (eine Geisterstimme),,,,,
 596,D. 596,,1817,Lied eines Kindes,Lied,,,,Fragment
@@ -652,9 +652,9 @@ Text: Rochlitz, Johann Friedrich"
 598.1,D. 598A,,,Generalbaßübungen,,,,,see D. Anh. I/32
 599,D. 599,op. 75,1818,4 Polonaisen für Klavier zu 4 Händen,Dance,,,Piano Four Hands,
 600,D. 600,,1814,Menuett in cis für Klavier,Dance,C-sharp minor,,Piano,
-601,D. 601,,,Ouvertüre in B für Streichquartett,Overture,Bb major,,String Qaurtet,see D. 470
+570,D. 570,,1817 ?,Scherzo und Allegro für Klavier,,,,Piano,
 602,D. 602,op. 27,1824 pubd,3 Marches Héroiques für Klavier zu 4 Händen,March,,,Piano Four Hands,
-603,D. 603,,,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variations,Bb major,,Piano Four Hands,see D. 968A
+158,D. 158,,1815,Ecossaise für Klavier,Dance,,,Piano,
 604,D. 604,,1817 ?,,Piano Piece,A major,,,
 605,D. 605,,1823 ?,Fantasie für Klavier,Fantasia,C major,,Piano,
 605.1,D. 605A,,1818 ?,Fantasie für Klavier,Fantasia,C major,,Piano,"""Grazer Fantasie"""
@@ -669,9 +669,9 @@ Text: Rochlitz, Johann Friedrich"
 614,D. 614,NL 18/2,1818,An den Mond in einer Herbstnacht,,,,,
 615,D. 615,,1818,Entwürfe zu einer Sinfonie,Symphony,D major,,,draft
 616,D. 616,NL 30/3,1818,Grablied für die Mutter,,,,,
-617,D. 617,op. 30,1818,Sonate für Klavier zu 4 Händen,Sonata,Bb major,,Piano Four Hands,
-618,D. 618,,1818,Deutscher mit 2 Trios und 2 Ländler für Klavier zu 4 Händen,Dance,G major - E major,,Piano Four Hands,
-618.1,D. 618A,,1818,Polonaise in B für Klavier zu 4 Händen,,Bb major,,Piano Four Hands,Entwurf
+998,D. 998,,,Bruchstück aus einem Satz für Streichquartett,Quartet,,,String Qaurtet,siehe D. 2C
+505,D. 505,,1818 ?,Adagio für Klavier,Piano Piece,D-flat major,,Piano,
+567,D. 567,,,Sonate für Klavier,Sonata,D-flat major,,Piano,see D. 568
 619,D. 619,,1818,Singübungen,,,,,
 620,D. 620,NL 32,1818,Einsamkeit,,,,,
 621,D. 621,,1818,"Deutsches Requiem ""Trauermesse""",Mass,G minor,,,
@@ -696,7 +696,7 @@ Text: Rochlitz, Johann Friedrich"
 640,D. 640,,,2 Tänze,Dance,,,,see D. 980A
 641,D. 641,,,Das Dörfchen,,,,,see D. 598
 642,D. 642,,1812 ?,Viel tausend Sterne prangen,,,,,
-643,D. 643,,1819,Deutscher und Ecossaise für Klavier,Dance,C# minor - Db major,,Piano,
+680,D. 680,,,2 Ländler für Klavier,Dance,D-flat major,,Piano,see D. 980C
 643.1,D. 643A,,1819,Das Grab,,,,,
 644,D. 644,,1820,Die Zauberharfe,,,,,
 644.9,D. 644/9,,1823,Romanze des Palmerin,,,,,
@@ -734,8 +734,8 @@ Text: Rochlitz, Johann Friedrich"
 676,D. 676,op. posth 153,1819,Salve Regina,Offertory,A major,,,
 677,D. 677,NL 42/1,1819,"Strophe aus ""Die Götter Griechenlands""",,,,,
 678,D. 678,,1822,Messe in As,Mass,Ab major,,,
-679,D. 679,,,2 Ländler für Klavier,Dance,Eb major,,Piano,see D. 980B
-680,D. 680,,,2 Ländler für Klavier,Dance,Db major,,Piano,see D. 980C
+974,D. 974,,1822 ?,2 Deutsche für Klavier,Dance,D-flat major,,Piano,
+980.3,D. 980C,,1821 ante,2 Ländler für Klavier,Dance,D-flat major,,Piano,
 681,D. 681,,1815 ca,12 Ländler für Klavier,Dance,,,Piano,Nr. 1-4 verschollen
 682,D. 682,,1820 ?,Über allen Zauber Liebe,,,,,
 683,D. 683,,,Die Wolkenbraut,,,,,"see D. 732, Nr. 11"
@@ -788,7 +788,7 @@ Text: Rochlitz, Johann Friedrich"
 719,D. 719,op. 14/2,1821,Geheimes,,,,,
 720,D. 720,op. 14/1,1821,Suleika I,,,,,
 721,D. 721,,1821,Mahomets Gesang,Lied,,,,
-722,D. 722,,1821,Deutscher für Klavier,Dance,Gb major,,Piano,
+21,D. 21,,1812,6 Variationen für Klavier,Keyboard Variations,E-flat major,,Piano,verschollen
 723.1,D. 723/1,,1821,"Duett zu Hérolds ""Das Zauberglöckchen""",,,,,
 723.2,D. 723/2,,1821,"Arie zu Hérolds ""Das Zauberglöckchen""",,,,,
 724,D. 724,op. 11/2,1821,Die Nachtigall,,,,,
@@ -797,7 +797,7 @@ Text: Rochlitz, Johann Friedrich"
 727,D. 727,NL 48/5,1821,Mignon II,,,,,
 728,D. 728,,1821,Johanna Sebus,,,,,Fragment
 729,D. 729,,1821,,Symphony,E major,,,draft
-730,D. 730,,1821,,Tantum Ergo,Bb major,,,
+40,D. 40,,,,Quartet,E-flat major,,,verschollen
 731,D. 731,op. posth 173/4,1821,Der Blumen Schmerz,,,,,
 732,D. 732,,1822,Alfonso und Estrella,,,,,
 732.13,D. 732/13,,1822 ?,Alfonso und Estrella (Auszug),,,,,
@@ -840,7 +840,7 @@ Text: Rochlitz, Johann Friedrich"
 766,D. 766,,1822,Am Flusse,,,,,
 767,D. 767,op. 56/1,1822,Willkommen und Abschied,,,,,
 768,D. 768,op. 96/3,1824,Wandrers Nachtlied,Lied,,,,
-769,D. 769,,1824,2 Deutsche für Klavier,Dance,A major - D major,,Piano,
+87,D. 87,op. posth 125/1,1813,,Quartet,E-flat major,,,
 769.1,D. 769A,,1823 ca,Sonate für Klavier,Sonata,E minor,,Piano,
 770,D. 770,op. 71,1823,Drang in die Ferne,,,,,
 771,D. 771,op. 22/1,1822 ?,Der Zwerg,,,,,
@@ -941,7 +941,7 @@ Text: Rochlitz, Johann Friedrich"
 838,D. 838,op. 52/2,1825,Ellens Gesang II,Lied,,,,
 839,D. 839,op. 52/6,1825,Ellens Gesang III: Hymne an die Jungfrau,Lied,,,,
 840,D. 840,,1825,"Sonate für Klavier ""Reliquie""",Sonata,C major,,Piano,; Fragment
-841,D. 841,,1825,2 Deutsche für Klavier,Dance,F major - G major,,Piano,
+511,D. 511,,1817 ca,Ecossaise für Klavier,Dance,E-flat major,,Piano,
 842,D. 842,NL 24/2,1825,Totengräbers Heimwehe,,,,,
 843,D. 843,op. 52/7,1825,Lied des gefangenen Jägers,Lied,,,,
 844,D. 844,,1825,"Walzer ""Albumblatt""",Waltz,G major,,,
@@ -1011,8 +1011,8 @@ Text: Rochlitz, Johann Friedrich"
 896,D. 896,,1828 ?,Fröhliches Scheiden,,,,,
 896.1,D. 896A,,1828 ?,Sie in jedem Liede,,,,,
 896.2,D. 896B,,1828 ?,Wolke und Quelle,,,,,
-897,D. 897,op. posth 148,1828 ?,"Trio""Notturno"" für Klavier, Violine und Violoncello",Trio,Eb major,,"Piano, Violin, Cello",
-898,D. 898,op. posth 99,1828 ?,"Trio für Klavier, Violine und Violoncello",Trio,Bb major,,"Piano, Violin, Cello",
+568,D. 568,op. posth 122,1817,Sonate für Klavier,Sonata,E-flat major,,Piano,
+679,D. 679,,,2 Ländler für Klavier,Dance,E-flat major,,Piano,see D. 980B
 899,D. 899,op. 90,1827,4 Impromptus für Klavier,,,,Piano,
 900,D. 900,,1822 post,Allegretto,Piano Piece,C minor,,Piano,Fragment; 1822–1823?
 901,D. 901,,1827,Wein und Liebe,,,,,
@@ -1073,7 +1073,7 @@ Text: Rochlitz, Johann Friedrich"
 926,D. 926,op. 106/2,1828,Das Weinen,Lied,,,,Strophenlied
 927,D. 927,op. 106/3,1828 ?,Vor meiner Wiege,,,,,
 928,D. 928,,1827,"""Kindermarsch"" für Klavier zu 4 Händen",March,G major,,Piano Four Hands,
-929,D. 929,op. 100,1827,"Trio für Klavier, Violine und Violoncello",Trio,Eb major,,"Piano, Violin, Cello",
+897,D. 897,op. posth 148,1828 ?,"Trio""Notturno"" für Klavier, Violine und Violoncello",Trio,E-flat major,,"Piano, Violin, Cello",
 930,D. 930,op. posth 104,1827,Der Hochzeitsbraten,,,,,
 931,D. 931,NL 27/1,1827,Der Wallensteiner Lanzknecht beim Trunk,,,,,
 932,D. 932,NL 27/2,1827,Der Kreuzzug,,,,,
@@ -1096,7 +1096,7 @@ Text: Rochlitz, Johann Friedrich"
 947,D. 947,op. posth 144,1828,Allegro für Klavier zu 4 Händen,Piano Piece,A minor,,Piano Four Hands,"""Lebensstürme"""
 948,D. 948,op. posth 154,1828,Hymnus an den heiligen Geist,Hymn,,,,
 949,D. 949,,,Widerschein,,,,,see D. 639
-950,D. 950,,1828,Messe in Es,Mass,Eb major,,,
+929,D. 929,op. 100,1827,"Trio für Klavier, Violine und Violoncello",Trio,E-flat major,,"Piano, Violin, Cello",
 951,D. 951,op. 107,1828,Rondo für Klavier zu 4 Händen,Rondo,A major,,Piano Four Hands,
 952,D. 952,op. posth 152,1828,Fuge zu 4 Händen,Fugue,E minor,,Organ/Piano,
 953,D. 953,,1828,Der 92. Psalm,Psalm,,,,
@@ -1119,9 +1119,9 @@ Text: Rochlitz, Johann Friedrich"
 957.13,D. 957/13,,1828,Der Doppelgänger,,,,,
 958,D. 958,,1828,Sonate für Klavier,Sonata,C minor,,Piano,
 959,D. 959,,1828,Sonate für Klavier,Sonata,A major,,Piano,
-960,D. 960,,1828,Sonate für Klavier,Sonata,Bb major,,Piano,
+950,D. 950,,1828,Messe in Es,Mass,E-flat major,,,
 961,D. 961,,,Benedictus für die Messe,,C major,,,see D. 452
-962,D. 962,,1828,,Tantum Ergo,Eb major,,,
+962,D. 962,,1828,,Tantum Ergo,E-flat major,,,
 963,D. 963,,1828,Offertorium (Intende voci),Offertory,,,,
 964,D. 964,,,Hymnus an den heiligen Geist,Hymn,,,,
 965,D. 965,op. posth 129,1828,Der Hirt auf dem Felsen,,,,,
@@ -1132,23 +1132,23 @@ Text: Rochlitz, Johann Friedrich"
 966.2,D. 966B,,1819 post,Entwürfe für ein Orchesterstück,Piece,A major,,,draft
 967,D. 967,,,Fugenentwürfe für Klavier,Fugue,,,Piano,see D. 37A
 968,D. 968,,?,Allegro moderato und Andante für Klavier zu 4 Händen,Piano Piece,,,Piano Four Hands,
-968.1,D. 968A,op. posth 82/2,?,"Introduktion, 4 Variationen über 1 Originalthema und Finale für Klavier zu 4 Händen",Keyboard Variations,Bb major,,Piano Four Hands,früher D. 603
+976,D. 976,,1825 pubd,Cotillon für Klavier,Piano Piece,E-flat major,,Piano,
 968.2,D. 968B,op. posth 121,?,Deux Marches Caractéristiques für Klavier zu 4 Händen,March,C major,,Piano Four Hands,früher D 886
 969,D. 969,op. 77,1827 pubd,"12 Walzer ""Valses nobles"" für Klavier",Dance,,,Piano,
 970,D. 970,,?,6 Ländler für Klavier,Dance,,,Piano,
 971,D. 971,,1823 pubd,3 Deutsche für Klavier,Dance,,,Piano,
 972,D. 972,,1817 ante,3 Deutsche für Klavier,Dance,,,Piano,
 973,D. 973,,1823 ?,3 Deutsche für Klavier,Dance,,,Piano,
-974,D. 974,,1822 ?,2 Deutsche für Klavier,Dance,Db major,,Piano,
+980.2,D. 980B,,1816 ?,2 Ländler für Klavier,Dance,E-flat major,,Piano,früher D 679
 975,D. 975,,1824 ?,Deutscher für Klavier,Dance,D major,,Piano,
-976,D. 976,,1825 pubd,Cotillon für Klavier,Piano Piece,Eb major,,Piano,
+79,D. 79,,1813,"Nonett in es für Bläser ""Franz Schuberts Begräbniß-Feyer""",,E-flat minor,,Brass,
 977,D. 977,,1816 ?,Acht Ecossaisen für Klavier,Dance,,,Piano,
 978,D. 978,,1825 pubd,Walzer für Klavier,Waltz,Ab major,,Piano,
 979,D. 979,,1826 pubd,Walzer für Klavier,Waltz,G major,,Piano,
-980,D. 980,,1826 pubd,2 Walzer für Klavier,Waltz,G major - B minor,,Piano,
+841,D. 841,,1825,2 Deutsche für Klavier,Dance,,,Piano,
 980.1,D. 980A,,1821 ante,2 Entwürfe für Tänze,Dance,,,Piano,
-980.2,D. 980B,,1816 ?,2 Ländler für Klavier,Dance,Eb major,,Piano,früher D 679
-980.3,D. 980C,,1821 ante,2 Ländler für Klavier,Dance,Db major,,Piano,
+980,D. 980,,1826 pubd,2 Walzer für Klavier,Waltz,,,Piano,
+618,D. 618,,1818,Deutscher mit 2 Trios und 2 Ländler für Klavier zu 4 Händen,Dance,,,Piano Four Hands,
 980.4,D. 980D,,1828 pubd,Walzer für Klavier,Waltz,C major,,Piano,
 980.5,D. 980E,,1818 post,2 Entwürfe für Tänze,Dance,,,Piano,
 980.6,D. 980F,,?,Marsch für Klavier,March,G major,,Piano,
@@ -1163,7 +1163,7 @@ Text: Rochlitz, Johann Friedrich"
 986,D. 986,op. posth 112/2,1816 ?,Gott der Weltschöpfer,,,,,
 987,D. 987,,,"Jesus Christus unser Heiland, der den Tod überwand",,,,,
 988,D. 988,,1815 ?,Liebe säuseln die Blätter,,,,,
-988.1,D. 988A,,1820 post,Begleitung für Klavier,Piano Piece,Bb major,,Piano,
+18,D. 18,,1811,,Quartet,,,,
 989,D. 989,,,Vollendung,,,,,siehe D. 579A
 989.1,D. 989A,,,Die Erde,,,,,siehe D. 579B
 990,D. 990,,1818 ca,Der Graf von Habsburg,Lied,,,,Strophenlied
@@ -1180,4 +1180,4 @@ Text: Rochlitz, Johann Friedrich"
 995,D. 995,,,6 Menuette für Bläser,Dance,,,Brass,siehe D. 2D
 996,D. 996,,,Ouvertüre in D,Overture,D major,,,siehe D. 2A
 997,D. 997,,,,Symphony,D major,,,see D. 2B
-998,D. 998,,,Bruchstück aus einem Satz für Streichquartett,Quartet,D minor/F major,,String Qaurtet,siehe D. 2C
+722,D. 722,,1821,Deutscher für Klavier,Dance,G-flat major,,Piano,

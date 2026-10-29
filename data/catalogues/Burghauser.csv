@@ -1,6 +1,6 @@
 SORT,Catalogue,Opus,Title,Genre,Key,Work structure,Instrumentation
 1,B1,,Forget-me-not Polka,Dance,,,
-2,B2,,Mass in B flat major,Mass,Bb major,,
+2,B2,,Mass in B flat major,Mass,B-flat major,,
 3,B3,,Polka,Dance,E major,,
 4,B4,,"""The Woman Harpist"" Polka",Dance,,,
 5,B5,,Polka,Dance,,,
@@ -37,13 +37,13 @@ SORT,Catalogue,Opus,Title,Genre,Key,Work structure,Instrumentation
 16. Tam stojí stará skála
 17. Nad krajem vévodí lehký spánek
 18. Ty se ptáš, proč moje zpěvy",
-12,B12,op. 4,Symphony No. 2,Symphony,Bb major,"1. Allegro con moto
+12,B12,op. 4,Symphony No. 2,Symphony,B-flat major,"1. Allegro con moto
 2. Poco Adagio
 3. Scherzo. Allegro con brio
 4. Finale. Allegro con fuoco","1 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, violins, violas, cellos, double basses"
 13,B13,,2 Songs for Baritone,Song,,"1. Kdybys, milé děvče, sedalo na trůnu
 2. A kdybys písní stvořená",
-14,B14,,Clarinet Quintet,Quintet,Bb minor,,
+14,B14,,Clarinet Quintet,Quintet,B-flat major,,
 15,B15,,7 Pieces for Small Orchestra (Interludes),Piece,,"1. Capriccio (Allegro risouluto)
 2. (Andante sostenuto)
 3. Con molta espressione
@@ -56,7 +56,7 @@ SORT,Catalogue,Opus,Title,Genre,Key,Work structure,Instrumentation
 2. dějství: Pustá lesní krajina
 3. dějství: Skalnaté místo v lese","1 piccolo, 2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, tuba, timpani, triangle, cymbals, bass drum, harp, violins, violas, cellos, double basses + mixed choir + soloists"
 16.1,B16a,,Tragic Overture/Dramatic Overture,Overture,,,"1 piccolo, 2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, bass drum, cymbals, triangle, harp, violins, violas, cellos, double basses"
-17,B17,,String Quartet No. 2,Quartet,Bb major,"1. Allegro ma non troppo
+17,B17,,String Quartet No. 2,Quartet,B-flat major,"1. Allegro ma non troppo
 2. Largo
 3. Allegro con brio
 4. Finale: Andante – Allegro giusto – Allegro con fuoco",
@@ -101,7 +101,7 @@ III. Allegro molto",
 31,B31,,"3 Nocturnes # 2 ""May Night""",Nocturne,,,
 32,B32,,Silhouettes,,,,
 33,B33,,Sonata for Violin and Piano,Sonata,A minor,,
-34,B34,op. 10,Symphony No. 3,Symphony,Eb major,"1. Allegro moderato
+34,B34,op. 10,Symphony No. 3,Symphony,B-flat major,"1. Allegro moderato
 2. Adagio molto, tempo di marcia
 3. Finale. Allegro vivace","1 piccolo, 2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, triangle, harp, violins, violas, cellos, double basses"
 35,B35,,"Romeo and Juliet, overture",Overture,,,
@@ -121,7 +121,7 @@ III. Allegro molto",
 2. Andante sostenuto e molto cantabile
 3. Allegro feroce
 4. Allegro con brio","2 piccolo, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, bass drum, triangle, cymbals, harp, violins, violas, cellos, double basses"
-42,B42,,"King and Collier, 2nd setting",Opera,o,,
+42,B42,,"King and Collier, 2nd setting",Opera,,,
 43,B43,,Potpourri from the Opera King and Charcoal Burner,,,,
 44,B44,op. 14,Rhapsody in A minor (Symphonic Poem),Rhapsody,A minor,,"1 piccolo, 2 flutes, 2 oboes, 1 English horn, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, bass drum, cymbals, triangle, harp, violins, violas, cellos, double basses"
 45,B45,op. 16,String Quartet No. 7,Quartet,A minor,"1. Allegro ma non troppo
@@ -137,7 +137,7 @@ III. Allegro molto",
 3. Poco andante
 4. Finale. Allegro assai",
 50,B50,op. 20,Moravian Duets,Duet,,,
-51,B51,op. 21,Piano Trio No. 1,Trio,Bb major,"1. Allegro molto
+51,B51,op. 21,Piano Trio No. 1,Trio,B-flat major,"1. Allegro molto
 2. Adagio molto e mesto
 3. Allegretto scherzando
 4. Finale. Allegro vivace",
@@ -259,7 +259,7 @@ No. 3: 2 piccolos, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpe
 89,B89,op. 49,Mazurek for Violin and Piano in E minor,Mazurka,E minor,,
 90,B90,op. 49,Mazurek for Violin and Orchestra in E minor,Mazurka,E minor,,"2 clarinets, 2 bassoons, 2 horns, timpani, violins, violas, cellos, double basses + violin solo"
 91,B91,op. 52,"Psalm 149, 1st version",Psalm,,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, violins, violas, cellos, double basses + male choir"
-92,B92,op. 51,"String Quartet No. 10 ""Slavonic""",Quartet,Eb major,"1. Allegro ma non troppo
+92,B92,op. 51,"String Quartet No. 10 ""Slavonic""",Quartet,E-flat major,"1. Allegro ma non troppo
 2. Dumka (Elegia). Andante con moto
 3. Romanza. Andante con moto
 4. Finale. Allegro assai",
@@ -286,7 +286,7 @@ No. 3: 2 piccolos, 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpe
 11. Allegro moderato
 12. Allegro feroce",
 99,B99,,Prague Waltzes,Dance,,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, violins, violas, cellos, double basses"
-100,B100,,Polonaise,Dance,Eb major,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, bass drum, cymbals, triangle, violins, violas, cellos, double basses"
+100,B100,,Polonaise,Dance,E-flat major,,"2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, timpani, bass drum, cymbals, triangle, violins, violas, cellos, double basses"
 101,B101,op. 54,Waltzes,Dance,,"1. Moderato
 2. Allegro con fuoco
 3. Poco allegro
@@ -416,7 +416,7 @@ No.10 – Andante, Bb minor",piano four hands
 18. Basso solo e Coro (""A slyš, tu právě nablízce"")","1 piccolo, 2 flutes, 2 oboes, 1 English horn, 3 clarinets, 2 bassoons, 4 horns, 2 trumpets, 3 trombones, 1 tuba, timpani, triangle, tam-tam, bells, harp, violins, violas, cellos, double basses + mixed choir + soloists (soprano, tenor, bass)"
 136,B136,op. 12/1,Dumka,Dance,,,
 137,B137,op. 12/2,Furiant,,,,
-138,B138,,Humoresque,,F# major,,
+138,B138,,Humoresque,,F-sharp major,,
 139,B139,op. 15/1,Ballade for Violin and Piano,Ballade,D minor,,
 140,B140,,The Wild Duck,,,,
 141,B141,op. 70,Symphony No. 7,Symphony,D minor,"1. Allegro maestoso
@@ -498,7 +498,7 @@ No. 8 (16) - Grazioso e lento ma non troppo, quasi tempo di valse, A flat major 
 11. Na táčkách (Andante con moto)
 12. U mohyly (Grave. Tempo di marcia)
 13. Na Svaté hoře (Poco lento)",
-162,B162,op. 87,Piano Quartet No. 2,Quartet,Eb major,"1. Allegro con fuoco
+162,B162,op. 87,Piano Quartet No. 2,Quartet,E-flat major,"1. Allegro con fuoco
 2. Lento
 3. Allegro moderato, grazioso
 4. Finale. Allegro ma non troppo",
@@ -558,7 +558,7 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 2. Lento
 3. Molto vivace
 4. Finale. Vivace ma non troppo",
-180,B180,op. 97,String Quintet No. 3,Quintet,Eb major,"1. Allegro non tanto
+180,B180,op. 97,String Quintet No. 3,Quintet,E-flat major,"1. Allegro non tanto
 2. Allegro vivo
 3. Larghetto
 4. Finale. Allegro giusto",
@@ -610,7 +610,7 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 2. Adagio ma non troppo
 3. Molto vivace
 4. Andante sostenuto. Allegro con fuoco",
-193,B193,op. 105,String Quartet No. 14,Quartet,Ab major,"1. Adagio ma non troppo. Allegro appassionato
+193,B193,op. 105,String Quartet No. 14,Quartet,A-flat major,"1. Adagio ma non troppo. Allegro appassionato
 2. Molto vivace
 3. Lento e molto cantabile
 4. Allegro non tanto",
@@ -645,13 +645,13 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 8. Fugue in G minor",
 303,B303,,Theme for Variations for Oskar Nedbal,,,,
 401,B401,,String Quartet,Quartet,C major,,
-402,B402,,String Quartet,Quartet,Bb major,,
+402,B402,,String Quartet,Quartet,B-flat major,,
 403,B403,,Serenade for Orchestra,Serenade,A major,,
 404,B404,,Waltz,Dance,,,
 405,B405,,Waltz,Dance,,,
 406,B406,,Ecossaisen,Dance,,,
 407,B407,,Allegretto,Piece,A minor,,
-408,B408,,Piano Quartet,Quartet,Bb major,,
+408,B408,,Piano Quartet,Quartet,B-flat major,,
 409,B409,,Themes,,,,
 410,B410,,Piano Piece,Piece,E minor,,
 411,B411,,American Anthem,,,,
@@ -692,7 +692,7 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 505,B505,,"Song of The Prince,for v, klav-2-ms",Song,,,
 506,B506,,"Slavonic Rhapsodies, for klav-4-ms",Rhapsody,,,
 507,B507,op. 54,"Festival March, for klav-2-ms",March,,,
-507,B507,op. 51,"String Quartet, for klav-4-ms",Quartet,Eb major,,
+507,B507,op. 51,"String Quartet, for klav-4-ms",Quartet,E-flat major,,
 507,B507,op. 48,"String Sextet, for klav-4-ms",Sextet,A major,,
 508,B508,,"Prague Waltzes, for klav-2-ms",Waltz,,,
 508,B508,op. 64,,,,,
@@ -727,7 +727,7 @@ orchestral version: 2 oboes, 2 bassoons, 3 horns, 2 trumpets, 3 trombones, timpa
 605,B605,,Old Folks at Home,,,,
 605.9,B605bis,,A Thousand Times We Greet Thee,Song,,,
 606,B606,,Vysoká Polka,Dance,,,
-701,B701,,String Quartet,Quartet,Bb major,,
+701,B701,,String Quartet,Quartet,B-flat major,,
 702,B702,,String Quartet,Quartet,D major,,
 703,B703,,String Quartet,Quartet,E minor,,
 703.1,B703a,,Sonata for Cello and Piano,Sonata,F minor,,

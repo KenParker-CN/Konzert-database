@@ -573,7 +573,7 @@ concerto # 12"
 3 Adagio (ré mineur)
 4 Allegro ma non troppo (ré mineur)
 [see HWV 251b(1), 398(2a)]",Orchestra,concerto # 5
-317.000 ,HWV 317,op. 3/6,,Concerto grosso,Concerto,D/d,"1. Vivace (D)
+317.000 ,HWV 317,op. 3/6,,Concerto grosso,Concerto,D major,"1. Vivace (D)
 2. Allegro (d)",Orchestra,concerto # 6
 318.000 ,HWV 318,,,Concerto grosso,Concerto,C major,"1 Allegro (do majeur)
 2 Largo (la mineur)
@@ -633,7 +633,7 @@ concerto # 12"
 335.200 ,HWV 335b,,,Concerto (à due Cori),Concerto,F major,1 Largo (fa majeur)2 Allegro (fa majeur),,questionable key
 336.000 ,HWV 336,,,Overture in B-flat major,Overture,B-flat major,"1. Largo (si bémol majeur)[see HWV 455]2. (Allegro) (si bémol majeur)[see HWV 46, 47(Sonata)]",Orchestra,
 337.000 ,HWV 337,,,Overture in D major,Overture,D major,1. … (ré majeur)[see HWV 17(Ouverture)],Orchestra,
-338.000 ,HWV 338,,,Adagio - Allegro,,"b, D",1. Adagio (si mineur)[see HWV 390(3)]2. Allegro (ré majeur)[see HWV 15 (Ouverture)],Orchestra,
+338.000 ,HWV 338,,,Adagio - Allegro,,,1. Adagio (si mineur)[see HWV 390(3)]2. Allegro (ré majeur)[see HWV 15 (Ouverture)],Orchestra,
 339.000 ,HWV 339,,,Sinfonia in B major,Sinfonia,B major,1. … (si bémol majeur)[see HWV 434(2)]2. Adagio (sol mineur)3. … (si bémol majeur),"2 Violins, Basso Continuo",
 340.000 ,HWV 340,,,Allegro,,G major,1. Allegro (sol majeur),"2 Violins, Basso Continuo",
 341.000 ,HWV 341,,,"Ouverture ""Handel's Water Piece""",Overture,D major,1. Ouverture. … (ré majeur)2. Allegro (ré majeur)3. Air. … (ré majeur)4. … (ré majeur)5. Marche. … (ré majeur)[see HWV 27(17)],Orchestra,
@@ -1343,7 +1343,7 @@ sol majeur; Variation 1-8: sol majeur; Var. 9-16: sol mineur; Var. 17-21: sol ma
 [see HWV 228/3]",Harpsichord,
 507.000 ,HWV 507,,,Minuet in D minor,Minuet,D minor,"1. (ré mineur)
 [see HWV 436(4)]",Harpsichord,[2 versions]
-508.000 ,HWV 508,,,,Minuet,d/e,"1. (ré mineur)/(mi mineur)
+508.000 ,HWV 508,,,Menuet,Minuet,,"1. (ré mineur)/(mi mineur)
 [see HWV 16(5)]",Harpsichord,de HWV 16: Flavio
 509.000 ,HWV 509,,,Minuet in F major,Minuet,F major,,Harpsichord,
 510.000 ,HWV 510,,,Minuet in F major,Minuet,F major,"1. (fa majeur)
@@ -1354,9 +1354,9 @@ sol majeur; Variation 1-8: sol majeur; Var. 9-16: sol mineur; Var. 17-21: sol ma
 [see HWV 547]",Harpsichord,
 512.000 ,HWV 512,,,Minuet in F major,Minuet,F major,"1. (fa majeur)
 [see HWV 24(30)]",Harpsichord,de HWV 24: Siroe
-513.000 ,HWV 513,,,,Minuet,F/G,,Harpsichord,
-514.000 ,HWV 514,,,,Minuet,F/G,,Harpsichord,
-515.000 ,HWV 515,,,,Minuet,F/G,,Harpsichord,
+513.000 ,HWV 513,,,Menuet,Minuet,F major,,Harpsichord,
+514.000 ,HWV 514,,,Menuet,Minuet,F major,,Harpsichord,
+515.000 ,HWV 515,,,Menuet,Minuet,F major,,Harpsichord,
 516.000 ,HWV 516,,,Minuet in F major,Minuet,F major,,Harpsichord,[3 versions]
 517.000 ,HWV 517,,,Minuet in F major,Minuet,F major,,Harpsichord,
 518.000 ,HWV 518,,,Minuet in F major,Minuet,F major,,Harpsichord,

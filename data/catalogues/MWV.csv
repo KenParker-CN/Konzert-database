@@ -357,7 +357,7 @@ Adagio","SSA Female Choir, Organ/Piano",
 2038 ,MWV B38,,,Psalm 100 „Ihr Völker auf der Erde all“,Psalm,,,,
 2039 ,MWV B39,,,"Psalm 31 „Auf dich setz ich, Herr, mein Vertrauen“",Psalm,,,,
 2040 ,MWV B40,,,Psalm 91 „Wer in des Allerhöchsten Hut“,Psalm,,,,
-2041 ,MWV B41,op. 78/1,1843,Psaume 2: Warem toben die Heiden (Why rage fiercely the heathen?),Psalm,g/c,Con moto / Allegro moderato (ré majeur),"8 Solistes/2 Choirs, a cappella",
+16015 ,MWV P15,op. 95,1839,"Ouverture ""Ruy Blas""",Overture,C minor,Lento / Allegro molto,"2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 4 Horns, 2 Trumpets, 3 trombones, Timpani, 2 Violins, Viola, Cello, Double Bass",
 2042 ,MWV B42,op. 79/1,1843,"Frohlocket, ihr Solker auf Erden (Rejoice, O ye people)",Antiphon,G major,Allegro moderato,SSAATTBB Choir a cappella,[Pour la nuit de Noël]
 2043 ,MWV B43,,,"Choral „Tag des Zorns, Gericht der Sünden“",,,,,
 2044 ,MWV B44,op. 79/2,1843,"Herr Gottt, du bist unsre Zuflucht (Thou, Lord, our refuge hast been)",Antiphon,D minor,Andante,SSAATTBB Choir a cappella,[Pour la Nouvel An]
@@ -964,7 +964,7 @@ after 2 poems by Johann Wolfgang von Goethe"
 after Grillparzer"
 16013 ,MWV P13,,,Prozessionsmarsch,March,,,,
 16014 ,MWV P14,op. 103,1836,Trauermarsch,March,A minor,"Marcia funebre -, Trio (la majeur/la mineur)","Military Orchestra: Flute, 2 Oboes, 4 Clarinets, 2 Basset Horns, 2 Bassoons, Contrebassoon, 4 Horns, 2 Trumpets, 3 Trombones",[en mémoire de Norbert Burgmuller]
-16015 ,MWV P15,op. 95,1839,"Ouverture ""Ruy Blas""",Overture,C/c,Lento / Allegro molto,"2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 4 Horns, 2 Trumpets, 3 trombones, Timpani, 2 Violins, Viola, Cello, Double Bass",
+21031 ,MWV U31,,,Largo-Allegro molto,Piece,C major,,Piano,
 16016 ,MWV P16,op. 108,1841,Marsch für Orchester,March,D major,Vivace,"2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, 3 trombones, Timpani, 2 Violins, Viola, Cello, Double Bass",[avec 2 trios]
 16017 ,MWV P17,,,,March,E-flat major,,,
 16018 ,MWV P18,,,,March,E-flat major,,,
@@ -1123,7 +1123,10 @@ after Grillparzer"
 21030 ,MWV U30,op. 105,1821,Violin Sonata in G minor,Sonata,G minor,"1. Allegro (sol mineur)
 2. Adagio cantabile e lento (do mineur)
 3. Presto (sol mineur)",Piano,Piano Sonata No. 2
-21031 ,MWV U31,,,Largo-Allegro molto,Piece,c/C,,Piano,
+23057 ,MWV W57,op. 65/2,1844,Organ Sonata # 2,Sonata,C minor,"1. Grave (do mineur)
+2. Adagio (do mineur)
+3. Allegro maestoso e vivace (do majeur)
+4. Fugue. Allegro moderato, en do majeur)",Organ,
 21041 ,MWV U41,,,Fantaisia in C minor,Fantaisia,C minor,,Piano,
 21044 ,MWV U44,op. 7/2,1827,Mit heftiger Bewegung,Piece,B minor,Allegro vivace,Piano,
 21050 ,MWV U50,op. 5,1825,Cappricio in F-sharp minor,Caprice,F-sharp minor,Prestissimo,Piano,
@@ -1279,14 +1282,14 @@ after Grillparzer"
 23026 ,MWV W26,,,Fugue in F minor,Fugue,F minor,,Organ,
 23033 ,MWV W33,,,Allegro,Piece,D minor,,Piano,
 23039 ,MWV W39,,,Chorale,,A-flat major,,Organ,
-23056 ,MWV W56,op. 65/1,1844,Organ Sonata # 1,Sonata,f/F,"1. Allegro moderato e serioso (fa mineur)
+23061 ,MWV W61,op. 65/6,1845,Organ Sonata # 6,Sonata,D minor,"1. Choral, en ré mineur
+2. Andante sostenuto, en ré mineur
+3. Allegro molto, en ré mineur
+4. Fugue. Sostenuto e legato, en ré mineur",Organ,
+23056 ,MWV W56,op. 65/1,1844,Organ Sonata # 1,Sonata,F minor,"1. Allegro moderato e serioso (fa mineur)
 2. Adagio (fa mineur)
 3. Andante (fa mineur)
 4. Allegro assai vivace (fa majeur)",Organ,
-23057 ,MWV W57,op. 65/2,1844,Organ Sonata # 2,Sonata,c/C,"1. Grave (do mineur)
-2. Adagio (do mineur)
-3. Allegro maestoso e vivace (do majeur)
-4. Fugue. Allegro moderato, en do majeur)",Organ,
 23058 ,MWV W58,op. 65/3,1844,Organ Sonata # 3,Sonata,A major,"1. Con moto maestoso (la majeur)
 2. Andante tranquillo (la majeur)",Organ,
 23059 ,MWV W59,op. 65/4,1845,Organ Sonata # 4,Sonata,B-flat major,"1. Allegro con brio (si bémol majeur)
@@ -1296,10 +1299,7 @@ after Grillparzer"
 23060 ,MWV W60,op. 65/5,1845,Organ Sonata # 5,Sonata,D major,"1. Andante (ré majeur)
 2. Andante con moto (si mineur)
 3. Allegro maestoso (ré majeur)",Organ,
-23061 ,MWV W61,op. 65/6,1845,Organ Sonata # 6,Sonata,d/D,"1. Choral, en ré mineur
-2. Andante sostenuto, en ré mineur
-3. Allegro molto, en ré mineur
-4. Fugue. Sostenuto e legato, en ré mineur",Organ,
+2041 ,MWV B41,op. 78/1,1843,Psaume 2: Warem toben die Heiden (Why rage fiercely the heathen?),Psalm,C minor,Con moto / Allegro moderato (ré majeur),"8 Solistes/2 Choirs, a cappella",
 24001 ,MWV X1,,,„Gesegnete Mahlzeit“,Canon,,,,
 24002 ,MWV X2,,,„Ich will Dienstag kommen“,Canon,,,,
 24003 ,MWV X3,,,„Wohl ihm“,Canon,,,,
