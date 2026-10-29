@@ -4,13 +4,15 @@
     "clear": "Zurücksetzen",
     "previous": "Zurück",
     "next": "Weiter",
-    "language": "Sprache"
+    "language": "Sprache",
+    "open": "Öffnen"
   },
   "navigation": {
     "home": "Startseite",
     "works": "Werke",
     "catalogues": "Werkverzeichnisse",
-    "composers": "Komponisten"
+    "composers": "Komponisten",
+    "genres": "Musikgattungen"
   },
   "theme": {
     "label": "Design",
@@ -23,20 +25,53 @@
     "tagline": "Eine klare, vernetzte Heimat für Komponisten, Werke und Album-Sammlungen.",
     "exploreWorks": "Werke entdecken",
     "worksExplorerTitle": "Werke-Explorer",
-    "worksExplorerDescription": "Suche nach Katalognummern, Titeln, Komponisten und Besetzung."
+    "worksExplorerDescription": "Suche nach Katalognummern, Titeln, Komponisten und Besetzung.",
+    "collectionLabel": "Entdecken",
+    "composers": "Komponisten",
+    "works": "Werke"
   },
   "catalogues": {
-    "badge": "Die Sammlung",
     "title": "Werkverzeichnisse",
-    "description": "Entdecken Sie die verfügbaren Werkverzeichnisse im Archiv.",
     "count": "{count} Kataloge",
     "refreshCache": "Daten aktualisieren",
     "refreshingCache": "Wird aktualisiert…",
     "refreshCacheFailed": "Aktualisierung fehlgeschlagen. Bitte erneut versuchen.",
-    "coverLabel": "Verzeichnis klassischer Werke",
     "allCatalogues": "Alle Kataloge",
     "compositionList": "Werkliste von {composer}",
-    "compositionListsHeading": "Werklisten"
+    "eraUnknown": "Unbekannt",
+    "cataloguer": "Katalogisator: {name}",
+    "kvRefreshHint": "Bis zu ~5 s",
+    "kvDataSource": "Datenquelle"
+  },
+  "search": {
+    "title": "Suche",
+    "placeholder": "Komponisten, Werkverzeichnisse suchen…",
+    "composers": "Komponisten",
+    "catalogues": "Werkverzeichnisse",
+    "catalogue": "Werkverzeichnis",
+    "viewAll": "{count} Treffer · Alle anzeigen",
+    "searching": "Suche läuft…",
+    "failed": "Die Suche ist vorübergehend nicht verfügbar. Bitte versuchen Sie es erneut.",
+    "noResults": "Keine Ergebnisse gefunden",
+    "resultsFor": "Suchergebnisse für «{query}»"
+  },
+  "genrePages": {
+    "title": "Musikgattungen",
+    "description": "Entdecken Sie Formen und Traditionen der klassischen Musik.",
+    "vocal": "Vokal",
+    "instrumental": "Instrumental",
+    "stage": "Bühne",
+    "groups": {
+      "vocalConcert": "Konzertante Vokalwerke",
+      "vocalLiturgical": "Liturgische Werke",
+      "instrumentalOrchestral": "Orchesterwerke",
+      "instrumentalForms": "Kammermusik und Klavierformen",
+      "stageWorks": "Bühnenwerke"
+    },
+    "introduction": "Einführung",
+    "contentPlaceholder": "Eine Einführung in diese Gattung wird hier ergänzt.",
+    "relatedWorks": "Verwandte Werke",
+    "relatedWorksPlaceholder": "Werke dieser Gattung können später hier erkundet werden."
   },
   "works": {
     "title": "Werke",
@@ -44,17 +79,49 @@
     "catalogue": "Kata#",
     "number": "#",
     "titleColumn": "Titel",
-    "type": "Typ",
+    "genre": "Gattung",
     "key": "Tonart",
+    "keyFilterLabel": "Nach Tonart filtern",
+    "allKeys": "Alle Tonarten",
     "instrumentation": "Besetzung",
+    "instrumentationAbbreviations": "Besetzungs-Abkürzungen",
+    "abbreviation": "Abkürzung",
+    "instrumentName": "Instrument",
+    "viewInstrumentationAbbreviations": "Besetzungs-Abkürzungen anzeigen",
+    "dragToMove": "Zum Verschieben ziehen · Doppelklick zum Zurücksetzen",
     "count": "{count} Werke",
     "noWorks": "Keine Werke entsprechen diesen Filtern.",
-    "otherType": "Andere Werke",
+    "otherType": "Nicht spezifiziert",
+    "groupedView": "Gruppenansicht",
+    "allView": "Gesamtansicht",
+    "allWorks": "Alle Werke",
     "groupNavigation": "Werkgruppen durchsuchen",
     "subgroups": "Untergruppen",
     "loading": "Werke werden geladen…",
     "loadFailed": "Die Werke konnten gerade nicht geladen werden. Bitte später erneut versuchen.",
-    "pageInfo": "Seite {current} von {total}"
+    "pageInfo": "Seite {current} von {total}",
+    "opus": "Opus",
+    "helm": "Helm",
+    "date": "Datum",
+    "details": "Details",
+    "recommendedRecording": "Empfohlene Aufnahme",
+    "wotquenne": "Wotquenne-Katalognummer",
+    "workparts": "Werkteile",
+    "note": "Anmerkung",
+    "germanTitle": "Deutscher Titel",
+    "nickname": "Beiname",
+    "otherCatalogueReferences": "Weitere Katalognummern",
+    "movement": "Satz",
+    "workStructure": "Werkstruktur",
+    "vocalTitle": "Vokaltitel",
+    "tempo": "Tempo",
+    "meter": "Taktart",
+    "measures": "Takte",
+    "genres": "Gattungen",
+    "creationLocation": "Entstehungsort",
+    "viewDetails": "Werkdetails anzeigen",
+    "searchResults": "Suchergebnisse",
+    "noSearchResults": "Keine Werke entsprechen Ihrer Suche"
   },
   "composers": {
     "badge": "Personen im Archiv",
@@ -83,7 +150,11 @@
       "Modern": "Moderne (1900-2000)",
       "Contemporary": "Gegenwart (2000+)",
       "present": "Gegenwart"
-    }
+    },
+    "musicBrainzCount": "Es werden {shown} von {total} Werken aus MusicBrainz angezeigt",
+    "musicBrainzAttribution": "Werke bereitgestellt von MusicBrainz",
+    "musicBrainzOpen": "In MusicBrainz öffnen",
+    "musicBrainzNoWorks": "Keine Werke in MusicBrainz gefunden"
   },
   "pagination": {
     "page": "Seite",

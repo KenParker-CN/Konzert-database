@@ -13,7 +13,7 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const SKIP_DIRS = new Set(['node_modules', '.next', '.git', '.idea', '.vercel', 'scripts']);
 const SOURCE_EXT = /\.(tsx?|jsx?|mjs|cjs)$/;
-const LOCALES = ['en', 'zh', 'de', 'fr', 'ja'];
+const LOCALES = ['en', 'zh', 'de', 'fr'];
 const WRITE = process.argv.includes('--write');
 
 /** Referenced through template literals or other indirection — always kept. */

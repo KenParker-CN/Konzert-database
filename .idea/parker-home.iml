@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/.vercel" />
+      <excludeFolder url="file://$MODULE_DIR$/konzert-public-data" />
     </content>
     <orderEntry type="jdk" jdkName="D:\Users\Parker\WebstormProjects\parker-home\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

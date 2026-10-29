@@ -2,16 +2,14 @@ import AppShell from '@/components/AppShell'
 import CatalogWorksPanel from '@/components/common/CatalogWorksPanel'
 import WorksLoading from '@/components/common/WorksLoading'
 import RefreshCatalogueWorksButton from '@/components/common/RefreshCatalogueWorksButton'
-import {IconArrowLeft} from '@tabler/icons-react'
+import CatalogueWorkspace from '@/components/catalogues/CatalogueWorkspace'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getI18n} from '@/lib/i18n/server'
-import {isLocale, localePath} from '@/lib/i18n/config'
-import Link from 'next/link'
+import {isLocale} from '@/lib/i18n/config'
 import {notFound} from 'next/navigation'
-import catalogueDescriptions from '@/lib/data/catalogue-descriptions.json'
+import {KV_API_URL} from '@/lib/data/csv-loader'
 
-type CatalogueDescription = (typeof catalogueDescriptions)[keyof typeof catalogueDescriptions]
 import {Suspense} from 'react'
 import {getCountryFlagCode, getLocalizedComposerName} from '@/lib/composer-name'
 
@@ -41,28 +39,17 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
     )
     const ComposerHeading = 'h2'
 
-    const catalogueInfo = (catalogueDescriptions as Record<string, CatalogueDescription | undefined>)[code]
-
-    const catalogueDisplayName = catalogueInfo?.name?.[locale]
-        || composer.catalogueName?.trim()
+    const catalogueDisplayName = composer.catalogueName?.trim()
         || `${composer.nameSort?.split(',')[0]?.trim() || composer.name}'s works`
 
     return (
         <AppShell active="catalogues">
-            <main className="min-h-screen">
-                <div className="mx-auto max-w-300 px-5 py-10 lg:px-10 lg:py-14">
-                    <div className="flex items-center justify-between">
-                        <Link href={localePath(locale, '/catalogues')}
-                           className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-700">
-                            <IconArrowLeft size={16}/>
-                            {t('catalogues.allCatalogues')}
-                        </Link>
-                        <RefreshCatalogueWorksButton catalogCode={catalogCode}/>
-                    </div>
-
-                    <div className="mt-7 flex flex-col gap-6">
+            <CatalogueWorkspace catalogues={catalogues} currentCatalogue={code} locale={locale}>
+                <main className="min-h-full">
+                    <div className="mx-auto max-w-300 px-5 py-4 lg:px-10 lg:py-5">
+                    <div className="mt-4 flex flex-col gap-4">
                         <div className="grid grid-cols-1 gap-4 md:grid-cols-[minmax(12rem,3fr)_minmax(0,7fr)]">
-                            <section className="min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+                            <section className="flex min-w-0 flex-col justify-center rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
                                 <div className="@container min-w-0">
                                     <ComposerHeading
                                         className="heading whitespace-nowrap font-semibold leading-tight tracking-tight text-slate-950"
@@ -73,7 +60,7 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                         {composerDisplayName}
                                     </ComposerHeading>
                                     {(composer.nationalities.length > 0 || lifespan) && (
-                                        <div className="mt-2 flex flex-wrap items-center gap-2 text-sm text-slate-500">
+                                        <div className="mt-1 flex flex-wrap items-center gap-2 text-sm text-slate-500">
                                             {composer.nationalities.map(code => {
                                                 const flagCode = getCountryFlagCode(code)
                                                 return flagCode ? (
@@ -90,12 +77,23 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                 </div>
                             </section>
 
-                            <section className="flex min-w-0 flex-col justify-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+                            <section className="relative flex min-w-0 flex-col justify-center rounded-2xl border border-slate-200 bg-white p-4 pr-12 shadow-sm sm:p-5 sm:pr-12">
+                                {catalogCode === 'KV' && <RefreshCatalogueWorksButton catalogCode={catalogCode}/>}
                                 <h1 className="heading wrap-break-word text-2xl font-semibold leading-tight tracking-tight text-slate-950 sm:text-3xl">
                                     {catalogueDisplayName}
                                 </h1>
-                                {catalogueInfo?.compiler?.name && (
-                                    <p className="mt-2 text-sm text-slate-500">{catalogueInfo.compiler.name}</p>
+                                {catalogue.cataloguerName && (
+                                    <p className="mt-1 text-sm text-slate-500">{t('catalogues.cataloguer', {name: catalogue.cataloguerName})}</p>
+                                )}
+                                {catalogCode === 'KV' && (
+                                    <a
+                                        href={KV_API_URL}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="mt-2 inline-flex w-fit items-center gap-1 text-xs text-slate-500 underline decoration-slate-300 underline-offset-2 transition hover:text-slate-700 hover:decoration-slate-500"
+                                    >
+                                        {t('catalogues.kvDataSource')}
+                                    </a>
                                 )}
                             </section>
                         </div>
@@ -104,8 +102,9 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                             <CatalogWorksPanel locale={locale} catalogCode={catalogCode}/>
                         </Suspense>
                     </div>
-                </div>
-            </main>
+                    </div>
+                </main>
+            </CatalogueWorkspace>
         </AppShell>
     )
 }

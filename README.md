@@ -1,8 +1,8 @@
 # Konzert Database
 
 A multilingual classical music catalogue for browsing composers and their
-works. Locale is derived from the URL prefix (`/en`, `/zh`, `/fr`, `/de`,
-`/ja`); `proxy.ts` redirects unlocalized paths to the default locale.
+works. Locale is derived from the URL prefix (`/en`, `/zh`, `/fr`, `/de`);
+`proxy.ts` redirects unlocalized paths to the default locale.
 
 ## Data
 
@@ -14,9 +14,11 @@ minutes per server instance. The CSV source files are maintained in the
 repository and copied into this project when refreshed.
 
 After editing workbooks, run `konzert-public-data/convert-to-app-data.bat`
-to convert the XLSX files in `konzert-public-data/xlsx/` directly into
-`data/catalogues/`. The converter requires Node.js and the `xlsx` package
-installed in the public-data repository.
+to update changed XLSX files from `konzert-public-data/xlsx/` in
+`data/catalogues/`. When CSVs change, the batch commits only those CSVs and
+pushes the current app branch. The converter requires Node.js and the `xlsx` package.
+The first run converts all workbooks and saves a local hash manifest; later
+runs convert only workbooks whose contents changed.
 
 Mozart's KV catalogue is read from the vendored snapshot in
 `public/kv-entries.json`, which holds the
@@ -85,7 +87,7 @@ lib/
   data/                   CSV loading, catalogue mapping, work grouping
   db/composers.ts         Composer directory and catalogue-work accessors
   i18n/                   Locale configuration and dictionaries
-messages/                 English, Chinese, French, German, and Japanese text
+messages/                 English, Chinese, French, and German text
 public/kv-entries.json    Vendored Mozart KV index snapshot
 scripts/                  Data and i18n maintenance scripts
 proxy.ts                  Locale redirects (Next.js 16 middleware replacement)

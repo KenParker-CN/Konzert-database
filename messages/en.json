@@ -4,30 +4,64 @@
     "clear": "Clear",
     "previous": "Previous",
     "next": "Next",
-    "language": "Language"
+    "language": "Language",
+    "open": "Open"
   },
   "navigation": {
     "home": "Home",
     "works": "Works",
-    "catalogues": "Catalogues"
+    "catalogues": "Catalogues",
+    "genres": "Genres"
   },
   "home": {
     "badge": "Classical music archive",
     "tagline": "A growing archive of composers, catalogues, and the music that connects them.",
-    "collectionLabel": "Explore"
+    "collectionLabel": "Explore",
+    "composers": "Composers",
+    "works": "Works"
   },
   "catalogues": {
-    "badge": "The collection",
     "title": "Work catalogues",
-    "description": "Browse the work catalogues currently available in the archive, presented like volumes in a music bookshop.",
     "count": "{count} catalogues",
     "refreshCache": "Refresh data",
     "refreshingCache": "Refreshing…",
     "refreshCacheFailed": "Could not refresh data. Please try again.",
-    "coverLabel": "Classical works catalogue",
+    "kvRefreshHint": "Up to ~5 s",
     "allCatalogues": "All catalogues",
     "compositionList": "List of compositions by {composer}",
-    "compositionListsHeading": "Composition lists"
+    "eraUnknown": "Unknown",
+    "cataloguer": "Compiler: {name}",
+    "kvDataSource": "Data source"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search composers, catalogues…",
+    "composers": "Composers",
+    "catalogues": "Catalogues",
+    "catalogue": "Catalogue",
+    "viewAll": "{count} results · View all",
+    "searching": "Searching…",
+    "failed": "Search is temporarily unavailable. Please try again.",
+    "noResults": "No results found",
+    "resultsFor": "Results for «{query}»"
+  },
+  "genrePages": {
+    "title": "Musical genres",
+    "description": "Explore the forms and traditions behind classical music.",
+    "vocal": "Vocal",
+    "instrumental": "Instrumental",
+    "stage": "Stage",
+    "groups": {
+      "vocalConcert": "Concert vocal works",
+      "vocalLiturgical": "Liturgical works",
+      "instrumentalOrchestral": "Orchestral works",
+      "instrumentalForms": "Chamber and keyboard forms",
+      "stageWorks": "Stage works"
+    },
+    "introduction": "Introduction",
+    "contentPlaceholder": "An introduction to this genre will be added here.",
+    "relatedWorks": "Related works",
+    "relatedWorksPlaceholder": "Works in this genre can be explored here."
   },
   "works": {
     "title": "Works",
@@ -45,6 +79,7 @@
     "nickname": "Nickname",
     "otherCatalogueReferences": "Other catalogue references",
     "movement": "Movement",
+    "workStructure": "Work structure",
     "vocalTitle": "Vocal title",
     "tempo": "Tempo",
     "meter": "Meter",
@@ -53,21 +88,37 @@
     "creationLocation": "Creation location",
     "viewDetails": "View work details",
     "titleColumn": "Title",
-    "type": "Type",
+    "genre": "Genre",
     "key": "Key",
+    "keyFilterLabel": "Filter by key",
+    "allKeys": "All keys",
     "instrumentation": "Instrumentation",
+    "instrumentationAbbreviations": "Instrumentation abbreviations",
+    "abbreviation": "Abbreviation",
+    "instrumentName": "Instrument",
+    "viewInstrumentationAbbreviations": "View instrumentation abbreviations",
+    "dragToMove": "Drag to move · double-click to reset",
     "count": "{count} works",
     "noWorks": "No works match these filters.",
-    "otherType": "Other works",
+    "otherType": "Non-specified",
+    "groupedView": "Grouped view",
+    "allView": "All works",
+    "allWorks": "All works",
     "groupNavigation": "Browse work groups",
     "subgroups": "Subgroups",
     "loading": "Loading works…",
     "loadFailed": "Works could not be loaded right now. Please try again later.",
-    "pageInfo": "Page {current} of {total}"
+    "pageInfo": "Page {current} of {total}",
+    "searchResults": "Search results",
+    "noSearchResults": "No works match your search"
   },
   "composers": {
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "Loading…",
-    "readOnWikipedia": "Read more on Wikipedia ↗"
+    "readOnWikipedia": "Read more on Wikipedia ↗",
+    "musicBrainzCount": "Showing {shown} of {total} works from MusicBrainz",
+    "musicBrainzAttribution": "Works provided by MusicBrainz",
+    "musicBrainzOpen": "Open in MusicBrainz",
+    "musicBrainzNoWorks": "No works found in MusicBrainz"
   }
 }

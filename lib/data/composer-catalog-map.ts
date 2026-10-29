@@ -5,7 +5,7 @@ export const composerCatalogMap: Record<string, string> = {
   'george-frideric-handel': 'HWV',
   'antonio-vivaldi': 'RV',
   'georg-philipp-telemann': 'TWV',
-  'carl-philipp-emanuel-bach': 'CPE',
+  'carl-philipp-emanuel-bach': 'Helm',
   'maurice-ravel': 'Marnat',
   'jean-baptiste-lully': 'LWV',
   'arcangelo-corelli': 'Corelli',
@@ -20,6 +20,18 @@ export const composerCatalogMap: Record<string, string> = {
   'henry-purcell': 'Zimmerman',
   'ludwig-van-beethoven': 'Beethoven',
   'antonin-dvorak': 'Burghauser',
+  'claudio-monteverdi': 'Stattkus',
+  'domenico-scarlatti': 'Kirkpatrick',
+  'wilhelm-friedemann-bach': 'Falck',
+  'carl-nielsen': 'CNW',
+  'marc-antoine-charpentier': 'Hitchcock',
+  'anton-bruckner': 'WAB',
+  'johann-david-heinichen': 'Seibel',
+  'bernd-richard-deutsch': 'BRDeutsch',
+  'camille-saint-saens': 'Ratner',
+  'johannes-brahms': 'Brahms',
+  'jan-dismas-zelenka': 'ZWV',
+  'igor-stravinsky': 'K_Stravinsky',
 };
 
 export function getCatalogForComposer(composerSlug: string): string | undefined {

@@ -24,7 +24,7 @@ export default async function CatalogWorksPanel({
                 </div>
             ) : works.length > 0 ? (
                 <WorksAccordion
-                    groups={groupWorksByCategory(works, catalogCode)}
+                    groups={groupWorksByCategory(works)}
                     catalogCode={catalogCode}
                     otherTitle={t('works.otherType')}
                 />

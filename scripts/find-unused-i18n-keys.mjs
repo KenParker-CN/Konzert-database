@@ -11,23 +11,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
-const SKIP_DIRS = new Set(['node_modules', '.next', '.git', '.idea', '.vercel', 'scripts']);
-const SOURCE_EXT = /\.(tsx?|jsx?|mjs|cjs)$/;
-
-function collectSourceFiles(dir) {
-  const found = [];
-  for (const entry of readdirSync(dir, { withFileTypes: true })) {
-    if (SKIP_DIRS.has(entry.name)) continue;
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      found.push(...collectSourceFiles(full));
-    } else if (SOURCE_EXT.test(entry.name)) {
-      found.push(full);
-    }
-  }
-  return found;
-}
-
+new Set(['node_modules', '.next', '.git', '.idea', '.vercel', 'scripts']);
 function flatten(node, prefix = '') {
   return Object.entries(node).flatMap(([key, value]) =>
     typeof value === 'object' && value !== null

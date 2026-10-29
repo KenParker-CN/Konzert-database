@@ -5,70 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/parker-home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/parker-home.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLAUDE.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/loading.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppShell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppShell.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/LanguageSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LanguageSelector.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ThemeSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ThemeSelector.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/catalogues/CatalogueNotes.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/catalogues/RefreshCatalogueCacheButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/RefreshCatalogueCacheButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/catalogues/WorksAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorksAccordion.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/WikipediaIntro.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/CatalogWorksPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/CatalogWorksPanel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/MusicBrainzWorks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/MusicBrainzWorks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/RefreshCatalogueWorksButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/RefreshCatalogueWorksButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/common/WorksLoading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/WorksLoading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/SortableTableHeader.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/blur-in-text.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/card.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/combobox.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/country-select.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/field.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/input-group.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/input-inline.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/label.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/novatrix-background.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/pagination.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/select.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/separator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/textarea.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/toast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/toast.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/haydn.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/composer-avatar.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/catalogue-descriptions.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/catalogue-descriptions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/catalogue-descriptions.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data/csv-loader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/csv-loader.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data/work-groups.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/work-groups.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/composers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/composers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hooks/useTableSort.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/i18n/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/i18n/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/i18n/dictionaries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/i18n/dictionaries.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/i18n/work-terms.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/i18n/work-terms.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/ja.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/zh.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/cata.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/corelli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/handel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/haydn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/jsbach.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/mendelssohn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/mozart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/rameau.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/ravel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/shostakovich.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/tchaikovsky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/composer/vivaldi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/country-list.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/kv-entries.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/kv-entries.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/find-unused-i18n-keys.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/find-unused-i18n-keys.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/prune-unused-i18n-keys.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/prune-unused-i18n-keys.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,23 +87,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000002858" />
-      <entry key="MS500" value="1.0030989603360452" />
-      <entry key="S2" value="1.2383820873308047" />
-      <entry key="S5" value="1.7187092759553284" />
-      <entry key="S10" value="2.424124896256393" />
-      <entry key="S30" value="3.725526840550172" />
-      <entry key="S60" value="4.28677794055181" />
-      <entry key="M2" value="4.621892113273248" />
-      <entry key="M5" value="4.84323856669738" />
-      <entry key="M10" value="4.920667858965341" />
-      <entry key="M15" value="4.946898062244941" />
-      <entry key="M30" value="4.97334680214931" />
-      <entry key="H1" value="4.993297486018923" />
-      <entry key="H2" value="5.269823406946852" />
-      <entry key="H4" value="7.700634559423221" />
-      <entry key="D1" value="209.37942482127957" />
-      <entry key="W1" value="1006.4125779184186" />
+      <entry key="MS100" value="1.3296293863053947" />
+      <entry key="MS500" value="2.9586917235435344" />
+      <entry key="S2" value="8.59010796780062" />
+      <entry key="S5" value="16.390452636974928" />
+      <entry key="S10" value="22.606284974424895" />
+      <entry key="S30" value="29.89571340128437" />
+      <entry key="S60" value="33.61253873685247" />
+      <entry key="M2" value="39.49843942219124" />
+      <entry key="M5" value="55.999362894178425" />
+      <entry key="M10" value="70.63643254962129" />
+      <entry key="M15" value="77.73483589829833" />
+      <entry key="M30" value="86.39689383265454" />
+      <entry key="H1" value="91.42880183578016" />
+      <entry key="H2" value="94.18151908679594" />
+      <entry key="H4" value="97.73856334132883" />
+      <entry key="D1" value="261.5167523912492" />
+      <entry key="W1" value="1374.7090893248833" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -138,34 +114,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="3.19374046693531E-180" />
-      <entry key="M10" value="1.787103932885642E-90" />
-      <entry key="M15" value="1.4726511257284507E-60" />
-      <entry key="M30" value="1.2135283786250942E-30" />
-      <entry key="H1" value="1.1016026409849872E-15" />
-      <entry key="H2" value="3.319039988260421E-8" />
-      <entry key="H4" value="1.822058153374921E-4" />
-      <entry key="D1" value="0.6324438306559498" />
-      <entry key="W1" value="7.651880711736275" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="2.1933000484586434E-172" />
+      <entry key="M15" value="4.845402200563175E-115" />
+      <entry key="M30" value="1.1551359430751109E-57" />
+      <entry key="H1" value="5.824432906297302E-29" />
+      <entry key="H2" value="1.3402558551718925E-14" />
+      <entry key="H4" value="2.2876436284912598E-7" />
+      <entry key="D1" value="0.442487248627801" />
+      <entry key="W1" value="9.695158354593243" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8705505632963836" />
-      <entry key="MS500" value="0.975694342644057" />
-      <entry key="S2" value="1.2303193317344756" />
-      <entry key="S5" value="1.7144728099983135" />
-      <entry key="S10" value="2.421157042332509" />
-      <entry key="S30" value="3.723974368803671" />
-      <entry key="S60" value="4.285876415161581" />
-      <entry key="M2" value="4.621403584394951" />
-      <entry key="M5" value="4.84303312641914" />
-      <entry key="M10" value="4.920563380350203" />
-      <entry key="M15" value="4.9468280123651125" />
-      <entry key="M30" value="4.973311576467744" />
-      <entry key="H1" value="4.993279671196897" />
-      <entry key="H2" value="5.26981211708646" />
-      <entry key="H4" value="7.700801890650408" />
-      <entry key="D1" value="210.0117535820025" />
-      <entry key="W1" value="1014.0643959048351" />
+      <entry key="MS100" value="1.260141049363722" />
+      <entry key="MS500" value="2.9293324641616123" />
+      <entry key="S2" value="8.569037568825802" />
+      <entry key="S5" value="16.37443774339064" />
+      <entry key="S10" value="22.59525688389695" />
+      <entry key="S30" value="29.890851000728453" />
+      <entry key="S60" value="33.60978459174543" />
+      <entry key="M2" value="39.49674387506577" />
+      <entry key="M5" value="55.99829780977292" />
+      <entry key="M10" value="70.6357304521031" />
+      <entry key="M15" value="77.7343136288744" />
+      <entry key="M30" value="86.39659985911835" />
+      <entry key="H1" value="91.42864536365222" />
+      <entry key="H2" value="94.18143826810697" />
+      <entry key="H4" value="97.73852153077038" />
+      <entry key="D1" value="261.95920654492915" />
+      <entry key="W1" value="1384.404176823625" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -185,69 +161,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Git.CreateWorkingTree.LastParentPath&quot;: &quot;D:/Users/Parker/WebstormProjects&quot;,
-    &quot;KEY_CHAT_IN_TOOLWINDOW&quot;: &quot;false&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-GridPaste&quot;: &quot;粘贴&quot;,
-    &quot;Notification.DoNotAsk-GridPaste&quot;: &quot;true&quot;,
-    &quot;Python.clean.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merge.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cline.proxy.unsupported.AutoDetectProxyData.dismissed&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;grid.search.filter.rows&quot;: &quot;true&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Parker/WebstormProjects/parker-home&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.Next.js: 服务器端.executor&quot;: &quot;Run&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.docs:build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.pagefind.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.33258173&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Parker\\AppData\\Local\\JetBrains\\WebStorm2026.2\\ts-go-native-preview\\v7.0.0-dev.jetbrains.20260702.4\\node_modules\\@typescript\\native-preview-win32-x64\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Git.CreateWorkingTree.LastParentPath": "D:/Users/Parker/WebstormProjects",
+    "KEY_CHAT_IN_TOOLWINDOW": "false",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-GridPaste": "粘贴",
+    "Notification.DoNotAsk-GridPaste": "true",
+    "Python.clean.executor": "Run",
+    "Python.merge.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cline.proxy.unsupported.AutoDetectProxyData.dismissed": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "grid.search.filter.rows": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Users/Parker/WebstormProjects/Konzert-database",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: 服务器端.executor": "Run",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.docs:build.executor": "Run",
+    "npm.docs:dev.executor": "Run",
+    "npm.pagefind.executor": "Run",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.splitter.proportion": "0.33258173",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\Parker\\AppData\\Local\\JetBrains\\WebStorm2026.2\\ts-go-native-preview\\v7.0.0-dev.jetbrains.20260702.4\\node_modules\\@typescript\\native-preview-win32-x64\\lib"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "sqlite"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
-      &quot;JSON&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
+      "TEXT",
+      "JSON"
     ],
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\Parker\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="69d8ad4e-77a7-4890-8735-63ada1fa54aa" reportId="clean.py/qodana/2026-09-03" />
@@ -255,6 +234,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Parker\WebstormProjects\Konzert-database" />
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\public\data" />
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\.vitepress" />
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\docs" />
@@ -268,7 +248,27 @@
       <recent name="D:\Users\Parker\WebstormProjects\parker-home\.vitepress" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -276,13 +276,17 @@
         <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
-      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +329,14 @@
       <workItem from="1791289574648" duration="45208000" />
       <workItem from="1791577689276" duration="12483000" />
       <workItem from="1791633398949" duration="30370000" />
-      <workItem from="1791865445499" duration="30866000" />
+      <workItem from="1791865445499" duration="32318000" />
+      <workItem from="1792062347451" duration="348000" />
+      <workItem from="1792156777143" duration="113873000" />
+      <workItem from="1792958145665" duration="8250000" />
+      <workItem from="1793173737041" duration="1472000" />
+      <workItem from="1793180355697" duration="3209000" />
+      <workItem from="1793210064522" duration="8784000" />
+      <workItem from="1793284107312" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="Added works into Kochel catalogue">
       <option name="closed" value="true" />
@@ -448,6 +459,7 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.configurationType" implementationName="PythonConfigurationType" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -461,6 +473,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/konzert-public-data" />
+    </ignored-roots>
     <MESSAGE value="Added works into Kochel catalogue" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="delete blank row in KV" />

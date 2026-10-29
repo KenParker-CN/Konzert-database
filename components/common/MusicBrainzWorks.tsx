@@ -30,7 +30,7 @@ export default async function MusicBrainzWorks({result, locale}: {
                 {result.works.map(work => (
                     <li key={work.id} className="flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
                         <div className="min-w-0">
-                            <p className="break-words text-sm font-medium text-slate-900">{work.title}</p>
+                            <p className="wrap-break-word text-sm font-medium text-slate-900">{work.title}</p>
                             {work.disambiguation && <p className="mt-1 text-xs text-slate-500">{work.disambiguation}</p>}
                         </div>
                         <div className="flex shrink-0 items-center gap-3 text-xs text-slate-500">

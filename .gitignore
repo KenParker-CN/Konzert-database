@@ -14,3 +14,4 @@ qodana.yaml
 *.sqlite-wal
 konzert-public-data/xlsx/
 konzert-public-data/scripts/
+data/catalogues/.xlsx-sync-manifest.json

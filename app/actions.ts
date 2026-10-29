@@ -1,6 +1,6 @@
 'use server'
 
-import {clearCsvCache, clearCatalogueCache} from '@/lib/data/csv-loader'
+import {clearCsvCache, clearCatalogueCache, refreshKvFromApi} from '@/lib/data/csv-loader'
 import {clearCatalogueDirectoryCache} from '@/lib/db/composers'
 
 export async function refreshCatalogueCache() {
@@ -9,6 +9,10 @@ export async function refreshCatalogueCache() {
 }
 
 export async function refreshCatalogueWorksCache(catalogCode: string) {
-    clearCatalogueCache(catalogCode)
+    if (catalogCode === 'KV') {
+        await refreshKvFromApi()
+    } else {
+        clearCatalogueCache(catalogCode)
+    }
     clearCatalogueDirectoryCache()
 }
