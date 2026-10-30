@@ -1,4 +1,377 @@
 SORT,Catalogue,Opus,Date,Title,Genre,Key,Work structure,Instrumentation,Note
+368.000 ,HWV 368,op. 1/10,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
+2. Allegro (sol mineur)
+3. Adagio (sol mineur)
+4. [Gigue] (sol mineur)","Violin, Basso Continuo",
+369.000 ,HWV 369,op. 1/11,,"Sonata in F major for Flute, Basso Continuo",Sonata,F major,"1. Grave (Larghetto) (fa majeur)
+[see HWV 293(1)]
+2. Allegro (fa majeur)
+[see HWV 293(2)]
+3. Alla Siciliana (ré mineur)
+[see HWV 293(3)]
+4. Allegro (fa majeur)
+[see HWV 293(4), 378(4), 405(3)]","Flute, Basso Continuo",
+370.000 ,HWV 370,op. 1/12,,Sonata in F major,Sonata,F major,"1. Adagio (fa majeur)
+2. Allegro (fa majeur)
+3. Largo (ré mineur)
+4. Allegro (fa majeur)","Violin, Basso Continuo",
+371.000 ,HWV 371,op. 1/13,,Sonata in D major,Sonata,D major,"1. Affettuoso (ré majeur)
+[see HWV 378(1), 379(3)]
+2. Allegro (ré majeur)
+[see HWV 67(15)]
+3. Larghetto (si mineur)
+4. Allegro (ré majeur)
+[see HWV 70(36), 99(3)]","Violin, Basso Continuo",
+372.000 ,HWV 372,op. 1/14,,Sonata in A major,Sonata,A major,"1. Adagio (la majeur)
+2. Allegro (la majeur)
+3. Largo (fa dièse mineur)
+4. Allegro (la majeur)","Violin, Basso Continuo",
+373.000 ,HWV 373,op. 1/15,,Sonata in E major,Sonata,E major,"1. Adagio (mi majeur)
+2. Allegro (mi majeur)
+3. Largo (do dièse mineur)
+4. Allegro (mi majeur)","Violin, Basso Continuo",
+379.000 ,HWV 379,op. 1/1a,,"Sonata in E minor for Flute, Basso Continuo",Sonata,E minor,"1. Larghetto (mi mineur)
+[see HWV 359a,b(1)]
+2. Andante (mi mineur)
+[see HWV 375(3)]
+3. Largo (sol majeur)
+[see HWV 371(1), 378(1)]
+4. Allegro (mi mineur)
+5. Presto (mi mineur)
+[see HWV 291(4), 310(4), 360(4)]","Flute, Basso Continuo",
+359.200 ,HWV 359b,op. 1/1b,,Sonata in E minor for Flute and Basso Continuo,Sonata,E minor,"1. Grave (mi mineur)
+[see HWV 379(1)]
+2. Allegro (mi mineur)
+3. Adagio (mi mineur)
+4. Allegro (mi mineur)","Flute, Basso Continuo",
+360.000 ,HWV 360,op. 1/2,,"Sonata in G minor for Flute, Basso Continuo",Sonata,G minor,"1. Larghetto (sol mineur)
+2. Andante (sol mineur)
+[see HWV 375(3)]
+3. Adagio (mi bémol majeur)
+4. Presto (sol mineur)","Flute, Basso Continuo",
+361.000 ,HWV 361,op. 1/3,,Sonata in A major,Sonata,A major,"1. Larghetto (Andante) (la majeur)
+2. Allegro (la majeur)
+3. Adagio (fa dièse mineur)
+4. Allegro (la majeur)
+[see HWV 377(3)]","Violin, Basso Continuo",
+362.000 ,HWV 362,op. 1/4,,"Sonata in A major for Flute, Basso Continuo",Sonata,A major,"1. Larghetto (la mineur)
+2. Allegro (la mineur)
+3. Adagio (fa majeur)
+4. Allegro (la mineur)","Flute, Basso Continuo",
+363.200 ,HWV 363b,op. 1/5,,"Sonata in G major for Flute, Basso Continuo",Sonata,G major,"1. Adagio (sol majeur)
+2. Allegro (sol majeur)
+3. [Adagio] (mi mineur)
+4. Bourrée (sol majeur)
+5. Menuet (sol majeur)
+[see HWV 315(4), 516]","Flute, Basso Continuo",
+364.100 ,HWV 364a,op. 1/6,,Sonata in G minor,Sonata,G minor,"1. Andante larghetto (sol mineur)
+2. Allegro (sol mineur)
+3. Adagio (mi bémol majeur)
+4. Allegro (sol mineur)
+[see HWV 24(Ouverture, Gigue)","Violin/Oboe, Basso Continuo",
+365.000 ,HWV 365,op. 1/7,,"Sonata in C major for Flute, Basso Continuo",Sonata,C major,"1. [Larghetto] (do majeur)
+2. Allegro (do majeur)
+3. Larghetto (la mineur)
+4. A tempo di Gavotta (do majeur)
+5. Allegro (do majeur)","Flute, Basso Continuo",
+366.000 ,HWV 366,op. 1/8,,Sonata in C minor,Sonata,C minor,"1. Largo (do mineur)
+[see HWV 375(1)]
+2. Allegro (do mineur)
+[see HWV 375(2)]
+3. Adagio (mi bémol majeur)
+4. Bourrée anglaise. Allegro (do mineur)","Oboe, Basso Continuo",
+367.200 ,HWV 367b,op. 1/9,,"Sonata in B minor for Flute, Basso Continuo",Sonata,B minor,"1. Largo (si mineur)
+2. Vivace (si mineur)
+3. Presto (sol majeur)
+4. Adagio (mi majeur)
+5. Alla breve (si mineur)
+6. Andante (si mineur)
+7. A tempo di Minuet (si mineur)","Flute, Basso Continuo",
+394.000 ,HWV 394,op. 2/10,,Sonata in E major,Sonata,E major,"1. Adagio (mi majeur)
+2. Allegro (mi majeur)
+3. Adagio (do dièse mineur)
+4. Allegro (mi majeur)","Violin, Viola, Basso Continuo",
+386.100 ,HWV 386a,op. 2/1a,,Sonata in C minor,Sonata,C minor,"1. Andante (do mineur)
+2. Allegro (do mineur)
+3. Andante (mi bémol majeur)
+[see HWV 6(29), 13(6), 46a(13)]
+4. Allegro (do mineur)
+[see HWV 351b,c(6)]","Flute (Oboe), Violin, Basso Continuo",sonate # 1a
+386.200 ,HWV 386b,op. 2/1b,,Sonata in B minor,Sonata,B minor,"1. Andante (si mineur)
+2. Allegro ma non troppo (si mineur)
+3. Largo (ré majeur)
+4. Allegro (si mineur)","Flute (Violin), Violin, Basso Continuo",sonate # 1b
+387.000 ,HWV 387,op. 2/2,,Sonata for 2 Violins in G minor,Sonata,G minor,"1. Andante (sol mineur)
+2. Allegro (sol mineur)
+3. Largo (sol mineur)
+4. Allegro (sol mineur)
+[see HWV 408]","2 Violins, Basso Continuo",sonate # 2
+392.000 ,HWV 392,op. 2/3,,Sonata in F major,Sonata,F major,"1. Andante (fa majeur)
+[see HWV 352(2)]
+2. Allegro (fa majeur)
+[see HWV 401(2)]
+3. Adagio (ré mineur)
+[see HWV 401(3)]
+4. Allegro (fa majeur)","Violin, Viola, Basso Continuo",
+388.000 ,HWV 388,op. 2/4,,Sonata in B-flat major,Sonata,B-flat major,"1. Andante (si bémol majeur)
+2. Allegro (si bémol majeur)
+[see HWV 50,a,b(Ouverture,3]
+3. Larghetto (sol mineur)
+[see HWV 50a,b(Ouverture,2]
+4. Allegro (si bémol majeur)
+[see HWV 290(2)]","2 Violins/2 Oboes/Flute, Violin, Basso Continuo",sonate # 3
+389.000 ,HWV 389,op. 2/5,,Sonata in F major,Sonata,F major,"1. Larghetto (fa majeur)
+[see HWV 249b(Symphony)]
+2. Allegro (fa majeur)
+3. Adagio (ré mineur)
+4. Allero (fa majeur)
+[see HWV 253(1), 302a(2)]
+5. Allegro (fa majeur)
+[see HWV 73(Ouverture, Gigue]","Flute (Flute, Oboe, Violin)/Violin (Flute), Basso Continuo",sonate # 4
+390.100 ,HWV 390a,op. 2/6,,Sonata in G minor,Sonata,G minor,"1. Larghetto (sol mineur)
+[see HWV 7a(27), 291(1)]
+2. Allegro (sol mineur)
+3. Adagio (si bémol majeur)
+4. Allegro (sol mineur)
+[see HWV 287(4), 291(2), 576(2)]","Violin, Viola, Basso Continuo",sonate # 5
+390.200 ,HWV 390b,op. 2/7,,Sonata in G minor,Sonata,G minor,"1. Adagio (sol mineur)
+2. Allegro (sol mineur)
+3. Largo (si bémol majeur)
+4. Allegro (sol mineur)","2 Violins, Cello, Harpsichord/Organ",sonate # 5
+391.000 ,HWV 391,op. 2/8,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
+2. Allegro (sol mineur)
+3. Arioso (si bémol majeur)
+4. Allegro (sol mineur)","Violin, Viola, Basso Continuo",sonate # 6
+393.000 ,HWV 393,op. 2/9,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
+2. Allegro (sol mineur)
+3. Largo (si bémol majeur)
+4. Allegro (sol mineur)","Violin, Viola, Basso Continuo",
+312.000 ,HWV 312,op. 3/1,,Concerto grosso B-Dur,Concerto grosso,B-flat major,"1 Allegro (si bémol majeur)
+2 Largo (sol mineur)
+3 Allegro (sol mineur)",Orchestra,concerto # 1
+313.000 ,HWV 313,op. 3/2,,Concerto grosso B-Dur,Concerto grosso,B-flat major,"1 Vivace (si bémol majeur)
+2 Largo (sol mineur)
+3 Allegro (si bémol majeur)
+[see HWV 48(Sinfonia), 607]
+4 [Menuet] (en si bémol majeur)
+[see HWV 523, 557]
+5 [Gavotte] (en si bémol majeur)",Orchestra,concerto # 2
+314.000 ,HWV 314,op. 3/3,,Concerto grosso G-Gur,Concerto grosso,G major,"1 Largo e staccato/Allegro (sol majeur)
+[see HWV 48 (Sinfonia), 252(1), 291(1)]
+2 Adagio (mi mineur)
+[see HWV 281(5)]
+3 Allegro (sol majeur)
+[see HWV 606]",Orchestra,concerto # 3
+315.000 ,HWV 315,op. 3/4,,Concerto grosso F-Dur,Concerto grosso,F major,"1 Andante/Allegro/Lentement (fa majeur)
+2 Andante (fa majeur)
+[see HWV 487(2)]
+3 Allegro (ré mineur)
+4 Minuetto alternativo (fa majeur)
+[see HWV 363(5), 516, 517]",Orchestra,concerto # 4
+316.000 ,HWV 316,op. 3/5,,Concerto grosso d-Moll,Concerto grosso,D minor,"1 … (ré mineur)
+[see HWV 247(1)]
+2 Allegro (ré mineur)
+[see HWV 247(1), 431(3)]
+3 Adagio (ré mineur)
+4 Allegro ma non troppo (ré mineur)
+[see HWV 251b(1), 398(2a)]",Orchestra,concerto # 5
+317.000 ,HWV 317,op. 3/6,,Concerto grosso D-Dur,Concerto grosso,D major,"1. Vivace (D)
+2. Allegro (d)",Orchestra,concerto # 6
+289.000 ,HWV 289,op. 4/1,,Concerto for Organ and Orchestra in G minor,Concerto,G minor,"1. Larghetto e staccato (sol mineur)
+2. Allegro (sol majeur)
+3. Adagio (mi mineur) [organo ad libitum]
+4. Andante (sol majeur) [see HWV 401(5a)]","Organ, Orchestra",concerto # 1 in Première série # 1
+290.000 ,HWV 290,op. 4/2,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1. A tempo ordinario e staccato (si bémol majeur) [see HWV 242(1)]
+2. Allegro (si bémol majeur) [see HWV 388(4)]
+3. Adagio e staccato (sol mineur)
+4. Allegro ma non presto (si bémol majeur)","Organ, Orchestra",concerto # 2 in Première série # 2
+291.000 ,HWV 291,op. 4/3,,Concerto for Organ and Orchestra in G minor,Concerto,G minor,"1. Adagio (sol mineur)
+[see HWV 7a(27), 48 (Sinfonia), 252(1), 314(1), 390(1)]
+2. Allegro (sol mineur)
+[see HWV 287(4), 390(4), 576(2)]
+3. Adagio (si bémol majeur)
+4a. ... (sol mineur)
+[see HWV 310(6), 360(4), 379(5)]
+4b. Allegro (sol mineur)
+[see HWV 6(17), 150(2)]","Organ, Orchestra",concerto # 3 in Première série # 3
+292.000 ,HWV 292,op. 4/4,,Concerto for Organ and Orchestra in F major,Concerto,F major,"1 Allegro (fa majeur)
+[see HWV 34(2b)]
+2 Andante (si bémol majeur)
+3 Adagio (ré mineur)
+[organo ad libitum,  see HWV 377(2)]
+4 Allegro (fa majeur)
+[see HWV 46b(36)]","Organ, Orchestra",concerto # 4 in Première série # 4
+293.000 ,HWV 293,op. 4/5,,Concerto for Organ and Orchestra in F major,Concerto,F major,"1 Larghetto (fa majeur)
+[see HWV 369(1)]
+2 Allegro (fa majeur)
+[see HWV 369(2)]
+3 Alla siciliana (ré mineur)
+[see HWV 369(3)]
+4 Presto (fa majeur)","Organ, Orchestra",concerto # 5 in Première série # 5
+294.000 ,HWV 294,op. 4/6,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1 Andante allegro (si bémol majeur)
+2 Larghetto (sol mineur)
+3 Allegro moderato (si bémol majeur)","Organ, Orchestra",concerto # 6 in Première série # 6
+396.000 ,HWV 396,op. 5/1,,Sonata for 2 Violins in A major,Sonata,A major,"1. Andante (la majeur)
+[see HWV 250a,b(1), 288(1), 302a(3), 580]
+2. Allegro (la majeur)
+[see HWV 250a(1), 302a(4)]
+3. Larghetto (fa dièse mineur)
+4. Allegro (la majeur)
+5. Gavotte. Allegro (la majeur)
+[see HWV 32(32), 33(53)]","2 Violins, Basso Continuo",sonate # 1
+397.000 ,HWV 397,op. 5/2,,Sonata for 2 Violins in D major,Sonata,D major,"1. Adagio (ré majeur)
+[see HWV 246(1), 280(1)]
+2. Allegro (ré majeur)
+[see HWV 246(1), 278(1)]
+3. Musette. Andante (ré majeur)
+[see HWV 33(18)]
+4. Allegro (ré mineur)
+[see HWV 33(19)]
+5. Marche (ré majeur)
+[see HWV 345]
+6. Gavotte. Allegro (ré majeur)","2 Violins, Basso Continuo",sonate # 2
+398.000 ,HWV 398,op. 5/3,,Sonata for 2 Violins in E minor,Sonata,E minor,"1. Andante larghetto (mi mineur)
+[see HWV 251b,c(1), 266(1)]
+2a. Allegro (mi mineur)
+[see HWV 251b(1), 316(4)]
+2b. Allegro (mi mineur)
+3. Sarabande. Largo assai (mi mineur)
+[see HWV 8b(7)]
+4. Allemande. Andante allegro (mi mineur)
+[see HWV 29(23), 436(1), 479]
+5. Rondeau (mi mineur)
+[see HWV 33(38)]
+6. Gavotte. Allegro (mi mineur)
+[see HWV 8c(2)]","2 Violins, Basso Continuo",sonate # 3
+399.000 ,HWV 399,op. 5/4,,Sonata in G major,Sonata,G major,"1. Allegro (sol majeur)
+[see HWV 52(Sinfonia)]
+2. A tempo ordinario/Allegro non presto (sol majeur)
+[see HWV 52, 73, 342]
+3. Passacaille (sol majeur/sol mineur/sol majeur)
+[see HWV 8b(5), 12a(Passacaille)]
+4. Gigue. Presto (sol majeur)
+[see HWV 8b(8)]
+5. Menuet. Allegro moderato (sol majeur)
+[see HWV 34(5)]","2 Violins, (Viola da Gamba ad libitum), Basso Continuo",sonate # 4
+400.000 ,HWV 400,op. 5/5,,Sonata for 2 Violins in G minor,Sonata,G minor,"1. Largo (sol mineur)
+[see HWV 18(1)]
+2. [Come alla breve] (sol mineur)
+[see HWV 610]
+3. Larghetto (mi bémol majeur)
+[see HWV 8b(2), 73(5), 52(28)]
+4. A tempo giusto (sol mineur)
+[see HWV 429(1)]
+5. Andante allegro (sol mineur)
+[see HWV 8b(9), 452(3)]
+6. Bourrée (sol mineur)","2 Violins, Basso Continuo",sonate # 5
+401.000 ,HWV 401,op. 5/6,,Sonata for 2 Violins in F major,Sonata,F major,"1. Largo (fa majeur)
+[see HWV 295(1)]
+2. Allegro (fa majeur)/Adagio (fa mineur)
+[see HWV 392(2)]
+3. Adagio (ré mineur)
+[see HWV 392(3)]
+4. Allegro (fa majeur)
+[see HWV 295(4)]
+5a. [Menuet]. Andante (fa majeur), Variation (fa majeur)
+[see HWV 289(4)]
+5b. Menuet. Allegro moderato (fa majeur)","2 Violins, Basso Continuo",sonate # 6
+402.000 ,HWV 402,op. 5/7,,Sonata for 2 Violins in B-flat major,Sonata,B-flat major,"1. Larghetto (si bémol majeur)
+[see HWV 256a(1)]
+2. Allegro ma non presto (si bémol majeur)
+[see HWV 256a(1)]
+3. Adagio (sol mineur)
+[see HWV 256a(1)]
+4. Allegro (si bémol majeur)
+[see HWV 242(1), 249b(1)]
+5. Gavotte. Allegro (si bémol majeur)
+[see HWV A11(11)]
+6. Menuet. Andante allegro (si bémol majeur)
+[see HWV 8b(12)]","2 Violins, Basso Continuo",sonate # 7
+319.000 ,HWV 319,op. 6/1,,Concerto grosso,Concerto grosso,G major,"1 A tempo giusto
+2 Allegro e forte
+3 Adagio (e)
+4 Allegro
+5 Allegro",Orchestra,concerto # 1
+328.000 ,HWV 328,op. 6/10,,Concerto grosso,Concerto grosso,D minor,1 Ouverture. …/Allegro/Lentement (ré mineur)2 Air. Lentement (ré mineur)3 Allegro (ré mineur)4 Allegro (ré mineur)5 Allegro moderato (ré majeur)6 Allegro moderato (ré mineur)[mouvement supplémentaire],Orchestra,concerto # 10
+329.000 ,HWV 329,op. 6/11,,Concerto grosso,Concerto grosso,A major,1 Andante larghetto e staccato (la majeur)[see HWV 296a(1)]2 Allegro (la majeur)[see HWV 306(3)]3 Largo e staccato (fa dièse mineur)[see HWV 296a(3)]4 Andante (la majeur)[see HWV 296a(2)]5 Allegro (la majeur)[see HWV 296a(4)],Orchestra,concerto # 11
+330.000 ,HWV 330,op. 6/12,,Concerto grosso,Concerto grosso,B minor,1 Largo (si mineur)2 Allegro (si mineur)3 Aria. Larghetto e piano/Variation (mi majeur)4 Largo (si mineur)5 Allegro (si mineur)6 Allegro moderato (si majeur)[mouvement supplémentaire],Orchestra,concerto # 12
+320.000 ,HWV 320,op. 6/2,,Concerto grosso,Concerto grosso,F major,"1 Andante larghetto (fa majeur)
+2 Allegro (ré mineur)
+3 Largo/Adagio/Larghetto andante e piano (fa majeur)
+4 Allegro ma non troppo (fa majeur)
+5a Larghetto (do mineur)
+[mouvement supplémentaire -  see HWV 321(2)]
+5b Allegro ma non troppo e staccato per tutto (fa majeur)
+[mouvement supplémentaire]",Orchestra,concerto # 2
+321.000 ,HWV 321,op. 6/3,,Concerto grosso,Concerto grosso,E minor,"1 Larghetto (mi mineur)
+2 Andante (mi mineur)[see HWV 320(A3)]
+3 Allegro (mi mineur)
+4 Polonaise. Andante (mi mineur)
+5 Allegro ma non troppo (mi mineur)
+6 … (ré mineur)[mouvement supplémentaire]",Orchestra,concerto # 3
+322.000 ,HWV 322,op. 6/4,,Concerto grosso,Concerto grosso,A major,"1 Larghetto affettuoso (la mineur)
+2 Allegro (la mineur)
+3 Largo e piano (la mineur)
+4 Allegro (la mineur)",Orchestra,concerto # 4
+323.000 ,HWV 323,op. 6/5,,Concerto grosso,Concerto grosso,D major,"1 Ouverture. Larghetto e staccato (ré majeur)
+[see HWV 76(Ouverture)]
+2 Allegro (ré mineur)
+[see HWV 76(Ouverture,2)]
+3 Presto (ré majeur)
+4 Largo (si mineur)
+5 Allegro (ré majeur)
+6 Menuet. Un poco larghetto (ré majeur)
+[see HWV 76(Ouverture,3)]",Orchestra,concerto # 5
+324.000 ,HWV 324,op. 6/6,,Concerto grosso,Concerto grosso,G minor,"1 Largo e affettuoso (sol mineur)
+2 A tempo giusto (sol mineur)
+3 Musette. Larghetto (do mineur)
+4 Allegro (sol mineur)
+5 Allegro (sol mineur)
+6 Gavotte. … (sol mineur)[mouvement supplémentaire]",Orchestra,concerto # 6
+325.000 ,HWV 325,op. 6/7,,Concerto grosso,Concerto grosso,B-flat major,1 Largo (si bémol majeur)2 Allegro (si bémol majeur)3 Largo e piano (sol mineur)4 Andante (si bémol majeur)5 Hornpipe. (si bémol majeur),Orchestra,concerto # 7
+326.000 ,HWV 326,op. 6/8,,Concerto grosso,Concerto grosso,C minor,1 Allemande. … (do mineur)[see HWV 452(1)]2 Grave (do mineur)3 Andante allegro (do mineur)4 Adagio (mi bémol majeur)5 Siciliana. Andante (do mineur)6 Allegro (do mineur),Orchestra,concerto # 8
+327.000 ,HWV 327,op. 6/9,,Concerto grosso,Concerto grosso,F major,1 Largo (fa majeur)2 Allegro (fa majeur)[see HWV 295(2)]3 Larghetto (si bémol majeur)[see HWV 295(3)]4 Allegro (fa majeur)[see HWV 41(Ouverture)]5 Menuet. (do mineur)[see HWV 41(Menuet)],Orchestra,concerto # 9
+306.000 ,HWV 306,op. 7/1,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1 Andante/Adagio (si bémol majeur)
+2 Largo e piano (ré mineur)
+3 Fuga. Allegro (si bémol majeur)
+[see HWV 329(2)]
+4 Adagio (sol mineur)
+[organo ad libitum]
+5 Bourrée. Allegro (si bémol majeur)","Organ, Orchestra","Troisième série # 1
+concerto # 7"
+307.000 ,HWV 307,op. 7/2,,Concerto for Organ and Orchestra in A major,Concerto,A major,"1 Ouverture. … (la majeur)
+2 A tempo ordinario (la majeur)
+3 Allegro (la majeur)
+[see HWV 57(Ouverture,3)]","Organ, Orchestra","Troisième série # 2
+concerto # 8"
+308.000 ,HWV 308,op. 7/3,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1a … (si bémol majeur)
+1b Andante (Allegro) (si bémol majeur)
+2 Adagio e fuga (si bémol majeur)
+[ad libitum]
+3 Spiritoso/Adagio (si bémol majeur)
+4a Menuet (si bémol majeur)
+4b Menuet (si bémol majeur)","Organ, Orchestra","Troisième série # 3
+concerto # 9"
+309.000 ,HWV 309,op. 7/4,,Concerto for Organ and Orchestra in D minor,Concerto,D minor,"1 Adagio (ré mineur)
+[see HWV 303]
+2 Allegro cosi cosi (ré majeur)
+3 Allegro (ré mineur)
+[see HWV 8a(Ouverture), 317(2), 428(6), 495]","Organ, Orchestra","Troisième série # 4
+concerto # 10"
+310.000 ,HWV 310,op. 7/5,,Concerto for Organ and Orchestra in G minor,Concerto,G minor,"1 Staccato ma non troppo allegro (sol mineur)
+2 Adagio (si bémol majeur)
+[organo ad libitum]
+3 Andante larghetto e staccato (si bémol majeur)
+4 Adagio (sol mineur)
+5 Menuet (sol mineur)
+6 [Gavotte] (en sol mineur)
+[see HWV 6(17), 150(2), 291(4), 360(4), 379(5)]","Organ, Orchestra","Troisième série # 5
+concerto # 11"
+311.000 ,HWV 311,op. 7/6,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1 Pomposo (si bémol majeur)
+[see HWV 347(1)]
+2 Air. A tempo ordinario (si bémol majeur)
+[see HWV 347(3), 469]","Organ, Orchestra","Troisième série # 6
+concerto # 12"
 1.000 ,HWV 1,,1704,"Der in Kronen erglangte Glückwechsel/Almira, Königin von Kastillien",Opera,,,"2 Flutes, 2 Oboes, Bassoon, 2 Trumpets, Principal Trumpet, Timpani, 3 Violins, Solo Viola, Viola, Cello, Basso Continuo","Libretto by Giulio Pancieri, traduit par Friedrich Christian Feustking"
 2.000 ,HWV 2,,1705,Die durch Blut und Mord erlangte Liebe/Nero,Opera,,,"Solistes, Choir, Orchestra","[Musique perdue]
 Libretto by Friedrich Christian Feustking"
@@ -384,40 +757,6 @@ texte: inconnu"
 288.000 ,HWV 288,,,Sonata à 5 B-Dur für Violino solo und Orchester,Sonata,B-flat major,"1. Andante (si bémol majeur) [see HWV 250a,b(1), 302a(3), 396(1), 580]
 2. Adagio (si bémol majeur)
 3. Allegro (si bémol majeur)","Violin, Orchestra",
-289.000 ,HWV 289,op. 4/1,,Concerto for Organ and Orchestra in G minor,Concerto,G minor,"1. Larghetto e staccato (sol mineur)
-2. Allegro (sol majeur)
-3. Adagio (mi mineur) [organo ad libitum]
-4. Andante (sol majeur) [see HWV 401(5a)]","Organ, Orchestra",concerto # 1 in Première série # 1
-290.000 ,HWV 290,op. 4/2,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1. A tempo ordinario e staccato (si bémol majeur) [see HWV 242(1)]
-2. Allegro (si bémol majeur) [see HWV 388(4)]
-3. Adagio e staccato (sol mineur)
-4. Allegro ma non presto (si bémol majeur)","Organ, Orchestra",concerto # 2 in Première série # 2
-291.000 ,HWV 291,op. 4/3,,Concerto for Organ and Orchestra in G minor,Concerto,G minor,"1. Adagio (sol mineur)
-[see HWV 7a(27), 48 (Sinfonia), 252(1), 314(1), 390(1)]
-2. Allegro (sol mineur)
-[see HWV 287(4), 390(4), 576(2)]
-3. Adagio (si bémol majeur)
-4a. ... (sol mineur)
-[see HWV 310(6), 360(4), 379(5)]
-4b. Allegro (sol mineur)
-[see HWV 6(17), 150(2)]","Organ, Orchestra",concerto # 3 in Première série # 3
-292.000 ,HWV 292,op. 4/4,,Concerto for Organ and Orchestra in F major,Concerto,F major,"1 Allegro (fa majeur)
-[see HWV 34(2b)]
-2 Andante (si bémol majeur)
-3 Adagio (ré mineur)
-[organo ad libitum,  see HWV 377(2)]
-4 Allegro (fa majeur)
-[see HWV 46b(36)]","Organ, Orchestra",concerto # 4 in Première série # 4
-293.000 ,HWV 293,op. 4/5,,Concerto for Organ and Orchestra in F major,Concerto,F major,"1 Larghetto (fa majeur)
-[see HWV 369(1)]
-2 Allegro (fa majeur)
-[see HWV 369(2)]
-3 Alla siciliana (ré mineur)
-[see HWV 369(3)]
-4 Presto (fa majeur)","Organ, Orchestra",concerto # 5 in Première série # 5
-294.000 ,HWV 294,op. 4/6,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1 Andante allegro (si bémol majeur)
-2 Larghetto (sol mineur)
-3 Allegro moderato (si bémol majeur)","Organ, Orchestra",concerto # 6 in Première série # 6
 295.000 ,HWV 295,,,Concerto for Organ and Orchestra in F major “The Cuckoo and the Nightingale”,Concerto,F major,"1a. Largo (fa majeur)
 [see HWV 401(1)]
 1b. Larghetto (fa majeur)
@@ -503,127 +842,11 @@ after HWV 324"
 [organo ad libitum]
 4 Marche. Allegro (fa majeur)
 [see HWV 63(32)]",Solo Organ,
-306.000 ,HWV 306,op. 7/1,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1 Andante/Adagio (si bémol majeur)
-2 Largo e piano (ré mineur)
-3 Fuga. Allegro (si bémol majeur)
-[see HWV 329(2)]
-4 Adagio (sol mineur)
-[organo ad libitum]
-5 Bourrée. Allegro (si bémol majeur)","Organ, Orchestra","Troisième série # 1
-concerto # 7"
-307.000 ,HWV 307,op. 7/2,,Concerto for Organ and Orchestra in A major,Concerto,A major,"1 Ouverture. … (la majeur)
-2 A tempo ordinario (la majeur)
-3 Allegro (la majeur)
-[see HWV 57(Ouverture,3)]","Organ, Orchestra","Troisième série # 2
-concerto # 8"
-308.000 ,HWV 308,op. 7/3,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1a … (si bémol majeur)
-1b Andante (Allegro) (si bémol majeur)
-2 Adagio e fuga (si bémol majeur)
-[ad libitum]
-3 Spiritoso/Adagio (si bémol majeur)
-4a Menuet (si bémol majeur)
-4b Menuet (si bémol majeur)","Organ, Orchestra","Troisième série # 3
-concerto # 9"
-309.000 ,HWV 309,op. 7/4,,Concerto for Organ and Orchestra in D minor,Concerto,D minor,"1 Adagio (ré mineur)
-[see HWV 303]
-2 Allegro cosi cosi (ré majeur)
-3 Allegro (ré mineur)
-[see HWV 8a(Ouverture), 317(2), 428(6), 495]","Organ, Orchestra","Troisième série # 4
-concerto # 10"
-310.000 ,HWV 310,op. 7/5,,Concerto for Organ and Orchestra in G minor,Concerto,G minor,"1 Staccato ma non troppo allegro (sol mineur)
-2 Adagio (si bémol majeur)
-[organo ad libitum]
-3 Andante larghetto e staccato (si bémol majeur)
-4 Adagio (sol mineur)
-5 Menuet (sol mineur)
-6 [Gavotte] (en sol mineur)
-[see HWV 6(17), 150(2), 291(4), 360(4), 379(5)]","Organ, Orchestra","Troisième série # 5
-concerto # 11"
-311.000 ,HWV 311,op. 7/6,,Concerto for Organ and Orchestra in B-flat major,Concerto,B-flat major,"1 Pomposo (si bémol majeur)
-[see HWV 347(1)]
-2 Air. A tempo ordinario (si bémol majeur)
-[see HWV 347(3), 469]","Organ, Orchestra","Troisième série # 6
-concerto # 12"
-312.000 ,HWV 312,op. 3/1,,Concerto grosso B-Dur,Concerto,B-flat major,"1 Allegro (si bémol majeur)
-2 Largo (sol mineur)
-3 Allegro (sol mineur)",Orchestra,concerto # 1
-313.000 ,HWV 313,op. 3/2,,Concerto grosso B-Dur,Concerto,B-flat major,"1 Vivace (si bémol majeur)
-2 Largo (sol mineur)
-3 Allegro (si bémol majeur)
-[see HWV 48(Sinfonia), 607]
-4 [Menuet] (en si bémol majeur)
-[see HWV 523, 557]
-5 [Gavotte] (en si bémol majeur)",Orchestra,concerto # 2
-314.000 ,HWV 314,op. 3/3,,Concerto grosso G-Gur,Concerto,G major,"1 Largo e staccato/Allegro (sol majeur)
-[see HWV 48 (Sinfonia), 252(1), 291(1)]
-2 Adagio (mi mineur)
-[see HWV 281(5)]
-3 Allegro (sol majeur)
-[see HWV 606]",Orchestra,concerto # 3
-315.000 ,HWV 315,op. 3/4,,Concerto grosso F-Dur,Concerto,F major,"1 Andante/Allegro/Lentement (fa majeur)
-2 Andante (fa majeur)
-[see HWV 487(2)]
-3 Allegro (ré mineur)
-4 Minuetto alternativo (fa majeur)
-[see HWV 363(5), 516, 517]",Orchestra,concerto # 4
-316.000 ,HWV 316,op. 3/5,,Concerto grosso,Concerto,D minor,"1 … (ré mineur)
-[see HWV 247(1)]
-2 Allegro (ré mineur)
-[see HWV 247(1), 431(3)]
-3 Adagio (ré mineur)
-4 Allegro ma non troppo (ré mineur)
-[see HWV 251b(1), 398(2a)]",Orchestra,concerto # 5
-317.000 ,HWV 317,op. 3/6,,Concerto grosso,Concerto,D major,"1. Vivace (D)
-2. Allegro (d)",Orchestra,concerto # 6
 318.000 ,HWV 318,,,Concerto grosso,Concerto,C major,"1 Allegro (do majeur)
 2 Largo (la mineur)
 3 Allegro (do majeur)
 4 Andante, non presto (do majeur)
 [avec 2 solos -  see HWV 578(3)]",Orchestra,Concerto dans HWV 75 (Alexander's Feast)
-319.000 ,HWV 319,op. 6/1,,Concerto grosso,Concerto,G major,"1 A tempo giusto
-2 Allegro e forte
-3 Adagio (e)
-4 Allegro
-5 Allegro",Orchestra,concerto # 1
-320.000 ,HWV 320,op. 6/2,,Concerto grosso,Concerto,F major,"1 Andante larghetto (fa majeur)
-2 Allegro (ré mineur)
-3 Largo/Adagio/Larghetto andante e piano (fa majeur)
-4 Allegro ma non troppo (fa majeur)
-5a Larghetto (do mineur)
-[mouvement supplémentaire -  see HWV 321(2)]
-5b Allegro ma non troppo e staccato per tutto (fa majeur)
-[mouvement supplémentaire]",Orchestra,concerto # 2
-321.000 ,HWV 321,op. 6/3,,Concerto grosso,Concerto,E minor,"1 Larghetto (mi mineur)
-2 Andante (mi mineur)[see HWV 320(A3)]
-3 Allegro (mi mineur)
-4 Polonaise. Andante (mi mineur)
-5 Allegro ma non troppo (mi mineur)
-6 … (ré mineur)[mouvement supplémentaire]",Orchestra,concerto # 3
-322.000 ,HWV 322,op. 6/4,,Concerto grosso,Concerto,A major,"1 Larghetto affettuoso (la mineur)
-2 Allegro (la mineur)
-3 Largo e piano (la mineur)
-4 Allegro (la mineur)",Orchestra,concerto # 4
-323.000 ,HWV 323,op. 6/5,,Concerto grosso,Concerto,D major,"1 Ouverture. Larghetto e staccato (ré majeur)
-[see HWV 76(Ouverture)]
-2 Allegro (ré mineur)
-[see HWV 76(Ouverture,2)]
-3 Presto (ré majeur)
-4 Largo (si mineur)
-5 Allegro (ré majeur)
-6 Menuet. Un poco larghetto (ré majeur)
-[see HWV 76(Ouverture,3)]",Orchestra,concerto # 5
-324.000 ,HWV 324,op. 6/6,,Concerto grosso,Concerto,G minor,"1 Largo e affettuoso (sol mineur)
-2 A tempo giusto (sol mineur)
-3 Musette. Larghetto (do mineur)
-4 Allegro (sol mineur)
-5 Allegro (sol mineur)
-6 Gavotte. … (sol mineur)[mouvement supplémentaire]",Orchestra,concerto # 6
-325.000 ,HWV 325,op. 6/7,,Concerto grosso,Concerto,B-flat major,1 Largo (si bémol majeur)2 Allegro (si bémol majeur)3 Largo e piano (sol mineur)4 Andante (si bémol majeur)5 Hornpipe. (si bémol majeur),Orchestra,concerto # 7
-326.000 ,HWV 326,op. 6/8,,Concerto grosso,Concerto,C minor,1 Allemande. … (do mineur)[see HWV 452(1)]2 Grave (do mineur)3 Andante allegro (do mineur)4 Adagio (mi bémol majeur)5 Siciliana. Andante (do mineur)6 Allegro (do mineur),Orchestra,concerto # 8
-327.000 ,HWV 327,op. 6/9,,Concerto grosso,Concerto,F major,1 Largo (fa majeur)2 Allegro (fa majeur)[see HWV 295(2)]3 Larghetto (si bémol majeur)[see HWV 295(3)]4 Allegro (fa majeur)[see HWV 41(Ouverture)]5 Menuet. (do mineur)[see HWV 41(Menuet)],Orchestra,concerto # 9
-328.000 ,HWV 328,op. 6/10,,Concerto grosso,Concerto,D minor,1 Ouverture. …/Allegro/Lentement (ré mineur)2 Air. Lentement (ré mineur)3 Allegro (ré mineur)4 Allegro (ré mineur)5 Allegro moderato (ré majeur)6 Allegro moderato (ré mineur)[mouvement supplémentaire],Orchestra,concerto # 10
-329.000 ,HWV 329,op. 6/11,,Concerto grosso,Concerto,A major,1 Andante larghetto e staccato (la majeur)[see HWV 296a(1)]2 Allegro (la majeur)[see HWV 306(3)]3 Largo e staccato (fa dièse mineur)[see HWV 296a(3)]4 Andante (la majeur)[see HWV 296a(2)]5 Allegro (la majeur)[see HWV 296a(4)],Orchestra,concerto # 11
-330.000 ,HWV 330,op. 6/12,,Concerto grosso,Concerto,B minor,1 Largo (si mineur)2 Allegro (si mineur)3 Aria. Larghetto e piano/Variation (mi majeur)4 Largo (si mineur)5 Allegro (si mineur)6 Allegro moderato (si majeur)[mouvement supplémentaire],Orchestra,concerto # 12
 331.000 ,HWV 331,,,Concerto in F major,Concerto,F major,"1. …
 2. Alla Hornpipe. …","Oboe, Flute, Horn, Strings, bass continue",
 332.000 ,HWV 332,,,Concerto (à due Cori),Concerto,B-flat major,1 Ouverture. … (si bémol majeur)2 Allegro ma non troppo (si bémol majeur)3 Allegro (si bémol majeur)4 Largo (sol mineur)5 A tempo ordinario (si bémol majeur)6 Alle breve moderato (si bémol majeur)7 Menuet. [Allegro] (si bémol majeur),2 Brass and String Ensembles,[Concerto fait à partir de choeurs]
@@ -717,54 +940,13 @@ concerto # 12"
 2. Allegro (ré mineur)
 3. Adagio (fa majeur)
 4. Allegro (ré mineur)","Violin, Basso Continuo",
-359.200 ,HWV 359b,op. 1/1b,,Sonata in E minor for Flute and Basso Continuo,Sonata,E minor,"1. Grave (mi mineur)
-[see HWV 379(1)]
-2. Allegro (mi mineur)
-3. Adagio (mi mineur)
-4. Allegro (mi mineur)","Flute, Basso Continuo",
-360.000 ,HWV 360,op. 1/2,,"Sonata in G minor for Flute, Basso Continuo",Sonata,G minor,"1. Larghetto (sol mineur)
-2. Andante (sol mineur)
-[see HWV 375(3)]
-3. Adagio (mi bémol majeur)
-4. Presto (sol mineur)","Flute, Basso Continuo",
-361.000 ,HWV 361,op. 1/3,,Sonata in A major,Sonata,A major,"1. Larghetto (Andante) (la majeur)
-2. Allegro (la majeur)
-3. Adagio (fa dièse mineur)
-4. Allegro (la majeur)
-[see HWV 377(3)]","Violin, Basso Continuo",
-362.000 ,HWV 362,op. 1/4,,"Sonata in A major for Flute, Basso Continuo",Sonata,A major,"1. Larghetto (la mineur)
-2. Allegro (la mineur)
-3. Adagio (fa majeur)
-4. Allegro (la mineur)","Flute, Basso Continuo",
 363.100 ,HWV 363a,,,Sonata in F major,Sonata,F major,"1. Adagio (fa majeur)
 2. Allegro (fa majeur)
 3. Adagio (ré mineur)
 4. Bourrée anglaise (fa majeur)
 5. Menuet (fa majeur)
 [see HWV 315(4), 516]","Oboe, Basso Continuo",
-363.200 ,HWV 363b,op. 1/5,,"Sonata in G major for Flute, Basso Continuo",Sonata,G major,"1. Adagio (sol majeur)
-2. Allegro (sol majeur)
-3. [Adagio] (mi mineur)
-4. Bourrée (sol majeur)
-5. Menuet (sol majeur)
-[see HWV 315(4), 516]","Flute, Basso Continuo",
-364.100 ,HWV 364a,op. 1/6,,Sonata in G minor,Sonata,G minor,"1. Andante larghetto (sol mineur)
-2. Allegro (sol mineur)
-3. Adagio (mi bémol majeur)
-4. Allegro (sol mineur)
-[see HWV 24(Ouverture, Gigue)","Violin/Oboe, Basso Continuo",
 364.200 ,HWV 364b,,,Sonata in G minor,Sonata,G minor,1. Andante larghetto (sol mineur),"Viola da GambAlto, Basso Continuo",
-365.000 ,HWV 365,op. 1/7,,"Sonata in C major for Flute, Basso Continuo",Sonata,C major,"1. [Larghetto] (do majeur)
-2. Allegro (do majeur)
-3. Larghetto (la mineur)
-4. A tempo di Gavotta (do majeur)
-5. Allegro (do majeur)","Flute, Basso Continuo",
-366.000 ,HWV 366,op. 1/8,,Sonata in C minor,Sonata,C minor,"1. Largo (do mineur)
-[see HWV 375(1)]
-2. Allegro (do mineur)
-[see HWV 375(2)]
-3. Adagio (mi bémol majeur)
-4. Bourrée anglaise. Allegro (do mineur)","Oboe, Basso Continuo",
 367.100 ,HWV 367a,,,"""Fitzwilliam Sonata No. 3"" in B minor for Flute, Basso Continuo",Sonata,D minor,"1. Largo (ré mineur)
 2. Vivace (ré mineur)
 3. Furioso (si bémol majeur)
@@ -772,44 +954,6 @@ concerto # 12"
 5. Alla breve (ré mineur)
 6. [Andante] (ré mineur)
 7. A tempo di menuet (ré mineur)","Flute, Basso Continuo",
-367.200 ,HWV 367b,op. 1/9,,"Sonata in B minor for Flute, Basso Continuo",Sonata,B minor,"1. Largo (si mineur)
-2. Vivace (si mineur)
-3. Presto (sol majeur)
-4. Adagio (mi majeur)
-5. Alla breve (si mineur)
-6. Andante (si mineur)
-7. A tempo di Minuet (si mineur)","Flute, Basso Continuo",
-368.000 ,HWV 368,op. 1/10,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
-2. Allegro (sol mineur)
-3. Adagio (sol mineur)
-4. [Gigue] (sol mineur)","Violin, Basso Continuo",
-369.000 ,HWV 369,op. 1/11,,"Sonata in F major for Flute, Basso Continuo",Sonata,F major,"1. Grave (Larghetto) (fa majeur)
-[see HWV 293(1)]
-2. Allegro (fa majeur)
-[see HWV 293(2)]
-3. Alla Siciliana (ré mineur)
-[see HWV 293(3)]
-4. Allegro (fa majeur)
-[see HWV 293(4), 378(4), 405(3)]","Flute, Basso Continuo",
-370.000 ,HWV 370,op. 1/12,,Sonata in F major,Sonata,F major,"1. Adagio (fa majeur)
-2. Allegro (fa majeur)
-3. Largo (ré mineur)
-4. Allegro (fa majeur)","Violin, Basso Continuo",
-371.000 ,HWV 371,op. 1/13,,Sonata in D major,Sonata,D major,"1. Affettuoso (ré majeur)
-[see HWV 378(1), 379(3)]
-2. Allegro (ré majeur)
-[see HWV 67(15)]
-3. Larghetto (si mineur)
-4. Allegro (ré majeur)
-[see HWV 70(36), 99(3)]","Violin, Basso Continuo",
-372.000 ,HWV 372,op. 1/14,,Sonata in A major,Sonata,A major,"1. Adagio (la majeur)
-2. Allegro (la majeur)
-3. Largo (fa dièse mineur)
-4. Allegro (la majeur)","Violin, Basso Continuo",
-373.000 ,HWV 373,op. 1/15,,Sonata in E major,Sonata,E major,"1. Adagio (mi majeur)
-2. Allegro (mi majeur)
-3. Largo (do dièse mineur)
-4. Allegro (mi majeur)","Violin, Basso Continuo",
 374.000 ,HWV 374,,,"""Halle Sonata No. 1"" for Flute, Basso Continuo",Sonata,A minor,"1. Adagio (la mineur)
 2. Allegro (la mineur)
 3. Adagio (la mineur)
@@ -839,15 +983,6 @@ concerto # 12"
 3. Adagio (fa dièse mineur)
 4. Allegro (ré majeur)
 [see HWV 293(4), 369(4), 405(3)]","Flute, Basso Continuo",
-379.000 ,HWV 379,op. 1/1a,,"Sonata in E minor for Flute, Basso Continuo",Sonata,E minor,"1. Larghetto (mi mineur)
-[see HWV 359a,b(1)]
-2. Andante (mi mineur)
-[see HWV 375(3)]
-3. Largo (sol majeur)
-[see HWV 371(1), 378(1)]
-4. Allegro (mi mineur)
-5. Presto (mi mineur)
-[see HWV 291(4), 310(4), 360(4)]","Flute, Basso Continuo",
 380.000 ,HWV 380,,,Sonata in B-flat major,Sonata,B-flat major,"1. Adagio (si bémol majeur)
 2. Allegro (si bémol majeur)
 3. Largo (sol mineur)
@@ -872,145 +1007,10 @@ concerto # 12"
 2. Allegro (ré majeur)
 3. Affettuoso (si mineur)
 4. Vivace (ré majeur)","[Oboe, Violin]/[2 Oboes], Basso Continuo",sonate # 6
-386.100 ,HWV 386a,op. 2/1a,,Sonata in C minor,Sonata,C minor,"1. Andante (do mineur)
-2. Allegro (do mineur)
-3. Andante (mi bémol majeur)
-[see HWV 6(29), 13(6), 46a(13)]
-4. Allegro (do mineur)
-[see HWV 351b,c(6)]","Flute (Oboe), Violin, Basso Continuo",sonate # 1a
-386.200 ,HWV 386b,op. 2/1b,,Sonata in B minor,Sonata,B minor,"1. Andante (si mineur)
-2. Allegro ma non troppo (si mineur)
-3. Largo (ré majeur)
-4. Allegro (si mineur)","Flute (Violin), Violin, Basso Continuo",sonate # 1b
-387.000 ,HWV 387,op. 2/2,,Sonata for 2 Violins in G minor,Sonata,G minor,"1. Andante (sol mineur)
-2. Allegro (sol mineur)
-3. Largo (sol mineur)
-4. Allegro (sol mineur)
-[see HWV 408]","2 Violins, Basso Continuo",sonate # 2
-388.000 ,HWV 388,op. 2/4,,Sonata in B-flat major,Sonata,B-flat major,"1. Andante (si bémol majeur)
-2. Allegro (si bémol majeur)
-[see HWV 50,a,b(Ouverture,3]
-3. Larghetto (sol mineur)
-[see HWV 50a,b(Ouverture,2]
-4. Allegro (si bémol majeur)
-[see HWV 290(2)]","2 Violins/2 Oboes/Flute, Violin, Basso Continuo",sonate # 3
-389.000 ,HWV 389,op. 2/5,,Sonata in F major,Sonata,F major,"1. Larghetto (fa majeur)
-[see HWV 249b(Symphony)]
-2. Allegro (fa majeur)
-3. Adagio (ré mineur)
-4. Allero (fa majeur)
-[see HWV 253(1), 302a(2)]
-5. Allegro (fa majeur)
-[see HWV 73(Ouverture, Gigue]","Flute (Flute, Oboe, Violin)/Violin (Flute), Basso Continuo",sonate # 4
-390.100 ,HWV 390a,op. 2/6,,Sonata in G minor,Sonata,G minor,"1. Larghetto (sol mineur)
-[see HWV 7a(27), 291(1)]
-2. Allegro (sol mineur)
-3. Adagio (si bémol majeur)
-4. Allegro (sol mineur)
-[see HWV 287(4), 291(2), 576(2)]","Violin, Viola, Basso Continuo",sonate # 5
-390.200 ,HWV 390b,op. 2/7,,Sonata in G minor,Sonata,G minor,"1. Adagio (sol mineur)
-2. Allegro (sol mineur)
-3. Largo (si bémol majeur)
-4. Allegro (sol mineur)","2 Violins, Cello, Harpsichord/Organ",sonate # 5
-391.000 ,HWV 391,op. 2/8,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
-2. Allegro (sol mineur)
-3. Arioso (si bémol majeur)
-4. Allegro (sol mineur)","Violin, Viola, Basso Continuo",sonate # 6
-392.000 ,HWV 392,op. 2/3,,Sonata in F major,Sonata,F major,"1. Andante (fa majeur)
-[see HWV 352(2)]
-2. Allegro (fa majeur)
-[see HWV 401(2)]
-3. Adagio (ré mineur)
-[see HWV 401(3)]
-4. Allegro (fa majeur)","Violin, Viola, Basso Continuo",
-393.000 ,HWV 393,op. 2/9,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
-2. Allegro (sol mineur)
-3. Largo (si bémol majeur)
-4. Allegro (sol mineur)","Violin, Viola, Basso Continuo",
-394.000 ,HWV 394,op. 2/10,,Sonata in E major,Sonata,E major,"1. Adagio (mi majeur)
-2. Allegro (mi majeur)
-3. Adagio (do dièse mineur)
-4. Allegro (mi majeur)","Violin, Viola, Basso Continuo",
 395.000 ,HWV 395,,,Sonata for 2 Flutes in E minor,Sonata,E minor,"1. Largo (mi mineur)
 2. Allegro (mi mineur)
 3. Largo (sol majeur)
 4. Allegro (mi mineur)","2 Flutes, Basso Continuo",
-396.000 ,HWV 396,op. 5/1,,Sonata for 2 Violins in A major,Sonata,A major,"1. Andante (la majeur)
-[see HWV 250a,b(1), 288(1), 302a(3), 580]
-2. Allegro (la majeur)
-[see HWV 250a(1), 302a(4)]
-3. Larghetto (fa dièse mineur)
-4. Allegro (la majeur)
-5. Gavotte. Allegro (la majeur)
-[see HWV 32(32), 33(53)]","2 Violins, Basso Continuo",sonate # 1
-397.000 ,HWV 397,op. 5/2,,Sonata for 2 Violins in D major,Sonata,D major,"1. Adagio (ré majeur)
-[see HWV 246(1), 280(1)]
-2. Allegro (ré majeur)
-[see HWV 246(1), 278(1)]
-3. Musette. Andante (ré majeur)
-[see HWV 33(18)]
-4. Allegro (ré mineur)
-[see HWV 33(19)]
-5. Marche (ré majeur)
-[see HWV 345]
-6. Gavotte. Allegro (ré majeur)","2 Violins, Basso Continuo",sonate # 2
-398.000 ,HWV 398,op. 5/3,,Sonata for 2 Violins in E minor,Sonata,E minor,"1. Andante larghetto (mi mineur)
-[see HWV 251b,c(1), 266(1)]
-2a. Allegro (mi mineur)
-[see HWV 251b(1), 316(4)]
-2b. Allegro (mi mineur)
-3. Sarabande. Largo assai (mi mineur)
-[see HWV 8b(7)]
-4. Allemande. Andante allegro (mi mineur)
-[see HWV 29(23), 436(1), 479]
-5. Rondeau (mi mineur)
-[see HWV 33(38)]
-6. Gavotte. Allegro (mi mineur)
-[see HWV 8c(2)]","2 Violins, Basso Continuo",sonate # 3
-399.000 ,HWV 399,op. 5/4,,Sonata in G major,Sonata,G major,"1. Allegro (sol majeur)
-[see HWV 52(Sinfonia)]
-2. A tempo ordinario/Allegro non presto (sol majeur)
-[see HWV 52, 73, 342]
-3. Passacaille (sol majeur/sol mineur/sol majeur)
-[see HWV 8b(5), 12a(Passacaille)]
-4. Gigue. Presto (sol majeur)
-[see HWV 8b(8)]
-5. Menuet. Allegro moderato (sol majeur)
-[see HWV 34(5)]","2 Violins, (Viola da Gamba ad libitum), Basso Continuo",sonate # 4
-400.000 ,HWV 400,op. 5/5,,Sonata for 2 Violins in G minor,Sonata,G minor,"1. Largo (sol mineur)
-[see HWV 18(1)]
-2. [Come alla breve] (sol mineur)
-[see HWV 610]
-3. Larghetto (mi bémol majeur)
-[see HWV 8b(2), 73(5), 52(28)]
-4. A tempo giusto (sol mineur)
-[see HWV 429(1)]
-5. Andante allegro (sol mineur)
-[see HWV 8b(9), 452(3)]
-6. Bourrée (sol mineur)","2 Violins, Basso Continuo",sonate # 5
-401.000 ,HWV 401,op. 5/6,,Sonata for 2 Violins in F major,Sonata,F major,"1. Largo (fa majeur)
-[see HWV 295(1)]
-2. Allegro (fa majeur)/Adagio (fa mineur)
-[see HWV 392(2)]
-3. Adagio (ré mineur)
-[see HWV 392(3)]
-4. Allegro (fa majeur)
-[see HWV 295(4)]
-5a. [Menuet]. Andante (fa majeur), Variation (fa majeur)
-[see HWV 289(4)]
-5b. Menuet. Allegro moderato (fa majeur)","2 Violins, Basso Continuo",sonate # 6
-402.000 ,HWV 402,op. 5/7,,Sonata for 2 Violins in B-flat major,Sonata,B-flat major,"1. Larghetto (si bémol majeur)
-[see HWV 256a(1)]
-2. Allegro ma non presto (si bémol majeur)
-[see HWV 256a(1)]
-3. Adagio (sol mineur)
-[see HWV 256a(1)]
-4. Allegro (si bémol majeur)
-[see HWV 242(1), 249b(1)]
-5. Gavotte. Allegro (si bémol majeur)
-[see HWV A11(11)]
-6. Menuet. Andante allegro (si bémol majeur)
-[see HWV 8b(12)]","2 Violins, Basso Continuo",sonate # 7
 403.000 ,HWV 403,,,Sonata for 2 Violins in C major,Sonata,C major,"1. Allegro (do majeur)
 [see HWV 53(Symfonia)]
 2. Andante larghetto (la mineur)
