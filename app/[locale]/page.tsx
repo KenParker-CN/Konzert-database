@@ -20,7 +20,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
         <AppShell>
             <main>
                 <section className="mx-auto grid max-w-7xl items-center gap-5 px-5 py-6 lg:grid-cols-[minmax(0,1.1fr)_minmax(20rem,0.9fr)] lg:items-stretch lg:px-8">
-                    <div className="max-w-5xl py-4 sm:py-6">
+                    <div className="flex max-w-5xl flex-col justify-center">
                         <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-blue-600">
                             <span className="h-px w-8 bg-blue-600"/>{t('home.badge')}
                         </p>
