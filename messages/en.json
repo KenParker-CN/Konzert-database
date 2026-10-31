@@ -10,8 +10,20 @@
   "navigation": {
     "home": "Home",
     "works": "Works",
+    "composers": "Composers",
     "catalogues": "Catalogues",
+    "instruments": "Instruments",
     "genres": "Genres"
+  },
+  "composerIndex": {
+    "title": "Composers",
+    "count": "{count} composers"
+  },
+  "instruments": {
+    "title": "Instruments",
+    "count": "{count} instruments",
+    "back": "All instruments",
+    "showing": "Showing {shown} of {total}"
   },
   "home": {
     "badge": "Classical music archive",

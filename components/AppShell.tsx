@@ -7,7 +7,7 @@ import {Dialog} from '@base-ui/react/dialog'
 import {useI18n} from '@/lib/i18n/client'
 import {localePath} from '@/lib/i18n/config'
 import {Tooltip, TooltipTrigger, TooltipContent} from '@/components/ui/tooltip'
-import {IconBooks, IconClefStaff, IconSearch, IconX} from '@tabler/icons-react'
+import {IconBooks, IconClefStaff, IconPiano, IconSearch, IconUser, IconX} from '@tabler/icons-react'
 import LanguageSelector from './LanguageSelector'
 import ThemeSelector from './ThemeSelector'
 import WorkDetailsDialog, {type WorkDetailsEntry} from '@/components/catalogues/WorkDetailsDialog'
@@ -33,7 +33,7 @@ type SearchResults = {
 
 export default function AppShell({children, active}: {
     children: ReactNode;
-    active?: 'catalogues' | 'genres'
+    active?: 'composers' | 'catalogues' | 'instruments' | 'genres'
 }) {
     const {locale, t} = useI18n()
     const router = useRouter()
@@ -45,7 +45,9 @@ export default function AppShell({children, active}: {
     const [searchLoading, setSearchLoading] = useState(false)
     const [searchFailed, setSearchFailed] = useState(false)
     const links = [
+        ['composers', 'composers', '/composers', <IconUser size={20} className="shrink-0"/>],
         ['catalogues', 'catalogues', '/catalogues', <IconBooks size={20} className="shrink-0"/>],
+        ['instruments', 'instruments', '/instruments', <IconPiano size={20} className="shrink-0"/>],
         ['genres', 'genres', '/genres', <IconClefStaff size={20} className="shrink-0"/>],
     ] as const
 

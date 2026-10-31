@@ -12,7 +12,18 @@
     "works": "作品",
     "catalogues": "作品目录",
     "composers": "作曲家",
-    "genres": "音乐体裁"
+    "genres": "音乐体裁",
+    "instruments": "乐器"
+  },
+  "composerIndex": {
+    "title": "作曲家",
+    "count": "{count} 位作曲家"
+  },
+  "instruments": {
+    "title": "乐器",
+    "count": "{count} 种乐器",
+    "back": "全部乐器",
+    "showing": "显示 {shown} / {total}"
   },
   "theme": {
     "label": "主题",

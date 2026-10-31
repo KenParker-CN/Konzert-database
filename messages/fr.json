@@ -12,7 +12,18 @@
     "works": "Œuvres",
     "catalogues": "Catalogues",
     "composers": "Compositeurs",
-    "genres": "Genres musicaux"
+    "genres": "Genres musicaux",
+    "instruments": "Instruments"
+  },
+  "composerIndex": {
+    "title": "Compositeurs",
+    "count": "{count} compositeurs"
+  },
+  "instruments": {
+    "title": "Instruments",
+    "count": "{count} instruments",
+    "back": "Tous les instruments",
+    "showing": "{shown} sur {total} affichées"
   },
   "theme": {
     "label": "Thème",
