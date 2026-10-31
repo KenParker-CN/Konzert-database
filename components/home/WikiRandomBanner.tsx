@@ -29,7 +29,7 @@ export default function WikiRandomBanner({
 
     return (
         <aside
-            className="w-full border border-slate-200 bg-white/80 p-5 shadow-sm"
+            className="flex w-full flex-col border border-slate-200 bg-white/80 p-5 shadow-sm lg:absolute lg:inset-0 lg:overflow-hidden"
             onMouseEnter={() => setPaused(true)}
             onMouseLeave={() => setPaused(false)}
             onFocus={() => setPaused(true)}
@@ -50,7 +50,7 @@ export default function WikiRandomBanner({
                     ))}
                 </div>
             </div>
-            <div className="mt-4 grid">
+            <div className="mt-4 grid flex-1">
                 {items.map((item, index) => (
                     <WikiBannerCard
                         key={item.kind}
