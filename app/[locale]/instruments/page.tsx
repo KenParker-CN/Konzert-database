@@ -1,4 +1,4 @@
-import InstrumentWorkspace from '@/components/instruments/InstrumentWorkspace'
+import AppShell from '@/components/AppShell'
 import {getInstrumentFamilies} from '@/lib/db/instruments'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
@@ -19,7 +19,7 @@ export default async function InstrumentsPage({params}: {params: Promise<{locale
     const instrumentCount = families.reduce((sum, family) => sum + family.items.length, 0)
 
     return (
-        <InstrumentWorkspace locale={locale} families={families}>
+        <AppShell active="instruments">
             <main className="min-h-full">
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
                     <header className="mb-8">
@@ -52,6 +52,6 @@ export default async function InstrumentsPage({params}: {params: Promise<{locale
                     </div>
                 </div>
             </main>
-        </InstrumentWorkspace>
+        </AppShell>
     )
 }
