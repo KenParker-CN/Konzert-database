@@ -22,6 +22,7 @@
   },
   "home": {
     "badge": "Archiv klassischer Musik",
+    "randomWiki": {"title": "Zufällige Auswahl", "composer": "Komponist", "genre": "Gattung", "work": "Werk"},
     "tagline": "Eine klare, vernetzte Heimat für Komponisten, Werke und Album-Sammlungen.",
     "exploreWorks": "Werke entdecken",
     "worksExplorerTitle": "Werke-Explorer",

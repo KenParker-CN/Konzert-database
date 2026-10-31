@@ -2,7 +2,9 @@ import 'server-only'
 
 import { getComposers as loadComposers, getComposerWorks as loadComposerWorks } from '@/lib/data/csv-loader'
 import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
-import type {Locale} from '@/lib/i18n/config'
+import {genres} from '@/lib/data/genres'
+import {localePath, type Locale} from '@/lib/i18n/config'
+import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 
 const CATALOGUE_DIRECTORY_CACHE_TTL_MS = 5 * 60 * 1000
 let catalogueDirectoryCache: {
@@ -161,4 +163,75 @@ export async function getGenreWorksSafe(genreTerms: string[], locale: Locale): P
         console.error('[getGenreWorksSafe] Failed to load works:', error)
         return {groups: [], error: true}
     }
+}
+
+export type WikiBannerItem = {
+    kind: 'composer' | 'genre' | 'work'
+    title: string
+    subtitle?: string
+    wikiID: string
+    href: string
+}
+
+function pickRandom<T>(items: readonly T[]): T | undefined {
+    return items[Math.floor(Math.random() * items.length)]
+}
+
+async function pickRandomComposer(locale: Locale): Promise<WikiBannerItem | null> {
+    const [directory, composers] = await Promise.all([getCatalogueDirectory(), loadComposers()])
+    const wikiBySlug = new Map(composers.map(composer => [composer.slug, composer.wikiQID]))
+    const candidates = directory.flatMap(entry => {
+        const wikiID = wikiBySlug.get(entry.composerSlug)
+        return wikiID ? [{entry, wikiID}] : []
+    })
+    const pick = pickRandom(candidates)
+    if (!pick) return null
+
+    return {
+        kind: 'composer',
+        title: pick.entry.composerAliases[locale] || pick.entry.composerName,
+        wikiID: pick.wikiID,
+        href: localePath(locale, `/catalogues/${encodeURIComponent(pick.entry.catalogue)}`),
+    }
+}
+
+function pickRandomGenre(locale: Locale): WikiBannerItem | null {
+    const pick = pickRandom(genres.filter(genre => genre.wikiID))
+    if (!pick?.wikiID) return null
+
+    return {
+        kind: 'genre',
+        title: getLocalizedWorkTerm(pick.term, 'type', locale),
+        wikiID: pick.wikiID,
+        href: localePath(locale, `/genres/${encodeURIComponent(pick.slug)}`),
+    }
+}
+
+async function pickRandomWork(locale: Locale): Promise<WikiBannerItem | null> {
+    const directory = await getCatalogueDirectory()
+    const loaded = await Promise.all(directory.map(async entry => ({
+        entry,
+        works: (await getCatalogWorksSafe(entry.catalogue)).works,
+    })))
+    const candidates = loaded.flatMap(({entry, works}) => works.flatMap(work => {
+        const wikiID = work.details.WikiQID?.trim()
+        return wikiID && work.title.trim() ? [{entry, work, wikiID}] : []
+    }))
+    const pick = pickRandom(candidates)
+    if (!pick) return null
+
+    const composerName = pick.entry.composerAliases[locale] || pick.entry.composerName
+    return {
+        kind: 'work',
+        title: pick.work.title,
+        subtitle: `${composerName} · ${pick.work.catalogue}`,
+        wikiID: pick.wikiID,
+        href: localePath(locale, `/catalogues/${encodeURIComponent(pick.entry.catalogue)}`),
+    }
+}
+
+export async function getRandomWikiBannerItems(locale: Locale): Promise<WikiBannerItem[]> {
+    const [composer, work] = await Promise.all([pickRandomComposer(locale), pickRandomWork(locale)])
+    const items = [composer, pickRandomGenre(locale), work]
+    return items.filter((item): item is WikiBannerItem => item !== null)
 }

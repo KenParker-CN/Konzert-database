@@ -1,16 +1,19 @@
 import AppShell from '../../components/AppShell'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import {getI18n} from '@/lib/i18n/server'
-import {getCatalogueDirectory} from '@/lib/db/composers'
+import {getCatalogueDirectory, getRandomWikiBannerItems} from '@/lib/db/composers'
 import CountTo from '@/components/common/CountTo'
+import WikiRandomBanner from '@/components/home/WikiRandomBanner'
 import {notFound} from 'next/navigation'
 import {IconArrowUpRight} from '@tabler/icons-react'
+
+export const dynamic = 'force-dynamic'
 
 export default async function HomePage({params}: {params: Promise<{locale: string}>}) {
     const {locale} = await params
     if (!isLocale(locale)) notFound()
     const {t} = await getI18n(locale)
-    const directory = await getCatalogueDirectory()
+    const [directory, wikiBannerItems] = await Promise.all([getCatalogueDirectory(), getRandomWikiBannerItems(locale)])
     const composerCount = directory.length
     const workCount = directory.reduce((sum, entry) => sum + (entry.workCount ?? 0), 0)
 
@@ -43,6 +46,16 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             </div>
                         </div>
                     </div>
+                    <WikiRandomBanner
+                        items={wikiBannerItems}
+                        locale={locale}
+                        title={t('home.randomWiki.title')}
+                        kindLabels={{
+                            composer: t('home.randomWiki.composer'),
+                            genre: t('home.randomWiki.genre'),
+                            work: t('home.randomWiki.work'),
+                        }}
+                    />
                 </section>
             </main>
         </AppShell>
