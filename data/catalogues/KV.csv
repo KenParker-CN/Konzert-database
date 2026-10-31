@@ -1,89 +1,96 @@
 SORT,Catalogue,Other,Date,Title,Genre,Key,Work structure,Instrumentation,Note
-1,KV 1,"KV¹ 1, KV⁶ 1e/f",,2 piano pieces,Klavierstück,,"Piece in G
-Piece in C, Menuet",Clavier,Nannerl Music Book
-1.1,KV 1a,,,Andante,Klavierstück,C major,,Clavier,
-1.2,KV 1b,,,Allegro,Klavierstück,C major,,Clavier,
-1.3,KV 1c,,,Allegro,Klavierstück,F major,,Clavier,
-1.4,KV 1d,KV¹ deest,,Menuetto,Klavierstück,F major,,Clavier,
-2,KV 2,,,Piano piece,Klavierstück,F major,,Clavier,Nannerl Music Book
-3,KV 3,,,Allegro,Klavierstück,B-flat major,,Clavier,Nannerl Music Book
-4,KV 4,,,Piano piece,Klavierstück,F major,,Clavier,Nannerl Music Book
-5,KV 5,,,Menuet,Klavierstück,F major,,Clavier,Nannerl Music Book
-6,KV 6,op. 1/1,,Sonata in C major,Sonata,C major,"1. Allegro [has a clav-solo version]
+1,KV 1,"KV¹ 1, KV⁶ 1e/f",1764,Clavierstücke (2),Piano Piece,,"KV 1,01
+KV 1,02",Clavier,Nannerl Music Book
+1.01,"KV 1,01","KV¹ 1, KV⁶ 1e",1764,Clavierstuck in G major,Piano Piece,G major,,Clavier,
+1.02,"KV 1,02","KV¹ 1, KV⁶ 1f",1764,Menuett in C major,Piano Piece,C major,,Clavier,
+1.1,KV 1a,,1761,Andante,Piano Piece,C major,,Clavier,
+1.2,KV 1b,,1761,Allegro,Piano Piece,C major,,Clavier,
+1.3,KV 1c,,1761,Allegro,Piano Piece,F major,,Clavier,
+1.4,KV 1d,KV¹ deest,1761,Menuetto,Piano Piece,F major,,Clavier,
+2,KV 2,,1762,Clavierstuck,Piano Piece,F major,,Clavier,Nannerl Music Book
+3,KV 3,,1762,Allegro,Piano Piece,B-flat major,,Clavier,Nannerl Music Book
+4,KV 4,,1762,Clavierstuck,Piano Piece,F major,,Clavier,Nannerl Music Book
+5,KV 5,,1762,Menuet,Piano Piece,F major,,Clavier,Nannerl Music Book
+6,KV 6,op. 1/1,,Sonata in C major,Sonata,C major,"1. Allegro
 2. Andante
 3. Menuet I  [doubtful]
 4. Menuet II  [doubtful]","Violin, Clavier",
+6.01,"KV 6,1",,1763,"Allegro, clavier version",Piano Piece,C major,,Clavier,
+6.02,"KV 6,2",,1763,Andante,Piano Piece,F major,,Clavier,
+6.03,"KV 6,3",,1762,Menuet,Piano Piece,F major,,Clavier,
+6.04,"KV 6,4",,1763,Menuet,Piano Piece,C major,,Clavier,
 7,KV 7,op. 1/2,,Sonata in D major,Sonata,D major,"1. Allegro molto [doubtful]
 2. Adagio
 3. Menuet I [has a clav-solo version]
 4. Menuet II  [doubtful]","Violin, Clavier",
-8,KV 8,op. 2/1,,Sonata in B-flat major,Sonata,B-flat major,"1. Allegro [has a clav-solo version, in Nannerl Music Book]
+8,KV 8,op. 2/1,,Sonata in B-flat major,Sonata,B-flat major,"1. Allegro
 2. Andante grazioso
 3. Menuet I
 4. Menuet II","Violin, Clavier",
+8.01,"KV 8,1",KV¹ zu 8/01,,Allegro,Piano Piece,B-flat major,,Clavier,
 9,KV 9,op. 2/2,,Sonata in G major,Sonata,G major,,"Violin, Clavier",
-9.1,KV 9a,"KV¹ Anh. 203/1, KV⁶ 5a",,Piano piece,Klavierstück,C major,,Clavier,Nannerl Music Book
-9.2,KV 9b,"KV¹ Anh. 203/2, KV³ Anh. 109g/10, KV⁶ 5b, KV⁶ 626b/10",,Piano piece,Klavierstück,B-flat major,,Clavier,"Nannerl Music Book, fragment"
+9.1,KV 9a,"KV¹ Anh. 203/1, KV⁶ 5a",,Clavierstuck in C major,Piano Piece,C major,,Clavier,Nannerl Music Book
+9.2,KV 9b,"KV¹ Anh. 203/2, KV³ Anh. 109g/10, KV⁶ 5b, KV⁶ 626b/10",,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,"Nannerl Music Book, fragment"
 10,KV 10,op. 3/1,,Sonata in B-flat major,Sonata,B-flat major,,"Clavier, Violin/Flute, Cello",
 11,KV 11,op. 3/2,,Sonata in G major,Sonata,G major,,"Clavier, Violin/Flute, Cello",
 12,KV 12,op. 3/3,,Sonata in A major,Sonata,A major,,"Clavier, Violin/Flute, Cello",
 13,KV 13,op. 3/4,,Sonata in F major,Sonata,F major,,"Clavier, Violin/Flute, Cello",
 14,KV 14,op. 3/5,,Sonata in C major,Sonata,C major,,"Clavier, Violin/Flute, Cello",
+15,KV 15a,KV² Anh. 109b/01,,Clavierstuck in F major,Piano Piece,F major,,Clavier,
+15,KV 15aa,KV¹ deest,,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,
+15,KV 15b,KV² Anh. 109b/02,,Clavierstuck in C major,Piano Piece,C major,,Clavier,
+15,KV 15bb,,,Clavierstuck in D major,Piano Piece,D major,,Clavier,
+15,KV 15c,,,Clavierstuck in G major,Piano Piece,G major,,Clavier,
+15,KV 15cc,KV¹ deest,,Clavierstuck in E-flat major,Piano Piece,E-flat major,,Clavier,
+15,KV 15d,KV¹ deest,,Clavierstuck in D major,Piano Piece,D major,,Clavier,
+15,KV 15dd,KV¹ deest,,Clavierstuck in A-flat major,Piano Piece,A-flat major,,Clavier,
+15,KV 15e,KV¹ deest,,Clavierstuck in G major,Piano Piece,G major,,Clavier,
+15,KV 15ee,,,Clavierstuck in E-flat major,Piano Piece,E-flat major,,Clavier,
+15,KV 15f,KV¹ deest,,Clavierstuck in C major,Piano Piece,C major,,Clavier,
+15,KV 15ff,KV² Anh. 109b/08,,Clavierstuck in A-flat major,Piano Piece,A-flat major,,Clavier,
+15,KV 15g,KV¹ deest,,Clavierstuck in G major,Piano Piece,G major,,Clavier,
+15,KV 15gg,KV¹ deest,,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,
+15,KV 15h,KV¹ deest,,Clavierstuck in D minor,Piano Piece,D minor,,Clavier,
+15,KV 15hh,KV¹ deest,,Clavierstuck in F major,Piano Piece,F major,,Clavier,
+15,KV 15i,KV¹ deest,,Clavierstuck in A major,Piano Piece,A major,,Clavier,
+15,KV 15ii,KV¹ deest,,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,
+15,KV 15k,KV¹ deest,,Clavierstuck in A minor,Piano Piece,A minor,,Clavier,
+15,KV 15kk,KV¹ deest,,Clavierstuck in E-flat major,Piano Piece,E-flat major,,Clavier,
+15,KV 15l,KV¹ deest,,Clavierstuck in A major,Piano Piece,A major,,Clavier,
+15,KV 15ll,KV² Anh. 109b/09,,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,
+15,KV 15m,KV² Anh. 109b/04,,Clavierstuck in F major,Piano Piece,F major,,Clavier,
+15,KV 15mm,KV¹ deest,,Clavierstuck in E-flat major,Piano Piece,E-flat major,,Clavier,
+15,KV 15n,KV¹ deest,,Clavierstuck in C major,Piano Piece,C major,,Clavier,
+15,KV 15nn,,,Clavierstuck in F major,Piano Piece,F major,,Clavier,fragment
+15,KV 15o,KV¹ deest,,Clavierstuck in D major,Piano Piece,D major,,Clavier,
+15,KV 15oo,KV¹ deest,,Clavierstuck in F major,Piano Piece,F major,,Clavier,
+15,KV 15p,KV² Anh. 109b/03,,Clavierstuck in G minor,Piano Piece,G minor,,Clavier,
+15,KV 15pp,KV¹ deest,,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,
+15,KV 15q,KV¹ deest,,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,
+15,KV 15qq,KV¹ deest,,Clavierstuck in E-flat major,Piano Piece,E-flat major,,Clavier,
+15,KV 15r,KV² Anh. 109b/07,,Clavierstuck in G minor,Piano Piece,G minor,,Clavier,
+15,KV 15rr,KV¹ deest,,Piano piece [Menuetto],Piano Piece,C major,,Clavier,fragment
+15,KV 15s,KV¹ deest,,Clavierstuck in C major,Piano Piece,C major,,Clavier,
+15,KV 15t,KV² Anh. 109b/05,,Clavierstuck in F major,Piano Piece,F major,,Clavier,
+15,KV 15u,KV¹ deest,,Clavierstuck in D minor,Piano Piece,D minor,,Clavier,
+15,KV 15v,KV¹ deest,,Clavierstuck in F major,Piano Piece,F major,,Clavier,
+15,KV 15w,KV¹ deest,,Clavierstuck in B-flat major,Piano Piece,B-flat major,,Clavier,
+15,KV 15x,KV² Anh. 109b/06,,Clavierstuck in F major,Piano Piece,F major,,Clavier,
+15,KV 15y,,,Clavierstuck in G major,Piano Piece,G major,,Clavier,
+15,KV 15z,KV¹ deest,,Clavierstuck in C minor,Piano Piece,C minor,,Clavier,
 15,KV 15,op. 3/6,,Sonata in B-flat major,Sonata,B-flat major,,"Clavier, Violin/Flute, Cello",
-15,KV 15a,KV² Anh. 109b/01,,Piano piece,Klavierstück,F major,,Clavier,
-15,KV 15aa,KV¹ deest,,Piano piece,Klavierstück,B-flat major,,Clavier,
-15,KV 15b,KV² Anh. 109b/02,,Piano piece,Klavierstück,C major,,Clavier,
-15,KV 15bb,,,Piano piece,Klavierstück,D major,,Clavier,
-15,KV 15c,,,Piano piece,Klavierstück,G major,,Clavier,
-15,KV 15cc,KV¹ deest,,Piano piece,Klavierstück,E-flat major,,Clavier,
-15,KV 15d,KV¹ deest,,Piano piece,Klavierstück,D major,,Clavier,
-15,KV 15dd,KV¹ deest,,Piano piece,Klavierstück,A-flat major,,Clavier,
-15,KV 15e,KV¹ deest,,Piano piece,Klavierstück,G major,,Clavier,
-15,KV 15ee,,,Piano piece,Klavierstück,E-flat major,,Clavier,
-15,KV 15f,KV¹ deest,,Piano piece,Klavierstück,C major,,Clavier,
-15,KV 15ff,KV² Anh. 109b/08,,Piano piece,Klavierstück,A-flat major,,Clavier,
-15,KV 15g,KV¹ deest,,Piano piece,Klavierstück,G major,,Clavier,
-15,KV 15gg,KV¹ deest,,Piano piece,Klavierstück,B-flat major,,Clavier,
-15,KV 15h,KV¹ deest,,Piano piece,Klavierstück,D minor,,Clavier,
-15,KV 15hh,KV¹ deest,,Piano piece,Klavierstück,F major,,Clavier,
-15,KV 15i,KV¹ deest,,Piano piece,Klavierstück,A major,,Clavier,
-15,KV 15ii,KV¹ deest,,Piano piece,Klavierstück,B-flat major,,Clavier,
-15,KV 15k,KV¹ deest,,Piano piece,Klavierstück,A minor,,Clavier,
-15,KV 15kk,KV¹ deest,,Piano piece,Klavierstück,E-flat major,,Clavier,
-15,KV 15l,KV¹ deest,,Piano piece,Klavierstück,A major,,Clavier,
-15,KV 15ll,KV² Anh. 109b/09,,Piano piece,Klavierstück,B-flat major,,Clavier,
-15,KV 15m,KV² Anh. 109b/04,,Piano piece,Klavierstück,F major,,Clavier,
-15,KV 15mm,KV¹ deest,,Piano piece,Klavierstück,E-flat major,,Clavier,
-15,KV 15n,KV¹ deest,,Piano piece,Klavierstück,C major,,Clavier,
-15,KV 15nn,,,Piano piece,Klavierstück,F major,,Clavier,fragment
-15,KV 15o,KV¹ deest,,Piano piece,Klavierstück,D major,,Clavier,
-15,KV 15oo,KV¹ deest,,Piano piece,Klavierstück,F major,,Clavier,
-15,KV 15p,KV² Anh. 109b/03,,Piano piece,Klavierstück,G minor,,Clavier,
-15,KV 15pp,KV¹ deest,,Piano piece,Klavierstück,B-flat major,,Clavier,
-15,KV 15q,KV¹ deest,,Piano piece,Klavierstück,B-flat major,,Clavier,
-15,KV 15qq,KV¹ deest,,Piano piece,Klavierstück,E-flat major,,Clavier,
-15,KV 15r,KV² Anh. 109b/07,,Piano piece,Klavierstück,G minor,,Clavier,
-15,KV 15rr,KV¹ deest,,Piano piece [Menuetto],Klavierstück,C major,,Clavier,fragment
-15,KV 15s,KV¹ deest,,Piano piece,Klavierstück,C major,,Clavier,
-15,KV 15ss,KV¹ deest,,Fugue,,C major,,"SATB, Basso","London Music Book, fragment"
-15,KV 15t,KV² Anh. 109b/05,,Piano piece,Klavierstück,F major,,Clavier,
-15,KV 15u,KV¹ deest,,Piano piece,Klavierstück,D minor,,Clavier,
-15,KV 15v,KV¹ deest,,Piano piece,Klavierstück,F major,,Clavier,
-15,KV 15w,KV¹ deest,,Piano piece,Klavierstück,B-flat major,,Clavier,
-15,KV 15x,KV² Anh. 109b/06,,Piano piece,Klavierstück,F major,,Clavier,
-15,KV 15y,,,Piano piece,Klavierstück,G major,,Clavier,
-15,KV 15z,KV¹ deest,,Piano piece,Klavierstück,C minor,,Clavier,
+15,KV 15ss,KV¹ deest,,Fugue in C major,Fugue,C major,,"SATB, Basso","London Music Book, fragment"
 16,KV 16,,,Symphony in E-flat major,Symphony,E-flat major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Cello, Basso",
 19,KV 19,,,Symphony in D major,Symphony,D major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Cello, Basso",
 19.1,KV 19a,KV¹ Anh. 223,,Symphony in F major,Symphony,F major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Cello, Basso",
 19.2,KV 19b,KV¹ Anh. 222,,Symphony in C major,Symphony,C major,,Orchestra,"Work of doubtful authenticity, lost"
 19.4,KV 19d,,,Sonata in C major,Sonata,C major,,Piano Four Hands,Work of doubtful authenticity
-20,KV 20,,,"“God is our refuge” (Psalm 46, 1)",,G minor,,"S, A, T, B | SATB",
+20,KV 20,,,"“God is our refuge” (Psalm 46, 1)",Psalm,G minor,,"S, A, T, B | SATB",
 21,KV 21,KV³ 19c,,"“Va, dal furor portata”",Aria,C major,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, Viola, T, Cello, Basso",
 21.1,KV 21a,KV¹ Anh. 206,,Variations in A,Keyboard Variations,A major,,Clavier,lost
 22,KV 22,,,Symphony in B-flat major,Symphony,B-flat major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Cello, Basso",
 23,KV 23,,,“Conservati fedele”,Aria,A major,,"2 Violins, Viola, S, Cello, Basso",
-24,KV 24,KV¹ Anh. 208,,"8 Variations in G on ""Laat ons juichen, Batavieren!""",Keyboard Variations,G major,,Clavier,
+24,KV 24,KV¹ Anh. 208,,"8 Variations on ""Laat ons juichen, Batavieren!""",Keyboard Variations,G major,,Clavier,
 25,KV 25,,,7 Variations on “Willem van Nassau”,Keyboard Variations,D major,,Clavier,
 26,KV 26,op. 4/1,,Sonata in E-flat major,Sonata,E-flat major,,"Violin, Clavier",
 27,KV 27,,,Sonata in G major,Sonata,G major,,"Violin, Clavier",
@@ -92,7 +99,7 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 30,KV 30,op. 4/4,,Sonata in F major,Sonata,F major,,"Violin, Clavier",
 31,KV 31,op. 4/5,,Sonata in B-flat major,Sonata,B-flat major,,"Violin, Clavier",
 32,KV 32,KV² Anh. 100a,,Gallimathias musicum,Quodlibet,D major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Basso, Bassoon, Harpsichord",
-32.1,KV 32a,KV¹ deest,,Music book for Clavier,Klavierstück,,,Clavier,lost or not identified
+32.1,KV 32a,KV¹ deest,,Music book for Clavier,Piano Piece,,,Clavier,lost or not identified
 33,KV 33,,,Kyrie in F major,Kyrie,F major,,"2 Violins, Viola, SATB, Basso, Organ",
 33.1,KV 33a,"KV¹ deest, KV² Anh. 11b/4",,Solos for flute,,,,"Flute, Bassoon, Horn, Orchestra",lost
 33.2,KV 33b,"KV¹ deest, KV² Anh. 11b/4",,Solos for violoncello,,,,Cello,lost
@@ -110,8 +117,8 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 41.2,KV 41b,"KV¹ deest, KV³ 41b",,Pieces in various instrumentations,Partita,,,,lost
 41.3,KV 41c,"KV¹ deest, KV² Anh. 11b/6",,"""Several marches""",March,,,,lost
 41.4,KV 41d,KV¹ deest,,"""Many minuets""",,,,,lost
-41.5,KV 41e,KV¹ deest,,Fugue,Klavierstück,,,Clavier,lost
-41.6,KV 41f,"KV¹ deest, KV² Anh. 11b/7",,Fugue,,,,"V1, V2, V3, V4",lost
+41.5,KV 41e,KV¹ deest,,Fugue,Fugue,,,Clavier,lost
+41.6,KV 41f,"KV¹ deest, KV² Anh. 11b/7",,Fugue,Fugue,,,"V1, V2, V3, V4",lost
 41.7,KV 41g,KV¹ deest,,"""Night music""",,,,"2 Violins, Basso",lost
 42,KV 42,KV³ 35a,,"""Grabmusik""",Cantata,C minor,,"Die Seele, Der Engel, SATB, cont",for the Holy Tomb
 43,KV 43,,,Symphony in F major,Symphony,F major,,"2 Oboes, 2 Horns, 2 Violins, 2 Violas, Cello, Basso",
@@ -152,7 +159,7 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 70,KV 70,61c,,"""A Berenice e Vologeso sposi"" – ""Sol nascente in questo giorno""",Recitative / Aria,G major,,"2 Oboes, 2 Horns, 2 Violins, 2 Violas, S, Cello, Basso","Recitativo and aria (""licenza"")"
 71,KV 71,1770a,,"""Ah più tremar non voglio""",,F major,,"2 Oboes, 2 Horns, 2 Violins, 2 Violas, T, Cello, Basso",fragment
 72,KV 72,74f,,"""Inter natos mulierum""",Offertory,G major,,"Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Cello, Basso, Bassoon, Organ",for the Feast of John Baptist
-72.1,KV 72a,1769a,,Molto allegro in G,Klavierstück,G major,,Clavier,"Work of doubtful authenticity, fragment"
+72.1,KV 72a,1769a,,Molto allegro in G,Piano Piece,G major,,Clavier,"Work of doubtful authenticity, fragment"
 72.2,KV 72b,73A; Anh. 2,,"""Misero tu non sei""",Aria,,,"Voice, Orchestra",lost
 73,KV 73,75a,,Symphony in C major,Symphony,C major,,"2 Oboes, 2 Horns, 2 Clarinos, Timpani, 2 Violins, Viola, Cello, Basso",
 73.4,KV 73D,KV¹ deest,,"""Per quel paterno amplesso""",Aria,B-flat major,,"Soprano, Orchestra",fragment
@@ -236,7 +243,7 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 160,KV 160,159a,,String Quartet in E-flat major,Quartet,E-flat major,,"2 Violins, Viola, Cello",
 162,KV 162,,,Symphony in C major,Symphony,C major,,"2 Oboes, 2 Horns, tr, 2 Violins, Viola, Cello, Basso",
 164,KV 164,130a,,6 Menuets,Dances,,,"2 Oboes, 2 Clarinos, 2 Violins, Cello, Basso",
-165,KV 165,158a,,"""Exsultate, jubilate""",Motet,F major / G major,,"[2 Oboes/2 Flutes], [2 F Horns/2 G Horns], 2 Violins, 2 Violas, Soprano, Cello, Basso, Organ",
+165,KV 165,158a,,"""Exsultate, jubilate""",Motet,,,"[2 Oboes/2 Flutes], [2 F Horns/2 G Horns], 2 Violins, 2 Violas, Soprano, Cello, Basso, Organ",
 166,KV 166,159d,,Divertimento in E-flat major,Divertimento,E-flat major,,"2 Oboes, 2 Clarinetts, corIng1, corIng2, 2 Horns, 2 Bassoons",for wind ensemble à 10
 166,KV 166f,Anh. 18; 1772a,,Kyrie in C major,Kyrie,C major,,,fragment
 166,KV 166g,Anh. 19; 1772γ/01; 1772b,,Kyrie in D major,Kyrie,D major,,,fragment
@@ -279,12 +286,12 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 193,KV 193,186g,,Dixit and Magnificat,Magnificat,C major,,"2 C Clarinos, C-G Timpani, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, Soprano, Alto, Tenor, Basso, SATB, Cello, Bassoon, Basso, Organ",
 194,KV 194,186h,,"""Missa brevis""",Mass,D major,,"Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, Soprano, Alto, Tenor, Bass, SATB, Basso, Organ",
 195,KV 195,186d,,Litaniae Lauretanae Beatae Mariae Virginis,Litany,D major,,"2 Oboes, 2 Horns, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, Viola, SATB, Basso, Organ",Litany of Loreto
+196,KV 196e,Anh. C 17.01;Anh. 226,,Divertimento in E-flat major,Divertimento,E-flat major,,Wind Instruments,"for wind ensemble à 8 or à 6, Work of doubtful authenticity"
+196,KV 196f,Anh. C 17.02;Anh. 227,,Divertimento in B-flat major,Divertimento,B-flat major,,Wind Instruments,"for wind ensemble à 6 or à 8, Work of doubtful authenticity"
+196,KV 196a,Anh. 16; 1787a,,Kyrie in G major,Kyrie,G major,,,fragment
 196,KV 196,,,La finta giardiniera/Die verstellte Gärtnerin [The Disguised Gardiner],Opera,D major,,"2 Flutes, 2 Oboes, 2 Bassoons, 4 Horns, 2 Trumpets, Timpani, 2 Violins, 2 Violas, Cello, Basso","1st version: Opera buffa (""Dramma giocoso"") in 3 acts
 2nd version: Singspiel in 3 acts"
 196,KV 196,207a;121,,Symphony in D major,Symphony,D major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Cello, Basso",after the overture to La finta giardiniera KV 196
-196,KV 196a,Anh. 16; 1787a,,Kyrie in G major,Kyrie,G major,,,fragment
-196,KV 196e,Anh. C 17.01;Anh. 226,,Divertimento in E-flat major,Divertimento,E-flat major,,Wind Instruments,"for wind ensemble à 8 or à 6, Work of doubtful authenticity"
-196,KV 196f,Anh. C 17.02;Anh. 227,,Divertimento in B-flat major,Divertimento,B-flat major,,Wind Instruments,"for wind ensemble à 6 or à 8, Work of doubtful authenticity"
 196,KV 196g,384c; Anh. 96; 1782ß/01; 1781d,,Instrumental movement,,B-flat major,,Wind Instruments,"for wind ensemble à 8, fragment"
 197,KV 197,Anh. C 3.05; Anh. 186e,,Tantum ergo in D,Hymn,D major,,"2 Clarinos, Timpani, 2 Violins, Viola, SATB,  Cello, Basso, Organ",Work of doubtful authenticity
 198,KV 198,Anh. C 3.08; 158b,,"""Sub tuum praesidium""",Offertory,F major,,"2 Violins, Viola, S1, S2, Cello, Basso, Organ",Work of doubtful authenticity
@@ -354,8 +361,8 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 255,KV 255,,,"""Ombra felice!"" – ""Io ti lascio, e questo addio""",Scena,F major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Alto, Cello, Basso",
 256,KV 256,,,"""Clarice cara mia sposa dev’essere""",Duetto,D major,,"2 Oboes, 2 Horns, 2 Violins, ViolAlto, Tenor, Bass, Cello, Basso",
 257,KV 257,,,"""Spaur-Messe""",Mass,C major,,"2 Oboes, 2 C Clarinos, C-G Timpani, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Basso, Organ",
-258,KV 258,,,Mass in C major,Mass,C major,,"2 Oboes, 2 Clarinos, Timpani, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Basso, Organ",
 258,KV 258a,Anh. 13; 1787b,,Kyrie in C major,Kyrie,C major,,,fragment
+258,KV 258,,,Mass in C major,Mass,C major,,"2 Oboes, 2 Clarinos, Timpani, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Basso, Organ",
 259,KV 259,,,"""Organ solo mass""",Mass,C major,,"2 Oboes, 2 Clarinos, Timpani, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Basso, Organ",
 260,KV 260,248a,,"""Venite, populi, venite""",Offertory,D major,,"Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, S1, A1, T1, B1, S2, A2, T2, B2, Cello, Basso, Bassoon, Organ",de venerabili sacramento
 261,KV 261,,,Adagio,Concerto,E major,,"2 Flutes, 2 Horns, Solo Violin, 2 Violins, Viola, Cello, Basso",
@@ -381,8 +388,8 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 281,KV 281,189f,,Sonata in B-flat major for Keyboard,Sonata,B-flat major,,Clavier,
 282,KV 282,189g,,Sonata in E-flat major for Keyboard,Sonata,E-flat major,,Clavier,
 283,KV 283,189h,,Sonata in G major for Keyboard,Sonata,G major,,Clavier,
+284,KV 284f,KV¹ deest,,Rondo,Piano Piece,,,Clavier,lost
 284,KV 284,205b,,Sonata in D major for Keyboard,Sonata,D major,,Clavier,
-284,KV 284f,KV¹ deest,,Rondo,Klavierstück,,,Clavier,lost
 285,KV 285,,,Flute Quartet in D major,Quartet,D major,,"Flute, Violin, Viola, Cello",
 285,KV 285a,,,Flute Quartet in G major,Quartet,G major,,"Flute, Violin, Viola, Cello",Work of doubtful authenticity
 285,KV 285b,Anh. 171,,Flute Quartet in C major,Quartet,C major,,"Flute, Violin, Viola, Cello",
@@ -400,15 +407,15 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 296,KV 296,,,Sonata in C major,Sonata,C major,,"Violin, Clavier",
 296,KV 296c,KV¹ deest,,2 vocal movements,,E-flat major,"1. Sanctus (Eb)
 2. [vokalsatz] (Eb)",Voices,fragment
-297,KV 297,300a,,Symphony in D major,Symphony,D major,,"2 Flutes, 2 Oboes, 2 Clarinetts, Bassoon, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso",
-297,KV 297a,Anh. 1,,Miserere in E-flat major,Miserere,E-flat major,,"Solo Voices, Choir, Orchestra",Pasticcio
 297,KV 297b,297B; Anh. 9,,Symphonie concertante,Concertante,,,"Flute, Bassoon, Horn, Orchestra",lost
+297,KV 297a,Anh. 1,,Miserere in E-flat major,Miserere,E-flat major,,"Solo Voices, Choir, Orchestra",Pasticcio
+297,KV 297,300a,,Symphony in D major,Symphony,D major,,"2 Flutes, 2 Oboes, 2 Clarinetts, Bassoon, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso",
 298,KV 298,,,Flute Quartet in A major,Quartet,A major,,"Flute, Violin, Viola, Cello",
-299,KV 299,297c,,Concerto in C major for Flute & Harp,Concerto,C major,,"2 Oboes, 2 Horns, Solo Flute, Solo Harp, 2 Violins, 2 Violas, Cello, Basso",
 299,KV 299b,Anh. 10,,Les petits riens (Pasticcio) Ballet Pantomime,Ballet,,,,
 299,KV 299c,1778ß (1)-(2),,Ballet Pantomime,Ballet,,,,fragment
+299,KV 299,297c,,Concerto in C major for Flute & Harp,Concerto,C major,,"2 Oboes, 2 Horns, Solo Flute, Solo Harp, 2 Violins, 2 Violas, Cello, Basso",
+300,KV 300g,,,Prelude,Piano Piece,C major,,Clavier,lost
 300,KV 300,,,Gavotte,,B-flat major,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, Cello, Basso",
-300,KV 300g,,,Prelude,Klavierstück,C major,,Clavier,lost
 301,KV 301,293a;I/1,,Sonata in G major,Sonata,G major,,"Violin, Clavier",
 302,KV 302,293b;I/2,,Sonata in E-flat major,Sonata,E-flat major,,"Violin, Clavier",
 303,KV 303,293c,,Sonata in C major,Sonata,C major,,"Violin, Clavier",
@@ -426,14 +433,15 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 314,KV 314,deest;271k;285d,,Concerto in D major for Oboe and Orchestra,Concerto,D major,,"2 Oboes, 2 Horns, Solo Oboe, 2 Violins, Viola, Cello, Basso",
 314,KV 314,285d,,Flute Concerto in D major,Concerto,D major,,"2 Oboes, 2 Horns, Solo Flute, 2 Violins, Viola, Cello, Basso","Arrangement, presumably by Mozart, after the Concerto in C, KV 314"
 315,KV 315,285e,,Andante,Concerto,C major,,"2 Oboes, 2 Horns, Solo Flute, 2 Violins, 2 Violas, Cello, Basso",
+315,KV 315f,KV¹ Anh. 56,,Concerto in D major for Violin and Orchestra,Concerto,D major,,"2 Flutes, 2 Oboes, 2 Horns, 2 Trumpets, Timpani, Solo Violin, Solo Harpsichord, 2 Violins, 2 Violas, Cello, Basso",fragment
 315,KV 315a,"KV¹ deest, KV⁶ 315g",,8 Minuets,Dances,,8. Menuetto mit Trio,Dances ensemble or Clavier,presumably fragment
 315,KV 315b,KV¹ Anh. 3,,Scena,Scena,,,"Soprano, Instruments obligato, Orchestra",lost
 315,KV 315e,KV¹ Anh. 11,,Semiramis,,,,,"Duodrama, fragment, lost"
-315,KV 315f,KV¹ Anh. 56,,Concerto in D major for Violin and Orchestra,Concerto,D major,,"2 Flutes, 2 Oboes, 2 Horns, 2 Trumpets, Timpani, Solo Violin, Solo Harpsichord, 2 Violins, 2 Violas, Cello, Basso",fragment
 316,KV 316,KV³ 300b,,"""Popoli di Tessaglia! Ah mai più giusto"" – ""Io non chiedo, eterni dèi""",Scena,C major,,"Oboe, Bassoon, 2 Horns, 2 Violins, Viola, S, Cello, Basso",
 317,KV 317,,,Mass in C major,Mass,C major,,"Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Basso, Organ, fag",
 318,KV 318,,,Symphony in G major,Symphony,G major,,"2 Flutes, 2 Oboes, 2 Bassoons, 4 Horns, 2 Clarinos, Timpani, 2 Violins, 2 Violas, Cello, Basso",
 319,KV 319,,,Symphony in B-flat major,Symphony,B-flat major,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, Cello, Basso",
+320,KV 320e,KV¹ Anh. 104,,Sinfonia concertante,Concertante,A major,,"Violin, Viola, Cello, Orchestra",fragment
 320,KV 320,,,Concertante in G major,Concerto,G major,,"2 Oboes, 2 Flutes, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, Cello, Basso","adaptation of the Serenade in D, KV 320"
 320,KV 320,,,"Serenade in D major ""Finalmusik""",Serenade,D major,"1. Adagio maestoso – Allegro con spirito
 2. Menuetto. Allegretto - Trio
@@ -445,13 +453,12 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 320,KV 320,KV¹ deest,,Symphony in D major,Symphony,D major,"1. Adagio maestoso – Allegro con spirito
 2. Andantino
 3. Presto","2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, 2 Violas, Cello, Basso","adaptation of the Serenade in D, KV 320"
-320,KV 320e,KV¹ Anh. 104,,Sinfonia concertante,Concertante,A major,,"Violin, Viola, Cello, Orchestra",fragment
 320,KV 320f,"KV¹ Anh. 103, KV⁶ 299d",,"Instrumental movement ""La chasse""",,A major,,Orchestra,fragment
-321,KV 321,,,Vesperae solennes de Confessore,Vespers,C major,,"2 Clarinos, Timpani, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Cello, Basso, Bassoon, Organ",
 321,KV 321a,,,Magnificat in C major,Magnificat,C major,,,fragment
+321,KV 321,,,Vesperae solennes de Confessore,Vespers,C major,,"2 Clarinos, Timpani, Alto Trombone, Tenor Trombone, Bass Trombone, 2 Violins, SATB, Cello, Basso, Bassoon, Organ",
 322,KV 322,"KV¹ Anh. 12, KV³ 296a, KV³ 296b",,Kyrie in E-flat major,Kyrie,E-flat major,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, 2 Violas, SATB, Basso, Organ",fragment
-323,KV 323,KV¹ Anh. 15,,Kyrie in C major,Kyrie,C major,,"2 Oboes, 2 Bassoons, 2 Clarinos, Timpani, 2 Violins, Viola, Soprano, Alto, Tenor, Bass, Basso, Organ",fragment
 323,KV 323a,KV¹ Anh. 20,,Gloria in C major,Gloria,C major,,,fragment
+323,KV 323,KV¹ Anh. 15,,Kyrie in C major,Kyrie,C major,,"2 Oboes, 2 Bassoons, 2 Clarinos, Timpani, 2 Violins, Viola, Soprano, Alto, Tenor, Bass, Basso, Organ",fragment
 328,KV 328,KV³ 317c,,Church Sonata in C major,Sonata,C major,,"2 Violins, Organ, Basso",
 329,KV 329,KV³ 317a,,Church Sonata in C major,Sonata,C major,,"2 Oboes, 2 Horns, 2 Clarinos, Timpani, 2 Violins, Cello, Organ, Basso",
 330,KV 330,KV³ 300h,,Sonata in C major for Keyboard,Sonata,C major,"1. Allegro moderato
@@ -501,9 +508,9 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 352,KV 352,374c,,"5 or 8 Variations on ""Dieu d’amour""",Keyboard Variations,F major,,Clavier,
 353,KV 353,300f,,"12 Variations on ""Adieu donc, Dame Françoise""",Keyboard Variations,E-flat major,,Clavier,
 354,KV 354,299a,,"12 Variations in E flat on ""Je suis Lindor""",Keyboard Variations,E-flat major,,Clavier,
-355,KV 355,,,Menuet,Klavierstück,D major,,Clavier,"Work of doubtful authenticity, presumably fragment"
-356,KV 356,617a,,Adagio,Klavierstück,C major,,Glass Harmonica,
-357,KV 357,"KV³ 497a, KV⁶ 497a",,2 pieces,Klavierstück,G major,"1. Allegro
+355,KV 355,,,Menuet,Piano Piece,D major,,Clavier,"Work of doubtful authenticity, presumably fragment"
+356,KV 356,617a,,Adagio,Piano Piece,C major,,Glass Harmonica,
+357,KV 357,"KV³ 497a, KV⁶ 497a",,2 pieces,Piano Piece,G major,"1. Allegro
 2. ...",Piano Four Hands,
 358,KV 358,186c,,Divertimento in B-flat major,Divertimento,B-flat major,,Piano Four Hands,(Sonata)
 359,KV 359,374a,,"12 Variations on ""La bergère Célimène""",Keyboard Variations,G major,,"Violin, Clavier",
@@ -511,14 +518,14 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 361,KV 361,370a,,Partita in B-flat major,Partita,B-flat major,,"2 Oboes, 2 Clairons, 2 Basset Horns, 2 F Horns, 2 Bb Horns, 2 Bassoons, Basso","for wind ensemble à 12,  Kontrabass"
 363,KV 363,,,3 Minuets,Dances,,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, 2 Violins, Cello, Basso",
 364,KV 364,320d,,Sinfonia concertante,Concertante,E-flat major,,"2 Oboes, 2 Horns, Solo Violin, Solo Viola, 2 Violins, 2 Violas, Cello, Basso",
-365,KV 365,316a,,Concerto in E-flat major for 2 Pianofortes and Orchestra,Concerto,E-flat major,,"2 Oboes, 2 Clarinetts ad libitum, 2 Bassoons, 2 Horns, 2 Trumpets ad libitum, Timpani ad libitum, 2 Solo Claviers, 2 Violins, 2 Violas, Cello, Basso",
 365,KV 365a,Anh. 11a,,"""Wie grausam ist, o Liebe, nicht dein Spiel"" – ""Die neugeborne Ros entzückt""",Aria,A major,,"Soprano, Orchestra","Recitativo,  aria for soprano,  Orchestra, fragment"
+365,KV 365,316a,,Concerto in E-flat major for 2 Pianofortes and Orchestra,Concerto,E-flat major,,"2 Oboes, 2 Clarinetts ad libitum, 2 Bassoons, 2 Horns, 2 Trumpets ad libitum, Timpani ad libitum, 2 Solo Claviers, 2 Violins, 2 Violas, Cello, Basso",
 366,KV 366,,,"Idomeneo, re di Creta",Opera,D major,,"2 Flutes, 2 Oboes, 2 Clarinetts, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, 2 Violas, Cello, Basso","Opera seria (""Dramma per musica"") in 3 acts"
 367,KV 367,,,Ballet for Idomeneo KV 366,Ballet,,,"2 Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, 2 Violas, Cello, Basso",for Idomeneo KV 366
 368,KV 368,,,"""Ma che vi fece, o stelle"" – ""Sperai vicino il lido""",Scena,F major,,"2 Violins, Viola, S, Cello, Basso",
 369,KV 369,,,"""Misera, dove son! L’aure del Tebro"" – ""Ah non son io che parlo""",Scena,E-flat major,,"2 Flutes, 2 Horns, 2 Violins, 2 Violas, S, Cello, Basso",
-370,KV 370,368b,,Oboe Quartet in F major,Quartet,F major,,"Oboe, Violin, Viola, Cello",
 370,KV 370b,Anh. 98b; zu 371; Anh. 97; 1781a,,Concerto movement,Concerto,E-flat major,,"2 Oboes, 2 Horns, Solo Horn, 2 Violins, 2 Violas, Cello, Basso",fragment
+370,KV 370,368b,,Oboe Quartet in F major,Quartet,F major,,"Oboe, Violin, Viola, Cello",
 371,KV 371,1781b,,Rondo,Dances,E-flat major,,"2 Oboes, 2 Horns, Solo Horn, 2 Violins, 2 Violas, Cello, Basso",fragment
 372,KV 372,Anh. 49; 1781c,,Sonata movement,Sonata,B-flat major,,"Violin, Clavier",fragment
 373,KV 373,,,Rondo,Concerto,C major,,"2 Oboes, 2 Horns, Solo Violin, 2 Violins, 2 Violas, Cello, Basso",
@@ -536,12 +543,12 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 381,KV 381,123a,,Divertimento in D major,Divertimento,D major,,Piano Four Hands,(Sonata)
 382,KV 382,175/03 (2); Anh. 209,,Concerto movement (Rondo),Concerto,D major,,"Flute, 2 Oboes, 2 Horns, 2 Clarinos, Timpani, Clavier, 2 Violins, Viola, Cello, Basso",
 383,KV 383,,,"""Nehmt meinen Dank, ihr holden Gönner!""",Aria,G major,,"Flute, Oboe, Bassoon, 2 Violins, Viola, S, Cello, Basso",
-383,KV 383C,Anh. 32; 1789γ/01; 1790b,,Fantasia,Klavierstück,F minor,,Clavier,fragment
-383,KV 383d,383c; Anh. 38; 1783a,,Piano piece,Klavierstück,C major,,Clavier,
+383,KV 383C,Anh. 32; 1789γ/01; 1790b,,Fantasia,Piano Piece,F minor,,Clavier,fragment
+383,KV 383d,383c; Anh. 38; 1783a,,Piano piece,Piano Piece,C major,,Clavier,
 383,KV 383g,Anh. 100; 1782t,,Symphonic movement,,E-flat major,,,"lost, fragment"
+384,KV 384b,KV¹ deest,,March in B-flat major,March,B-flat major,,Wind Instruments,"for wind ensemble à 8, fragment"
 384,KV 384,,,Die Entführung aus dem Serail,Singspiel,,,"Piccolo, 2 Oboes, 2 Clarinetts, 2 Bassoons, 2 Horns, 2 Clarinos, C-G Timpani, Triangle, Cymbals, Bass Drum, 2 Violins, 2 Violas, Cello, Basso",Singspiel in 3 acts
 384,KV 384B,KV¹ deest,,Instrumental movement,,E-flat major,,Wind Instruments,"for wind ensemble à 8, fragment"
-384,KV 384b,KV¹ deest,,March in B-flat major,March,B-flat major,,Wind Instruments,"for wind ensemble à 8, fragment"
 385,KV 385,,,"Symphony in D major ""Hafner-Sinfonie""",Symphony,D major,"1. Allegro con spirito
 2. Andante
 3. Menuetto - Trio
@@ -557,15 +564,15 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 390,KV 390,340c,,"""Ich würd auf meinem Pfad mit Tränen""",Songs,F major,,"Voice, Clavier",
 391,KV 391,340b,,"""Sei du mein Trost, verschwiegne Traurigkeit""",Songs,E-flat major,,"Voice, Clavier",
 392,KV 392,340a,,"""Verdankt sei es dem Glanz der Großen""",Songs,F major,,"Voice, Clavier",
-394,KV 394,383a,,Prelude and Fugue,Klavierstück,C major,,Clavier,
-395,KV 395,300g,,"4 ""Praeambula""",Klavierstück,C major,,Clavier,
+394,KV 394,383a,,Prelude and Fugue,Piano Piece,C major,,Clavier,
+395,KV 395,300g,,"4 ""Praeambula""",Piano Piece,C major,,Clavier,
 396,KV 396,385f; 1782l,,Instrumental movement,,C minor,,"Violin, Clavier",fragment
-397,KV 397,385g; 1782e,,Fantasia,Klavierstück,D minor,,Clavier,
+397,KV 397,385g; 1782e,,Fantasia,Piano Piece,D minor,,Clavier,
 398,KV 398,416e,,"6 variations on ""Salve tu, Domine""",Keyboard Variations,F major,,Clavier,
-399,KV 399,385i,,Suite,Klavierstück,C major / C minor,,Clavier,fragment
+399,KV 399,385i,,Suite,Piano Piece,,,Clavier,fragment
 400,KV 400,372a; 1782d,,Allegro,Sonata,B-flat major,,Clavier,fragment
-401,KV 401,375e; 1772g,,Fugue,Klavierstück,G minor,,Clavier: presumably for Organ,fragment
-402,KV 402,385e; 1781e,,Andante - Fugue,,A major / A minor,,"Violin, Clavier",fragment
+401,KV 401,375e; 1772g,,Fugue,Piano Piece,G minor,,Clavier: presumably for Organ,fragment
+402,KV 402,385e; 1781e,,Andante - Fugue,,,,"Violin, Clavier",fragment
 403,KV 403,385c;1784a,,Sonata in C major,Sonata,C major,,"Violin, Clavier",movement 3 is fragment
 404,KV 404,385d,,"Andante, Allegretto",,C major,,"Violin, Clavier",fragment
 406,KV 406,388 (2); 516b,,Quintet in C minor,Quintet,C minor,,"2 Violins, 2 Violas, Cello",
@@ -589,8 +596,8 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 419,KV 419,,,"""No, che non sei capace""",Aria,C major,,"2 Oboes, 2 Horns, Timpani, 2 Violins, 2 Violas, S, Cello, Basso",
 420,KV 420,,,"""Per pietà non ricercate""",Aria,E-flat major,,"2 Clarinetts, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, T, Cello, Basso",
 421,KV 421,417b; X/2,,String Quartet in D minor,Quartet,D minor,,"2 Violins, Viola, Cello",
-422,KV 422,1784c,,L’oca del Cairo,Opera,,,"2 Violins, Viola, Auretta, Chichibio, Cello, Basso","Opera buffa in 2 acts, fragment"
 422,KV 422a,Anh. 14; 1787e,,Kyrie in D major,Kyrie,D major,,2 Claviers,fragment
+422,KV 422,1784c,,L’oca del Cairo,Opera,,,"2 Violins, Viola, Auretta, Chichibio, Cello, Basso","Opera buffa in 2 acts, fragment"
 423,KV 423,,,Duo in G,,G major,,"Violin, Viola",
 424,KV 424,,,Duo in B flat,,B-flat major,,"Violin, Viola",
 425,KV 425,,,Symphony in C major,Symphony,C major,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, 2 Violins, 2 Violas, Cello, Basso",
@@ -609,8 +616,8 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 440,KV 440,383h; 1782f,,"""In te spero, o sposo amato""",Aria,C major,,"S, B","for soprano and Orchestra, fragment"
 440,KV 440b,484b; Anh. 95; 1786f,,Allegro assai,,B-flat major,,"2 Clarinetts, 3 Basset Horns",fragment
 440,KV 440c,484c; Anh. 93; 1787g,,Adagio,,F major,,"Clarinet, 3 Basset Horns",fragment
-441,KV 441,,,"Das Bandel ""Liebes Manndel, wo ist’s Bandel?"" (und Begleitung)",Terzetto,G major,,"[2 Violins, Viola], S, T, B, Cello, Basso",
 441,KV 441a,KV¹ deest,,"""Ja! grüß dich Gott, mein liebes Schatzerl""",Songs,A major,,B [+Orchestra],fragment
+441,KV 441,,,"Das Bandel ""Liebes Manndel, wo ist’s Bandel?"" (und Begleitung)",Terzetto,G major,,"[2 Violins, Viola], S, T, B, Cello, Basso",
 442,KV 442,"442; 1785e, 1786c  1787f",,3 Trio movements,Trio,,"1. Trio (d) [fragment]
 2. Tempo di Minuetto (G) [fragment]
 2. Allegro (D) [fragment]","Violin, Clavier, Cello",
@@ -621,9 +628,9 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 449,KV 449,1,,Concerto in E-flat major Keyboard and Orchestra,Concerto,E-flat major,,"2 Oboes, 2 Horns, Clavier, 2 Violins, Viola, Cello, Basso",
 450,KV 450,2,,Concerto in B-flat major for Keyboard and Orchestra,Concerto,B-flat major,,"2 Oboes, 2 Bassoons, 2 Horns, Clavier, 2 Violins, 2 Violas, Cello, Basso",
 451,KV 451,3,,Concerto in D major for Keyboard and Orchestra,Concerto,D major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, Clavier, 2 Violins, 2 Violas, Cello, Basso",
+452,KV 452c,Anh. 65; 1784f,,Concerto movement,Concerto,C major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, Clavier, 2 Violins, Viola, Cello, Basso",fragment
 452,KV 452,4,,Quintet in E-flat major,Quintet,E-flat major,,"Oboe, Clarino, Horn, Bassoon, Clavier",
 452,KV 452a,Anh. 54; 1783θ; 1783g,,Quintet movement,Quintet,B-flat major,,"Oboe, Clarino, Basset Horn, Bassoon, Clavier",
-452,KV 452c,Anh. 65; 1784f,,Concerto movement,Concerto,C major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, Clavier, 2 Violins, Viola, Cello, Basso",fragment
 453,KV 453,5,,Concerto in G major for Keyboard and Orchestra,Concerto,G major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, Clavier, 2 Violins, 2 Violas, Cello, Basso",
 453,KV 453a,KV¹ deest,,Marche funebre,March,C minor,,Clavier,
 454,KV 454,6,,Sonata in B-flat major,Sonata,B-flat major,,"Violin, Clavier",
@@ -631,8 +638,8 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 456,KV 456,8,,Concerto in B-flat major for Keyboard and Orchestra,Concerto,B-flat major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, Clavier, 2 Violins, 2 Violas, Cello, Basso",
 457,KV 457,9,,Sonata in C minor for Keyboard,Sonata,C minor,,Clavier,
 458,KV 458,X/3; 10,,String Quartet in B-flat major,Quartet,B-flat major,,"2 Violins, Viola, Cello",
-458,KV 458a,Anh. 75; 1790c,,Menuet,,B-flat major,,"2 Violins, Viola, Cello",fragment
 458,KV 458b,Anh. 71; 1789c,,Quartet movement in B flat,Quartet,B-flat major,,"2 Violins, Viola, Cello",fragment
+458,KV 458a,Anh. 75; 1790c,,Menuet,,B-flat major,,"2 Violins, Viola, Cello",fragment
 459,KV 459,11,,Concerto in F major for Keyboard and Orchestra,Concerto,F major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, Clavier, 2 Violins, 2 Violas, Cello, Basso",
 460,KV 460,454a; 1784m,,2 Variations on “Come un agnello”,Keyboard Variations,A major,,Clavier,fragment
 461,KV 461,448a,,6 Menuets (no. 6 fragment),Dances,,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, Cello, Basso",
@@ -664,8 +671,8 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 482,KV 482,31,,Concerto in E-flat major for Keyboard and Orchestra,Concerto,E-flat major,,"Flute, 2 Clarinetts, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, Clavier, 2 Violins, 2 Violas, Cello, Basso",
 483,KV 483,,,"""Zur Eröffnung der Loge""",Songs,B-flat major,,"T, Male Choir, Organ",
 484,KV 484,,,"""Zum Schluss der Loge""",Songs,G major,,"T, TTB, Organ",
-484,KV 484e,178X/b,,Allegro,,F major / G major,,,fragment
-485,KV 485,,,Allegro,Klavierstück,D major,,Clavier,
+484,KV 484e,178X/b,,Allegro,,,,,fragment
+485,KV 485,,,Allegro,Piano Piece,D major,,Clavier,
 486,KV 486,32,,Der Schauspieldirektor (The Impresario),Singspiel,,,"2 Flutes, 2 Oboes, 2 Clarinetts, Timpani, 2 Violins, Viola, Cello, Basso","Singspiel (""Incidental piece"") in 1 act"
 486,KV 486a,295a; deest,,"""Basta, vincesti, eccoti il foglio“ – ""Ah non lasciarmi, no“",,E-flat major,,"Soprano, Orchestra",
 487,KV 487,496a,,3 or 12 Duos,,E-flat major,,probably: 2 Eb Horns,"Nos. 2, 4–5 and 7–12 works of doubtful authenticity"
@@ -680,28 +687,28 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 492,KV 492,37,,Le nozze di Figaro,Opera,D major,,"[2 Flutes, 2 Oboes, 2 A Clarinetts, 2 Bassoons], 2 D Horns, 2 D Clarinos, C-A Timpani, 2 Violins, 2 Violas, Cello, Basso","Opera buffa (""Commedia per musica“) in 4 acts"
 493,KV 493,38,,Piano Quartet in E-flat major,Quartet,E-flat major,,"Violin, Viola, Cello, Clavier",
 493,KV 493a,zu 493/03; Anh. 53; 1786c/01; 1786j,,Quartet movement in E flat,Quartet,E-flat major,,"Violin, Viola, Cello, Clavier",
-494,KV 494,39,,Rondo,Sonata,F major,,Clavier,
 494,KV 494a,Anh. 98a; 1785k,,Concerto movement,Concerto,E major,,"2 Oboes, 2 Horns, Solo Horn, 2 Violins, 2 Violas, Cello, Basso",fragment
+494,KV 494,39,,Rondo,Sonata,F major,,Clavier,
 495,KV 495,40,,Concerto in E-flat major for Horn and Orchestra,Concerto,E-flat major,,"2 Oboes, 2 Horns, Solo Horn, 2 Violins, Viola, Cello, Basso",
 495,KV 495a,Anh. 52; 1787h,,Trio movement,Trio,G major,,"Violin, Clavier, Cello",
 496,KV 496,41,,Trio in G major,Trio,G major,,"Violin, Cello, Clavier",
 497,KV 497,42,,Sonata in F major,Sonata,F major,,Piano Four Hands,
+498,"KV 498a,01",498a/01; Anh. C 25.04; Anh. 136/01,,Allegro,Piano Piece,B-flat major,,Clavier,probably fragment
+498,"KV 498a,02",498a/03; Anh. C 25.05; Anh. 136/03,,Minuet in B flat - Trio in E flat,Piano Piece,B-flat major,,Clavier,probably fragment
 498,KV 498,43,,Trio in E-flat major,Trio,E-flat major,,"Clarinet/Violin, Viola, Clavier",
-498,"KV 498a,01",498a/01; Anh. C 25.04; Anh. 136/01,,Allegro,Klavierstück,B-flat major,,Clavier,probably fragment
-498,"KV 498a,02",498a/03; Anh. C 25.05; Anh. 136/03,,Minuet in B flat - Trio in E flat,Klavierstück,B-flat major,,Clavier,probably fragment
 499,KV 499,44,,String Quartet in D major,Quartet,D major,,"2 Violins, Viola, Cello",
 500,KV 500,45,,12 Variations on an Allegretto,Keyboard Variations,B-flat major,,Clavier,
 501,KV 501,46,,Andante with 5 variations,Keyboard Variations,G major,,Piano Four Hands,
 501,KV 501a,Anh. 51; 1784i,,Trio movement,Trio,B-flat major,,"Violin, Clavier, Cello",fragment
-502,KV 502,47,,Trio in B-flat major,Trio,B-flat major,,"Violin, Cello, Clavier",
 502,KV 502a,Anh. 60; 1784j,,Concerto movement,Concerto,C major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, Clavier, 2 Violins, Viola, Cello, Basso",fragment
+502,KV 502,47,,Trio in B-flat major,Trio,B-flat major,,"Violin, Cello, Clavier",
 503,KV 503,48,,Concerto in C major for Keyboard and Orchestra,Concerto,C major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, Clavier, 2 Violins, Viola, Cello, Basso",
 504,KV 504,49,,Symphony in D major,Symphony,D major,,"2 Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, 2 Violins, 2 Violas, Cello, Basso",
 504,KV 504a,Anh. 105; 1786h,,Sinfonic movement,Symphony,G major,,Orchestra,fragment
 505,KV 505,50,,"""Ch’io mi scordi di te?"" – ""Non temer, amato bene""",Scena,E-flat major,,"2 Violins, Viola, S, Cello, Basso",
 506,KV 506,,,Lied der Freiheit,Songs,F major,,"Voice, Clavier",
 509,KV 509,51,,6 Deutsche Tänze,Dances,,,"[Piccolo, 2 Flutes, 2 Oboes, 2 Clarinetts, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, 2 Violins, Cello, Basso]/[Clavier]",
-511,KV 511,52,,Rondo,Klavierstück,A minor,,Clavier,
+511,KV 511,52,,Rondo,Piano Piece,A minor,,Clavier,
 512,KV 512,53,,"""Alcandro, lo confesso"" – ""Non so donde viene""",Scena,F major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, B, Cello, Basso",
 513,KV 513,54,,"""Mentre ti lascio, oh figlia""",Aria,E-flat major,,"Flute, 2 Clarinetts, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, B, Cello, Basso",
 514,KV 514a,Anh. 80; 1787j,,Quintet movement,Quintet,B-flat major,,"2 Violins, 2 Violas, Cello",fragment
@@ -744,11 +751,11 @@ Piece in C, Menuet",Clavier,Nannerl Music Book
 537,KV 537c,491a; Anh. 62; 1786g,,Concerto movement,Concerto,E-flat major,,"Flute, 2 Oboes, 2 Clarinetts, 2 Bassoons, 2 Horns, Clavier, 2 Violins, Viola, Cello, Basso",fragment
 538,KV 538,77,,"""Ah se in ciel, benigne stelle""",Aria,F major,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, S, Cello, Basso",
 539,KV 539,78,,"""Ich möchte wohl der Kaiser sein“",Aria,A major,,"Piccolo, 2 Oboes, 2 Bassoons, 2 A Horns, Cymbals, Bass Drum, 2 Violins, 2 Violas, B, Cello, Basso",
-540,KV 540,79,,Adagio,Klavierstück,B minor,,Clavier,
 540,KV 540a,527/10d; 527/11; 527/10a; 80,,"""Dalla sua pace“",Aria,G major,,"T, Orchestra","for Don Giovanni KV 527, SECOND VERSION"
 540,KV 540b,81,,„Per questa tua manina“/„Per queste tue manine“,Duetto,C major,,"Soprano, Bass, Orchestra","zu Don Giovanni KV 527, ZWEITE FASSUNG"
+540,KV 540,79,,Adagio,Piano Piece,B minor,,Clavier,
 540,KV 540c,82,,"„In quali eccessi, oh numi“ – „Mi tradì quell’alma ingrata“
-Scena zu Don Giovanni KV 527 (ZWEITE FASSUNG)",Scena,Es-dur,,"Soprano, Orchestra",
+Scena zu Don Giovanni KV 527 (ZWEITE FASSUNG)",Scena,E-flat major,,"Soprano, Orchestra",
 541,KV 541,83,,"""Un bacio di mano“",Aria,F major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, B, Cello, Basso",Ariette
 542,KV 542,84,,Trio in E major,Trio,E major,,"Violin, Cello, Clavier",
 543,KV 543,85,,Symphony in E-flat major,Symphony,E-flat major,,"Flute, 2 Bb Clarinetts, 2 Bassoons, 2 Eb Horns, 2 Eb Clarinos, Eb-Bb Timpani, 2 Violins, Viola, Cello, Basso",
@@ -756,9 +763,9 @@ Scena zu Don Giovanni KV 527 (ZWEITE FASSUNG)",Scena,Es-dur,,"Soprano, Orchestra
 545,KV 545,87,,Sonata in C major for Keyboard,Sonata,C major,,Clavier,
 546,KV 546,88,,Adagio - Fuge,Fugue,C minor,,"2 Violins, Viola, Cello, Basso",
 546,KV 546a,Anh. 47; 1789f,,Sonata movement,Sonata,G major,,"Violin, Clavier",fragment
-547,KV 547,89,,Sonata in F major,Sonata,F major,,"Violin, Clavier",
-547,KV 547a,Anh. 135,,Klavierstück in F major,Klavierstück,F major,,Clavier,"after the Sonata in F for Clavier and violin KV 547, movement 2 and the Sonata in C for Clavier KV 545, movement 3;
+547,KV 547a,Anh. 135,,Klavierstück in F major,Piano Piece,F major,,Clavier,"after the Sonata in F for Clavier and violin KV 547, movement 2 and the Sonata in C for Clavier KV 545, movement 3;
 Version of unknown authorization, probably fragment"
+547,KV 547,89,,Sonata in F major,Sonata,F major,,"Violin, Clavier",
 548,KV 548,90,,Trio in C major,Trio,C major,,"Violin, Cello, Clavier",
 549,KV 549,91,,"""Più non si trovano""",Terzetto,B-flat major,,"3 Basset Horns, S1, S2, B",
 550,KV 550,92,,Symphony in G minor,Symphony,G minor,,"Flute, 2 Oboes, [2 Bb Clarinetts], 2 Bassoons, Bb Alto Horn, G Horn, 2 Violins, Viola, Cello, Basso",
@@ -771,8 +778,8 @@ Version of unknown authorization, probably fragment"
 557,KV 557,,,"""Nascoso è il mio sol""",Canon,F minor,,"V1, V2, V3, V4",
 558,KV 558,,,"""Gehn wir im Prater, gehn wir in d’Hetz""",Canon,B-flat major,,"V1, V2, V3, V4",
 559,KV 559,,,"""Difficile lectu mihi Mars""",Canon,F major,,"V1, V2, V3",
-560,KV 560,,,"""O du eselhafter …""",Canon,G major / F major,,"V1, V2, V3, V4",
-561,KV 561,,,"""Bona nox! bist a rechta Ox""",Canon,A major / G major,,"V1, V2, V3, V4",
+560,KV 560,,,"""O du eselhafter …""",Canon,,,"V1, V2, V3, V4",
+561,KV 561,,,"""Bona nox! bist a rechta Ox""",Canon,,,"V1, V2, V3, V4",
 562,KV 562,,,"""Caro bell’idol mio""",Canon,A major,,"V1, V2, V3",
 562,KV 562c,Anh. 191,,Canon in C major,Canon,C major,,"2 Violins, Viola2, Cello, Basso",
 562,KV 562e,Anh. 66; 1789g,,Allegro,,G major,,"Violin, Viola, Cello",fragment
@@ -787,18 +794,18 @@ Version of unknown authorization, probably fragment"
 569,KV 569a,Anh. 31; 1787p,,Sonata movement,Sonata,B-flat major,,Clavier,fragment
 570,KV 570,103,,Sonata in B-flat major for Keyboard,Sonata,B-flat major,,Clavier,
 571,KV 571,104,,6 German Dances,Dances,,,"Flute, 2 Oboes, 2 Bassoons, 2 Clarinos, Timpani, 2 Violins, Cello, Basso",
-571,KV 571a,Anh. 5; 1789j,,"""Caro mio Druck and Schluck""",Quartett,E-flat major,,"Soprano, 2 Tenors, B, Clavier",probably fragment
 571,KV 571A,Anh. 106; 1789k,,Menuet,Dances,A major,,"Piccolo, 2 Oboes, 2 Bassoons, 2 Horns, Tamburo, 2 Violins, [?Basso]","lost, fragment"
+571,KV 571a,Anh. 5; 1789j,,"""Caro mio Druck and Schluck""",Quartett,E-flat major,,"Soprano, 2 Tenors, B, Clavier",probably fragment
 572,KV 572a,Anh. 4,,"""Lebet wohl, wir sehn uns wieder""/""Heult noch gar wie alte Weiber""",Canon,,,"V1, V2, V3, V4, v5, v6",verschollen or nicht identifiziert
 573,KV 573,105,,6 or 9 Variations,Keyboard Variations,D major,,Clavier,respectively on a minuet by Jean-Pierre Duport
-574,KV 574,106,,Gigue,Klavierstück,G major,,Clavier,
+574,KV 574,106,,Gigue,Piano Piece,G major,,Clavier,
 575,KV 575,107,,String Quartet in D major,Quartet,D major,,"2 Violins, Viola, Cello",
 576,KV 576,108,,Sonata in D major for Keyboard,Sonata,D major,,Clavier,
 577,KV 577,492/28a; 109,,"""Al desio di chi t’adora""",Aria,F major,,"2 F Basset Horns, 2 Bassoons, 2 F Horns, 2 Violins, Viola, Soprano, Cello, Basso",Rondò for Le nozze di Figaro KV 492 (2nd version)
 578,KV 578,110,,"""Alma grande e nobil core""",Aria,B-flat major,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, 2 Violas, S, Cello, Basso",
 579,KV 579,492/13a,,"""Un moto di gioia""",Aria,G major,,"Flute, Oboe, Bassoon, 2 G Horns, 2 Violins, 2 Violas, Susanna, Cello, Basso",for Le nozze di Figaro KV 492 (2nd version)
 580,KV 580,111; 1789h,,"""Schon lacht der holde Frühling""",Aria,B-flat major,,"2 Clarinetts, 2 Bassoons, 2 Horns, 2 Violins, Viola, S, Cello, Basso",fragment
-580,KV 580a,Anh. 94; 1788a,,Adagio,,F major / G major,,"Clarinet, 3 Basset Horns",fragment
+580,KV 580a,Anh. 94; 1788a,,Adagio,,,,"Clarinet, 3 Basset Horns",fragment
 580,KV 580b,Anh. 90; 1787q,,Allegro,,F major,,"Clarino, Basset Horn, Violin, Viola, Cello",fragment
 581,KV 581,112,,Quintet in A major,Quintet,A major,,"A Clarinet, 2 Violins, Viola, Cello",
 581,KV 581a,Anh. 88; 1790g,,Quintet movement,Quintet,A major,,"Clarino, 2 Violins, Viola, Cello",fragment
@@ -812,16 +819,16 @@ Version of unknown authorization, probably fragment"
 587,KV 587a,Anh. 85; Anh. 74; 1789ß/01; 1789i,,Quartet movement in g,Quartet,G minor,,"2 Violins, Viola, Cello",fragment
 588,KV 588,118,,Così fan tutte o sia La scuola degli amanti,Opera,,,"2 Flutes, 2 Oboes, 2 Clarinetts, 2 Bassoons, 2 Horns, 2 Clarinos, Timpani, 2 Violins, Viola, Cello, Basso","Opera buffa (""Dramma giocoso"") in 2 Akten"
 589,KV 589,119,,String Quartet in B-flat major,Quartet,B-flat major,,"2 Violins, Viola, Cello",
-589,KV 589a,Anh. 68; 1782o,,Allegretto,,B-flat major,,"2 Violins, Viola, Cello",fragment
 589,KV 589b,Anh. 73; 1790d,,String Quartet in G minor,Quartet,F major,,"2 Violins, Viola, Cello",fragment
+589,KV 589a,Anh. 68; 1782o,,Allegretto,,B-flat major,,"2 Violins, Viola, Cello",fragment
+590,KV 590a,Anh. 29; 1787r,,Piano piece,Piano Piece,F major,,Clavier,fragment
+590,KV 590b,Anh. 30; 1787s,,Allegro,Piano Piece,F major,,Clavier,fragment
+590,KV 590c,Anh. 37; 1787t,,Piano piece,Piano Piece,F major,,Clavier,fragment
 590,KV 590,120,,String Quartet in F major,Quartet,F major,,"2 Violins, Viola, Cello",
-590,KV 590a,Anh. 29; 1787r,,Piano piece,Klavierstück,F major,,Clavier,fragment
-590,KV 590b,Anh. 30; 1787s,,Allegro,Klavierstück,F major,,Clavier,fragment
-590,KV 590c,Anh. 37; 1787t,,Piano piece,Klavierstück,F major,,Clavier,fragment
 592,KV 592b,Anh. 83; 1787u,,Quintet movement,Quintet,D major,,"2 Violins, 2 Violas, Cello",fragment
+593,KV 593a,Anh. 35; 1790f,,Adagio,Piano Piece,D minor,,Mechanical Organ,fragment
 593,KV 593,121,,Quintet in D major,Quintet,D major,,"2 Violins, 2 Violas, Cello",
-593,KV 593a,Anh. 35; 1790f,,Adagio,Klavierstück,D minor,,Mechanical Organ,fragment
-594,KV 594,626b/06; Anh. 109g/06; 122,,Adagio - Allegro,Klavierstück,F minor,,Mechanical Organ,
+594,KV 594,626b/06; Anh. 109g/06; 122,,Adagio - Allegro,Piano Piece,F minor,,Mechanical Organ,
 595,KV 595,123,,Concerto in B-flat major for Keyboard and Orchestra,Concerto,B-flat major,,"Flute, 2 Oboes, 2 Bassoons, 2 Horns, Clavier, 2 Violins, Viola, Cello, Basso",
 596,KV 596,,,Sehnsucht nach dem Frühlinge,Songs,F major,,"Voice, Clavier",
 597,KV 597,,,Im Frühlingsanfange,Songs,E-flat major,,"Voice, Clavier",
@@ -838,7 +845,7 @@ Version of unknown authorization, probably fragment"
 605,"KV 605,03",,,German Dances,Dances,F major,,"Bassoon, F Posthorn, Bb Posthorn, 2 A-F Sonagli, 2 E-C Sonagli, G Sonagli, 2 Violins, Cello, Basso",Work of doubtful authenticity
 606,KV 606,130,,6 Ländlers,Dances,B-flat major,,"2 Violins, Cello, Basso",
 607,KV 607,605a; 130,,"Contredances ""Il trionfo delle donne""",Dances,E-flat major,,"Flute, Oboe, Bassoon, 2 Horns, 2 Violins, Cello, Basso",fragment
-608,KV 608,131,,Allegro - Andante,Klavierstück,F minor,,Mechanical Organ,
+608,KV 608,131,,Allegro - Andante,Piano Piece,F minor,,Mechanical Organ,
 609,KV 609,,,5 contredances,Dances,,,"Flutetrm, 2 Violins, Cello, Basso",
 610,KV 610,,,"Contredances “Les filles malicieuses""",Dances,G major,,"2 Flutes, 2 Horns, 2 Violins, Cello, Basso",
 611,KV 611,,,German Dance Die Leierer,Dances,C major,,"2 Oboes, 2 Bassoons, 2 Clarinos, Timpani, Drehleier, 2 Violins, Cello, Basso","also known as German Dances KV 602, No. 3"
@@ -847,17 +854,17 @@ Version of unknown authorization, probably fragment"
 613,KV 613a,Anh. 81; 1784l,,Quintet movement,Quintet,E-flat major,,"2 Violins, 2 Violas, Cello",fragment
 613,KV 613b,Anh. 82; 1786i,,Quintet movement,Quintet,E-flat major,,"2 Violins, 2 Violas, Cello",fragment
 614,KV 614,135,,Quintet in E-flat major,Quintet,E-flat major,,"2 Violins, 2 Violas, Cello",
+615,KV 615a,"1791b,9/01; 1791e",,Instrumental movement,Piano Piece,F major,,Mechanical Organ,fragment
 615,KV 615,136,,"""Viviamo felici in dolce contento""",,G major,,,Chorus lost
-615,KV 615a,"1791b,9/01; 1791e",,Instrumental movement,Klavierstück,F major,,Mechanical Organ,fragment
-616,KV 616,137,,Andante,Klavierstück,F major,,Mechanical Organ,
+616,KV 616,137,,Andante,Piano Piece,F major,,Mechanical Organ,
 616,KV 616a,Anh. 92; 1791f,,Fantasia,,C major,,"Glass Harmonica, Flute, Oboe, Viola, Cello",fragment
 617,KV 617,138,,Adagio - Rondo,,C major,,"Glass Harmonica, Flute, Oboe, Viola, Cello",
 618,KV 618,139,,Ave verum corpus,Hymn,D major,,,for Corpus Christi
 619,KV 619,140,,"""Die ihr des unermesslichen Weltalls Schöpfer ehrt""",Cantata,C major,,"Voice, Clavier",
 620,KV 620,143; 141,,Die Zauberflöte,Singspiel,E-flat major,,"Piccolo, 2 Flutes, 2 Oboes, 2 Clarinetts, 2 Basset Horns, 2 Bassoons, 2 Horns, 2 Clarinos, Alto Trombone, Tenor Trombone, Bass Trombone, Timpani, Keyboard Glockenspiel, 2 Violins, 2 Violas, Soprano, Alto, Tenor, Bass, SATTBB, Cello, Basso","Singspiel (""Grand opera“) in 2 acts"
 620,KV 620a,Anh. 102,,K. Appendix 102 (620a) [mm. 1-26],,E-flat major,,,fragment
-621,KV 621,142,,La clemenza di Tito (The Clemency of Titus),Opera,C major,,"2 Flutes, 2 Oboes, 2 Bb Clarinetts, 2 Bassoons, 2 C Horns, C-G Timpani , 2 Violins, 2 Violas, Cello, Basso","Opera seria (""Dramma serio"") in 3 acts"
 621,KV 621a,Anh. 245,,"""Io ti lascio, o cara, addio""",Aria,,,"Soprano or Bass, Orchestra",Work of doubtful authenticity
+621,KV 621,142,,La clemenza di Tito (The Clemency of Titus),Opera,C major,,"2 Flutes, 2 Oboes, 2 Bb Clarinetts, 2 Bassoons, 2 C Horns, C-G Timpani , 2 Violins, 2 Violas, Cello, Basso","Opera seria (""Dramma serio"") in 3 acts"
 622,KV 622,144,,Concerto in A major for Clarinet and Orchestra,Concerto,A major,,"2 Flutes, 2 Bassoons, 2 Horns, Solo Clarinet, 2 Violins, 2 Violas, Cello, Basso",
 623,KV 623,145,,"""Laut verkünde unsre Freude""",Cantata,C major,,"Flute, 2 Oboes, 2 Horns, 2 Violins, Viola, T1, T2, B, TTB, Cello, Basso",
 623,KV 623a,623/06; bei 623,,"Zum Schluss der Loge"" ""Lasst uns mit geschlungnen Händen“",,F major,,"Voice, Choir, Piano",Work of doubtful authenticity
@@ -869,9 +876,9 @@ Version of unknown authorization, probably fragment"
 631,KV 631,deest; Anh. 11b/1; deest,,Aria,Aria,,,"Voice, Orchestra",
 632,KV 632,KV¹ deest,,Instrumental piece,,C major,,,"for Clavier and violin or for 2 violins and bass, fragment"
 633,KV 633,KV¹ deest,,"""Quel destrier che all’albergo è vicino""",Aria,,,,for voice and Orchestraestra;Work of doubtful authenticity;Lost
-634,KV 634,deest; No. 44,,Polonoise,Klavierstück,F major,,Clavier,"Nannerl Music Book, Work of doubtful authenticity"
-635,KV 635,KV¹ deest,,Piano piece,Klavierstück,G major,,Clavier,fragment
-636,KV 636,KV¹ deest,,Molto allegro,Klavierstück,G major,,Clavier,Nannerl Music Book
+634,KV 634,deest; No. 44,,Polonoise,Piano Piece,F major,,Clavier,"Nannerl Music Book, Work of doubtful authenticity"
+635,KV 635,KV¹ deest,,Piano piece,Piano Piece,G major,,Clavier,fragment
+636,KV 636,KV¹ deest,,Molto allegro,Piano Piece,G major,,Clavier,Nannerl Music Book
 637,KV 637,zu 25; deest,,"""Oragna figata fa marina gamina fa“",Songs,C major,,"V1, [V2]",fragment
 638,KV 638,zu 159b; deest; 1764e,,Instrumental piece,Partita,B major,,"2 Horns, 2 Oboes, 2 Violins, Cello, Basso",
 639,KV 639,KV¹ deest,,"""A piece"" for Elector Maximilian III Joseph of Bavaria",,,,,lost
@@ -884,8 +891,8 @@ Version of unknown authorization, probably fragment"
 646,KV 646,KV¹ deest,,"""Cara, se le mie pene“",Aria,C major,,"2 Horns, Violin, Viola, S, Basso",
 647,KV 647,KV¹ deest,,Aria in D major,Aria,D major,,"Soprano, Orchestra",fragment
 648,KV 648,KV¹ deest,,Serenade in C major,Serenade,C major,,"2 Violins, Cello, Basso",Work of doubtful authenticity
-649,KV 649,KV¹ deest,,Piano piece,Klavierstück,C major,,Clavier,Work of doubtful authenticity
-650,KV 650,KV¹ deest,,Allegro,Klavierstück,C major,,probably: Clavier,"reduction of an Allegro in C for Orchestra, Work of doubtful authenticity"
+649,KV 649,KV¹ deest,,Piano piece,Piano Piece,C major,,Clavier,Work of doubtful authenticity
+650,KV 650,KV¹ deest,,Allegro,Piano Piece,C major,,probably: Clavier,"reduction of an Allegro in C for Orchestra, Work of doubtful authenticity"
 651,KV 651,KV¹ deest,,2 Latin motets,Motet,,,"S-Kastrat, Orchestra",lost
 652,KV 652,KV¹ deest,,"""Venti, fulgura, procellae""",Motet,G major,,,Work of doubtful authenticity
 653,KV 653,KV¹ deest,,Cassation in C major,Cassation,C major,,for instrumental ensemble,lost
@@ -893,11 +900,11 @@ Version of unknown authorization, probably fragment"
 655,KV 655,KV¹ deest,,2 Church Sonatas,Sonata,,,,lost
 655.1,KV 655/1,KV¹ deest,,Church Sonata in D major,Sonata,D major,,,lost
 655.2,KV 655/2,KV¹ deest,,Church Sonata in G major,Sonata,G major,,,lost
-656,KV 656,KV¹ deest,,Piano piece,Klavierstück,C major,,Clavier,fragment
+656,KV 656,KV¹ deest,,Piano piece,Piano Piece,C major,,Clavier,fragment
 657,KV 657,bei 111; 111/34,,Ballettmusik zu Ascanio in Alba KV 111,Ballet,,,,"Werk zweifelhafter Echtheit, fragment"
-658,KV 658,Anh. C 27.06; Anh. 207,,Ballet for Ascanio in Alba KV 111,Klavierstück,,,,"Work of doubtful authenticity, fragment"
+658,KV 658,Anh. C 27.06; Anh. 207,,Ballet for Ascanio in Alba KV 111,Piano Piece,,,,"Work of doubtful authenticity, fragment"
 659,KV 659,bei Anh. 207; bei KV Anh. C 27.06; Anh. 207,,12 Variations on an instrumental movement,Keyboard Variations,C major,,Clavier,Work of doubtful authenticity
-660,KV 660,KV¹ deest,,Fugue,Klavierstück,D minor,,Clavier,fragment
+660,KV 660,KV¹ deest,,Fugue,Piano Piece,D minor,,Clavier,fragment
 661,KV 661,zu 61d,,4 Minuet movements (No. 4 fragment),Dances,,,"2 Oboes, 2 Trumpets, 2 Violins, Basso",
 662,KV 662,,,"12 Songss for voice and ""Harmoniale""",,,"1. Danklied ""Du bist’s, dem Ruhm and Ehre gebühret"" (B-flat major)
 2. Das Glück eines guten Gewissens ""Besitz ich nur ein ruhiges Gewissen"" (E-flat major)
@@ -919,7 +926,7 @@ Version of unknown authorization, probably fragment"
 668,KV 668,KV¹ deest,,"""Operetta""",Operetta,,,,lost
 669,KV 669,zu 257/02; 1776a/01; 1776a,,Vokal movement,,C major,,,
 670,KV 670,"626b/34; Anh. 109a, Nr. 3; 1776a/02",,Overture in D major,Overture,D major,,,fragment
-671,KV 671,Anh. C 15.11,,Piano piece,Klavierstück,C major,,Clavier,"Part I known as Modulating Prelude; Teil 2 known as Transition KV 626a, Part II, I"
+671,KV 671,Anh. C 15.11,,Piano piece,Piano Piece,C major,,Clavier,"Part I known as Modulating Prelude; Teil 2 known as Transition KV 626a, Part II, I"
 672,KV 672,KV¹ deest,,"""Alma Redemptoris Mater“",Antiphon,F major,,,lost
 673,KV 673,KV¹ deest,,Concerto for Flute and Orchestra,Concerto,,,"Flute, Orchestra",lost or not realized
 674,KV 674,1778a/02; 1778a,,2 Dances movements,Dances,D major,,,fragment
@@ -932,21 +939,21 @@ Version of unknown authorization, probably fragment"
 681,KV 681,1781f,,"Larghetto, Allegro in E flat",,E-flat major,,2 Claviers,fragment
 682,KV 682,bei 385b/01; bei 393/01; 1782γ/02; 1782b,,Instrumental piece,,C major,,prob. Ensemble,fragment
 683,KV 683,zu 422; 1783ι/02,,"""Ho un pensiero nel cervello""",Duetto,F major,,"Soprano, Tenor, Orchestra","for L’oca del Cairo KV 422, fragment"
-684,"KV 684,01",,,Rondo,Klavierstück,,,Pianoforte de l’harmonie parfaite,"Work of doubtful authenticity, fragment"
-684,"KV 684,02",KV⁶ deest,,Piece,Klavierstück,,,Pianoforte de l’harmonie parfaite,"Werk zweifelhafter Echtheit, Lost"
+684,"KV 684,01",,,Rondo,Piano Piece,,,Pianoforte de l’harmonie parfaite,"Work of doubtful authenticity, fragment"
+684,"KV 684,02",KV⁶ deest,,Piece,Piano Piece,,,Pianoforte de l’harmonie parfaite,"Werk zweifelhafter Echtheit, Lost"
 685,KV 685,1783e/01; 1783c,,Aria in B-flat major,Aria,B-flat major,,for bass,fragment
 686,KV 686,1783f/02; 1783d,,Trio movement,Trio,C minor,,"prob. 2 Violins, Cello",fragment
 687,KV 687,bei 271f; 178X/a,,Trio movement,Trio,C major,,"2 Violins, Cello",fragment
 688,KV 688,,,Sonata movement,Sonata,C major,,"Violin, Clavier",fragment
 689,KV 689,,,Aria for Margarethe Marchand,Aria,,,,lost or not realized
-690,KV 690,deest; 178X/f,,Instrumental piece,Klavierstück,G major,,Clavier,"or for dance ensemble, fragment"
+690,KV 690,deest; 178X/f,,Instrumental piece,Piano Piece,G major,,Clavier,"or for dance ensemble, fragment"
 691,KV 691,Anh. 109a/[01]; 626b/32 (1); deest; 1785b/1a,,Melodic notation,,F major,,,fragment
 692,KV 692,KV¹ deest,,2 Masonic Songs,Songs,,,"prob. Tenor, Male Choir, Piano/Organ",
 692,"KV 692,01",KV¹ deest,,"For the opening of the Masters' lodge ""Des Todes Werk""",Songs,,,"prob. Tenor, Male Choir, Piano/Organ",
 692,"KV 692,02",KV¹ deest,,"At the end of the Masters' Lodge  ""Vollbracht ist die Arbeit der Meister""",Songs,,,"prob. Tenor, Male Choir, Piano/Organ",
 693,KV 693,1785κ (1)/02; 1785b,,Instrumental piece,,E minor,,,fragment
 694,KV 694,1785a/04; 1785g,,Allegro,,D major,,Orchestra,fragment
-695,KV 695,1785a/01; 1785h,,Piano piece,Klavierstück,C major,,Clavier,fragment
+695,KV 695,1785a/01; 1785h,,Piano piece,Piano Piece,C major,,Clavier,fragment
 696,KV 696,1785a/05; 1785m,,Canon in E-flat major,Canon,E-flat major,,"für 3 sopranos,  basso",
 697,KV 697,deest; 178X/d,,Trio movement,Trio,C major,,"prob. 2 Violins, Cello",fragment
 698,KV 698,417B1; 417a Anh. a; 1785d/09; 1785k,,Instrumental piece (theme),,B-flat major,,,fragment
@@ -959,10 +966,10 @@ Version of unknown authorization, probably fragment"
 705,KV 705,1787b/02; 1787a,,Melodic notation,,G major,,,fragment
 706,KV 706,deest; 178X/2,,Vocal movement in D minor,,D minor,,Voice,fragment
 707,KV 707,KV¹ deest,,Credo in D,,D major,,,fragment
-708,KV 708,KV¹ deest,,Adagio,Klavierstück,B minor,,Clavier,fragment
+708,KV 708,KV¹ deest,,Adagio,Piano Piece,B minor,,Clavier,fragment
 709,KV 709,1786e/04; 1788f,,Melodic notation,,C major,,prob. Ensemble,
-710,KV 710,1786e/05; 1788g,,Allegretto,Klavierstück,B-flat major,,Piano/Ensemble,fragment
-711,KV 711,zu 532; deest; 1787ß/03; 1788f,,Instrumental piece,Klavierstück,B-flat major,,Clavier,"or for dance ensemble, fragment"
+710,KV 710,1786e/05; 1788g,,Allegretto,Piano Piece,B-flat major,,Piano/Ensemble,fragment
+711,KV 711,zu 532; deest; 1787ß/03; 1788f,,Instrumental piece,Piano Piece,B-flat major,,Clavier,"or for dance ensemble, fragment"
 712,KV 712,KV¹ deest,,"""Ahi, cosa veggio!""",Recitative,C major,,"Soprano, Orchestra","for the aria ""Vado, ma dove? oh Dei!"" KV 583 Work of doubtful authenticity"
 713,KV 713,KV¹ deest,,"""No, caro, fa coraggio e in me ti fida“",Recitative,,,"Soprano, Orchestra",Work of doubtful authenticity
 714,KV 714,KV¹ deest,,Der Stein der Weisen oder Die Zauberinsel [The sorcerer's stone or The magic island] (Pasticcio),Pasticcio,,,,"Three contributions for Act II, finale
@@ -978,60 +985,8 @@ verschollen",Aria,,,Voice,Work of doubtful authenticity
 719,"KV 719,02",KV¹ deest,,German Dance,Dances,C major,,"2 Violins, Cello, Basso","Work of doubtful authenticity, fragment"
 720,KV 720,deest; 73x/03; Anh. 109d; 1772ß; 1772ß/d,,Melodic notation,,D major,,,
 721,KV 721,Anh. C 8.16; Anh. 255a,,"Prüfung des Küssens ""Meine weise Mutter spricht""",,,,Voice,lost
-Anh.,KV Anh. A 16,KV¹ 41,,Concerto for Keyboard and Orchestra,Concerto,,,"fl1+fl2, cor1+cor2, clav, vl1, vl2, vla, vlc+b",
-Anh.,"KV Anh. A 29, Nr. 1–3","KV¹ 107, KV³ 21b",,Concerto for Keyboard and Orchestra,Concerto,,,"vl1, vl2, vlc+b, clav-solo","according to clavier Sonatas by Johann Christian Bach [op. 5, 2-4]"
-Anh.,KV Anh. A 42,"KV¹ deest, KV⁶ 284e",,"Johann Baptist Wendling, Konzert",Concerto,,,,
-Anh.,KV Anh. A 48,"KV¹ deest, KV⁶ 470a",,Concerto in E minor for Violin and Orchestra,Concerto,E minor,,for violin and orchestra,"(Giovanni Battista Viotti), vermutlich für Flöte and Orchester"
-Anh.,KV Anh. A 7,KV¹ 37,,Concerto for Keyboard and Orchestra,Concerto,,,"2 Oboes, 2 Horns, Keyboard, 2 Violins, Viola, Cello, Basso",
-Anh.,KV Anh. A 8,KV¹ 39,,Concerto in B-flat major for Keyboard and Orchestra,Concerto,B-flat major,,"2 Oboes, 2 Horns, Keyboard, 2 Violins, Viola, Cello, Basso",
-Anh.,KV Anh. A 9,KV¹ 40,,Concerto for Keyboard and Orchestra,Concerto,,,"2 Oboes, 2 Horns, Keyboard, 2 Violins, Viola, Cello, Basso",
-Anh.,KV Anh. C 14.01,"KV¹ Anh. 9, KV³ 297b",,Sinfonia concertante,Concerto,,,"2 Oboes, 2 Horns, ob-solo, clar-solo, cor-solo, fag-solo, 2 Violins, 2 Violas, Cello, Basso",
-Anh.,KV Anh. C 14.02,"KV¹ Anh. 99, KV³ Anh. 294c",,"Konzert in F, vermutlich für Violoncello and Orchester",Concerto,F major,,"vlc-solo, Orch",
-Anh.,KV Anh. C 14.03,KV³ Anh. 230a,,Concerto in B-flat major for Bassoon and Orchestra,Concerto,B-flat major,,,probably by François Devienne
-Anh.,KV Anh. C 14.04,"KV¹ 268, KV³ 365b, KV³ Anh. 157a",,Concerto in E-flat major for Violin and Orchestra,Concerto,E-flat major,,,
-Anh.,KV Anh. C 14.05,"KV¹ deest, KV³ Anh. 294a",,Concerto in D major for Violin and Orchestra,Concerto,D major,,,Marius Casadesus
-Anh.,KV Anh. C 14.06,"KV¹ deest, KV³ Anh. 294b",,Concerto in E-flat major for Oboe and Orchestra,Concerto,E-flat major,,"Oboe, Orchestra",
-Anh.,KV Anh. C 14.07,"KV¹ Anh. 230, KV³ 196d",,Concerto in F major for Bassoon and Orchestra,Concerto,F major,,,Franz Danzi's work
-Anh.,KV Anh. C 14.09,,,"Concerto movement in D major, vermutlich für Violine and Orchester von Leopold Mozart, LMV XV:7 (fragment)",Concerto,D major,,,fragment
-Anh.,KV Anh. C 15.01,KV¹ deest,,Konzert in G (Pasticcio),Concerto,G major,,"Harpsichord, 2 Violins, Viola obligatto, Basso",
-Anh.,KV Anh. C 15.03,KV¹ deest,,"Konzert in F
-(Fragment)",Concerto,F major,,,fragment
 Anh.,KV Anh. C 15.10,V³ 626a E,,2 Kadenzen,Cadenza,,,clav-solo,
 Anh.,KV Anh. C 15.12,,,"2 Kadenzen von Leopold Mozart, LMV XIV:2",Cadenza,A major,,"vl1, vl2",
-Anh.,KV Anh. C 16.02,"LMV XV:5, KV³ Anh. 65a, KV⁶ 124A",,Beginning of a Sonata,,D major,,"vl1, vl2, org+b",
-Anh.,KV Anh. C 17.03,KV¹ Anh. 228,,Partita in E-flat major,Partita,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 8
-Anh.,KV Anh. C 17.04,KV¹ Anh. 224,,Partita in E-flat major,Partita,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 8
-Anh.,KV Anh. C 17.05,KV¹ Anh. 225,,Partita in F major,Partita,F major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 8
-Anh.,KV Anh. C 17.07,,,Adagio - Allegro,Partita,E-flat major,,,für Bläserensemble à 8
-Anh.,KV Anh. C 17.08,KV¹ deest,,Partita in F major,Partita,F major,,"2 Clarinets, 2 Horns, Bassoon",für Bläserensemble à 5
-Anh.,KV Anh. C 17.09,KV¹ deest,,Partita in B major,Partita,B major,,"2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 6
-Anh.,KV Anh. C 17.10,KV¹ deest,,Partita in E-flat major,Partita,E-flat major,,"2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 5
-Anh.,KV Anh. C 17.11,KV¹ deest,,Cassation in E-flat major,Cassation,E-flat major,,"Oboe/Flute, Clarinet, Horn, Bassoon",by Johann Georg Lickl
-Anh.,KV Anh. C 17.12,"KV¹ 187, KV³ 159c",,10[+8] Stücke,,,,"2 Flutes, 5 Trumpets, 4 Timpani","(Nr. 6 verschollen, Nr. 8 siehe KV Anh. A 38) von Josef Starzer and Christoph Willibald Gluck"
-Anh.,KV Anh. C 20.01-04,,,4 Quartette von Joseph Schuster,Quartet,,,,
-Anh.,KV Anh. C 20.05,"KV¹ deest, KV³ Anh. 291a",,6 Quartette,Quartet,,,"vl1, vl2, vla, vlc",
-Anh.,KV Anh. C 20.06,"KV¹ deest, KV³ Anh. 291a",,"6 Quartette von Johann Mederitsch, AigM B2.24–B2.29",Quartet,,,"vl1, vl2, vla, vlc",
-Anh.,KV Anh. C 20.07,KV¹ deest,,"Quartett von Ignaz Pleyel, Ben 365",Quartet,,,"vl1, vl2, vla, vlc",
-Anh.,"KV Anh. C 20.08,1-2",,,2 Quartette in g and d,Quartet,,,"vl1, vl2, vla, vlc",verschollen
-Anh.,KV Anh. C 21.01,"LMV XV:6, KV³ 124c, KV⁶ Anh. C 16.01",,"Fragment of a Sonata in C for two violins, organ and bass",,,,"vl1, vl2, org+b",
-Anh.,KV Anh. C 21.02,"KV¹ deest, KV³ 404a",,7 Fugues Johann Sebastian and Wilhelm Friedemann Bach editing for string trio,,,,"vl, vla, vlc",
-Anh.,KV Anh. C 22.01,"KV² Anh. 52a, KV³ Anh. 284h",,2 Trio movements in D by Kaspar Anton Karl van Beethoven,Trio,D major,,,
-Anh.,KV Anh. C 22.02,KV¹ Anh. 291,,Trio in C minor,Trio,C minor,,,by Anton Eberl
-Anh.,KV Anh. C 22.03,,,Allegro,,,,,vermutlich von Maximilian Stadler
-Anh.,KV Anh. C 23.01,"KV¹ 55, KV³ Anh. 209c",,Sonata,Sonata,,,"vl, clav",K. 55 (“No. 5”)
-Anh.,KV Anh. C 23.01-06,KV¹ 55-60,,6 Sonaten,Sonata,,,,
-Anh.,KV Anh. C 23.02,"KV¹ 56, KV³ Anh. 209d",,Sonata in C major,Sonata,C major,,"Violin, Clavier",K. 56 (“No. 6”)
-Anh.,KV Anh. C 23.03,"KV¹ 57, KV³ Anh. 209e",,Sonata,Sonata,,,"vl, clav",K. 57 (“No. 12”) with 2 horns and bass ad libitum
-Anh.,KV Anh. C 23.04,"KV¹ 58, KV¹ Anh. 154, KV¹ Anh. 158, KV³ Anh. 209f",,Sonata in E-flat major,Sonata,E-flat major,,"Violin, Clavier",K. 58 (“No. 11”)
-Anh.,KV Anh. C 23.05,"KV¹ 59, KV³ Anh. 209g",,Sonata in C minor,Sonata,C minor,,"vl, clav",K. 59 ( “No. 1”)
-Anh.,KV Anh. C 23.06,"KV¹ 60, KV³ Anh. 209h",,Sonata in E minor,Sonata,E minor,,"Violin, Clavier",K. 60 (“No. 10”)
-Anh.,KV Anh. C 23.07,"KV¹ 61, KV³ Anh. 290a",,Sonata in A major,Sonata,A major,,,von Hermann Friedrich Raupach
-Anh.,KV Anh. C 23.08,"KV¹ deest, KV³ Anh. 290b",,Sonata in C major,Sonata,C major,,,
-Anh.,KV Anh. C 23.09,"KV¹ deest, KV³ Anh. 290c",,Sonata in A major for Violin,Sonata,A major,,für Violine and Basso,
-Anh.,KV Anh. C 24.01,"KV² Anh. 41a, KV³ Anh. 284g",,"Drei Stücke für Clavier zu 4 Händen aus der Ballettmusik La ritrovata figlia di Ottone II von Leopold Kozeluch, PosK XXIV:1",Klavierstück,,,Piano Four Hands,
-Anh.,KV Anh. C 25.01,"KV¹ Anh. 204, KV² Anh. 284a",,Sonata in C minor for Keyboard,Sonata,C minor,,clav,von Anton Eberl
-Anh.,KV Anh. C 25.03,KV³ Anh. 284k,,Sonata in F major for Keyboard,Sonata,F major,,clav,
-Anh.,KV Anh. C 26.01,"KV² Anh. 209b, KV³ Anh. 284n",,Andantino mit 2 Variationen,Keyboard Variations,B major,,clav,
 Anh.,"KV Anh. G 11,01-03","KV¹ zu 364/01-02, KV³ zu 320d/01-22",,2 Kadenzen for KV 364,Cadenza,,,,
 Anh.,"KV Anh. G 12,01-05",,,Fünf Kadenzen for KV 365 Nr. 2–3,Cadenza,E-flat major,,,verschollen oder nicht identifiziert
 Anh.,"KV Anh. G 14,01-02",KV⁶ deest,,2 Cadenzas for KV 413,Cadenza,,,,Werke zweifelhafter Echtheit
@@ -1099,5 +1054,57 @@ Anh.,"KV Anh. G 6,09","KV¹ zu 242/03, KV⁶ deest",,Cadenzas for the concerto i
 Anh.,"KV Anh. G 6,10","KV¹ zu 242/03, KV⁶ deest",,<Cadenzas for the concerto in F for two claviers K. 242 (“Lodron concerto”). Three cadenzas for the third movement (Rondeau: Tempo di Minuetto)> Cadenza to mm. 192,Cadenza,F major,,"clav1, clav2",
 Anh.,"KV Anh. G 7,01-07",,,6 Kadenzen and 1 Eingang for KV 246,Cadenza,,,,
 Anh.,"KV Anh. G 8,01-11",,,4 Cadenzas and 7 Eingangs for KV 271,Cadenza,,,,
+Anh.,KV Anh. C 17.11,KV¹ deest,,Cassation in E-flat major,Cassation,E-flat major,,"Oboe/Flute, Clarinet, Horn, Bassoon",by Johann Georg Lickl
+Anh.,KV Anh. A 16,KV¹ 41,,Concerto for Keyboard and Orchestra,Concerto,,,"fl1+fl2, cor1+cor2, clav, vl1, vl2, vla, vlc+b",
+Anh.,"KV Anh. A 29, Nr. 1–3","KV¹ 107, KV³ 21b",,Concerto for Keyboard and Orchestra,Concerto,,,"vl1, vl2, vlc+b, clav-solo","according to clavier Sonatas by Johann Christian Bach [op. 5, 2-4]"
+Anh.,KV Anh. A 42,"KV¹ deest, KV⁶ 284e",,"Johann Baptist Wendling, Konzert",Concerto,,,,
+Anh.,KV Anh. A 48,"KV¹ deest, KV⁶ 470a",,Concerto in E minor for Violin and Orchestra,Concerto,E minor,,for violin and orchestra,"(Giovanni Battista Viotti), vermutlich für Flöte and Orchester"
+Anh.,KV Anh. A 7,KV¹ 37,,Concerto for Keyboard and Orchestra,Concerto,,,"2 Oboes, 2 Horns, Keyboard, 2 Violins, Viola, Cello, Basso",
+Anh.,KV Anh. A 8,KV¹ 39,,Concerto in B-flat major for Keyboard and Orchestra,Concerto,B-flat major,,"2 Oboes, 2 Horns, Keyboard, 2 Violins, Viola, Cello, Basso",
+Anh.,KV Anh. A 9,KV¹ 40,,Concerto for Keyboard and Orchestra,Concerto,,,"2 Oboes, 2 Horns, Keyboard, 2 Violins, Viola, Cello, Basso",
+Anh.,KV Anh. C 14.01,"KV¹ Anh. 9, KV³ 297b",,Sinfonia concertante,Concerto,,,"2 Oboes, 2 Horns, ob-solo, clar-solo, cor-solo, fag-solo, 2 Violins, 2 Violas, Cello, Basso",
+Anh.,KV Anh. C 14.02,"KV¹ Anh. 99, KV³ Anh. 294c",,"Konzert in F, vermutlich für Violoncello and Orchester",Concerto,F major,,"vlc-solo, Orch",
+Anh.,KV Anh. C 14.03,KV³ Anh. 230a,,Concerto in B-flat major for Bassoon and Orchestra,Concerto,B-flat major,,,probably by François Devienne
+Anh.,KV Anh. C 14.04,"KV¹ 268, KV³ 365b, KV³ Anh. 157a",,Concerto in E-flat major for Violin and Orchestra,Concerto,E-flat major,,,
+Anh.,KV Anh. C 14.05,"KV¹ deest, KV³ Anh. 294a",,Concerto in D major for Violin and Orchestra,Concerto,D major,,,Marius Casadesus
+Anh.,KV Anh. C 14.06,"KV¹ deest, KV³ Anh. 294b",,Concerto in E-flat major for Oboe and Orchestra,Concerto,E-flat major,,"Oboe, Orchestra",
+Anh.,KV Anh. C 14.07,"KV¹ Anh. 230, KV³ 196d",,Concerto in F major for Bassoon and Orchestra,Concerto,F major,,,Franz Danzi's work
+Anh.,KV Anh. C 14.09,,,"Concerto movement in D major, vermutlich für Violine and Orchester von Leopold Mozart, LMV XV:7 (fragment)",Concerto,D major,,,fragment
+Anh.,KV Anh. C 15.01,KV¹ deest,,Konzert in G (Pasticcio),Concerto,G major,,"Harpsichord, 2 Violins, Viola obligatto, Basso",
+Anh.,KV Anh. C 15.03,KV¹ deest,,"Konzert in F
+(Fragment)",Concerto,F major,,,fragment
+Anh.,KV Anh. C 26.01,"KV² Anh. 209b, KV³ Anh. 284n",,Andantino mit 2 Variationen,Keyboard Variations,B major,,clav,
+Anh.,KV Anh. C 24.01,"KV² Anh. 41a, KV³ Anh. 284g",,"Drei Stücke für Clavier zu 4 Händen aus der Ballettmusik La ritrovata figlia di Ottone II von Leopold Kozeluch, PosK XXIV:1",Piano Piece,,,Piano Four Hands,
+Anh.,KV Anh. C 17.03,KV¹ Anh. 228,,Partita in E-flat major,Partita,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 8
+Anh.,KV Anh. C 17.04,KV¹ Anh. 224,,Partita in E-flat major,Partita,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 8
+Anh.,KV Anh. C 17.05,KV¹ Anh. 225,,Partita in F major,Partita,F major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 8
+Anh.,KV Anh. C 17.07,,,Adagio - Allegro,Partita,E-flat major,,,für Bläserensemble à 8
+Anh.,KV Anh. C 17.08,KV¹ deest,,Partita in F major,Partita,F major,,"2 Clarinets, 2 Horns, Bassoon",für Bläserensemble à 5
+Anh.,KV Anh. C 17.09,KV¹ deest,,Partita in B major,Partita,B major,,"2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 6
+Anh.,KV Anh. C 17.10,KV¹ deest,,Partita in E-flat major,Partita,E-flat major,,"2 Clarinets, 2 Horns, 2 Bassoons",für Bläserensemble à 5
+Anh.,KV Anh. C 20.01-04,,,4 Quartette von Joseph Schuster,Quartet,,,,
+Anh.,KV Anh. C 20.05,"KV¹ deest, KV³ Anh. 291a",,6 Quartette,Quartet,,,"vl1, vl2, vla, vlc",
+Anh.,KV Anh. C 20.06,"KV¹ deest, KV³ Anh. 291a",,"6 Quartette von Johann Mederitsch, AigM B2.24–B2.29",Quartet,,,"vl1, vl2, vla, vlc",
+Anh.,KV Anh. C 20.07,KV¹ deest,,"Quartett von Ignaz Pleyel, Ben 365",Quartet,,,"vl1, vl2, vla, vlc",
+Anh.,"KV Anh. C 20.08,1-2",,,2 Quartette in g and d,Quartet,,,"vl1, vl2, vla, vlc",verschollen
+Anh.,KV Anh. C 23.01,"KV¹ 55, KV³ Anh. 209c",,Sonata,Sonata,,,"vl, clav",K. 55 (“No. 5”)
+Anh.,KV Anh. C 23.01-06,KV¹ 55-60,,6 Sonaten,Sonata,,,,
+Anh.,KV Anh. C 23.02,"KV¹ 56, KV³ Anh. 209d",,Sonata in C major,Sonata,C major,,"Violin, Clavier",K. 56 (“No. 6”)
+Anh.,KV Anh. C 23.03,"KV¹ 57, KV³ Anh. 209e",,Sonata,Sonata,,,"vl, clav",K. 57 (“No. 12”) with 2 horns and bass ad libitum
+Anh.,KV Anh. C 23.04,"KV¹ 58, KV¹ Anh. 154, KV¹ Anh. 158, KV³ Anh. 209f",,Sonata in E-flat major,Sonata,E-flat major,,"Violin, Clavier",K. 58 (“No. 11”)
+Anh.,KV Anh. C 23.05,"KV¹ 59, KV³ Anh. 209g",,Sonata in C minor,Sonata,C minor,,"vl, clav",K. 59 ( “No. 1”)
+Anh.,KV Anh. C 23.06,"KV¹ 60, KV³ Anh. 209h",,Sonata in E minor,Sonata,E minor,,"Violin, Clavier",K. 60 (“No. 10”)
+Anh.,KV Anh. C 23.07,"KV¹ 61, KV³ Anh. 290a",,Sonata in A major,Sonata,A major,,,von Hermann Friedrich Raupach
+Anh.,KV Anh. C 23.08,"KV¹ deest, KV³ Anh. 290b",,Sonata in C major,Sonata,C major,,,
+Anh.,KV Anh. C 23.09,"KV¹ deest, KV³ Anh. 290c",,Sonata in A major for Violin,Sonata,A major,,für Violine and Basso,
+Anh.,KV Anh. C 25.01,"KV¹ Anh. 204, KV² Anh. 284a",,Sonata in C minor for Keyboard,Sonata,C minor,,clav,von Anton Eberl
+Anh.,KV Anh. C 25.03,KV³ Anh. 284k,,Sonata in F major for Keyboard,Sonata,F major,,clav,
+Anh.,KV Anh. C 22.01,"KV² Anh. 52a, KV³ Anh. 284h",,2 Trio movements in D by Kaspar Anton Karl van Beethoven,Trio,D major,,,
+Anh.,KV Anh. C 22.02,KV¹ Anh. 291,,Trio in C minor,Trio,C minor,,,by Anton Eberl
+Anh.,KV Anh. C 16.02,"LMV XV:5, KV³ Anh. 65a, KV⁶ 124A",,Beginning of a Sonata,,D major,,"vl1, vl2, org+b",
+Anh.,KV Anh. C 17.12,"KV¹ 187, KV³ 159c",,10[+8] Stücke,,,,"2 Flutes, 5 Trumpets, 4 Timpani","(Nr. 6 verschollen, Nr. 8 siehe KV Anh. A 38) von Josef Starzer and Christoph Willibald Gluck"
+Anh.,KV Anh. C 21.01,"LMV XV:6, KV³ 124c, KV⁶ Anh. C 16.01",,"Fragment of a Sonata in C for two violins, organ and bass",,,,"vl1, vl2, org+b",
+Anh.,KV Anh. C 21.02,"KV¹ deest, KV³ 404a",,7 Fugues Johann Sebastian and Wilhelm Friedemann Bach editing for string trio,,,,"vl, vla, vlc",
+Anh.,KV Anh. C 22.03,,,Allegro,,,,,vermutlich von Maximilian Stadler
 Anh.,"KV Anh. H 17,07",,,Ausschnittsskizze,,B-flat major,,,
 Anh.,"KV Anh. H 17,20",,,"b) Line 7, two measures, and line 9, measures 1-4",,,,clav,
