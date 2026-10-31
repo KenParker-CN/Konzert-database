@@ -1,41 +1,42 @@
-WikiQID,Sort Name,Name,Birth,Died,Nationality,Nationality_2,alias_cn,alias_de,alias_fr,Catalogue,Cataloguer,Spotify
+WikiQID,Sort Name,Name,Birth,Died,Nationality,Nationality_2,alias_cn,alias_de,alias_fr,Catalogue,Cataloguer
 Q53068,"Monteverdi, Claudio",Claudio Monteverdi,1567.05.15,1643.11.29,IT,,克劳迪奥·蒙特威尔第,,,Stattkus-Verzeichnis,Manfred Stattkus
 Q1192,"Lully, Jean-Baptiste",Jean-Baptiste Lully,1632.11.28,1687.03.22,IT,FR,让-巴蒂斯特·吕利,,,Lully-Werke-Verzeichnis,Herbert Schneider
-Q153637,"Buxtehude, Dietrich",Dietrich Buxtehude,1637c.,1707.05.09,DK,DE,迪特里希·布克斯特胡德,,,Buxtehude-Werke-Verzeichnis,Georg Karstädt
-Q55524,"Charpentier, Marc‑Antoine",Marc‑Antoine Charpentier,1643,1704‑02‑24,FR,,马克-安托万·夏庞蒂埃,,,Hitchcock catalogue,H. Wiley Hitchcock
-Q164475,"Corelli, Arcangelo",Arcangelo Corelli,1653.02.17,1713.01.08,IT,,阿尔坎杰罗·科雷利,,,Works in opus numbers by Arcangelo Corelli,
 Q9695,"Purcell, Henry",Henry Purcell,1659.09.10,1695.11.21,GB,,亨利·珀塞尔,,,Zimmerman catalogue,Franklin Bershir Zimmerman
+Q55524,"Charpentier, Marc‑Antoine",Marc‑Antoine Charpentier,1643,1704‑02‑24,FR,,马克-安托万·夏庞蒂埃,,,Hitchcock catalogue,H. Wiley Hitchcock
+Q153637,"Buxtehude, Dietrich",Dietrich Buxtehude,1637c.,1707.05.09,DK,DE,迪特里希·布克斯特胡德,,,Buxtehude-Werke-Verzeichnis,Georg Karstädt
+Q164475,"Corelli, Arcangelo",Arcangelo Corelli,1653.02.17,1713.01.08,IT,,阿尔坎杰罗·科雷利,,,Works in opus numbers by Arcangelo Corelli,
+Q506627,"Heinichen, Johann David",Johann David Heinichen,1683.04.17,1729.07.16,DE,,约翰・大卫・海尼兴,,,Seibel catalogue,Gustav Adolf Seibel
 Q1340,"Vivaldi, Antonio",Antonio Vivaldi,1678.03.04,1741.07.28,IT,,安东尼奥·维瓦尔第,,,Ryom-Verzeichinis,Peter Ryom
 Q157777,"Zelenka, Jan Dismas",Jan Dismas Zelenka,1679.10.16,1745.12.23,CZ,,扬·迪斯马斯·泽伦卡,,,Zelenka-Werke-Verzeichnis,Wolfgang Reiche
-Q75854,"Telemann, Georg Philipp",Georg Philipp Telemann,1681.03.14,1767.06.25,DE,,格奥尔格·菲利普·泰勒曼,,,Telemann-Werke-Verzeichnis,"Werner Menke, Martin Ruhnke"
-Q506627,"Heinichen, Johann David",Johann David Heinichen,1683.04.17,1729.07.16,DE,,约翰・大卫・海尼兴,,,Seibel catalogue,Gustav Adolf Seibel
-Q1145,"Rameau, Jean-Philippe",Jean-Philippe Rameau,1683.09.25,1764.09.12,FR,,让-菲利普·拉莫,,,Rameau-Catalogue-Thematisches,"Sylvie Bouissou, Denis Herlin"
-Q7302,"Handel, George Frideric",George Frideric Handel,1685.02.23,1759.04.14,DE,GB,乔治·弗里德里希·亨德尔,,,Handel-Werke-Verzeichinis,Bernd Baselt
 Q1339,"Bach, Johann Sebastian",Johann Sebastian Bach,1685.03.31,1750.07.28,DE,,约翰·塞巴斯蒂安·巴赫,,,Bach-Werke-Verzeichinis,Wolfgang Schmieder
 Q167837,"Scarlatti, Domenico",Domenico Scarlatti,1685.10.26,1757.07.23,IT,,多梅尼科·斯卡拉蒂,,,Kirkpatrick catalogue,Ralph Leonard Kirkpatrick
+Q7302,"Handel, George Frideric",George Frideric Handel,1685.02.23,1759.04.14,DE,GB,乔治·弗里德里希·亨德尔,,,Handel-Werke-Verzeichinis,Bernd Baselt
+Q1145,"Rameau, Jean-Philippe",Jean-Philippe Rameau,1683.09.25,1764.09.12,FR,,让-菲利普·拉莫,,,Rameau-Catalogue-Thematisches,"Sylvie Bouissou, Denis Herlin"
+Q75854,"Telemann, Georg Philipp",Georg Philipp Telemann,1681.03.14,1767.06.25,DE,,格奥尔格·菲利普·泰勒曼,,,Telemann-Werke-Verzeichnis,"Werner Menke, Martin Ruhnke"
 Q107277,"Bach, Wilhelm Friedemann",Wilhelm Friedemann Bach,1710.11.22,1784.07.01,DE,,威尔海姆·弗里德曼·巴赫,,,Falck catalogue,Martin Falck
 Q76428,"Bach, Carl Philipp Emanuel",Carl Philipp Emanuel Bach,1714.03.08,1788.12.14,DE,,卡尔·菲利普·埃马努埃尔·巴赫,,,Helm Catalogue,E. Eugene Helm
-Q7349,"Haydn, Joseph",Joseph Haydn,1732.03.31,1809.05.31,AT,,约瑟夫·海顿,,,Hoboken catalogue,Anthony van Hoboken
-Q189766,"Boccherini, Luigi",Luigi Boccherini,1743.02.19,1805.05.28,IT,,路易吉·波凯里尼,,,Gérard catalogue,Yves Gérard
 Q254,"Mozart, Wolfgang Amadeus",Wolfgang Amadeus Mozart,1756.01.27,1791.12.05,AT,,沃尔夫冈·阿马德乌斯·莫扎特,,,Köchel-Verzeichnis,Ludwig Ritter von Köchel
+Q189766,"Boccherini, Luigi",Luigi Boccherini,1743.02.19,1805.05.28,IT,,路易吉·波凯里尼,,,Gérard catalogue,Yves Gérard
+Q7349,"Haydn, Joseph",Joseph Haydn,1732.03.31,1809.05.31,AT,,约瑟夫·海顿,,,Hoboken catalogue,Anthony van Hoboken
 Q255,"Beethoven, Ludwig van",Ludwig van Beethoven,1770.12.17,1827.03.26,DE,,路德维希·范·贝多芬,,,Works in opus numbers by Ludwig van Beethoven,
 Q7312,"Schubert, Franz",Franz Schubert,1797.01.31,1828.11.19,AT,,弗朗茨·舒伯特,,,Deutsch catalogue,Otto Erich Deutsch
-Q1151,"Berlioz, Hector",Hector Berlioz,1803.12.11,1869.03.08,FR,,埃克托·柏辽兹,,,Holoman catalogue,D. Kern Holoman
 Q46096,"Mendelssohn, Felix",Felix Mendelssohn,1809.02.03,1847.11.04,DE,,费利克斯·门德尔松,,,Mendelssohn-Werke-Verzeichinis,Ralf Wehner
+Q1268,"Chopin, Frédéric",Frédéric Chopin,1810.03.01,1849.10.17,PL,,弗雷德里克·肖邦,,,Works in opus numbers by Frédéric Chopin,
 Q7351,"Schumann, Robert",Robert Schumann,1810.06.08,1856.07.29,DE,,罗伯特·舒曼,,,Works in opus numbers by Robert Schumann,
-Q81752,"Bruckner, Anton",Anton Bruckner,1824.09.04,1896.10.11,DE,,安东·布鲁克纳,,,Werkverzeichnis Anton Bruckner,Renate Grasberger
-Q87567,"Rubinstein, Anton",Anton Rubinstein,1829.11.28,1894.11.20,RU,,安东·鲁宾斯坦,,,Works in opus numbers by Anton Rubinstein,
-Q7294,"Brahms, Johannes",Johannes Brahms,1833.05.07,1897.04.03,DE,,约翰内斯·勃拉姆斯,,,Works in opus numbers by Johannes Brahms,
-Q150445,"Saint-Saëns, Camille",Camille Saint-Saëns,1835.10.09,1921.12.16,FR,,卡米尔·圣桑,,,Ratner catalogue,Sabina Teller Ratner
+Q1151,"Berlioz, Hector",Hector Berlioz,1803.12.11,1869.03.08,FR,,埃克托·柏辽兹,,,Holoman catalogue,D. Kern Holoman
 Q7315,"Tchaikovsky, Pyotr Ilyich",Pyotr Ilyich Tchaikovsky,1840.05.07,1893.11.06,RU,,彼得·伊里奇·柴可夫斯基,Pjotr Iljitsch Tschaikowski,Piotr Ilitch Tchaïkovski,Tchaikovsky Handbook,"Alexander Poznansky, Brett Langston"
+Q87567,"Rubinstein, Anton",Anton Rubinstein,1829.11.28,1894.11.20,RU,,安东·鲁宾斯坦,,,Works in opus numbers by Anton Rubinstein,
+Q81752,"Bruckner, Anton",Anton Bruckner,1824.09.04,1896.10.11,DE,,安东·布鲁克纳,,,Werkverzeichnis Anton Bruckner,Renate Grasberger
+Q7294,"Brahms, Johannes",Johannes Brahms,1833.05.07,1897.04.03,DE,,约翰内斯·勃拉姆斯,,,Works in opus numbers by Johannes Brahms,
 Q7298,"Dvorak, Antonin",Antonín Dvořák,1841.09.08,1904.05.01,CZ,,安东宁·德沃夏克,,,Burghauser catalogue,Jarmil Burghauser
-Q104919,"Fauré, Gabriel",Gabriel Fauré,1845.05.12,1924.11.04,FR,,,,,Works in opus numbers by Gabriel Fauré,
 Q7304,"Mahler, Gustav",Gustav Mahler,1860.07.07,1911.05.18,AT,CZ,古斯塔夫·马勒,,,Gustav-Mahler-Werke,Internationale Gustav Mahler Gesellschaft
+Q150445,"Saint-Saëns, Camille",Camille Saint-Saëns,1835.10.09,1921.12.16,FR,,卡米尔·圣桑,,,Ratner catalogue,Sabina Teller Ratner
+Q104919,"Fauré, Gabriel",Gabriel Fauré,1845.05.12,1924.11.04,FR,,,,,Works in opus numbers by Gabriel Fauré,
 Q205139,"Nielsen, Carl",Carl Nielsen,1865.06.09,1931.10.03,DK,,卡尔·尼尔森,,,Carl Nielsen's Works,Det Kongelige Bibliotek
-Q45682,"Sibelius, Jean",Jean Sibelius,1865.12.08,1957.09.20,FI,,让·西贝柳斯,,,Jean Sibelius catalogue,Fabian Dahlström
 Q1178,"Ravel, Maurice",Maurice Ravel,1875.03.07,1937.12.28,FR,,莫里斯·拉威尔,,,Marnat catalogue,Marcel Marnat
-Q7314,"Stravinsky, Igor",Igor Stravinsky,1882.06.17,1971.04.06,RU,,伊戈尔·斯特拉文斯基,,,K Catalog,Helmut Kirchmeyer
 Q49481,"Prokofiev, Sergei",Sergei Prokofiev,1891.04.27,1953.03.05,RU,,谢尔盖·普罗科菲耶夫,Sergei Prokofjew,Sergueï Prokofiev,Works in opus numbers by Sergei Prokofiev,
+Q45682,"Sibelius, Jean",Jean Sibelius,1865.12.08,1957.09.20,FI,,让·西贝柳斯,,,Jean Sibelius catalogue,Fabian Dahlström
+Q7314,"Stravinsky, Igor",Igor Stravinsky,1882.06.17,1971.04.06,RU,,伊戈尔·斯特拉文斯基,,,K Catalog,Helmut Kirchmeyer
 Q80135,"Shostakovich, Dmitri",Dmitri Shostakovich,1906.09.25,1975.08.09,RU,,德米特里·肖斯塔科维奇,Dmitri Schostakowitsch,Dmitri Chostakovitch,Works in opus numbers by Dmitri Shostakovich,
 Q150767,"Britten, Benjamin",Benjamin Britten,1913.11.22,1976.12.04,GB,,本杰明·布里顿,,,Works in opus numbers by Benjamin Britten,
 Q13846455,"Deutsch, Bernd Richard",Bernd Richard Deutsch,1977.05.15,,AT,,,,,Works by Bernd Richard Deutsch,

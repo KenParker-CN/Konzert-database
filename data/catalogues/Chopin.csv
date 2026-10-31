@@ -1,216 +1,216 @@
-SORT,WN_sort,WN,Opus,Title,Genre,Key
-1,,,op. 1,Rondo C minor,Rondo,C minor
-2,,,op. 2,Variations B flat major („La ci darem la mano” by Mozart) for piano with orchestra,Keyboard Variations,B-flat major
-3,,,op. 3,Introduction and Polonaise C major for piano and cello,Duet,C major
-4,,,op. posth. 4,Sonata C minor,Sonata,C minor
-5,,,op. 5,Rondo à la Mazur F major,Rondo,F major
-6,,,op. 6,5 Mazurkas,Mazurka,
-6.1,,,op. 6/1,Mazurka F-sharp minor,Mazurka,F-sharp minor
-6.2,,,op. 6/2,Mazurka C-sharp minor,Mazurka,C-sharp minor
-6.3,,,op. 6/3,Mazurka E major,Mazurka,E major
-6.4,,,op. 6/4,Mazurka E-flat minor,Mazurka,E-flat minor
-6.5,,,op. 6/5,Mazurka C major,Mazurka,C major
-7,,,op. 7,4 Mazurkas,Mazurka,
-7.1,,,op. 7/1,Mazurka B-flat major,Mazurka,B-flat major
-7.2,,,op. 7/2,Mazurka A minor,Mazurka,A minor
-7.3,,,op. 7/3,Mazurka F minor,Mazurka,F minor
-7.4,,,op. 7/4,Mazurka A-flat major,Mazurka,A-flat major
-8,,,op. 8,"Trio G minor for piano, violin and cello",Trio,G minor
-9,,,op. 9,3 Nocturnes,Nocturne,
-9.1,,,op. 9/1,Nocturne B-flat minor,Nocturne,B-flat minor
-9.2,,,op. 9/2,Nocturne E-flat major,Nocturne,E-flat major
-9.3,,,op. 9/3,Nocturne B major,Nocturne,B major
-10,,,op. 10,12 Etudes,Etude,
-11,,,op. 11,Concerto E minor,Concerto,E minor
-12,,,op. 12,Variations brillantes,Keyboard Variations,
-13,,,op. 13,Fantasia on the Polish themes for piano with orchestra,Fantasia,
-14,,,op. 14,Rondo à la Krakowiak for piano with orchestra,Rondo,
-15,,,op. 15,3 Nocturnes,Nocturne,
-15.1,,,op. 15/1,Nocturne F major,Nocturne,F major
-15.2,,,op. 15/2,Nocturne F-sharp major,Nocturne,F-sharp major
-15.3,,,op. 15/3,Nocturne G minor,Nocturne,G minor
-16,,,op. 16,Rondo E-flat major,Rondo,E-flat major
-16.1,,,Dbop. 16,Grand duo concertant for piano and cello,Duet,
-17,,,op. 17,4 Mazurkas,Mazurka,
-17.1,,,op. 17/1,Mazurka B-flat major,Mazurka,B-flat major
-17.2,,,op. 17/2,Mazurka E minor,Mazurka,E minor
-17.3,,,op. 17/3,Mazurka A-flat major,Mazurka,A-flat major
-17.4,,,op. 17/4,Mazurka A minor,Mazurka,A minor
-18,,,op. 18,Waltz E-flat major,Waltz,E-flat major
-19,,,op. 19,Bolero,Dance,
-20,,,op. 20,Scherzo B minor,Scherzo,B minor
-21,,,op. 21,Concerto F minor,Concerto,F minor
-22,,,op. 22,Andante spianato and Polonaise for piano and orchestra,Piano Piece,E-flat major
-23,,,op. 23,Ballade G minor,Ballade,G minor
-24,,,op. 24,4 Mazurkas,Mazurka,
-24.1,,,op. 24/1,Mazurka G minor,Mazurka,G minor
-24.2,,,op. 24/2,Mazurka C major,Mazurka,C major
-24.3,,,op. 24/3,Mazurka A-flat major,Mazurka,A-flat major
-24.4,,,op. 24/4,Mazurka B-flat minor,Mazurka,B-flat minor
-25,,,op. 25,12 Etudes,Etude,
-26,,,op. 26,2 Polonaises,Polonaise,
-26.1,,,op. 26/1,Polonaise C-sharp minor,Polonaise,C-sharp minor
-26.2,,,op. 26/2,Polonaise E-flat minor,Polonaise,E-flat minor
-27,,,op. 27,2 Nocturnes,Nocturne,
-27.1,,,op. 27/1,Nocturne C-sharp minor,Nocturne,C-sharp minor
-27.2,,,op. 27/2,Nocturne D-flat major,Nocturne,D-flat major
-28,,,op. 28,24 Preludes,Prelude,
-29,,,op. 29,Impromptu A-flat major,Impromptu,A-flat major
-29.1,,,Dbop. 29,Variation “Hexameron”,Variations,
-30,,,op. 30,4 Mazurkas,Mazurka,
-30.1,,,op. 30/1,Mazurka C minor,Mazurka,C minor
-30.2,,,op. 30/2,Mazurka B minor,Mazurka,B minor
-30.3,,,op. 30/3,Mazurka D-flat major,Mazurka,D-flat major
-30.4,,,op. 30/4,Mazurka C-sharp minor,Mazurka,C-sharp minor
-31,,,op. 31,Scherzo B-flat minor,Scherzo,B-flat minor
-32,,,op. 32,2 Nocturnes,Nocturne,
-32.1,,,op. 32/1,Nocturne B major,Nocturne,B major
-32.2,,,op. 32/2,Nocturne A-flat major,Nocturne,A-flat major
-33,,,op. 33,4 Mazurkas,Mazurka,
-33.1,,,op. 33/1,Mazurka G-sharp minor,Mazurka,G-sharp minor
-33.2,,,op. 33/2,Mazurka C major,Mazurka,C major
-33.3,,,op. 33/3,Mazurka D major,Mazurka,D major
-33.4,,,op. 33/4,Mazurka B minor,Mazurka,B minor
-34,,,op. 34,3 Waltzes,Waltz,
-34.1,,,op. 34/1,Waltz A-flat major,Waltz,A-flat major
-34.2,,,op. 34/2,Waltz A minor,Waltz,A minor
-34.3,,,op. 34/3,Waltz F major,Waltz,F major
-35,,,op. 35,Sonata B-flat minor,Sonata,B-flat minor
-36,,,op. 36,Impromptu F-sharp major,Impromptu,F-sharp major
-36.1,,,Dbop. 36,3 Etudes “Méthode de Méthodes”,Etude,
-36.1,,,Dbop. 36/1,Etude F minor,Etude,F minor
-36.2,,,Dbop. 36/2,Etude A-flat major,Etude,A-flat major
-36.3,,,Dbop. 36/3,Etude D-flat major,Etude,D-flat major
-37,,,op. 37,2 Nocturnes,Nocturne,
-37.1,,,op. 37/1,Nocturne G minor,Nocturne,G minor
-37.2,,,op. 37/2,Nocturne G major,Nocturne,G major
-38,,,op. 38,Ballade F major,Ballade,F major
-39,,,op. 39,Scherzo C-sharp minor,Scherzo,C-sharp minor
-40,,,op. 40,2 Polonaises,Polonaise,
-40.1,,,op. 40/1,Polonaise A major,Polonaise,A major
-40.2,,,op. 40/2,Polonaise C minor,Polonaise,C minor
-41,,,op. 41,4 Mazurkas,Mazurka,
-41.1,,,op. 41/1,Mazurka E minor,Mazurka,E minor
-41.2,,,op. 41/2,Mazurka B major,Mazurka,B major
-41.3,,,op. 41/3,Mazurka A-flat major,Mazurka,A-flat major
-41.4,,,op. 41/4,Mazurka C-sharp minor,Mazurka,C-sharp minor
-42,,,op. 42,Waltz A-flat major,Waltz,A-flat major
-42.1,,,Dbop. 42 A,Mazurka (ded. E. Gaillard),Mazurka,
-42.2,,,Dbop. 42 B,Mazurka (“La France Musicale”) «„Notre temps”»,Mazurka,
-43,,,op. 43,Tarantella,Tarantella,
-44,,,op. 44,Polonaise F-sharp minor,Polonaise,F-sharp minor
-45,,,op. 45,Prelude C-sharp minor,Prelude,C-sharp minor
-46,,,op. 46,Allegro de concert,Piano Piece,
-47,,,op. 47,Ballade A-flat major,Ballade,A-flat major
-48,,,op. 48,2 Nocturnes,Nocturne,
-48.1,,,op. 48/1,Nocturne C minor,Nocturne,C minor
-48.2,,,op. 48/2,Nocturne F-sharp minor,Nocturne,F-sharp minor
-49,,,op. 49,Fantasia F minor,Fantasia,F minor
-50,,,op. 50,3 Mazurkas,Mazurka,
-50.1,,,op. 50/1,Mazurka G major,Mazurka,G major
-50.2,,,op. 50/2,Mazurka A-flat major,Mazurka,A-flat major
-50.3,,,op. 50/3,Mazurka C-sharp minor,Mazurka,C-sharp minor
-51,,,op. 51,Impromptu G-flat major,Impromptu,G-flat major
-52,,,op. 52,Ballade F minor,Ballade,F minor
-53,,,op. 53,Polonaise A-flat major,Polonaise,A-flat major
-54,,,op. 54,Scherzo E major,Scherzo,E major
-55,,,op. 55,2 Nocturnes,Nocturne,
-55.1,,,op. 55/1,Nocturne F minor,Nocturne,F minor
-55.2,,,op. 55/2,Nocturne E-flat major,Nocturne,E-flat major
-56,,,op. 56,3 Mazurkas,Mazurka,
-56.1,,,op. 56/1,Mazurka B major,Mazurka,B major
-56.2,,,op. 56/2,Mazurka C major,Mazurka,C major
-56.3,,,op. 56/3,Mazurka C minor,Mazurka,C minor
-57,,,op. 57,Berceuse,Berceuse,
-58,,,op. 58,Sonata B minor,Sonata,B minor
-59,,,op. 59,3 Mazurkas,Mazurka,
-59.1,,,op. 59/1,Mazurka A minor,Mazurka,A minor
-59.2,,,op. 59/2,Mazurka A-flat major,Mazurka,A-flat major
-59.3,,,op. 59/3,Mazurka F-sharp minor,Mazurka,F-sharp minor
-60,,,op. 60,Barcarolle,Barcarolle,
-61,,,op. 61,Polonaise-Fantasia,Fantasia,
-62,,,op. 62,2 Nocturnes,Nocturne,
-62.1,,,op. 62/1,Nocturne B major,Nocturne,B major
-62.2,,,op. 62/2,Nocturne E major,Nocturne,E major
-63,,,op. 63,3 Mazurkas,Mazurka,
-63.1,,,op. 63/1,Mazurka B major,Mazurka,B major
-63.2,,,op. 63/2,Mazurka F minor,Mazurka,F minor
-63.3,,,op. 63/3,Mazurka C-sharp minor,Mazurka,C-sharp minor
-64,,,op. 64,3 Waltzes,Waltz,
-64.1,,,op. 64/1,Waltz D-flat major,Waltz,D-flat major
-64.2,,,op. 64/2,Waltz C-sharp minor,Waltz,C-sharp minor
-64.3,,,op. 64/3,Waltz A-flat major,Waltz,A-flat major
-65,,,op. 65,Sonata G minor for piano and cello,Sonata,G minor
-66,,WN 45,op. posth. 66,Mazurka A-flat major (from Maria Szymanowska’s album,Mazurka,A-flat major
-67.1,,WN 26,op. posth. 67/1,Mazurka G major,Mazurka,G major
-67.2,,WN 64,op. posth. 67/2,Mazurka G minor,Mazurka,G minor
-67.3,,WN 48,op. posth. 67/3,Mazurka C major,Mazurka,C major
-67.4,,WN 60,op. posth. 67/4,Mazurka A minor,Mazurka,A minor
-68.1,,WN 24,op. posth. 68/1,Mazurka C major,Mazurka,C major
-68.3,,WN 25,op. posth. 68/3,Mazurka F major,Mazurka,F major
-68.4,,WN 65,op. posth. 68/4,Mazurka F minor,Mazurka,F minor
-69.1,,WN 47,op. posth. 69/1,Waltz A-flat major,Waltz,A-flat major
-69.2,,WN 19,op. posth. 69/2,Waltz B minor,Waltz,B minor
-70.1,,WN 42,op. posth. 70/1,Waltz G-flat major,Waltz,G-flat major
-70.2,,WN 55,op. posth. 70/2,Waltz F minor,Waltz,F minor
-70.3,,WN 20,op. posth. 70/3,Waltz D-flat major,Waltz,D-flat major
-71.1,,WN 11,op. posth. 71/1,Polonaise D minor,Polonaise,D minor
-71.3,,WN 12,op. posth. 71/3,Polonaise F minor,Polonaise,F minor
-72,,WN 13,op. posth. 72,3 Ecossaises,Dance,
-72,,WN 9,"op. posth. 72""",Funeral March C minor,March,
-72,,WN 23,op. posth. 72',Nokturn E minor,Nocturne,E minor
-72.1,,WN 13/1,op. posth. 72/1,Ecossaise D major,Dance,D major
-72.2,,WN 13/2,op. posth. 72/2,Ecossaise G major,Dance,G major
-72.3,,WN 13/3,op. posth. 72/3,Ecossaise D-flat major,Dance,D-flat major
-74.01,,WN 21,op. posth. 74/1,„Życzenie“,Piano Piece,
-74.02,,WN 52,op. posth. 74/2,„Wiosna”,Piano Piece,
-74.03,,WN 39,op. posth. 74/3,„Smutna rzeka”,Piano Piece,
-74.04,,WN 32,op. posth. 74/4,„Hulanka“,Piano Piece,
-74.05,,WN 22,op. posth. 74/5,„Gdzie lubi“,Piano Piece,
-74.06,,WN 33,op. posth. 74/6,„Precz z moich oczu“,Piano Piece,
-74.07,,WN 30,op. posth. 74/7,„Poseł“,Piano Piece,
-74.08,,WN 54,op. posth. 74/8,„Śliczny chłopiec”,Piano Piece,
-74.09,,WN 61,op. posth. 74/9,"„Z gór, gdzie dźwigali”  
+SORT,WN_sort,WN,WikiQID,Opus,Title,Genre,Key
+1,,,,op. 1,Rondo C minor,Rondo,C minor
+2,,,,op. 2,Variations B flat major („La ci darem la mano” by Mozart) for piano with orchestra,Keyboard Variations,B-flat major
+3,,,,op. 3,Introduction and Polonaise C major for piano and cello,Duet,C major
+4,,,,op. posth. 4,Sonata C minor,Sonata,C minor
+5,,,,op. 5,Rondo à la Mazur F major,Rondo,F major
+6,,,Q6150184,op. 6,5 Mazurkas,Mazurka,
+6.1,,,,op. 6/1,Mazurka F-sharp minor,Mazurka,F-sharp minor
+6.2,,,,op. 6/2,Mazurka C-sharp minor,Mazurka,C-sharp minor
+6.3,,,,op. 6/3,Mazurka E major,Mazurka,E major
+6.4,,,,op. 6/4,Mazurka E-flat minor,Mazurka,E-flat minor
+6.5,,,,op. 6/5,Mazurka C major,Mazurka,C major
+7,,,,op. 7,4 Mazurkas,Mazurka,
+7.1,,,,op. 7/1,Mazurka B-flat major,Mazurka,B-flat major
+7.2,,,,op. 7/2,Mazurka A minor,Mazurka,A minor
+7.3,,,,op. 7/3,Mazurka F minor,Mazurka,F minor
+7.4,,,,op. 7/4,Mazurka A-flat major,Mazurka,A-flat major
+8,,,,op. 8,"Trio G minor for piano, violin and cello",Trio,G minor
+9,,,,op. 9,3 Nocturnes,Nocturne,
+9.1,,,,op. 9/1,Nocturne B-flat minor,Nocturne,B-flat minor
+9.2,,,,op. 9/2,Nocturne E-flat major,Nocturne,E-flat major
+9.3,,,,op. 9/3,Nocturne B major,Nocturne,B major
+10,,,Q9255660,op. 10,12 Etudes,Etude,
+11,,,,op. 11,Concerto E minor,Concerto,E minor
+12,,,,op. 12,Variations brillantes,Keyboard Variations,
+13,,,,op. 13,Fantasia on the Polish themes for piano with orchestra,Fantasia,
+14,,,,op. 14,Rondo à la Krakowiak for piano with orchestra,Rondo,
+15,,,,op. 15,3 Nocturnes,Nocturne,
+15.1,,,,op. 15/1,Nocturne F major,Nocturne,F major
+15.2,,,,op. 15/2,Nocturne F-sharp major,Nocturne,F-sharp major
+15.3,,,,op. 15/3,Nocturne G minor,Nocturne,G minor
+16,,,,op. 16,Rondo E-flat major,Rondo,E-flat major
+16.1,,,,Dbop. 16,Grand duo concertant for piano and cello,Duet,
+17,,,,op. 17,4 Mazurkas,Mazurka,
+17.1,,,,op. 17/1,Mazurka B-flat major,Mazurka,B-flat major
+17.2,,,,op. 17/2,Mazurka E minor,Mazurka,E minor
+17.3,,,,op. 17/3,Mazurka A-flat major,Mazurka,A-flat major
+17.4,,,,op. 17/4,Mazurka A minor,Mazurka,A minor
+18,,,,op. 18,Waltz E-flat major,Waltz,E-flat major
+19,,,,op. 19,Bolero,Dance,
+20,,,,op. 20,Scherzo B minor,Scherzo,B minor
+21,,,,op. 21,Concerto F minor,Concerto,F minor
+22,,,,op. 22,Andante spianato and Polonaise for piano and orchestra,Piano Piece,E-flat major
+23,,,,op. 23,Ballade G minor,Ballade,G minor
+24,,,,op. 24,4 Mazurkas,Mazurka,
+24.1,,,,op. 24/1,Mazurka G minor,Mazurka,G minor
+24.2,,,,op. 24/2,Mazurka C major,Mazurka,C major
+24.3,,,,op. 24/3,Mazurka A-flat major,Mazurka,A-flat major
+24.4,,,,op. 24/4,Mazurka B-flat minor,Mazurka,B-flat minor
+25,,,Q16741233,op. 25,12 Etudes,Etude,
+26,,,,op. 26,2 Polonaises,Polonaise,
+26.1,,,,op. 26/1,Polonaise C-sharp minor,Polonaise,C-sharp minor
+26.2,,,,op. 26/2,Polonaise E-flat minor,Polonaise,E-flat minor
+27,,,,op. 27,2 Nocturnes,Nocturne,
+27.1,,,,op. 27/1,Nocturne C-sharp minor,Nocturne,C-sharp minor
+27.2,,,,op. 27/2,Nocturne D-flat major,Nocturne,D-flat major
+28,,,,op. 28,24 Preludes,Prelude,
+29,,,,op. 29,Impromptu A-flat major,Impromptu,A-flat major
+29.1,,,,Dbop. 29,Variation “Hexameron”,Variations,
+30,,,,op. 30,4 Mazurkas,Mazurka,
+30.1,,,,op. 30/1,Mazurka C minor,Mazurka,C minor
+30.2,,,,op. 30/2,Mazurka B minor,Mazurka,B minor
+30.3,,,,op. 30/3,Mazurka D-flat major,Mazurka,D-flat major
+30.4,,,,op. 30/4,Mazurka C-sharp minor,Mazurka,C-sharp minor
+31,,,,op. 31,Scherzo B-flat minor,Scherzo,B-flat minor
+32,,,,op. 32,2 Nocturnes,Nocturne,
+32.1,,,,op. 32/1,Nocturne B major,Nocturne,B major
+32.2,,,,op. 32/2,Nocturne A-flat major,Nocturne,A-flat major
+33,,,,op. 33,4 Mazurkas,Mazurka,
+33.1,,,,op. 33/1,Mazurka G-sharp minor,Mazurka,G-sharp minor
+33.2,,,,op. 33/2,Mazurka C major,Mazurka,C major
+33.3,,,,op. 33/3,Mazurka D major,Mazurka,D major
+33.4,,,,op. 33/4,Mazurka B minor,Mazurka,B minor
+34,,,,op. 34,3 Waltzes,Waltz,
+34.1,,,,op. 34/1,Waltz A-flat major,Waltz,A-flat major
+34.2,,,,op. 34/2,Waltz A minor,Waltz,A minor
+34.3,,,,op. 34/3,Waltz F major,Waltz,F major
+35,,,,op. 35,Sonata B-flat minor,Sonata,B-flat minor
+36,,,,op. 36,Impromptu F-sharp major,Impromptu,F-sharp major
+36.1,,,,Dbop. 36/1,Etude F minor,Etude,F minor
+36.1,,,Q147580,Dbop. 36,3 Etudes “Méthode de Méthodes”,Etude,
+36.2,,,,Dbop. 36/2,Etude A-flat major,Etude,A-flat major
+36.3,,,,Dbop. 36/3,Etude D-flat major,Etude,D-flat major
+37,,,,op. 37,2 Nocturnes,Nocturne,
+37.1,,,,op. 37/1,Nocturne G minor,Nocturne,G minor
+37.2,,,,op. 37/2,Nocturne G major,Nocturne,G major
+38,,,,op. 38,Ballade F major,Ballade,F major
+39,,,,op. 39,Scherzo C-sharp minor,Scherzo,C-sharp minor
+40,,,,op. 40,2 Polonaises,Polonaise,
+40.1,,,,op. 40/1,Polonaise A major,Polonaise,A major
+40.2,,,,op. 40/2,Polonaise C minor,Polonaise,C minor
+41,,,,op. 41,4 Mazurkas,Mazurka,
+41.1,,,,op. 41/1,Mazurka E minor,Mazurka,E minor
+41.2,,,,op. 41/2,Mazurka B major,Mazurka,B major
+41.3,,,,op. 41/3,Mazurka A-flat major,Mazurka,A-flat major
+41.4,,,,op. 41/4,Mazurka C-sharp minor,Mazurka,C-sharp minor
+42,,,,op. 42,Waltz A-flat major,Waltz,A-flat major
+42.1,,,,Dbop. 42 A,Mazurka (ded. E. Gaillard),Mazurka,
+42.2,,,,Dbop. 42 B,Mazurka (“La France Musicale”) «„Notre temps”»,Mazurka,
+43,,,,op. 43,Tarantella,Tarantella,
+44,,,,op. 44,Polonaise F-sharp minor,Polonaise,F-sharp minor
+45,,,,op. 45,Prelude C-sharp minor,Prelude,C-sharp minor
+46,,,,op. 46,Allegro de concert,Piano Piece,
+47,,,,op. 47,Ballade A-flat major,Ballade,A-flat major
+48,,,,op. 48,2 Nocturnes,Nocturne,
+48.1,,,,op. 48/1,Nocturne C minor,Nocturne,C minor
+48.2,,,,op. 48/2,Nocturne F-sharp minor,Nocturne,F-sharp minor
+49,,,,op. 49,Fantasia F minor,Fantasia,F minor
+50,,,,op. 50,3 Mazurkas,Mazurka,
+50.1,,,,op. 50/1,Mazurka G major,Mazurka,G major
+50.2,,,,op. 50/2,Mazurka A-flat major,Mazurka,A-flat major
+50.3,,,,op. 50/3,Mazurka C-sharp minor,Mazurka,C-sharp minor
+51,,,,op. 51,Impromptu G-flat major,Impromptu,G-flat major
+52,,,,op. 52,Ballade F minor,Ballade,F minor
+53,,,,op. 53,Polonaise A-flat major,Polonaise,A-flat major
+54,,,,op. 54,Scherzo E major,Scherzo,E major
+55,,,,op. 55,2 Nocturnes,Nocturne,
+55.1,,,,op. 55/1,Nocturne F minor,Nocturne,F minor
+55.2,,,,op. 55/2,Nocturne E-flat major,Nocturne,E-flat major
+56,,,,op. 56,3 Mazurkas,Mazurka,
+56.1,,,,op. 56/1,Mazurka B major,Mazurka,B major
+56.2,,,,op. 56/2,Mazurka C major,Mazurka,C major
+56.3,,,,op. 56/3,Mazurka C minor,Mazurka,C minor
+57,,,,op. 57,Berceuse,Berceuse,
+58,,,,op. 58,Sonata B minor,Sonata,B minor
+59,,,,op. 59,3 Mazurkas,Mazurka,
+59.1,,,,op. 59/1,Mazurka A minor,Mazurka,A minor
+59.2,,,,op. 59/2,Mazurka A-flat major,Mazurka,A-flat major
+59.3,,,,op. 59/3,Mazurka F-sharp minor,Mazurka,F-sharp minor
+60,,,,op. 60,Barcarolle,Barcarolle,
+61,,,,op. 61,Polonaise-Fantasia,Fantasia,
+62,,,,op. 62,2 Nocturnes,Nocturne,
+62.1,,,,op. 62/1,Nocturne B major,Nocturne,B major
+62.2,,,,op. 62/2,Nocturne E major,Nocturne,E major
+63,,,,op. 63,3 Mazurkas,Mazurka,
+63.1,,,,op. 63/1,Mazurka B major,Mazurka,B major
+63.2,,,,op. 63/2,Mazurka F minor,Mazurka,F minor
+63.3,,,,op. 63/3,Mazurka C-sharp minor,Mazurka,C-sharp minor
+64,,,,op. 64,3 Waltzes,Waltz,
+64.1,,,,op. 64/1,Waltz D-flat major,Waltz,D-flat major
+64.2,,,,op. 64/2,Waltz C-sharp minor,Waltz,C-sharp minor
+64.3,,,,op. 64/3,Waltz A-flat major,Waltz,A-flat major
+65,,,,op. 65,Sonata G minor for piano and cello,Sonata,G minor
+66,,WN 45,,op. posth. 66,Mazurka A-flat major (from Maria Szymanowska’s album,Mazurka,A-flat major
+67.1,,WN 26,,op. posth. 67/1,Mazurka G major,Mazurka,G major
+67.2,,WN 64,,op. posth. 67/2,Mazurka G minor,Mazurka,G minor
+67.3,,WN 48,,op. posth. 67/3,Mazurka C major,Mazurka,C major
+67.4,,WN 60,,op. posth. 67/4,Mazurka A minor,Mazurka,A minor
+68.1,,WN 24,,op. posth. 68/1,Mazurka C major,Mazurka,C major
+68.3,,WN 25,,op. posth. 68/3,Mazurka F major,Mazurka,F major
+68.4,,WN 65,,op. posth. 68/4,Mazurka F minor,Mazurka,F minor
+69.1,,WN 47,,op. posth. 69/1,Waltz A-flat major,Waltz,A-flat major
+69.2,,WN 19,,op. posth. 69/2,Waltz B minor,Waltz,B minor
+70.1,,WN 42,,op. posth. 70/1,Waltz G-flat major,Waltz,G-flat major
+70.2,,WN 55,,op. posth. 70/2,Waltz F minor,Waltz,F minor
+70.3,,WN 20,,op. posth. 70/3,Waltz D-flat major,Waltz,D-flat major
+71.1,,WN 11,,op. posth. 71/1,Polonaise D minor,Polonaise,D minor
+71.3,,WN 12,,op. posth. 71/3,Polonaise F minor,Polonaise,F minor
+72,,WN 23,,op. posth. 72',Nokturn E minor,Nocturne,E minor
+72,,WN 13,,op. posth. 72,3 Ecossaises,Dance,
+72,,WN 9,,"op. posth. 72""",Funeral March C minor,March,
+72.1,,WN 13/1,,op. posth. 72/1,Ecossaise D major,Dance,D major
+72.2,,WN 13/2,,op. posth. 72/2,Ecossaise G major,Dance,G major
+72.3,,WN 13/3,,op. posth. 72/3,Ecossaise D-flat major,Dance,D-flat major
+74.01,,WN 21,,op. posth. 74/1,„Życzenie“,Piano Piece,
+74.02,,WN 52,,op. posth. 74/2,„Wiosna”,Piano Piece,
+74.03,,WN 39,,op. posth. 74/3,„Smutna rzeka”,Piano Piece,
+74.04,,WN 32,,op. posth. 74/4,„Hulanka“,Piano Piece,
+74.05,,WN 22,,op. posth. 74/5,„Gdzie lubi“,Piano Piece,
+74.06,,WN 33,,op. posth. 74/6,„Precz z moich oczu“,Piano Piece,
+74.07,,WN 30,,op. posth. 74/7,„Poseł“,Piano Piece,
+74.08,,WN 54,,op. posth. 74/8,„Śliczny chłopiec”,Piano Piece,
+74.09,,WN 61,,op. posth. 74/9,"„Z gór, gdzie dźwigali”  
 <„Melodia”> (<Melody>)",Piano Piece,
-74.1,,WN 34,op. posth. 74/10,„Wojak“,Piano Piece,
-74.11,,WN 58,op. posth. 74/11,„Dwojaki koniec”,Piano Piece,
-74.12,,WN 51,op. posth. 74/12,„Moja pieszczotka”,Piano Piece,
-74.13,,WN 57,op. posth. 74/13,"„Nie ma, czego trzeba”",Piano Piece,
-74.14,,WN 50,op. posth. 74/14,„Pierścień”,Piano Piece,
-74.15,,WN 40,op. posth. 74/15,„Narzeczony”,Piano Piece,
-74.16,,WN 38,op. posth. 74/16,„Piosnka litewska”,Piano Piece,
-74.17,,WN 49,op. posth. 74/17,„Leci liście z drzewa”,Piano Piece,
-,1,WN 1,,Polonaise B-flat major,Polonaise,B-flat major
-,2,WN 2,,Polonaise G minor,Polonaise,G minor
-,3,WN 3,,Polonaise A-flat major (ded. Żywny),Polonaise,A-flat major
-,4,WN 4,,Polonaise G-sharp minor,Polonaise,G-sharp minor
-,5,WN 5,,Variations D major for 4 hands,Keyboard Variations,D major
-,6,WN 6,,Variations E major,Keyboard Variations,E major
-,7,WN 7,,Mazurka B-flat major,Mazurka,B-flat major
-,8,WN 8,,Mazurka G major,Mazurka,G major
-,10,WN 10,,Polonaise B-flat minor,Polonaise,B-flat minor
-,14,WN 14,,Mazurka A minor,Mazurka,A minor
-,15,WN 15,,Rondo C major for 2 pianos,Rondo,C major
-,15.1,WN 15a,,Rondo C major for piano,Rondo,C major
-,16,WN 16,,[Warianty] ([Variants]) <Souvenir de Paganini>,Piano Piece,
-,17,WN 17,,Polonaise B-flat major,Polonaise,B-flat major
-,17.1,WN 17a,,Mazurka (Mazur) G major (from Vaclav Hanka's album),Mazurka,G major
-,18,WN 18,,Waltz E major,Waltz,E major
-,27,WN 27,,Contredans,Dance,
-,28,WN 28,,Waltz A-flat major,Waltz,A-flat major
-,29,WN 29,,Waltz E minor,Waltz,E minor
-,31,WN 31,,„Czary“,Piano Piece,
-,35,WN 35,,Polonaise G-flat major,Polonaise,G-flat major
-,36,WN 36,,[Allegretto],Piano Piece,
-,37,WN 37,,Lento con gran espressione <Nocturne C-sharp minor>,Nocturne,C-sharp minor
-,41,WN 41,,Mazurka B-flat major (ded. Wołowska),Mazurka,B-flat major
-,43,WN 43,,Cantabile,Piano Piece,
-,44,WN 44,,Presto con leggierezza <Prelude A-flat major>,Prelude,A-flat major
-,46,WN 46,,"Impromptu C-sharp minor  
+74.1,,WN 34,,op. posth. 74/10,„Wojak“,Piano Piece,
+74.11,,WN 58,,op. posth. 74/11,„Dwojaki koniec”,Piano Piece,
+74.12,,WN 51,,op. posth. 74/12,„Moja pieszczotka”,Piano Piece,
+74.13,,WN 57,,op. posth. 74/13,"„Nie ma, czego trzeba”",Piano Piece,
+74.14,,WN 50,,op. posth. 74/14,„Pierścień”,Piano Piece,
+74.15,,WN 40,,op. posth. 74/15,„Narzeczony”,Piano Piece,
+74.16,,WN 38,,op. posth. 74/16,„Piosnka litewska”,Piano Piece,
+74.17,,WN 49,,op. posth. 74/17,„Leci liście z drzewa”,Piano Piece,
+,14,WN 14,,,Mazurka A minor,Mazurka,A minor
+,63,WN 63,,,Waltz A minor,Waltz,A minor
+,3,WN 3,,,Polonaise A-flat major (ded. Żywny),Polonaise,A-flat major
+,28,WN 28,,,Waltz A-flat major,Waltz,A-flat major
+,44,WN 44,,,Presto con leggierezza <Prelude A-flat major>,Prelude,A-flat major
+,1,WN 1,,,Polonaise B-flat major,Polonaise,B-flat major
+,7,WN 7,,,Mazurka B-flat major,Mazurka,B-flat major
+,17,WN 17,,,Polonaise B-flat major,Polonaise,B-flat major
+,41,WN 41,,,Mazurka B-flat major (ded. Wołowska),Mazurka,B-flat major
+,10,WN 10,,,Polonaise B-flat minor,Polonaise,B-flat minor
+,15,WN 15,,,Rondo C major for 2 pianos,Rondo,C major
+,15.1,WN 15a,,,Rondo C major for piano,Rondo,C major
+,62,WN 62,,,Nocturne C minor,Nocturne,C minor
+,37,WN 37,,,Lento con gran espressione <Nocturne C-sharp minor>,Nocturne,C-sharp minor
+,46,WN 46,,,"Impromptu C-sharp minor  
 <Fantaisie-Impromptu>",Impromptu,C-sharp minor
-,52.1,WN 52a,,„Wiosna” for piano,Piano Piece,
-,53,WN 53,,Sostenuto <Waltz E-flat major>,Waltz,E-flat major
-,56,WN 56,,Moderato <Kartka z albumu> (<Leaf from the album>),Piano Piece,
-,59,WN 59,,Gallop Marquis,Dance,
-,62,WN 62,,Nocturne C minor,Nocturne,C minor
-,63,WN 63,,Waltz A minor,Waltz,A minor
+,5,WN 5,,,Variations D major for 4 hands,Keyboard Variations,D major
+,6,WN 6,,,Variations E major,Keyboard Variations,E major
+,18,WN 18,,,Waltz E major,Waltz,E major
+,29,WN 29,,,Waltz E minor,Waltz,E minor
+,53,WN 53,,,Sostenuto <Waltz E-flat major>,Waltz,E-flat major
+,8,WN 8,,,Mazurka G major,Mazurka,G major
+,17.1,WN 17a,,,Mazurka (Mazur) G major (from Vaclav Hanka's album),Mazurka,G major
+,2,WN 2,,,Polonaise G minor,Polonaise,G minor
+,35,WN 35,,,Polonaise G-flat major,Polonaise,G-flat major
+,4,WN 4,,,Polonaise G-sharp minor,Polonaise,G-sharp minor
+,16,WN 16,,,[Warianty] ([Variants]) <Souvenir de Paganini>,Piano Piece,
+,27,WN 27,,,Contredans,Dance,
+,31,WN 31,,,„Czary“,Piano Piece,
+,36,WN 36,,,[Allegretto],Piano Piece,
+,43,WN 43,,,Cantabile,Piano Piece,
+,52.1,WN 52a,,,„Wiosna” for piano,Piano Piece,
+,56,WN 56,,,Moderato <Kartka z albumu> (<Leaf from the album>),Piano Piece,
+,59,WN 59,,,Gallop Marquis,Dance,
