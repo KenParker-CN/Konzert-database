@@ -1,11 +1,10 @@
 import AppShell from '../../components/AppShell'
-import {isLocale, localePath} from '@/lib/i18n/config'
+import {isLocale} from '@/lib/i18n/config'
 import {getI18n} from '@/lib/i18n/server'
 import {getCatalogueDirectory, getRandomWikiBannerItems} from '@/lib/db/composers'
 import CountTo from '@/components/common/CountTo'
 import WikiRandomBanner from '@/components/home/WikiRandomBanner'
 import {notFound} from 'next/navigation'
-import {IconArrowUpRight} from '@tabler/icons-react'
 
 export const dynamic = 'force-dynamic'
 
@@ -28,9 +27,6 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         <h1 className="heading max-w-4xl text-5xl font-semibold leading-[1.04] tracking-[-0.055em] text-slate-950 sm:text-6xl lg:text-7xl">
                             Parker’s<span className="text-blue-600">.</span>
                         </h1>
-                        <a href={localePath(locale, '/catalogues')} className="mt-7 inline-flex items-center gap-2 bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
-                            {t('navigation.catalogues')}<IconArrowUpRight size={16}/>
-                        </a>
                         <div className="mt-8 grid max-w-md grid-cols-2 gap-4">
                             <div className="border border-slate-200 bg-white/80 p-4 shadow-sm">
                                 <div className="text-3xl font-semibold tracking-tight text-slate-950">
