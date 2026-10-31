@@ -41,7 +41,8 @@
     "eraUnknown": "Inconnu",
     "cataloguer": "Catalogueur : {name}",
     "kvRefreshHint": "Jusqu'à ~5 s",
-    "kvDataSource": "Source des données"
+    "kvDataSource": "Source des données",
+    "spotify": "Écouter sur Spotify"
   },
   "search": {
     "title": "Recherche",
@@ -83,6 +84,15 @@
     "key": "Tonalité",
     "keyFilterLabel": "Filtrer par tonalité",
     "allKeys": "Toutes les tonalités",
+    "keyGroups": {
+      "major": "Majeur",
+      "minor": "Mineur",
+      "sharp": "Dièse",
+      "flat": "Bémol",
+      "other": "Autre"
+    },
+      "genreFilterLabel": "Filtrer par genre",
+      "allGenres": "Tous les genres",
     "instrumentation": "Instrumentation",
     "instrumentationAbbreviations": "Abréviations d’instrumentation",
     "abbreviation": "Abréviation",
@@ -114,6 +124,7 @@
     "movement": "Mouvement",
     "workStructure": "Structure de l’œuvre",
     "vocalTitle": "Titre vocal",
+    "subtitle": "Sous-titre",
     "tempo": "Tempo",
     "meter": "Mesure",
     "measures": "Mesures",

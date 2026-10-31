@@ -1,11 +1,15 @@
 'use client'
 
 import type {ReactNode} from 'react'
+import Link from 'next/link'
 import {Dialog} from '@base-ui/react/dialog'
 import {IconX} from '@tabler/icons-react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
+import {getGenreSlugByTerm, getGenreBySlug} from '@/lib/data/genres'
 import InstrumentationLegendDialog from './InstrumentationLegendDialog'
+import GenreIntroduction from '../genres/GenreIntroduction'
+import GenreHovercard from '../genres/GenreHovercard'
 
 export type WorkDetailsEntry = {
     workId: number
@@ -38,12 +42,18 @@ export default function WorkDetailsDialog({
         const normalizedField = field.toLocaleLowerCase()
         if (locale === 'de' && normalizedField === 'german title') return false
         if (normalizedField === 'catalogue') return false
+        // Opus is already shown in the header description line.
+        if (normalizedField === 'opus') return false
         // Key is shown as a colored badge next to the title in the header.
         if (normalizedField === 'key') return false
         // Title is already shown as the dialog title above.
         if (normalizedField === 'title') return false
         // Genre is shown as a colored badge next to the title in the header.
         if (normalizedField === 'genre' || normalizedField === 'type') return false
+        // Subtitle is rendered inline next to the dialog title in italics.
+        if (normalizedField === 'subtitle') return false
+        // WikiQID is used to fetch the Wikipedia introduction, not shown as a field.
+        if (normalizedField === 'wikiqid') return false
         if (catalogCode === 'Helm' && ['wotquenne', 'wq', 'helm', 'h'].includes(normalizedField)) return false
         // Kirkpatrick's numbering columns (Kk., Longo, Pestelli) are already shown
         // in the dialog header as catalogue and secondary catalogue numbers.
@@ -89,29 +99,61 @@ export default function WorkDetailsDialog({
                 <Dialog.Backdrop className="fixed inset-0 z-50 bg-black/40 transition-opacity data-ending-style:opacity-0"/>
                 <Dialog.Popup className="fixed left-1/2 top-1/2 z-50 flex max-h-[min(85vh,48rem)] w-[min(42rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden border border-slate-200 bg-white shadow-xl outline-none">
                     <div className="relative border-b border-slate-200 p-5 pr-12">
-                        <div className="flex flex-wrap items-center gap-2">
-                            <Dialog.Title className="heading text-xl font-semibold text-slate-950">
+                        <Dialog.Title className="flex items-baseline gap-2">
+                            <span className="heading text-xl font-semibold text-slate-950">
                                 {getWorkTitle(work) || getLocalizedWorkTerm(work.genre, 'type', locale) || work.catalogue || work.opus}
-                            </Dialog.Title>
-                            {work.genre && (
-                                <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
-                                    {getLocalizedWorkTerm(work.genre, 'type', locale)}
+                            </span>
+                            {work.details['Subtitle'] && (
+                                <span className="text-base italic text-slate-500">
+                                    {work.details['Subtitle']}
                                 </span>
                             )}
-                            {work.key && (
-                                <span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-semibold text-blue-700">
-                                    {getLocalizedWorkTerm(work.key, 'key', locale)}
-                                </span>
-                            )}
-                        </div>
+                        </Dialog.Title>
                         <Dialog.Description className="mt-1 text-sm text-slate-500">
                             {[work.catalogue, work.secondaryCatalogue].filter(Boolean).join(' · ') || work.opus || work.date}
                         </Dialog.Description>
+                        {(work.genre || work.key) && (
+                            <div className="mt-1.5 flex flex-wrap items-center gap-2">
+                                {work.genre && (() => {
+                                    const genreSlug = getGenreSlugByTerm(work.genre)
+                                    const badge = (
+                                        <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
+                                            {getLocalizedWorkTerm(work.genre, 'type', locale)}
+                                        </span>
+                                    )
+                                    if (!genreSlug) return badge
+                                    const genreEntry = getGenreBySlug(genreSlug)
+                                    const genreWikiID = genreEntry?.wikiID || undefined
+                                    return (
+                                        <GenreHovercard genreTerm={work.genre} genreWikiID={genreWikiID} locale={locale}>
+                                            <Link
+                                                href={`/${locale}/genres/${encodeURIComponent(genreSlug)}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex rounded-full transition-colors hover:bg-emerald-100"
+                                            >
+                                                {badge}
+                                            </Link>
+                                        </GenreHovercard>
+                                    )
+                                })()}
+                                {work.key && (
+                                    <span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-semibold text-blue-700">
+                                        {getLocalizedWorkTerm(work.key, 'key', locale)}
+                                    </span>
+                                )}
+                            </div>
+                        )}
                         <Dialog.Close className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-md text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label={t('common.close')}>
                             <IconX size={18}/>
                         </Dialog.Close>
                     </div>
-                    <dl className="grid min-h-0 grid-cols-1 gap-x-6 gap-y-4 overflow-y-auto p-5 sm:grid-cols-2">
+                    {work.details['WikiQID'] && (
+                        <div className="shrink-0 border-b border-slate-100 px-5 py-3">
+                            <GenreIntroduction wikiID={work.details['WikiQID']} locale={locale} variant="dialog"/>
+                        </div>
+                    )}
+                    <dl className="grid min-h-0 flex-1 grid-cols-1 gap-x-6 gap-y-4 overflow-y-auto p-5 sm:grid-cols-2">
                         {detailFields.map(([field, value]) => {
                             const normalizedField = field.toLocaleLowerCase()
                             const fullWidthFields = ['workparts', 'work structure', 'movement', 'movements', 'section', 'instrumentation', 'instrmentation', 'note', 'rec_recmd']
@@ -139,6 +181,7 @@ export default function WorkDetailsDialog({
                             )
                         })}
                     </dl>
+
                 </Dialog.Popup>
             </Dialog.Portal>
         </Dialog.Root>

@@ -41,7 +41,8 @@
     "eraUnknown": "Unbekannt",
     "cataloguer": "Katalogisator: {name}",
     "kvRefreshHint": "Bis zu ~5 s",
-    "kvDataSource": "Datenquelle"
+    "kvDataSource": "Datenquelle",
+    "spotify": "Auf Spotify hören"
   },
   "search": {
     "title": "Suche",
@@ -83,6 +84,15 @@
     "key": "Tonart",
     "keyFilterLabel": "Nach Tonart filtern",
     "allKeys": "Alle Tonarten",
+    "keyGroups": {
+      "major": "Dur",
+      "minor": "Moll",
+      "sharp": "Kreuz",
+      "flat": "Be",
+      "other": "Sonstige"
+    },
+      "genreFilterLabel": "Nach Gattung filtern",
+      "allGenres": "Alle Gattungen",
     "instrumentation": "Besetzung",
     "instrumentationAbbreviations": "Besetzungs-Abkürzungen",
     "abbreviation": "Abkürzung",
@@ -114,6 +124,7 @@
     "movement": "Satz",
     "workStructure": "Werkstruktur",
     "vocalTitle": "Vokaltitel",
+    "subtitle": "Untertitel",
     "tempo": "Tempo",
     "meter": "Taktart",
     "measures": "Takte",

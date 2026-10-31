@@ -38,7 +38,7 @@ export default function WorksTable({
     const totalWorkCount = countOverride ?? getGroupWorkCount(group)
 
     return (
-        <section className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm md:h-[max(18rem,min(40rem,calc(100dvh-19rem)))]">
+        <section className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm md:h-[max(18rem,500px)]">
             <header className="flex items-start justify-between gap-3 border-b border-slate-200 p-4">
                 <h2 className="heading min-w-0 text-base font-semibold text-slate-950">{localizedTitle}</h2>
                 <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: totalWorkCount})}</span>

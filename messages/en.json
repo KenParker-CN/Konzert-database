@@ -31,7 +31,8 @@
     "compositionList": "List of compositions by {composer}",
     "eraUnknown": "Unknown",
     "cataloguer": "Compiler: {name}",
-    "kvDataSource": "Data source"
+    "kvDataSource": "Data source",
+    "spotify": "Listen on Spotify"
   },
   "search": {
     "title": "Search",
@@ -81,6 +82,7 @@
     "movement": "Movement",
     "workStructure": "Work structure",
     "vocalTitle": "Vocal title",
+    "subtitle": "Subtitle",
     "tempo": "Tempo",
     "meter": "Meter",
     "measures": "Measures",
@@ -92,6 +94,15 @@
     "key": "Key",
     "keyFilterLabel": "Filter by key",
     "allKeys": "All keys",
+    "keyGroups": {
+      "major": "Major",
+      "minor": "Minor",
+      "sharp": "Sharp",
+      "flat": "Flat",
+      "other": "Other"
+    },
+      "genreFilterLabel": "Filter by genre",
+      "allGenres": "All genres",
     "instrumentation": "Instrumentation",
     "instrumentationAbbreviations": "Instrumentation abbreviations",
     "abbreviation": "Abbreviation",

@@ -41,7 +41,8 @@
     "compositionList": "{composer}作品列表",
     "eraUnknown": "未知时代",
     "cataloguer": "编纂者：{name}",
-    "kvDataSource": "数据源"
+    "kvDataSource": "数据源",
+    "spotify": "在 Spotify 上试听"
   },
   "search": {
     "title": "搜索",
@@ -82,6 +83,15 @@
     "key": "调性",
     "keyFilterLabel": "按调性筛选",
     "allKeys": "全部调性",
+    "keyGroups": {
+      "major": "大调",
+      "minor": "小调",
+      "sharp": "升调",
+      "flat": "降调",
+      "other": "其他"
+    },
+      "genreFilterLabel": "按体裁筛选",
+      "allGenres": "全部体裁",
     "instrumentation": "配器",
     "instrumentationAbbreviations": "配器缩写",
     "abbreviation": "缩写",
@@ -113,6 +123,7 @@
     "movement": "乐章",
     "workStructure": "作品结构",
     "vocalTitle": "声乐标题",
+    "subtitle": "副标题",
     "tempo": "速度",
     "meter": "拍号",
     "measures": "小节数",

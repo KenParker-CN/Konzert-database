@@ -124,6 +124,7 @@ const genreCategoryTree: readonly GenreCategoryNode[] = [
                 id: 'Ensemble', genre: {slug: 'Ensemble', term: 'Ensemble', wikiID: 'Q2088357',},
                 children: [
                     {id: 'Duet', genre: {slug: 'Duet', term: 'Duet', wikiID: 'Q109940',}},
+                    {id: 'Trio', genre: {slug: 'Trio', term: 'Trio', wikiID: 'Q281643',}},
                     {id: 'Quartet', genre: {slug: 'Quartet', term: 'Quartet', wikiID: 'Q1135557',}},
                     {id: 'Quintet', genre: {slug: 'Quintet', term: 'Quintet', wikiID: 'Q389888',}},
                     {id: 'Sextet', genre: {slug: 'Sextet', term: 'Sextet', wikiID: 'Q1944586',}},
@@ -150,6 +151,11 @@ export const genreCategories: readonly GenreCategory[] = genreCategoryTree.map(c
 export const genres: readonly GenreEntry[] = Array.from(
     new Map(genreCategories.flatMap(category => category.genres).map(genre => [genre.slug, genre])).values(),
 )
+
+export function getGenreSlugByTerm(term: string): string | undefined {
+    const normalizedTerm = term.trim().normalize('NFC')
+    return genres.find(genre => genre.term.normalize('NFC') === normalizedTerm)?.slug
+}
 
 export function getGenreBySlug(slug: string): GenreEntry | undefined {
     let decodedSlug = slug

@@ -7,10 +7,13 @@ import type {Locale} from '@/lib/i18n/config'
 export default function GenreIntroduction({
     wikiID,
     locale,
+    variant = 'page',
 }: {
     wikiID?: string
     locale: Locale
+    variant?: 'page' | 'dialog'
 }) {
+    const compact = variant === 'dialog'
     const [introduction, setIntroduction] = useState<WikipediaIntroduction | null>(null)
     const [loading, setLoading] = useState(Boolean(wikiID))
 
@@ -33,10 +36,10 @@ export default function GenreIntroduction({
 
     if (loading) {
         return (
-            <div className="mt-5 animate-pulse space-y-3" aria-label="Loading introduction" aria-busy="true">
-                <div className="h-4 w-full rounded bg-slate-200"/>
-                <div className="h-4 w-full rounded bg-slate-200"/>
-                <div className="h-4 w-4/5 rounded bg-slate-200"/>
+            <div className={compact ? 'space-y-2' : 'mt-5 animate-pulse space-y-3'} aria-label="Loading introduction" aria-busy="true">
+                <div className={`h-4 w-full rounded bg-slate-200 ${compact ? 'h-3' : ''}`}/>
+                <div className={`h-4 w-full rounded bg-slate-200 ${compact ? 'h-3' : ''}`}/>
+                <div className={`h-4 w-4/5 rounded bg-slate-200 ${compact ? 'h-3' : ''}`}/>
             </div>
         )
     }
@@ -47,8 +50,8 @@ export default function GenreIntroduction({
 
     return (
         <>
-            <p className="mt-5 text-base leading-8 text-slate-600">{firstParagraph}</p>
-            <p className="mt-2 text-right text-xs">
+            <p className={compact ? 'text-sm leading-5 text-slate-700' : 'mt-5 text-base leading-8 text-slate-600'}>{firstParagraph}</p>
+            <p className={compact ? 'mt-1.5 text-right text-xs' : 'mt-2 text-right text-xs'}>
                 <a
                     href={introduction.url}
                     target="_blank"

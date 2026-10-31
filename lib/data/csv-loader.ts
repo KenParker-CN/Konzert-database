@@ -353,6 +353,8 @@ type ComposerCsvEntry = {
     catalogueName: string | null | undefined;
     cataloguerName: string | null | undefined;
     era: string;
+    wikiQID?: string;
+    spotify?: string;
 };
 
 async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
@@ -392,6 +394,8 @@ async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
             catalogueName: catalogueField === undefined ? undefined : composer[catalogueField].trim() || null,
             cataloguerName: cataloguerField === undefined ? undefined : composer[cataloguerField].trim() || null,
             era: composer.Era || '',
+            wikiQID: composer.WikiQID?.trim() || undefined,
+            spotify: composer.Spotify || undefined,
         };
     });
 
@@ -508,7 +512,7 @@ function getCsvValue(record: CsvWork, ...fieldNames: string[]): string {
     return '';
 }
 
-const OPUS_CATALOGUES = new Set(['Corelli', 'Shostakovich', 'Beethoven']);
+const OPUS_CATALOGUES = new Set(['Corelli', 'Shostakovich', 'Beethoven', 'BrittenB', 'Prokofiev']);
 
 /**
  * Resolves the catalogue number of a work. Every catalogue names its own
@@ -519,19 +523,15 @@ function getCatalogueNumber(work: CsvWork, catalogCode: string): string {
         case 'Corelli':
         case 'Shostakovich':
         case 'Beethoven':
+        case 'BrittenB':
+        case 'Prokofiev':
             return getCsvValue(work, 'Opus', 'opus') || getCsvValue(work, 'SORT', 'sort');
-        case 'Helm':
-            return getCsvValue(work, 'Helm');
-        case 'MWV':
-            return getCsvValue(work, 'MWV', 'Catalogue', 'catalogue');
-        case 'LWV':
-            return getCsvValue(work, 'Catalogue', 'LWV', 'catalogue');
         case 'Tchaikovsky':
             return getCsvValue(work, 'TH', 'th');
         case 'Kirkpatrick':
             return getCsvValue(work, 'Kirkpatrick');
         default:
-            return getCsvValue(work, 'Catalogue', 'catalogue', 'Wotquenne', 'Wq');
+            return getCsvValue(work, 'Catalogue');
     }
 }
 
