@@ -50,7 +50,7 @@ export default function WikiRandomBanner({
                     ))}
                 </div>
             </div>
-            <div className="mt-4 grid flex-1">
+            <div className="mt-4 grid flex-1 content-center">
                 {items.map((item, index) => (
                     <WikiBannerCard
                         key={item.kind}
@@ -96,29 +96,41 @@ function WikiBannerCard({
             inert={!visible}
             className={`col-start-1 row-start-1 transition-opacity duration-500 ${visible ? 'opacity-100' : 'pointer-events-none opacity-0'}`}
         >
-            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{kindLabel}</p>
-            <a href={item.href} className="mt-1 block text-lg font-semibold tracking-tight text-slate-950 hover:text-blue-600">
-                {item.title}
-            </a>
-            {item.subtitle && <p className="mt-0.5 text-xs text-slate-500">{item.subtitle}</p>}
-            {loading ? (
-                <div className="mt-2 animate-pulse space-y-1.5" aria-busy="true">
-                    <div className="h-3 w-full rounded bg-slate-200"/>
-                    <div className="h-3 w-4/5 rounded bg-slate-200"/>
+            <div className="flex gap-4">
+                <div className="min-w-0 flex-1">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{kindLabel}</p>
+                    <a href={item.href} className="mt-1 block text-lg font-semibold tracking-tight text-slate-950 hover:text-blue-600">
+                        {item.title}
+                    </a>
+                    {item.subtitle && <p className="mt-0.5 text-xs text-slate-500">{item.subtitle}</p>}
+                    {loading ? (
+                        <div className="mt-2 animate-pulse space-y-1.5" aria-busy="true">
+                            <div className="h-3 w-full rounded bg-slate-200"/>
+                            <div className="h-3 w-4/5 rounded bg-slate-200"/>
+                        </div>
+                    ) : summary ? (
+                        <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-600">{summary}</p>
+                    ) : null}
+                    {introduction && (
+                        <a
+                            href={introduction.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="mt-2 inline-block text-xs text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-700"
+                        >
+                            {introduction.title} — Wikipedia
+                        </a>
+                    )}
                 </div>
-            ) : summary ? (
-                <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-600">{summary}</p>
-            ) : null}
-            {introduction && (
-                <a
-                    href={introduction.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-2 inline-block text-xs text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-700"
-                >
-                    {introduction.title} — Wikipedia
-                </a>
-            )}
+                {introduction?.imageUrl && (
+                    <img
+                        src={introduction.imageUrl}
+                        alt={introduction.title}
+                        loading="lazy"
+                        className="h-28 w-28 shrink-0 object-cover"
+                    />
+                )}
+            </div>
         </div>
     )
 }

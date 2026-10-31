@@ -19,8 +19,8 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
 
     return (
         <AppShell>
-            <main className="min-h-[calc(100dvh-4rem)]">
-                <section className="mx-auto grid min-h-[calc(100dvh-4rem)] max-w-7xl items-center gap-5 lg:content-center lg:items-stretch px-5 py-6 lg:grid-cols-[minmax(0,1.1fr)_minmax(20rem,0.9fr)] lg:px-8">
+            <main>
+                <section className="mx-auto grid max-w-7xl items-center gap-5 px-5 py-6 lg:grid-cols-[minmax(0,1.1fr)_minmax(20rem,0.9fr)] lg:items-stretch lg:px-8">
                     <div className="max-w-5xl py-4 sm:py-6">
                         <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-blue-600">
                             <span className="h-px w-8 bg-blue-600"/>{t('home.badge')}

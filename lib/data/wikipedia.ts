@@ -19,6 +19,7 @@ type WikipediaResponse = {
             title?: string
             extract?: string
             missing?: boolean
+            thumbnail?: {source?: string}
         }>
     }
 }
@@ -27,6 +28,7 @@ export type WikipediaIntroduction = {
     title: string
     extract: string
     url: string
+    imageUrl?: string
 }
 
 export async function getWikipediaIntroduction(wikiID: string, locale: Locale, signal?: AbortSignal): Promise<WikipediaIntroduction | null> {
@@ -57,9 +59,10 @@ export async function getWikipediaIntroduction(wikiID: string, locale: Locale, s
             const apiUrl = new URL(`https://${language}.wikipedia.org/w/api.php`)
             apiUrl.search = new URLSearchParams({
                 action: 'query',
-                prop: 'extracts',
+                prop: 'extracts|pageimages',
                 exintro: '1',
                 explaintext: '1',
+                pithumbsize: '320',
                 format: 'json',
                 formatversion: '2',
                 origin: '*',
@@ -77,6 +80,7 @@ export async function getWikipediaIntroduction(wikiID: string, locale: Locale, s
                 return {
                     title: page.title || title,
                     extract: page.extract,
+                    imageUrl: page.thumbnail?.source,
                     url: `https://${language}.wikipedia.org/wiki/${encodeURIComponent((page.title || title).replaceAll(' ', '_'))}`,
                 }
             } catch {
