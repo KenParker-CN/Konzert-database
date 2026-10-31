@@ -1,6 +1,6 @@
 import 'server-only'
 
-import {getCatalogueDirectory, getCatalogWorksSafe, type ComposerAliases} from '@/lib/db/composers'
+import {getCatalogueDirectory, getCatalogWorksSafe, type ComposerAliases, type GenreRelatedWorkGroup} from '@/lib/db/composers'
 import type {Locale} from '@/lib/i18n/config'
 import {
     INSTRUMENTATION_ABBREVIATIONS,
@@ -13,19 +13,15 @@ const INSTRUMENT_INDEX_CACHE_TTL_MS = 5 * 60 * 1000
 export type InstrumentRef = {
     group: InstrumentationAbbrevGroup
     item: InstrumentationAbbrev
+    wikiID?: string
 }
 
-export type InstrumentWork = {
-    catalogueCode: string
-    catalogueName: string | null
+type IndexedWorkGroup = Omit<GenreRelatedWorkGroup, 'composerName'> & {
     composerName: string
     composerAliases: ComposerAliases
-    sort: string
-    catalogueNumber: string
-    title: string
 }
 
-type InstrumentIndex = Map<string, InstrumentWork[]>
+type InstrumentIndex = Map<string, IndexedWorkGroup[]>
 
 const NAME_ALIASES: Record<string, string> = {
     cello: 'vlc',
@@ -99,27 +95,25 @@ async function buildInstrumentIndex(): Promise<InstrumentIndex> {
 
     const index: InstrumentIndex = new Map()
     for (const {entry, works} of loaded) {
+        const worksByAbbrev = new Map<string, typeof works>()
         for (const work of works) {
             for (const abbrev of findInstrumentAbbrevs(work.instrumentation)) {
-                const list = index.get(abbrev) ?? []
-                list.push({
-                    catalogueCode: entry.catalogue,
-                    catalogueName: entry.catalogueName ?? null,
-                    composerName: entry.composerName,
-                    composerAliases: entry.composerAliases,
-                    sort: work.sort,
-                    catalogueNumber: work.catalogue,
-                    title: work.title,
-                })
-                index.set(abbrev, list)
+                worksByAbbrev.set(abbrev, [...(worksByAbbrev.get(abbrev) ?? []), work])
             }
         }
-    }
 
-    for (const list of index.values()) {
-        list.sort((left, right) =>
-            left.composerName.localeCompare(right.composerName, 'en', {sensitivity: 'base'})
-            || left.sort.localeCompare(right.sort, undefined, {numeric: true, sensitivity: 'base'}))
+        for (const [abbrev, matched] of worksByAbbrev) {
+            const groups = index.get(abbrev) ?? []
+            groups.push({
+                catalogue: entry.catalogue,
+                catalogueName: entry.catalogueName || entry.catalogue,
+                composerName: entry.composerName,
+                composerAliases: entry.composerAliases,
+                composerSlug: entry.composerSlug,
+                works: matched.sort((left, right) => left.sort.localeCompare(right.sort, undefined, {numeric: true, sensitivity: 'base'})),
+            })
+            index.set(abbrev, groups)
+        }
     }
     return index
 }
@@ -142,14 +136,19 @@ export async function getInstrumentFamilies(locale: Locale) {
     const index = await getInstrumentIndex()
     return INSTRUMENTATION_ABBREVIATIONS.flatMap(group => {
         const items = group.items.flatMap(item => {
-            const count = index.get(item.abbrev)?.length ?? 0
+            const count = (index.get(item.abbrev) ?? []).reduce((sum, work) => sum + work.works.length, 0)
             return count > 0 ? [{abbrev: item.abbrev, label: item[locale], count}] : []
         })
         return items.length > 0 ? [{key: group.key, label: group[locale], items}] : []
     })
 }
 
-export async function getInstrumentWorks(abbrev: string): Promise<InstrumentWork[]> {
+export async function getInstrumentRelatedWorkGroups(abbrev: string, locale: Locale): Promise<GenreRelatedWorkGroup[]> {
     const index = await getInstrumentIndex()
-    return index.get(abbrev) ?? []
+    return (index.get(abbrev) ?? [])
+        .map(({composerAliases, ...group}) => ({
+            ...group,
+            composerName: composerAliases[locale] || group.composerName,
+        }))
+        .sort((left, right) => left.composerName.localeCompare(right.composerName, undefined, {sensitivity: 'base'}))
 }
