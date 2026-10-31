@@ -2,7 +2,7 @@ import AppShell from '@/components/AppShell'
 import {getInstrumentFamilies} from '@/lib/db/instruments'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
-import {IconArrowUpRight} from '@tabler/icons-react'
+import {IconArrowUpRight, IconChevronDown} from '@tabler/icons-react'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
@@ -27,27 +27,33 @@ export default async function InstrumentsPage({params}: {params: Promise<{locale
                         <h1 className="heading mt-2 text-3xl font-semibold tracking-tight text-slate-950">{t('instruments.title')}</h1>
                         <p className="mt-2 text-sm font-medium text-slate-600">{t('instruments.count', {count: instrumentCount})}</p>
                     </header>
-                    <div className="space-y-8">
+                    <div className="space-y-3">
                         {families.map(family => (
-                            <section key={family.key}>
-                                <h2 className="heading mb-3 text-lg font-semibold text-slate-900">{family.label}</h2>
-                                <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                            <details key={family.key} className="group border border-slate-200 bg-white shadow-sm open:shadow-md">
+                                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 transition hover:bg-slate-50 [&::-webkit-details-marker]:hidden">
+                                    <span className="min-w-0">
+                                        <span className="heading block text-lg font-semibold text-slate-900">{family.label}</span>
+                                        <span className="mt-1 block text-xs text-slate-500">{t('instruments.count', {count: family.items.length})}</span>
+                                    </span>
+                                    <IconChevronDown size={18} className="shrink-0 text-slate-400 transition group-open:rotate-180" aria-hidden="true"/>
+                                </summary>
+                                <ul className="grid gap-3 border-t border-slate-200 p-5 sm:grid-cols-2 lg:grid-cols-3">
                                     {family.items.map(item => (
                                         <li key={item.abbrev}>
                                             <Link
                                                 href={localePath(locale, `/instruments/${encodeURIComponent(item.abbrev)}`)}
-                                                className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+                                                className="group/item flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
                                             >
                                                 <span className="min-w-0">
                                                     <span className="heading block text-base font-semibold text-slate-900">{item.label}</span>
                                                     <span className="mt-1 block text-xs text-slate-500">{t('works.count', {count: item.count})}</span>
                                                 </span>
-                                                <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
+                                                <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover/item:text-blue-600" aria-hidden="true"/>
                                             </Link>
                                         </li>
                                     ))}
                                 </ul>
-                            </section>
+                            </details>
                         ))}
                     </div>
                 </div>
