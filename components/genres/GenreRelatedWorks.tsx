@@ -11,30 +11,31 @@ import type {ComposerWork, GenreRelatedWorkGroup} from '@/lib/db/composers'
 
 const WORKS_PER_PAGE = 10
 
-const rowGrid = 'grid grid-cols-[minmax(0,1fr)] items-center gap-x-4 sm:grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)] sm:px-8'
+const rowGrid = 'grid grid-cols-[6rem_minmax(0,1fr)] items-center gap-x-4 sm:grid-cols-[6rem_minmax(0,2fr)_minmax(0,1.2fr)_minmax(0,1fr)] sm:px-8'
 
 type RelatedWorkRow = {
+    key: string
     work: ComposerWork
+    title: string
     composerName: string
-    composerHref: string
     catalogueName: string
     catalogueHref: string
+    catalogue: string
 }
 
 export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGroup[]}) {
     const {t, locale} = useI18n()
     const [page, setPage] = useState(1)
 
-    const rows: RelatedWorkRow[] = groups.flatMap(group => {
-        const catalogueHref = localePath(locale, `/catalogues/${encodeURIComponent(group.catalogue)}`)
-        return group.works.map(work => ({
-            work,
-            composerName: group.composerName,
-            composerHref: catalogueHref,
-            catalogueName: group.catalogueName,
-            catalogueHref,
-        }))
-    })
+    const rows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
+        key: `${group.catalogue}-${work.workId}`,
+        work,
+        title: locale === 'de' ? work.details['German title'] || work.title : work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
+        composerName: group.composerName,
+        catalogueName: group.catalogueName,
+        catalogueHref: localePath(locale, `/catalogues/${encodeURIComponent(group.catalogue)}`),
+        catalogue: group.catalogue,
+    })))
 
     if (rows.length === 0) return null
 
@@ -50,30 +51,35 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
             </header>
 
             <div className={`${rowGrid} hidden border-b border-slate-200 bg-slate-50 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:grid`}>
+                <span>{t('works.catalogue')}</span>
                 <span>{t('works.titleColumn')}</span>
                 <span>{t('home.randomWiki.composer')}</span>
-                <span>{t('works.catalogue')}</span>
+                <span>{t('search.catalogues')}</span>
             </div>
 
             <ul>
-                {pageRows.map(({work, composerName, composerHref, catalogueName, catalogueHref}) => (
-                    <li key={`${work.catalogue}-${work.workId}-${composerHref}`} className={`${rowGrid} border-b border-slate-100 px-6 py-3 last:border-0 hover:bg-blue-50/50`}>
+                {pageRows.map(({key, work, title, composerName, catalogueName, catalogueHref, catalogue}) => (
+                    <li key={key} className={`${rowGrid} border-b border-slate-100 px-6 py-3 last:border-0 hover:bg-blue-50/50`}>
                         <WorkDetailsDialog
                             work={work}
-                            catalogCode={work.catalogue}
-                            triggerClassName="flex min-w-0 items-center gap-3 text-left"
+                            catalogCode={catalogue}
+                            triggerClassName="flex min-w-0 text-left font-semibold text-blue-700"
                         >
-                            <span className="w-24 shrink-0 font-semibold text-blue-700">{work.catalogue || work.opus}</span>
-                            <span className="min-w-0 flex-1 truncate text-sm text-slate-900">
-                                {locale === 'de' ? work.details['German title'] || work.title : work.title || getLocalizedWorkTerm(work.genre, 'type', locale)}
-                            </span>
+                            <span className="truncate">{work.catalogue || work.opus}</span>
                         </WorkDetailsDialog>
-                        <div className="mt-1 flex min-w-0 flex-wrap gap-x-2 text-xs text-slate-500 sm:hidden">
-                            <Link href={composerHref} className="truncate hover:text-blue-700">{composerName}</Link>
+                        <WorkDetailsDialog
+                            work={work}
+                            catalogCode={catalogue}
+                            triggerClassName="flex min-w-0 text-left text-sm text-slate-900"
+                        >
+                            <span className="truncate">{title}</span>
+                        </WorkDetailsDialog>
+                        <div className="col-span-2 mt-1 flex min-w-0 flex-wrap gap-x-2 text-xs text-slate-500 sm:hidden">
+                            <span>{composerName}</span>
                             <span aria-hidden="true">·</span>
                             <Link href={catalogueHref} className="truncate hover:text-blue-700">{catalogueName}</Link>
                         </div>
-                        <Link href={composerHref} className="hidden truncate text-sm text-slate-700 hover:text-blue-700 sm:block">{composerName}</Link>
+                        <span className="hidden truncate text-sm text-slate-700 sm:block">{composerName}</span>
                         <Link href={catalogueHref} className="hidden truncate text-sm text-slate-700 hover:text-blue-700 sm:block">{catalogueName}</Link>
                     </li>
                 ))}
