@@ -354,6 +354,7 @@ type ComposerCsvEntry = {
     cataloguerName: string | null | undefined;
     era: string;
     wikiQID?: string;
+    catalogRef?: string;
     spotify?: string;
 };
 
@@ -395,6 +396,7 @@ async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
             cataloguerName: cataloguerField === undefined ? undefined : composer[cataloguerField].trim() || null,
             era: composer.Era || '',
             wikiQID: composer.WikiQID?.trim() || undefined,
+            catalogRef: composer.catalogRef?.trim() || undefined,
             spotify: composer.Spotify || undefined,
         };
     });
@@ -667,4 +669,3 @@ export async function getGenreCsvEntries(): Promise<GenreCsvEntry[]> {
         typeOf: row.TypeOf,
     }))
 }
-
