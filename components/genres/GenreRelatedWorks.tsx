@@ -26,8 +26,9 @@ type RelatedWorkRow = {
 export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGroup[]}) {
     const {t, locale} = useI18n()
     const [page, setPage] = useState(1)
+    const [composerFilter, setComposerFilter] = useState('')
 
-    const rows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
+    const allRows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
         key: `${group.catalogue}-${work.workId}`,
         work,
         title: locale === 'de' ? work.details['German title'] || work.title : work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
@@ -37,17 +38,35 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
         catalogue: group.catalogue,
     })))
 
-    if (rows.length === 0) return null
+    if (allRows.length === 0) return null
 
+    const composerOptions = groups.map(group => group.composerName)
+    const rows = composerFilter ? allRows.filter(row => row.composerName === composerFilter) : allRows
     const pageCount = Math.ceil(rows.length / WORKS_PER_PAGE)
     const currentPage = Math.min(page, pageCount)
     const pageRows = rows.slice((currentPage - 1) * WORKS_PER_PAGE, currentPage * WORKS_PER_PAGE)
 
     return (
         <section className="mt-5 overflow-hidden border border-slate-200 bg-white shadow-sm">
-            <header className="flex items-center justify-between gap-3 border-b border-slate-200 px-6 py-4 sm:px-8">
+            <header className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 px-6 py-4 sm:px-8">
                 <h2 className="heading text-xl font-semibold text-slate-950">{t('genrePages.relatedWorks')}</h2>
-                <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: rows.length})}</span>
+                <div className="flex items-center gap-3">
+                    {composerOptions.length > 1 && (
+                        <select
+                            aria-label={t('home.randomWiki.composer')}
+                            value={composerFilter}
+                            onChange={event => {
+                                setComposerFilter(event.target.value)
+                                setPage(1)
+                            }}
+                            className="max-w-56 truncate rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 focus:border-blue-400 focus:outline-none"
+                        >
+                            <option value="">{t('genrePages.allComposers')}</option>
+                            {composerOptions.map(name => <option key={name} value={name}>{name}</option>)}
+                        </select>
+                    )}
+                    <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: rows.length})}</span>
+                </div>
             </header>
 
             <div className={`${rowGrid} hidden border-b border-slate-200 bg-slate-50 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:grid`}>
