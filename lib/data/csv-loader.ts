@@ -355,6 +355,9 @@ type ComposerCsvEntry = {
     era: string;
     wikiQID?: string;
     catalogRef?: string;
+    catalogAuthor?: string;
+    catalogPublisher?: string;
+    catalogYear?: string;
     spotify?: string;
 };
 
@@ -397,6 +400,9 @@ async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
             era: composer.Era || '',
             wikiQID: composer.WikiQID?.trim() || undefined,
             catalogRef: composer.catalogRef?.trim() || undefined,
+            catalogAuthor: composer.author?.trim() || undefined,
+            catalogPublisher: composer.publisher?.trim() || undefined,
+            catalogYear: composer.year?.trim() || undefined,
             spotify: composer.Spotify || undefined,
         };
     });

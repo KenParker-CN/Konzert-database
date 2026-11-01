@@ -1,5 +1,5 @@
 import AppShell from '@/components/AppShell'
-import GenreIntroduction from '@/components/genres/GenreIntroduction'
+import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import {getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getI18n} from '@/lib/i18n/server'
@@ -31,9 +31,13 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
                             <p className="mt-2 text-sm text-slate-500">{t('catalogues.cataloguer', {name: composer.cataloguerName})}</p>
                         )}
                         {composer.catalogRef && (
-                            <div className="mt-5 border-t border-slate-100 pt-5">
-                                <GenreIntroduction wikiID={composer.catalogRef} locale={locale}/>
-                            </div>
+                            <CatalogueCitation
+                                title={composer.catalogRef}
+                                author={composer.catalogAuthor}
+                                publisher={composer.catalogPublisher}
+                                year={composer.catalogYear}
+                                className="mt-5 border-t border-slate-100 pt-5 text-sm leading-6 text-slate-600"
+                            />
                         )}
                         {catalogCode && (
                             <Link href={localePath(locale, `/catalogues/${encodeURIComponent(catalogCode)}`)} className="mt-6 inline-block text-sm font-medium text-blue-700 hover:underline">

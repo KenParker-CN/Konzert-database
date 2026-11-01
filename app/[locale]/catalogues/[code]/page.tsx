@@ -3,6 +3,7 @@ import CatalogWorksPanel from '@/components/catalogues/CatalogWorksPanel'
 import WorksLoading from '@/components/catalogues/WorksLoading'
 import RefreshCatalogueWorksButton from '@/components/catalogues/RefreshCatalogueWorksButton'
 import CatalogueWorkspace from '@/components/catalogues/CatalogueWorkspace'
+import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import SpotifyEmbed from '@/components/catalogues/SpotifyEmbed'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
@@ -52,10 +53,14 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                             {catalogue.cataloguerName && (
                                 <p className="mt-1 text-xs text-slate-500">{t('catalogues.cataloguer', {name: catalogue.cataloguerName})}</p>
                             )}
-                            {catalogCode === 'Stattkus' && (
-                                <p className="mt-2 text-xs leading-5 text-slate-500">
-                                    Manfred H. Stattkus; <em>Claudio Monteverdi: Verzeichnis der erhaltenen Werke (SV)</em>; Musikverlag Stattkus, 1985
-                                </p>
+                            {composer.catalogRef && (
+                                <CatalogueCitation
+                                    title={composer.catalogRef}
+                                    author={composer.catalogAuthor}
+                                    publisher={composer.catalogPublisher}
+                                    year={composer.catalogYear}
+                                    className="mt-2 text-xs leading-5 text-slate-500"
+                                />
                             )}
                             {catalogCode === 'KV' && (
                                 <a
