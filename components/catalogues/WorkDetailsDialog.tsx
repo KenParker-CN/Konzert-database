@@ -6,7 +6,8 @@ import {Dialog} from '@base-ui/react/dialog'
 import {IconX} from '@tabler/icons-react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
-import {getGenreSlugByTerm, getGenreBySlug} from '@/lib/data/genres'
+import {localePath} from '@/lib/i18n/config'
+import {useGenreLink} from '@/components/genres/GenreLinkProvider'
 import InstrumentationLegendDialog from './InstrumentationLegendDialog'
 import GenreIntroduction from '../genres/GenreIntroduction'
 import GenreHovercard from '../genres/GenreHovercard'
@@ -35,6 +36,7 @@ export default function WorkDetailsDialog({
     children: ReactNode
 }) {
     const {t, locale} = useI18n()
+    const genreLink = useGenreLink(work.genre || '')
     const getWorkTitle = (entry: WorkDetailsEntry) => locale === 'de'
         ? entry.details['German title'] || entry.title
         : entry.title
@@ -115,19 +117,16 @@ export default function WorkDetailsDialog({
                         {(work.genre || work.key) && (
                             <div className="mt-1.5 flex flex-wrap items-center gap-2">
                                 {work.genre && (() => {
-                                    const genreSlug = getGenreSlugByTerm(work.genre)
                                     const badge = (
                                         <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
                                             {getLocalizedWorkTerm(work.genre, 'type', locale)}
                                         </span>
                                     )
-                                    if (!genreSlug) return badge
-                                    const genreEntry = getGenreBySlug(genreSlug)
-                                    const genreWikiID = genreEntry?.wikiID || undefined
+                                    if (!genreLink) return badge
                                     return (
-                                        <GenreHovercard genreTerm={work.genre} genreWikiID={genreWikiID} locale={locale}>
+                                        <GenreHovercard genreTerm={work.genre} genreWikiID={genreLink.wikiID} locale={locale}>
                                             <Link
-                                                href={`/${locale}/genres/${encodeURIComponent(genreSlug)}`}
+                                                href={localePath(locale, genreLink.path)}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="inline-flex rounded-full transition-colors hover:bg-emerald-100"

@@ -1,6 +1,8 @@
 import type { ReactNode } from 'react'
 import { notFound } from 'next/navigation'
 import { isLocale } from '@/lib/i18n/config'
+import { GenreLinkProvider } from '@/components/genres/GenreLinkProvider'
+import { getGenreLinks } from '@/lib/data/genre-links'
 
 type Props = {
     children: ReactNode
@@ -19,5 +21,7 @@ export default async function LocaleLayout({
         notFound()
     }
 
-    return <>{children}</>
+    const genreLinks = await getGenreLinks()
+
+    return <GenreLinkProvider value={genreLinks}>{children}</GenreLinkProvider>
 }

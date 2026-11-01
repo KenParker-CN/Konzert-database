@@ -2,7 +2,7 @@ import 'server-only'
 
 import { getComposers as loadComposers, getComposerWorks as loadComposerWorks } from '@/lib/data/csv-loader'
 import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
-import {genres} from '@/lib/data/genres'
+import {getGenreLinks} from '@/lib/data/genre-links'
 import {localePath, type Locale} from '@/lib/i18n/config'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 
@@ -195,15 +195,16 @@ async function pickRandomComposer(locale: Locale): Promise<WikiBannerItem | null
     }
 }
 
-function pickRandomGenre(locale: Locale): WikiBannerItem | null {
-    const pick = pickRandom(genres.filter(genre => genre.wikiID))
+async function pickRandomGenre(locale: Locale): Promise<WikiBannerItem | null> {
+    const links = Object.values(await getGenreLinks()).filter(link => link.wikiID)
+    const pick = pickRandom(links)
     if (!pick?.wikiID) return null
 
     return {
         kind: 'genre',
-        title: getLocalizedWorkTerm(pick.term, 'type', locale),
+        title: getLocalizedWorkTerm(pick.name, 'type', locale),
         wikiID: pick.wikiID,
-        href: localePath(locale, `/genres/${encodeURIComponent(pick.slug)}`),
+        href: localePath(locale, pick.path),
     }
 }
 
@@ -231,7 +232,11 @@ async function pickRandomWork(locale: Locale): Promise<WikiBannerItem | null> {
 }
 
 export async function getRandomWikiBannerItems(locale: Locale): Promise<WikiBannerItem[]> {
-    const [composer, work] = await Promise.all([pickRandomComposer(locale), pickRandomWork(locale)])
-    const items = [composer, pickRandomGenre(locale), work]
+    const [composer, genre, work] = await Promise.all([
+        pickRandomComposer(locale),
+        pickRandomGenre(locale),
+        pickRandomWork(locale),
+    ])
+    const items = [composer, genre, work]
     return items.filter((item): item is WikiBannerItem => item !== null)
 }
