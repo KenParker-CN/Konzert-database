@@ -54,7 +54,7 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                             )}
                             {catalogCode === 'Stattkus' && (
                                 <p className="mt-2 text-xs leading-5 text-slate-500">
-                                    Manfred H. Stattkus; Claudio Monteverdi: <em>Verzeichnis der erhaltenen Werke (SV)</em>; Musikverlag Stattkus, 1985
+                                    Manfred H. Stattkus; <em>Claudio Monteverdi: Verzeichnis der erhaltenen Werke (SV)</em>; Musikverlag Stattkus, 1985
                                 </p>
                             )}
                             {catalogCode === 'KV' && (
