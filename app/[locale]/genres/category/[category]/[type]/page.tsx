@@ -1,4 +1,5 @@
 import AppShell from '@/components/AppShell'
+import InstrumentBreadcrumb from '@/components/instruments/InstrumentBreadcrumb'
 import {getGenreCsvEntries} from '@/lib/data/csv-loader'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
@@ -29,6 +30,11 @@ export default async function GenreTypePage({params}: {params: Promise<{locale: 
         <AppShell active="genres">
             <main className="min-h-full">
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
+                    <InstrumentBreadcrumb items={[
+                        {label: t('navigation.genres'), href: localePath(locale, '/genres')},
+                        {label: decodedCat, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCat)}`)},
+                        {label: decodedType},
+                    ]}/>
                     <header className="mb-8">
                         <h1 className="heading mt-2 text-3xl font-semibold tracking-tight text-slate-950">{decodedType}</h1>
                     </header>
