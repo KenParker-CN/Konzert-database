@@ -1,4 +1,4 @@
-import WorksAccordion from '@/components/catalogues/WorksAccordion'
+import WorksBrowser from '@/components/catalogues/WorksBrowser'
 import {getCatalogWorksSafe} from '@/lib/db/composers'
 import {getI18n} from '@/lib/i18n/server'
 import type {Locale} from '@/lib/i18n/config'
@@ -22,7 +22,7 @@ export default async function CatalogWorksPanel({
                     {t('works.loadFailed')}
                 </div>
             ) : works.length > 0 ? (
-                <WorksAccordion allWorks={works} catalogCode={catalogCode}/>
+                <WorksBrowser allWorks={works} catalogCode={catalogCode}/>
             ) : (
                 <div className="rounded-2xl border border-slate-200 bg-white px-6 py-10 text-center text-sm text-slate-500 shadow-sm">
                     {t('works.noWorks')}

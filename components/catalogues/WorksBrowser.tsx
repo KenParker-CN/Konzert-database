@@ -37,7 +37,7 @@ function filterWorksByGenre(works: ComposerWork[], genre: string) {
     return works.filter(work => work.genre === genre)
 }
 
-export default function WorksAccordion({
+export default function WorksBrowser({
     allWorks,
     catalogCode,
 }: {

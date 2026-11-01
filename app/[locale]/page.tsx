@@ -2,7 +2,7 @@ import AppShell from '../../components/AppShell'
 import {isLocale} from '@/lib/i18n/config'
 import {getI18n} from '@/lib/i18n/server'
 import {getCatalogueDirectory, getRandomWikiBannerItems} from '@/lib/db/composers'
-import CountTo from '@/components/common/CountTo'
+import CountTo from '@/components/home/CountTo'
 import WikiRandomBanner from '@/components/home/WikiRandomBanner'
 import {notFound} from 'next/navigation'
 

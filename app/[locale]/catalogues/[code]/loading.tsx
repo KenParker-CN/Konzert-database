@@ -1,5 +1,5 @@
 import AppShell from '@/components/AppShell'
-import WorksLoading from '@/components/common/WorksLoading'
+import WorksLoading from '@/components/catalogues/WorksLoading'
 
 export default function CatalogueDetailLoading() {
     return (
