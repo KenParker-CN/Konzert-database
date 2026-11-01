@@ -26,7 +26,7 @@ function renderComposerCard(entry: ComposerEntry, locale: Locale, t: Translator)
     return (
         <Link
             key={entry.catalogue}
-            href={localePath(locale, `/catalogues/${encodeURIComponent(entry.catalogue)}`)}
+            href={localePath(locale, `/composers/${encodeURIComponent(entry.composerSlug)}`)}
             className="group flex min-h-20 flex-col justify-between gap-2 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
         >
             <span className="heading text-base font-semibold text-slate-900">{displayName}</span>
