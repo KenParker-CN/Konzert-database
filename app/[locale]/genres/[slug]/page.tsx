@@ -12,7 +12,7 @@ import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
 
-export default async function GenreV2Page({params}: {params: Promise<{locale: string; slug: string}>}) {
+export default async function GenreDetailPage({params}: {params: Promise<{locale: string; slug: string}>}) {
     const {locale, slug} = await params
     if (!isLocale(locale)) notFound()
 
@@ -31,7 +31,7 @@ export default async function GenreV2Page({params}: {params: Promise<{locale: st
             <main className="min-h-[calc(100dvh-4rem)]">
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
                     <InstrumentBreadcrumb items={[
-                        {label: t('navigation.genres'), href: localePath(locale, '/genres-v2')},
+                        {label: t('navigation.genres'), href: localePath(locale, '/genres')},
                         {label: title},
                     ]}/>
                     <article className="border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
