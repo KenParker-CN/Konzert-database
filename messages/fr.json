@@ -23,7 +23,8 @@
     "title": "Instruments",
     "count": "{count} instruments",
     "back": "Tous les instruments",
-    "showing": "{shown} sur {total} affichées"
+    "showing": "{shown} sur {total} affichées",
+    "parent": "Instrument parent"
   },
   "theme": {
     "label": "Thème",

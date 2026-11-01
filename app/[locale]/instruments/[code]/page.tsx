@@ -5,6 +5,7 @@ import GenreRelatedWorks from '@/components/genres/GenreRelatedWorks'
 import {getInstrumentRef, getInstrumentRelatedWorkGroups} from '@/lib/db/instruments'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
+import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
@@ -13,8 +14,10 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
     const {locale, code} = await params
     if (!isLocale(locale)) notFound()
 
-    const ref = getInstrumentRef(code)
+    const ref = await getInstrumentRef(code)
     if (!ref) notFound()
+
+    const parent = ref.parentAbbrev ? await getInstrumentRef(ref.parentAbbrev) : undefined
 
     const [{t}, relatedWorkGroups] = await Promise.all([
         getI18n(locale),
@@ -32,6 +35,14 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
                     ]}/>
                     <article className="border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
                         <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">{ref.item[locale]}</h1>
+                        {parent && (
+                            <p className="mt-2 text-sm text-slate-600">
+                                {t('instruments.parent')}:{' '}
+                                <Link href={localePath(locale, `/instruments/${encodeURIComponent(parent.item.abbrev)}`)} className="font-medium text-blue-600 hover:underline">
+                                    {parent.item[locale]}
+                                </Link>
+                            </p>
+                        )}
                         <GenreIntroduction wikiID={ref.wikiID} locale={locale}/>
                     </article>
                     <GenreRelatedWorks groups={relatedWorkGroups}/>

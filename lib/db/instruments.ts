@@ -1,6 +1,7 @@
 import 'server-only'
 
 import {getCatalogueDirectory, getCatalogWorksSafe, type ComposerAliases, type GenreRelatedWorkGroup} from '@/lib/db/composers'
+import {getInstrumentRows} from '@/lib/data/csv-loader'
 import type {Locale} from '@/lib/i18n/config'
 import {
     INSTRUMENTATION_ABBREVIATIONS,
@@ -14,6 +15,12 @@ export type InstrumentRef = {
     group: InstrumentationAbbrevGroup
     item: InstrumentationAbbrev
     wikiID?: string
+    parentAbbrev?: string
+}
+
+type InstrumentLink = {
+    wikiID?: string
+    parentAbbrev?: string
 }
 
 type IndexedWorkGroup = Omit<GenreRelatedWorkGroup, 'composerName'> & {
@@ -128,8 +135,44 @@ function getInstrumentIndex(): Promise<InstrumentIndex> {
     return instrumentIndexCache.request
 }
 
-export function getInstrumentRef(abbrev: string): InstrumentRef | undefined {
-    return instrumentByAbbrev.get(abbrev)
+let instrumentLinkCache: {
+    expiresAt: number
+    request: Promise<Map<string, InstrumentLink>>
+} | undefined
+
+async function buildInstrumentLinks(): Promise<Map<string, InstrumentLink>> {
+    const rows = await getInstrumentRows()
+    const abbrByName = new Map<string, string>()
+    for (const row of rows) {
+        if (row.abbr) abbrByName.set(row.name.toLocaleLowerCase('en'), row.abbr)
+    }
+
+    const links = new Map<string, InstrumentLink>()
+    for (const row of rows) {
+        if (!row.abbr) continue
+        links.set(row.abbr, {
+            wikiID: row.wikiQID || undefined,
+            parentAbbrev: abbrByName.get(row.relatedTo.toLocaleLowerCase('en')),
+        })
+    }
+    return links
+}
+
+function getInstrumentLinks(): Promise<Map<string, InstrumentLink>> {
+    if (!instrumentLinkCache || instrumentLinkCache.expiresAt <= Date.now()) {
+        instrumentLinkCache = {
+            expiresAt: Date.now() + INSTRUMENT_INDEX_CACHE_TTL_MS,
+            request: buildInstrumentLinks(),
+        }
+    }
+    return instrumentLinkCache.request
+}
+
+export async function getInstrumentRef(abbrev: string): Promise<InstrumentRef | undefined> {
+    const ref = instrumentByAbbrev.get(abbrev)
+    if (!ref) return undefined
+    const link = (await getInstrumentLinks()).get(abbrev)
+    return {...ref, wikiID: link?.wikiID, parentAbbrev: link?.parentAbbrev}
 }
 
 export async function getInstrumentFamilies(locale: Locale) {

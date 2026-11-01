@@ -23,7 +23,8 @@
     "title": "Instruments",
     "count": "{count} instruments",
     "back": "All instruments",
-    "showing": "Showing {shown} of {total}"
+    "showing": "Showing {shown} of {total}",
+    "parent": "Parent instrument"
   },
   "home": {
     "badge": "Classical music archive",

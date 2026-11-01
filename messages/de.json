@@ -23,7 +23,8 @@
     "title": "Instrumente",
     "count": "{count} Instrumente",
     "back": "Alle Instrumente",
-    "showing": "{shown} von {total} angezeigt"
+    "showing": "{shown} von {total} angezeigt",
+    "parent": "Übergeordnetes Instrument"
   },
   "theme": {
     "label": "Design",

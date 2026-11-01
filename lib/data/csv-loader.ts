@@ -552,6 +552,25 @@ function getSecondaryCatalogueNumber(work: CsvWork, catalogCode: string): string
     }
 }
 
+export type InstrumentCsvEntry = {
+    wikiQID: string;
+    name: string;
+    abbr: string;
+    relatedTo: string;
+    typeOf: string;
+};
+
+export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
+    const csvContent = await fs.readFile(path.join(LOCAL_CSV_DIR, 'instruments.csv'), 'utf-8');
+    return parseCsvRecords(csvContent).map(row => ({
+        wikiQID: row.WikiQID,
+        name: row.Name,
+        abbr: row.abbr,
+        relatedTo: row.RelatedTo,
+        typeOf: row.TypeOf,
+    }));
+}
+
 export async function getComposers(): Promise<ComposerCsvEntry[]> {
     return loadComposers();
 }
