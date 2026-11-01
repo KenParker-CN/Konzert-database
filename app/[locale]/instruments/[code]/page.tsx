@@ -21,7 +21,7 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
 
     const [{t}, relatedWorkGroups] = await Promise.all([
         getI18n(locale),
-        getInstrumentRelatedWorkGroups(ref.item.abbrev, locale),
+        getInstrumentRelatedWorkGroups(ref.abbrev, locale),
     ])
 
     return (
@@ -30,16 +30,16 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
                     <InstrumentBreadcrumb items={[
                         {label: t('navigation.instruments'), href: localePath(locale, '/instruments')},
-                        {label: ref.group[locale], href: localePath(locale, `/instruments/family/${encodeURIComponent(ref.group.key)}`)},
-                        {label: ref.item[locale]},
+                        {label: ref.familyName[locale], href: localePath(locale, `/instruments/family/${encodeURIComponent(ref.familyKey)}`)},
+                        {label: ref.name[locale]},
                     ]}/>
                     <article className="border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-                        <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">{ref.item[locale]}</h1>
+                        <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">{ref.name[locale]}</h1>
                         {related && (
                             <p className="mt-2 text-sm text-slate-600">
                                 {t('instruments.seeAlso')}:{' '}
-                                <Link href={localePath(locale, `/instruments/${encodeURIComponent(related.item.abbrev)}`)} className="font-medium text-blue-600 hover:underline">
-                                    {related.item[locale]}
+                                <Link href={localePath(locale, `/instruments/${encodeURIComponent(related.abbrev)}`)} className="font-medium text-blue-600 hover:underline">
+                                    {related.name[locale]}
                                 </Link>
                             </p>
                         )}

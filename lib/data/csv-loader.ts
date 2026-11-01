@@ -558,6 +558,9 @@ export type InstrumentCsvEntry = {
     abbr: string;
     relatedTo: string;
     typeOf: string;
+    aliasZh: string;
+    aliasFr: string;
+    aliasDe: string;
 };
 
 export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
@@ -568,6 +571,9 @@ export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
         abbr: row.abbr,
         relatedTo: row.RelatedTo,
         typeOf: row.TypeOf,
+        aliasZh: row.alias_cn ?? '',
+        aliasFr: row.alias_fr ?? '',
+        aliasDe: row.alias_de ?? '',
     }));
 }
 
