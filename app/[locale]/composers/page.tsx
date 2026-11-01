@@ -21,7 +21,7 @@ function letterOf(value: string) {
 }
 
 function renderComposerCard(entry: ComposerEntry, locale: Locale, t: Translator) {
-    const displayName = getLocalizedComposerName(entry.composerName, entry.composerAliases, locale)
+    const displayName = entry.composerNameSort || getLocalizedComposerName(entry.composerName, entry.composerAliases, locale)
     return (
         <Link
             key={entry.catalogue}
