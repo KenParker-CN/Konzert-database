@@ -1,0 +1,60 @@
+WikiQID,Name,abbr,RelatedTo,TypeOf
+,Bass Viol,,,Bowed String
+,Bowed Strings,,,String
+,Brass,,,Wind
+,Clavichord,clav,,Struck String
+,Double Bass,db,,Bowed String
+,Flute,fl,,Woodwind
+,Horn,hn,,Brass
+,Oboe,ob,,Woodwind
+,Organ,org,,Keyboard
+,Piano,pno,,Struck String
+,Plucked Strings,,,String
+,Serpent,,,Brass
+,Strings,str,,
+,Struck Strings,,,String
+,Trombone,tbn,,Brass
+,Trumpet,tpt,,Brass
+,Tuba,tb,,Brass
+,Viola,vla,,Bowed String
+,Violin,vln,,Bowed String
+,Violoncello,vlc,,Bowed String
+,Woodwind,,,Wind
+,Bass Clarinet,bcl,Clarinet,Woodwind
+,Contrabass Clarinet,dbcl,Clarinet,Woodwind
+,Sopranino Clarinet,,Clarinet,Woodwind
+,Soprano Clarinet,,Clarinet,Woodwind
+,Piccolo,picc,Flute,Woodwind
+,Recorder,rec,Flute,Woodwind
+,Transvers Flute,,Flute,Woodwind
+,French Horn,hn,Horn,Brass
+,Natural Horn,,Horn,Brass
+,English Horn,corA,Oboe,Woodwind
+,Oboe d'Amore,,Oboe,Woodwind
+,Fortepiano,pf,Piano,Keyboard
+,Alto Trombone,Atrb,Trombone,Brass
+,Bass Trombone,Btrb,Trombone,Brass
+,Cornet,,Trumpet,Brass
+,Natural Trumpet,,Trumpet,Brass
+,Viola d'Amore,,Viola,Bowed String
+,Bass Drum,BD,,Percussion
+,Bassoon,,,Woodwind
+,Bongos,,,Percussion
+,Castanets,,,Percussion
+,Celesta,cel,,Keyboard
+,Clarinet,cl,,Woodwind
+,Cornett,,,Brass
+,Cymbals,cyms,,Percussion
+,Glockenspiel,glsp,,Percussion
+,Harpsichord,hpd,,Keyboard
+,Keyboard,keyb,,
+,Marimba,,,Percussion
+,Percussion,perc,,
+,Saxophone,sax,,Woodwind
+,Snare Drum,SD,,Percussion
+,Tam-tam,tam-t,,Percussion
+,Timpani,timp,,Percussion
+,Tom-tom,tom-t,,Percussion
+,Triangle,tgl,,Percussion
+,Vibraphone,vib,,Percussion
+,Xylophone,xyl,,Percussion
