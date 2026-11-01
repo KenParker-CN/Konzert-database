@@ -4,7 +4,6 @@ import WorksLoading from '@/components/catalogues/WorksLoading'
 import RefreshCatalogueWorksButton from '@/components/catalogues/RefreshCatalogueWorksButton'
 import CatalogueWorkspace from '@/components/catalogues/CatalogueWorkspace'
 import SpotifyEmbed from '@/components/catalogues/SpotifyEmbed'
-import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getI18n} from '@/lib/i18n/server'
@@ -75,11 +74,6 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                 )}
                                 {composer.biography && (
                                     <p className="mt-3 text-sm leading-6 text-slate-600">{composer.biography}</p>
-                                )}
-                                {composer.wikiQID && (
-                                    <div className="mt-3 min-h-0 flex-1 overflow-y-auto border-t border-slate-100 pt-3">
-                                        <GenreIntroduction wikiID={composer.wikiQID} locale={locale}/>
-                                    </div>
                                 )}
                             </div>
                         </section>
