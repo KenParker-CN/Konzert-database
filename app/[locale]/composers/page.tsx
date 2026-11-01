@@ -1,4 +1,5 @@
 import AppShell from '@/components/AppShell'
+import LetterScrollIndicator from '@/components/catalogues/LetterScrollIndicator'
 import {getCatalogueDirectory} from '@/lib/db/composers'
 import {getLocalizedComposerName} from '@/lib/composer-name'
 import {getI18n} from '@/lib/i18n/server'
@@ -69,14 +70,7 @@ export default async function ComposersPage({params}: {params: Promise<{locale: 
                             {t('composerIndex.count', {count: directory.length})}
                         </p>
                     </header>
-                    <nav aria-label={t('composerIndex.title')} className="mb-8 flex flex-wrap gap-2 text-sm font-semibold">
-                        {letters.map(letter => (
-                            <a key={letter} href={`#letter-${letter}`}
-                               className="inline-flex size-8 items-center justify-center rounded-md text-slate-600 transition hover:bg-blue-50 hover:text-blue-600">
-                                {letter}
-                            </a>
-                        ))}
-                    </nav>
+                    <LetterScrollIndicator letters={letters} label={t('composerIndex.title')}/>
                     <div className="space-y-10">
                         {letters.map(letter => (
                             <section key={letter} id={`letter-${letter}`}>
