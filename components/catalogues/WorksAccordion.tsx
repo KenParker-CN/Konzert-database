@@ -3,7 +3,7 @@
 import {useMemo, useState} from 'react'
 import {Button} from '@/components/ui/button'
 import WorksTable from '@/components/catalogues/WorksTable'
-import {compareWorksBySort, type WorkCategoryGroup} from '@/lib/data/work-groups'
+import type {ComposerWork} from '@/lib/db/composers'
 import {useI18n} from '@/lib/i18n/client'
 import {Input} from '@/components/ui/input'
 import {Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectPositioner, SelectTrigger, SelectValue} from '@/components/ui/select'
@@ -17,31 +17,38 @@ function normalizeSearchText(value: string): string {
     return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase().trim()
 }
 
-function flattenWorks(groups: WorkCategoryGroup[]): WorkCategoryGroup['works'] {
-    return groups.flatMap(group => [...group.works, ...flattenWorks(group.children ?? [])])
+function compareWorksBySort(left: ComposerWork, right: ComposerWork): number {
+    const leftSort = left.sort.trim()
+    const rightSort = right.sort.trim()
+    const leftNumber = Number(leftSort)
+    const rightNumber = Number(rightSort)
+    const bothNumeric = leftSort !== '' && rightSort !== '' && Number.isFinite(leftNumber) && Number.isFinite(rightNumber)
+
+    if (!leftSort && rightSort) return 1
+    if (leftSort && !rightSort) return -1
+    return (bothNumeric
+        ? leftNumber - rightNumber
+        : leftSort.localeCompare(rightSort, undefined, {numeric: true, sensitivity: 'base'}))
+        || left.workId - right.workId
 }
 
-function filterWorksByGenre(works: WorkCategoryGroup['works'], genre: string) {
+function filterWorksByGenre(works: ComposerWork[], genre: string) {
     if (!genre) return works
     return works.filter(work => work.genre === genre)
 }
 
 export default function WorksAccordion({
-    groups,
+    allWorks,
     catalogCode,
-    otherTitle,
 }: {
-    groups: WorkCategoryGroup[]
+    allWorks: ComposerWork[]
     catalogCode: string
-    otherTitle: string
 }) {
     const {t, locale} = useI18n()
     const [query, setQuery] = useState('')
     const [page, setPage] = useState(1)
     const [keyFilter, setKeyFilter] = useState('')
     const [genreFilter, setGenreFilter] = useState('')
-
-    const allWorks = useMemo(() => flattenWorks(groups), [groups])
 
     // —— 调性选项 ——
     const keyOptions = useMemo(() => {
@@ -133,8 +140,6 @@ export default function WorksAccordion({
             </div>
         )
     }
-
-    const selectGroup = () => {}
 
     return (
         <div className="flex min-w-0 flex-col gap-4">
@@ -231,15 +236,10 @@ export default function WorksAccordion({
                     {pagedSearchMatches.length > 0 ? (
                         <WorksTable
                             key={`search-${normalizedQuery}-${page}`}
-                            group={{
-                                key: 'work-search-results',
-                                label: t('works.searchResults'),
-                                works: pagedSearchMatches,
-                            }}
+                            title={t('works.searchResults')}
+                            works={pagedSearchMatches}
                             catalogCode={catalogCode}
-                            onSelectGroup={selectGroup}
-                            otherTitle={otherTitle}
-                            countOverride={searchMatches.length}
+                            totalCount={searchMatches.length}
                             footer={renderPagination(page, totalSearchPages)}
                         />
                     ) : (
@@ -251,11 +251,10 @@ export default function WorksAccordion({
             ) : pagedAllWorks.length > 0 ? (
                 <WorksTable
                     key={`all-${page}-${keyFilter}-${genreFilter}`}
-                    group={{key: 'all-works', label: t('works.allWorks'), works: pagedAllWorks}}
+                    title={t('works.allWorks')}
+                    works={pagedAllWorks}
                     catalogCode={catalogCode}
-                    onSelectGroup={selectGroup}
-                    otherTitle={otherTitle}
-                    countOverride={filteredSortedWorks.length}
+                    totalCount={filteredSortedWorks.length}
                     footer={renderPagination(page, totalAllPages)}
                 />
             ) : (

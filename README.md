@@ -35,9 +35,7 @@ Supported catalogues: BWV (Bach), KV (Mozart), Hob (Haydn), HWV (Handel),
 RV (Vivaldi), TWV (Telemann), CPE (C. P. E. Bach), Marnat (Ravel), LWV
 (Lully), Corelli, BuxWV (Buxtehude), Deutsch (Schubert), Gerard (Boccherini),
 RCT (Rameau), MWV (Mendelssohn), GMW (Mahler), Shostakovich, Tchaikovsky,
-Beethoven (Op. / WoO), and Zimmerman (Purcell). Works within a catalogue are
-grouped into hierarchical categories (for example MWV by catalogue letter and
-TWV by catalogue number) by `lib/data/work-groups.ts`.
+Beethoven (Op. / WoO), and Zimmerman (Purcell).
 
 ## Stack
 
