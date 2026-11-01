@@ -52,6 +52,11 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                             {catalogue.cataloguerName && (
                                 <p className="mt-1 text-xs text-slate-500">{t('catalogues.cataloguer', {name: catalogue.cataloguerName})}</p>
                             )}
+                            {catalogCode === 'Stattkus' && (
+                                <p className="mt-2 text-xs leading-5 text-slate-500">
+                                    Manfred H. Stattkus; Claudio Monteverdi: <em>Verzeichnis der erhaltenen Werke (SV)</em>; Musikverlag Stattkus, 1985
+                                </p>
+                            )}
                             {catalogCode === 'KV' && (
                                 <a
                                     href={KV_API_URL}
