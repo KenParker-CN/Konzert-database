@@ -42,7 +42,7 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
             <CatalogueWorkspace catalogues={catalogues} currentCatalogue={code} locale={locale}>
                 <main className="min-h-full">
                     <div className="mx-auto max-w-300 px-5 py-4 lg:px-10 lg:py-5">
-                    <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-[minmax(0,3fr)_minmax(0,7fr)]">
+                    <div className="mt-4 flex flex-col gap-4">
                         <div className="flex min-w-0 flex-col gap-4">
                         <section className="flex min-w-0 flex-col justify-center rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
                             {catalogCode === 'KV' && <RefreshCatalogueWorksButton catalogCode={catalogCode}/>}
