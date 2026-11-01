@@ -27,7 +27,7 @@ export default async function GenreNamePage({params}: {params: Promise<{locale: 
             <main className="min-h-[calc(100dvh-4rem)]">
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
                     <InstrumentBreadcrumb items={[
-                        {label: t('navigation.catalogues'), href: localePath(locale, '/catalogues')},
+                        {label: t('navigation.genres'), href: localePath(locale, '/genres')},
                         {label: decodedCategory, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCategory)}`)},
                         {label: decodedType, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCategory)}/${encodeURIComponent(decodedType)}`)},
                         {label: entry.name},
