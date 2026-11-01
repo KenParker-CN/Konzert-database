@@ -34,12 +34,6 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
 
     const lifespan = [composer.startDate, composer.endDate].filter(Boolean).join('–') || null
     const composerDisplayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
-    const composerNameWidth = Array.from(composerDisplayName).reduce(
-        (width, character) => width + (/[\u2E80-\u9FFF\uF900-\uFAFF]/u.test(character) ? 1 : 0.52),
-        0,
-    )
-    const ComposerHeading = 'h2'
-
     const catalogueDisplayName = composer.catalogueName?.trim()
         || `${composer.nameSort?.split(',')[0]?.trim() || composer.name}'s works`
 
@@ -50,33 +44,6 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                     <div className="mx-auto max-w-300 px-5 py-4 lg:px-10 lg:py-5">
                     <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-[minmax(0,3fr)_minmax(0,7fr)]">
                         <div className="flex min-w-0 flex-col gap-4">
-                        <section className="flex min-w-0 flex-1 flex-col rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:max-h-[459.2px] sm:p-5">
-                            <div className="@container flex min-h-0 min-w-0 flex-1 flex-col">
-                                <ComposerHeading
-                                    className="heading whitespace-nowrap font-semibold leading-tight tracking-tight text-slate-950"
-                                    style={{
-                                        fontSize: `clamp(1rem, calc(100cqw / ${Math.max(composerNameWidth, 1)}), 1.875rem)`,
-                                    }}
-                                >
-                                    {composerDisplayName}
-                                </ComposerHeading>
-                                {(composer.nationalities.length > 0 || lifespan) && (
-                                    <div className="mt-1 flex flex-wrap items-center gap-2 text-sm text-slate-500">
-                                        {composer.nationalities.map(code => {
-                                            const flagCode = getCountryFlagCode(code)
-                                            return flagCode ? (
-                                                <span key={code} className={`fi fi-${flagCode}`} role="img" aria-label={`Nationality: ${code}`} title={code}>
-                                                </span>
-                                            ) : null
-                                        })}
-                                        {lifespan && <span>{lifespan}</span>}
-                                    </div>
-                                )}
-                                {composer.biography && (
-                                    <p className="mt-3 text-sm leading-6 text-slate-600">{composer.biography}</p>
-                                )}
-                            </div>
-                        </section>
                         <section className="flex min-w-0 flex-col justify-center rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
                             {catalogCode === 'KV' && <RefreshCatalogueWorksButton catalogCode={catalogCode}/>}
                             <h2 className="heading wrap-break-word text-base font-semibold leading-tight tracking-tight text-slate-900">
@@ -106,9 +73,29 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                         </section>
                         </div>
 
-                        <Suspense fallback={<WorksLoading label={t('works.loading')}/>}>
-                            <CatalogWorksPanel locale={locale} catalogCode={catalogCode}/>
-                        </Suspense>
+                        <div className="flex min-w-0 flex-col gap-4">
+                            <Suspense fallback={<WorksLoading label={t('works.loading')}/>}>
+                                <CatalogWorksPanel locale={locale} catalogCode={catalogCode}/>
+                            </Suspense>
+                            <section className="mt-2 border-t border-slate-200 pt-4 text-sm text-slate-500">
+                                <p className="font-medium text-slate-600">{composerDisplayName}</p>
+                                {(composer.nationalities.length > 0 || lifespan) && (
+                                    <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-slate-400">
+                                        {composer.nationalities.map(code => {
+                                            const flagCode = getCountryFlagCode(code)
+                                            return flagCode ? (
+                                                <span key={code} className={`fi fi-${flagCode}`} role="img" aria-label={`Nationality: ${code}`} title={code}>
+                                                </span>
+                                            ) : null
+                                        })}
+                                        {lifespan && <span>{lifespan}</span>}
+                                    </div>
+                                )}
+                                {composer.biography && (
+                                    <p className="mt-2 text-xs leading-5 text-slate-500">{composer.biography}</p>
+                                )}
+                            </section>
+                        </div>
                     </div>
                     </div>
                 </main>
