@@ -176,13 +176,19 @@ export async function getInstrumentRef(abbrev: string): Promise<InstrumentRef | 
 }
 
 export async function getInstrumentFamilies(locale: Locale) {
-    const index = await getInstrumentIndex()
+    const [index, rows] = await Promise.all([getInstrumentIndex(), getInstrumentRows()])
+    const wikiIDByName = new Map(rows.filter(row => row.wikiQID).map(row => [row.name.toLocaleLowerCase('en'), row.wikiQID]))
     return INSTRUMENTATION_ABBREVIATIONS.flatMap(group => {
         const items = group.items.flatMap(item => {
             const count = (index.get(item.abbrev) ?? []).reduce((sum, work) => sum + work.works.length, 0)
             return count > 0 ? [{abbrev: item.abbrev, label: item[locale], count}] : []
         })
-        return items.length > 0 ? [{key: group.key, label: group[locale], items}] : []
+        return items.length > 0 ? [{
+            key: group.key,
+            label: group[locale],
+            wikiID: wikiIDByName.get(group.en.toLocaleLowerCase('en')),
+            items,
+        }] : []
     })
 }
 

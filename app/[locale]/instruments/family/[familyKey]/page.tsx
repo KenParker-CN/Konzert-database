@@ -1,5 +1,6 @@
 import AppShell from '@/components/AppShell'
 import InstrumentBreadcrumb from '@/components/instruments/InstrumentBreadcrumb'
+import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import {getInstrumentFamilies} from '@/lib/db/instruments'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
@@ -31,6 +32,7 @@ export default async function InstrumentFamilyPage({params}: {params: Promise<{l
                     <header className="mb-8">
                         <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950">{family.label}</h1>
                         <p className="mt-2 text-sm font-medium text-slate-600">{t('instruments.count', {count: family.items.length})}</p>
+                        <GenreIntroduction wikiID={family.wikiID} locale={locale}/>
                     </header>
                     <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                         {family.items.map(item => (
