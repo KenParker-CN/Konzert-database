@@ -24,7 +24,7 @@
     "count": "{count} Instrumente",
     "back": "Alle Instrumente",
     "showing": "{shown} von {total} angezeigt",
-    "parent": "Übergeordnetes Instrument"
+    "seeAlso": "Siehe auch"
   },
   "theme": {
     "label": "Design",

@@ -24,7 +24,7 @@
     "count": "{count} instruments",
     "back": "Tous les instruments",
     "showing": "{shown} sur {total} affichées",
-    "parent": "Instrument parent"
+    "seeAlso": "Voir aussi"
   },
   "theme": {
     "label": "Thème",

@@ -17,7 +17,7 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
     const ref = await getInstrumentRef(code)
     if (!ref) notFound()
 
-    const parent = ref.parentAbbrev ? await getInstrumentRef(ref.parentAbbrev) : undefined
+    const related = ref.relatedAbbrev ? await getInstrumentRef(ref.relatedAbbrev) : undefined
 
     const [{t}, relatedWorkGroups] = await Promise.all([
         getI18n(locale),
@@ -35,11 +35,11 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
                     ]}/>
                     <article className="border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
                         <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">{ref.item[locale]}</h1>
-                        {parent && (
+                        {related && (
                             <p className="mt-2 text-sm text-slate-600">
-                                {t('instruments.parent')}:{' '}
-                                <Link href={localePath(locale, `/instruments/${encodeURIComponent(parent.item.abbrev)}`)} className="font-medium text-blue-600 hover:underline">
-                                    {parent.item[locale]}
+                                {t('instruments.seeAlso')}:{' '}
+                                <Link href={localePath(locale, `/instruments/${encodeURIComponent(related.item.abbrev)}`)} className="font-medium text-blue-600 hover:underline">
+                                    {related.item[locale]}
                                 </Link>
                             </p>
                         )}

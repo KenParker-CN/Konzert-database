@@ -24,7 +24,7 @@
     "count": "{count} 种乐器",
     "back": "全部乐器",
     "showing": "显示 {shown} / {total}",
-    "parent": "上级乐器"
+    "seeAlso": "另见"
   },
   "theme": {
     "label": "主题",

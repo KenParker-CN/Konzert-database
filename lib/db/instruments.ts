@@ -15,12 +15,12 @@ export type InstrumentRef = {
     group: InstrumentationAbbrevGroup
     item: InstrumentationAbbrev
     wikiID?: string
-    parentAbbrev?: string
+    relatedAbbrev?: string
 }
 
 type InstrumentLink = {
     wikiID?: string
-    parentAbbrev?: string
+    relatedAbbrev?: string
 }
 
 type IndexedWorkGroup = Omit<GenreRelatedWorkGroup, 'composerName'> & {
@@ -152,7 +152,7 @@ async function buildInstrumentLinks(): Promise<Map<string, InstrumentLink>> {
         if (!row.abbr) continue
         links.set(row.abbr, {
             wikiID: row.wikiQID || undefined,
-            parentAbbrev: abbrByName.get(row.relatedTo.toLocaleLowerCase('en')),
+            relatedAbbrev: abbrByName.get(row.relatedTo.toLocaleLowerCase('en')),
         })
     }
     return links
@@ -172,7 +172,7 @@ export async function getInstrumentRef(abbrev: string): Promise<InstrumentRef | 
     const ref = instrumentByAbbrev.get(abbrev)
     if (!ref) return undefined
     const link = (await getInstrumentLinks()).get(abbrev)
-    return {...ref, wikiID: link?.wikiID, parentAbbrev: link?.parentAbbrev}
+    return {...ref, wikiID: link?.wikiID, relatedAbbrev: link?.relatedAbbrev}
 }
 
 export async function getInstrumentFamilies(locale: Locale) {
