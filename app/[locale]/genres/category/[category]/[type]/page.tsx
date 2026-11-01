@@ -1,4 +1,5 @@
 import AppShell from '@/components/AppShell'
+import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import InstrumentBreadcrumb from '@/components/instruments/InstrumentBreadcrumb'
 import {getGenreCsvEntries} from '@/lib/data/csv-loader'
 import {getI18n} from '@/lib/i18n/server'
@@ -24,6 +25,7 @@ export default async function GenreTypePage({params}: {params: Promise<{locale: 
         notFound()
     }
 
+    const typeEntry = entries.find(e => (e.inCategory || 'Other') === decodedCat && !e.typeOf && e.name === decodedType)
     const {t} = await getI18n(locale)
 
     return (
@@ -38,6 +40,7 @@ export default async function GenreTypePage({params}: {params: Promise<{locale: 
                     <header className="mb-8">
                         <h1 className="heading mt-2 text-3xl font-semibold tracking-tight text-slate-950">{decodedType}</h1>
                     </header>
+                    <GenreIntroduction wikiID={typeEntry?.wikiQID} locale={locale}/>
                     <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                         {items.map(entry => (
                             <li key={entry.wikiQID || entry.name}>
