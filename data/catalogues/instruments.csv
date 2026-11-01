@@ -1,60 +1,61 @@
 WikiQID,Name,abbr,RelatedTo,TypeOf
-,Bass Viol,,,Bowed String
-,Bowed Strings,,,String
-,Brass,,,Wind
-,Clavichord,clav,,Struck String
-,Double Bass,db,,Bowed String
-,Flute,fl,,Woodwind
-,Horn,hn,,Brass
-,Oboe,ob,,Woodwind
-,Organ,org,,Keyboard
-,Piano,pno,,Struck String
-,Plucked Strings,,,String
-,Serpent,,,Brass
-,Strings,str,,
-,Struck Strings,,,String
-,Trombone,tbn,,Brass
-,Trumpet,tpt,,Brass
-,Tuba,tb,,Brass
-,Viola,vla,,Bowed String
-,Violin,vln,,Bowed String
-,Violoncello,vlc,,Bowed String
-,Woodwind,,,Wind
-,Bass Clarinet,bcl,Clarinet,Woodwind
-,Contrabass Clarinet,dbcl,Clarinet,Woodwind
-,Sopranino Clarinet,,Clarinet,Woodwind
-,Soprano Clarinet,,Clarinet,Woodwind
-,Piccolo,picc,Flute,Woodwind
-,Recorder,rec,Flute,Woodwind
-,Transvers Flute,,Flute,Woodwind
-,French Horn,hn,Horn,Brass
-,Natural Horn,,Horn,Brass
-,English Horn,corA,Oboe,Woodwind
-,Oboe d'Amore,,Oboe,Woodwind
-,Fortepiano,pf,Piano,Keyboard
-,Alto Trombone,Atrb,Trombone,Brass
-,Bass Trombone,Btrb,Trombone,Brass
-,Cornet,,Trumpet,Brass
-,Natural Trumpet,,Trumpet,Brass
-,Viola d'Amore,,Viola,Bowed String
-,Bass Drum,BD,,Percussion
-,Bassoon,,,Woodwind
-,Bongos,,,Percussion
-,Castanets,,,Percussion
-,Celesta,cel,,Keyboard
-,Clarinet,cl,,Woodwind
-,Cornett,,,Brass
-,Cymbals,cyms,,Percussion
-,Glockenspiel,glsp,,Percussion
-,Harpsichord,hpd,,Keyboard
-,Keyboard,keyb,,
-,Marimba,,,Percussion
-,Percussion,perc,,
-,Saxophone,sax,,Woodwind
-,Snare Drum,SD,,Percussion
-,Tam-tam,tam-t,,Percussion
-,Timpani,timp,,Percussion
-,Tom-tom,tom-t,,Percussion
-,Triangle,tgl,,Percussion
-,Vibraphone,vib,,Percussion
-,Xylophone,xyl,,Percussion
+Q1829398,Alto Trombone,Atrb,Trombone,Brass
+Q8345,Bass Clarinet,bcl,Clarinet,Woodwind
+Q211028,Bass Drum,BD,,Percussion
+Q10426885,Bass Trombone,Btrb,Trombone,Brass
+Q320341,Celesta,cel,,Keyboard
+Q8343,Clarinet,cl,,Woodwind
+Q191823,Clavichord,clav,,Struck String
+Q185041,English Horn,corA,Oboe,Woodwind
+Q190172,Cymbal,cyms,,Percussion
+Q80019,Double Bass,db,,Bowed String
+Q2731509,Contrabass Clarinet,dbcl,Clarinet,Woodwind
+Q11405,Flute,fl,,Woodwind
+Q626035,Glockenspiel,glsp,,Percussion
+Q163759,Horn,hn,,Brass
+Q163759,French Horn,hn,Horn,Brass
+Q81982,Harpsichord,hpd,,Keyboard
+Q52954,Keyboard,keyb,,
+Q8377,Oboe,ob,,Woodwind
+Q1444,Organ,org,,Keyboard
+Q133163,Percussion,perc,,
+Q1521313,Fortepiano,pf,Piano,Keyboard
+Q83509,Piccolo,picc,Flute,Woodwind
+Q5994,Piano,pno,,Struck String
+Q187851,Recorder,rec,Flute,Woodwind
+Q9798,Saxophone,sax,,Woodwind
+Q208421,Snare Drum,SD,,Percussion
+Q1798603,Strings,str,,
+Q3216262,Tam-tam,tam-t,,Percussion
+Q131168,Tuba,tb,,Brass
+Q8350,Trombone,tbn,,Brass
+Q201735,Triangle,tgl,,Percussion
+Q189737,Timpani,timp,,Percussion
+Q849349,Tom-tom,tom-t,,Percussion
+Q8338,Trumpet,tpt,,Brass
+Q206987,Vibraphone,vib,,Percussion
+Q80284,Viola,vla,,Bowed String
+Q8371,Violoncello,vlc,,Bowed String
+Q8355,Violin,vln,,Bowed String
+Q165666,Xylophone,xyl,,Percussion
+Q1366388,Sopranino Clarinet,,Clarinet,Woodwind
+Q159998,Bassoon,,,Woodwind
+Q1662735,Natural Trumpet,,Trumpet,Brass
+Q16875637,Transvers Flute,,Flute,Woodwind
+Q1757829,Natural Horn,,Horn,Brass
+Q180744,Brass,,,Wind
+Q181247,Woodwind,,,Wind
+Q183932,Castanets,,,Percussion
+Q192096,Bowed Strings,,,String
+Q202027,Cornet,,Trumpet,Brass
+Q204638,Cornett,,,Brass
+Q220971,Marimba,,,Percussion
+Q230262,Plucked Strings,,,String
+Q243998,Bongos,,,Percussion
+Q3152898,Struck Strings,,,String
+Q51446928,Bass Viol,,,Bowed String
+Q742168,Serpent,,,Brass
+Q742180,Viola d'Amore,,Viola,Bowed String
+Q7563204,Soprano Clarinet,,Clarinet,Woodwind
+Q83513,Contrabassoon,,Bassoon,Woodwind
+Q8380,Oboe d'Amore,,Oboe,Woodwind
