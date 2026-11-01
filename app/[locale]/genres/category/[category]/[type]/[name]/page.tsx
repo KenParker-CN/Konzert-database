@@ -29,7 +29,7 @@ export default async function GenreNamePage({params}: {params: Promise<{locale: 
                     <InstrumentBreadcrumb items={[
                         {label: t('navigation.genres'), href: localePath(locale, '/genres')},
                         {label: decodedCategory, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCategory)}`)},
-                        {label: decodedType, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCategory)}/${encodeURIComponent(decodedType)}`)},
+                        ...(decodedType === 'Other' ? [] : [{label: decodedType, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCategory)}/${encodeURIComponent(decodedType)}`)}]),
                         {label: entry.name},
                     ]}/>
                     <header className="mb-8">
