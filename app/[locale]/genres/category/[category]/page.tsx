@@ -62,7 +62,7 @@ export default async function GenreCategoryPage({params}: {params: Promise<{loca
                                 {looseItems.map(entry => (
                                     <li key={entry.wikiQID || entry.name}>
                                         <Link
-                                            href={localePath(locale, `/genres/category/${encodeURIComponent(decoded)}/Other/${encodeURIComponent(entry.name)}`)}
+                                            href={localePath(locale, `/genres/category/${encodeURIComponent(decoded)}/${encodeURIComponent(entry.name)}`)}
                                             className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
                                         >
                                             <span className="heading text-base font-semibold text-slate-900">{entry.name}</span>
