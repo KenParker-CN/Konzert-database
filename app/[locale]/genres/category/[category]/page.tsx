@@ -28,7 +28,7 @@ export default async function GenreCategoryPage({params}: {params: Promise<{loca
         return acc
     }, {})
     const typeGroups = Object.keys(sub).filter(type => type !== 'Other')
-    const looseItems = sub.Other ?? []
+    const looseItems = (sub.Other ?? []).filter(e => !typeGroups.includes(e.name))
 
     return (
         <AppShell active="genres">
