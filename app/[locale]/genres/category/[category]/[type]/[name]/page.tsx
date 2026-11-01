@@ -13,6 +13,8 @@ export default async function GenreNamePage({params}: {params: Promise<{locale: 
     if (!isLocale(locale)) notFound()
 
     const entries = await getGenreCsvEntries()
+    const decodedCategory = decodeURIComponent(category)
+    const decodedType = decodeURIComponent(type)
     const decodedName = decodeURIComponent(name)
     const entry = entries.find(e => e.name === decodedName)
 
@@ -26,8 +28,8 @@ export default async function GenreNamePage({params}: {params: Promise<{locale: 
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
                     <InstrumentBreadcrumb items={[
                         {label: t('navigation.catalogues'), href: localePath(locale, '/catalogues')},
-                        {label: category, href: localePath(locale, `/genres/category/${encodeURIComponent(category)}`)},
-                        {label: type, href: localePath(locale, `/genres/category/${encodeURIComponent(category)}/${encodeURIComponent(type)}`)},
+                        {label: decodedCategory, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCategory)}`)},
+                        {label: decodedType, href: localePath(locale, `/genres/category/${encodeURIComponent(decodedCategory)}/${encodeURIComponent(decodedType)}`)},
                         {label: entry.name},
                     ]}/>
                     <header className="mb-8">
