@@ -9,17 +9,17 @@ Q4851628,Stage Work,Ballet,Ballet
 Q122034643,Stage Work,Ballet de cour,Ballet
 Q174873,Vocal,Cantata,
 Q876812,Instrumental,Capriccio,
-Q1735204,Orchestral,Cassation,
+Q1735204,Instrumental,Cassation,
 Q41270,Vocal,Cavatina,
-Q871420,Orchestral,Cello Concerto,Concerto
-Q857538,Chamber Music,Cello Sonata,Sonata
+Q871420,Instrumental,Cello Concerto,Concerto
+Q857538,Instrumental,Cello Sonata,Sonata
 Q841238,,Chaconne,Dance
 Q1123381,Stage Work,Comédie-ballet,Ballet
 Q13220650,Stage Work,Comic Opera,Opera
 Q5158512,Vocal,Concert Aria,Aria
-Q9748,Orchestral,Concerto,
-Q210216,Orchestral,Concerto grosso,Concerto
-Q647653,Orchestral,Divertimento,
+Q9748,Instrumental,Concerto,
+Q210216,Instrumental,Concerto grosso,Concerto
+Q647653,Instrumental,Divertimento,
 Q1255726,Stage Work,Dramma giocoso,Opera
 Q2895961,Stage Work,Dramma per musica,Opera
 Q207841,Instrumental,Étude,
@@ -27,7 +27,7 @@ Q836571,Instrumental,Fantasia,
 Q181014,Instrumental,Fugue,
 Q484692,Vocal,Hymn,
 Q852027,Instrumental,Impromptu,
-Q1147752,Orchestral,Incidental Music,
+Q1147752,Instrumental,Incidental Music,
 Q216860,Vocal,Lied,Art Song
 Q193217,Vocal,Madrigal,
 Q200809,Vocal,Magnificat,
@@ -48,43 +48,43 @@ Q1084127,Stage Work,Opéra-ballet,Ballet
 Q170384,Stage Work,Operetta,Opera
 Q85477,Vocal,Oratorio,
 Q202287,Instrumental,Overture,
-,Orchestral,Overture-Suite,Suite
+,Instrumental,Overture-Suite,Suite
 Q388383,Instrumental,Partita,
 Q752329,Instrumental,Passacaglia,
 Q781815),Vocal,Passion,Oratorio
 Q674448,Stage Work,Pasticcio,Opera
-Q1746028,Orchestral,Piano Concerto,Concerto
+Q1746028,Instrumental,Piano Concerto,Concerto
 Q1546995,Instrumental,Piano Sonata,Sonata
-Q1414262,Chamber Music,Piano Trio,Trio
+Q1414262,Instrumental,Piano Trio,Trio
 Q11821942,,Polonaise,Dance
 Q212148,Instrumental,Prelude,
 Q12497663,Vocal,Psalm,
-Q1135557,Chamber Music,Quartet,
-Q389888,Chamber Music,Quintet,
+Q1135557,Instrumental,Quartet,
+Q389888,Instrumental,Quintet,
 Q51616,Vocal,Requiem,Mass
 Q13323,,Rondo,Dance
 Q2140240,Stage Work,Semi-opera,Opera
-Q215911,Orchestral,Serenade,
+Q215911,Instrumental,Serenade,
 Q18071186,Stage Work,Serenata,Opera
-Q377141,Orchestral,Sinfonia,Symphony
-Q1136846,Orchestral,Sinfonia concertante,Concerto
-Q15077165,Orchestral,Sinfonietta,Symphony
+Q377141,Instrumental,Sinfonia,Symphony
+Q1136846,Instrumental,Sinfonia concertante,Concerto
+Q15077165,Instrumental,Sinfonietta,Symphony
 Q377258,Stage Work,Singspiel,Opera
 Q131269,Instrumental,Sonata,
-Q1045984,Chamber Music,Sonatina,Sonata
-Q11487510,Chamber Music,String Quartet,Quartet
-Q937364,Chamber Music,String Quintet,Quintet
-Q923298,Chamber Music,String Trio,Trio
+Q1045984,Instrumental,Sonatina,Sonata
+Q11487510,Instrumental,String Quartet,Quartet
+Q937364,Instrumental,String Quintet,Quintet
+Q923298,Instrumental,String Trio,Trio
 Q203005,Instrumental,Suite,
-Q9734,Orchestral,Symphony,
+Q9734,Instrumental,Symphony,
 Q743376,Vocal,Te Deum,
 Q140544,Instrumental,Toccata,
 Q908705,Stage Work,Tragédie en musique,Opera
-Q29596700,Chamber Music,Trio,
-Q903425,Chamber Music,Trio Sonata,Sonata
+Q29596700,Instrumental,Trio,
+Q903425,Instrumental,Trio Sonata,Sonata
 Q214981,Instrumental,Variations,
 Q827135,Vocal,Vesper,
-Q715123,Orchestral,Viola Concerto,Concerto
-Q633441,Orchestral,Violin Concerto,Concerto
-Q7933385,Chamber Music,Violin Sonata,Sonata
+Q715123,Instrumental,Viola Concerto,Concerto
+Q633441,Instrumental,Violin Concerto,Concerto
+Q7933385,Instrumental,Violin Sonata,Sonata
 Q8701407,,Waltz,Dance
