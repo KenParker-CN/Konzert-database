@@ -4,7 +4,7 @@ import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import {IconArrowUpRight} from '@tabler/icons-react'
 import Link from 'next/link'
-import {notFound} from 'next/navigation'
+import {notFound, redirect} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
 
@@ -17,7 +17,11 @@ export default async function GenreTypePage({params}: {params: Promise<{locale: 
     const decodedType = decodeURIComponent(type)
     const items = entries.filter(e => (e.inCategory || 'Other') === decodedCat && (e.typeOf || 'Other') === decodedType)
 
-    if (items.length === 0) notFound()
+    if (items.length === 0) {
+        const untyped = entries.find(e => (e.inCategory || 'Other') === decodedCat && !e.typeOf && e.name === decodedType)
+        if (untyped) redirect(localePath(locale, `/genres/category/${encodeURIComponent(decodedCat)}/Other/${encodeURIComponent(untyped.name)}`))
+        notFound()
+    }
 
     const {t} = await getI18n(locale)
 
