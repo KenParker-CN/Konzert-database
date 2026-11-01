@@ -654,3 +654,17 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
         };
     });
 }
+
+export type GenreCsvEntry = { wikiQID: string; inCategory: string; name: string; typeOf: string }
+
+export async function getGenreCsvEntries(): Promise<GenreCsvEntry[]> {
+    const response = await fetchCsv('genres.csv')
+    const csvContent = await response.text()
+    return parseCsvRecords(csvContent).map(row => ({
+        wikiQID: row.WikiQID,
+        inCategory: row.inCategory,
+        name: row.Name,
+        typeOf: row.TypeOf,
+    }))
+}
+

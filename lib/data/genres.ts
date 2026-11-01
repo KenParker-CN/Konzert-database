@@ -22,6 +22,7 @@ export type GenreCategoryNode = GenreNavNode & {
 
 export type GenreCategory = GenreCategoryNode
 
+// DEPRECATED: hardcoded tree; migrate to CSV-backed loader in csv-loader.ts.
 const genreCategoryTree: readonly GenreCategoryNode[] = [
     {
         id: 'stage',
