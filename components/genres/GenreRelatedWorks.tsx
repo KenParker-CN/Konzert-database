@@ -18,6 +18,7 @@ type RelatedWorkRow = {
     work: ComposerWork
     title: string
     composerName: string
+    composerHref: string
     catalogueName: string
     catalogueHref: string
     catalogue: string
@@ -33,6 +34,7 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
         work,
         title: locale === 'de' ? work.details['German title'] || work.title : work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
         composerName: group.composerName,
+        composerHref: localePath(locale, `/composers/${encodeURIComponent(group.composerSlug)}`),
         catalogueName: group.catalogueName,
         catalogueHref: localePath(locale, `/catalogues/${encodeURIComponent(group.catalogue)}`),
         catalogue: group.catalogue,
@@ -77,7 +79,7 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
             </div>
 
             <ul>
-                {pageRows.map(({key, work, title, composerName, catalogueName, catalogueHref, catalogue}) => (
+                {pageRows.map(({key, work, title, composerName, composerHref, catalogueName, catalogueHref, catalogue}) => (
                     <li key={key} className={`${rowGrid} border-b border-slate-100 px-6 py-3 last:border-0 hover:bg-blue-50/50`}>
                         <WorkDetailsDialog
                             work={work}
@@ -94,11 +96,11 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
                             <span className="truncate">{title}</span>
                         </WorkDetailsDialog>
                         <div className="col-span-2 mt-1 flex min-w-0 flex-wrap gap-x-2 text-xs text-slate-500 sm:hidden">
-                            <span>{composerName}</span>
+                            <Link href={composerHref} className="truncate hover:text-blue-700">{composerName}</Link>
                             <span aria-hidden="true">·</span>
                             <Link href={catalogueHref} className="truncate hover:text-blue-700">{catalogueName}</Link>
                         </div>
-                        <span className="hidden truncate text-sm text-slate-700 sm:block">{composerName}</span>
+                        <Link href={composerHref} className="hidden truncate text-sm text-slate-700 hover:text-blue-700 sm:block">{composerName}</Link>
                         <Link href={catalogueHref} className="hidden truncate text-sm text-slate-700 hover:text-blue-700 sm:block">{catalogueName}</Link>
                     </li>
                 ))}
