@@ -112,7 +112,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 3. Andante cantabile (si bémol majeur)
 4. Rondo. Allegro ma non troppo","Piano, Oboe, Clarinet, Horn, Bassoon"
 16 ,op. 16a,,"Grand Quintetto, Piano Quartet reduction",,Quartet,E-flat major,,"Piano, Violin, Viola, Cello"
-17 ,op. 17,Q5903984,,Sonate pour le Forte-Piano avec un Cor ou Violoncelle,Sonata,F major,"1. Allegro moderato
+17 ,op. 17,Q5903984,,Sonate pour le Forte-Piano avec un Cor ou Violoncelle,,F major,"1. Allegro moderato
 2. Poco Adagio, quasi Andante (fa mineur)
 3. Rondo. Allegro moderato","Piano, Horn/Viola/Cello"
 18 ,op. 18,Q3927115,6 String Quartets,,Quartet,,,"2 Violins, Viola, Cello"
@@ -257,7 +257,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 16. Allegretto (mi bémol majeur)",
 43 ,op. 43a,,,,Overture,C major,"1. Adagio
 2. Allegro molto con brio","2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso"
-44 ,op. 44,,"14 Variations on ""Ja, ich muß mich von ihr Scheiden""",,Keyboard Variations,E-flat major,,"Piano, Violin, Cello"
+44 ,op. 44,Q3554775,"14 Variations on ""Ja, ich muß mich von ihr Scheiden""",,Keyboard Variations,E-flat major,,"Piano, Violin, Cello"
 45 ,op. 45,,3 Marches,"Trois Grandes Marches pour le Pianoforte, à quatre mains",March,,,Piano Four Hands
 45 ,op. 45/1,,3 Marches #1,,March,C major,Allegro ma non troppo - Trio,Piano Four Hands
 45 ,op. 45/2,,3 Marches #2,,March,E-flat major,Vivace - Trio,Piano Four Hands
@@ -284,14 +284,14 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 51 ,op. 51/1,Q80790579,Rondo,,Rondo,C major,Moderato e grazioso,Piano
 51 ,op. 51/2,Q80790580,Rondo,,Rondo,G major,Andante cantabile e grazioso,Piano
 52 ,op. 52,,8 Songs,Acht Lieder mit Begleitung des Claviers,Lied,,,"Voice, Piano"
-52 ,op. 52/1,,Urians Reise um die Welt,"""Wenn jemand eine Reise tut""",,,,
+52 ,op. 52/8,,Das Blümchen Wunderhold,"""Es blüht ein Blümchen irgendwo""",,,,
+52 ,op. 52/7,Q4446617,Marmotte,"""Ich komme schon durch manches Land""",,,,
 52 ,op. 52/2,,Feuerfarb',"""Ich weiß eine Farbe""",,,,
 52 ,op. 52/3,,Das Liedchen von der Ruhe,"""Im Arm der Liebe ruht sich's wohl""",,,,
-52 ,op. 52/4,,Mailied,"""Wie herrlich leuchtet mir dir Natur""",,,,
 52 ,op. 52/5,,Mollys Abschied,"""Lebe wohl, du Mann""",,,,
 52 ,op. 52/6,,Lied,"""Lebe wohl, du Mann""",,,,
-52 ,op. 52/7,Q4446617,Marmotte,"""Ich komme schon durch manches Land""",,,,
-52 ,op. 52/8,,Das Blümchen Wunderhold,"""Es blüht ein Blümchen irgendwo""",,,,
+52 ,op. 52/1,,Urians Reise um die Welt,"""Wenn jemand eine Reise tut""",,,,
+52 ,op. 52/4,,Mailied,"""Wie herrlich leuchtet mir dir Natur""",,,,
 53 ,op. 53,Q146535,,"Piano Sonata No. 21 ""Waldstein"" / ""L’Aurore""",Sonata,C major,"1. Allegro con brio
 2. Introduzione. Adagio molto (fa majeur)
 3. Rondo. Allegretto moderato",Piano
@@ -328,15 +328,15 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 2. Adagio (mi bémol majeur)
 3. Allegro vivace
 4. Allegro ma non troppo","Flute, 2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons, Trumpet, Timpani, 2 Violins, Viola, Cello, Basso"
-61 ,op. 61,,,,Concerto,D major,"1. Allegro ma non troppo
+61 ,op. 61,Q787378,,Violin Concerto,Concerto,D major,"1. Allegro ma non troppo
 2. Larghetto (sol majeur)
 3. Rondo","Violin, Flute, 2 Oboes, 2 Clarinets, Horn, Bassoon, Trumpet, Timpani, 2 Violins, Viola, Cello, Basso"
 61 ,op. 61a,,"transcription of the Concerto, op. 61",,Concerto,D major,,"Piano, Orchestra"
-62 ,op. 62,,"Overture to ""Coriolanus"" by H. J. Von Collin",,Overture,C minor,Allegro con brio,"2 Flutes, 2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons, Trumpet, Timpani, 2 Violins, Viola, Cello, Basso"
+62 ,op. 62,Q1132968,"Overture to ""Coriolanus"" by H. J. Von Collin",,Overture,C minor,Allegro con brio,"2 Flutes, 2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons, Trumpet, Timpani, 2 Violins, Viola, Cello, Basso"
 63 ,op. 63,,arrangement of the String Quintet op. 4,,Trio,E-flat major,,"Piano, Violin, Cello"
 64 ,op. 64,,Transcription of the Trio op. 3,,Sonata,E-flat major,,"Piano, Cello"
-65 ,op. 65,,"""Ah, Perfido!""",,Aria,,"1. Ah! perfido! Allegro con brio (sol majeur)
-2. Per pieta, non dirmi addio Arie - Adagio (mi bémol majeur)","Soprano, Orchestra"
+65 ,op. 65,Q5661015,"""Ah, Perfido!""",,Concert Aria,C major,"1. Ah! perfido! Allegro con brio (C)
+2. Per pieta, non dirmi addio Arie - Adagio (Eb)","Soprano, Orchestra"
 66 ,op. 66,,"12 Variations on ""Ein Mädchen oder Weibchen"" from ""Die Zauberflote"" by Mozart",,Keyboard Variations,F major,,"Piano, Cello"
 67 ,op. 67,Q188709,Symphony No. 5,,Symphony,C minor,"1. Allegro con brio
 2. Andante con moto (la bémol majeur)
@@ -352,11 +352,11 @@ Allegro
 Allegro (fa mineur)
 5. Hirtengesang. Frohe und dankbare Gefuhle nach dem Sturm
 Allegretto","2 Flutes, Piccolo, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, 2 Trombone, Timpani, 2 Violins, 2 Violas, Cello, Double Bass"
-69 ,op. 69,Q1053087,,,Sonata,A major,"1. Allegro ma non tanto
+69 ,op. 69,Q1053087,,Cello Sonata No. 3,Sonata,A major,"1. Allegro ma non tanto
 2. Scherzo. Allegro molto (la mineur)
 3. Adagio cantabile (mi majeur)
 4. Allegro vivace","Piano, Cello"
-70 ,op. 70,,2 Trios,,Trio,,,"Piano, Violin, Cello"
+70 ,op. 70,Q1410089,2 Trios,"Deux Trios pour Pianoforte, Violon et Violoncelle",Trio,,,"Piano, Violin, Cello"
 70 ,op. 70/1,Q1338933,"2 Trios #1 ""Ghost Trio""",,Trio,D major,"1. Allegro vivace e con brio
 2. Largo assai (ré mineur)
 3. Presto",
@@ -397,7 +397,7 @@ Allegro ma non troppo (do majeur) / Récitatif / Allegro vivace (sol majeur)
 18. Finale (Marzelline, Jaquino, Fernando, Rocco et choeur): Wer ein holdes Weib errungen
 Allegro molto (do mineur) / Maestoso vivace (do majeur)
 Supplément (autre version de l'air # 1): O ""war' ich schon mit dir vereint"" Andante con moto (do majeur)","Soloists, Choir, Orchestra"
-72 ,op. 72b,Q193778,Fidelio (3rd version),,,,"0. Ouverture # 4, en mi majeur, pour orchestre (Allegro / Adagio)
+72 ,op. 72b,Q193778,Fidelio (3rd version),,Opera,,"0. Ouverture # 4, en mi majeur, pour orchestre (Allegro / Adagio)
 1. Duet (Marzelline, Jaquino): Jetzt, Schatzchen, jetzt sind wir allein
 Allegro (la majeur)
 
@@ -448,32 +448,32 @@ Allegro vivace (do majeur) / Allegro ma non troppo)","Soloists, Choir, Orchestra
 73 ,op. 73,Q239700,"Concerto No. 5 ""Emperor""",,Concerto,E-flat major,"1. Allegro
 2. Adagio un poco mosso (si majeur)
 3. Rondo. Allegro","Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 4 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Double Bass"
-74 ,op. 74,,"Quartet ""Harp""",,Quartet,E-flat major,"1. Poco Adagio
+74 ,op. 74,Q164658,"Quartet ""Harp""","String Quartet No. 10  ""Harp""",Quartet,E-flat major,"1. Poco Adagio
 2. Allegro (do majeur)
 3. Adagio ma non troppo (la bémol majeur)
 4. Presto (do mineur)
 5. Allegretto con variazioni","2 Violins, Viola, Cello"
-75 ,op. 75,,6 Lieder/Gesänge,,Lied,,,"Voice, Piano"
+75 ,op. 75,,6 Gesänge,,Lied,,,"Voice, Piano"
 76 ,op. 76,,6 Variations on an Original Theme,,Keyboard Variations,D major,,Piano
-77 ,op. 77,,Fantasia,,Fantasia,G minor,,Piano
-78 ,op. 78,Q146631,,,Sonata,F-sharp major,"1. Adagio cantabile
+77 ,op. 77,Q3066527,Fantasia,,Fantasia,G minor,,Piano
+78 ,op. 78,Q146631,,Piano Sonata No. 24,Sonata,F-sharp major,"1. Adagio cantabile
 2. Allegro ma non troppo (do majeur)
 3. Allegro assai",Piano
-79 ,op. 79,,"Sonata ""Sonatina""",,Sonata,G major,"1. Presto alla tedesca
+79 ,op. 79,,"Sonata ""Sonatina""","Piano Sonata No. 25 ""Cuckoo"" / ""Sonatina""",Sonata,G major,"1. Presto alla tedesca
 2. Andante espressivo (sol mineur)
 3. Vivace",Piano
 80 ,op. 80,Q1122361,Choral Fantasy,,Fantasia,C minor,"1. Adagio / Allegro
 2. Meno Allegro (do majeur
 3. Allegretto ma non troppo (do majeur) Choeur: Schmeichelnd hold","Piano, Choir, Orchestra"
-81 ,op. 81a,,"Sonata ""Les Adieux""",,Sonata,B-flat major,"1. Das Lebewohl [Adagio / Allegro]
+81 ,op. 81a,Q146669,"Sonata ""Les Adieux""","Piano Sonata No. 26 ""Les Adieux""",Sonata,B-flat major,"1. Das Lebewohl [Adagio / Allegro]
 2. Die Abwesenheit [In gehender Bewegung] (do mineur)
 3. Das Wiedersehn [Im lebhaftesten Zeitmasse]",Piano
-81 ,op. 81b,Q25212005,,,Sextet,E-flat major,"1. Allegro con brio
+81 ,op. 81b,Q25212005,,Sextet for Horns and String Quartet,Sextet,E-flat major,"1. Allegro con brio
 2. Adagio (la bémol majeur)
 3. Rondo. Allegro","2 Horns, 2 Violins, Viola, Cello"
-82 ,op. 82,,4 Ariettes and a Duet,,Aria,,,"Voice, Piano"
+82 ,op. 82,,Vier Arietten und ein Duett,,Aria,,,"Voice, Piano"
 83 ,op. 83,,3 Songs on Texts by Goethe,,Lied,,,"Voice, Piano"
-84 ,op. 84,,Egmont,,Incidental Music,,"0. Ouverture, en fa mineur, pour orchestre
+84 ,op. 84,Q1156413,Egmont,,Incidental Music,,"0. Ouverture, en fa mineur, pour orchestre
 Sostenuto, ma non troppo / Allegro
 
 1. Lied: Die Trommel geruhret (Vivace, fa mineur)
@@ -485,7 +485,7 @@ Sostenuto, ma non troppo / Allegro
 7. Mort de Clarchen: Larghetto (ré mineur)
 8. Mélodrame: Poco sostenuto (mi bémol majeur)
 9. Symphonie de la victoire: Allegro con brio (fa majeur)",
-85 ,op. 85,,Christus am Oelberge,,Oratorio,,"1. Introduction, récitatif et air (Jésus): Jehovah, du mein Vater / Meine Seele ist erschuttert
+85 ,op. 85,Q1087216,Christus am Oelberge,,Oratorio,,"1. Introduction, récitatif et air (Jésus): Jehovah, du mein Vater / Meine Seele ist erschuttert
 Grave (mi bémol mineur) / Adagio (do majeur) / Récitatif / Allegro (do majeur)
 
 2. Récitatif et air (Séraphin): Erzittre Erde! / Preist des Erlosers Gute / O Heil euch!
@@ -519,9 +519,9 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 4. Presto","2 Oboes, English Horn"
 88 ,op. 88,,Das Glück der Freundschaft,,Lied,,Andante quasi allegretto,"Voice, Piano"
 89 ,op. 89,Q24869544,Polonaise,,Dance,C major,"Alla Polacca, vivace",Piano
-90 ,op. 90,,,,Sonata,E minor,"1. Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck
+90 ,op. 90,Q146692,,Piano Sonata No. 27,Sonata,E minor,"1. Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck
 2. Nicht zu geschwind und seht singbar vorzutragen (mi majeur)",Piano
-91 ,op. 91,,"Wellingtons Sieg, oder Die Schlacht bei Vittoria",,,,"1. Abtheilung. Marcia: Rule Britania (mi bémol majeur)
+91 ,op. 91,Q1317902,"Wellingtons Sieg, oder Die Schlacht bei Vittoria",,Symphony,,"1. Abtheilung. Marcia: Rule Britania (mi bémol majeur)
 2. Abtheilung. Marcia: Marlborough (do majeur)
 3. Schlacht. Allegro (si majeur)
 4. Sieges Symphonie. Intrada. Allegro ma non troppo (ré majeur)
@@ -536,27 +536,27 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 4. Allegro vivace","2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso"
 94 ,op. 94,,"""An Die Hoffnung""",,Lied,,"1. Ob ein Gott sei? Poco sostenuto
 2. Die du so gern in heil'gen Nachten feierst Larghetto (sol majeur)","Voice, Piano"
-95 ,op. 95,,"String Quartet ""Serioso""",,Quartet,F minor,"1. Allegro con brio
+95 ,op. 95,Q169969,"String Quartet ""Serioso""","String Quartet No. 11 ""Serioso""",Quartet,F minor,"1. Allegro con brio
 2. Allegretto ma non troppo (ré majeur)
 3. Allegro assai vivace, ma serioso
 4. Larghetto espressivo
 5. Allegretto agitato","2 Violins, Viola, Cello"
-96 ,op. 96,Q1067735,,,Sonata,G major,"1. Allegro moderato
+96 ,op. 96,Q1067735,,Violin Sonata No. 10,Sonata,G major,"1. Allegro moderato
 2. Adagio espressivo (do mineur)
 3. Scherzo. Allegro (sol mineur)
 4. Poco Allegretto","Piano, Violin"
-97 ,op. 97,,"Trio ""Archduke""",,Trio,B-flat major,"1. Allegro moderato
+97 ,op. 97,,"Trio ""Archduke""","""Archduke Trio""",Trio,B-flat major,"1. Allegro moderato
 2. Scherzo. Allegro
 3. Andante cantabile me pero con moto (ré majeur)
 4. Allegro moderato","Piano, Violin, Cello"
-98 ,op. 98,,"""An Die Ferne Geliebte"" (Liederkreis)",,Lied,,,"Voice, Piano"
+98 ,op. 98,Q482627,"""An Die Ferne Geliebte"" (Liederkreis)",,Lied,,,"Voice, Piano"
 99 ,op. 99,,Der Mann von Wort,,Lied,,,"Voice, Piano"
 100 ,op. 100,,Merkenstein,,Lied,,"Massig, jedoch nicht schleppend","2 Voices, Piano"
-101 ,op. 101,,,,Sonata,A major,"1. Etwas lebhaft, und mit der innigsten Empfindung
+101 ,op. 101,,,Piano Sonata No. 28,Sonata,A major,"1. Etwas lebhaft, und mit der innigsten Empfindung
 2. Lebhaft, marschmassig (fa majeur)
 3. Langsam und sehnsuchtsvoll (la mineur)
 4. Geschwind, doch nicht zu sehr und mit Entschlossenheit",Piano
-102 ,op. 102,Q1053089,2 Sonatas,,Sonata,,,"Piano, Cello"
+102 ,op. 102,Q1053089,2 Sonatas,Deux Sonates pour le Pianoforte et Violoncelle,Sonata,,,"Piano, Cello"
 102 ,op. 102/1,Q586125,2 Sonatas #1,Cello Sonata No. 4,Sonata,C major,"1. Andante
 2. Allegro vivace
 3. Adagio (sol majeur)
@@ -565,11 +565,11 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 2. Adagio (ré mineur)
 3. Allegro
 4. Allegro fugato",
-103 ,op. 103,Q3349013,,,Octet,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons"
+103 ,op. 103,Q3349013,,Grand Octuor; Parthia dans un Concert in Es,Octet,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons"
 103 ,op. 103a,,,,Quintet,E-flat major,,"2 Violins, 2 Violas, Cello"
-104 ,op. 104,,,,Quintet,C minor,,"2 Violins, 2 Violas, Cello"
+104 ,op. 104,Q7623957,,,Quintet,C minor,,"2 Violins, 2 Violas, Cello"
 105 ,op. 105,,6 Varied Themes,,Keyboard Variations,,,Piano with Optional Flute or Violin
-106 ,op. 106,Q146730,"Piano Sonata ""Hammerklavier""",,Sonata,B-flat major,"1. Allegro
+106 ,op. 106,Q146730,"Piano Sonata ""Hammerklavier""","Piano Sonata No. 29 ""Hammerklavier""",Sonata,B-flat major,"1. Allegro
 2. Scherzo. Assai vivace
 3. Adagio sostenuto. Appasionato e con molto sentimento (la majeur)
 4. Largo (fa majeur)
@@ -585,21 +585,21 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 9. Air écossais, (mi bémol majeur). Allegretto
 10. Air écossais, (sol mineur). Spirituoso e marziale",Piano with Optional Flute or Violin
 108 ,op. 108,Q56291744,"25 ""Schottische Lieder""",,Lied,,,"Voice(s), Piano, Violin, Cello"
-109 ,op. 109,,,,Sonata,E major,"1. Vivace, ma non troppo
+109 ,op. 109,Q146752,,Piano Sonata No. 30,Sonata,E major,"1. Vivace, ma non troppo
 2. Prestissimo (mi mineur)
 3. Andante con variazioni. Gesangvoll, mit innigster Empfindung",Piano
-110 ,op. 110,Q146767,,,Sonata,A-flat major,"1. Moderato cantabile, molto espressivo
+110 ,op. 110,Q146767,,Piano Sonata No. 31,Sonata,A-flat major,"1. Moderato cantabile, molto espressivo
 2. Allegro molto (fa mineur)
 3. Adagio, ma non troppo (si bémol mineur)
 4. Fuga. Allegro, ma non troppo",Piano
-111 ,op. 111,,,,Sonata,C minor,"1. Maestoso
+111 ,op. 111,Q146793,,Piano Sonata No. 32,Sonata,C minor,"1. Maestoso
 2. Allegro con brio ed appassionato
 3. Arietta. Adagio molto semplice cantabile (do majeur)",Piano
-112 ,op. 112,,Meeresstille und glückliche Fahrt,,,,"1. Meeresstille: Tiefe Stille
+112 ,op. 112,Q496757,Meeresstille und glückliche Fahrt,,Cantata,,"1. Meeresstille: Tiefe Stille
 Sostenuto (ré majeur)
 2. Gluckliche Fahrt: Die Nebel zerreissen
 Allegro vivace (ré majeur)","Choir, Orchestra"
-113 ,op. 113,,Die Ruinen von Athen,,Overture,,"0. Ouverture. Andante con moto (sol mineur) / Allegro, ma non troppo (sol majeur)
+113 ,op. 113,Q862609,Die Ruinen von Athen,,Overture,,"0. Ouverture. Andante con moto (sol mineur) / Allegro, ma non troppo (sol majeur)
 1. Choeur: Tochter des machtigen Zeus (Andante poco sostenuto - mi bémol majeur)
 2. Duet (un grec et une grecque): Ohne Verschulden Knechtschaft dulden (Andante con moto / Poco piu mosso - sol mineur)
 3. Choeur des Derwische: Du hast in deines Aermels Felten (Allegro, ma non troppo - sol majeur)
@@ -612,9 +612,9 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 7d. Aria (grand-prêtre avec choeur): Er ist's! Wir sind erhort! (Allegro con brio - do majeur)
 8. Choeur: Heil unserm Konig! (Allegro con fuoco - la majeur)",
 114 ,op. 114,,"March with Chorus from ""Die Ruinen von Athen""",,March,E-flat major,,
-115 ,op. 115,,"Overture ""Zur Namensfeier""",,Overture,C major,"1. Maestoso
+115 ,op. 115,Q3576293,"Overture ""Zur Namensfeier""",,Overture,C major,"1. Maestoso
 2. Allegro assai vivace",
-116 ,op. 116,,"""Tremate, Empi, Tremate""",,Terzett,,,"Soprano, Tenor, Bass, Orchestra"
+116 ,op. 116,Q139759968,"""Tremate, Empi, Tremate""",,Terzett,,,"Soprano, Tenor, Bass, Orchestra"
 117 ,op. 117,Q2754024,König Stephan,,Incidental Music,,"0. Ouverture. Andante con moto / Presto (mi bémol majeur)
 1. Choeur des hommes: Ruhend von seinen Thaten (Andante maestoso e con moto - do majeur)
 2. Choeur des hommes: Auf dunkelm in finstern Hainen Wandelten (Allegro con brio - do mineur)
@@ -627,7 +627,7 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 8b. Mélodramme avec choeur: Heil unserm Konige! (Allegro vivace e con brio - si bémol majeur)
 9. Schlusschor: Heil! Heil unserm Enkeln (Presto - ré majeur)",
 118 ,op. 118,Q5358693,"Elegiac Song ""Sanft wir du lebtest""",,Lied,,Langsam und sanft,"4 Voices, 2 Violins, Viola, Cello"
-119 ,op. 119,,12 Bagatelles,,Bagatelle,,"1. Allegretto (sol mineur)
+119 ,op. 119,Q3352885,12 Bagatelles,,Bagatelle,,"1. Allegretto (sol mineur)
 2. Andante con moto (do majeur)
 3. À l'Allemande (ré majeur)
 4. Andante cantabile (la majeur)
@@ -651,19 +651,19 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 5. Prélude, en sol majeur (Sostenuto, ma non troppo)
 6. Benedictus, en sol majeur (Andante molto cantabile)
 7. Agnus Dei, en ré majeur (Adagio)","Soloists, Choir, Orchestra, Organ"
-124 ,op. 124,,"Overture ""Die Weihe des Hauses""",,Overture,C major,"1. Maestoso e sostenuto
+124 ,op. 124,Q1217412,"Overture ""Die Weihe des Hauses""",,Overture,C major,"1. Maestoso e sostenuto
 2. Allegro con brio","2 Flutes, 2 Clarinets, 2 Oboes, 2 Bassoons, 4 Horns, 2 Trumpets, 3 Trombone, Timpani, 2 Violins, Viola, Cello, Basso"
 125 ,op. 125,Q11989,"Symphony No. 9 ""Choral""",,Symphony,D minor,"I. Allegro ma non troppo, un poco maestoso
 II. Molto vivace
 III. Adagio molto e cantabile – Andante moderato – Tempo I - Presto
 IV. Presto - Allegro assai - Recitativo „O Freunde, nicht diese Töne"" -  Allegro assai. Chorus „Freude, schöner Götterfunken""","soloists, choir, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, Contrebassoon, 4 Horns, 2 Trumpets, 3 Trombone, Timpani, Triangle, Cymbal, 2 Violins, Viola, Cello, Basso"
-126 ,op. 126,,6 Bagatelles,,Bagatelle,,"1. Andante con moto (sol majeur) 
+126 ,op. 126,Q3485613,6 Bagatelles,,Bagatelle,,"1. Andante con moto (sol majeur) 
 2. Allegro (sol mineur) 
 3. Andante cantabile e grazioso (mi bémol majeur) 
 4. Presto (si mineur) 
 5. Quasi Allegretto (sol majeur) 
 6. Presto - Andante amabile e con moto (mi bémol majeur)",Piano
-127 ,op. 127,,,,Quartet,E-flat major,"1. Maestoso
+127 ,op. 127,Q172087,,String Quartet No. 12,Quartet,E-flat major,"1. Maestoso
 2. Allegro teneramente (do majeur)
 3. Adagio, ma non troppo e molto cantabile (la bémol majeur)
 4. Scherzando vivace
@@ -738,8 +738,8 @@ IV. Presto - Allegro assai - Recitativo „O Freunde, nicht diese Töne"" -  All
 999 ,WoO 8/7,,12 German Dances #7,,Dance,C major,,
 999 ,WoO 8/8,,12 German Dances #8,,Dance,A major,,
 999 ,WoO 8/9,,12 German Dances #9,,Dance,F major,,
-999 ,WoO 8/10,,12 German Dances #10,,Dance,D major,,
 999 ,WoO 9,,6 Minuets,,Dance,,,"2 Violins, Basso"
+999 ,WoO 8/10,,12 German Dances #10,,Dance,D major,,
 999 ,WoO 8/11,,12 German Dances #11,,Dance,G major,,
 999 ,WoO 8/12,,12 German Dances #12,,Dance,C major,,
 999 ,WoO 10,Q11188158,6 Minuets,,Dance,,,"1. Piano
