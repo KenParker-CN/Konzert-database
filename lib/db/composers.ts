@@ -170,6 +170,17 @@ export async function getGenreWorksSafe(genreTerms: string[], locale: Locale): P
     }
 }
 
+export async function getWorksByWikiID(wikiID: string) {
+    const directory = await getCatalogueDirectory()
+    const loaded = await Promise.all(directory.map(async entry => ({
+        entry,
+        works: (await getCatalogWorksSafe(entry.catalogue)).works,
+    })))
+    return loaded.flatMap(({entry, works}) => works
+        .filter(work => work.details.WikiQID?.trim() === wikiID)
+        .map(work => ({entry, work})))
+}
+
 export type WikiBannerItem = {
     kind: 'composer' | 'genre' | 'work'
     title: string

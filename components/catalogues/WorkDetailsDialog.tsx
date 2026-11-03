@@ -8,6 +8,7 @@ import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {localePath} from '@/lib/i18n/config'
 import {useGenreLink} from '@/components/genres/GenreLinkProvider'
+import {formatWorkDetailValue, getWorkDetailFields, getWorkDetailLabelKey, isFullWidthWorkDetail} from '@/lib/works/work-detail-fields'
 import InstrumentationLegendDialog from './InstrumentationLegendDialog'
 import GenreIntroduction from '../genres/GenreIntroduction'
 import GenreHovercard from '../genres/GenreHovercard'
@@ -40,53 +41,11 @@ export default function WorkDetailsDialog({
     const getWorkTitle = (entry: WorkDetailsEntry) => locale === 'de'
         ? entry.details['German title'] || entry.title
         : entry.title
-    const detailFields = Object.entries(work.details).filter(([field]) => {
-        const normalizedField = field.toLocaleLowerCase()
-        if (locale === 'de' && normalizedField === 'german title') return false
-        if (normalizedField === 'catalogue') return false
-        // Opus is already shown in the header description line.
-        if (normalizedField === 'opus') return false
-        // Key is shown as a colored badge next to the title in the header.
-        if (normalizedField === 'key') return false
-        // Title is already shown as the dialog title above.
-        if (normalizedField === 'title') return false
-        // Genre is shown as a colored badge next to the title in the header.
-        if (normalizedField === 'genre' || normalizedField === 'type') return false
-        // Subtitle is rendered inline next to the dialog title in italics.
-        if (normalizedField === 'subtitle') return false
-        // WikiQID is used to fetch the Wikipedia introduction, not shown as a field.
-        if (normalizedField === 'wikiqid') return false
-        if (catalogCode === 'Helm' && ['wotquenne', 'wq', 'helm', 'h'].includes(normalizedField)) return false
-        // Kirkpatrick's numbering columns (Kk., Longo, Pestelli) are already shown
-        // in the dialog header as catalogue and secondary catalogue numbers.
-        if (catalogCode === 'Kirkpatrick' && ['kirkpatrick', 'longo', 'pestelli', 'sort_kk'].includes(normalizedField)) return false
-        // The CNW sheet carries the older FS numbering next to the CNW numbers.
-        return !(catalogCode === 'CNW' && normalizedField === 'fs');
-
-    })
+    const detailFields = getWorkDetailFields(work.details, catalogCode, locale)
 
     const detailFieldLabel = (field: string) => {
-        switch (field.toLocaleLowerCase()) {
-            case 'catalogue': return t('works.catalogue')
-            case 'opus': return t('works.opus')
-            case 'title': return t('works.titleColumn')
-            case 'date': return t('works.date')
-            case 'genre':return t('works.genre')
-            case 'key': return t('works.key')
-            case 'instrumentation': return t('works.instrumentation')
-            case 'work structure':return t('works.workStructure')
-            case 'note': return t('works.note')
-            case 'german title': return t('works.germanTitle')
-            case 'nickname': return t('works.nickname')
-            case 'other catalogue references': return t('works.otherCatalogueReferences')
-            case 'vocal title': return t('works.vocalTitle')
-            case 'tempo': return t('works.tempo')
-            case 'meter': return t('works.meter')
-            case 'measures': return t('works.measures')
-            case 'genres': return t('works.genres')
-            case 'creation location': return t('works.creationLocation')
-            default: return field
-        }
+        const key = getWorkDetailLabelKey(field)
+        return key ? t(key) : field
     }
 
     return (
@@ -155,10 +114,9 @@ export default function WorkDetailsDialog({
                     <dl className="grid min-h-0 flex-1 grid-cols-1 gap-x-6 gap-y-4 overflow-y-auto p-5 sm:grid-cols-2">
                         {detailFields.map(([field, value]) => {
                             const normalizedField = field.toLocaleLowerCase()
-                            const fullWidthFields = ['workparts', 'work structure', 'movement', 'movements', 'section', 'instrumentation', 'instrmentation', 'note', 'rec_recmd']
 
                             return (
-                                <div key={field} className={`min-w-0 ${fullWidthFields.includes(normalizedField) ? 'sm:col-span-2' : ''}`}>
+                                <div key={field} className={`min-w-0 ${isFullWidthWorkDetail(field) ? 'sm:col-span-2' : ''}`}>
                                     <dt className="flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-blue-600">
                                         {detailFieldLabel(field)}
                                         {['instrumentation', 'instrmentation'].includes(normalizedField) && (
@@ -167,13 +125,7 @@ export default function WorkDetailsDialog({
                                     </dt>
                                     <dd className="mt-1 min-w-0 text-sm text-slate-900">
                                         <span className="whitespace-pre-wrap wrap-break-word">
-                                            {normalizedField === 'genre' || normalizedField === 'type'
-                                                ? getLocalizedWorkTerm(value, 'type', locale)
-                                                : normalizedField === 'key'
-                                                    ? getLocalizedWorkTerm(value, 'key', locale)
-                                                    : ['instrumentation', 'instrmentation'].includes(normalizedField)
-                                                        ? getLocalizedWorkTerm(value, 'instrumentation', locale)
-                                                        : value}
+                                            {formatWorkDetailValue(field, value, locale)}
                                         </span>
                                     </dd>
                                 </div>
