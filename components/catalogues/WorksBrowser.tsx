@@ -151,27 +151,31 @@ export default function WorksBrowser({
                         value={query}
                         placeholder={t('works.searchPlaceholder')}
                         aria-label={t('works.searchPlaceholder')}
-                        className="h-10 pl-10 pr-10 [&::-webkit-search-cancel-button]:hidden"
+                        className="h-10 pl-10 pr-28 [&::-webkit-search-cancel-button]:hidden"
                         onChange={event => {
                             setQuery(event.target.value)
                             setPage(1)
                         }}
                     />
-                    {query && (
-                        <Button
-                            type="button"
-                            variant="ghost"
-                            size="icon-sm"
-                            className="absolute right-1 top-1/2 -translate-y-1/2"
-                            aria-label={t('common.clear')}
-                            onClick={() => {
-                                setQuery('')
-                                setPage(1)
-                            }}
-                        >
-                            <IconX/>
-                        </Button>
-                    )}
+                    <div className="absolute right-1 top-1/2 flex -translate-y-1/2 items-center gap-1">
+                        <span className="pointer-events-none pr-1 text-xs text-slate-500">
+                            {t('works.count', {count: normalizedQuery ? searchMatches.length : filteredSortedWorks.length})}
+                        </span>
+                        {query && (
+                            <Button
+                                type="button"
+                                variant="ghost"
+                                size="icon-sm"
+                                aria-label={t('common.clear')}
+                                onClick={() => {
+                                    setQuery('')
+                                    setPage(1)
+                                }}
+                            >
+                                <IconX/>
+                            </Button>
+                        )}
+                    </div>
                 </div>
                 {genreOptions.length > 0 && (
                     <Select
