@@ -28,6 +28,14 @@ export default function GenreIntroduction({
     const [introduction, setIntroduction] = useState<WikipediaIntroduction | null>(null)
     const [loading, setLoading] = useState(Boolean(wikiID))
     const [expanded, setExpanded] = useState(false)
+    const [scrolledDown, setScrolledDown] = useState(false)
+
+    useEffect(() => {
+        const updateScrolled = () => setScrolledDown(window.scrollY > 400)
+        updateScrolled()
+        window.addEventListener('scroll', updateScrolled, {passive: true})
+        return () => window.removeEventListener('scroll', updateScrolled)
+    }, [])
 
     useEffect(() => {
         if (!wikiID) {
@@ -99,6 +107,19 @@ export default function GenreIntroduction({
                     {introduction.title} — Wikipedia
                 </a>
             </p>
+            {showAll && scrolledDown && (
+                <button
+                    type="button"
+                    onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+                    aria-label={t('composers.backToTop')}
+                    title={t('composers.backToTop')}
+                    className="fixed bottom-6 right-6 z-40 flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-lg transition hover:border-blue-300 hover:text-blue-700"
+                >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5" aria-hidden="true">
+                        <path d="m18 15-6-6-6 6"/>
+                    </svg>
+                </button>
+            )}
         </div>
     )
 }
