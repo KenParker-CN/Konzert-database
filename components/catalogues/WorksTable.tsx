@@ -45,7 +45,7 @@ export default function WorksTable({
                         catalogCode={catalogCode}
                         triggerClassName="flex w-full items-center gap-1.5 border-b border-slate-100 px-4 py-2.5 text-left transition-colors last:border-0 hover:bg-blue-50/50"
                     >
-                        <span className="w-24 shrink-0 font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</span>
+                        <span className="w-24 shrink-0 text-center font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</span>
                         <span className="w-72 shrink-0 truncate text-sm text-slate-900">{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
                         <span className="flex w-28 shrink-0 justify-center">
                             {work.genre && (
