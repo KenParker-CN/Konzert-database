@@ -35,7 +35,7 @@ export default function WorksTable({
                         triggerClassName="flex w-full items-center divide-x divide-slate-200 border-b border-slate-100 px-4 py-2.5 text-left transition-colors last:border-0 hover:bg-blue-50/50"
                     >
                         <span className="w-24 shrink-0 px-1.5 text-center font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</span>
-                        <span className="w-72 shrink-0 truncate px-1.5 text-sm font-medium text-blue-700 underline underline-offset-4">{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
+                        <span className={`w-72 shrink-0 truncate px-1.5 text-sm ${work.details['WikiQID'] ? 'font-medium text-blue-700 underline underline-offset-4' : 'text-slate-900'}`}>{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
                         <span className="flex w-28 shrink-0 justify-center px-1.5">
                             {work.genre && (
                                 <span className="max-w-full truncate rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
