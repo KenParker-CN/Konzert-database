@@ -166,6 +166,8 @@
     "wikipedia": "维基百科",
     "loadingIntroduction": "正在加载简介…",
     "readOnWikipedia": "在维基百科阅读 ↗",
+    "showFullIntroduction": "展开全文",
+    "collapseIntroduction": "收起",
     "period": {
       "Medieval": "中世纪 (500-1400)",
       "Renaissance": "文艺复兴 (1400-1600)",

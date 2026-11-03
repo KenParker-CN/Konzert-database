@@ -60,7 +60,6 @@ export async function getWikipediaIntroduction(wikiID: string, locale: Locale, s
             apiUrl.search = new URLSearchParams({
                 action: 'query',
                 prop: 'extracts|pageimages',
-                exintro: '1',
                 explaintext: '1',
                 pithumbsize: '320',
                 format: 'json',

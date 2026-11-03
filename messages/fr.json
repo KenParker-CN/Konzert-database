@@ -166,6 +166,8 @@
     "wikipedia": "Wikipédia",
     "loadingIntroduction": "Chargement de l’introduction…",
     "readOnWikipedia": "Lire sur Wikipédia ↗",
+    "showFullIntroduction": "Lire l’article complet",
+    "collapseIntroduction": "Réduire",
     "period": {
       "Medieval": "Médiéval (500-1400)",
       "Renaissance": "Renaissance (1400-1600)",

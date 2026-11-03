@@ -142,6 +142,8 @@
     "wikipedia": "Wikipedia",
     "loadingIntroduction": "Loading…",
     "readOnWikipedia": "Read more on Wikipedia ↗",
+    "showFullIntroduction": "Show full article",
+    "collapseIntroduction": "Show less",
     "musicBrainzCount": "Showing {shown} of {total} works from MusicBrainz",
     "musicBrainzAttribution": "Works provided by MusicBrainz",
     "musicBrainzOpen": "Open in MusicBrainz",

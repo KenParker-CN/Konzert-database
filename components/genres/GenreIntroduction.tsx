@@ -2,7 +2,17 @@
 
 import {useEffect, useState} from 'react'
 import {getWikipediaIntroduction, type WikipediaIntroduction} from '@/lib/data/wikipedia'
+import {useI18n} from '@/lib/i18n/client'
 import type {Locale} from '@/lib/i18n/config'
+
+type IntroductionBlock = {kind: 'heading'; text: string} | {kind: 'paragraph'; text: string}
+
+function toBlocks(extract: string): IntroductionBlock[] {
+    return extract.split(/\n+/).map(line => line.trim()).filter(Boolean).map((line): IntroductionBlock => {
+        const heading = /^=+\s*(.*?)\s*=+$/.exec(line)
+        return heading ? {kind: 'heading', text: heading[1]} : {kind: 'paragraph', text: line}
+    })
+}
 
 export default function GenreIntroduction({
     wikiID,
@@ -14,8 +24,10 @@ export default function GenreIntroduction({
     variant?: 'page' | 'dialog'
 }) {
     const compact = variant === 'dialog'
+    const {t} = useI18n()
     const [introduction, setIntroduction] = useState<WikipediaIntroduction | null>(null)
     const [loading, setLoading] = useState(Boolean(wikiID))
+    const [expanded, setExpanded] = useState(false)
 
     useEffect(() => {
         if (!wikiID) {
@@ -46,11 +58,37 @@ export default function GenreIntroduction({
 
     if (!introduction) return null
 
-    const firstParagraph = introduction.extract.split(/\n+/).find(Boolean)
+    const blocks = toBlocks(introduction.extract)
+    const firstParagraphIndex = blocks.findIndex(block => block.kind === 'paragraph')
+    const leadBlocks = blocks.slice(0, firstParagraphIndex + 1)
+    const showAll = !compact && expanded
+    const visibleBlocks = showAll ? blocks : leadBlocks
+    const canExpand = !compact && blocks.length > leadBlocks.length
 
     return (
-        <>
-            <p className={compact ? 'text-sm leading-5 text-slate-700' : 'mt-5 text-base leading-8 text-slate-600'}>{firstParagraph}</p>
+        <div className={compact ? undefined : 'mt-5 flow-root'}>
+            {!compact && introduction.imageUrl && (
+                <img
+                    src={introduction.imageUrl}
+                    alt={introduction.title}
+                    loading="lazy"
+                    className="float-right mb-3 ml-5 w-40 rounded-xl border border-slate-200 bg-white object-cover shadow-sm sm:w-52"
+                />
+            )}
+            {visibleBlocks.map((block, index) => block.kind === 'heading' ? (
+                <h3 key={index} className="heading mt-6 text-lg font-semibold text-slate-900 first:mt-0">{block.text}</h3>
+            ) : (
+                <p key={index} className={compact ? 'text-sm leading-5 text-slate-700' : 'mt-4 text-base leading-8 text-slate-600 first:mt-0'}>{block.text}</p>
+            ))}
+            {canExpand && (
+                <button
+                    type="button"
+                    onClick={() => setExpanded(value => !value)}
+                    className="mt-4 text-sm font-medium text-blue-700 hover:underline"
+                >
+                    {expanded ? t('composers.collapseIntroduction') : t('composers.showFullIntroduction')}
+                </button>
+            )}
             <p className={compact ? 'mt-1.5 text-right text-xs' : 'mt-2 text-right text-xs'}>
                 <a
                     href={introduction.url}
@@ -61,6 +99,6 @@ export default function GenreIntroduction({
                     {introduction.title} — Wikipedia
                 </a>
             </p>
-        </>
+        </div>
     )
 }
