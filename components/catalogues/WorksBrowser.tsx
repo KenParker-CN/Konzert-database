@@ -2,6 +2,7 @@
 
 import {useMemo, useState} from 'react'
 import {Button} from '@/components/ui/button'
+import {Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious} from '@/components/ui/pagination'
 import WorksTable from '@/components/catalogues/WorksTable'
 import type {ComposerWork} from '@/lib/db/composers'
 import {useI18n} from '@/lib/i18n/client'
@@ -30,6 +31,16 @@ function compareWorksBySort(left: ComposerWork, right: ComposerWork): number {
         ? leftNumber - rightNumber
         : leftSort.localeCompare(rightSort, undefined, {numeric: true, sensitivity: 'base'}))
         || left.workId - right.workId
+}
+
+function getPageItems(current: number, total: number): (number | 'ellipsis')[] {
+    const pages = [1, total, current - 1, current, current + 1]
+        .filter(page => page >= 1 && page <= total)
+    const sorted = [...new Set(pages)].sort((left, right) => left - right)
+    return sorted.flatMap((page, index) => {
+        const previous = sorted[index - 1]
+        return previous !== undefined && page - previous > 1 ? ['ellipsis' as const, page] : [page]
+    })
 }
 
 function filterWorksByGenre(works: ComposerWork[], genre: string) {
@@ -124,20 +135,50 @@ export default function WorksBrowser({
 
     function renderPagination(currentPage: number, totalPages: number) {
         if (totalPages <= 1) return undefined
+        const pageItems = getPageItems(currentPage, totalPages)
+        const goToPage = (target: number) => (event: React.MouseEvent<HTMLAnchorElement>) => {
+            event.preventDefault()
+            if (target < 1 || target > totalPages) return
+            setPage(target)
+        }
         return (
-            <div className="flex flex-wrap items-center justify-between gap-3">
-                <p className="text-sm text-muted-foreground">
-                    {t('works.pageInfo', {current: currentPage, total: totalPages})}
-                </p>
-                <div className="flex gap-2">
-                    <Button type="button" variant="outline" size="sm" disabled={currentPage <= 1} onClick={() => setPage(current => current - 1)}>
-                        {t('common.previous')}
-                    </Button>
-                    <Button type="button" variant="outline" size="sm" disabled={currentPage >= totalPages} onClick={() => setPage(current => current + 1)}>
-                        {t('common.next')}
-                    </Button>
-                </div>
-            </div>
+            <Pagination>
+                <PaginationContent>
+                    <PaginationItem>
+                        <PaginationPrevious
+                            href="#"
+                            text={t('common.previous')}
+                            aria-disabled={currentPage <= 1}
+                            className={currentPage <= 1 ? 'pointer-events-none opacity-50' : undefined}
+                            onClick={goToPage(currentPage - 1)}
+                        />
+                    </PaginationItem>
+                    {pageItems.map((item, index) => (
+                        <PaginationItem key={item === 'ellipsis' ? `ellipsis-${index}` : item}>
+                            {item === 'ellipsis' ? (
+                                <PaginationEllipsis/>
+                            ) : (
+                                <PaginationLink
+                                    href="#"
+                                    isActive={item === currentPage}
+                                    onClick={goToPage(item)}
+                                >
+                                    {item}
+                                </PaginationLink>
+                            )}
+                        </PaginationItem>
+                    ))}
+                    <PaginationItem>
+                        <PaginationNext
+                            href="#"
+                            text={t('common.next')}
+                            aria-disabled={currentPage >= totalPages}
+                            className={currentPage >= totalPages ? 'pointer-events-none opacity-50' : undefined}
+                            onClick={goToPage(currentPage + 1)}
+                        />
+                    </PaginationItem>
+                </PaginationContent>
+            </Pagination>
         )
     }
 
