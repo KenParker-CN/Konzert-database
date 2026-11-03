@@ -9,7 +9,7 @@ const lang = langIndex >= 0 ? args[langIndex + 1] : 'en'
 const outPath = outIndex >= 0 ? args[outIndex + 1] : 'data/wikiqid-candidates.csv'
 
 if (!csvPath || csvPath.startsWith('--')) {
-    console.error('Usage: node scripts/fetch-wikiqid.mjs <catalogue.csv> [--lang en] [--out file.csv]')
+    console.error('Usage: node scripts/fetch-wikiqid.mjs <catalogue.csv|urls.txt> [--lang en] [--out file.csv]')
     process.exit(1)
 }
 
@@ -55,7 +55,7 @@ function parseCsv(text) {
     return body.map(cells => Object.fromEntries(keys.map((key, i) => [key, (cells[i] ?? '').trim()])))
 }
 
-async function lookupBatch(titles) {
+async function lookupBatch(lang, titles) {
     const params = new URLSearchParams({
         action: 'query',
         prop: 'pageprops',
@@ -86,29 +86,48 @@ async function lookupBatch(titles) {
     })
 }
 
-const csvText = (await readFile(csvPath, 'utf8')).replace(/^\uFEFF/, '')
-const works = parseCsv(csvText).filter(work => work.Title && !work.WikiQID)
-const titles = [...new Set(works.map(work => work.Title))]
+const input = (await readFile(csvPath, 'utf8')).replace(/^\uFEFF/, '')
+const rows = csvPath.endsWith('.txt')
+    ? input.split(/\r?\n/).map(line => line.trim()).filter(Boolean).map(source => {
+        const url = new URL(source)
+        return {
+            source,
+            lang: url.hostname.split('.')[0],
+            title: decodeURIComponent(url.pathname.replace(/^\/wiki\//, '')).replaceAll('_', ' '),
+        }
+    })
+    : parseCsv(input)
+        .filter(work => work.Title && !work.WikiQID)
+        .map(work => ({source: work.Opus, lang, title: work.Title}))
 
-const qidByTitle = new Map()
+const titlesByLang = new Map()
+for (const {lang: rowLang, title} of rows) {
+    if (!titlesByLang.has(rowLang)) titlesByLang.set(rowLang, new Set())
+    titlesByLang.get(rowLang).add(title)
+}
+
+const qidByKey = new Map()
 const batchSize = 50
-for (let i = 0; i < titles.length; i += batchSize) {
-    const batch = titles.slice(i, i + batchSize)
-    for (const [title, qid] of await lookupBatch(batch)) qidByTitle.set(title, qid)
-    await new Promise(resolve => setTimeout(resolve, 300))
+for (const [rowLang, titleSet] of titlesByLang) {
+    const titles = [...titleSet]
+    for (let i = 0; i < titles.length; i += batchSize) {
+        for (const [title, qid] of await lookupBatch(rowLang, titles.slice(i, i + batchSize))) {
+            qidByKey.set(`${rowLang}\n${title}`, qid)
+        }
+        await new Promise(resolve => setTimeout(resolve, 300))
+    }
 }
 
 const escape = value => /[",\n\r]/.test(value) ? `"${value.replaceAll('"', '""')}"` : value
 const lines = [
-    ['Opus', 'Title', 'Subtitle', 'Candidate WikiQID'].join(','),
-    ...works.map(work => [
-        work.Opus,
-        work.Title,
-        work.Subtitle,
-        qidByTitle.get(work.Title) ?? '',
+    ['Source', 'Title', 'Candidate WikiQID'].join(','),
+    ...rows.map(({source, lang: rowLang, title}) => [
+        source,
+        title,
+        qidByKey.get(`${rowLang}\n${title}`) ?? '',
     ].map(escape).join(',')),
 ]
 await writeFile(outPath, lines.join('\n') + '\n')
 
-const found = works.filter(work => qidByTitle.get(work.Title)).length
-console.log(`Checked ${works.length} works without WikiQID: ${found} candidates found, written to ${outPath}`)
+const found = rows.filter(({lang: rowLang, title}) => qidByKey.get(`${rowLang}\n${title}`)).length
+console.log(`Checked ${rows.length} entries: ${found} QIDs found, written to ${outPath}`)
