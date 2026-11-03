@@ -35,6 +35,8 @@ export default function GenreIntroduction({
     const [loading, setLoading] = useState(Boolean(wikiID))
     const [expanded, setExpanded] = useState(false)
     const [scrolledDown, setScrolledDown] = useState(false)
+    const [activeId, setActiveId] = useState<string | null>(null)
+    const extract = introduction?.extract ?? ''
 
     useEffect(() => {
         const updateScrolled = () => setScrolledDown(window.scrollY > 400)
@@ -42,6 +44,22 @@ export default function GenreIntroduction({
         window.addEventListener('scroll', updateScrolled, {passive: true})
         return () => window.removeEventListener('scroll', updateScrolled)
     }, [])
+
+    useEffect(() => {
+        if (compact || !expanded) return
+        const elements = toBlocks(extract)
+            .flatMap(block => block.kind === 'heading' ? [document.getElementById(block.id)] : [])
+            .filter((element): element is HTMLElement => Boolean(element))
+        if (elements.length === 0) return
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) setActiveId(entry.target.id)
+            })
+        }, {rootMargin: '-96px 0px -60% 0px'})
+        elements.forEach(element => observer.observe(element))
+        return () => observer.disconnect()
+    }, [compact, expanded, extract])
 
     useEffect(() => {
         if (!wikiID) {
@@ -125,7 +143,12 @@ export default function GenreIntroduction({
                     <ul className="space-y-1.5">
                         {headingBlocks.map(block => (
                             <li key={block.id}>
-                                <a href={`#${block.id}`} title={block.text} className="line-clamp-2 block text-slate-600 hover:text-blue-700">
+                                <a
+                                    href={`#${block.id}`}
+                                    title={block.text}
+                                    aria-current={activeId === block.id ? 'location' : undefined}
+                                    className={`line-clamp-2 block border-l-2 pl-2 transition ${activeId === block.id ? 'border-blue-700 font-medium text-blue-700' : 'border-transparent text-slate-600 hover:text-blue-700'}`}
+                                >
                                     {block.text}
                                 </a>
                             </li>
