@@ -38,6 +38,8 @@ export default function WorksTable({
                         {work.details['WikiQID'] ? (
                             <Link
                                 href={localePath(locale, `/works/${work.details['WikiQID']}`)}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="relative z-10 w-72 shrink-0 truncate px-1.5 text-sm font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900"
                             >
                                 {locale === 'de' ? work.details['German title'] || work.title : work.title}
