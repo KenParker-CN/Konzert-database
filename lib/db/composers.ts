@@ -38,6 +38,11 @@ export async function getComposer(slug: string) {
     return composers.find(composer => composer.slug === slug) ?? null
 }
 
+export async function getComposerIndex() {
+    const composers = await loadComposers()
+    return composers.map(composer => ({slug: composer.slug, name: composer.name, nameSort: composer.nameSort}))
+}
+
 async function getCatalogueDirectoryImpl() {
     const composers = await loadComposers()
     const catalogueEntries = composers.flatMap(composer => {

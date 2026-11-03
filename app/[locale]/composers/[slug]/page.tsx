@@ -1,8 +1,9 @@
 import AppShell from '@/components/AppShell'
+import AlphabetIndex, {type AlphabetIndexItem} from '@/components/AlphabetIndex'
 import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import MusicServiceLinks from '@/components/composers/MusicServiceLinks'
-import {getComposer} from '@/lib/db/composers'
+import {getComposer, getComposerIndex} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getLocalizedComposerName} from '@/lib/composer-name'
 import {isLocale, localePath} from '@/lib/i18n/config'
@@ -15,9 +16,13 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
     const {locale, slug} = await params
     if (!isLocale(locale)) notFound()
 
-    const composer = await getComposer(slug)
+    const [composer, composerIndex] = await Promise.all([getComposer(slug), getComposerIndex()])
     if (!composer) notFound()
 
+    const indexItems: AlphabetIndexItem[] = composerIndex.map(entry => {
+        const name = entry.nameSort || entry.name
+        return {key: entry.slug, sortName: name, label: name, href: localePath(locale, `/composers/${encodeURIComponent(entry.slug)}`)}
+    })
     const catalogCode = getCatalogForComposer(slug)
     const displayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
     const lifespan = [composer.startDate, composer.endDate].filter(Boolean).join(' – ')
@@ -26,6 +31,7 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
     return (
         <AppShell active="composers">
             <main>
+                <AlphabetIndex items={indexItems} activeKey={slug}/>
                 <div className="mx-auto max-w-4xl px-5 py-8 lg:px-8 lg:py-10">
                     <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
                         <div className="flex items-baseline justify-between gap-4">
