@@ -94,7 +94,7 @@ export default function AppShell({children, active}: {
     }
 
     return <div className="app-shell" data-page={active ?? 'home'}>
-        <header className="border-b border-slate-200 bg-white">
+        <header className="sticky top-0 z-40 border-b border-slate-200 bg-white">
             <div className="mx-auto flex max-w-360 flex-wrap items-center gap-x-8 gap-y-3 py-3">
                 <a href={localePath(locale, '/')} className="heading text-lg font-semibold tracking-tight">Parker’s</a>
                 <nav aria-label={t('navigation.catalogues')} className="flex flex-1 flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-600">
