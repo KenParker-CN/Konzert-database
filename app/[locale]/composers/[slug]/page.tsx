@@ -1,6 +1,7 @@
 import AppShell from '@/components/AppShell'
 import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
+import MusicServiceLinks from '@/components/composers/MusicServiceLinks'
 import {getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getLocalizedComposerName} from '@/lib/composer-name'
@@ -35,7 +36,10 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
                                 </Link>
                             )}
                         </div>
-                        {meta && <p className="mt-2 text-sm text-slate-500">{meta}</p>}
+                        <div className="mt-2 flex items-center justify-between gap-4">
+                            {meta ? <p className="text-sm text-slate-500">{meta}</p> : <span/>}
+                            <MusicServiceLinks name={composer.name}/>
+                        </div>
                         <GenreIntroduction wikiID={composer.wikiQID} locale={locale}/>
                         {composer.catalogRef && (
                             <CatalogueCitation
