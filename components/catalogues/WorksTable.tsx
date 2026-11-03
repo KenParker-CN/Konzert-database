@@ -61,7 +61,7 @@ export default function WorksTable({
                                 </span>
                             )}
                         </span>
-                        <span className="w-40 shrink-0 truncate px-1.5 text-left text-xs text-slate-500">{work.instrumentation}</span>
+                        <span className="w-40 shrink-0 line-clamp-2 px-1.5 text-left text-xs text-slate-500">{work.instrumentation}</span>
                     </WorkDetailsDialog>
                 ))}
             </div>
