@@ -1,65 +1,65 @@
 SORT,WikiQID,Catalogue,Opus,Date,Title,Genre,Key,Work structure,Instrumentation,Note
-1 ,Q1547158,HWV 1,,1704,"Der in Kronen erglangte Glückwechsel/Almira, Königin von Kastillien",Opera,,,"2 Flutes, 2 Oboes, Bassoon, 2 Trumpets, Principal Trumpet, Timpani, 3 Violins, Solo Viola, Viola, Cello, Basso Continuo","Libretto by Giulio Pancieri, traduit par Friedrich Christian Feustking"
-2 ,Q1767158,HWV 2,,1705,Die durch Blut und Mord erlangte Liebe/Nero,Opera,,,"Solistes, Choir, Orchestra","[Musique perdue]
+1 ,Q1547158,HWV 1,,1704,"Der in Kronen erglangte Glückwechsel/Almira, Königin von Kastillien",Singspiel,,,"2 Flutes, 2 Oboes, Bassoon, 2 Trumpets, Principal Trumpet, Timpani, 3 Violins, Solo Viola, Viola, Cello, Basso Continuo","Libretto by Giulio Pancieri, traduit par Friedrich Christian Feustking"
+2 ,Q1767158,HWV 2,,1705,Die durch Blut und Mord erlangte Liebe/Nero,Opera seria,,,"Solistes, Choir, Orchestra","[Musique perdue]
 Libretto by Friedrich Christian Feustking"
-3 ,Q3074343,HWV 3,,1706,Der beglückte Florindo,Opera,,,"Solistes, Choir, Orchestra","[Musique perdue sauf quelques fragments]
+3 ,Q3074343,HWV 3,,1706,Der beglückte Florindo,Opera seria,,,"Solistes, Choir, Orchestra","[Musique perdue sauf quelques fragments]
 Libretto by Hinrich Hinsch"
-4 ,Q1165483,HWV 4,,1706,Die verwandelte Daphne,Opera,,,"Solistes, Choir, Orchestra","[Musique perdue]
+4 ,Q1165483,HWV 4,,1706,Die verwandelte Daphne,Opera seria,,,"Solistes, Choir, Orchestra","[Musique perdue]
 Libretto by Hinrich Hinsch"
-5 ,Q1576427,HWV 5,,1707,Vincer se stesso è la maggior vittoria (Rodrigo),Opera,,,"2 Flutes, 2 Oboes, Solo Violin, 3 Violins, Viola, Basso Continuo",Libretto by inconnu after un libretto de Francesco Silvani
+5 ,Q1576427,HWV 5,,1707,Vincer se stesso è la maggior vittoria (Rodrigo),Opera seria,,,"2 Flutes, 2 Oboes, Solo Violin, 3 Violins, Viola, Basso Continuo",Libretto by inconnu after un libretto de Francesco Silvani
 6 ,Q397041,HWV 6,,1708-1709,Agrippina,Opera seria,,,"2 Flutes, 2 Oboes, 2 Trumpets, Timpani, 3 Violins, Viola, 2 Cellos, Basso Continuo",Libretto by Vincenzo Grimani
-7 ,Q767249,HWV 7a,,1710,Rinaldo,Opera,,,"Flageolet, 2 Flutes, 2 Oboes, Bassoon, 4 Trumpets, Timpani, Solo Violin, 3 Violins, Viola, Cello, Harpsichord obligatto, Basso Continuo","(1ère version)
+7 ,Q767249,HWV 7a,,1710,Rinaldo,Opera seria,,,"Flageolet, 2 Flutes, 2 Oboes, Bassoon, 4 Trumpets, Timpani, Solo Violin, 3 Violins, Viola, Cello, Harpsichord obligatto, Basso Continuo","(1ère version)
 Libretto by Giacomo Rossi after un scénario de Aaron Hill"
-7 ,Q767249,HWV 7b,,1731,Rinaldo,Opera,,,"Piccolo, 2 Flutes, 2 Oboes, Bassoon, 2 Horns, Trumpet, Solo Violin, 3 Violins, Viola, Cello, Basso Continuo","(2è, 3è versions)
+7 ,Q767249,HWV 7b,,1731,Rinaldo,Opera seria,,,"Piccolo, 2 Flutes, 2 Oboes, Bassoon, 2 Horns, Trumpet, Solo Violin, 3 Violins, Viola, Cello, Basso Continuo","(2è, 3è versions)
 Libretto by Giacomo Rossi after un scénario de Aaron Hill"
-8 ,Q1658249,HWV 8a,,1712,Il pastor fido,Opera,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Violins, Viola, Cello, Basso Continuo","(1ère version)
+8 ,Q1658249,HWV 8a,,1712,Il pastor fido,Opera seria,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Violins, Viola, Cello, Basso Continuo","(1ère version)
 Libretto by Giacomo Rossi after une tragicomédie pastorale de Battista Guarini"
-8 ,Q25259056,HWV 8b,,1734,Terpsicore,Prologue,,,"Soprano, Alto, SATB Choir, Ballet, 2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Giacomo Rossi
-8 ,Q1658249,HWV 8c,,1734,Il pastor fido,Opera,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, bass continue","(2è, 3è versions)
+8 ,Q25259056,HWV 8b,,1734,Terpsicore,Opera seria,,,"Soprano, Alto, SATB Choir, Ballet, 2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Giacomo Rossi
+8 ,Q1658249,HWV 8c,,1734,Il pastor fido,Opera seria,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, bass continue","(2è, 3è versions)
 Libretto by Giacomo Rossi after une tragicommédie pastorale de Battista Guarini"
-9 ,Q1419652,HWV 9,,1712,Teseo,Opera,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Trumpets, 3 Violins, 2 Violas, Cello, Basso Continuo",Libretto by Niccolo Francesco Haym after une tragédie lyrique de Philippe Quinault
-10 ,Q1630580,HWV 10,,1713,Lucio Cornelio Silla,Opera,,,"2 Flutes, 2 Oboes, Bassoon, Trumpet, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Giacomo Rossi
-11 ,Q452022,HWV 11,,1715,Amadigi di Gaula,Opera,,,"2 Flutes, 2 Oboes, Bassoon, Trumpet, 3 Violins, Viola, Basso Continuo",Libretto by Giacomo Rossi (?) after une tragédie lyrique d'Antoine Houdar de la Motte
-12 ,Q1713359,HWV 12a,,1720,Radamisto,Opera,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Solo Violin, 2 Violins, Viola, Solo Cello, Basso Continuo","(1ère version)
+9 ,Q1419652,HWV 9,,1712,Teseo,Opera seria,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Trumpets, 3 Violins, 2 Violas, Cello, Basso Continuo",Libretto by Niccolo Francesco Haym after une tragédie lyrique de Philippe Quinault
+10 ,Q1630580,HWV 10,,1713,Lucio Cornelio Silla,Opera seria,,,"2 Flutes, 2 Oboes, Bassoon, Trumpet, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Giacomo Rossi
+11 ,Q452022,HWV 11,,1715,Amadigi di Gaula,Opera seria,,,"2 Flutes, 2 Oboes, Bassoon, Trumpet, 3 Violins, Viola, Basso Continuo",Libretto by Giacomo Rossi (?) after une tragédie lyrique d'Antoine Houdar de la Motte
+12 ,Q1713359,HWV 12a,,1720,Radamisto,Opera seria,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Solo Violin, 2 Violins, Viola, Solo Cello, Basso Continuo","(1ère version)
 Libretto by Niccolo Francesco Haym after un livret de Matteo Noris, Domenico Lalli"
-12 ,Q1713359,HWV 12b,,1720,Radamisto,Opera,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 2 Violins, Viola, Basso Continuo","(2è, 3è versions)
+12 ,Q1713359,HWV 12b,,1720,Radamisto,Opera seria,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 2 Violins, Viola, Basso Continuo","(2è, 3è versions)
 Libretto by Niccolo Francesco Haym after un livret de Matteo Noris, Domenico Lalli"
-13 ,Q1658228,HWV 13,,1721,Muzio Scevola,Opera,,,"2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 3 Violins, Viola, Cello, Basso Continuo","(Acte III)
+13 ,Q1658228,HWV 13,,1721,Muzio Scevola,Opera seria,,,"2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 3 Violins, Viola, Cello, Basso Continuo","(Acte III)
 Libretto by Paolo Antonio Rolli"
-14 ,Q1430104,HWV 14,,1721,Il Floridante,Opera,,,"2 Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, 3 Violins, Viola, Basso Continuo",Libretto by Paolo Antonio Rolli after un libretto de Francesco Silvani
-15 ,Q381399,HWV 15,,1722,"Ottone, Re di Germania",Opera,,,"Flute, 2 Oboes, 2 Bassoons, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret de Stefano Benedetto Pallavicini
-16 ,Q1143982,HWV 16,,1723,"Flavio, Re de'Langobardi",Opera,,,"Flute, Transverse Flute, 2 Oboes, Bassoon, 3 Violins, Viola, Cello, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret de Matteo Noris
-17 ,Q875563,HWV 17,,1723,Giulio Cesare in Egitto,Opera,,,"2 Flutes, Transverse Flute, 2 Oboes, 2 Bassoons, 4 Horns, Trumpet, Solo Violin, 3 Violins, Viola, Viola da GambAlto, Cello, Harp, Theorbo, Basso Continuo",Libretto by Niccolo Francesco Haym after un libretto de Giacomo Francesco Bussani
-18 ,,HWV 18,,1724,Tamerlano,Opera,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 cornets, 2 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret d'Agostino Piovene
-19 ,,HWV 19,,1724,"Rodelinda, Regina de' Langobardi",Opera,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret d'Antonio Salvi
-20 ,,HWV 20,,1726,Publio Cornelio Scipione,Opera,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Paolo Antonio Rolli
-21 ,,HWV 21,,1726,Alessandro,Opera,,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 3 Violins, Viola, Cello, Basso Continuo",Libretto by Paolo Antonio Rolli after un livret d'Ortensio Mauro
-22 ,,HWV 22,,1726,"Admeto, Re di Tessaglia",Opera,,,"Transverse Flute, 2 hautboiAlto, Bassoon, 2 Horns, 3 Violins, Viola, Cello, Basso Continuo","Libretto by Inconnu after un livret d'Aurelio Aureli, Ortensio Mauro"
-23 ,,HWV 23,,1727,"Ricardo I, Re d'Inghilterra",Opera,,,"Piccolo, Flute, Bass Transverse Flute, 2 Oboes, 2 chalumeaux, Bassoon, 2 Horns, 3 Trumpets, Timpani, 3 Violins, Viola, Basso Continuo",Libretto by Paolo Antonio Rolli after un libretto de Francesco Briani
-24 ,,HWV 24,,1728,"Siroe, Re di Persia",Opera,,,"2 Oboes, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un libretto de Pietro Metastasio
-25 ,,HWV 25,,1728,"Tolomeo, Re di Egitto",Opera,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret de Carlo Sigismondo Capece
-26 ,,HWV 26,,1729,Lotario,Opera,,,"2 Oboes, 2 Bassoons, 2 Horns, Trumpet, 3 Violins, Viola, Basso Continuo",Libretto by Giacomo Rossi after un livret d'Antonio Salvi
-27 ,,HWV 27,,1730,Partenope,Opera,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, Trumpet, 3 Violins, Viola, Theorbo, Basso Continuo",Libretto by Inconnu after un livret de Silvio Stampiglia
-28 ,,HWV 28,,1730,"Poro, Re dell'Indie",Opera,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Horns, Trumpet, Solo Violin, 3 Violins, Viola, Basso Continuo",Libretto by Inconnu after un livret de Pietro Metastasio. Version anglaise par Samuel Humphreys.
-29 ,,HWV 29,,1731,Ezio,Opera,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, Trumpet, 3 Violins, 2 Violas, Cello, Basso Continuo",Libretto by Inconnu after un livret de Pietro Metastasio. Version anglaise par Samuel Humphreys.
-30 ,,HWV 30,,1731,"Sosarme, Re di Media",Opera,,,"2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Solo Violin, 3 Violins, Viola, Cello, Theorbo, Basso Continuo",Libretto by Inconnu after un livret d'Antonio Salvi. Version anglaise par Samuel Humphreys.
-31 ,,HWV 31,,1732,Orlando,Opera,,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, 2 violetta marinAlto, Basso Continuo",Libretto by Inconnu after un livret de Carlo Sigismondo Capece. Version anglaise par Samuel Humphreys.
-32 ,,HWV 32,,1733,Arianna in Creta,Opera,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Inconnu after un livret de Pietro Pariati. Version anglaise par Samuel Humphreys.
-33 ,,HWV 33,,1734,Ariodante,Opera,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Solo Violin, 3 Violins, Viola, Cello, Basso Continuo","[À l'origine, Dalinda: Viola]
+14 ,Q1430104,HWV 14,,1721,Il Floridante,Opera seria,,,"2 Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, 3 Violins, Viola, Basso Continuo",Libretto by Paolo Antonio Rolli after un libretto de Francesco Silvani
+15 ,Q381399,HWV 15,,1722,"Ottone, Re di Germania",Opera seria,,,"Flute, 2 Oboes, 2 Bassoons, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret de Stefano Benedetto Pallavicini
+16 ,Q1143982,HWV 16,,1723,"Flavio, Re de'Langobardi",Opera seria,,,"Flute, Transverse Flute, 2 Oboes, Bassoon, 3 Violins, Viola, Cello, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret de Matteo Noris
+17 ,Q875563,HWV 17,,1723,Giulio Cesare in Egitto,Opera seria,,,"2 Flutes, Transverse Flute, 2 Oboes, 2 Bassoons, 4 Horns, Trumpet, Solo Violin, 3 Violins, Viola, Viola da GambAlto, Cello, Harp, Theorbo, Basso Continuo",Libretto by Niccolo Francesco Haym after un libretto de Giacomo Francesco Bussani
+18 ,Q2164275,HWV 18,,1724,Tamerlano,Opera seria,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 cornets, 2 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret d'Agostino Piovene
+19 ,Q641095,HWV 19,,1724,"Rodelinda, Regina de' Langobardi",Opera seria,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret d'Antonio Salvi
+20 ,Q1633345,HWV 20,,1726,Publio Cornelio Scipione,Opera seria,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Paolo Antonio Rolli
+21 ,Q2143584,HWV 21,,1726,Alessandro,Opera seria,,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 3 Violins, Viola, Cello, Basso Continuo",Libretto by Paolo Antonio Rolli after un livret d'Ortensio Mauro
+22 ,Q358693,HWV 22,,1726,"Admeto, Re di Tessaglia",Opera seria,,,"Transverse Flute, 2 hautboiAlto, Bassoon, 2 Horns, 3 Violins, Viola, Cello, Basso Continuo","Libretto by Inconnu after un livret d'Aurelio Aureli, Ortensio Mauro"
+23 ,Q381391,HWV 23,,1727,"Ricardo I, Re d'Inghilterra",Opera seria,,,"Piccolo, Flute, Bass Transverse Flute, 2 Oboes, 2 chalumeaux, Bassoon, 2 Horns, 3 Trumpets, Timpani, 3 Violins, Viola, Basso Continuo",Libretto by Paolo Antonio Rolli after un libretto de Francesco Briani
+24 ,Q1719887,HWV 24,,1728,"Siroe, Re di Persia",Opera seria,,,"2 Oboes, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un libretto de Pietro Metastasio
+25 ,Q1419468,HWV 25,,1728,"Tolomeo, Re di Egitto",Opera seria,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Niccolo Francesco Haym after un livret de Carlo Sigismondo Capece
+26 ,Q643799,HWV 26,,1729,Lotario,Opera seria,,,"2 Oboes, 2 Bassoons, 2 Horns, Trumpet, 3 Violins, Viola, Basso Continuo",Libretto by Giacomo Rossi after un livret d'Antonio Salvi
+27 ,Q954048,HWV 27,,1730,Partenope,Opera seria,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, Trumpet, 3 Violins, Viola, Theorbo, Basso Continuo",Libretto by Inconnu after un livret de Silvio Stampiglia
+28 ,Q1756834,HWV 28,,1730,"Poro, Re dell'Indie",Opera seria,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Horns, Trumpet, Solo Violin, 3 Violins, Viola, Basso Continuo",Libretto by Inconnu after un livret de Pietro Metastasio. Version anglaise par Samuel Humphreys.
+29 ,Q531564,HWV 29,,1731,Ezio,Opera seria,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, Trumpet, 3 Violins, 2 Violas, Cello, Basso Continuo",Libretto by Inconnu after un livret de Pietro Metastasio. Version anglaise par Samuel Humphreys.
+30 ,Q1419474,HWV 30,,1731,"Sosarme, Re di Media",Opera seria,,,"2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Solo Violin, 3 Violins, Viola, Cello, Theorbo, Basso Continuo",Libretto by Inconnu after un livret d'Antonio Salvi. Version anglaise par Samuel Humphreys.
+31 ,Q946701,HWV 31,,1732,Orlando,Opera seria,,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, 2 violetta marinAlto, Basso Continuo",Libretto by Inconnu after un livret de Carlo Sigismondo Capece. Version anglaise par Samuel Humphreys.
+32 ,Q381849,HWV 32,,1733,Arianna in Creta,Opera seria,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Inconnu after un livret de Pietro Pariati. Version anglaise par Samuel Humphreys.
+33 ,Q662514,HWV 33,,1734,Ariodante,Opera seria,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Solo Violin, 3 Violins, Viola, Cello, Basso Continuo","[À l'origine, Dalinda: Viola]
 Libretto by Inconnu after un livret d'Antonio Salvi"
-34 ,,HWV 34,,1735,Alcina,Opera,,,"Piccolo, 2 Flutes, 2 Oboes, Bassoon, 2 Horns, Violin obligé, 2 Violins, Viola, Cello solo, Basso Continuo",Libretto by Inconnu after un livret d'Antonio Fanzaglia
-35 ,,HWV 35,,1736,Atalanta,Opera,,,"2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Inconnu after un livret de Belisario Valeriani
-36 ,,HWV 36,,1736,Arminio,Opera,,,"2 Flutes, 2 Oboes, 2 Horns, 3 Violins, Viola, Basso Continuo","[À l'orgine, Tullio: basse]
+34 ,Q275627,HWV 34,,1735,Alcina,Opera seria,,,"Piccolo, 2 Flutes, 2 Oboes, Bassoon, 2 Horns, Violin obligé, 2 Violins, Viola, Cello solo, Basso Continuo",Libretto by Inconnu after un livret d'Antonio Fanzaglia
+35 ,Q381411,HWV 35,,1736,Atalanta,Opera seria,,,"2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Inconnu after un livret de Belisario Valeriani
+36 ,Q688562,HWV 36,,1736,Arminio,Opera seria,,,"2 Flutes, 2 Oboes, 2 Horns, 3 Violins, Viola, Basso Continuo","[À l'orgine, Tullio: basse]
 Libretto by Inconnu after un livret d'Antonio Salvi"
-37 ,,HWV 37,,1736,Giustino,Opera,,,"2 Flutes, basse de Flute, Oboe solo, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 3 Violins, Viola, Cello, Basso Continuo","[À l'origine, Amanzio: basse]
+37 ,Q953502,HWV 37,,1736,Giustino,Opera seria,,,"2 Flutes, basse de Flute, Oboe solo, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 3 Violins, Viola, Cello, Basso Continuo","[À l'origine, Amanzio: basse]
 Libretto by Inconnu after un livret de Niccolo Beregani, Pietro Pariati."
-38 ,,HWV 38,,1736,"Berenice, Regina d'Egitto",Opera,,,"2 Oboes, 3 Violins, Viola, Basso Continuo",Libretto by Inconnu after un livret d'Antonio Salvi
-39 ,,HWV 39,,1737,Faramondo,Opera,,,"Transverse Flute, 2 Oboes, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Inconnu after un livret d'Apostolo Zeno
-40 ,,HWV 40,,1737,Serse,Opera,,,"2 Flutes, 2 Oboes, 2 Horns, Trumpets, 3 Violins, Viola, Basso Continuo","Libretto by Inconnu after des livrets de Niccolo Minato, Silvio Stampiglia"
-41 ,,HWV 41,,1738,Imeneo (Hymen),Serenata,,,"2 Oboes, 3 Violins, Viola, Basso Continuo","[En 1742: T: Imeneo]
+38 ,Q381427,HWV 38,,1736,"Berenice, Regina d'Egitto",Opera seria,,,"2 Oboes, 3 Violins, Viola, Basso Continuo",Libretto by Inconnu after un livret d'Antonio Salvi
+39 ,Q381419,HWV 39,,1737,Faramondo,Opera seria,,,"Transverse Flute, 2 Oboes, 2 Horns, 3 Violins, Viola, Basso Continuo",Libretto by Inconnu after un livret d'Apostolo Zeno
+40 ,Q1069133,HWV 40,,1737,Serse,Opera seria,,,"2 Flutes, 2 Oboes, 2 Horns, Trumpets, 3 Violins, Viola, Basso Continuo","Libretto by Inconnu after des livrets de Niccolo Minato, Silvio Stampiglia"
+41 ,Q1659804,HWV 41,,1738,Imeneo (Hymen),Opera seria,,,"2 Oboes, 3 Violins, Viola, Basso Continuo","[En 1742: T: Imeneo]
 Libretto by Inconnu after un livret de Silvio Stampiglia"
-42 ,,HWV 42,,1740,Deidamia,Opera,,,"2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, Cello, Basso Continuo",Libretto by Paolo Antonio Rolli
-43 ,,HWV 43,,1707,The Alchemist,Incidental Music,,"1. Ouverture Largo (si bémol majeur)/Allegro
+42 ,Q1183179,HWV 42,,1740,Deidamia,Opera seria,,,"2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, Cello, Basso Continuo",Libretto by Paolo Antonio Rolli
+43 ,Q6550124,HWV 43,,1707,The Alchemist,Incidental Music,,"1. Ouverture Largo (si bémol majeur)/Allegro
 2. Air (si bémol majeur)
 3. Minuet I (si bémol majeur)
 4. Saraband (si bémol majeur)
@@ -68,69 +68,69 @@ Libretto by Inconnu after un livret de Silvio Stampiglia"
 7. Minuet II (si bémol majeur)
 8. Aire (si bémol majeur)
 9. Jigg (si bémol majeur)","2 Oboes, 2 Violins, Viola, Basso Continuo",
-44 ,,HWV 44,,1745,There in blissful shade and bow'rs,Incidental Music,,"1. Air (sol majeur) There in blissful shade and bow'rs basse, 2 Violins à l'unisson, Basso Continuo
+44 ,Q5157864,HWV 44,,1745,There in blissful shade and bow'rs,Masque,,"1. Air (sol majeur) There in blissful shade and bow'rs basse, 2 Violins à l'unisson, Basso Continuo
 2. Chœur (sol majeur) Happy plains, Soprano I, Soprano II, Basse 2 Oboes, 2 Violins, Basso Continuo
 3. Air Andante (sol majeur) There sweetest flowers of mingled hue, Soprano I 2 Violins, Basso Continuo
 4. Chœu (sol majeur) Happy plains, Soprano I, Soprano II, Basse 2 Oboes, 2 Violins, Basso Continuo [reprise du # 2]
 5. Air Larghetto (sol mineur) There youthful Cupid, high advanc'd, Soprano II, 2 Violins à l'unisson, Basso Continuo
 6. Chœur(sol majeur) Happy plains, Soprano I, Soprano II, Basse2 Oboes, 2 Violins, Basso Continuo[reprise du # 2]","2 Sopranos, Bass, 2 Oboes, 2 Violins, Organ, Basso Continuo","""Comus"" musique pour un spectacle de John Milton (sérénade à 9)"
-45 ,,HWV 45,,1749,Alceste (Alcides),Incidental Music,,,"SATB, SATB Choir, Transverse Flute, 2 Oboes, Bassoon, 2 Trumpets, 3 Violins, Viola, Basso Continuo",musique pour un spectable de Tobias Smollet
-46 ,,HWV 46a,,1707,Il Trionfo del Tempo e del Disinganno,Oratorio,,,"2 Flutes, 2 Oboes, 3 Violins, Viola, 2 Cellos, Organ, Basso Continuo",Texte: Benedetto Pamphilj
-46 ,,HWV 46b,,1737,Il Trionfo del Tempo e della Verità,Oratorio,,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, Cello, Double Bass, Organ, Harpsichord, carillon",Texte: Benedetto Pamphilj
-47 ,,HWV 47,,1708,La Resurrezione,Oratorio,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Trumpets, Solo Violin, 4 Violins, Viola, Viola da GambAlto, 2 Cellos, Theorbo, Basso Continuo",Texte: Carlo Sigismondo Capece
-48 ,,HWV 48,,1716-1717,Der fur die Sunde der Welt gemarterte und sterbende Jesus,Oratorio,,,"2 Oboes, 2 Bassoons, 2 Violins, Viola, Basso Continuo","(Brockes' Passion)
+45 ,Q581678,HWV 45,,1749,Alceste (Alcides),Incidental Music,,,"SATB, SATB Choir, Transverse Flute, 2 Oboes, Bassoon, 2 Trumpets, 3 Violins, Viola, Basso Continuo",musique pour un spectable de Tobias Smollet
+46 ,Q105123899,HWV 46a,,1707,Il Trionfo del Tempo e del Disinganno,Oratorio,,,"2 Flutes, 2 Oboes, 3 Violins, Viola, 2 Cellos, Organ, Basso Continuo",Texte: Benedetto Pamphilj
+46 ,Q105151872,HWV 46b,,1737,Il Trionfo del Tempo e della Verità,Oratorio,,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, Cello, Double Bass, Organ, Harpsichord, carillon",Texte: Benedetto Pamphilj
+47 ,Q1696593,HWV 47,,1708,La Resurrezione,Oratorio,,,"2 Flutes, Transverse Flute, 2 Oboes, Bassoon, 2 Trumpets, Solo Violin, 4 Violins, Viola, Viola da GambAlto, 2 Cellos, Theorbo, Basso Continuo",Texte: Carlo Sigismondo Capece
+48 ,Q4972784,HWV 48,,1716-1717,Brockes Passion. „Der für die Sünde der Welt gemarterte und sterbende Jesus“,Passion,,,"2 Oboes, 2 Bassoons, 2 Violins, Viola, Basso Continuo","(Brockes' Passion)
 Texte: Barthold Heinrich Brockes"
-49 ,,HWV 49a,,1718,Acis and Galatea,Serenata,,,"Piccolo, 2 Flutes, 2 Oboes, 2 Violins, Viola, Cello, Basso Continuo","[1ère version]
+49 ,Q341482,HWV 49a,,1718,Acis and Galatea,Masque,,,"Piccolo, 2 Flutes, 2 Oboes, 2 Violins, Viola, Cello, Basso Continuo","[1ère version]
 Texte: John Gay, Alexander Pope, John Hughes"
-49 ,,HWV 49b,,1732,Acis and Galatea,Serenata,,,"Piccolo, Transverse Flute, 2 Oboes, Trumpet, 2 Horns, 2 Violins, Viola, Lute, Organ, Basso Continuo","[2è version]
+49 ,Q134387837,HWV 49b,,1732,Acis and Galatea,Serenata,,,"Piccolo, Transverse Flute, 2 Oboes, Trumpet, 2 Horns, 2 Violins, Viola, Lute, Organ, Basso Continuo","[2è version]
 Texte: John Gay"
-50 ,,HWV 50a,,1718,Esther (Haman and Mordecai),Oratorio,,,"Oboe, Trumpet, 2 Horns, Harp, 2 Violins, Viola, Basso Continuo","[1ère version]
+50 ,Q174707,HWV 50a,,1718,Esther (Haman and Mordecai),Oratorio,,,"Oboe, Trumpet, 2 Horns, Harp, 2 Violins, Viola, Basso Continuo","[1ère version]
 Texte: Alexander Pope, John Arbuthnot after ""Esther"" de Racine (1689)"
-50 ,,HWV 50b,,1732,Esther,Oratorio,,,"2 Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 5 Violins, Viola, Cello, Double Bass, Theorbo, Harp, 2 Harpsichords, Organ","[2è version]
+50 ,Q174707,HWV 50b,,1732,Esther,Oratorio,,,"2 Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 5 Violins, Viola, Cello, Double Bass, Theorbo, Harp, 2 Harpsichords, Organ","[2è version]
 Texte: Alexander Pope, John Arbuthnot after ""Esther"" de Racine (1689)"
-51 ,,HWV 51,,1733,Deborah,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 3 Horns, 3 Trumpets, Timpani, 3 Violins, 2 Violas, Cello, Double Bass, Harpsichord, Organ",Texte: Samuel Humphrey
-52 ,,HWV 52,,1733,Athalia,Oratorio,,,"2 Flutes, Transverse Flute, 2 Oboes, 2 Bassoons, Theorbo, 2 Horns, 2 Trumpets, Timpani, 4 Violins, Viola, Cello, Double Bass, Harpsichord, Organ","Texte: Samuel Humprey after ""Athalie"" de Jean Racine (1691)"
-53 ,,HWV 53,,1738,Saul,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Trumpets, 3 Trombones, Timpani, carillon, Harp, Theorbo, 3 Violins, Viola, Organ, Basso Continuo",Texte: Charles Jennens
-54 ,,HWV 54,,1738,Israel in Egypt (Exodus),Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Trumpets, 3 Trombones, Timpani, 2 Violins, Viola, Cello, Double Bass, Organ, Harpsichord","Texte: inconnu (Exodus I, II, XV, Psaumes 105, 106)"
-55 ,,HWV 55,,1740,"L'Allegro, il Penseroso ed il Moderato",Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, cor, 2 Trumpets, Timpani, carillon, Solo Violin, 3 Violins, Viola, Organ, Basso Continuo","Texte: John Milton, Charles Jennens"
-56 ,,HWV 56,,1741,Messiah,Oratorio,,,"2 Oboes, 2 Bassoons, 2 Trumpets, Timpani, 2 Violins, Viola, Basso Continuo",Texte: Textes bibliques par Charles Jennens
-57 ,,HWV 57,,1741,Samson,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, 2 Trombones, Timpani, 3 Violins, Viola, Cello, Organ, Basso Continuo","Texte: after ""Samson Agonistes"", autres œuvres de John Milton"
-58 ,,HWV 58,,1743,Semele,Oratorio,,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, 2 Cellos, Organ, Basso Continuo","Texte: after l'opéra ""Semele"" de William Congreve (1706)"
-59 ,,HWV 59,,1743,Joseph and his Brethren,Oratorio,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 3 Trumpets, Timpani, 3 Violins, Viola, Organ, Basso Continuo",Texte: James Miller
-60 ,,HWV 60,,1744,Hercules,Oratorio,,,"2 Oboes, 2 Horns, 2 Trumpets, 3 Violins, Viola, Basso Continuo","Texte: Thomas Broughton after ""Trachiniai"" de Sophocles, ""Metamorphoses"" de Publius Ovidius Naso"
-61 ,,HWV 61,,1744,Belshazzar,Oratorio,,,"2 Oboes, Bassoon, 2 Trumpets, Timpani, 3 Violins, Viola, Basso Continuo",Texte: Charles Jennens
-62 ,,HWV 62,,1746,Occasional Oratorio,Oratorio,,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, principal, Timpani, 2 Violins, Viola, Cello, Organ, Basso Continuo","Texte: after les Psaumes de John Milton, des textes de Edmund Spenser"
-63 ,,HWV 63,,1746,Juddas Maccabeus,Oratorio,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 3 Trumpets, Timpani, 3 Violins, Viola, Cello, Double Bass, Organ, Harpsichord",Texte: Thomas Morell
-64 ,,HWV 64,,1747,Joshua,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 3 Trumpets, tambourin, Timpani, 3 Violins, Viola, Organ, Basso Continuo",Texte: Thomas Morell (?)
-65 ,,HWV 65,,1747,Alexander Balus,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, Harp, mandoline, Violin concertant, 3 Violins, Viola, 2 Cellos, Double Bass, Organ, Harpsichord",Texte: Thomas Morell
-66 ,,HWV 66,,1748,Susanna,Oratorio,,,"2 Oboes, Bassoon, 2 Trumpets, 2 Violins, 2 Violas, Basso Continuo",
-67 ,,HWV 67,,1748,Solomon,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, 2 Violas, Cello, Organ, Basso Continuo",
-68 ,,HWV 68,,1749,Theodora,Oratorio,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso Continuo","Texte: after ""The Martyrdom of Theodora and of Didymus"" de Robert Boyle (1687)"
-69 ,,HWV 69,,1750,The Choice of Hercules,,,,"2 Sopranos, Mezzo-Soprano, Tenor, SATB Choir, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 2 Violins, Viola, Basso Continuo","(Acte III, Alexander's Feast, HWV 75)
+51 ,Q3020847,HWV 51,,1733,Deborah,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 3 Horns, 3 Trumpets, Timpani, 3 Violins, 2 Violas, Cello, Double Bass, Harpsichord, Organ",Texte: Samuel Humphrey
+52 ,Q754682,HWV 52,,1733,Athalia,Oratorio,,,"2 Flutes, Transverse Flute, 2 Oboes, 2 Bassoons, Theorbo, 2 Horns, 2 Trumpets, Timpani, 4 Violins, Viola, Cello, Double Bass, Harpsichord, Organ","Texte: Samuel Humprey after ""Athalie"" de Jean Racine (1691)"
+53 ,Q1754238,HWV 53,,1738,Saul,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Trumpets, 3 Trombones, Timpani, carillon, Harp, Theorbo, 3 Violins, Viola, Organ, Basso Continuo",Texte: Charles Jennens
+54 ,Q1674646,HWV 54,,1738,Israel in Egypt (Exodus),Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Trumpets, 3 Trombones, Timpani, 2 Violins, Viola, Cello, Double Bass, Organ, Harpsichord","Texte: inconnu (Exodus I, II, XV, Psaumes 105, 106)"
+55 ,Q1419454,HWV 55,,1740,"L'Allegro, il Penseroso ed il Moderato",Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, cor, 2 Trumpets, Timpani, carillon, Solo Violin, 3 Violins, Viola, Organ, Basso Continuo","Texte: John Milton, Charles Jennens"
+56 ,Q207732,HWV 56,,1741,Messiah,Oratorio,,,"2 Oboes, 2 Bassoons, 2 Trumpets, Timpani, 2 Violins, Viola, Basso Continuo",Texte: Textes bibliques par Charles Jennens
+57 ,Q1263593,HWV 57,,1741,Samson,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, 2 Trombones, Timpani, 3 Violins, Viola, Cello, Organ, Basso Continuo","Texte: after ""Samson Agonistes"", autres œuvres de John Milton"
+58 ,Q1284403,HWV 58,,1743,Semele,Oratorio,,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, 2 Cellos, Organ, Basso Continuo","Texte: after l'opéra ""Semele"" de William Congreve (1706)"
+59 ,Q6288174,HWV 59,,1743,Joseph and his Brethren,Oratorio,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 3 Trumpets, Timpani, 3 Violins, Viola, Organ, Basso Continuo",Texte: James Miller
+60 ,Q380642,HWV 60,,1744,Hercules,Oratorio,,,"2 Oboes, 2 Horns, 2 Trumpets, 3 Violins, Viola, Basso Continuo","Texte: Thomas Broughton after ""Trachiniai"" de Sophocles, ""Metamorphoses"" de Publius Ovidius Naso"
+61 ,Q816183,HWV 61,,1744,Belshazzar,Oratorio,,,"2 Oboes, Bassoon, 2 Trumpets, Timpani, 3 Violins, Viola, Basso Continuo",Texte: Charles Jennens
+62 ,Q482475,HWV 62,,1746,Occasional Oratorio,Oratorio,,,"2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, principal, Timpani, 2 Violins, Viola, Cello, Organ, Basso Continuo","Texte: after les Psaumes de John Milton, des textes de Edmund Spenser"
+63 ,Q993971,HWV 63,,1746,Juddas Maccabeus,Oratorio,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 3 Trumpets, Timpani, 3 Violins, Viola, Cello, Double Bass, Organ, Harpsichord",Texte: Thomas Morell
+64 ,Q380646,HWV 64,,1747,Joshua,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 3 Trumpets, tambourin, Timpani, 3 Violins, Viola, Organ, Basso Continuo",Texte: Thomas Morell (?)
+65 ,Q2641788,HWV 65,,1747,Alexander Balus,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, Harp, mandoline, Violin concertant, 3 Violins, Viola, 2 Cellos, Double Bass, Organ, Harpsichord",Texte: Thomas Morell
+66 ,Q2369038,HWV 66,,1748,Susanna,Oratorio,,,"2 Oboes, Bassoon, 2 Trumpets, 2 Violins, 2 Violas, Basso Continuo",
+67 ,Q1123627,HWV 67,,1748,Solomon,Oratorio,,,"2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, 2 Violas, Cello, Organ, Basso Continuo",
+68 ,Q1419033,HWV 68,,1749,Theodora,Oratorio,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso Continuo","Texte: after ""The Martyrdom of Theodora and of Didymus"" de Robert Boyle (1687)"
+69 ,Q2410243,HWV 69,,1750,The Choice of Hercules,,,,"2 Sopranos, Mezzo-Soprano, Tenor, SATB Choir, 2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, 2 Violins, Viola, Basso Continuo","(Acte III, Alexander's Feast, HWV 75)
 Texte: Thomas Morell after ""The Judgement of Hercules"" de Robert Lowth, 1747"
-70 ,,HWV 70,,1751,Jephtha,Oratorio,,,"Transverse Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, 3 Violins, Viola, Basso Continuo",Texte: Thomas Morell
-71 ,,HWV 71,,1756,The Triumph of Time and Truth,Oratorio,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, Cello, Basso Continuo",Texte: Benedetto Pamphili
-72 ,,HWV 72,,1708,"Aci, Galatea e Polifrmo",Serenata,,,"Flute, 2 Oboes, 2 Trumpets, 2 Violins, Viola, 2 Cellos, Basso Continuo",
-73 ,,HWV 73,,1734,Il Parnasso in festa per gli sponsali di Teti e Peleo,Serenata,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso Continuo",
-74 ,,HWV 74,,1713-1714,Eternal source of light divine,Serenata,,,"Soprano, Alto/Tenor, Bass, Choir I (SATB), Choir II (SATB), 2 Oboes, 2 Trumpets, 2 Violins, Viola, Basso Continuo","Anniversaire de naissance de la reine Anne
+70 ,Q1002304,HWV 70,,1751,Jephtha,Oratorio,,,"Transverse Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, 3 Violins, Viola, Basso Continuo",Texte: Thomas Morell
+71 ,Q62348,HWV 71,,1756,The Triumph of Time and Truth,Oratorio,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 3 Violins, Viola, Cello, Basso Continuo",Texte: Benedetto Pamphili
+72 ,Q1626977,HWV 72,,1708,"Aci, Galatea e Polifemo",Cantata,,,"Flute, 2 Oboes, 2 Trumpets, 2 Violins, Viola, 2 Cellos, Basso Continuo",
+73 ,Q16932049,HWV 73,,1734,Il Parnasso in festa per gli sponsali di Teti e Peleo,Serenata,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso Continuo",
+74 ,Q1503335,HWV 74,,1713-1714,"Ode for the Birthday of Queen Anne. ""Eternal source of light divine""",Cantata,,,"Soprano, Alto/Tenor, Bass, Choir I (SATB), Choir II (SATB), 2 Oboes, 2 Trumpets, 2 Violins, Viola, Basso Continuo","Anniversaire de naissance de la reine Anne
 Texte: Ambrose Philips"
-75 ,,HWV 75,,1736,Alexander's Feast or the Power of Musick,Ode,,,"SATB, SSATTBB Choir, 2 Flutes, 2 Oboes, 3 Bassoons, 2 Horns, 2 Trumpets, Timpani, 3 Violins, 2 Violas, Cello, Organ, Basso Continuo","En l'honneur de Ste-Cécile
+75 ,Q1167136,HWV 75,,1736,Alexander's Feast or the Power of Musick,Ode,,,"SATB, SSATTBB Choir, 2 Flutes, 2 Oboes, 3 Bassoons, 2 Horns, 2 Trumpets, Timpani, 3 Violins, 2 Violas, Cello, Organ, Basso Continuo","En l'honneur de Ste-Cécile
 Texte: John Dryden"
-76 ,,HWV 76,,1739,"From Harmony, from heav'nly Harmony",Ode,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Trumpets, Tambourine, 2 Violins, Viola, Cello, Double Bass, Lute, Organ","Pour le jour de la fête de Ste-Cécile
+76 ,Q1502546,HWV 76,,1739,"Ode for St. Cecilia's Day. ""From Harmony, from heav'nly Harmony""",Ode,,,"Transverse Flute, 2 Oboes, Bassoon, 2 Trumpets, Tambourine, 2 Violins, Viola, Cello, Double Bass, Lute, Organ","Pour le jour de la fête de Ste-Cécile
 Texte: John Dryden"
 77 ,,HWV 77,,,Ah! che pur troppo e vero,Cantata,,,"Soprano, Basso Continuo",
 78 ,,HWV 78,,,"Ah! crudel, nel pianto mio",Cantata,,,"Soprano, 2 Oboes, 2 Violins, Viola, Basso Continuo",
 79 ,,HWV 79,,,Diana cacciatrice: Alla caccia,Cantata,,,"Soprano, Soprano Choir, Trumpet, 2 Violins, Basso Continuo",
-80 ,,HWV 80,,,Allor ch'io dissi addio,Cantata,,,"Soprano, Basso Continuo",
+80 ,Q4733138,HWV 80,,,Allor ch'io dissi addio,Cantata,,,"Soprano, Basso Continuo",
 81 ,,HWV 81,,,Alpestre monte,Cantata,,,"Soprano, Strings (2 Violins), Basso Continuo",
 82 ,,HWV 82,,,Il Duello amoroso/Daliso ed Amarilli: Amarilli vezzosa,Cantata,,,"Soprano, Alto, Strings (2 Violins), Basso Continuo",
 83 ,,HWV 83,,,Amiante e Fillide: Arrista il passo,Cantata,,,"2 Sopranos, Strings (3 Violins, Viola), Basso Continuo",
-84 ,,HWV 84,,,"Aure soavi, e lieti",Cantata,,,"Soprano, Basso Continuo",
+84 ,Q4822163,HWV 84,,,"Aure soavi, e lieti",Cantata,,,"Soprano, Basso Continuo",
 85 ,,HWV 85,,,Venus and Adonis: Behold where Venus weeping stands,Cantata,,,"Soprano, Violin, Basso Continuo",
 86 ,,HWV 86,,,Bella ma ritrosetta,Cantata,,,"Soprano, Basso Continuo",
 87 ,,HWV 87,,,Carco sempre di gloria,Cantata,,,"Alto, Strings (2 Violins), Basso Continuo",
 88 ,,HWV 88,,,"Care selve, aure grate",Cantata,,,"Soprano, Basso Continuo",
-89 ,,HWV 89,,,"CeciliAlto, vogli un sguardo",Cantata,,,"Soprano, Tenor, Strings (2 Violins, Viola), Basso Continuo",
+89 ,,HWV 89,,,"Cecilia, vogli un sguardo",Cantata,,,"Soprano, Tenor, Strings (2 Violins, Viola), Basso Continuo",
 90 ,,HWV 90,,,Chi rapi la pace al core,Cantata,,,"Soprano, Basso Continuo",
 91 ,,HWV 91a,,,"Clori, degli occhi miei",Cantata,,,"Alto, Basso Continuo",
 91 ,,HWV 91b,,,"Clori, degli occhi miei",Cantata,,,"Soprano, Basso Continuo",
@@ -138,21 +138,21 @@ Texte: John Dryden"
 93 ,,HWV 93,,,"Clori, ove sei?",Cantata,,,"Soprano, Basso Continuo",
 94 ,,HWV 94,,,"Clori, si, ch'io t'adoro",Cantata,,,"Soprano, Basso Continuo",
 95 ,,HWV 95,,,"Clori, vezzosa Clori",Cantata,,,"Soprano, Basso Continuo",
-96 ,,HWV 96,,,"Clori, Tirsi e Fileno: Cor fedele in vano speri",Cantata,,,"2 Sopranos, Alto, 2 Flutes, 2 Oboes, Violin obbligato, 2 Violins, 2 Violas, Lute, Basso Continuo",
+96 ,Q3656015,HWV 96,,,"Clori, Tirsi e Fileno: Cor fedele in vano speri",Cantata,,,"2 Sopranos, Alto, 2 Flutes, 2 Oboes, Violin obbligato, 2 Violins, 2 Violas, Lute, Basso Continuo",
 100 ,,HWV 100,,,Da sete ardente afflitto,Cantata,,,"Soprano, Basso Continuo",
 101 ,,HWV 101a,,,Dal fatale momento,Cantata,,,"Soprano, Basso Continuo",[1st version]
 101 ,,HWV 101b,,,Del fatale momento,Cantata,,,"Bass, Basso Continuo",[2nd version]
-102 ,,HWV 102a,,,Dalla guerra amorosa,Cantata,,,"Bass, Basso Continuo",[1st version]
-102 ,,HWV 102b,,,Dalla guerra amorosa,Cantata,,,"Soprano, Basso Continuo",[2nd version]
+102 ,Q5211136,HWV 102a,,,Dalla guerra amorosa,Cantata,,,"Bass, Basso Continuo",[1st version]
+102 ,Q5211136,HWV 102b,,,Dalla guerra amorosa,Cantata,,,"Soprano, Basso Continuo",[2nd version]
 103 ,,HWV 103,,,Deh! lasciate e vita e volo,Cantata,,,"Alto, Basso Continuo",texte: Paolo Antonio Rolli
-104 ,,HWV 104,,,Del bio idolo mio,Cantata,,,"Soprano, Basso Continuo",
+104 ,Q5253030,HWV 104,,,Del bio idolo mio,Cantata,,,"Soprano, Basso Continuo",
 105 ,,HWV 105,,,Armida abbandonata: Dietro l'orme fugaci,Cantata,,,"Soprano, Strings (2 Violins), Basso Continuo",
 106 ,,HWV 106,,,"Dimmi, o mio cor",Cantata,,,"Soprano, Basso Continuo",
 107 ,,HWV 107,,,"Ditemi, o piante",Cantata,,,"Soprano, Basso Continuo",
 108 ,,HWV 108,,,"Dolce mio ben, s'io taccio",Cantata,,,"Soprano, Basso Continuo",
 109 ,,HWV 109a,,,Dolce pur d'amor l'affanno,Cantata,,,"Alto, Basso Continuo",[1st version]
 109 ,,HWV 109b,,,Dolce pur d'amor l'affanno,Cantata,,,"Soprano, Basso Continuo",[2nd version]
-110 ,,HWV 110,,,Agrippina condotta a morire: Dunque sara pur vero,Cantata,,,"Soprano, Strings (2 Violins), Basso Continuo",
+110 ,Q17020274,HWV 110,,,Agrippina condotta a morire: Dunque sara pur vero,Cantata,,,"Soprano, Strings (2 Violins), Basso Continuo",
 111 ,,HWV 111a,,,"E partirai, mia vita?",Cantata,,,"Soprano, Basso Continuo",[1st version]
 111 ,,HWV 111b,,,"E partirai, mia vita?",Cantata,,,"Soprano, Basso Continuo",[2nd version]
 112 ,,HWV 112,,,Figli del mesto cor,Cantata,,,"Alto, Basso Continuo",
@@ -167,7 +167,7 @@ Texte: John Dryden"
 120 ,,HWV 120b,,,"Irene, idolo mio",Cantata,,,"Alto, Basso Continuo",[2nd version]
 121 ,,HWV 121a,,,"La Solitudine: L'aure grate, il fresco rio",Cantata,,,"Alto, Basso Continuo","[1ère version, fragment]"
 121 ,,HWV 121b,,,"La Solitudine: L'aure grate, il fresco rio",Cantata,,,"Alto, Basso Continuo",[2nd version]
-122 ,,HWV 122,,,"Appolo, Dafne: La terra e liberata",Cantata,,,"Soprano, Bass, Transverse Flute, 2 Oboes, Bassoon, Solo Violin, 2 Violins, Viola, Solo Cello, Basso Continuo",
+122 ,Q625292,HWV 122,,,"Appolo, Dafne: La terra e liberata",Cantata,,,"Soprano, Bass, Transverse Flute, 2 Oboes, Bassoon, Solo Violin, 2 Violins, Viola, Solo Cello, Basso Continuo",
 123 ,,HWV 123,,,Languia di bocca lusinghiera,Cantata,,,"Soprano, Oboe, Violin, Basso Continuo",
 124 ,,HWV 124,,,"(The Praise od Harmony): Look down, harmonius Saint",Cantata,,,"T, Strings (2 Violins, Viola), Basso Continuo",texte: Newburg Hamilton
 125 ,,HWV 125a,,,Lungi da me pensier tiranno,Cantata,,,"Soprano, Basso Continuo",[1st version]
@@ -201,13 +201,13 @@ Texte: John Dryden"
 141 ,,HWV 141,,,"Non sospirar, non piangere",Cantata,,,"Soprano, Basso Continuo",
 142 ,,HWV 142,,,Notte placida e cheta,Cantata,,,"Soprano, Strings (2 Violins), Basso Continuo",
 143 ,,HWV 143,,,"Olinto pastore, Tebro fiume, Gloria: Oh come chiare e belle",Cantata,,,"2 Sopranos, Alto, Trumpet, 2 Concertante Violins, 2 Violins, Basso Continuo",
-144 ,,HWV 144,,,"O lucenti, o sereni occhi",Cantata,,,"Soprano, Basso Continuo",
+144 ,Q7073368,HWV 144,,,"O lucenti, o sereni occhi",Cantata,,,"Soprano, Basso Continuo",
 145 ,,HWV 145,,,La Lucrezia: Oh Numi eterni,Cantata,,,"Soprano, Basso Continuo",
 146 ,,HWV 146,,,Occhi miei che faceste?,Cantata,,,"Soprano, Basso Continuo",
 147 ,,HWV 147,,,"Parti, l'idolo mio",Cantata,,,"Soprano, Basso Continuo",
 148 ,,HWV 148,,,Poiche giuraro Amore,Cantata,,,"Soprano, Basso Continuo",
 149 ,,HWV 149,,,Qual sento io non conosciuto,Cantata,,,"Soprano, Basso Continuo",
-150 ,,HWV 150,,,"(Ero e Leandro): Qual ti riveggio, oh Dio",Cantata,,,"Soprano, 2 Oboes, Solo Violin, 2 Violins, Viola, Solo Cello, Basso Continuo",texte: Pietro Ottoboni
+150 ,Q141986394,HWV 150,,,"(Ero e Leandro): Qual ti riveggio, oh Dio",Cantata,,,"Soprano, 2 Oboes, Solo Violin, 2 Violins, Viola, Solo Cello, Basso Continuo",texte: Pietro Ottoboni
 151 ,,HWV 151,,,"Qualor crudele, si, ma vaga Dori",Cantata,,,"Alto, Basso Continuo",
 152 ,,HWV 152,,,Qualor l'egre pupille,Cantata,,,"Soprano, Basso Continuo",
 153 ,,HWV 153,,,"Quando sperasti, o core",Cantata,,,"Soprano, Basso Continuo",
@@ -235,10 +235,10 @@ Texte: John Dryden"
 167 ,,HWV 167b,,,Stando di piu soffrire,Cantata,,,"Soprano, Basso Continuo",[2nd version]
 168 ,,HWV 168,,,"Partenza di Giovanni Bononcini.: Stelle, perfide stelle",Cantata,,,"Soprano, Basso Continuo",
 169 ,,HWV 169,,,Torna il core al suo diletto,Cantata,,,"Soprano, Basso Continuo",
-170 ,,HWV 170,,,Tra le fiamme (Il consiglio),Cantata,,,"Soprano, 2 Flutes, Oboe, 2 Violins, Viola da GambAlto, Basso Continuo",texte: Benedetto Pamphilj
+170 ,Q7831047,HWV 170,,,Tra le fiamme (Il consiglio),Cantata,,,"Soprano, 2 Flutes, Oboe, 2 Violins, Viola da GambAlto, Basso Continuo",texte: Benedetto Pamphilj
 171 ,,HWV 171,,,Tu fidel? tu costante?,Cantata,,,"Soprano, Strings (2 Violins), Basso Continuo",
 172 ,,HWV 172,,,Udite il mio consiglio,Cantata,,,"Soprano, Basso Continuo",
-173 ,,HWV 173,,,Un'alma innamorata,Cantata,,,"Soprano, Violin, Basso Continuo",
+173 ,Q7881886,HWV 173,,,Un'alma innamorata,Cantata,,,"Soprano, Violin, Basso Continuo",
 174 ,,HWV 174,,,Un sospir a chi si muore,Cantata,,,"Soprano, Basso Continuo",
 175 ,,HWV 175,,,Vedendo Amor,Cantata,,,"Alto, Basso Continuo",
 176 ,,HWV 176,,,(Amore ucellatore): Venne voglia ad Amore,Cantata,,,"Alto, Basso Continuo",
@@ -283,7 +283,7 @@ texte:Charles Legh"
 228 ,,HWV 228/6,,,The Sailor's Complaint: Come and listen to my ditty/Hosier's Ghost: A near Portobello lying,Song,G minor,,"Soprano, Basso Continuo",
 228 ,,HWV 228/7,,,"Di godere ha speranza il mio core/Oh my dearest, my lovely creature",Song,G major,,"Soprano, Basso Continuo",
 228 ,,HWV 228/8,,,The forsaken Maid's Complaint: Faithless ungrateful/The slighted Swain: Cloe proves false,Song,A major,,"Soprano, Basso Continuo",texte: inconnu/Abraham Bradley
-228 ,,HWV 228/9,,,From scourging rebellion,Song,C major,,"Soprano, Basso Continuo",texte: John Lockman
+228 ,Q132181306,HWV 228/9,,,From scourging rebellion,Song,C major,,"Soprano, Basso Continuo",texte: John Lockman
 228 ,,HWV 228/10,,,The foresaken Nymph: Guardian Angels now protect me,Song,F major,,"Soprano, Basso Continuo",
 228 ,,HWV 228/11,,,I Like the am'rous Youth that's free,Song,F major,,"Soprano, Basso Continuo",texte: James Miller
 228 ,,HWV 228/12,,,"Phillis: My fair, ye Swains, is gone astray",Song,G major,,"Soprano, Basso Continuo",
@@ -292,7 +292,7 @@ texte:Charles Legh"
 228 ,,HWV 228/15,,,The Satyr's Advice to a Stock-Jobber: On the shore of a low ebbing sea/Ye Swains that are courting a Maid/Molly Mogg: Says my uncle I pray you discover,Song,G major,,"Soprano, Basso Continuo",
 228 ,,HWV 228/16,,,Phillis be Kind and hear,Song,A major,,"Soprano, Basso Continuo",texte: Mr. Paratt
 228 ,,HWV 228/17,,,Phillis advised: Phillis the lovely,Song,G major,,"Soprano, Basso Continuo",
-228 ,,HWV 228/18,,,"Stand around, my brave boys",Song,D major,,"Soprano, Basso Continuo",
+228 ,Q125470312,HWV 228/18,,,"Stand around, my brave boys",Song,D major,,"Soprano, Basso Continuo",
 228 ,,HWV 228/19,,,The faithful Maid/The melancholly Nymph: 'Twas when the seas were roaring,Song,G minor,,"Soprano, Basso Continuo",texte: John Gay
 228 ,,HWV 228/20,,,The Rupture/Matchless Clarinda: When I survey Clarinda's charms/Venus now leaves,Song,G minor,,"Soprano, Basso Continuo",texte: B. (Bradley ?)
 228 ,,HWV 228/21,,,The Death of the Stag: When Phoebus the tops of the Hills does adorn,Song,G major,,"2 voix (Violins, Flutes ou Horns), Basso Continuo",
@@ -310,7 +310,7 @@ texte:Charles Legh"
 230 ,,HWV 230,,,Ah! che troppo inegnali / O del ciel! Maria Regina,,,,"récitatif et air pour voix solo, cordes (2 violons et alto) et basse continue",texte: inconnu
 231 ,,HWV 231,,,Coelestis dum spirat aura,Motet,,,soprano avec cordes (2 violons) et basse continue,"pour la fête de St. Antoine de Padoue
 texte: inconnu"
-232 ,,HWV 232,,,Dixit Dominus Domino meo,,,,"concert spirituel pour solistes SA), chœur (SSATB) avec cordes (2 violons, 2 altos, violoncelle) et basse continue",[Psaume 109]
+232 ,Q1231760,HWV 232,,,Dixit Dominus Domino meo,,,,"concert spirituel pour solistes SA), chœur (SSATB) avec cordes (2 violons, 2 altos, violoncelle) et basse continue",[Psaume 109]
 233 ,,HWV 233,,,"DonnAlto, che in ciel di tanta luce splendi",Cantata,,,"soprano solo, choeur (SATB) avec cordes (2 violons, alto) et basse continue","pour l'anniversaire de la libération de Rome d'un tremblement de terre pour la journée de la Purification de la Sainte-Vierge
 texte: inconnu"
 234 ,,HWV 234,,,Il Pianto di Maria: Giunta l'ora fatal,Cantata,,,"soprano solo avec cordes (4 violons, alto) et basse continue","[pour être exécuté devant le Saint-Sépulcre]
@@ -321,44 +321,45 @@ texte: inconnu
 [1ère version]"
 237 ,,HWV 237,,,Laudate pueri Dominum,,,,"concert spirituel pour soprano solo et choeur (SSATB), avec orchestre (2 hautbois, 2 violons, 2 altos) et basse continue","[Psaume 112]
 [2è version]"
-238 ,,HWV 238,,,Nisi Dominus / Gloria Patri,,,,"concert spirituel pour solistes (alto, ténor et basse) et double chœur (SATB,SATB) avec double orchestre (2 violons, alto et basse continue; 2 violons, alto, orgue, contrebasse et basse continue)",[Psaume 126]
+238 ,Q3656030,HWV 238,,,Nisi Dominus / Gloria Patri,,,,"concert spirituel pour solistes (alto, ténor et basse) et double chœur (SATB,SATB) avec double orchestre (2 violons, alto et basse continue; 2 violons, alto, orgue, contrebasse et basse continue)",[Psaume 126]
 239 ,,HWV 239,,,O qualis de coelo sonus,Motet,,,soprano solo avec cordes (2 violons) et basse continue,texte: inconnu
 240 ,,HWV 240,,,Saeviat tellus inter rigores,Motet,,,"soprano solo avec orchestre (2 hautbois, 2 violons, alto) et basse continue","pour la Madonne très sainte de Carmine
 texte: inconnu"
-241 ,,HWV 241,,,Salve Regina,,,,"concert spirituel pour soprano solo avec cordes (2 violons, violoncelle) et orgue",[antienne et psaume]
+241 ,Q3946263,HWV 241,,,Salve Regina,,,,"concert spirituel pour soprano solo avec cordes (2 violons, violoncelle) et orgue",[antienne et psaume]
 242 ,,HWV 242,,,Silete venti,Motet,,,"soprano solo avec orrchestre (2 hautbois, basson, 2 violons, alto, violoncelle) et basse continue",texte: inconnu
 243 ,,HWV 243,,,Te decus virginum,Antiphon,,,"Alto, Instruments",[Perdue]
 244 ,,HWV 244,,,Kyrie eleison,,,,"4 voix (SATB) avec cordes (2 violons, 2 altos) et basse continue",
 245 ,,HWV 245,,,Gloria in excelsis Deo,,,,"5-6 voix (SSATTB) avec orchestre (hautbois, trompette, 2 violons, 2 altos), orgue et basse continue",
-246 ,,HWV 246,,,O be joyful in the Lord,,,,,
-247 ,,HWV 247,,,In the Lord put I my trust,,,,,
-248 ,,HWV 248,,,Have mercy upon me,,,,,
-249 ,,HWV 249a,,,O sing unto the Lord a new song,,,,,
-249 ,,HWV 249b,,,O sing unto the Lord a new song,,,,,
-250 ,,HWV 250a,,,I will magnify thee,,,,,
-250 ,,HWV 250b,,,I will magnify thee,,,,,
-251 ,,HWV 251a,,,As pants the hart,,,,,
-251 ,,HWV 251b,,,As pants the hart,,,,,
-251 ,,HWV 251c,,,As pants the hart,,,,,
-251 ,,HWV 251d,,,As pants the hart,,,,,
-252 ,,HWV 252,,,My song shall ba alway,,,,,
-253 ,,HWV 253,,,O come let us sing unto the Lord,,,,,
-254 ,,HWV 254,,,O praise the Lord with one consent,,,,,
-255 ,,HWV 255,,,The Lord is m light,,,,,
-256 ,,HWV 256a,,,Let God arise,,,,,
-256 ,,HWV 256b,,,Let God arise,,,,,
-257 ,,HWV 257,,,"O praise the Lord, ye angles of his",,,,,
-258 ,,HWV 258,,,Zadok the Priest,,,,,
-259 ,,HWV 259,,,Let thy hand be strengthened,,,,,
-260 ,,HWV 260,,,The King shall rejoice,,,,,
-261 ,,HWV 261,,,My heart is inditing,,,,,
-262 ,,HWV 262,,,This is the day which the Lord hath made (Wedding Anthem),,,,,
-263 ,,HWV 263,,,"Sing unto God, ye kingdoms of the earth (Wedding Anthem)",,,,,
-264 ,,HWV 264,,,The ways of Zion do mourn (Funeral Anthem),,,,,
+246 ,,HWV 246,,,O be joyful in the Lord,Anthem,,,,
+247 ,,HWV 247,,,In the Lord put I my trust,Anthem,,,,
+248 ,,HWV 248,,,Have mercy upon me,Anthem,,,,
+249 ,,HWV 249a,,,O sing unto the Lord a new song,Anthem,,,,
+249 ,,HWV 249b,,,O sing unto the Lord a new song,Anthem,,,,
+250 ,,HWV 250a,,,I will magnify thee,Anthem,,,,
+250 ,,HWV 250b,,,I will magnify thee,Anthem,,,,
+251 ,Q4802943,HWV 251a,,1712-1713,As pants the hart,Anthem,,,,
+251 ,Q4802943,HWV 251b,,1717-1718,As pants the hart,Anthem,,,,
+251 ,Q4802943,HWV 251c,,1722,As pants the hart,Anthem,,,,
+251 ,Q4802943,HWV 251d,,1722,As pants the hart,Anthem,,,,
+252 ,Q4802943,HWV 251e,,1738,As pants the hart,Anthem,,,,
+252 ,,HWV 252,,,My song shall ba alway,Anthem,,,,
+253 ,,HWV 253,,,O come let us sing unto the Lord,Anthem,,,,
+254 ,,HWV 254,,,O praise the Lord with one consent,Anthem,,,,
+255 ,,HWV 255,,,The Lord is m light,Anthem,,,,
+256 ,,HWV 256a,,,Let God arise,Anthem,,,,
+256 ,,HWV 256b,,,Let God arise,Anthem,,,,
+257 ,,HWV 257,,,"O praise the Lord, ye angles of his",Anthem,,,,
+258 ,Q656769,HWV 258,,,Zadok the Priest,Anthem,,,,
+259 ,Q1134562,HWV 259,,,Let thy hand be strengthened,Anthem,,,,
+260 ,Q9358065,HWV 260,,,The King shall rejoice,Anthem,,,,
+261 ,Q1134562,HWV 261,,,My heart is inditing,Anthem,,,,
+262 ,Q17034875,HWV 262,,,This is the day which the Lord hath made (Wedding Anthem),Anthem,,,,
+263 ,Q16931606,HWV 263,,,"Sing unto God, ye kingdoms of the earth (Wedding Anthem)",Anthem,,,,
+264 ,Q7773964,HWV 264,,,The ways of Zion do mourn (Funeral Anthem),Anthem,,,,
 265 ,,HWV 265,,,The King shall rejoice (Dettingen Anthem),Anthem,,,,
-266 ,,HWV 266,,,How beautiful are the feet of them (Peace Anthem),,,,,
-267 ,,HWV 267,,,How beautiful are the feet of them (fragm.),,,,,
-268 ,,HWV 268,,,Blessed are they that considereth the poor (Foundling Hospital Anthem),,,,,
+266 ,,HWV 266,,,How beautiful are the feet of them (Peace Anthem),Anthem,,,,
+267 ,,HWV 267,,,How beautiful are the feet of them (fragm.),Anthem,,,,
+268 ,Q36649452,HWV 268,,,Blessed are they that considereth the poor (Foundling Hospital Anthem),Anthem,,,,
 269 ,,HWV 269,,,"Amen, Alleluja",Antiphon,D minor,,"Soprano, Basso Continuo",
 270 ,,HWV 270,,,Amen,Antiphon,F major,,"Soprano, Basso Continuo",
 271 ,,HWV 271,,,"Amen, Alleluja",Antiphon,G minor,,"Soprano, Basso Continuo",
@@ -368,16 +369,16 @@ texte: inconnu"
 275 ,,HWV 275,,,"Amen, Alleluja",Antiphon,C major,,"Soprano, Basso Continuo",
 276 ,,HWV 276,,,"Amen, Halleluja",Antiphon,F major,,"Soprano, Basso Continuo",
 277 ,,HWV 277,,,"Halleluja, Amen",Antiphon,F major,,"Soprano, Basso Continuo",
-278 ,,HWV 278,,,Te Deum,Te Deum,,,"solistes (SSAATB) et choeur (SSAATTB) avec orchestre (flûte traversière, 2 hautbois, basson, 2 trompettes, 4 violons, alto, violoncelle), orgue et basse continue",pour le traité d'Utrecht
-279 ,,HWV 279,,,Jubilate (O be joyful),Hymn,,,"solistes (AAB) et choeur (SSAATTBB) avec orchestre (2 hautbois, basson, 2 trompettes, 3 violons, alto, violoncelle), orgue et basse continue",pour le traité d'Utrecht
-280 ,,HWV 280,,,Caroline Te Deum,Hymn,D major,,"solistes (AB) et choeur (SAATB) avec orchestre (flûte traversière, 2 trompettes, 2 violons, alto) et basse continue",composé pour feue la reine Caroline
-281 ,,HWV 281,,,Chandos Te Deum,Hymn,B-flat major,,"solistes (STTB) et choeur (STTTB) avec orchestre (flûte, hautbois, trompette, 2 violons) et basse continue",[Chandos]
+278 ,Q821389,HWV 278,,1713,"Utrecht Te Deum. ""We praise thee, O God"" (Ambrosian hymn)",Te Deum,,,"solistes (SSAATB) et choeur (SSAATTB) avec orchestre (flûte traversière, 2 hautbois, basson, 2 trompettes, 4 violons, alto, violoncelle), orgue et basse continue",pour le traité d'Utrecht
+279 ,Q821389,HWV 279,,1713,"Utrecht Jubilate. ""O be joyful in the Lord"" (Psalm 100)",Hymn,,,"solistes (AAB) et choeur (SSAATTBB) avec orchestre (2 hautbois, basson, 2 trompettes, 3 violons, alto, violoncelle), orgue et basse continue",pour le traité d'Utrecht
+280 ,Q16934129,HWV 280,,,Caroline Te Deum,Te Deum,D major,,"solistes (AB) et choeur (SAATB) avec orchestre (flûte traversière, 2 trompettes, 2 violons, alto) et basse continue",composé pour feue la reine Caroline
+281 ,,HWV 281,,,Chandos Te Deum,Te Deum,B-flat major,,"solistes (STTB) et choeur (STTTB) avec orchestre (flûte, hautbois, trompette, 2 violons) et basse continue",[Chandos]
 282 ,,HWV 282,,,Te Deum,Te Deum,A major,,"solistes (ATBB) et choeur (SAATBBB) avec orchestre (flûte traversière, hautbois, basson, 2 violons, alto, violoncelle, contrebasse) et orgue",
-283 ,,HWV 283,,,Dettingen Te Deum,Hymn,,,"solistes (ATB) et choeur (SSATB) avec orchestre (2 hautbois, basson, 2 trompettes, timbales, 3 violons, alto, violoncelle, contrebasse), orgue et basse continue",pour la victoire de Dettingen
+283 ,Q832119,HWV 283,,,Dettingen Te Deum,Hymn,,,"solistes (ATB) et choeur (SSATB) avec orchestre (2 hautbois, basson, 2 trompettes, timbales, 3 violons, alto, violoncelle, contrebasse), orgue et basse continue",pour la victoire de Dettingen
 284 ,,HWV 284,,,The Invitation: Sinners obey the Gospel word,Song,G minor,,"Soprano, Basso Continuo",texte: Charles Wesley
 285 ,,HWV 285,,,"Desiring to love: O Love divine, how sweet thou art",Song,F major,,"Soprano, Basso Continuo",texte: Charles Wesley
 286 ,,HWV 286,,,"On the Resurection: Rejoice, the Lord is King",Song,D major,,"Soprano, Basso Continuo",texte: Charles Wesley
-287 ,,HWV 287,,,,Oboe Concerto,G minor,"1. Grave (sol mineur)
+287 ,Q7075241,HWV 287,,,,Oboe Concerto,G minor,"1. Grave (sol mineur)
 2. Allegro (sol mineur)
 3. Sarabande. Largo (si bémol majeur)
 4. Allegro (sol mineur)[see aussi HWV 291(2), 390(4), 576(2)]","Oboe, Orchestra",concerto # 3
@@ -418,7 +419,7 @@ texte: inconnu"
 294 ,,HWV 294,op. 4/6,,Concerto for Organ and Orchestra in B-flat major,Organ Concerto,B-flat major,"1 Andante allegro (si bémol majeur)
 2 Larghetto (sol mineur)
 3 Allegro moderato (si bémol majeur)","Organ, Orchestra",concerto # 6 in Première série # 6
-295 ,,HWV 295,,,Concerto “The Cuckoo and the Nightingale”,Organ Concerto,F major,"1a. Largo (fa majeur)
+295 ,Q97585953,HWV 295,,,Concerto “The Cuckoo and the Nightingale”,Organ Concerto,F major,"1a. Largo (fa majeur)
 [see HWV 401(1)]
 1b. Larghetto (fa majeur)
 [see HWV 401(1)]
@@ -475,11 +476,11 @@ after HWV 323"
 4 Allegro (sol mineur)
 5 Allegro (sol mineur)",Solo Organ,"Deuxième série # 6
 after HWV 324"
-301 ,,HWV 301,,,,Oboe Concerto,B-flat major,"1 Adagio (si bémol majeur)
+301 ,Q2991791,HWV 301,,,,Oboe Concerto,B-flat major,"1 Adagio (si bémol majeur)
 2 Allegro (si bémol majeur)
 3 Siciliano. Largo (si bémol majeur)
 4 Vivace (si bémol majeur)","Oboe, Orchestra",concerto # 1
-302 ,,HWV 302a,,,,Oboe Concerto,B-flat major,"1 Vivace (si bémol majeur)
+302 ,Q7075240,HWV 302a,,,,Oboe Concerto,B-flat major,"1 Vivace (si bémol majeur)
 [see HWV 253(1)]
 2 Fuga. Allegro (si bémol majeur)
 [see HWV 253(1), 389(4)]
@@ -678,7 +679,7 @@ concerto # 12"
 5. … (sol mineur)
 6. … (sol mineur)
 7. … (sol majeur)",Orchestra,suite # 3
-351 ,,HWV 351,,,Music for the Royal Fireworks,,,"1. Ouverture. Adagio/Allegro/Lentement (ré majeur)
+351 ,Q1147529,HWV 351,,,Music for the Royal Fireworks,,,"1. Ouverture. Adagio/Allegro/Lentement (ré majeur)
 2. Bourrée. (ré mineur)
 [2 fois]
 3. La paix. Largo alla Siciliana (ré majeur)
@@ -709,15 +710,15 @@ concerto # 12"
 357 ,,HWV 357,,,,Oboe Sonata,B-flat major,"1. Allegro (si bémol majeur)
 2. Grave (sol mineur)
 3. Allegro (si bémol majeur)","Oboe, Basso Continuo",
-358 ,,HWV 358,,,,Violin Sonata,G major,"1. [Allegro] (sol majeur)
+358 ,Q7560838,HWV 358,,,,Violin Sonata,G major,"1. [Allegro] (sol majeur)
 2. [Adagio] (mi mineur)
 3. [Allegro] (sol majeur)","Violin, Basso Continuo",
-359 ,,HWV 359a,,,,Violin Sonata,D minor,"1. Grave (ré mineur)
+359 ,Q7933389,HWV 359a,,,,Violin Sonata,D minor,"1. Grave (ré mineur)
 [see HWV 379(1)]
 2. Allegro (ré mineur)
 3. Adagio (fa majeur)
 4. Allegro (ré mineur)","Violin, Basso Continuo",
-359 ,,HWV 359b,op. 1/1b,,,Flute Sonata,E minor,"1. Grave (mi mineur)
+359 ,Q5462960,HWV 359b,op. 1/1b,,,Flute Sonata,E minor,"1. Grave (mi mineur)
 [see HWV 379(1)]
 2. Allegro (mi mineur)
 3. Adagio (mi mineur)
@@ -736,7 +737,7 @@ concerto # 12"
 2. Allegro (la mineur)
 3. Adagio (fa majeur)
 4. Allegro (la mineur)","Flute, Basso Continuo",
-363 ,,HWV 363a,,,,Oboe Sonata,F major,"1. Adagio (fa majeur)
+363 ,Q7075245,HWV 363a,,,,Oboe Sonata,F major,"1. Adagio (fa majeur)
 2. Allegro (fa majeur)
 3. Adagio (ré mineur)
 4. Bourrée anglaise (fa majeur)
@@ -753,26 +754,26 @@ concerto # 12"
 3. Adagio (mi bémol majeur)
 4. Allegro (sol mineur)
 [see HWV 24(Ouverture, Gigue)","Violin/Oboe, Basso Continuo",
-364 ,,HWV 364b,,,,Sonata,G minor,1. Andante larghetto (sol mineur),"Viola da gamba, Basso Continuo",
+364 ,Q7933392,HWV 364b,,,,Sonata,G minor,1. Andante larghetto (sol mineur),"Viola da gamba, Basso Continuo",
 365 ,Q7302897,HWV 365,op. 1/7,,,Flute Sonata,C major,"1. [Larghetto] (do majeur)
 2. Allegro (do majeur)
 3. Larghetto (la mineur)
 4. A tempo di Gavotta (do majeur)
 5. Allegro (do majeur)","Flute, Basso Continuo",
-366 ,,HWV 366,op. 1/8,,,Oboe Sonata,C minor,"1. Largo (do mineur)
+366 ,Q7075244,HWV 366,op. 1/8,,,Oboe Sonata,C minor,"1. Largo (do mineur)
 [see HWV 375(1)]
 2. Allegro (do mineur)
 [see HWV 375(2)]
 3. Adagio (mi bémol majeur)
 4. Bourrée anglaise. Allegro (do mineur)","Oboe, Basso Continuo",
-367 ,,HWV 367a,,,Fitzwilliam Sonata No. 3,Flute Sonata,D minor,"1. Largo (ré mineur)
+367 ,Q7302905,HWV 367a,,,Fitzwilliam Sonata No. 3,Flute Sonata,D minor,"1. Largo (ré mineur)
 2. Vivace (ré mineur)
 3. Furioso (si bémol majeur)
 4. Adagio (sol mineur)
 5. Alla breve (ré mineur)
 6. [Andante] (ré mineur)
 7. A tempo di menuet (ré mineur)","Flute, Basso Continuo",
-367 ,,HWV 367b,op. 1/9,,,Flute Sonata,B minor,"1. Largo (si mineur)
+367 ,Q5462959,HWV 367b,op. 1/9,,,Flute Sonata,B minor,"1. Largo (si mineur)
 2. Vivace (si mineur)
 3. Presto (sol majeur)
 4. Adagio (mi majeur)
@@ -783,7 +784,7 @@ concerto # 12"
 2. Allegro (sol mineur)
 3. Adagio (sol mineur)
 4. [Gigue] (sol mineur)","Violin, Basso Continuo",
-369 ,,HWV 369,op. 1/11,,,Flute Sonata,F major,"1. Grave (Larghetto) (fa majeur)
+369 ,Q7302906,HWV 369,op. 1/11,,,Flute Sonata,F major,"1. Grave (Larghetto) (fa majeur)
 [see HWV 293(1)]
 2. Allegro (fa majeur)
 [see HWV 293(2)]
@@ -810,11 +811,11 @@ concerto # 12"
 2. Allegro (mi majeur)
 3. Largo (do dièse mineur)
 4. Allegro (mi majeur)","Violin, Basso Continuo",
-374 ,,HWV 374,,,Halle Sonata No. 1,Flute Sonata,A minor,"1. Adagio (la mineur)
+374 ,Q5462956,HWV 374,,,Halle Sonata No. 1,Flute Sonata,A minor,"1. Adagio (la mineur)
 2. Allegro (la mineur)
 3. Adagio (la mineur)
 4. Allegro (la mineur)","Flute, Basso Continuo",
-375 ,,HWV 375,,,Halle Sonata No. 2,Flute Sonata,E minor,"1. Adagio (mi mineur)
+375 ,Q5462962,HWV 375,,,Halle Sonata No. 2,Flute Sonata,E minor,"1. Adagio (mi mineur)
 [see HWV 366(1)]
 2. Allegro (mi mineur)
 [see HWV 366(2)]
@@ -822,7 +823,7 @@ concerto # 12"
 [see HWV 360(2), 379(2)]
 4. Minuet (mi mineur)
 [see HWV 434(4)]","Flute, Basso Continuo",
-376 ,,HWV 376,,,Halle Sonata No. 3,Flute Sonata,B minor,"1. Adagio (si mineur)
+376 ,Q5462957,HWV 376,,,Halle Sonata No. 3,Flute Sonata,B minor,"1. Adagio (si mineur)
 2. Allegro (mi mineur)
 3. Largo (ré majeur)
 4. Allegro (si mineur)","Flute, Basso Continuo",
