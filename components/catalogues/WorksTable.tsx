@@ -35,7 +35,7 @@ export default function WorksTable({
                 <span className="w-72 shrink-0 px-1.5 text-center">{t('works.titleColumn')}</span>
                 <span className="w-28 shrink-0 px-1.5 text-center">{t('works.genre')}</span>
                 <span className="w-28 shrink-0 px-1.5 text-center">{t('works.key')}</span>
-                <span className="w-40 shrink-0 px-1.5 text-center">{t('works.instrumentation')}</span>
+                <span className="min-w-0 flex-1 px-1.5 text-center">{t('works.instrumentation')}</span>
             </div>
             <div className={`${listScrollbar.className} max-h-112 overflow-y-auto md:min-h-0 md:max-h-none md:flex-1`} onScroll={listScrollbar.onScroll}>
                 {works.map(work => (
@@ -61,7 +61,7 @@ export default function WorksTable({
                                 </span>
                             )}
                         </span>
-                        <span className="w-40 shrink-0 line-clamp-2 px-1.5 text-left text-xs text-slate-500">{work.instrumentation}</span>
+                        <span className="min-w-0 flex-1 line-clamp-2 px-1.5 text-left text-xs text-slate-500">{work.instrumentation}</span>
                     </WorkDetailsDialog>
                 ))}
             </div>
