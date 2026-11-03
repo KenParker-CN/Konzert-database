@@ -31,7 +31,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 4. Adagio (la bémol majeur)
 5. Menuetto. Moderato
 6. Allegro","Violin, Viola, Cello"
-4 ,op. 4,Q3414632,,"Grand Quintetto per due Violon, due Viole, e Violoncello",Quintet,E-flat major,"1. Allegro con brio
+4 ,op. 4,Q3414632,"Grand Quintetto per due Violons, due Viole, e Violoncello",String Quintet No. 1,Quintet,E-flat major,"1. Allegro con brio
 2. Andante (si bémol majeur)
 3. Menuetto. Piu Allegretto
 4. Presto","2 Violins, 2 Violas, Cello"
@@ -107,7 +107,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 15 ,op. 15,Q162868),1. Concert für Pianoforte,Piano Concerto No. 1,Concerto,C major,"1. Allegro con brio
 2. Largo (la bémol majeur)
 3. Rondo. Allegro","Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Trumpets, Timpani, 2 Violins, 2 Violas, Cello, Basso"
-16 ,op. 16,Q3414626,Grand Quintetto,"Grand Quintetto pour le Forte-Piano avec Oboë, Clarinette, Basson, et Cor oû Violon, Alto, et Violoncelle",Quintet,E-flat major,"1. Grave
+16 ,op. 16,Q3414626,"Grand Quintetto pour le Forte-Piano avec Oboë, Clarinette, Basson, et Cor oû Violon, Alto, et Violoncelle",,Quintet,E-flat major,"1. Grave
 2. Allegro ma non troppo
 3. Andante cantabile (si bémol majeur)
 4. Rondo. Allegro ma non troppo","Piano, Oboe, Clarinet, Horn, Bassoon"
@@ -190,7 +190,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 2. Andante (ré mineur)
 3. Scherzo. Allegro vivace
 4. Rondo. Allegro ma non troppo",Piano
-29 ,op. 29,Q17025624,,"String Quintet No. 2 ""Storm""",Quintet,C major,"1. Allegro moderato
+29 ,op. 29,Q17025624,"Grand Quintetto pour 2 Violons, 2 Altos, et Violoncelle","String Quintet No. 2 ""Storm""",Quintet,C major,"1. Allegro moderato
 2. Adagio molto espressivo (fa majeur)
 3. Scherzo. Allegro
 4. Presto","2 Violins, 2 Violas, Cello"
@@ -281,17 +281,17 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 2. Tempo di Menuetto",Piano
 50 ,op. 50,Q210620,,Romance No. 2,Romance,F major,,"Violin, Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, Viola, Basso"
 51 ,op. 51,Q3025008,2 Rondos,,Rondo,,,Piano
-51 ,op. 51/1,Q80790579,Rondo,,Rondo,C major,Moderato e grazioso,Piano
-51 ,op. 51/2,Q80790580,Rondo,,Rondo,G major,Andante cantabile e grazioso,Piano
-52 ,op. 52,,8 Songs,Acht Lieder mit Begleitung des Claviers,Lied,,,"Voice, Piano"
-52 ,op. 52/8,,Das Blümchen Wunderhold,"""Es blüht ein Blümchen irgendwo""",,,,
-52 ,op. 52/7,Q4446617,Marmotte,"""Ich komme schon durch manches Land""",,,,
+51 ,op. 51/1,Q80790579,Rondo in C,,Rondo,C major,Moderato e grazioso,Piano
+51 ,op. 51/2,Q80790580,Rondo in G,,Rondo,G major,Andante cantabile e grazioso,Piano
+52 ,op. 52,,8 Lieder,Acht Lieder mit Begleitung des Claviers,Lied,,,"Voice, Piano"
+52 ,op. 52/1,,Urians Reise um die Welt,"""Wenn jemand eine Reise tut""",,,,
 52 ,op. 52/2,,Feuerfarb',"""Ich weiß eine Farbe""",,,,
 52 ,op. 52/3,,Das Liedchen von der Ruhe,"""Im Arm der Liebe ruht sich's wohl""",,,,
+52 ,op. 52/4,,Mailied,"""Wie herrlich leuchtet mir dir Natur""",,,,
 52 ,op. 52/5,,Mollys Abschied,"""Lebe wohl, du Mann""",,,,
 52 ,op. 52/6,,Lied,"""Lebe wohl, du Mann""",,,,
-52 ,op. 52/1,,Urians Reise um die Welt,"""Wenn jemand eine Reise tut""",,,,
-52 ,op. 52/4,,Mailied,"""Wie herrlich leuchtet mir dir Natur""",,,,
+52 ,op. 52/7,Q4446617,Marmotte,"""Ich komme schon durch manches Land""",,,,
+52 ,op. 52/8,,Das Blümchen Wunderhold,"""Es blüht ein Blümchen irgendwo""",,,,
 53 ,op. 53,Q146535,,"Piano Sonata No. 21 ""Waldstein"" / ""L’Aurore""",Sonata,C major,"1. Allegro con brio
 2. Introduzione. Adagio molto (fa majeur)
 3. Rondo. Allegretto moderato",Piano
@@ -365,7 +365,7 @@ Allegretto","2 Flutes, Piccolo, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Tru
 3. Allegretto (do majeur)
 4. Allegretto ma non troppo (la bémol majeur)
 5. Allegro",
-71 ,op. 71,,,,Sextet,E-flat major,"1. Adagio
+71 ,op. 71,,,"Sestetto pour 2 Clarinettes, 2 Cors, 2 Bassons",Sextet,E-flat major,"1. Adagio
 2. Allegro
 3. Adagio (si bémol majeur)
 4. Menuetto. Quasi Allegretto
@@ -507,15 +507,15 @@ Récitatif
 
 6c. Choeur des anges: Welten singen
 Maestoso (do majeur)","Soloists, Choir, Orchestra"
-86 ,op. 86,Q1760871,,,Mass,C major,"1. Kyrie, en do majeur (Andante con moto assai vivace)
-2. Gloria, en do majeur (Allegro con brio)
-3. Credo, en do majeur (Allegro con brio)
-4. Sanctus, en la majeur (Adagio)
-5. Benedictus, en fa majeur (Allegretto ma non troppo)
-6. Agnus Dei, en do mineur (Poco Andante)","Soloists, Choir, Orchestra"
-87 ,op. 87,Q113456464,,,Trio,C major,"1. Allegro
-2. Adagio (fa majeur)
-3. Menuetto. Allegro Molto. Scherzo
+86 ,op. 86,Q1760871,Messa,a quattro Voci coll’ accompagnamento dell’Orchestra,Mass,C major,"1. Kyrie, C (Andante con moto assai vivace)
+2. Gloria, C (Allegro con brio)
+3. Credo, C (Allegro con brio)
+4. Sanctus, A (Adagio)
+5. Benedictus, F (Allegretto ma non troppo)
+6. Agnus Dei, c (Poco Andante)","Soloists, Choir, Orchestra"
+87 ,op. 87,Q113456464,,Grand Trio pour Deux Hautbois et un Cor anglais,Trio,C major,"1. Allegro
+2. Adagio (F)
+3. Menuetto. Allegro molto. Scherzo
 4. Presto","2 Oboes, English Horn"
 88 ,op. 88,,Das Glück der Freundschaft,,Lied,,Andante quasi allegretto,"Voice, Piano"
 89 ,op. 89,Q24869544,Polonaise,,Dance,C major,"Alla Polacca, vivace",Piano
@@ -567,7 +567,7 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 4. Allegro fugato",
 103 ,op. 103,Q3349013,,Grand Octuor; Parthia dans un Concert in Es,Octet,E-flat major,,"2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons"
 103 ,op. 103a,,,,Quintet,E-flat major,,"2 Violins, 2 Violas, Cello"
-104 ,op. 104,Q7623957,,,Quintet,C minor,,"2 Violins, 2 Violas, Cello"
+104 ,op. 104,Q7623957,,"Quintet für 2 Violinen, 2 Alt-Violen und Violoncelle",Quintet,C minor,,"2 Violins, 2 Violas, Cello"
 105 ,op. 105,,6 Varied Themes,,Keyboard Variations,,,Piano with Optional Flute or Violin
 106 ,op. 106,Q146730,"Piano Sonata ""Hammerklavier""","Piano Sonata No. 29 ""Hammerklavier""",Sonata,B-flat major,"1. Allegro
 2. Scherzo. Assai vivace
@@ -738,8 +738,8 @@ IV. Presto - Allegro assai - Recitativo „O Freunde, nicht diese Töne"" -  All
 999 ,WoO 8/7,,12 German Dances #7,,Dance,C major,,
 999 ,WoO 8/8,,12 German Dances #8,,Dance,A major,,
 999 ,WoO 8/9,,12 German Dances #9,,Dance,F major,,
-999 ,WoO 9,,6 Minuets,,Dance,,,"2 Violins, Basso"
 999 ,WoO 8/10,,12 German Dances #10,,Dance,D major,,
+999 ,WoO 9,,6 Minuets,,Dance,,,"2 Violins, Basso"
 999 ,WoO 8/11,,12 German Dances #11,,Dance,G major,,
 999 ,WoO 8/12,,12 German Dances #12,,Dance,C major,,
 999 ,WoO 10,Q11188158,6 Minuets,,Dance,,,"1. Piano
@@ -754,11 +754,11 @@ IV. Presto - Allegro assai - Recitativo „O Freunde, nicht diese Töne"" -  All
 999 ,WoO 17,,"""Mödlinger Tänze""",,Dance,,,"7 or 8 string, wind instruments"
 999 ,WoO 18,Q202721,2 Marches #1,Yorckscher Marsch,March,F major,,Military Orchestra
 999 ,WoO 19,,2 Marches #2,,March,F major,,Military Orchestra
-999 ,WoO 20,,,,March,C major,,Military Band
+999 ,WoO 20,,,Zapfenstreich Nz 2,March,C major,,Military Band
 999 ,WoO 21,,Polonaise,,Dance,D major,,Military Orchestra
 999 ,WoO 22,,Ecossaise,,Dance,D major,,Military Orchestra
 999 ,WoO 23,,Ecossaise (after a lost wind original),,Dance,G major,,Piano
-999 ,WoO 24,,,,March,D major,,Military Band
+999 ,WoO 24,,,Marsch zur großen Wachparade No. 4,March,D major,,Military Band
 999 ,WoO 25,,Rondino,,Rondo,E-flat major,,Wind Octet
 999 ,WoO 26,,Duet (Allegro and Minuet),,Duet,G major,,2 Flutes
 999 ,WoO 27,,3 Duets,,Duet,,,"Clarinet, Bassoon"
@@ -766,7 +766,7 @@ IV. Presto - Allegro assai - Recitativo „O Freunde, nicht diese Töne"" -  All
 999 ,WoO 27/2,,3 Duets #2,,Duet,F major,,"Clarinet, Bassoon"
 999 ,WoO 27/3,,3 Duets #3,,Duet,B-flat major,,"Clarinet, Bassoon"
 999 ,WoO 28,,"8 Variations on ""Là ci darem la mano""",,Variations,C major,,"2 Oboes, English Horn"
-999 ,WoO 29,,,,March,B-flat major,,"2 Clarinets, 2 Horns, 2 Bassoons"
+999 ,WoO 29,,,“Grenadiermarsch”,March,B-flat major,,"2 Clarinets, 2 Horns, 2 Bassoons"
 999 ,WoO 30,Q42377957,3 Equali,,,,,4 Trombones
 999 ,WoO 31,,Two-part Fugue,,Fugue,D major,,Organ (Fortepiano)
 999 ,WoO 32,,"Duet (""mit zwei obligaten Augengläsern"")",,Duet,E-flat major,,"Viola, Cello"
@@ -804,7 +804,7 @@ IV. Presto - Allegro assai - Recitativo „O Freunde, nicht diese Töne"" -  All
 999 ,WoO 50,,2 movements of a sonatina,,Sonata,F major,,Piano
 999 ,WoO 51,Q21998369,,,Sonata,C major,"1. (Allegro)
 2. Adagio (Ries completion)",Piano
-999 ,WoO 52,,,,Bagatelle,C minor,,Piano
+999 ,WoO 52,,,"""No. 10""",Bagatelle,C minor,Presto,Piano
 999 ,WoO 53,,Allegretto,,Piano Piece,C minor,,Piano
 999 ,WoO 54,,Lustig – traurig Klavierstück in C and c,,Piano Piece,,,Piano
 999 ,WoO 55,,Prelude,,Prelude,F minor,,Piano/Organ
@@ -965,7 +965,7 @@ Allegretto (do majeur)","Voice, Piano"
 999 ,WoO 203,,"""Das Schöne zu dem Guten""",,Canon,,,
 999 ,WoO 204,,"""Holz geigt die Quartette…""",,Musical Joke,,,
 999 ,WoO 205,,Jokes and Notes on Letters,,Musical Joke,,,
-999 ,WoO 206,,,,Concerto,F major,,"Oboe, Orchestra"
+999 ,WoO 206,,,“Oboe Concerto”,Concerto,F major,,"Oboe, Orchestra"
 999 ,WoO 207,,Cantabile Romance (unfinished),,Romance,E minor,,
 999 ,WoO 208,,,,Quintet,E-flat major,,"Oboe, 3 Horns, Bassoon"
 999 ,WoO 209,,Minuet,,Dance,A-flat major,,"2 Violins, Viola, Cello"
