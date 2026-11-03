@@ -1,5 +1,5 @@
 SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
-1 ,op. 1,Q1547987,3 Piano Trios,,Trio,,,"Piano, Violin, Cello"
+1 ,op. 1,Q1547987,3 Piano Trios,"Trois Trios pour un Piano-Forte, Violon, et Violoncelle",Trio,,,"Piano, Violin, Cello"
 1 ,op.1/1,Q43259891,3 Piano Trios #1,Piano Trio No. 1,Trio,E-flat major,"1. Allegro
 2. Adagio cantabile (la bémol majeur)
 3. Scherzo (do mineur)
@@ -12,7 +12,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 2. Andante cantabile con variazioni (mi bémol majeur)
 3. Menuetto. Quasi Allegro
 4. Prestissimo","Piano, Violin, Cello"
-2 ,op. 2,,3 Piano Sonatas,,Sonata,,,Piano
+2 ,op. 2,,3 Piano Sonatas,Trois Sonates pour le Clavecin ou Piano-Forte,Sonata,,,Piano
 2 ,op. 2/1,Q145813,3 Piano Sonatas #1,Piano Sonata No. 1,Sonata,F minor,"1. Allegro
 2. Adagio (fa majeur)
 3. Menuetto. Allegretto
@@ -31,7 +31,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 4. Adagio (la bémol majeur)
 5. Menuetto. Moderato
 6. Allegro","Violin, Viola, Cello"
-4 ,op. 4,Q3414632,,,Quintet,E-flat major,"1. Allegro con brio
+4 ,op. 4,Q3414632,,"Grand Quintetto per due Violon, due Viole, e Violoncello",Quintet,E-flat major,"1. Allegro con brio
 2. Andante (si bémol majeur)
 3. Menuetto. Piu Allegretto
 4. Presto","2 Violins, 2 Violas, Cello"
@@ -112,10 +112,10 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 3. Andante cantabile (si bémol majeur)
 4. Rondo. Allegro ma non troppo","Piano, Oboe, Clarinet, Horn, Bassoon"
 16 ,op. 16a,,"Grand Quintetto, Piano Quartet reduction",,Quartet,E-flat major,,"Piano, Violin, Viola, Cello"
-17 ,op. 17,Q5903984,,Sonate pour le Forte-Piano avec un Cor ou Violoncelle,,F major,"1. Allegro moderato
+17 ,op. 17,Q5903984,,Sonate pour le Forte-Piano avec un Cor ou Violoncelle,Sonata,F major,"1. Allegro moderato
 2. Poco Adagio, quasi Andante (fa mineur)
 3. Rondo. Allegro moderato","Piano, Horn/Viola/Cello"
-18 ,op. 18,Q3927115,6 String Quartets,,Quartet,,,"2 Violins, Viola, Cello"
+18 ,op. 18,Q3927115,6 String Quartets,"Six Quatuors pour Deux Violons, Alto, et Violoncelle",Quartet,,,"2 Violins, Viola, Cello"
 18 ,op. 18/1,Q163616,6 String Quartets #1,String Quartets No. 1,Quartet,F major,"1. Allegro con brio
 2. Adagio affettuoso ed appasionato (ré mineur)
 3. Scherzo. Allegro molto
@@ -614,7 +614,7 @@ Allegro vivace (ré majeur)","Choir, Orchestra"
 114 ,op. 114,,"March with Chorus from ""Die Ruinen von Athen""",,March,E-flat major,,
 115 ,op. 115,Q3576293,"Overture ""Zur Namensfeier""",,Overture,C major,"1. Maestoso
 2. Allegro assai vivace",
-116 ,op. 116,Q139759968,"""Tremate, Empi, Tremate""",,Terzett,,,"Soprano, Tenor, Bass, Orchestra"
+116 ,op. 116,Q139759968,"""Tremate, Empi, Tremate""",,Trio,,,"Soprano, Tenor, Bass, Orchestra"
 117 ,op. 117,Q2754024,König Stephan,,Incidental Music,,"0. Ouverture. Andante con moto / Presto (mi bémol majeur)
 1. Choeur des hommes: Ruhend von seinen Thaten (Andante maestoso e con moto - do majeur)
 2. Choeur des hommes: Auf dunkelm in finstern Hainen Wandelten (Allegro con brio - do mineur)
@@ -847,7 +847,7 @@ IV. Presto - Allegro assai - Recitativo „O Freunde, nicht diese Töne"" -  All
 999 ,WoO 91,,"2 Arias for the Singspiel ""Die schöne Schusterin"" by Umlauf",,Aria,,,"Voice, Orchestra"
 999 ,WoO 92,,"""Primo amore, piacere del ciel""",,Aria,,,soprano and orchestra
 999 ,WoO 92a,,"No, non turbarti",,Aria,,,soprano and string orchestra
-999 ,WoO 93,,"""Nei giorni tuoi felici""",,Duetto,,,"Soprano, Tenor, Orchestra"
+999 ,WoO 93,,"""Nei giorni tuoi felici""",,Duet,,,"Soprano, Tenor, Orchestra"
 999 ,WoO 94,Q5958958,"""Germanias Wiedergeburt""",,Chorus,,,"Bass, Choir, Orchestra"
 999 ,WoO 95,,"""Chor auf die verbündeten Fürsten""",,Chorus,,,"Choir, Orchestra"
 999 ,WoO 96,,"""Leonore Prohaska""",,Incidental Music,,,"soloists, chorus, and orchestra"
