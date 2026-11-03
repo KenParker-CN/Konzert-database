@@ -4,6 +4,8 @@ import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import type {ComposerWork} from '@/lib/db/composers'
 import type {ReactNode} from 'react'
+import Link from 'next/link'
+import {localePath} from '@/lib/i18n/config'
 import WorkDetailsDialog from '@/components/catalogues/WorkDetailsDialog'
 
 export default function WorksTable({
@@ -28,14 +30,21 @@ export default function WorksTable({
             </div>
             <div className="always-visible-scrollbar max-h-112 overflow-y-auto md:min-h-0 md:max-h-none md:flex-1">
                 {works.map(work => (
-                    <WorkDetailsDialog
+                    <div
                         key={work.workId}
-                        work={work}
-                        catalogCode={catalogCode}
-                        triggerClassName="flex w-full items-center divide-x divide-slate-200 border-b border-slate-100 px-4 py-2.5 text-left transition-colors last:border-0 hover:bg-blue-50/50"
+                        className="relative flex w-full items-center divide-x divide-slate-200 border-b border-slate-100 px-4 py-2.5 transition-colors last:border-0 hover:bg-blue-50/50"
                     >
                         <span className="w-24 shrink-0 px-1.5 text-center font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</span>
-                        <span className={`w-72 shrink-0 truncate px-1.5 text-sm ${work.details['WikiQID'] ? 'font-medium text-blue-700 underline underline-offset-4' : 'text-slate-900'}`}>{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
+                        {work.details['WikiQID'] ? (
+                            <Link
+                                href={localePath(locale, `/works/${work.details['WikiQID']}`)}
+                                className="relative z-10 w-72 shrink-0 truncate px-1.5 text-sm font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900"
+                            >
+                                {locale === 'de' ? work.details['German title'] || work.title : work.title}
+                            </Link>
+                        ) : (
+                            <span className="w-72 shrink-0 truncate px-1.5 text-sm text-slate-900">{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
+                        )}
                         <span className="flex w-28 shrink-0 justify-center px-1.5">
                             {work.genre && (
                                 <span className="max-w-full truncate rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
@@ -51,7 +60,14 @@ export default function WorksTable({
                             )}
                         </span>
                         <span className="min-w-0 flex-1 line-clamp-2 px-1.5 text-left text-xs text-slate-500">{work.instrumentation}</span>
-                    </WorkDetailsDialog>
+                        <WorkDetailsDialog
+                            work={work}
+                            catalogCode={catalogCode}
+                            triggerClassName="absolute inset-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
+                        >
+                            {null}
+                        </WorkDetailsDialog>
+                    </div>
                 ))}
             </div>
             {footer && <div className="shrink-0 border-t border-slate-200 px-4 py-3">{footer}</div>}
