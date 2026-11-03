@@ -6,20 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/catalogues/[code]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/catalogues/CatalogueWorkspace.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/CatalogueWorkspace.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/catalogues/WorkDetailsDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorkDetailsDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/catalogues/WorksAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorksAccordion.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/genres/GenreIntroduction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/genres/GenreIntroduction.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/composer-catalog-map.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/csv-loader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/csv-loader.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/genres.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/genres.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/i18n/work-terms.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/i18n/work-terms.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/zh.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +49,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000004685265957" />
-      <entry key="MS500" value="1.0742514656758662" />
-      <entry key="S2" value="2.2939226419463457" />
-      <entry key="S5" value="4.378865180253957" />
-      <entry key="S10" value="7.142056106253181" />
-      <entry key="S30" value="13.223139051185754" />
-      <entry key="S60" value="18.29374635811942" />
-      <entry key="M2" value="23.509407282331217" />
-      <entry key="M5" value="28.47847482731449" />
-      <entry key="M10" value="30.59468972600165" />
-      <entry key="M15" value="31.388523516472965" />
-      <entry key="M30" value="34.149410693847045" />
-      <entry key="H1" value="50.39730471161688" />
-      <entry key="H2" value="89.94078718200005" />
-      <entry key="H4" value="148.40001333063205" />
-      <entry key="D1" value="400.63154778557305" />
-      <entry key="W1" value="1543.1836266291457" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000007729970883" />
+      <entry key="S2" value="1.0613768588199304" />
+      <entry key="S5" value="2.0170568121099137" />
+      <entry key="S10" value="4.048741744792375" />
+      <entry key="S30" value="8.960604038488903" />
+      <entry key="S60" value="13.568472845299418" />
+      <entry key="M2" value="21.16919897850638" />
+      <entry key="M5" value="41.72415087177508" />
+      <entry key="M10" value="68.47387765222842" />
+      <entry key="M15" value="85.44328151634073" />
+      <entry key="M30" value="110.17304133748642" />
+      <entry key="H1" value="126.74006035129999" />
+      <entry key="H2" value="138.19182063105688" />
+      <entry key="H4" value="162.7052650165082" />
+      <entry key="D1" value="439.3589368959525" />
+      <entry key="W1" value="1627.3905398916386" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -90,33 +77,33 @@
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
       <entry key="M5" value="0.0" />
-      <entry key="M10" value="1.3346029187665387E-190" />
-      <entry key="M15" value="3.479358509225199E-127" />
-      <entry key="M30" value="9.788536657091805E-64" />
-      <entry key="H1" value="5.361619424057274E-32" />
-      <entry key="H2" value="4.0663886238372116E-16" />
-      <entry key="H4" value="3.9847305072398296E-8" />
-      <entry key="D1" value="0.3306758845747138" />
-      <entry key="W1" value="9.300016742478693" />
+      <entry key="M10" value="7.079644828312528E-212" />
+      <entry key="M15" value="2.280020650169203E-141" />
+      <entry key="M30" value="7.923874192691975E-71" />
+      <entry key="H1" value="1.5254777721710924E-35" />
+      <entry key="H2" value="6.85904783643766E-18" />
+      <entry key="H4" value="5.175191559357948E-9" />
+      <entry key="D1" value="0.23531905905244702" />
+      <entry key="W1" value="8.85884782823184" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592645656615025" />
-      <entry key="MS500" value="1.065250753061825" />
-      <entry key="S2" value="2.288644539314495" />
-      <entry key="S5" value="4.374626491077957" />
-      <entry key="S10" value="7.138454452644404" />
-      <entry key="S30" value="13.220784498237391" />
-      <entry key="S60" value="18.29208449933523" />
-      <entry key="M2" value="23.508328048243524" />
-      <entry key="M5" value="28.47794858941005" />
-      <entry key="M10" value="30.59440646752091" />
-      <entry key="M15" value="31.388329482396195" />
-      <entry key="M30" value="34.14929993181568" />
-      <entry key="H1" value="50.397200879597904" />
-      <entry key="H2" value="89.94067355970472" />
-      <entry key="H4" value="148.3999123797759" />
-      <entry key="D1" value="400.96217205436795" />
-      <entry key="W1" value="1552.4835711269156" />
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9903436395837104" />
+      <entry key="S2" value="1.0588390488871404" />
+      <entry key="S5" value="2.0153037252437214" />
+      <entry key="S10" value="4.047066997419385" />
+      <entry key="S30" value="8.959377484316397" />
+      <entry key="S60" value="13.567548215695506" />
+      <entry key="M2" value="21.168483265411503" />
+      <entry key="M5" value="41.72357172010015" />
+      <entry key="M10" value="68.47338678157966" />
+      <entry key="M15" value="85.44286755945994" />
+      <entry key="M30" value="110.17277057869211" />
+      <entry key="H1" value="126.73990339182217" />
+      <entry key="H2" value="138.19173202758503" />
+      <entry key="H4" value="162.7052005424878" />
+      <entry key="D1" value="439.5942051378897" />
+      <entry key="W1" value="1636.2493165745207" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -314,6 +301,9 @@
       <workItem from="1793284107312" duration="7401000" />
       <workItem from="1793354845933" duration="2297000" />
       <workItem from="1793426078119" duration="10078000" />
+      <workItem from="1793488017932" duration="17145000" />
+      <workItem from="1793630392668" duration="3155000" />
+      <workItem from="1793693438934" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Added works into Kochel catalogue">
       <option name="closed" value="true" />

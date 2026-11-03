@@ -44,12 +44,15 @@ export default function WorksTable({
                                 {getLocalizedWorkTerm(work.genre, 'type', locale)}
                             </span>
                         )}
-                        <span className="min-w-0 flex-1 truncate text-sm text-slate-900">{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
                         {work.key && (
                             <span className="shrink-0 rounded-full bg-blue-100 px-2 py-0.5 text-xs font-semibold text-blue-700">
                                 {getLocalizedWorkTerm(work.key, 'key', locale)}
                             </span>
                         )}
+                        {work.instrumentation && (
+                            <span className="max-w-40 truncate text-left text-xs text-slate-500">{work.instrumentation}</span>
+                        )}
+                        <span className="min-w-0 flex-1 truncate text-sm text-slate-900">{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
                     </WorkDetailsDialog>
                 ))}
             </div>
