@@ -4,7 +4,6 @@ import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import type {ComposerWork} from '@/lib/db/composers'
 import type {ReactNode} from 'react'
-import useAutoHideScrollbar from '@/components/hooks/useAutoHideScrollbar'
 import WorkDetailsDialog from '@/components/catalogues/WorkDetailsDialog'
 
 export default function WorksTable({
@@ -21,7 +20,6 @@ export default function WorksTable({
     footer?: ReactNode
 }) {
     const {t, locale} = useI18n()
-    const listScrollbar = useAutoHideScrollbar()
     const localizedTitle = getLocalizedWorkTerm(title, 'type', locale)
 
     return (
@@ -37,7 +35,7 @@ export default function WorksTable({
                 <span className="w-28 shrink-0 px-1.5 text-center">{t('works.key')}</span>
                 <span className="min-w-0 flex-1 px-1.5 text-center">{t('works.instrumentation')}</span>
             </div>
-            <div className={`${listScrollbar.className} max-h-112 overflow-y-auto md:min-h-0 md:max-h-none md:flex-1`} onScroll={listScrollbar.onScroll}>
+            <div className="always-visible-scrollbar max-h-112 overflow-y-auto md:min-h-0 md:max-h-none md:flex-1">
                 {works.map(work => (
                     <WorkDetailsDialog
                         key={work.workId}

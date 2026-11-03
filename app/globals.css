@@ -184,23 +184,17 @@ body { background: var(--surface); color: var(--on-surface); }
     @apply bg-background text-foreground; }
   html {
     @apply font-sans; } }
-.auto-hide-scrollbar {
-  scrollbar-width: none;
-}
-.auto-hide-scrollbar::-webkit-scrollbar {
-  width: 0;
-}
-.auto-hide-scrollbar.is-scrolling {
+.always-visible-scrollbar {
   scrollbar-width: thin;
   scrollbar-color: #94a3b8 transparent;
 }
-.auto-hide-scrollbar.is-scrolling::-webkit-scrollbar {
+.always-visible-scrollbar::-webkit-scrollbar {
   width: 8px;
 }
-.auto-hide-scrollbar.is-scrolling::-webkit-scrollbar-thumb {
+.always-visible-scrollbar::-webkit-scrollbar-thumb {
   border-radius: 9999px;
   background: #94a3b8;
 }
-.auto-hide-scrollbar.is-scrolling::-webkit-scrollbar-track {
+.always-visible-scrollbar::-webkit-scrollbar-track {
   background: transparent;
 }
