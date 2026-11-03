@@ -236,10 +236,8 @@ export default function WorksBrowser({
                     {pagedSearchMatches.length > 0 ? (
                         <WorksTable
                             key={`search-${normalizedQuery}-${page}`}
-                            title={t('works.searchResults')}
                             works={pagedSearchMatches}
                             catalogCode={catalogCode}
-                            totalCount={searchMatches.length}
                             footer={renderPagination(page, totalSearchPages)}
                         />
                     ) : (
@@ -251,10 +249,8 @@ export default function WorksBrowser({
             ) : pagedAllWorks.length > 0 ? (
                 <WorksTable
                     key={`all-${page}-${keyFilter}-${genreFilter}`}
-                    title={t('works.allWorks')}
                     works={pagedAllWorks}
                     catalogCode={catalogCode}
-                    totalCount={filteredSortedWorks.length}
                     footer={renderPagination(page, totalAllPages)}
                 />
             ) : (
