@@ -102,6 +102,14 @@ export default function WorkDetailsDialog({
                                 )}
                             </div>
                         )}
+                        {work.details['WikiQID'] && (
+                            <Link
+                                href={localePath(locale, `/works/${work.details['WikiQID']}`)}
+                                className="mt-2 inline-flex text-sm font-medium text-blue-600 underline-offset-4 hover:underline"
+                            >
+                                {t('works.openPage')} →
+                            </Link>
+                        )}
                         <Dialog.Close className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-md text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label={t('common.close')}>
                             <IconX size={18}/>
                         </Dialog.Close>

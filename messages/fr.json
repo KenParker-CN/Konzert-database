@@ -145,6 +145,7 @@
     "genres": "Genres",
     "creationLocation": "Lieu de création",
     "viewDetails": "Voir les détails de l'œuvre",
+    "openPage": "Ouvrir la page de l'œuvre",
     "searchResults": "Résultats de recherche",
     "noSearchResults": "Aucune œuvre ne correspond à votre recherche"
   },
