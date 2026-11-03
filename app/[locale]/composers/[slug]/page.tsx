@@ -27,13 +27,15 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
             <main>
                 <div className="mx-auto max-w-4xl px-5 py-8 lg:px-8 lg:py-10">
                     <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-                        <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950">{displayName}</h1>
+                        <div className="flex items-baseline justify-between gap-4">
+                            <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950">{displayName}</h1>
+                            {catalogCode && (
+                                <Link href={localePath(locale, `/catalogues/${encodeURIComponent(catalogCode)}`)} className="shrink-0 text-sm font-medium text-blue-700 hover:underline">
+                                    {composer.catalogueName || catalogCode}
+                                </Link>
+                            )}
+                        </div>
                         {meta && <p className="mt-2 text-sm text-slate-500">{meta}</p>}
-                        {catalogCode && (
-                            <Link href={localePath(locale, `/catalogues/${encodeURIComponent(catalogCode)}`)} className="float-right ml-4 mt-1 text-sm font-medium text-blue-700 hover:underline">
-                                {composer.catalogueName || catalogCode}
-                            </Link>
-                        )}
                         <GenreIntroduction wikiID={composer.wikiQID} locale={locale}/>
                         {composer.catalogRef && (
                             <CatalogueCitation
