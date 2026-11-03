@@ -39,16 +39,20 @@ export default function WorksTable({
                         triggerClassName="flex w-full items-center gap-3 border-b border-slate-100 px-4 py-2.5 text-left transition-colors last:border-0 hover:bg-blue-50/50"
                     >
                         <span className="w-24 shrink-0 font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</span>
-                        {work.genre && (
-                            <span className="shrink-0 rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
-                                {getLocalizedWorkTerm(work.genre, 'type', locale)}
-                            </span>
-                        )}
-                        {work.key && (
-                            <span className="shrink-0 rounded-full bg-blue-100 px-2 py-0.5 text-xs font-semibold text-blue-700">
-                                {getLocalizedWorkTerm(work.key, 'key', locale)}
-                            </span>
-                        )}
+                        <span className="flex w-28 shrink-0 justify-center">
+                            {work.genre && (
+                                <span className="max-w-full truncate rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
+                                    {getLocalizedWorkTerm(work.genre, 'type', locale)}
+                                </span>
+                            )}
+                        </span>
+                        <span className="flex w-28 shrink-0 justify-center">
+                            {work.key && (
+                                <span className="max-w-full truncate rounded-full bg-blue-100 px-2 py-0.5 text-xs font-semibold text-blue-700">
+                                    {getLocalizedWorkTerm(work.key, 'key', locale)}
+                                </span>
+                            )}
+                        </span>
                         {work.instrumentation && (
                             <span className="max-w-40 truncate text-left text-xs text-slate-500">{work.instrumentation}</span>
                         )}
