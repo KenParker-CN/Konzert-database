@@ -4,7 +4,6 @@ import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import {getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getLocalizedComposerName} from '@/lib/composer-name'
-import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
@@ -18,7 +17,6 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
     const composer = await getComposer(slug)
     if (!composer) notFound()
 
-    const {t} = await getI18n(locale)
     const catalogCode = getCatalogForComposer(slug)
     const displayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
     const lifespan = [composer.startDate, composer.endDate].filter(Boolean).join(' – ')
@@ -43,7 +41,7 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
                         )}
                         {catalogCode && (
                             <Link href={localePath(locale, `/catalogues/${encodeURIComponent(catalogCode)}`)} className="mt-6 inline-block text-sm font-medium text-blue-700 hover:underline">
-                                {t('search.catalogue')}
+                                {composer.catalogueName || catalogCode}
                             </Link>
                         )}
                     </article>
