@@ -77,6 +77,7 @@ export default function GenreIntroduction({
     const leadBlocks = blocks.slice(0, firstParagraphIndex + 1)
     const showAll = !compact && expanded
     const visibleBlocks = showAll ? blocks : leadBlocks
+    const headingBlocks = blocks.filter((block): block is Extract<IntroductionBlock, {kind: 'heading'}> => block.kind === 'heading')
     const canExpand = !compact && blocks.length > leadBlocks.length
 
     return (
@@ -116,6 +117,22 @@ export default function GenreIntroduction({
                     {introduction.title} — Wikipedia
                 </a>
             </p>
+            {showAll && scrolledDown && headingBlocks.length > 0 && (
+                <nav
+                    aria-label="Sections"
+                    className="fixed right-3 top-28 z-30 hidden max-h-[calc(100vh-8rem)] w-44 overflow-y-auto rounded-xl border border-slate-200 bg-white/95 p-3 text-sm shadow-sm backdrop-blur xl:block"
+                >
+                    <ul className="space-y-1.5">
+                        {headingBlocks.map(block => (
+                            <li key={block.id}>
+                                <a href={`#${block.id}`} title={block.text} className="line-clamp-2 block text-slate-600 hover:text-blue-700">
+                                    {block.text}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+            )}
             {showAll && scrolledDown && (
                 <button
                     type="button"
