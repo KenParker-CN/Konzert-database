@@ -5,12 +5,18 @@ import {getWikipediaIntroduction, type WikipediaIntroduction} from '@/lib/data/w
 import {useI18n} from '@/lib/i18n/client'
 import type {Locale} from '@/lib/i18n/config'
 
-type IntroductionBlock = {kind: 'heading'; text: string} | {kind: 'paragraph'; text: string}
+type IntroductionBlock = {kind: 'heading'; text: string; id: string} | {kind: 'paragraph'; text: string}
 
 function toBlocks(extract: string): IntroductionBlock[] {
+    const usedIds = new Map<string, number>()
     return extract.split(/\n+/).map(line => line.trim()).filter(Boolean).map((line): IntroductionBlock => {
         const heading = /^=+\s*(.*?)\s*=+$/.exec(line)
-        return heading ? {kind: 'heading', text: heading[1]} : {kind: 'paragraph', text: line}
+        if (!heading) return {kind: 'paragraph', text: line}
+        const text = heading[1]
+        const base = text.replace(/\s+/g, '_')
+        const seen = usedIds.get(base) ?? 0
+        usedIds.set(base, seen + 1)
+        return {kind: 'heading', text, id: seen ? `${base}_${seen + 1}` : base}
     })
 }
 
@@ -84,7 +90,10 @@ export default function GenreIntroduction({
                 />
             )}
             {visibleBlocks.map((block, index) => block.kind === 'heading' ? (
-                <h3 key={index} className="heading mt-6 text-lg font-semibold text-slate-900 first:mt-0">{block.text}</h3>
+                <h3 key={index} id={block.id} className="heading group mt-6 scroll-mt-24 text-lg font-semibold text-slate-900 first:mt-0">
+                    {block.text}
+                    <a href={`#${block.id}`} className="ml-2 text-slate-300 opacity-0 transition hover:text-blue-700 focus-visible:opacity-100 group-hover:opacity-100">#</a>
+                </h3>
             ) : (
                 <p key={index} className={compact ? 'text-sm leading-5 text-slate-700' : 'mt-4 text-base leading-8 text-slate-600 first:mt-0'}>{block.text}</p>
             ))}
