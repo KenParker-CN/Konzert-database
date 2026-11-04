@@ -76,7 +76,7 @@ export default function WorksTable({
                 ))}
             </div>
         </section>
-        {footer && <div className="flex justify-center pt-3">{footer}</div>}
+        {footer && <div className="flex justify-center">{footer}</div>}
         </>
     )
 }
