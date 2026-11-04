@@ -34,7 +34,7 @@
     "system": "跟随系统"
   },
   "home": {
-    "highlights": "热门目录",
+    "recentlyUpdated": "最近更新的目录",
     "badge": "循作曲家、目录、乐器与体裁，寻访古典乐。",
     "randomWiki": {"title": "随机三连", "composer": "作曲家", "genre": "体裁", "work": "作品"},
     "tagline": "循作曲家、目录、乐器与体裁，寻访古典乐。",

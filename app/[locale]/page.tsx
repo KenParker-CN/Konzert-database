@@ -25,7 +25,9 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     const [directory, wikiBannerItems] = await Promise.all([getCatalogueDirectory(), getRandomWikiBannerItems(locale)])
     const composerCount = directory.length
     const workCount = directory.reduce((sum, entry) => sum + (entry.workCount ?? 0), 0)
-    const featuredCatalogues = [...directory].sort((a, b) => b.workCount - a.workCount).slice(0, 3)
+    const recentCatalogues = [...directory]
+        .sort((a, b) => (b.updatedAt ?? '').localeCompare(a.updatedAt ?? '') || b.workCount - a.workCount)
+        .slice(0, 3)
 
     return (
         <AppShell>
@@ -62,13 +64,13 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                 </section>
                 <section className="mx-auto max-w-7xl px-5 pb-6 lg:px-8">
                     <div className="mb-5 flex items-end justify-between gap-4">
-                        <h2 className="heading text-2xl font-semibold tracking-tight text-slate-950">{t('home.highlights')}</h2>
+                        <h2 className="heading text-2xl font-semibold tracking-tight text-slate-950">{t('home.recentlyUpdated')}</h2>
                         <Link href={localePath(locale, '/catalogues')} className="text-sm font-semibold text-blue-600 hover:underline">
                             {t('catalogues.title')}
                         </Link>
                     </div>
                     <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                        {featuredCatalogues.map(entry => (
+                        {recentCatalogues.map(entry => (
                             <li key={entry.catalogue}>
                                 <Link
                                     href={localePath(locale, `/catalogues/${entry.catalogue}`)}

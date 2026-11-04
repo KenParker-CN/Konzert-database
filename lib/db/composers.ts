@@ -1,12 +1,14 @@
 import 'server-only'
 
 import { getComposers as loadComposers, getComposerWorks as loadComposerWorks } from '@/lib/data/csv-loader'
+import catalogueUpdatesJson from '@/data/catalogue-updates.json'
 import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
 import {getGenreLinks} from '@/lib/data/genre-links'
 import {localePath, type Locale} from '@/lib/i18n/config'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 
 const CATALOGUE_DIRECTORY_CACHE_TTL_MS = 5 * 60 * 1000
+const catalogueUpdates: Record<string, string> = catalogueUpdatesJson
 let catalogueDirectoryCache: {
     expiresAt: number
     request: ReturnType<typeof getCatalogueDirectoryImpl>
@@ -67,6 +69,7 @@ async function getCatalogueDirectoryImpl() {
             composerAliases: composer.aliases,
             composerQid: composer.wikiQID,
             workCount,
+            updatedAt: catalogueUpdates[catalogue] ?? null,
             era: composer.era,
             // `null`/empty means the composer has no named catalogue in the CSV, so the
             // archive presents their works as a plain composition list instead of a

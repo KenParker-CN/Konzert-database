@@ -34,7 +34,7 @@
     "system": "System"
   },
   "home": {
-    "highlights": "Beliebte Werkverzeichnisse",
+    "recentlyUpdated": "Zuletzt aktualisierte Werkverzeichnisse",
     "badge": "Klassische Musik entdecken.",
     "randomWiki": {"title": "Zufällige Auswahl", "composer": "Komponist", "genre": "Gattung", "work": "Werk"},
     "tagline": "Klassische Musik entdecken – nach Komponisten, Werkverzeichnissen, Instrumenten und Gattungen.",

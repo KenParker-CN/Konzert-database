@@ -10,7 +10,9 @@
     "vercel": "^59.11.0"
   },
   "scripts": {
+    "predev": "node scripts/generate-catalogue-updates.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/generate-catalogue-updates.mjs",
     "build": "next build",
     "start": "next start"
   },
