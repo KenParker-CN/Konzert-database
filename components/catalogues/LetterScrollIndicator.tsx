@@ -39,13 +39,13 @@ export default function LetterScrollIndicator({letters, label}: {letters: string
             aria-label={label}
             onMouseEnter={() => setVisible(true)}
             onMouseLeave={() => setVisible(false)}
-            className={`fixed right-2 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-0.5 rounded-full border border-slate-200 bg-white/90 px-1 py-2 text-xs font-semibold shadow-md backdrop-blur transition-opacity duration-300 ${visible ? 'opacity-100' : 'opacity-0'}`}
+            className={`fixed right-2 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-0.5 rounded-full border border-slate-200 bg-[color-mix(in_srgb,var(--surface-container)_90%,transparent)] px-1 py-2 text-xs font-semibold shadow-md backdrop-blur transition-opacity duration-300 ${visible ? 'opacity-100' : 'opacity-0'}`}
         >
             {letters.map(letter => (
                 <a
                     key={letter}
                     href={`#letter-${letter}`}
-                    className={`inline-flex size-6 items-center justify-center rounded-full transition ${active === letter ? 'bg-blue-600 text-white' : 'text-slate-600 hover:bg-blue-50 hover:text-blue-600'}`}
+                    className={`inline-flex size-6 items-center justify-center rounded-full transition ${active === letter ? 'bg-blue-600 text-white' : 'text-slate-600 hover:bg-[var(--primary-container)] hover:text-blue-600'}`}
                 >
                     {letter}
                 </a>
