@@ -35,7 +35,7 @@ export default function WorksTable({
                 {works.map(work => (
                     <div
                         key={work.workId}
-                        className="relative flex w-full items-center divide-x divide-slate-200 border-b border-slate-100 px-4 py-2.5 transition-colors last:border-0 hover:bg-blue-50/50"
+                        className="relative flex w-full items-center divide-x divide-slate-200 border-b border-slate-100 px-4 py-1.5 transition-colors last:border-0 hover:bg-blue-50/50"
                     >
                         <span className="w-24 shrink-0 px-1.5 text-center font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</span>
                         {work.details['WikiQID'] ? (
