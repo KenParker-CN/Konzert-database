@@ -4,6 +4,7 @@ import * as path from 'node:path';
 
 export const KV_API_URL = 'https://dme.mozarteum.at/digital-editions/api/kv-entriesidx';
 const LOCAL_CSV_DIR = path.join(process.cwd(), 'data', 'catalogues');
+const LOCAL_META_DIR = path.join(process.cwd(), 'data', 'meta');
 // Vendored copy of the API response, used in preference to the live endpoint.
 // Refresh with `node scripts/fetch-kv-entries.mjs`.
 const KV_SNAPSHOT_FILE = 'kv-entries.json';
@@ -360,7 +361,7 @@ type ComposerCsvEntry = {
 };
 
 async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
-    const csvPath = path.join(LOCAL_CSV_DIR, 'composers.csv');
+    const csvPath = path.join(LOCAL_META_DIR, 'composers.csv');
     const csvContent = await fs.readFile(csvPath, 'utf-8');
     const composers = parseCsvRecords(csvContent) as CsvComposer[];
 
@@ -563,7 +564,7 @@ export type InstrumentCsvEntry = {
 };
 
 export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
-    const csvContent = await fs.readFile(path.join(LOCAL_CSV_DIR, 'instruments.csv'), 'utf-8');
+    const csvContent = await fs.readFile(path.join(LOCAL_META_DIR, 'instruments.csv'), 'utf-8');
     return parseCsvRecords(csvContent).map(row => ({
         wikiQID: row.WikiQID,
         name: row.Name,
@@ -657,8 +658,7 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
 export type GenreCsvEntry = { wikiQID: string; inCategory: string; name: string; typeOf: string }
 
 export async function getGenreCsvEntries(): Promise<GenreCsvEntry[]> {
-    const response = await fetchCsv('genres.csv')
-    const csvContent = await response.text()
+    const csvContent = await fs.readFile(path.join(LOCAL_META_DIR, 'genres.csv'), 'utf-8')
     return parseCsvRecords(csvContent).map(row => ({
         wikiQID: row.WikiQID,
         inCategory: row.inCategory,

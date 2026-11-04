@@ -36,6 +36,7 @@ components/          Shared UI and catalogue, composer, genre components
 lib/                 Data loading, database accessors, and i18n
 messages/            Translations (en, zh, fr, de)
 data/catalogues/     Catalogue CSVs
+data/meta/           Composer, genre and instrument CSVs
 public/              Static files, including the KV snapshot
 scripts/             Data and i18n maintenance scripts
 proxy.ts             Locale redirects
