@@ -194,6 +194,32 @@ export default function WorksBrowser({
     return (
         <div className="flex min-w-0 flex-col gap-4">
             <div className="flex min-w-0 flex-col gap-2 sm:flex-row sm:flex-wrap">
+                {genreOptions.length > 0 && (
+                    <Select
+                        defaultValue=""
+                        onValueChange={(value: unknown) => {
+                            setGenreFilter(String(value ?? ""))
+                            setPage(1)
+                        }}
+                    >
+                        <SelectTrigger
+                            aria-label={t('works.genreFilterLabel')}
+                            className="h-10 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
+                        >
+                            <SelectValue placeholder={t('works.allGenres')} className="overflow-visible whitespace-nowrap text-[var(--on-surface)]"/>
+                        </SelectTrigger>
+                        <SelectPositioner align="start">
+                            <SelectContent>
+                                <SelectItem value="">{t('works.allGenres')}</SelectItem>
+                                {genreOptions.map(genre => (
+                                    <SelectItem key={genre} value={genre}>
+                                        {getLocalizedWorkTerm(genre, 'type', locale)}
+                                    </SelectItem>
+                                ))}
+                            </SelectContent>
+                        </SelectPositioner>
+                    </Select>
+                )}
                 <div className="relative min-w-0 flex-1">
                     <IconSearch aria-hidden="true" className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
                     <Input
@@ -227,32 +253,6 @@ export default function WorksBrowser({
                         )}
                     </div>
                 </div>
-                {genreOptions.length > 0 && (
-                    <Select
-                        defaultValue=""
-                        onValueChange={(value: unknown) => {
-                            setGenreFilter(String(value ?? ""))
-                            setPage(1)
-                        }}
-                    >
-                        <SelectTrigger
-                            aria-label={t('works.genreFilterLabel')}
-                            className="h-10 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
-                        >
-                            <SelectValue placeholder={t('works.allGenres')} className="overflow-visible whitespace-nowrap text-[var(--on-surface)]"/>
-                        </SelectTrigger>
-                        <SelectPositioner align="start">
-                            <SelectContent>
-                                <SelectItem value="">{t('works.allGenres')}</SelectItem>
-                                {genreOptions.map(genre => (
-                                    <SelectItem key={genre} value={genre}>
-                                        {getLocalizedWorkTerm(genre, 'type', locale)}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </SelectPositioner>
-                    </Select>
-                )}
                 {keyOptions.length > 0 && (
                     <Select
                         defaultValue=""
