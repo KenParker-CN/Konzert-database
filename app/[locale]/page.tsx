@@ -10,6 +10,7 @@ import WikiRandomBanner from '@/components/home/WikiRandomBanner'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
 import {IconDisc, IconMail} from '@tabler/icons-react'
+import {HighlightText} from '@animate-ui/react/primitives/texts/highlight'
 
 export const dynamic = 'force-dynamic'
 
@@ -38,7 +39,10 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             <span className="h-px w-8 bg-blue-600"/>{t('home.badge')}
                         </p>
                         <h1 className="heading max-w-4xl text-5xl font-semibold leading-[1.04] tracking-[-0.055em] text-slate-950 sm:text-6xl lg:text-7xl">
-                            Konzert
+                            <HighlightText
+                                text="Konzert"
+                                className="bg-[linear-gradient(var(--primary-container),var(--primary-container))] bg-no-repeat"
+                            />
                         </h1>
                         <div className="mt-4 flex items-baseline gap-5 text-xs text-slate-500">
                             <span className="flex items-baseline gap-1.5">
