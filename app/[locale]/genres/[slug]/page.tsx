@@ -16,7 +16,9 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string; slug: string}>}): Promise<Metadata> {
     const {locale, slug} = await params
-    return {alternates: {canonical: `/${locale}/genres/${slug}`}}
+    if (!isLocale(locale)) notFound()
+    const entry = (await getGenreCsvEntries()).find(candidate => getGenreV2Slug(candidate.name) === slug)
+    return {title: entry ? `${getLocalizedWorkTerm(entry.name, 'type', locale)} · Konzert` : undefined, alternates: {canonical: `/${locale}/genres/${slug}`}}
 }
 
 export default async function GenreDetailPage({params}: {params: Promise<{locale: string; slug: string}>}) {

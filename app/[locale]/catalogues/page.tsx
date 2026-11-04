@@ -13,7 +13,9 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
     const {locale} = await params
-    return {alternates: {canonical: `/${locale}/catalogues`}}
+    if (!isLocale(locale)) notFound()
+    const {t} = await getI18n(locale)
+    return {title: `${t('catalogues.title')} · Konzert`, alternates: {canonical: `/${locale}/catalogues`}}
 }
 
 type CatalogueEntry = Awaited<ReturnType<typeof getCatalogueDirectory>>[number]

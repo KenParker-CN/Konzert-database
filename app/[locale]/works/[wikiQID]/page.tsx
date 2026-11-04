@@ -19,7 +19,10 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string; wikiQID: string}>}): Promise<Metadata> {
     const {locale, wikiQID} = await params
-    return {alternates: {canonical: `/${locale}/works/${wikiQID}`}}
+    if (!isLocale(locale)) notFound()
+    const [first] = await getWorksByWikiID(wikiQID.toUpperCase())
+    const title = first ? (locale === 'de' ? first.work.details['German title'] || first.work.title : first.work.title) : undefined
+    return {title: title ? `${title} · Konzert` : undefined, alternates: {canonical: `/${locale}/works/${wikiQID}`}}
 }
 
 export default async function WorkDetailPage({params}: {params: Promise<{locale: string; wikiQID: string}>}) {

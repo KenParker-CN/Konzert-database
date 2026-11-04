@@ -13,7 +13,9 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string; familyKey: string}>}): Promise<Metadata> {
     const {locale, familyKey} = await params
-    return {alternates: {canonical: `/${locale}/instruments/family/${familyKey}`}}
+    if (!isLocale(locale)) notFound()
+    const family = (await getInstrumentFamilies(locale)).find(candidate => candidate.key === familyKey)
+    return {title: family ? `${family.label} · Konzert` : undefined, alternates: {canonical: `/${locale}/instruments/family/${familyKey}`}}
 }
 
 export default async function InstrumentFamilyPage({params}: {params: Promise<{locale: string; familyKey: string}>}) {

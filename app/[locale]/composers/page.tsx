@@ -13,7 +13,9 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
     const {locale} = await params
-    return {alternates: {canonical: `/${locale}/composers`}}
+    if (!isLocale(locale)) notFound()
+    const {t} = await getI18n(locale)
+    return {title: `${t('composerIndex.title')} · Konzert`, alternates: {canonical: `/${locale}/composers`}}
 }
 
 type ComposerEntry = Awaited<ReturnType<typeof getComposerDirectory>>[number]

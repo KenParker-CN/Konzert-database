@@ -11,7 +11,9 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
     const {locale} = await params
-    return {alternates: {canonical: `/${locale}/instruments`}}
+    if (!isLocale(locale)) notFound()
+    const {t} = await getI18n(locale)
+    return {title: `${t('instruments.title')} · Konzert`, alternates: {canonical: `/${locale}/instruments`}}
 }
 
 export default async function InstrumentsPage({params}: {params: Promise<{locale: string}>}) {

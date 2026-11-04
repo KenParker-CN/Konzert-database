@@ -12,7 +12,9 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
     const {locale} = await params
-    return {alternates: {canonical: `/${locale}/search`}}
+    if (!isLocale(locale)) notFound()
+    const {t} = await getI18n(locale)
+    return {title: `${t('search.title')} · Konzert`, alternates: {canonical: `/${locale}/search`}}
 }
 
 const PAGE_SIZE = 50

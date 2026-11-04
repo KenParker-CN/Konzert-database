@@ -8,6 +8,7 @@ import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import SpotifyEmbed from '@/components/catalogues/SpotifyEmbed'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
+import {getLocalizedComposerName} from '@/lib/composer-name'
 import {getI18n} from '@/lib/i18n/server'
 import {getPageTitle} from '@/lib/page-title'
 import {isLocale} from '@/lib/i18n/config'
@@ -19,7 +20,11 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string; code: string}>}): Promise<Metadata> {
     const {locale, code} = await params
-    return {alternates: {canonical: `/${locale}/catalogues/${code}`}}
+    if (!isLocale(locale)) notFound()
+    const catalogue = (await getCatalogueDirectory()).find(c => c.catalogue === code)
+    const composer = catalogue ? await getComposer(catalogue.composerQid) : undefined
+    const title = composer ? `${composer.catalogueName?.trim() || getLocalizedComposerName(composer.name, composer.aliases, locale)} · Konzert` : undefined
+    return {title, alternates: {canonical: `/${locale}/catalogues/${code}`}}
 }
 
 export default async function CatalogueDetailPage({params}: {params: Promise<{locale: string; code: string}>}) {
