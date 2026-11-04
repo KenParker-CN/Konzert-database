@@ -46,7 +46,8 @@
     "eraUnknown": "Unknown",
     "cataloguer": "Compiler: {name}",
     "kvDataSource": "Data source",
-    "spotify": "Listen on Spotify"
+    "spotify": "Listen on Spotify",
+    "reference": "Reference link"
   },
   "search": {
     "title": "Search",

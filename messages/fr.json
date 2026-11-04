@@ -55,7 +55,8 @@
     "cataloguer": "Catalogueur : {name}",
     "kvRefreshHint": "Jusqu'à ~5 s",
     "kvDataSource": "Source des données",
-    "spotify": "Écouter sur Spotify"
+    "spotify": "Écouter sur Spotify",
+    "reference": "Lien de référence"
   },
   "search": {
     "title": "Recherche",

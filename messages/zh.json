@@ -55,7 +55,8 @@
     "eraUnknown": "未知时代",
     "cataloguer": "编纂者：{name}",
     "kvDataSource": "数据源",
-    "spotify": "在 Spotify 上试听"
+    "spotify": "在 Spotify 上试听",
+    "reference": "参照链接"
   },
   "search": {
     "title": "搜索",

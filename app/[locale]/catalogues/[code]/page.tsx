@@ -52,6 +52,7 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                 <CatalogueCitation
                                     title={composer.catalogRef}
                                     href={composer.catalogRefUrl}
+                                    linkLabel={t('catalogues.reference')}
                                     author={composer.cataloguerName || undefined}
                                     publisher={composer.catalogPublisher}
                                     className="text-sm leading-6 text-slate-600"
