@@ -92,7 +92,7 @@ export default function AlphabetIndex({items, activeKey}: {items: AlphabetIndexI
                                         ? 'bg-blue-600 text-white'
                                         : hasItems
                                             ? 'text-slate-600 hover:bg-slate-100'
-                                            : 'text-slate-300'
+                                            : 'text-[var(--outline)]'
                                 }`}
                                 aria-label={letter}
                             >
