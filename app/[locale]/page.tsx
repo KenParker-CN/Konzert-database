@@ -38,7 +38,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-blue-600">
                             <span className="h-px w-8 bg-blue-600"/>{t('home.badge')}
                         </p>
-                        <h1 className="heading max-w-4xl text-5xl font-semibold leading-[1.04] tracking-[-0.055em] text-slate-950 sm:text-6xl lg:text-7xl">
+                        <h1 className="heading max-w-4xl text-5xl font-extrabold leading-[1.04] tracking-[-0.055em] text-slate-950 sm:text-6xl lg:text-7xl">
                             <HighlightText
                                 text="Konzert"
                                 className="bg-[linear-gradient(var(--primary-container),var(--primary-container))] bg-no-repeat"
