@@ -29,14 +29,14 @@ export default function WikiRandomBanner({
 
     return (
         <aside
-            className="flex w-full flex-col border border-slate-200 bg-white/80 p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900/80"
+            className="flex w-full flex-col border border-slate-200 bg-[color-mix(in_srgb,var(--surface-container)_80%,transparent)] p-5 shadow-sm"
             onMouseEnter={() => setPaused(true)}
             onMouseLeave={() => setPaused(false)}
             onFocus={() => setPaused(true)}
             onBlur={() => setPaused(false)}
         >
             <div className="flex items-center justify-between gap-4">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">{title}</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600">{title}</p>
                 <div className="flex items-center gap-1.5">
                     {items.map((item, index) => (
                         <button
@@ -45,7 +45,7 @@ export default function WikiRandomBanner({
                             aria-label={kindLabels[item.kind]}
                             aria-current={index === active}
                             onClick={() => setActive(index)}
-                            className={`h-1.5 w-6 transition-colors ${index === active ? 'bg-blue-600 dark:bg-blue-400' : 'bg-slate-300 hover:bg-slate-400 dark:bg-slate-600 dark:hover:bg-slate-500'}`}
+                            className={`h-1.5 w-6 transition-colors ${index === active ? 'bg-blue-600' : 'bg-[var(--outline)] hover:bg-[var(--on-surface-muted)]'}`}
                         />
                     ))}
                 </div>
@@ -98,25 +98,25 @@ function WikiBannerCard({
         >
             <div className="flex gap-4">
                 <div className="min-w-0 flex-1">
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">{kindLabel}</p>
-                    <a href={item.href} className="mt-1 block text-lg font-semibold tracking-tight text-slate-950 hover:text-blue-600 dark:text-slate-50 dark:hover:text-blue-400">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{kindLabel}</p>
+                    <a href={item.href} className="mt-1 block text-lg font-semibold tracking-tight text-slate-950 hover:text-blue-600">
                         {item.title}
                     </a>
-                    {item.subtitle && <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">{item.subtitle}</p>}
+                    {item.subtitle && <p className="mt-0.5 text-xs text-slate-500">{item.subtitle}</p>}
                     {loading ? (
                         <div className="mt-2 animate-pulse space-y-1.5" aria-busy="true">
-                            <div className="h-3 w-full rounded bg-slate-200 dark:bg-slate-700"/>
-                            <div className="h-3 w-4/5 rounded bg-slate-200 dark:bg-slate-700"/>
+                            <div className="h-3 w-full rounded bg-[var(--surface-high)]"/>
+                            <div className="h-3 w-4/5 rounded bg-[var(--surface-high)]"/>
                         </div>
                     ) : summary ? (
-                        <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-600 dark:text-slate-300">{summary}</p>
+                        <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-600">{summary}</p>
                     ) : null}
                     {introduction && (
                         <a
                             href={introduction.url}
                             target="_blank"
                             rel="noreferrer"
-                            className="mt-2 inline-block text-xs text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-700 dark:text-slate-400 dark:decoration-slate-600 dark:hover:text-slate-200"
+                            className="mt-2 inline-block text-xs text-slate-500 underline decoration-[var(--outline)] underline-offset-2 hover:text-[var(--on-surface)]"
                         >
                             {introduction.title} — Wikipedia
                         </a>
