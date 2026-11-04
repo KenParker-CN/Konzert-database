@@ -34,9 +34,9 @@
   },
   "home": {
     "highlights": "Beliebte Werkverzeichnisse",
-    "badge": "Archiv klassischer Musik",
+    "badge": "Klassische Musik entdecken – nach Komponisten, Werkverzeichnissen, Instrumenten und Gattungen.",
     "randomWiki": {"title": "Zufällige Auswahl", "composer": "Komponist", "genre": "Gattung", "work": "Werk"},
-    "tagline": "Eine klare, vernetzte Heimat für Komponisten, Werke und Album-Sammlungen.",
+    "tagline": "Klassische Musik entdecken – nach Komponisten, Werkverzeichnissen, Instrumenten und Gattungen.",
     "exploreWorks": "Werke entdecken",
     "worksExplorerTitle": "Werke-Explorer",
     "worksExplorerDescription": "Suche nach Katalognummern, Titeln, Komponisten und Besetzung.",

@@ -34,9 +34,9 @@
   },
   "home": {
     "highlights": "Catalogues à la une",
-    "badge": "Archives de musique classique",
+    "badge": "Découvrir la musique classique, par compositeurs, catalogues, instruments et genres.",
     "randomWiki": {"title": "Sélection aléatoire", "composer": "Compositeur", "genre": "Genre", "work": "Œuvre"},
-    "tagline": "Un espace clair et connecté pour les compositeurs, les œuvres et les collections d’albums.",
+    "tagline": "Découvrir la musique classique, par compositeurs, catalogues, instruments et genres.",
     "exploreWorks": "Explorer les œuvres",
     "worksExplorerTitle": "Explorateur d’œuvres",
     "worksExplorerDescription": "Recherchez par numéro de catalogue, titre, compositeur et instrumentation.",
