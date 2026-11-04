@@ -20,13 +20,17 @@ type RelatedWorkRow = {
     catalogue: string
 }
 
-export default function GenreRelatedWorks({groups, showInstrumentation = true}: {groups: GenreRelatedWorkGroup[]; showInstrumentation?: boolean}) {
+export default function GenreRelatedWorks({groups, showInstrumentation = true, showGenre = false}: {groups: GenreRelatedWorkGroup[]; showInstrumentation?: boolean; showGenre?: boolean}) {
     const {t, locale} = useI18n()
     const [page, setPage] = useState(1)
     const [composerFilter, setComposerFilter] = useState('')
-    const rowGrid = showInstrumentation
-        ? 'grid gap-x-4 gap-y-1 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)] sm:items-center sm:px-8'
-        : 'grid gap-x-4 gap-y-1 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)] sm:items-center sm:px-8'
+    const rowGrid = [
+        'grid gap-x-4 gap-y-1 sm:items-center sm:px-8',
+        showInstrumentation && showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)_minmax(0,1fr)]',
+        showInstrumentation && !showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)]',
+        !showInstrumentation && showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1fr)]',
+        !showInstrumentation && !showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)]',
+    ].filter(Boolean).join(' ')
 
     const allRows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
         key: `${group.catalogue}-${work.workId}`,
@@ -74,6 +78,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true}: 
                 <span>{t('works.titleColumn')}</span>
                 <span>{t('works.key')}</span>
                 {showInstrumentation && <span>{t('works.instrumentation')}</span>}
+                {showGenre && <span>{t('works.genre')}</span>}
             </div>
 
             <ul>
@@ -89,6 +94,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true}: 
                         </WorkDetailsDialog>
                         <span className="truncate text-sm text-slate-700">{work.key}</span>
                         {showInstrumentation && <span className="truncate text-sm text-slate-700">{work.instrumentation}</span>}
+                        {showGenre && <span className="truncate text-sm text-slate-700">{getLocalizedWorkTerm(work.genre, 'type', locale)}</span>}
                     </li>
                 ))}
             </ul>
