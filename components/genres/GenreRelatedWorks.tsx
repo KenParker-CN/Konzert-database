@@ -92,9 +92,9 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                         >
                             <span className="truncate">{title}</span>
                         </WorkDetailsDialog>
-                        <span className="truncate text-sm text-slate-700">{work.key}</span>
+                        <span className="truncate text-center text-sm text-slate-700">{work.key}</span>
                         {showInstrumentation && <span className="truncate text-sm text-slate-700">{work.instrumentation}</span>}
-                        {showGenre && <span className="truncate text-sm text-slate-700">{getLocalizedWorkTerm(work.genre, 'type', locale)}</span>}
+                        {showGenre && <span className="truncate text-center text-sm text-slate-700">{getLocalizedWorkTerm(work.genre, 'type', locale)}</span>}
                     </li>
                 ))}
             </ul>
