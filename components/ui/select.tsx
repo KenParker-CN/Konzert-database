@@ -47,7 +47,7 @@ function SelectPositionerComponent({
     return (
         <SelectPrimitive.Positioner
             data-slot="select-positioner"
-            className={cn(className)}
+            className={cn("z-50", className)}
             align={align}
             {...props}
         >
