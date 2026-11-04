@@ -207,7 +207,7 @@ async function pickRandomComposer(locale: Locale): Promise<WikiBannerItem | null
         kind: 'composer',
         title: pick.entry.composerAliases[locale] || pick.entry.composerName,
         wikiID: pick.wikiID,
-        href: localePath(locale, `/catalogues/${encodeURIComponent(pick.entry.catalogue)}`),
+        href: localePath(locale, `/composers/${encodeURIComponent(pick.entry.composerSlug)}`),
     }
 }
 

@@ -3,10 +3,10 @@ import {IconBrandApple, IconBrandSpotify, IconBrandTidal} from '@tabler/icons-re
 export default function MusicServiceLinks({name}: {name: string}) {
     const query = encodeURIComponent(name)
     const services = [
-        {label: 'Spotify', href: `https://open.spotify.com/search/${query}`, icon: <IconBrandSpotify className="h-4 w-4" stroke={1.8}/>},
-        {label: 'Apple Music', href: `https://music.apple.com/search?term=${query}`, icon: <IconBrandApple className="h-4 w-4" stroke={1.8}/>},
-        {label: 'Tidal', href: `https://tidal.com/search?q=${query}`, icon: <IconBrandTidal className="h-4 w-4" stroke={1.8}/>},
-        {label: 'MusicBrainz', href: `https://musicbrainz.org/search?query=${query}&type=artist&method=indexed`, icon: <span className="text-[10px] font-bold leading-none">MB</span>},
+        {label: 'Spotify', href: `https://open.spotify.com/search/${query}`, icon: <IconBrandSpotify className="h-4 w-4 text-[#1DB954]" stroke={1.8}/>},
+        {label: 'Apple Music', href: `https://music.apple.com/search?term=${query}`, icon: <IconBrandApple className="h-4 w-4 text-[#FA243C]" stroke={1.8}/>},
+        {label: 'Tidal', href: `https://tidal.com/search?q=${query}`, icon: <IconBrandTidal className="h-4 w-4 text-[var(--on-surface)]" stroke={1.8}/>},
+        {label: 'MusicBrainz', href: `https://musicbrainz.org/search?query=${query}&type=artist&method=indexed`, icon: <span className="text-[10px] font-bold leading-none text-[#ba478f]">MB</span>},
     ]
 
     return (
@@ -19,7 +19,7 @@ export default function MusicServiceLinks({name}: {name: string}) {
                     rel="noreferrer"
                     aria-label={service.label}
                     title={service.label}
-                    className="flex h-7 w-7 items-center justify-center rounded-full border border-slate-200 text-slate-600 transition hover:border-blue-300 hover:text-blue-700"
+                    className="flex h-7 w-7 items-center justify-center rounded-full border border-slate-200 transition hover:border-blue-300 hover:opacity-80"
                 >
                     {service.icon}
                 </a>
