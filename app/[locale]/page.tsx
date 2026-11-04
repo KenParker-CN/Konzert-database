@@ -40,11 +40,11 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         </h1>
                         <div className="mt-4 flex items-baseline gap-5 text-xs text-slate-500">
                             <span className="flex items-baseline gap-1.5">
-                                <span className="text-sm font-semibold text-slate-950"><CountTo value={composerCount}/></span>
+                                <span className="text-base font-semibold text-slate-950"><CountTo value={composerCount}/></span>
                                 {t('home.composers')}
                             </span>
                             <span className="flex items-baseline gap-1.5">
-                                <span className="text-sm font-semibold text-slate-950"><CountTo value={workCount}/></span>
+                                <span className="text-base font-semibold text-slate-950"><CountTo value={workCount}/></span>
                                 {t('home.works')}
                             </span>
                         </div>
