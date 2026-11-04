@@ -34,7 +34,7 @@
   },
   "home": {
     "highlights": "热门目录",
-    "badge": "Konzert — 循作曲家、目录、乐器与体裁，寻访古典乐。",
+    "badge": "循作曲家、目录、乐器与体裁，寻访古典乐。",
     "randomWiki": {"title": "随机三连", "composer": "作曲家", "genre": "体裁", "work": "作品"},
     "tagline": "Konzert，德语中“协奏曲”的意思。连接作曲家、作品与专辑的音乐档案。",
     "exploreWorks": "探索作品",
