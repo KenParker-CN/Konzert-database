@@ -7,6 +7,7 @@ import {createPortal} from 'react-dom'
 export type AlphabetIndexItem = {key: string; sortName: string; label: string; href: string}
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+const IDLE_HIDE_DELAY_MS = 900
 
 function getSortInitial(name: string): string {
     const trimmed = name.trim()
@@ -28,6 +29,7 @@ export default function AlphabetIndex({
     const [letterPos, setLetterPos] = useState<{top: number; left: number} | null>(null)
     const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
     const isSide = variant === 'side'
+    const [sideVisible, setSideVisible] = useState(false)
 
     const sortedItems = useMemo(() => {
         return [...items].sort((left, right) =>
@@ -55,6 +57,21 @@ export default function AlphabetIndex({
             if (hideTimer.current) clearTimeout(hideTimer.current)
         }
     }, [])
+
+    useEffect(() => {
+        if (!isSide) return
+        let idleTimer: ReturnType<typeof setTimeout> | undefined
+        const onScroll = () => {
+            setSideVisible(true)
+            clearTimeout(idleTimer)
+            idleTimer = setTimeout(() => setSideVisible(false), IDLE_HIDE_DELAY_MS)
+        }
+        document.addEventListener('scroll', onScroll, {capture: true, passive: true})
+        return () => {
+            document.removeEventListener('scroll', onScroll, {capture: true})
+            clearTimeout(idleTimer)
+        }
+    }, [isSide])
 
     const cancelHide = () => {
         if (hideTimer.current) {
@@ -113,7 +130,11 @@ export default function AlphabetIndex({
     return (
         <>
             {isSide ? (
-                <nav className="fixed right-2 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-0.5 rounded-full border border-slate-200 bg-[color-mix(in_srgb,var(--surface-container)_90%,transparent)] px-1 py-2 text-xs shadow-md backdrop-blur">
+                <nav
+                    onMouseEnter={() => setSideVisible(true)}
+                    onMouseLeave={() => setSideVisible(false)}
+                    className={`fixed right-2 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-0.5 rounded-full border border-slate-200 bg-[color-mix(in_srgb,var(--surface-container)_90%,transparent)] px-1 py-2 text-xs shadow-md backdrop-blur transition-opacity duration-300 ${sideVisible ? 'opacity-100' : 'opacity-0'}`}
+                >
                     {letterButtons}
                 </nav>
             ) : (
