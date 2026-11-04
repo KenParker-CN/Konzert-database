@@ -6,10 +6,10 @@ export default function WorksLoading({label}: {label: string}) {
                     <div className="h-5 w-2/3 max-w-md animate-pulse rounded bg-slate-100"/>
                     <div className="h-4 w-20 animate-pulse rounded bg-slate-100"/>
                 </div>
-                <div className="grid grid-cols-1 gap-2 border-b border-slate-200 p-3 sm:grid-cols-2">
-                    {Array.from({length: 4}, (_, index) => (
-                        <div key={index} className="h-10 animate-pulse rounded-lg bg-slate-100"/>
-                    ))}
+                <div className="flex flex-col gap-2 border-b border-slate-200 p-3 sm:flex-row">
+                    <div className="h-10 min-w-0 flex-1 animate-pulse rounded-lg bg-slate-100"/>
+                    <div className="h-10 animate-pulse rounded-lg bg-slate-100 sm:w-40"/>
+                    <div className="h-10 animate-pulse rounded-lg bg-slate-100 sm:w-40"/>
                 </div>
                 <div className="divide-y divide-slate-100">
                     {Array.from({length: 8}, (_, index) => (
