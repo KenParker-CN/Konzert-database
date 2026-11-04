@@ -29,7 +29,7 @@ export default function WikiRandomBanner({
 
     return (
         <aside
-            className="flex w-full flex-col border border-slate-200 bg-white/80 p-5 shadow-sm lg:absolute lg:inset-0 lg:overflow-hidden"
+            className="flex w-full flex-col border border-slate-200 bg-white/80 p-5 shadow-sm"
             onMouseEnter={() => setPaused(true)}
             onMouseLeave={() => setPaused(false)}
             onFocus={() => setPaused(true)}

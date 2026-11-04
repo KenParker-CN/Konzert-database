@@ -39,7 +39,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             Konzert
                         </h1>
                     </div>
-                    <div className="relative w-full">
+                    <div className="w-full">
                         <WikiRandomBanner
                             items={wikiBannerItems}
                             locale={locale}
