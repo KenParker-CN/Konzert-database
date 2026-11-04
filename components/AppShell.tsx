@@ -97,7 +97,7 @@ export default function AppShell({children, active}: {
         <header className="sticky top-0 z-40 border-b border-slate-200 bg-white">
             <div className="mx-auto flex max-w-360 flex-wrap items-center gap-x-8 gap-y-3 py-3">
                 <a href={localePath(locale, '/')} className="heading inline-flex items-center gap-2 text-lg font-semibold tracking-tight">
-                    <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="size-7 shrink-0 text-[var(--on-surface)]">
+                    <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="size-9 shrink-0 text-[var(--on-surface)]">
                         <rect x="6" y="6" width="36" height="36" rx="3" stroke="currentColor" strokeWidth="1.104"/>
                         <circle cx="24" cy="25" r="11" fill="#1967d2" stroke="currentColor" strokeWidth="1.104"/>
                         <rect x="22" y="23" width="4" height="4" rx="2" fill="white"/>
