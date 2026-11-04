@@ -36,6 +36,11 @@ function compareWorksBySort(left: ComposerWork, right: ComposerWork): number {
         || left.workId - right.workId
 }
 
+function compareWorksByDate(left: ComposerWork, right: ComposerWork): number {
+    if (left.date === right.date) return left.workId - right.workId
+    return left.date < right.date ? -1 : 1
+}
+
 function getPageItems(current: number, total: number): (number | 'ellipsis')[] {
     const pages = [1, total, current - 1, current, current + 1]
         .filter(page => page >= 1 && page <= total)
@@ -107,8 +112,8 @@ export default function WorksBrowser({
     }, [allWorks, keyFilter, genreFilter])
 
     const filteredSortedWorks = useMemo(
-        () => [...filteredWorks].sort(compareWorksBySort),
-        [filteredWorks],
+        () => [...filteredWorks].sort(showDateColumn ? compareWorksByDate : compareWorksBySort),
+        [filteredWorks, showDateColumn],
     )
 
     const normalizedQuery = normalizeSearchText(query)
