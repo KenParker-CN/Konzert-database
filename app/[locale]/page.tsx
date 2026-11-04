@@ -38,20 +38,6 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         <h1 className="heading max-w-4xl text-5xl font-semibold leading-[1.04] tracking-[-0.055em] text-slate-950 sm:text-6xl lg:text-7xl">
                             Konzert
                         </h1>
-                        <div className="mt-8 grid max-w-md grid-cols-2 gap-4">
-                            <div className="border border-slate-200 bg-white/80 p-4 shadow-sm">
-                                <div className="text-3xl font-semibold tracking-tight text-slate-950">
-                                    <CountTo value={composerCount}/>
-                                </div>
-                                <div className="mt-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">{t('home.composers')}</div>
-                            </div>
-                            <div className="border border-slate-200 bg-white/80 p-4 shadow-sm">
-                                <div className="text-3xl font-semibold tracking-tight text-slate-950">
-                                    <CountTo value={workCount}/>
-                                </div>
-                                <div className="mt-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">{t('home.works')}</div>
-                            </div>
-                        </div>
                     </div>
                     <div className="relative w-full">
                         <WikiRandomBanner
@@ -64,6 +50,20 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                                 work: t('home.randomWiki.work'),
                             }}
                         />
+                        <div className="mt-4 grid max-w-xs grid-cols-2 gap-3">
+                            <div className="border border-slate-200 bg-white/80 px-3 py-2.5 shadow-sm">
+                                <div className="text-xl font-semibold tracking-tight text-slate-950">
+                                    <CountTo value={composerCount}/>
+                                </div>
+                                <div className="mt-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-slate-500">{t('home.composers')}</div>
+                            </div>
+                            <div className="border border-slate-200 bg-white/80 px-3 py-2.5 shadow-sm">
+                                <div className="text-xl font-semibold tracking-tight text-slate-950">
+                                    <CountTo value={workCount}/>
+                                </div>
+                                <div className="mt-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-slate-500">{t('home.works')}</div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section className="mx-auto max-w-7xl px-5 pb-12 lg:px-8">
