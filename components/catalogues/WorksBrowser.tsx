@@ -24,7 +24,10 @@ function compareWorksBySort(left: ComposerWork, right: ComposerWork): number {
     const leftNumber = Number(leftSort)
     const rightNumber = Number(rightSort)
     const bothNumeric = leftSort !== '' && rightSort !== '' && Number.isFinite(leftNumber) && Number.isFinite(rightNumber)
+    const leftIsAnh = /\bAnh\b/i.test(leftSort)
+    const rightIsAnh = /\bAnh\b/i.test(rightSort)
 
+    if (leftIsAnh !== rightIsAnh) return leftIsAnh ? 1 : -1
     if (!leftSort && rightSort) return 1
     if (leftSort && !rightSort) return -1
     return (bothNumeric
