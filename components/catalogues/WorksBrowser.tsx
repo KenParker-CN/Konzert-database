@@ -265,7 +265,7 @@ export default function WorksBrowser({
                             aria-label={t('works.keyFilterLabel')}
                             className="h-10 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
                         >
-                            <SelectValue placeholder={t('works.allKeys')}/>
+                            <SelectValue placeholder={t('works.allKeys')} className="text-[var(--on-surface)]"/>
                         </SelectTrigger>
                         <SelectPositioner align="start">
                             <SelectContent>
