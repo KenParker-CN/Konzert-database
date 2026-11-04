@@ -220,6 +220,37 @@ export default function WorksBrowser({
                         </SelectPositioner>
                     </Select>
                 )}
+                {keyOptions.length > 0 && (
+                    <Select
+                        defaultValue=""
+                        onValueChange={(value: unknown) => {
+                            setKeyFilter(String(value ?? ""))
+                            setPage(1)
+                        }}
+                    >
+                        <SelectTrigger
+                            aria-label={t('works.keyFilterLabel')}
+                            className="h-10 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
+                        >
+                            <SelectValue placeholder={t('works.allKeys')} className="text-[var(--on-surface)]"/>
+                        </SelectTrigger>
+                        <SelectPositioner align="start">
+                            <SelectContent>
+                                <SelectItem value="">{t("works.allKeys")}</SelectItem>
+                                {keyGroups.map(([pitch, keys]) => (
+                                    <SelectGroup key={pitch}>
+                                        <SelectLabel>{pitch}</SelectLabel>
+                                        {keys.map(key => (
+                                            <SelectItem key={key} value={key}>
+                                                {getLocalizedWorkTerm(key, "key", locale)}
+                                            </SelectItem>
+                                        ))}
+                                    </SelectGroup>
+                                ))}
+                            </SelectContent>
+                        </SelectPositioner>
+                    </Select>
+                )}
                 <div className="relative min-w-0 flex-1">
                     <IconSearch aria-hidden="true" className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
                     <Input
@@ -253,37 +284,6 @@ export default function WorksBrowser({
                         )}
                     </div>
                 </div>
-                {keyOptions.length > 0 && (
-                    <Select
-                        defaultValue=""
-                        onValueChange={(value: unknown) => {
-                            setKeyFilter(String(value ?? ""))
-                            setPage(1)
-                        }}
-                    >
-                        <SelectTrigger
-                            aria-label={t('works.keyFilterLabel')}
-                            className="h-10 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
-                        >
-                            <SelectValue placeholder={t('works.allKeys')} className="text-[var(--on-surface)]"/>
-                        </SelectTrigger>
-                        <SelectPositioner align="start">
-                            <SelectContent>
-                                <SelectItem value="">{t("works.allKeys")}</SelectItem>
-                                {keyGroups.map(([pitch, keys]) => (
-                                    <SelectGroup key={pitch}>
-                                        <SelectLabel>{pitch}</SelectLabel>
-                                        {keys.map(key => (
-                                            <SelectItem key={key} value={key}>
-                                                {getLocalizedWorkTerm(key, "key", locale)}
-                                            </SelectItem>
-                                        ))}
-                                    </SelectGroup>
-                                ))}
-                            </SelectContent>
-                        </SelectPositioner>
-                    </Select>
-                )}
             </div>
             {normalizedQuery ? (
                 <div className="flex min-w-0 flex-col gap-3">
