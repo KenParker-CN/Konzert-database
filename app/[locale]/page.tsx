@@ -84,7 +84,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                 </section>
             </main>
             <footer className="border-t border-slate-200 bg-white">
-                <div className="mx-auto grid max-w-7xl gap-8 px-5 py-10 sm:grid-cols-[minmax(0,1fr)_auto] lg:px-8">
+                <div className="mx-auto grid max-w-7xl gap-6 px-5 py-6 sm:grid-cols-[minmax(0,1fr)_auto] lg:px-8">
                     <div className="flex flex-col gap-3">
                         <span className="heading text-xl font-semibold tracking-tight text-slate-950">
                             Konzert
@@ -113,7 +113,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                     </nav>
                 </div>
                 <div className="border-t border-slate-100">
-                    <p className="mx-auto max-w-7xl px-5 py-4 text-xs text-slate-500 lg:px-8">
+                    <p className="mx-auto max-w-7xl px-5 py-3 text-xs text-slate-500 lg:px-8">
                         © {new Date().getFullYear()} Konzert
                     </p>
                 </div>
