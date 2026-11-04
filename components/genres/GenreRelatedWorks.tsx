@@ -84,7 +84,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
             <ul>
                 {pageRows.map(({key, work, title, composerNameSort, composerHref, catalogue}) => (
                     <li key={key} className={`${rowGrid} border-b border-slate-100 px-6 py-3 last:border-0 hover:bg-blue-50/50`}>
-                        <Link href={composerHref} className="truncate text-sm text-slate-700 hover:text-blue-700">{composerNameSort}</Link>
+                        <Link href={composerHref} className="truncate text-center text-sm text-slate-700 hover:text-blue-700">{composerNameSort}</Link>
                         <WorkDetailsDialog
                             work={work}
                             catalogCode={catalogue}
