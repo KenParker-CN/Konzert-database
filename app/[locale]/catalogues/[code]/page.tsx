@@ -43,9 +43,6 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                 <main className="min-h-full">
                     <div className="mx-auto max-w-300 px-5 py-4 lg:px-10 lg:py-5">
                     <div className="mt-4 flex flex-col gap-4">
-                        <h1 className="heading wrap-break-word text-2xl font-semibold leading-tight tracking-tight text-slate-950">
-                            {catalogueDisplayName}
-                        </h1>
                         {catalogCode === 'KV' && <RefreshCatalogueWorksButton catalogCode={catalogCode}/>}
                         {composer.spotify && (
                             <section className="flex min-w-0 flex-col gap-2 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
@@ -56,8 +53,11 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                             </section>
                         )}
 
-                        {composer.catalogRef && (
-                            <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+                        <section className="flex min-w-0 flex-col gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+                            <h1 className="heading wrap-break-word text-2xl font-semibold leading-tight tracking-tight text-slate-950">
+                                {catalogueDisplayName}
+                            </h1>
+                            {composer.catalogRef && (
                                 <CatalogueCitation
                                     title={composer.catalogRef}
                                     href={composer.catalogRefUrl}
@@ -66,8 +66,8 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                     publisher={composer.catalogPublisher}
                                     className="text-sm leading-6 text-slate-600"
                                 />
-                            </section>
-                        )}
+                            )}
+                        </section>
 
                         <div className="flex min-w-0 flex-col gap-4">
                             <Suspense fallback={<WorksLoading label={t('works.loading')}/>}>
