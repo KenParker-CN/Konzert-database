@@ -1,7 +1,7 @@
 'use client'
 
-import {useRef, useState, type ReactNode} from 'react'
-import {createPortal} from 'react-dom'
+import type {ReactNode} from 'react'
+import {PreviewCard} from '@base-ui/react/preview-card'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import type {Locale} from '@/lib/i18n/config'
 import GenreIntroduction from './GenreIntroduction'
@@ -17,52 +17,21 @@ export default function GenreHovercard({
     locale: Locale
     children: ReactNode
 }) {
-    const [position, setPosition] = useState<{top: number; left: number} | null>(null)
-    const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
-
-    const cancelHide = () => {
-        if (hideTimer.current) {
-            clearTimeout(hideTimer.current)
-            hideTimer.current = null
-        }
-    }
-
-    const scheduleHide = () => {
-        cancelHide()
-        hideTimer.current = setTimeout(() => setPosition(null), 150)
-    }
-
-    const show = (e: React.MouseEvent<HTMLElement>) => {
-        cancelHide()
-        const rect = e.currentTarget.getBoundingClientRect()
-        const cardWidth = 288
-        let left = rect.left
-        if (left + cardWidth > window.innerWidth - 16) left = window.innerWidth - cardWidth - 16
-        if (left < 16) left = 16
-        setPosition({top: rect.bottom + 6, left})
-    }
-
     return (
-        <span
-            className="inline-flex"
-            onMouseEnter={show}
-            onMouseLeave={scheduleHide}
-        >
-            {children}
-            {position && createPortal(
-                <div
-                    className="fixed z-[100] w-72 max-w-72 rounded-lg border border-slate-200 bg-white p-3 text-left shadow-xl"
-                    style={{top: position.top, left: position.left}}
-                    onMouseEnter={cancelHide}
-                    onMouseLeave={scheduleHide}
-                >
-                    <div className="mb-1.5 text-sm font-semibold text-slate-900">
-                        {getLocalizedWorkTerm(genreTerm, 'type', locale)}
-                    </div>
-                    <GenreIntroduction wikiID={genreWikiID} locale={locale} variant="dialog"/>
-                </div>,
-                document.body,
-            )}
-        </span>
+        <PreviewCard.Root>
+            <PreviewCard.Trigger render={<span className="inline-flex"/>} delay={200} closeDelay={150}>
+                {children}
+            </PreviewCard.Trigger>
+            <PreviewCard.Portal>
+                <PreviewCard.Positioner sideOffset={6} className="z-[100]">
+                    <PreviewCard.Popup className="w-72 max-w-72 origin-top rounded-lg border border-slate-200 bg-white p-3 text-left shadow-xl outline-none transition duration-200 ease-out data-ending-style:scale-95 data-ending-style:opacity-0 data-starting-style:scale-95 data-starting-style:opacity-0">
+                        <div className="mb-1.5 text-sm font-semibold text-slate-900">
+                            {getLocalizedWorkTerm(genreTerm, 'type', locale)}
+                        </div>
+                        <GenreIntroduction wikiID={genreWikiID} locale={locale} variant="dialog"/>
+                    </PreviewCard.Popup>
+                </PreviewCard.Positioner>
+            </PreviewCard.Portal>
+        </PreviewCard.Root>
     )
 }
