@@ -99,6 +99,7 @@ export default function AlphabetIndex({
 
     const letterButtons = ALPHABET.split('').map(letter => {
         const hasItems = Boolean(groupedByLetter[letter]?.length)
+        if (isSide && !hasItems) return null
         const isActive = activeLetter === letter
         const state = isActive
             ? 'bg-blue-600 text-white'
