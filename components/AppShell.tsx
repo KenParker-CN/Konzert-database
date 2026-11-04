@@ -98,7 +98,7 @@ export default function AppShell({children, active}: {
             <div className="mx-auto flex max-w-360 flex-wrap items-center gap-x-8 gap-y-3 py-3">
                 <a href={localePath(locale, '/')} className="heading inline-flex items-center gap-2 text-lg font-semibold tracking-tight">
                     <img src="/icon.svg" alt="" width={28} height={28} className="size-7"/>
-                    Parker’s
+                    Konzert
                 </a>
                 <nav aria-label={t('navigation.catalogues')} className="flex flex-1 flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-600">
                     {links.map(([id, key, href, icon]) =>

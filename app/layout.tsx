@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://konzert-database.vercel.app'),
-  title: 'Parker’s · Classical music archive',
+  title: 'Konzert · Classical music archive',
   description: 'Browse composers and their catalogue works.',
 }
 

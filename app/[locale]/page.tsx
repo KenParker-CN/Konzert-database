@@ -36,7 +36,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             <span className="h-px w-8 bg-blue-600"/>{t('home.badge')}
                         </p>
                         <h1 className="heading max-w-4xl text-5xl font-semibold leading-[1.04] tracking-[-0.055em] text-slate-950 sm:text-6xl lg:text-7xl">
-                            Parker’s<span className="text-blue-600">.</span>
+                            Konzert
                         </h1>
                         <div className="mt-8 grid max-w-md grid-cols-2 gap-4">
                             <div className="border border-slate-200 bg-white/80 p-4 shadow-sm">
@@ -93,7 +93,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                 <div className="mx-auto grid max-w-7xl gap-8 px-5 py-10 sm:grid-cols-[minmax(0,1fr)_auto] lg:px-8">
                     <div className="flex flex-col gap-3">
                         <span className="heading text-xl font-semibold tracking-tight text-slate-950">
-                            Parker’s<span className="text-blue-600">.</span>
+                            Konzert
                         </span>
                         <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
                         <div className="flex items-center gap-2 text-slate-500">
@@ -120,7 +120,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                 </div>
                 <div className="border-t border-slate-100">
                     <p className="mx-auto max-w-7xl px-5 py-4 text-xs text-slate-500 lg:px-8">
-                        © {new Date().getFullYear()} Parker’s
+                        © {new Date().getFullYear()} Konzert
                     </p>
                 </div>
             </footer>
