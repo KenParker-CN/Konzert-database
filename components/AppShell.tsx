@@ -136,8 +136,8 @@ export default function AppShell({children, active}: {
                         </Dialog.Trigger>
                     </div>
                     <Dialog.Portal>
-                        <Dialog.Backdrop className="fixed inset-0 z-50 bg-black/40 transition-opacity data-ending-style:opacity-0"/>
-                        <Dialog.Popup className="fixed inset-y-0 right-0 z-50 flex h-full w-[min(28rem,100vw)] flex-col border-l border-slate-200 bg-white shadow-xl outline-none data-ending-style:translate-x-full data-starting-style:translate-x-full transition-transform duration-200">
+                        <Dialog.Backdrop className="fixed inset-0 z-50 bg-black/40 transition-opacity duration-300 ease-out data-ending-style:opacity-0 data-starting-style:opacity-0"/>
+                        <Dialog.Popup className="fixed inset-y-0 right-0 z-50 flex h-full w-[min(28rem,100vw)] flex-col border-l border-slate-200 bg-white shadow-xl outline-none transition-transform duration-300 ease-out data-ending-style:translate-x-full data-starting-style:translate-x-full">
                             <div className="flex items-center justify-between border-b border-slate-200 px-5 py-4">
                                 <Dialog.Title className="heading text-lg font-semibold text-slate-950">{t('search.title')}</Dialog.Title>
                                 <Dialog.Close
