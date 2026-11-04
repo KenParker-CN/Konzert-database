@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import InstrumentBreadcrumb from '@/components/instruments/InstrumentBreadcrumb'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
@@ -9,6 +10,11 @@ import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string; code: string}>}): Promise<Metadata> {
+    const {locale, code} = await params
+    return {alternates: {canonical: `/${locale}/instruments/${code}`}}
+}
 
 export default async function InstrumentPage({params}: {params: Promise<{locale: string; code: string}>}) {
     const {locale, code} = await params

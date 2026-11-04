@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import {searchArchive} from '@/lib/db/search'
 import {getI18n} from '@/lib/i18n/server'
@@ -8,6 +9,11 @@ import Link from 'next/link'
 import WorkDetailsDialog from '@/components/catalogues/WorkDetailsDialog'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
+    const {locale} = await params
+    return {alternates: {canonical: `/${locale}/search`}}
+}
 
 const PAGE_SIZE = 50
 

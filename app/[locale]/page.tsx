@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '../../components/AppShell'
 import {isLocale} from '@/lib/i18n/config'
 import {getI18n} from '@/lib/i18n/server'
@@ -7,6 +8,11 @@ import WikiRandomBanner from '@/components/home/WikiRandomBanner'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
+    const {locale} = await params
+    return {alternates: {canonical: `/${locale}`}}
+}
 
 export default async function HomePage({params}: {params: Promise<{locale: string}>}) {
     const {locale} = await params

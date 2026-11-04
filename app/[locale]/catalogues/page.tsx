@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import CatalogueWorkspace from '@/components/catalogues/CatalogueWorkspace'
 import {getCatalogueDirectory} from '@/lib/db/composers'
@@ -9,6 +10,11 @@ import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
+    const {locale} = await params
+    return {alternates: {canonical: `/${locale}/catalogues`}}
+}
 
 type CatalogueEntry = Awaited<ReturnType<typeof getCatalogueDirectory>>[number]
 

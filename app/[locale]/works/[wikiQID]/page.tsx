@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import InstrumentationLegendDialog from '@/components/catalogues/InstrumentationLegendDialog'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
@@ -15,6 +16,11 @@ import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string; wikiQID: string}>}): Promise<Metadata> {
+    const {locale, wikiQID} = await params
+    return {alternates: {canonical: `/${locale}/works/${wikiQID}`}}
+}
 
 export default async function WorkDetailPage({params}: {params: Promise<{locale: string; wikiQID: string}>}) {
     const {locale, wikiQID} = await params

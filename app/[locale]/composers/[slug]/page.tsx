@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import AlphabetIndex, {type AlphabetIndexItem} from '@/components/AlphabetIndex'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
@@ -11,6 +12,11 @@ import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string; slug: string}>}): Promise<Metadata> {
+    const {locale, slug} = await params
+    return {alternates: {canonical: `/${locale}/composers/${slug}`}}
+}
 
 export default async function ComposerDetailPage({params}: {params: Promise<{locale: string; slug: string}>}) {
     const {locale, slug} = await params

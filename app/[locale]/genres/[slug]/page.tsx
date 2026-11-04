@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import InstrumentBreadcrumb from '@/components/instruments/InstrumentBreadcrumb'
 import GenreCard from '@/components/genres/GenreCard'
@@ -12,6 +13,11 @@ import {isLocale, localePath} from '@/lib/i18n/config'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string; slug: string}>}): Promise<Metadata> {
+    const {locale, slug} = await params
+    return {alternates: {canonical: `/${locale}/genres/${slug}`}}
+}
 
 export default async function GenreDetailPage({params}: {params: Promise<{locale: string; slug: string}>}) {
     const {locale, slug} = await params

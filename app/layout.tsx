@@ -7,6 +7,7 @@ import { TooltipProvider } from '@/components/ui/tooltip'
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://konzert-database.vercel.app'),
   title: 'Parker’s · Classical music archive',
   description: 'Browse composers and their catalogue works.',
 }

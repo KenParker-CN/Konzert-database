@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import {getInstrumentFamilies} from '@/lib/db/instruments'
 import {getI18n} from '@/lib/i18n/server'
@@ -7,6 +8,11 @@ import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
+    const {locale} = await params
+    return {alternates: {canonical: `/${locale}/instruments`}}
+}
 
 export default async function InstrumentsPage({params}: {params: Promise<{locale: string}>}) {
     const {locale} = await params

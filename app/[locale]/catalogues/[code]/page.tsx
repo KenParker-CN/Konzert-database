@@ -1,3 +1,4 @@
+import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import CatalogWorksPanel from '@/components/catalogues/CatalogWorksPanel'
 import WorksLoading from '@/components/catalogues/WorksLoading'
@@ -15,6 +16,11 @@ import {notFound} from 'next/navigation'
 import {Suspense} from 'react'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({params}: {params: Promise<{locale: string; code: string}>}): Promise<Metadata> {
+    const {locale, code} = await params
+    return {alternates: {canonical: `/${locale}/catalogues/${code}`}}
+}
 
 export default async function CatalogueDetailPage({params}: {params: Promise<{locale: string; code: string}>}) {
     const {locale, code} = await params
