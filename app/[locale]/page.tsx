@@ -115,8 +115,8 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                     </nav>
                 </div>
                 <div className="border-t border-slate-100">
-                    <p className="mx-auto max-w-7xl px-5 py-3 text-xs text-slate-500 lg:px-8">
-                        © {new Date().getFullYear()} Konzert
+                    <p className="mx-auto max-w-7xl px-5 py-3 text-center text-xs text-slate-500 lg:px-8">
+                        © {new Date().getFullYear()} Ken Parker
                     </p>
                 </div>
             </footer>
