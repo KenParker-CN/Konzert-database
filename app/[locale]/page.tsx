@@ -89,14 +89,16 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         <span className="heading text-xl font-semibold tracking-tight text-slate-950">
                             Konzert
                         </span>
-                        <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
-                        <div className="flex items-center gap-2 text-slate-500">
-                            <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 text-[#ba478f] hover:bg-slate-100 hover:opacity-80">
-                                <IconDisc size={20}/>
-                            </a>
-                            <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
-                                <IconMail size={20}/>
-                            </a>
+                        <div className="flex items-center justify-between gap-4">
+                            <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
+                            <div className="flex items-center gap-2 text-slate-500">
+                                <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 text-[#ba478f] hover:bg-slate-100 hover:opacity-80">
+                                    <IconDisc size={20}/>
+                                </a>
+                                <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
+                                    <IconMail size={20}/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-slate-600 sm:justify-end">
