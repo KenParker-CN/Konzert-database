@@ -237,9 +237,9 @@ export default function WorksBrowser({
                     >
                         <SelectTrigger
                             aria-label={t('works.genreFilterLabel')}
-                            className="h-10 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm text-[var(--on-surface)] shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
+                            className="h-10 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
                         >
-                            <SelectValue placeholder={t('works.allGenres')} className="overflow-visible whitespace-nowrap"/>
+                            <SelectValue placeholder={t('works.allGenres')} className="overflow-visible whitespace-nowrap text-[var(--on-surface)]"/>
                         </SelectTrigger>
                         <SelectPositioner align="start">
                             <SelectContent>
