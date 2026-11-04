@@ -43,8 +43,8 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
 
     if (allRows.length === 0) return null
 
-    const composerOptions = [...new Map(groups.map(group => [group.composerNameSort, group.composerName])).entries()]
-        .sort(([left], [right]) => left.localeCompare(right, undefined, {sensitivity: 'base'}))
+    const composerOptions = [...new Set(groups.map(group => group.composerNameSort))]
+        .sort((left, right) => left.localeCompare(right, undefined, {sensitivity: 'base'}))
     const rows = composerFilter ? allRows.filter(row => row.composerNameSort === composerFilter) : allRows
     const pageCount = Math.ceil(rows.length / WORKS_PER_PAGE)
     const currentPage = Math.min(page, pageCount)
@@ -66,7 +66,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                             className="max-w-56 truncate rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 focus:border-blue-400 focus:outline-none"
                         >
                             <option value="">{t('genrePages.allComposers')}</option>
-                            {composerOptions.map(([sortName, name]) => <option key={sortName} value={sortName}>{name}</option>)}
+                            {composerOptions.map(name => <option key={name} value={name}>{name}</option>)}
                         </select>
                     )}
                     <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: rows.length})}</span>
