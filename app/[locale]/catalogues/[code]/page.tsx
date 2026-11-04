@@ -3,6 +3,7 @@ import CatalogWorksPanel from '@/components/catalogues/CatalogWorksPanel'
 import WorksLoading from '@/components/catalogues/WorksLoading'
 import RefreshCatalogueWorksButton from '@/components/catalogues/RefreshCatalogueWorksButton'
 import CatalogueWorkspace from '@/components/catalogues/CatalogueWorkspace'
+import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import SpotifyEmbed from '@/components/catalogues/SpotifyEmbed'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
@@ -43,6 +44,17 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                     {t('catalogues.spotify')}
                                 </h2>
                                 <SpotifyEmbed uri={composer.spotify} className="w-full"/>
+                            </section>
+                        )}
+
+                        {composer.catalogRef && (
+                            <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+                                <CatalogueCitation
+                                    title={composer.catalogRef}
+                                    author={composer.cataloguerName || undefined}
+                                    publisher={composer.catalogPublisher}
+                                    className="text-sm leading-6 text-slate-600"
+                                />
                             </section>
                         )}
 

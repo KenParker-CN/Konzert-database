@@ -1,11 +1,11 @@
 import AppShell from '@/components/AppShell'
 import AlphabetIndex, {type AlphabetIndexItem} from '@/components/AlphabetIndex'
-import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import MusicServiceLinks from '@/components/composers/MusicServiceLinks'
 import {getComposer, getComposerIndex} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getLocalizedComposerName} from '@/lib/composer-name'
+import {nationalityFlag} from '@/lib/nationality-flag'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
@@ -26,7 +26,8 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
     const catalogCode = getCatalogForComposer(slug)
     const displayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
     const lifespan = [composer.startDate, composer.endDate].filter(Boolean).join(' – ')
-    const meta = [composer.era, lifespan].filter(Boolean).join(' · ')
+    const flags = composer.nationalities.map(nationalityFlag).filter(Boolean).join(' ')
+    const meta = [flags, composer.era, lifespan].filter(Boolean).join(' · ')
 
     return (
         <AppShell active="composers">
@@ -47,15 +48,6 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
                             <MusicServiceLinks name={composer.name}/>
                         </div>
                         <GenreIntroduction wikiID={composer.wikiQID} locale={locale}/>
-                        {composer.catalogRef && (
-                            <CatalogueCitation
-                                title={composer.catalogRef}
-                                author={composer.catalogAuthor}
-                                publisher={composer.catalogPublisher}
-                                year={composer.catalogYear}
-                                className="mt-6 border-t border-slate-100 pt-5 text-sm leading-6 text-slate-600"
-                            />
-                        )}
                     </article>
                 </div>
             </main>
