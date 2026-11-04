@@ -60,7 +60,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         }}
                     />
                 </section>
-                <section className="mx-auto max-w-7xl px-5 pb-12 lg:px-8">
+                <section className="mx-auto max-w-7xl px-5 pb-6 lg:px-8">
                     <div className="mb-5 flex items-end justify-between gap-4">
                         <h2 className="heading text-2xl font-semibold tracking-tight text-slate-950">{t('home.highlights')}</h2>
                         <Link href={localePath(locale, '/catalogues')} className="text-sm font-semibold text-blue-600 hover:underline">
