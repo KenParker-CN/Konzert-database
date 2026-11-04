@@ -1,5 +1,6 @@
 'use client'
 
+import {useCallback, useEffect, useRef} from 'react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import type {ComposerWork} from '@/lib/db/composers'
@@ -20,6 +21,21 @@ export default function WorksTable({
     footer?: ReactNode
 }) {
     const {t, locale} = useI18n()
+    const listRef = useRef<HTMLDivElement>(null)
+
+    const updateScrollFade = useCallback(() => {
+        const el = listRef.current
+        if (!el) return
+        const canScroll = el.scrollHeight - el.clientHeight > 1
+        el.style.setProperty('--fade-top', canScroll && el.scrollTop > 1 ? '24px' : '0px')
+        el.style.setProperty('--fade-bottom', canScroll && el.scrollTop + el.clientHeight < el.scrollHeight - 1 ? '24px' : '0px')
+    }, [])
+
+    useEffect(() => {
+        updateScrollFade()
+        window.addEventListener('resize', updateScrollFade)
+        return () => window.removeEventListener('resize', updateScrollFade)
+    }, [works, updateScrollFade])
 
     return (
         <>
@@ -31,7 +47,7 @@ export default function WorksTable({
                 <span className="hidden w-28 shrink-0 px-1.5 text-center md:block">{t('works.key')}</span>
                 <span className="hidden min-w-0 flex-1 px-1.5 text-center lg:block">{t('works.instrumentation')}</span>
             </div>
-            <div className="always-visible-scrollbar max-h-112 overflow-y-auto md:min-h-0 md:max-h-none md:flex-1">
+            <div ref={listRef} onScroll={updateScrollFade} className="scroll-fade-y always-visible-scrollbar max-h-112 overflow-y-auto md:min-h-0 md:max-h-none md:flex-1">
                 {works.map(work => (
                     <div
                         key={work.workId}
