@@ -34,7 +34,7 @@
   },
   "home": {
     "highlights": "Catalogues à la une",
-    "badge": "Découvrir la musique classique, par compositeurs, catalogues, instruments et genres.",
+    "badge": "Découvrir la musique classique.",
     "randomWiki": {"title": "Sélection aléatoire", "composer": "Compositeur", "genre": "Genre", "work": "Œuvre"},
     "tagline": "Découvrir la musique classique, par compositeurs, catalogues, instruments et genres.",
     "exploreWorks": "Explorer les œuvres",
