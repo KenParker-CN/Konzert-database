@@ -8,6 +8,7 @@ import SpotifyEmbed from '@/components/catalogues/SpotifyEmbed'
 import {getCatalogueDirectory, getComposer} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getI18n} from '@/lib/i18n/server'
+import {getPageTitle} from '@/lib/page-title'
 import {isLocale} from '@/lib/i18n/config'
 import {notFound} from 'next/navigation'
 
@@ -30,6 +31,8 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
     if (!composer) notFound()
 
     const {t} = await getI18n(locale)
+
+    const referenceTitle = composer.catalogRefUrl ? await getPageTitle(composer.catalogRefUrl) : null
 
     const catalogueDisplayName = composer.catalogueName?.trim()
         || `${composer.nameSort?.split(',')[0]?.trim() || composer.name}'s works`
@@ -58,7 +61,7 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                                 <CatalogueCitation
                                     title={composer.catalogRef}
                                     href={composer.catalogRefUrl}
-                                    linkLabel={t('catalogues.reference')}
+                                    linkLabel={referenceTitle ?? t('catalogues.reference')}
                                     author={composer.cataloguerName || undefined}
                                     publisher={composer.catalogPublisher}
                                     className="text-sm leading-6 text-slate-600"
