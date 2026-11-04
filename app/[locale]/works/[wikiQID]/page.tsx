@@ -43,8 +43,8 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
 
     return (
         <AppShell active="catalogues">
-            <main className="mx-auto flex max-w-4xl flex-col gap-6 px-5 py-8 lg:px-8 lg:py-10">
-                <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+            <main className="mx-auto flex max-w-5xl flex-col gap-4 px-5 py-5 lg:px-8 lg:py-6">
+                <article className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                     <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950">
                         {titleOf(first.work) || first.work.catalogue || first.work.opus}
                     </h1>
@@ -58,7 +58,7 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
                     const composerName = entry.composerAliases[locale] || entry.composerName
                     const fields = getWorkDetailFields(work.details, entry.catalogue, locale)
                     return (
-                        <section key={`${entry.catalogue}-${work.workId}`} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+                        <section key={`${entry.catalogue}-${work.workId}`} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                                 <Link href={localePath(locale, `/catalogues/${encodeURIComponent(entry.catalogue)}`)} className="text-sm font-medium text-blue-700 hover:underline">
                                     {composerName} · {entry.catalogueName || entry.catalogue}
@@ -81,7 +81,7 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
                                     )}
                                 </div>
                             )}
-                            <dl className="mt-6 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
+                            <dl className="mt-4 grid grid-cols-1 gap-x-6 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
                                 {fields.map(([field, value]) => {
                                     const labelKey = getWorkDetailLabelKey(field)
                                     const isInstrumentation = ['instrumentation', 'instrmentation'].includes(field.toLocaleLowerCase())
