@@ -11,7 +11,7 @@ import type {ComposerWork, GenreRelatedWorkGroup} from '@/lib/db/composers'
 
 const WORKS_PER_PAGE = 10
 
-const rowGrid = 'grid gap-x-4 gap-y-1 sm:grid-cols-[minmax(0,2fr)_minmax(0,1.2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)] sm:items-center sm:px-8'
+const rowGrid = 'grid gap-x-4 gap-y-1 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)] sm:items-center sm:px-8'
 
 type RelatedWorkRow = {
     key: string
