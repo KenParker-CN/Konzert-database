@@ -134,7 +134,7 @@ export default function AlphabetIndex({
                 <nav
                     onMouseEnter={() => setSideVisible(true)}
                     onMouseLeave={() => setSideVisible(false)}
-                    className={`fixed right-2 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-0.5 rounded-full border border-slate-200 bg-[color-mix(in_srgb,var(--surface-container)_90%,transparent)] px-1 py-2 text-xs shadow-md backdrop-blur transition-opacity duration-300 ${sideVisible ? 'opacity-100' : 'opacity-0'}`}
+                    className={`absolute right-2 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-0.5 rounded-full border border-slate-200 bg-[color-mix(in_srgb,var(--surface-container)_90%,transparent)] px-1 py-2 text-xs shadow-md backdrop-blur transition-opacity duration-300 ${sideVisible ? 'opacity-100' : 'opacity-0'}`}
                 >
                     {letterButtons}
                 </nav>
