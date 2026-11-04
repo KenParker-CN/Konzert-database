@@ -33,6 +33,7 @@
     "system": "Système"
   },
   "home": {
+    "highlights": "Catalogues à la une",
     "badge": "Archives de musique classique",
     "randomWiki": {"title": "Sélection aléatoire", "composer": "Compositeur", "genre": "Genre", "work": "Œuvre"},
     "tagline": "Un espace clair et connecté pour les compositeurs, les œuvres et les collections d’albums.",

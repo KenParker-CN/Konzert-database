@@ -33,6 +33,7 @@
     "system": "跟随系统"
   },
   "home": {
+    "highlights": "热门目录",
     "badge": "古典音乐档案",
     "randomWiki": {"title": "随机三连", "composer": "作曲家", "genre": "体裁", "work": "作品"},
     "tagline": "一部连接作曲家、作品与专辑收藏的清晰档案。",

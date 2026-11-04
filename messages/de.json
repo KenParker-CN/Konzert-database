@@ -33,6 +33,7 @@
     "system": "System"
   },
   "home": {
+    "highlights": "Beliebte Werkverzeichnisse",
     "badge": "Archiv klassischer Musik",
     "randomWiki": {"title": "Zufällige Auswahl", "composer": "Komponist", "genre": "Gattung", "work": "Werk"},
     "tagline": "Eine klare, vernetzte Heimat für Komponisten, Werke und Album-Sammlungen.",

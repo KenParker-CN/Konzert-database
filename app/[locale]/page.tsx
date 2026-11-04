@@ -3,8 +3,11 @@ import AppShell from '../../components/AppShell'
 import {isLocale} from '@/lib/i18n/config'
 import {getI18n} from '@/lib/i18n/server'
 import {getCatalogueDirectory, getRandomWikiBannerItems} from '@/lib/db/composers'
+import {getLocalizedComposerName} from '@/lib/composer-name'
+import {localePath} from '@/lib/i18n/config'
 import CountTo from '@/components/home/CountTo'
 import WikiRandomBanner from '@/components/home/WikiRandomBanner'
+import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
@@ -21,6 +24,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     const [directory, wikiBannerItems] = await Promise.all([getCatalogueDirectory(), getRandomWikiBannerItems(locale)])
     const composerCount = directory.length
     const workCount = directory.reduce((sum, entry) => sum + (entry.workCount ?? 0), 0)
+    const featuredCatalogues = [...directory].sort((a, b) => b.workCount - a.workCount).slice(0, 6)
 
     return (
         <AppShell>
@@ -60,6 +64,28 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             }}
                         />
                     </div>
+                </section>
+                <section className="mx-auto max-w-7xl px-5 pb-12 lg:px-8">
+                    <div className="mb-5 flex items-end justify-between gap-4">
+                        <h2 className="heading text-2xl font-semibold tracking-tight text-slate-950">{t('home.highlights')}</h2>
+                        <Link href={localePath(locale, '/catalogues')} className="text-sm font-semibold text-blue-600 hover:underline">
+                            {t('catalogues.title')}
+                        </Link>
+                    </div>
+                    <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {featuredCatalogues.map(entry => (
+                            <li key={entry.catalogue}>
+                                <Link
+                                    href={localePath(locale, `/catalogues/${entry.catalogue}`)}
+                                    className="group flex min-h-20 flex-col justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+                                >
+                                    <span className="heading text-base font-semibold text-slate-900">{entry.catalogueName ?? entry.catalogue}</span>
+                                    <span className="text-sm text-slate-600">{getLocalizedComposerName(entry.composerName, entry.composerAliases, locale)}</span>
+                                    <span className="text-xs text-slate-500">{t('works.count', {count: entry.workCount})}</span>
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
                 </section>
             </main>
         </AppShell>
