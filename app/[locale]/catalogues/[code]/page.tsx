@@ -30,10 +30,10 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
     const catalogue = catalogues.find(c => c.catalogue === code)
     if (!catalogue) notFound()
 
-    const catalogCode = getCatalogForComposer(catalogue.composerSlug)
+    const catalogCode = getCatalogForComposer(catalogue.composerQid)
     if (!catalogCode) notFound()
 
-    const composer = await getComposer(catalogue.composerSlug)
+    const composer = await getComposer(catalogue.composerQid)
     if (!composer) notFound()
 
     const {t} = await getI18n(locale)

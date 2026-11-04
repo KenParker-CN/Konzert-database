@@ -333,7 +333,6 @@ async function loadCatalog(catalogCode: string): Promise<CsvWork[]> {
 
 type ComposerCsvEntry = {
     artistId: number;
-    slug: string;
     name: string;
     nameSort: string;
     aliases: {
@@ -353,7 +352,7 @@ type ComposerCsvEntry = {
     catalogueName: string | null | undefined;
     cataloguerName: string | null | undefined;
     era: string;
-    wikiQID?: string;
+    wikiQID: string;
     catalogRef?: string;
     catalogRefUrl?: string;
     catalogPublisher?: string;
@@ -367,7 +366,6 @@ async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
 
     return composers.map((composer, index) => {
         const name = composer.Name || '';
-        const slug = slugify(name);
         const catalogueField = Object.keys(composer).find(
             field => field.toLocaleLowerCase() === 'catalogue',
         );
@@ -376,7 +374,6 @@ async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
         );
         return {
             artistId: index + 1,
-            slug,
             name,
             nameSort: composer['Sort Name'] || '',
             aliases: {
@@ -397,7 +394,7 @@ async function fetchAndParseComposers(): Promise<ComposerCsvEntry[]> {
             catalogueName: catalogueField === undefined ? undefined : composer[catalogueField].trim() || null,
             cataloguerName: cataloguerField === undefined ? undefined : composer[cataloguerField].trim() || null,
             era: composer.Era || '',
-            wikiQID: composer.WikiQID?.trim() || undefined,
+            wikiQID: composer.WikiQID?.trim() || '',
             catalogRef: composer.CatalogueRef?.trim() || undefined,
             catalogRefUrl: composer.CatalogueRefUrl?.trim() || undefined,
             catalogPublisher: composer.Publisher?.trim() || undefined,
@@ -449,10 +446,6 @@ export async function refreshKvFromApi(): Promise<void> {
         request: Promise.resolve(works),
     };
     csvCache.set('KV', cacheEntry);
-}
-
-function slugify(name: string) {
-    return name.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 function parseCsvRecords<T extends Record<string, string> = Record<string, string>>(text: string): T[] {

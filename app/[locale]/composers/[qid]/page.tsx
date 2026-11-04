@@ -13,23 +13,23 @@ import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
 
-export async function generateMetadata({params}: {params: Promise<{locale: string; slug: string}>}): Promise<Metadata> {
-    const {locale, slug} = await params
-    return {alternates: {canonical: `/${locale}/composers/${slug}`}}
+export async function generateMetadata({params}: {params: Promise<{locale: string; qid: string}>}): Promise<Metadata> {
+    const {locale, qid} = await params
+    return {alternates: {canonical: `/${locale}/composers/${qid}`}}
 }
 
-export default async function ComposerDetailPage({params}: {params: Promise<{locale: string; slug: string}>}) {
-    const {locale, slug} = await params
+export default async function ComposerDetailPage({params}: {params: Promise<{locale: string; qid: string}>}) {
+    const {locale, qid} = await params
     if (!isLocale(locale)) notFound()
 
-    const [composer, composerIndex] = await Promise.all([getComposer(slug), getComposerIndex()])
+    const [composer, composerIndex] = await Promise.all([getComposer(qid), getComposerIndex()])
     if (!composer) notFound()
 
     const indexItems: AlphabetIndexItem[] = composerIndex.map(entry => {
         const name = entry.nameSort || entry.name
-        return {key: entry.slug, sortName: name, label: name, href: localePath(locale, `/composers/${encodeURIComponent(entry.slug)}`)}
+        return {key: entry.wikiQID, sortName: name, label: name, href: localePath(locale, `/composers/${encodeURIComponent(entry.wikiQID)}`)}
     })
-    const catalogCode = getCatalogForComposer(slug)
+    const catalogCode = getCatalogForComposer(qid)
     const displayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
     const lifespan = [composer.startDate, composer.endDate].filter(Boolean).join(' – ')
     const flags = composer.nationalities.map(nationalityFlag).filter(Boolean).join(' ')
@@ -38,7 +38,7 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
     return (
         <AppShell active="composers">
             <main>
-                <AlphabetIndex items={indexItems} activeKey={slug}/>
+                <AlphabetIndex items={indexItems} activeKey={qid}/>
                 <div className="mx-auto max-w-4xl px-5 py-8 lg:px-8 lg:py-10">
                     <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
                         <div className="flex items-baseline justify-between gap-4">

@@ -131,7 +131,7 @@ async function buildInstrumentIndex(): Promise<InstrumentIndex> {
                 composerName: entry.composerName,
                 composerNameSort: entry.composerNameSort,
                 composerAliases: entry.composerAliases,
-                composerSlug: entry.composerSlug,
+                composerQid: entry.composerQid,
                 works: matched.sort((left, right) => left.sort.localeCompare(right.sort, undefined, {numeric: true, sensitivity: 'base'})),
             })
             index.set(abbrev, groups)

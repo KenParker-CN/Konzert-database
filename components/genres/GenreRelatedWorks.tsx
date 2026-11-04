@@ -37,7 +37,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
         work,
         title: locale === 'de' ? work.details['German title'] || work.title : work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
         composerNameSort: group.composerNameSort,
-        composerHref: localePath(locale, `/composers/${encodeURIComponent(group.composerSlug)}`),
+        composerHref: localePath(locale, `/composers/${encodeURIComponent(group.composerQid)}`),
         catalogue: group.catalogue,
     }))).sort((left, right) => left.composerNameSort.localeCompare(right.composerNameSort, undefined, {sensitivity: 'base'}))
 

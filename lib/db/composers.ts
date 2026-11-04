@@ -33,20 +33,20 @@ export type ComposerWork = {
     details: Record<string, string>
 }
 
-export async function getComposer(slug: string) {
+export async function getComposer(wikiQID: string) {
     const composers = await loadComposers()
-    return composers.find(composer => composer.slug === slug) ?? null
+    return composers.find(composer => composer.wikiQID === wikiQID) ?? null
 }
 
 export async function getComposerIndex() {
     const composers = await loadComposers()
-    return composers.map(composer => ({slug: composer.slug, name: composer.name, nameSort: composer.nameSort}))
+    return composers.map(composer => ({wikiQID: composer.wikiQID, name: composer.name, nameSort: composer.nameSort}))
 }
 
 async function getCatalogueDirectoryImpl() {
     const composers = await loadComposers()
     const catalogueEntries = composers.flatMap(composer => {
-        const catalogue = getCatalogForComposer(composer.slug)
+        const catalogue = getCatalogForComposer(composer.wikiQID)
         return catalogue ? [{composer, catalogue}] : []
     })
 
@@ -65,7 +65,7 @@ async function getCatalogueDirectoryImpl() {
             composerName: composer.name,
             composerNameSort:composer.nameSort,
             composerAliases: composer.aliases,
-            composerSlug: composer.slug,
+            composerQid: composer.wikiQID,
             workCount,
             era: composer.era,
             // `null`/empty means the composer has no named catalogue in the CSV, so the
@@ -88,15 +88,15 @@ export async function getCatalogueDirectory() {
 
 export async function getComposerDirectory() {
     const [composers, directory] = await Promise.all([loadComposers(), getCatalogueDirectory()])
-    const workCounts = new Map(directory.map(entry => [entry.composerSlug, entry.workCount]))
+    const workCounts = new Map(directory.map(entry => [entry.composerQid, entry.workCount]))
     return composers.map(composer => ({
         composerName: composer.name,
         composerNameSort: composer.nameSort,
         composerAliases: composer.aliases,
-        composerSlug: composer.slug,
+        composerQid: composer.wikiQID,
         era: composer.era,
-        hasCatalogue: Boolean(getCatalogForComposer(composer.slug)),
-        workCount: workCounts.get(composer.slug) ?? 0,
+        hasCatalogue: Boolean(getCatalogForComposer(composer.wikiQID)),
+        workCount: workCounts.get(composer.wikiQID) ?? 0,
     }))
 }
 
@@ -137,7 +137,7 @@ export type GenreRelatedWorkGroup = {
     catalogueName: string
     composerName: string
     composerNameSort: string
-    composerSlug: string
+    composerQid: string
     works: ComposerWork[]
 }
 
@@ -174,7 +174,7 @@ export async function getGenreWorksSafe(genreTerms: string[], locale: Locale): P
                 catalogueName: entry.catalogueName || entry.catalogue,
                 composerName: entry.composerAliases[locale] || entry.composerName,
                 composerNameSort: entry.composerNameSort,
-                composerSlug: entry.composerSlug,
+                composerQid: entry.composerQid,
                 works,
             }))
             .sort((left, right) => left.composerName.localeCompare(right.composerName, undefined, {sensitivity: 'base'}))
@@ -210,12 +210,8 @@ function pickRandom<T>(items: readonly T[]): T | undefined {
 }
 
 async function pickRandomComposer(locale: Locale): Promise<WikiBannerItem | null> {
-    const [directory, composers] = await Promise.all([getCatalogueDirectory(), loadComposers()])
-    const wikiBySlug = new Map(composers.map(composer => [composer.slug, composer.wikiQID]))
-    const candidates = directory.flatMap(entry => {
-        const wikiID = wikiBySlug.get(entry.composerSlug)
-        return wikiID ? [{entry, wikiID}] : []
-    })
+    const directory = await getCatalogueDirectory()
+    const candidates = directory.map(entry => ({entry, wikiID: entry.composerQid}))
     const pick = pickRandom(candidates)
     if (!pick) return null
 
@@ -223,7 +219,7 @@ async function pickRandomComposer(locale: Locale): Promise<WikiBannerItem | null
         kind: 'composer',
         title: pick.entry.composerAliases[locale] || pick.entry.composerName,
         wikiID: pick.wikiID,
-        href: localePath(locale, `/composers/${encodeURIComponent(pick.entry.composerSlug)}`),
+        href: localePath(locale, `/composers/${encodeURIComponent(pick.entry.composerQid)}`),
     }
 }
 
