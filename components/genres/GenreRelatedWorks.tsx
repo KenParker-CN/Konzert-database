@@ -52,7 +52,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
 
     return (
         <section className="mt-5 overflow-hidden border border-slate-200 bg-white shadow-sm">
-            <header className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 px-6 py-4 sm:px-8">
+            <header className="flex flex-wrap items-center justify-center gap-3 border-b border-slate-200 px-6 py-4 text-center sm:px-8">
                 <h2 className="heading text-xl font-semibold text-slate-950">{t('genrePages.relatedWorks')}</h2>
                 <div className="flex items-center gap-3">
                     {composerOptions.length > 1 && (
@@ -73,7 +73,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                 </div>
             </header>
 
-            <div className={`${rowGrid} hidden border-b border-slate-200 bg-slate-50 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:grid`}>
+            <div className={`${rowGrid} hidden border-b border-slate-200 bg-slate-50 py-2 text-center text-xs font-semibold uppercase tracking-wide text-slate-500 sm:grid`}>
                 <span>{t('home.randomWiki.composer')}</span>
                 <span>{t('works.titleColumn')}</span>
                 <span>{t('works.key')}</span>
