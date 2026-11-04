@@ -93,7 +93,7 @@ export default function AppShell({children, active}: {
         router.push(localePath(locale, `/catalogues/${catalogue}`))
     }
 
-    return <div className="app-shell" data-page={active ?? 'home'}>
+    return <div className="app-shell flex min-h-dvh flex-col" data-page={active ?? 'home'}>
         <header className="sticky top-0 z-40 border-b border-slate-200 bg-white">
             <div className="mx-auto flex max-w-360 flex-wrap items-center gap-x-8 gap-y-3 py-3">
                 <a href={localePath(locale, '/')} className="heading inline-flex items-center gap-2 text-lg font-semibold tracking-tight">
