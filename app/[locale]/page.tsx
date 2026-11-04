@@ -103,7 +103,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         </nav>
                     </div>
                     <div className="flex items-center justify-between gap-4">
-                        <p className="max-w-md text-xs leading-5 text-slate-600">{t('home.tagline')}</p>
+                        <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
                         <div className="flex items-center gap-2 text-slate-500">
                             <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 text-[#ba478f] hover:bg-slate-100 hover:opacity-80">
                                 <IconDisc size={18}/>
