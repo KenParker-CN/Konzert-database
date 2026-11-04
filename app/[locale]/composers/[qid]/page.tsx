@@ -15,7 +15,10 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({params}: {params: Promise<{locale: string; qid: string}>}): Promise<Metadata> {
     const {locale, qid} = await params
-    return {alternates: {canonical: `/${locale}/composers/${qid}`}}
+    if (!isLocale(locale)) notFound()
+    const composer = await getComposer(qid)
+    const title = composer ? `${getLocalizedComposerName(composer.name, composer.aliases, locale)} · Konzert` : undefined
+    return {title, alternates: {canonical: `/${locale}/composers/${qid}`}}
 }
 
 export default async function ComposerDetailPage({params}: {params: Promise<{locale: string; qid: string}>}) {
