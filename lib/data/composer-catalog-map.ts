@@ -9,7 +9,7 @@ export const composerCatalogMap: Record<string, string> = {
   'maurice-ravel': 'Marnat',
   'jean-baptiste-lully': 'LWV',
   'arcangelo-corelli': 'Corelli',
-  'dieterich-buxtehude': 'BuxWV',
+  'dietrich-buxtehude': 'BuxWV',
   'franz-schubert': 'Deutsch',
   'luigi-boccherini': 'Gerard',
   'jean-philippe-rameau': 'RCT',
