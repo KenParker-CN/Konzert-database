@@ -59,6 +59,7 @@ export default function WorksBrowser({
     catalogCode: string
 }) {
     const {t, locale} = useI18n()
+    const showDateColumn = allWorks.every(work => !work.catalogue && !work.opus)
     const [query, setQuery] = useState('')
     const [page, setPage] = useState(1)
     const [keyFilter, setKeyFilter] = useState('')
@@ -286,6 +287,7 @@ export default function WorksBrowser({
                             key={`search-${normalizedQuery}-${page}`}
                             works={pagedSearchMatches}
                             catalogCode={catalogCode}
+                            showDateColumn={showDateColumn}
                             footer={renderPagination(page, totalSearchPages)}
                         />
                     ) : (
@@ -299,6 +301,7 @@ export default function WorksBrowser({
                     key={`all-${page}-${keyFilter}-${genreFilter}`}
                     works={pagedAllWorks}
                     catalogCode={catalogCode}
+                    showDateColumn={showDateColumn}
                     footer={renderPagination(page, totalAllPages)}
                 />
             ) : (
