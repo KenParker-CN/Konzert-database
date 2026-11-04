@@ -45,10 +45,10 @@ export default function AppShell({children, active}: {
     const [searchLoading, setSearchLoading] = useState(false)
     const [searchFailed, setSearchFailed] = useState(false)
     const links = [
-        ['composers', 'composers', '/composers', <IconUser size={20} className="shrink-0"/>],
-        ['catalogues', 'catalogues', '/catalogues', <IconBooks size={20} className="shrink-0"/>],
-        ['instruments', 'instruments', '/instruments', <IconPiano size={20} className="shrink-0"/>],
-        ['genres', 'genres', '/genres', <IconClefStaff size={20} className="shrink-0"/>],
+        ['composers', 'composers', '/composers', <IconUser size={18} className="shrink-0"/>],
+        ['catalogues', 'catalogues', '/catalogues', <IconBooks size={18} className="shrink-0"/>],
+        ['instruments', 'instruments', '/instruments', <IconPiano size={18} className="shrink-0"/>],
+        ['genres', 'genres', '/genres', <IconClefStaff size={18} className="shrink-0"/>],
     ] as const
 
     const runSearch = useCallback(async (value: string) => {
@@ -111,7 +111,7 @@ export default function AppShell({children, active}: {
                         <a key={id} href={localePath(locale, href)}
                            className={`group inline-flex items-center justify-center rounded-md ${active === id ? 'bg-blue-50 text-blue-600' : 'text-slate-600 hover:bg-slate-100'}`}>
                             <Tooltip>
-                                <TooltipTrigger className="inline-flex p-2">
+                                <TooltipTrigger className="inline-flex size-9 items-center justify-center">
                                     {icon}
                                 </TooltipTrigger>
                                 <TooltipContent side="bottom">

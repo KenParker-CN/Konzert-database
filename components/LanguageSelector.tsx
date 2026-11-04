@@ -77,7 +77,7 @@ export default function LanguageSelector() {
                 aria-expanded={open}
                 aria-label={t('common.language')}
                 onClick={() => setOpen(v => !v)}
-                className="flex h-9 items-center gap-1.5 rounded-lg px-1.5 text-slate-600 outline-none transition-colors hover:bg-slate-100 focus-visible:ring-4 focus-visible:ring-blue-100"
+                className="flex h-9 items-center gap-1.5 rounded-md px-1.5 text-slate-600 outline-none transition-colors hover:bg-slate-100 focus-visible:ring-4 focus-visible:ring-blue-100"
             >
                 <span className="text-sm font-medium">{languageNames[locale]}</span>
                 <IconChevronDown size={14} aria-hidden="true" className="text-slate-400"/>
