@@ -15,10 +15,19 @@ function getSortInitial(name: string): string {
     return ALPHABET.includes(first) ? first : '#'
 }
 
-export default function AlphabetIndex({items, activeKey}: {items: AlphabetIndexItem[]; activeKey: string}) {
+export default function AlphabetIndex({
+    items,
+    activeKey,
+    variant = 'top',
+}: {
+    items: AlphabetIndexItem[]
+    activeKey: string
+    variant?: 'top' | 'side'
+}) {
     const [hoveredLetter, setHoveredLetter] = useState<string | null>(null)
     const [letterPos, setLetterPos] = useState<{top: number; left: number} | null>(null)
     const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+    const isSide = variant === 'side'
 
     const sortedItems = useMemo(() => {
         return [...items].sort((left, right) =>
@@ -71,37 +80,49 @@ export default function AlphabetIndex({items, activeKey}: {items: AlphabetIndexI
 
     const hoveredItems = hoveredLetter ? groupedByLetter[hoveredLetter] ?? [] : []
 
+    const letterButtons = ALPHABET.split('').map(letter => {
+        const hasItems = Boolean(groupedByLetter[letter]?.length)
+        const isActive = activeLetter === letter
+        const state = isActive
+            ? 'bg-blue-600 text-white'
+            : hasItems
+                ? isSide
+                    ? 'text-slate-600 hover:bg-[var(--primary-container)] hover:text-blue-600'
+                    : 'text-slate-600 hover:bg-slate-100'
+                : 'text-[var(--outline)]'
+        const base = isSide
+            ? 'inline-flex size-6 items-center justify-center rounded-full text-xs font-semibold transition-colors'
+            : 'flex h-7 w-7 shrink-0 items-center justify-center rounded text-xs font-medium transition-colors'
+        return (
+            <button
+                key={letter}
+                type="button"
+                disabled={!hasItems}
+                onMouseEnter={e => hasItems && showLetter(letter, e.currentTarget)}
+                onFocus={e => hasItems && showLetter(letter, e.currentTarget)}
+                onMouseLeave={scheduleHide}
+                onBlur={scheduleHide}
+                className={`${base} ${state}`}
+                aria-label={letter}
+            >
+                {letter}
+            </button>
+        )
+    })
+
     return (
         <>
-            <div className="shrink-0 border-b border-slate-200 bg-white">
-                <div className="mx-auto flex max-w-300 items-center justify-center gap-0.5 overflow-x-auto px-3 py-2 lg:px-10">
-                    {ALPHABET.split('').map(letter => {
-                        const hasItems = Boolean(groupedByLetter[letter]?.length)
-                        const isActive = activeLetter === letter
-                        return (
-                            <button
-                                key={letter}
-                                type="button"
-                                disabled={!hasItems}
-                                onMouseEnter={e => hasItems && showLetter(letter, e.currentTarget)}
-                                onFocus={e => hasItems && showLetter(letter, e.currentTarget)}
-                                onMouseLeave={scheduleHide}
-                                onBlur={scheduleHide}
-                                className={`flex h-7 w-7 shrink-0 items-center justify-center rounded text-xs font-medium transition-colors ${
-                                    isActive
-                                        ? 'bg-blue-600 text-white'
-                                        : hasItems
-                                            ? 'text-slate-600 hover:bg-slate-100'
-                                            : 'text-[var(--outline)]'
-                                }`}
-                                aria-label={letter}
-                            >
-                                {letter}
-                            </button>
-                        )
-                    })}
+            {isSide ? (
+                <nav className="fixed right-2 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-0.5 rounded-full border border-slate-200 bg-[color-mix(in_srgb,var(--surface-container)_90%,transparent)] px-1 py-2 text-xs shadow-md backdrop-blur">
+                    {letterButtons}
+                </nav>
+            ) : (
+                <div className="shrink-0 border-b border-slate-200 bg-white">
+                    <div className="mx-auto flex max-w-300 items-center justify-center gap-0.5 overflow-x-auto px-3 py-2 lg:px-10">
+                        {letterButtons}
+                    </div>
                 </div>
-            </div>
+            )}
 
             {hoveredLetter && letterPos && hoveredItems.length > 0 && createPortal(
                 <div

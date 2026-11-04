@@ -30,7 +30,7 @@ export default function CatalogueWorkspace({
 
     return (
         <div className="flex min-h-0 flex-1 flex-col">
-            <AlphabetIndex items={items} activeKey={currentCatalogue}/>
+            <AlphabetIndex items={items} activeKey={currentCatalogue} variant="side"/>
             <div className="min-h-0 min-w-0 flex-1 overflow-y-auto">
                 {children}
             </div>
