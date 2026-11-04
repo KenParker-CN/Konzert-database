@@ -11,8 +11,6 @@ import type {ComposerWork, GenreRelatedWorkGroup} from '@/lib/db/composers'
 
 const WORKS_PER_PAGE = 10
 
-const rowGrid = 'grid gap-x-4 gap-y-1 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)] sm:items-center sm:px-8'
-
 type RelatedWorkRow = {
     key: string
     work: ComposerWork
@@ -22,10 +20,13 @@ type RelatedWorkRow = {
     catalogue: string
 }
 
-export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGroup[]}) {
+export default function GenreRelatedWorks({groups, showInstrumentation = true}: {groups: GenreRelatedWorkGroup[]; showInstrumentation?: boolean}) {
     const {t, locale} = useI18n()
     const [page, setPage] = useState(1)
     const [composerFilter, setComposerFilter] = useState('')
+    const rowGrid = showInstrumentation
+        ? 'grid gap-x-4 gap-y-1 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)] sm:items-center sm:px-8'
+        : 'grid gap-x-4 gap-y-1 sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)] sm:items-center sm:px-8'
 
     const allRows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
         key: `${group.catalogue}-${work.workId}`,
@@ -72,7 +73,7 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
                 <span>{t('home.randomWiki.composer')}</span>
                 <span>{t('works.titleColumn')}</span>
                 <span>{t('works.key')}</span>
-                <span>{t('works.instrumentation')}</span>
+                {showInstrumentation && <span>{t('works.instrumentation')}</span>}
             </div>
 
             <ul>
@@ -87,7 +88,7 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
                             <span className="truncate">{title}</span>
                         </WorkDetailsDialog>
                         <span className="truncate text-sm text-slate-700">{work.key}</span>
-                        <span className="truncate text-sm text-slate-700">{work.instrumentation}</span>
+                        {showInstrumentation && <span className="truncate text-sm text-slate-700">{work.instrumentation}</span>}
                     </li>
                 ))}
             </ul>

@@ -51,7 +51,7 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
                         )}
                         <GenreIntroduction wikiID={ref.wikiID} locale={locale}/>
                     </article>
-                    <GenreRelatedWorks groups={relatedWorkGroups}/>
+                    <GenreRelatedWorks groups={relatedWorkGroups} showInstrumentation={false}/>
                 </div>
             </main>
         </AppShell>
