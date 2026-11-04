@@ -26,7 +26,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
     const [composerFilter, setComposerFilter] = useState('')
     const rowGrid = [
         'grid gap-x-4 gap-y-1 sm:items-center sm:px-8',
-        showInstrumentation && showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)_minmax(0,1fr)]',
+        showInstrumentation && showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,0.8fr)_minmax(0,1.5fr)]',
         showInstrumentation && !showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1.5fr)]',
         !showInstrumentation && showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)_minmax(0,1fr)]',
         !showInstrumentation && !showGenre && 'sm:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)_minmax(0,0.8fr)]',
@@ -76,9 +76,9 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
             <div className={`${rowGrid} hidden border-b border-slate-200 bg-slate-50 py-2 text-center text-xs font-semibold uppercase tracking-wide text-slate-500 sm:grid`}>
                 <span>{t('home.randomWiki.composer')}</span>
                 <span>{t('works.titleColumn')}</span>
+                {showGenre && <span>{t('works.genre')}</span>}
                 <span>{t('works.key')}</span>
                 {showInstrumentation && <span>{t('works.instrumentation')}</span>}
-                {showGenre && <span>{t('works.genre')}</span>}
             </div>
 
             <ul>
@@ -92,9 +92,9 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                         >
                             <span className="truncate">{title}</span>
                         </WorkDetailsDialog>
+                        {showGenre && <span className="truncate text-center text-sm text-slate-700">{getLocalizedWorkTerm(work.genre, 'type', locale)}</span>}
                         <span className="truncate text-center text-sm text-slate-700">{work.key}</span>
                         {showInstrumentation && <span className="truncate text-sm text-slate-700">{work.instrumentation}</span>}
-                        {showGenre && <span className="truncate text-center text-sm text-slate-700">{getLocalizedWorkTerm(work.genre, 'type', locale)}</span>}
                     </li>
                 ))}
             </ul>
