@@ -84,35 +84,35 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                 </section>
             </main>
             <footer className="border-t border-slate-200 bg-white">
-                <div className="mx-auto grid max-w-7xl gap-6 px-5 py-6 sm:grid-cols-[minmax(0,1fr)_auto] lg:px-8">
-                    <div className="flex flex-col gap-3">
+                <div className="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-6 lg:px-8">
+                    <div className="flex flex-wrap items-start justify-between gap-6">
                         <span className="heading text-xl font-semibold tracking-tight text-slate-950">
                             Konzert
                         </span>
-                        <div className="flex items-center justify-between gap-4">
-                            <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
-                            <div className="flex items-center gap-2 text-slate-500">
-                                <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 text-[#ba478f] hover:bg-slate-100 hover:opacity-80">
-                                    <IconDisc size={20}/>
-                                </a>
-                                <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
-                                    <IconMail size={20}/>
-                                </a>
-                            </div>
+                        <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-slate-600">
+                            {[
+                                ['composers', '/composers'],
+                                ['catalogues', '/catalogues'],
+                                ['instruments', '/instruments'],
+                                ['genres', '/genres'],
+                            ].map(([key, href]) => (
+                                <Link key={key} href={localePath(locale, href)} className="hover:text-blue-600">
+                                    {t(`navigation.${key}`)}
+                                </Link>
+                            ))}
+                        </nav>
+                    </div>
+                    <div className="flex items-center justify-between gap-4">
+                        <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
+                        <div className="flex items-center gap-2 text-slate-500">
+                            <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 text-[#ba478f] hover:bg-slate-100 hover:opacity-80">
+                                <IconDisc size={20}/>
+                            </a>
+                            <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
+                                <IconMail size={20}/>
+                            </a>
                         </div>
                     </div>
-                    <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-slate-600 sm:justify-end">
-                        {[
-                            ['composers', '/composers'],
-                            ['catalogues', '/catalogues'],
-                            ['instruments', '/instruments'],
-                            ['genres', '/genres'],
-                        ].map(([key, href]) => (
-                            <Link key={key} href={localePath(locale, href)} className="hover:text-blue-600">
-                                {t(`navigation.${key}`)}
-                            </Link>
-                        ))}
-                    </nav>
                 </div>
                 <div className="border-t border-slate-100">
                     <p className="mx-auto max-w-7xl px-5 py-3 text-center text-xs text-slate-500 lg:px-8">
