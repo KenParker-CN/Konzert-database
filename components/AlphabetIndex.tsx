@@ -124,7 +124,7 @@ export default function AlphabetIndex({items, activeKey}: {items: AlphabetIndexI
                                     <Link
                                         href={item.href}
                                         aria-current={active ? 'page' : undefined}
-                                        className={`block rounded-md px-2.5 py-1.5 text-sm leading-5 transition-colors ${active ? 'bg-blue-50 font-semibold text-blue-700' : 'font-medium text-slate-700 hover:bg-slate-100'}`}
+                                        className={`block rounded-md px-2.5 py-1.5 text-sm leading-5 transition-colors ${active ? 'bg-blue-50 font-semibold text-blue-700' : 'font-medium text-slate-700 hover:bg-[var(--surface-high)]'}`}
                                     >
                                         <span className="block truncate">{item.label}</span>
                                     </Link>
