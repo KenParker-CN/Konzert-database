@@ -9,6 +9,7 @@ import CountTo from '@/components/home/CountTo'
 import WikiRandomBanner from '@/components/home/WikiRandomBanner'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
+import {IconDisc, IconMail} from '@tabler/icons-react'
 
 export const dynamic = 'force-dynamic'
 
@@ -95,6 +96,14 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             Parker’s<span className="text-blue-600">.</span>
                         </span>
                         <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
+                        <div className="flex items-center gap-2 text-slate-500">
+                            <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
+                                <IconDisc size={20}/>
+                            </a>
+                            <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
+                                <IconMail size={20}/>
+                            </a>
+                        </div>
                     </div>
                     <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-slate-600 sm:justify-end">
                         {[
