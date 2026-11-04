@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { Toaster } from '@/components/ui/toast'
 import { TooltipProvider } from '@/components/ui/tooltip'
+import { ScrollProgress } from '@/components/ScrollProgress'
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -42,6 +43,7 @@ export default function RootLayout({
       <body>
       <ThemeProvider>
         <TooltipProvider>
+          <ScrollProgress />
           {children}
           <Toaster />
         </TooltipProvider>

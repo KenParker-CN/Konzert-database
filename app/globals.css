@@ -186,6 +186,12 @@ body { background: var(--surface); color: var(--on-surface); }
     @apply bg-background text-foreground; }
   html {
     @apply font-sans; } }
+html {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
 .always-visible-scrollbar {
   scrollbar-width: thin;
   scrollbar-color: #94a3b8 transparent;
