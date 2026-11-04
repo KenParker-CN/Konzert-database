@@ -35,7 +35,7 @@ export const composerCatalogMap: Record<string, string> = {
   'benjamin-britten': 'BrittenB',
   'sergei-prokofiev': 'Prokofiev',
   'frederic-chopin':'Chopin',
-  'arvo-part': 'Pärt',
+  'arvo-part': 'paert',
 };
 
 export function getCatalogForComposer(composerSlug: string): string | undefined {
