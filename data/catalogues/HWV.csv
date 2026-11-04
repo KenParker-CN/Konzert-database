@@ -15,7 +15,7 @@ Libretto by Giacomo Rossi after un scénario de Aaron Hill"
 8 ,Q1658249,HWV 8a,,1712,Il pastor fido,Opera seria,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Violins, Viola, Cello, Basso Continuo","(1ère version)
 Libretto by Giacomo Rossi after une tragicomédie pastorale de Battista Guarini"
 8 ,Q25259056,HWV 8b,,1734,Terpsicore,Opera seria,,,"Soprano, Alto, SATB Choir, Ballet, 2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Giacomo Rossi
-8 ,Q1658249,HWV 8c,,1734,Il pastor fido,Opera seria,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, bass continue","(2è, 3è versions)
+8 ,Q1658249,HWV 8c,,1734,Il pastor fido,Opera seria,,,"2 Transverse Flutes, 2 Oboes, Bassoon, 2 Horns, 3 Violins, Viola, basso continuo","(2è, 3è versions)
 Libretto by Giacomo Rossi after une tragicommédie pastorale de Battista Guarini"
 9 ,Q1419652,HWV 9,,1712,Teseo,Opera seria,,,"2 Flutes, 2 Transverse Flutes, 2 Oboes, 2 Bassoons, 2 Trumpets, 3 Violins, 2 Violas, Cello, Basso Continuo",Libretto by Niccolo Francesco Haym after une tragédie lyrique de Philippe Quinault
 10 ,Q1630580,HWV 10,,1713,Lucio Cornelio Silla,Opera seria,,,"2 Flutes, 2 Oboes, Bassoon, Trumpet, 2 Violins, Viola, Cello, Basso Continuo",Libretto by Giacomo Rossi
@@ -350,9 +350,9 @@ texte: inconnu"
 256 ,,HWV 256b,,,Let God arise,Anthem,,,,
 257 ,,HWV 257,,,"O praise the Lord, ye angles of his",Anthem,,,,
 258 ,Q656769,HWV 258,,,Zadok the Priest,Anthem,,,,
-259 ,Q1134562,HWV 259,,,Let thy hand be strengthened,Anthem,,,,
+259 ,,HWV 259,,,Let thy hand be strengthened,Anthem,,,,
 260 ,Q9358065,HWV 260,,,The King shall rejoice,Anthem,,,,
-261 ,Q1134562,HWV 261,,,My heart is inditing,Anthem,,,,
+261 ,,HWV 261,,,My heart is inditing,Anthem,,,,
 262 ,Q17034875,HWV 262,,,This is the day which the Lord hath made (Wedding Anthem),Anthem,,,,
 263 ,Q16931606,HWV 263,,,"Sing unto God, ye kingdoms of the earth (Wedding Anthem)",Anthem,,,,
 264 ,Q7773964,HWV 264,,,The ways of Zion do mourn (Funeral Anthem),Anthem,,,,
@@ -626,7 +626,7 @@ concerto # 12"
 329 ,,HWV 329,op. 6/11,,,Concerto grosso,A major,1 Andante larghetto e staccato (la majeur)[see HWV 296a(1)]2 Allegro (la majeur)[see HWV 306(3)]3 Largo e staccato (fa dièse mineur)[see HWV 296a(3)]4 Andante (la majeur)[see HWV 296a(2)]5 Allegro (la majeur)[see HWV 296a(4)],Orchestra,concerto # 11
 330 ,,HWV 330,op. 6/12,,,Concerto grosso,B minor,1 Largo (si mineur)2 Allegro (si mineur)3 Aria. Larghetto e piano/Variation (mi majeur)4 Largo (si mineur)5 Allegro (si mineur)6 Allegro moderato (si majeur)[mouvement supplémentaire],Orchestra,concerto # 12
 331 ,,HWV 331,,,,Concerto,F major,"1. …
-2. Alla Hornpipe. …","Oboe, Flute, Horn, Strings, bass continue",
+2. Alla Hornpipe. …","Oboe, Flute, Horn, Strings, basso continuo",
 332 ,,HWV 332,,,Concerto (à due Cori),Concerto,B-flat major,1 Ouverture. … (si bémol majeur)2 Allegro ma non troppo (si bémol majeur)3 Allegro (si bémol majeur)4 Largo (sol mineur)5 A tempo ordinario (si bémol majeur)6 Alle breve moderato (si bémol majeur)7 Menuet. [Allegro] (si bémol majeur),2 Brass and String Ensembles,[Concerto fait à partir de choeurs]
 333 ,,HWV 333,,,Concerto (à due Cori),Concerto,F major,1 Pomposo (fa majeur)2 Allegro (fa majeur)3 A tempo giusto (fa majeur)4 Largo (ré mineur)5 Allegro ma non troppo (fa majeur)6 A tempo ordinario (fa majeur),2 Brass and String Ensembles,
 334 ,,HWV 334,,,Concerto (à due Cori),Concerto,F major,1 Ouverture. … (fa majeur)[see HWV 424(1)]2 Allegro (fa majeur)3 Allegro ma non troppo (fa majeur)4 Adagio (ré mineur)5 Andante larghetto (fa majeur)6 Allegro (fa majeur),2 Brass and String Ensembles,[Concerto dans l'oratorio Judas Maccabeus (HWV63)]
@@ -903,7 +903,7 @@ concerto # 12"
 [see HWV 253(1), 302a(2)]
 5. Allegro (fa majeur)
 [see HWV 73(Ouverture, Gigue]","Flute (Flute, Oboe, Violin)/Violin (Flute), Basso Continuo",sonate # 4
-390 ,,HWV 390a,op. 2/6,,Sonata in G minor,Sonata,G minor,"1. Larghetto (sol mineur)
+390 ,,HWV 390a,op. 2/6,,,Sonata,G minor,"1. Larghetto (sol mineur)
 [see HWV 7a(27), 291(1)]
 2. Allegro (sol mineur)
 3. Adagio (si bémol majeur)
@@ -913,22 +913,22 @@ concerto # 12"
 2. Allegro (sol mineur)
 3. Largo (si bémol majeur)
 4. Allegro (sol mineur)","2 Violins, Cello, Harpsichord/Organ",sonate # 5
-391 ,,HWV 391,op. 2/8,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
+391 ,,HWV 391,op. 2/8,,,Sonata,G minor,"1. Andante (sol mineur)
 2. Allegro (sol mineur)
 3. Arioso (si bémol majeur)
 4. Allegro (sol mineur)","Violin, Viola, Basso Continuo",sonate # 6
-392 ,,HWV 392,op. 2/3,,Sonata in F major,Sonata,F major,"1. Andante (fa majeur)
+392 ,,HWV 392,op. 2/3,,,Sonata,F major,"1. Andante (fa majeur)
 [see HWV 352(2)]
 2. Allegro (fa majeur)
 [see HWV 401(2)]
 3. Adagio (ré mineur)
 [see HWV 401(3)]
 4. Allegro (fa majeur)","Violin, Viola, Basso Continuo",
-393 ,,HWV 393,op. 2/9,,Sonata in G minor,Sonata,G minor,"1. Andante (sol mineur)
+393 ,,HWV 393,op. 2/9,,,Sonata,G minor,"1. Andante (sol mineur)
 2. Allegro (sol mineur)
 3. Largo (si bémol majeur)
 4. Allegro (sol mineur)","Violin, Viola, Basso Continuo",
-394 ,,HWV 394,op. 2/10,,Sonata in E major,Sonata,E major,"1. Adagio (mi majeur)
+394 ,,HWV 394,op. 2/10,,,Sonata,E major,"1. Adagio (mi majeur)
 2. Allegro (mi majeur)
 3. Adagio (do dièse mineur)
 4. Allegro (mi majeur)","Violin, Viola, Basso Continuo",

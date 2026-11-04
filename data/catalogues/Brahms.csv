@@ -1,173 +1,552 @@
-SORT,Opus,Title,Genre,Key,Instrumentation,Work structure,Note
-1,op. 1,"Klaviersonate Nr. 1, Joseph Joachim gewidmet",Sonata,C-Dur,,,
-2,op. 2,"Klaviersonate Nr. 2, Clara Schumann gewidmet",Sonata,fis-Moll,,,
+SORT,Opus,Title,Genre,Key,Work structure,Instrumentation,Note
+1,op. 1,"Klaviersonate Nr. 1, Joseph Joachim gewidmet",Sonata,C-Dur,"1. Allegro (C major)
+2. Andante (C minor) [Nach rinem altdeutschen Minneliede]
+3. Scherzo. Allegro molto e con fuoco (E minor) with Trio: Più mosso (C major)
+4. Finale. Allegro con fuoco (C major)",,
+2,op. 2,"Klaviersonate Nr. 2, Clara Schumann gewidmet",Sonata,fis-Moll,"1. Allegro non troppo ma energico (F sharp minor)
+2. Andante con espressione (B minor)
+3. Scherzo. Allegro (B minor)
+4. Trio. Poco piu moderato (D major)
+5. Finale. Sostenuto (F sharp minor) - Allegro non troppo e rubato",,
 3,op. 3,"Sechs Gesänge für eine Tenor- oder Sopranstimme und Klavier, Bettina von Arnim gewidmet",Song,,,,
-4,op. 4,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,es-Moll,,,
-5,op. 5,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,f-Moll,,,
+4,op. 4,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,es-Moll,Rasch und feurig,,
+5,op. 5,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,f-Moll,"1. Allegro maestoso (F minor)
+2. Andante. Andante espressivo (F minor) - Andante molto
+3. Scherzo. Allegro energico (F minor) with Trio (D flat major)
+4. Intermezzo (Rückblick). Andante molto (F minor)
+5. Finale. Allegro moderato ma rubato (F minor)",,
 6,op. 6,"Sechs Gesänge für eine Tenor- oder Sopranstimme und Klavier, Luise und Minna Japha gewidmet",Song,,,,
 7,op. 7,"Sechs Gesänge für eine Singstimme und Klavier, Albert Dietrich gewidmet",Song,,,,
-8,op. 8,Klaviertrio Nr. 1,Trio,H-Dur,,,
-9,op. 9,"Sechzhen Variationen für Klavier über ein Thema von Robert Schumann, Clara Schumann gewidmet",Keyboard Variations,fis-Moll,,,
+8,op. 8,Klaviertrio Nr. 1,Trio,H-Dur,"1. Allegro con brio/con moto (B major)
+2. Scherzo. Allegro molto (B minor) with Trio: Meno Allegro [Piu lento] (B major)
+3. Adagio non troppo (B major)
+4. Finale. Allegro molto agitato (B minor)",,
+9,op. 9,"Sechzhen Variationen für Klavier über ein Thema von Robert Schumann, Clara Schumann gewidmet",Keyboard Variations,fis-Moll,"1. Variation I (F-sharp minor)
+2. Variation II (F-sharp minor)
+3. Variation III (F-sharp minor)
+4. Variation IV (F-sharp minor)
+5. Variation V (F-sharp minor)
+6. Variation VI (F-sharp minor)
+7. Variation VII (F-sharp minor)
+8. Variation VIII (F-sharp minor)
+9. Variation IX ""Bunte Blatter"" (F-sharp minor) 
+10. Variation X (D major) [motif by Clara Schumann]
+11. Variation XI (G major)
+12. Variation XII (F-sharp minor)
+13. Variation XIII (F-sharp minor)
+14. Variation XIV (F-sharp minor)
+15. Variation XV (F-sharp minor)
+16. Variation XVI (G-flat major)",,
 10,op. 10,"Vier Balladen für Klavier, Julius Otto Grimm gewidmet",Ballade,,,,
-11,op. 11,Serenade Nr. 1 für großes Orchester,Serenade,D-Dur,"2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2 Vl, Vla, Vc, Kb",,
-12,op. 12,Ave Maria für Frauenchor mit Orchester- oder Orgelbegleitung,,F-Dur,"Sopran I und II, Alt I und II, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Vl, Vla, Vc, Kb",,
-13,op. 13,Begräbnisgesang für Chor und Blasinstrumente,Song,c-Moll,"Sopran, Alt, Tenor, Baß I und II, 2Ob, 2Klar, 2Fg, 2Hrn, 3Pos, Tuba, Pauken",,
+10.1,op. 10/1,,Ballade,d-Moll,Andante,,"based on the Scottish ballad ""Edward"" from the collection ""Simmen der Völker"" by Johann Gottfried Herder"
+10.2,op. 10/2,,Ballade,D-Dur,Andante,,
+10.3,op. 10/3,,Ballade,h-Moll,Intermezzo. Allegro,,
+10.4,op. 10/4,,Ballade,H-Dur,Andante con moto,,
+11,op. 11,Serenade Nr. 1 für großes Orchester,Serenade,D-Dur,"1. Allegro molto (D major)
+2. Scherzo. Allegro non troppo (D minor) with Trio: Poco piu moto (B flat major)
+3. Adagio non troppo (B flat major)
+4. Menuetto I (G major)
+5. Menuetto II (G minor)
+6. Scherzo. Allegro (D major) with Trio
+7. Rondo. Allegro (D major)","2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2 Vl, Vla, Vc, Kb",
+12,op. 12,Ave Maria für Frauenchor mit Orchester- oder Orgelbegleitung,,F-Dur,,"Sopran I und II, Alt I und II, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Vl, Vla, Vc, Kb",
+13,op. 13,Begräbnisgesang für Chor und Blasinstrumente,Song,c-Moll,,"Sopran, Alt, Tenor, Baß I und II, 2Ob, 2Klar, 2Fg, 2Hrn, 3Pos, Tuba, Pauken",
 14,op. 14,Acht Lieder und Romanzen für eine Singstimme und Klavier,Lied,,,,
-15,op. 15,Klavierkonzert Nr. 1,Concerto,d-Moll,"Soloklavier, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
-16,op. 16,Serenade Nr. 2 für kleines Orchester,Serenade,A-Dur,"Piccolo, 2 Fl, 2 Ob, 2 Klar, 2 Fg, 2 Hrn, Vla, Vc, Kb",,
-17,op. 17,Vier Gesänge für Frauenchor mit Begleitung von zwei Hörnern und Harfe,Song,,"Soprano I und II, Alt, 2Hrn, Harfe",,
-18,op. 18,Streichsextett Nr. 1,Sextet,B-Dur,"2Vl, 2Vla, 2Vc",,
+15,op. 15,Klavierkonzert Nr. 1,Concerto,d-Moll,"1. Maestoso (D minor)
+2. Adagio (D major)
+3. Rondo. Allegro non troppo (D minor)","Soloklavier, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
+16,op. 16,Serenade Nr. 2 für kleines Orchester,Serenade,A-Dur,"1. Allegro moderato (A major)
+2. Scherzo. Vivace (C major) with Trio (F major)
+3. Adagio non troppo (A minor)
+4. Quasi Menuetto (D major) with Trio (F-sharp minor)
+5. Rondo. Allegro (A major)","Piccolo, 2 Fl, 2 Ob, 2 Klar, 2 Fg, 2 Hrn, Vla, Vc, Kb",
+17,op. 17,Vier Gesänge für Frauenchor mit Begleitung von zwei Hörnern und Harfe,Song,,,"Soprano I und II, Alt, 2Hrn, Harfe",
+18,op. 18,Streichsextett Nr. 1,Sextet,B-Dur,"1. Allegro ma non troppo (B flat major)
+2. Tema con variazoni.  Andante, ma moderato (D minor)
+3. Scherzo. Allegro molto (F major) with Trio: Animato (D minor)
+4. Rondo. Poco Allegretto e grazioso (B flat major)","2Vl, 2Vla, 2Vc",
 19,op. 19,Fünf Gedichte für eine Singstimme und Klavier,,,,,
 20,op. 20,Drei Duette für Sopran und Alt mit Klavier,Duet,,,,
-21,op. 21,Variationen für Klavier,Keyboard Variations,D-Dur,,"Nr. 1 über ein eigenes Thema (D)
-Nr. 2 über ein ungarisches Lied (D)",
+21,op. 21,Variationen für Klavier,Keyboard Variations,D-Dur,"Nr. 1 über ein eigenes Thema (D)
+Nr. 2 über ein ungarisches Lied (D)",,
+21.1,op. 21a,Variationen über ein eigenes Thema,Keyboard Variations,D-Dur,"1. Variation I (D major)
+2. Variation II. Piu mosso (D major)
+3. Variation III. L'istesso tempo (D major)
+4. Variation IV (D major)
+5. Variation V. Tempo di tema (D major)
+6. Variation VI (D major)
+7. Variation VII. Andante con moto (D major)
+8. Variation VIII. Allegro non troppo (D minor)
+9. Variation IX (D minor)
+10. Variation X. Agitato (D minor)
+11. Variation XI. Tempo di tema, poco piu lento (D major)",,
+21.2,op. 21b,Variationen über ein ungarisches Lied,Keyboard Variations,D-Dur,"1. Variation I (D minor)
+2. Variation II (D minor)
+3. Variation III (D minor)
+4. Variation IV (D minor)
+5. Variation V (D minor)
+6. Variation VI (D minor)
+7. Variation VII (D major)
+8. Variation VIII (D major)
+9. Variation IX (D major)
+10. Variation X (D major)
+11. Variation XI (D major)
+12. Variation XII (D major)
+13. Variation XIII (D major)
+14. Finale. Allegro (D major)",,
 22,op. 22,Sieben Marienlieder für gemischten Chor a cappella,Lied,,,,
-23,op. 23,"Variationen für Klavier zu vier Händen über ein Thema von Robert Schumann, Julie Schumann gewidmet",Keyboard Variations,Es-Dur,,,
-24,op. 24,Variationen für Klavier über ein Thema von Händel,Keyboard Variations,B-Dur,,,
-25,op. 25,"Klavierquartett Nr. 1, Baron Reinhard von Dalwigk gewidmet",Quartet,g-Moll,"Pf, Vl, Vla, Vc",,
-26,op. 26,"Klavierquartett Nr. 2, Frau Dr. Elisabeth Rösing gewidmet",Quartet,A-Dur,"Pf, Vl, Vla, Vc",,
-27,op. 27,"Der 13. Psalm ,,Herr,wie lange willst dumich [!] so gar vergessen’‘, für dreistimmigen Frauenchor mit Orgel oder Klavier",Psalm,,"Soprano I und II, Alt, Orgel/Pianoforte",,
-28,op. 28,"Vier Duette für Alt und Bariton mit Klavier, Amalie Joachim gewidmet",Duet,,,"No. 1, Die Nonne und der Ritter, text: Eichendorff
+23,op. 23,"Variationen für Klavier zu vier Händen über ein Thema von Robert Schumann, Julie Schumann gewidmet",Keyboard Variations,Es-Dur,"1. Variation I. L’istesso tempo, Andante molto moderato (E flat major)
+2. Variation II. (E flat major)
+3. Variation III. (E flat major)
+4. Variation IV. (E flat minor)
+5. Variation V. Poco piu animato (B major)
+6. Variation VI. Allegro non troppo (E flat major)
+7. Variation VII. Con moto, the istesso tempo (E flat major)
+8. Variation VIII. Poco piu vivo (G minor)
+9. Variation IX. Energico (C minor)
+10. Variation X. Molto moderato, alla Marcia (E flat major)",,
+24,op. 24,Variationen für Klavier über ein Thema von Händel,Keyboard Variations,B-Dur,"1. Variation I. Piu vivo (B flat major)
+2. Variation II. Animato (B flat major)
+3. Variation III. Dolce, scherzando (B flat major)
+4. Variation IV. Risoluto (B flat major)
+5. Variation V. Espressivo (B flat minor)
+6. Variation VI. Semper misterioso (B flat minor)
+7. Variation VII. Deciso, con vivacita (B flat major)
+8. Variation VIII. Deciso, con vivacita (B flat major)
+9. Variation IX. Poco sostenuto (B flat major)
+10. Variation X. Allegro energico (B flat major)
+11. Variation XI. Moderato, dolce espressivo (B flat major)
+12. Variation XII. L'istesso tempo (B flat major)
+13. Variation XIII. Largamente ma non troppo (B flat minor)
+14. Variation XIV. Sciolto (B flat major)
+15. Variation XV (B flat major)
+16. Variation XVI (B flat major)
+17. Variation XVII. Piu mosso (B flat major)
+18. Variation XVIII (B flat major)
+19. Variation XIX. Leggiero e vivace ma non troppo (B flat major)
+20. Variation XX. Andante (B flat major)
+21. Variation XXI. Perennial (G minor)
+22. Variation XXII. Alla musette (B flat major)
+23. Variation XXIII. Vivace (B flat major)
+24. Variation XXIV (B flat major)
+25. Variation XXV. Allegro (B flat major)
+26. Fugue (B flat major)",,
+25,op. 25,"Klavierquartett Nr. 1, Baron Reinhard von Dalwigk gewidmet",Quartet,g-Moll,"1. Allegro (G minor)
+2. Intermezzo. Allegro ma non troppo (C minor) with Trio: Animato (F minor)
+3. Andante con moto (E flat major)
+4. Rondo alla Zingarese. Presto (G minor)","Pf, Vl, Vla, Vc",
+26,op. 26,"Klavierquartett Nr. 2, Frau Dr. Elisabeth Rösing gewidmet",Quartet,A-Dur,"1. Allegro non troppo (A major)
+2. Poco Adagio (E major)
+3. Scherzo. Poco Allegro (A major) with Trio (F major)
+4. Finale. Allegro (A major)","Pf, Vl, Vla, Vc",
+27,op. 27,"Der 13. Psalm „Herr,wie lange willst dumich [!] so gar vergessen’‘, für dreistimmigen Frauenchor mit Orgel oder Klavier",Psalm,,,"Soprano I und II, Alt, Orgel/Pianoforte",
+28,op. 28,"Vier Duette für Alt und Bariton mit Klavier, Amalie Joachim gewidmet",Duet,,"No. 1, Die Nonne und der Ritter, text: Eichendorff
 No. 2, Vor der Thür, text: anonymous (Alt-deutsch)
 No. 3, Es rauschet das Wasser, text: Goethe
-No. 4, Der Jäger und sein Liebchen, text: Hoffmann von Fallersleben",
-29,op. 29,Zwei Motetten für fünfstimmigen gemischten Chor a cappella,Motet,,"Sopran, Alt, Tenor, Baß I und II (Nr. 2, 3.Satz auch Alt I und Il)","Nr. 1, Es ist das Heil uns kommen her
-Nr. 2, Schaffe in mir, Gott, ein rein Herz",
-30,op. 30,Geistliches Lied für vierstimmigen gemischten Chor mit Begleitung der Orgel oder des Pianoforte,Lied,,"Sopran, Alt, Tenor, Baß, Orgel/Pianoforte",,
+No. 4, Der Jäger und sein Liebchen, text: Hoffmann von Fallersleben",,
+29,op. 29,Zwei Motetten für fünfstimmigen gemischten Chor a cappella,Motet,,"Nr. 1, Es ist das Heil uns kommen her
+Nr. 2, Schaffe in mir, Gott, ein rein Herz","Sopran, Alt, Tenor, Baß I und II (Nr. 2, 3.Satz auch Alt I und Il)",
+30,op. 30,Geistliches Lied für vierstimmigen gemischten Chor mit Begleitung der Orgel oder des Pianoforte,Lied,,,"Sopran, Alt, Tenor, Baß, Orgel/Pianoforte",
 31,op. 31,"Drei Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
 32,op. 32,Neun Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
-33,op. 33,"Romanzen ,,Magelone-Lieder’‘ für eine Singstimme und Klavier, Julius Stockhausen gewidmet",Lied,,,,
-34,op. 34,"Klavierquintett, der Prinzessin Anna von Hessen gewidmet",Quintet,f-Moll,"Pf, 2Vl, Vla, Vc",,
+33,op. 33,"Romanzen „Magelone-Lieder’‘ für eine Singstimme und Klavier, Julius Stockhausen gewidmet",Lied,,,,
+34,op. 34,"Klavierquintett, der Prinzessin Anna von Hessen gewidmet",Quintet,f-Moll,"1. Allegro non troppo (F minor)
+2. Andante, un poco Adagio (A flat major)
+3. Scherzo. Allegro (C minor) with Trio (A minor)
+4. Finale. Poco sostenuto (F minor) / Allegro non troppo","Pf, 2Vl, Vla, Vc",
 34.2,op. 34b,"Sonate für zwei Klaviere, der Prinzessin Anna von Hessen gewidmet",Sonata,f-Moll,,,
 35,op. 35,"Studien für Klavier, Variationen über ein Thema von Paganini",Etude,a-Moll,,,
-36,op. 36,Streichsextett Nr. 2,Sextet,G-Dur,"2Vl, 2Vla, 2Vc",,
-37,op. 37,Drei Geistliche Chöre für Frauenchor a cappella,,,"Sopran I und II, Alt I und II, Sopran- und Altsolo in Nr.3.",,
-38,op. 38,"Sonate Nr. 1 für Klavier und Violoncello, Josef Gänsbacher gewidmet",Sonata,e-Moll,,,
-39,op. 39,"Walzer für mit Klavier, Eduard Hanslick gewidmet",Dance,,,,
-40,op. 40,Horntrio,Trio,Es-Dur,"Klavier, Violine, Waldhorn (oder Violoncello oder Viola)",,
+35.1,op. 35a,"Variationen über ein Thema von Paganini, Vol. 1",Etude,a-Moll,"1. Variation I (A minor)
+2. Variation II (A minor)
+3. Variation III (A minor)
+4. Variation IV (A minor)
+5. Variation V. Espressivo (A minor)
+6. Variation VI (A minor)
+7. Variation VII (A minor)
+8. Variation VIII (A minor)
+9. Variation IX (A minor)
+10. Variation X (A minor)
+11. Variation XI. Andante (A major)
+12. Variation XII (A major)
+13. Variation XIII. Vivace e scherzando (A minor)
+14. Variation XIV. Allegro (A minor) / Con fuoco / Presto ma non troppo",,
+35.2,op. 35b,"Variationen über ein Thema von Paganini, Vol. 2",Etude,a-Moll,"1. Variation I (A minor)
+2. Variation II. Poco animato (A minor)
+3. Variation III. Piano and leggiero (A minor)
+4. Variation IV. Poco allegretto (A major)
+5. Variation V. Dolce (A minor)
+6. Variation VI. Poco piu vivace (A minor)
+7. Variation VII. Leggiero e ben marcato (A minor)
+8. Variation VIII. Allegro (A minor)
+9. Variation IX (A minor)
+10. Variation X. Feroce, energico (A minor)
+11. Variation XI. Vivace (A minor)
+12. Variation XII. Poco andante (A major)
+13. Variation XIII. Un poco piu andante (A minor)
+14. Variation XIV (A minor)",,
+36,op. 36,Streichsextett Nr. 2,Sextet,G-Dur,"1. Allegro non troppo (G major)
+2. Scherzo. Allegro non troppo (G minor) with Trio: Presto giocoso (G major)
+3. Poco Adagio (E minor) / Piu animato / Adagio (E major)
+4. Poco Allegro (G major)","2Vl, 2Vla, 2Vc",
+37,op. 37,Drei Geistliche Chöre für Frauenchor a cappella,,,,"Sopran I und II, Alt I und II, Sopran- und Altsolo in Nr.3.",
+38,op. 38,"Sonate Nr. 1 für Klavier und Violoncello, Josef Gänsbacher gewidmet",Sonata,e-Moll,"1. Allegro non troppo (E minor)
+2. Allegretto quasi Menuetto (A minor)
+3. Trio … (E major)
+4. Allegro (E minor)",,
+39,op. 39,"Walzer für mit Klavier, Eduard Hanslick gewidmet",Dance,,"1. Tempo giusto (B major)
+2. (E major)
+3. (C-sharp minor)
+4. Poco sostenuto (E minor)
+5. (E major)
+6. Vivace (C-sharp major)
+7. Poco più Andante (C-sharp minor)
+8. (B-flat major)
+9. (D minor)
+10. (G major)
+11. (B minor)
+12. (E major)
+13. (C major)
+14. (A minor)
+15. (A major)
+16. (D minor)",,
+40,op. 40,Horntrio,Trio,Es-Dur,"1. Andante (E flat major)
+2. Scherzo. Allegro (E flat major) with Trio: Molto meno allegro (A flat minor)
+3. Adagio mesto (E flat minor)
+4. Finale. Allegro con brio (E flat major)","Klavier, Violine, Waldhorn (oder Violoncello oder Viola)",
 41,op. 41,Fünf Lieder für vierstimmigen Männerchor,Lied,,,,
-42,op. 42,Drei Gesänge für sechsstimmigen Chor a cappella,Song,,,"No. 1, Abendständchen, text: Brentano
+42,op. 42,Drei Gesänge für sechsstimmigen Chor a cappella,Song,,"No. 1, Abendständchen, text: Brentano
 No. 2, Vineta, text: W. Müller
-No. 3, Darthulas Grabgesang, text: Ossian",
+No. 3, Darthulas Grabgesang, text: Ossian",,
 43,op. 43,Vier Gesänge für eine Singstimme und Klavier,Song,,,,
 44,op. 44,Zwölf Lieder und Romanzen fürvierstimmigen Frauenchor a cappella oder mit Klavier ad libitum,Lied,,,,
-45,op. 45,"Ein Deutsches Requiem nach Worten der Heiligen Schrift für Soli, Chor und Orchester (Orgel ad lib.)",Requiem,,"Sopran-Solo (Nr. 5), Bariton-Solo (Nr. 3 und 6), Chor (SATB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg (ad lib.), 4Hrn, 2Trp, 3Pos, Tuba, Pauken, Harfe (mindestens doppelt besetzt), 2Vl, Vla, 2Vc, Kb.",,
+45,op. 45,"Ein Deutsches Requiem nach Worten der Heiligen Schrift für Soli, Chor und Orchester (Orgel ad lib.)",Requiem,,,"Sopran-Solo (Nr. 5), Bariton-Solo (Nr. 3 und 6), Chor (SATB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg (ad lib.), 4Hrn, 2Trp, 3Pos, Tuba, Pauken, Harfe (mindestens doppelt besetzt), 2Vl, Vla, 2Vc, Kb.",
 46,op. 46,Vier Lieder für eine Singstimme und Klavier,Lied,,,,
 47,op. 47,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
 48,op. 48,Sieben Lieder für eine Singstimme und Klavier,Lied,,,,
 49,op. 49,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
-50,op. 50,"Rinaldo, Kantate von Goethe für Tenor-Solo, Männerchor und Orchester",Cantata,,"Tenor-Solo, Chor (TTBB), Picc, 2Fl, 2Ob, 2Klar, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
-51,op. 51,"Zwei Streichquartett, Theodor Billroth gewidmet",Quartet,,,"Nr. 1 c-Moll
-Nr. 2 a-Moll",
-52,op. 52,"Liebeslieder, Walzer für Gesang und Klavier zu vier Händen",Lied,,,,
-53,op. 53,"Rhapsodie ,,Alt-Rhapsodie’‘ für eine Altstimme, Mannerchor und Orchester, Fragment aus Goethes Harzreise im Winter",Rhapsody,,"Alt-Solo, Chor (TTBB), 2Fl, 2Ob, 2Klar,2Fg, 2Hrn, 2Vl, Vla, Vc, Kb",,
-54,op. 54,Schicksalslied von Friedrich Hölderlin für Chor und Orchester,Lied,,"Chor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
-55,op. 55,"Triumphlied für achtstimmigen Chor und Orchester (Orgel ad lib.), Kaiser Wilhelm I.gewidmet",Lied,,"Bariton-Solo, Doppelchor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, Tuba, Pauken, 2Vl, Vla, Vc, Kb, Orgel ad lib",,
-56.1,op. 56a,Variationen für Orchester über ein Thema von Joseph Haydn,Variations,B-Dur,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, Pauken, Triangel, 2Vl, Vla, Vc, Kb",,
+50,op. 50,"Rinaldo, Kantate von Goethe für Tenor-Solo, Männerchor und Orchester",Cantata,,,"Tenor-Solo, Chor (TTBB), Picc, 2Fl, 2Ob, 2Klar, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",
+51,op. 51,"Zwei Streichquartett, Theodor Billroth gewidmet",String Quartet,,"Nr. 1 c-Moll
+Nr. 2 a-Moll",,
+51.1,op. 51/1,,String Quartet,c-Moll,"1. Allegro (C minor)
+2. Romanze. Poco Adagio (A flat major)
+3. Allegro molto moderato e comodo (F minor) with Trio: Un poco piu animato (F major)
+4. Allegro (C minor)",,
+51.2,op. 51/2,,String Quartet,a-Moll,"1. Allegro non troppo (A minor)
+2. Andante moderato (A major)
+3. Quasi Minuetto, Moderato (A minor) / Allegretto vivace (A major)
+4. Finale. Allegro non assai (A minor)",,
+52,op. 52,"Liebeslieder, Walzer für Gesang und Klavier zu vier Händen",Lied,,"1. In Ländler-Tempo (E major)
+2. (A minor)
+3. (B-flat major)
+4. (F major)
+5. (A minor)
+6. Grazioso (A major)
+7. (C minor)
+8. (A-flat major)
+9. (E major)
+10. (G major)
+11. (C minor)
+12. (C minor)
+13. (A-flat major)
+14. (E-flat major)
+15. (A-flat major)
+16. Lebhaft (F minor)
+17. Mit Ausdruck (D-flat major)
+18. Lebhaft (B-flat minor)",,
+52.1,op. 52a,"Liebeslieder, Walzer für Gesang und Klavier zu vier Händen",,,,,
+53,op. 53,"Rhapsodie „Alt-Rhapsodie’‘ für eine Altstimme, Mannerchor und Orchester, Fragment aus Goethes Harzreise im Winter",Rhapsody,,,"Alt-Solo, Chor (TTBB), 2Fl, 2Ob, 2Klar,2Fg, 2Hrn, 2Vl, Vla, Vc, Kb",
+54,op. 54,Schicksalslied von Friedrich Hölderlin für Chor und Orchester,Lied,,,"Chor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",
+55,op. 55,"Triumphlied für achtstimmigen Chor und Orchester (Orgel ad lib.), Kaiser Wilhelm I.gewidmet",Lied,,,"Bariton-Solo, Doppelchor (SATB), 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, Tuba, Pauken, 2Vl, Vla, Vc, Kb, Orgel ad lib",
+56.1,op. 56a,Variationen für Orchester über ein Thema von Joseph Haydn,Variations,B-Dur,"1. Variation I. Poco piu animato (B flat major)
+2. Variation II. Piu vivace (B flat minor)
+3. Variation III. Con moto (B flat major)
+4. Variation IV. Andante con moto (B flat minor)
+5. Variation V. Poco presto (B flat major)
+6. Variation VI. Vivace (B flat major)
+7. Variation VII. Grazioso (B flat major)
+8. Variation VIII. Presto non troppo (B flat minor)
+9. Finale. Andante (B flat major)","Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, Pauken, Triangel, 2Vl, Vla, Vc, Kb",
 56.2,op. 56b,Variationen für zwei Klaviere über ein Thema von Joseph Haydn,Keyboard Variations,B-Dur,,,
 57,op. 57,Acht Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
 58,op. 58,Acht Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
 59,op. 59,Acht Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
-60,op. 60,Klavierquartett Nr. 3,Quartet,c-Moll,,,
+60,op. 60,Klavierquartett Nr. 3,Quartet,c-Moll,"1. Allegro non troppo (C minor)
+2. Scherzo. Allegro (C minor)
+3. Andante (E major)
+4. Finale. Allegro comodo (C minor)",,
 61,op. 61,Vier Duette für Sopran und Alt mit Klavier,Duet,,,,
 62,op. 62,Sieben Lieder für eine Singstimme und Klavier,Lied,,,,
 63,op. 63,Neun Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
 64,op. 64,"Drei Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
 65,op. 65,"Neue Liebeslieder, Walzer für vier Singstimmen und Klavier zu vier Händen",Lied,,,,
 66,op. 66,Fünf Duette für Sopran und Alt mit Klavier,Duet,,,,
-67,op. 67,"Streichquartett Nr. 3, Theodor Billroth gewidmet",Quartet,B-Dur,,,
-68,op. 68,Symphonie Nr. 1,Symphony,c-Moll,"2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
+67,op. 67,"Streichquartett Nr. 3, Theodor Billroth gewidmet",Quartet,B-Dur,"1. Vivace (B flat major)
+2. Andante (F major)
+3. Agitato. Allegro non troppo (D minor / A major) with Trio (A minor)
+4. Poco Allegretto con variazioni (B flat major) [theme, 8 variations, and coda]",,
+68,op. 68,Symphonie Nr. 1,Symphony,c-Moll,"1. Un poco sostenuto (C minor) / Allegro
+2. Andante sostenuto (E major)
+3. Un poco Allegretto e Grazioso (A flat major)
+4. Finale. Adagio (C minor) / Piu Andante (C major) / Allegro non troppo, ma con brio","2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",
 69,op. 69,Neun Gesänge für eine Singstimme und Klavier,Song,,,,
 70,op. 70,Vier Gesänge für eine Singstimme und Klavier,Song,,,,
 71,op. 71,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
 72,op. 72,Fünf Lieder für eine Singstimme und Klavier,Lied,,,,
-73,op. 73,Symphonie Nr. 2,Symphony,D-Dur,"2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
-74,op. 74,"Zwei Motetten für fünfstimmigen gemischten Chor a cappella, Philipp Spitta gewidmet",Motet,,"Nr. 1: SATB/SSATBB/SATB
-Nr. 2: SATB","Nr. 1, Warum ist das Licht gegeben dem Mühseligen
-Nr. 2, O Heiland, reiß die Himmel auf",
+73,op. 73,Symphonie Nr. 2,Symphony,D-Dur,"1. Allegro non troppo (D major)
+2. Adagio non troppo (B major)
+3. Allegretto grazioso (G major) / Presto ma non assai
+4. Allegro con spirito (D major)","2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",
+74,op. 74,"Zwei Motetten für fünfstimmigen gemischten Chor a cappella, Philipp Spitta gewidmet",Motet,,"Nr. 1, Warum ist das Licht gegeben dem Mühseligen
+Nr. 2, O Heiland, reiß die Himmel auf","Nr. 1: SATB/SSATBB/SATB
+Nr. 2: SATB",
 75,op. 75,"Balladen und Romanzen für zwei Singstimmen und Klavier, Julius Allgeyer gewidmet",Ballade,,,,
-76,op.  76,Acht Klavierstücke,Piano Piece,,,,
-77,op. 77,"Violinkonzert, Joseph Joachim gewidmet",Concerto,D-Dur,"Solo-Violine, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb.",,
-78,op. 78,Violinsonate Nr. 1,Sonata,G-Dur,"Violine, Pianoforte",,
-79,op. 79,"Zwei Rhapsodie für Klavier, Elisabet von Herzogenberg gewidmet",Rhapsody,,,"Nr. 1, h-Moll
-Nr. 2, g-Moll",
-80,op. 80,Akademische Festouverture für großes Orchester,Overture,c-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, BaBtuba, Pauken, Große Trommel, Becken, Triangel, 2Vl, Vla, Vc, Kb",,
-81,op. 81,Tragische Ouverture für Orchester,Overture,d-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
-82,op. 82,"Nänie von Friedrich Schiller für Chor und Orchester (Harfe ad libitum), Henriette Feuerbach gewidmet",,,"Chor(SATB), 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 3Pos, Pauken, Harfe (wenn möglich mehrfach besetzt), 2Vl, Vla, Vc, Kb",,
-83,op. 83,"Klavierkonzert Nr. 2, Eduard Marxsen gewidmet",Concerto,B-Dur,"Solo-Klavier, Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
-84,op. 84,Fünf Romanzen und Lieder für eine oder zwei Singstimmen und Klavier,Romance,,,"1. Sommerabend. „Geh schlafen Tochter, schlafen“
+76,op. 76,Acht Klavierstücke,Piano Piece,,,,
+76.1,op. 76/1,Capriccio,,fis-Moll,Un poco agitato,,
+76.2,op. 76/2,Capriccio,,h-Moll,Allegretto non troppo,,
+76.3,op. 76/3,Intermezzo,,As-Dur,Grazioso,,
+76.4,op. 76/4,Intermezzo,,B-Dur,Allegretto grazioso,,
+76.5,op. 76/5,Capriccio,,Cis-Dur,Agitato ma non troppo presto,,
+76.6,op. 76/6,Intermezzo,,,Andante con moto,,
+76.7,op. 76/7,Intermezzo,,a-Moll,Moderato semplice,,
+76.8,op. 76/8,Capriccio,,C-Dur,Grazioso ed un poco vivace,,
+77,op. 77,"Violinkonzert, Joseph Joachim gewidmet",Concerto,D-Dur,"1. Allegro non troppo (D major)
+2. Adagio (F major)
+3. Allegro giocoso, ma non troppo vivace (D major) / Poco piu presto","Solo-Violine, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb.",
+78,op. 78,Violinsonate Nr. 1,Sonata,G-Dur,"1. Vivace ma non troppo (G major)
+2. Adagio (E flat major)
+3. Allegro molto moderato (G minor)","Violine, Pianoforte",
+79,op. 79,"Zwei Rhapsodie für Klavier, Elisabet von Herzogenberg gewidmet",Rhapsody,,"Nr. 1, h-Moll
+Nr. 2, g-Moll",,
+79.1,op. 79/1,,Rhapsody,h-Moll,Agitato,,
+79.2,op. 79/2,,Rhapsody,g-Moll,"Molto passionato, ma non troppo allegro",,
+80,op. 80,Akademische Festouverture für großes Orchester,Overture,c-Moll,"1. Allegro (C minor)
+2. Maestoso (C major)
+3. Animato (E minor)
+4. Maestoso (C major)","Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 3Trp, 3Pos, BaBtuba, Pauken, Große Trommel, Becken, Triangel, 2Vl, Vla, Vc, Kb",
+81,op. 81,Tragische Ouverture für Orchester,Overture,d-Moll,"1. Allegro ma non troppo (D minor)
+2. Molto piu moderato (D minor)
+3. Tempo primo ma tranquillo (D minor)","Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",
+82,op. 82,"Nänie von Friedrich Schiller für Chor und Orchester (Harfe ad libitum), Henriette Feuerbach gewidmet",,,,"Chor(SATB), 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 3Pos, Pauken, Harfe (wenn möglich mehrfach besetzt), 2Vl, Vla, Vc, Kb",
+83,op. 83,"Klavierkonzert Nr. 2, Eduard Marxsen gewidmet",Concerto,B-Dur,"1. Allegro non troppo (B flat major)
+2. Allegro appassionato (D minor)
+3. Andante (B flat major)
+4. Allegretto grazioso (B flat major)","Solo-Klavier, Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
+84,op. 84,Fünf Romanzen und Lieder für eine oder zwei Singstimmen und Klavier,Romance,,"1. Sommerabend. „Geh schlafen Tochter, schlafen“
 2. Der Kranz. „Mutter half mir armen Tochter“
 3. In den Beeren. „Singe, Mädchen, hell und klar“
 4. Vergebliches Ständchen. „Guten Abend, mein Schatz“
-5. Spannung. „Gut’n Abend mein tausiger Schatz“",
-85,op. 85,Sechs Lieder für eine Singstimme und Klavier,Lied,,,"1. Sommerabend — „Dämmernd liegt der Sommerabend“
+5. Spannung. „Gut’n Abend mein tausiger Schatz“",,
+85,op. 85,Sechs Lieder für eine Singstimme und Klavier,Lied,,"1. Sommerabend — „Dämmernd liegt der Sommerabend“
 2. Mondenschein — „Nacht liegt auf den fremden Wegen“
 3. Mädchenlied — „Ach, und du, mein kühles Wasser“
 4. Ade! — „Wie schienen die Sterne so hell“
 5. Frühlingslied — „Mit geheimnisvollen Düften“
-6. In Waldeseinsamkeit — „Ich saß zu Deinen Füßen“",
-86,op. 86,Sechs Lieder für eine tiefere Stimme und Klavier,Lied,,,"1. Therese — „Du milchjunger Knabe“
+6. In Waldeseinsamkeit — „Ich saß zu Deinen Füßen“",,
+86,op. 86,Sechs Lieder für eine tiefere Stimme und Klavier,Lied,,"1. Therese — „Du milchjunger Knabe“
 2. Feldeinsamkeit — „Ich ruhe still im hohen grünen Gras“
 3. Nachtwandler — „Störe nicht den leisen Schlummer“
 4. Ueber die Haide — „Ueber die Haide hallet mein Schritt“
 5. Versunken — „Es brausen der Liebe Wogen“
-6. Todessehnen — „Ach, wer nimmt von meiner Seele“",
-87,op. 87,Klaviertrio Nr. 2,Trio,C-Dur,,,
-88,op. 88,Streichquintett Nr. 1,Quintet,F-Dur,"2Vl, 2Vla, Vc",,
-89,op. 89,"Gesang der Parzen von Goethe für sechsstimmigen Chor und Orchester, Herzog Georg von Sachsen-Meiningen gewidmet",Song,,"Chor(SAATBB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",,
-90,op. 90,Symphonie Nr. 3,Symphony,F-Dur,"2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
+6. Todessehnen — „Ach, wer nimmt von meiner Seele“",,
+87,op. 87,Klaviertrio Nr. 2,Trio,C-Dur,"1. Allegro (C major)
+2. Thema mit variationen (5) Andante con moto (A minor)
+3. Scherzo. Presto (C minor) with Trio: Poco meno presto (C major)
+4. Finale. Allegro giocoso (C major)",,
+88,op. 88,Streichquintett Nr. 1,Quintet,F-Dur,"1. Allegro non troppo ma con brio (F major)
+2. Grave ed appassionato (C sharp minor) / Allegro vivace (A major) / Tempo primo / Presto (A major) / Tempo primo
+3. Finale. Allegro energico (F major) / Presto","2Vl, 2Vla, Vc",
+89,op. 89,"Gesang der Parzen von Goethe für sechsstimmigen Chor und Orchester, Herzog Georg von Sachsen-Meiningen gewidmet",Song,,,"Chor(SAATBB), Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Baßtuba, Pauken, 2Vl, Vla, Vc, Kb",
+90,op. 90,Symphonie Nr. 3,Symphony,F-Dur,"1. Allegro con brio (F major)
+2. Andante (C major)
+3. Poco Allegretto (C minor)
+4. Allegro (F minor)","2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",
 91,op. 91,"Zwei Gesänge für eine Altstimme, Viola und Klavier",Song,,,,
 92,op. 92,"Vier Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
 93.1,op. 93a,Sechs Lieder und Romanzen für vierstimmigen gemischten Chor a cappella,Lied,,,,
-93.2,op. 93b,"Tafellied ,,Dank der Damen’’ von Joseph von Eichendorff für sechsstimmigen gemischten Chor und Klavier, Den Freunden in Krefeld gewidmet",Lied,,,,
-94,op. 94,Fünf Lieder für eine tiefe Stimme und Klavier,Lied,,,"1. Mit vierzig Jahren
+93.2,op. 93b,"Tafellied „Dank der Damen’’ von Joseph von Eichendorff für sechsstimmigen gemischten Chor und Klavier, Den Freunden in Krefeld gewidmet",Lied,,,,
+94,op. 94,Fünf Lieder für eine tiefe Stimme und Klavier,Lied,,"1. Mit vierzig Jahren
 2. Steig’ auf, geliebter Schatten
 3. Mein Herz ist schwer
 4. Sapphische Ode
-5. Kein Haus, keine Heimath (aus einem Drama)",
-95,op. 95,Sieben Lieder für gemischten Chor,Lied,,"Nr. 1, 4, 6, 7 (SATB)
+5. Kein Haus, keine Heimath (aus einem Drama)",,
+95,op. 95,Sieben Lieder für gemischten Chor,Lied,,,"Nr. 1, 4, 6, 7 (SATB)
 Nr. 2 (SSAATTBB)
 Nr. 3 (SATBB)
-Nr. 5 (SAATBB)",,
+Nr. 5 (SAATBB)",
 96,op. 96,Vier Lieder für eine Singstimme und Klavier,Lied,,,,
 97,op. 97,Sechs Lieder für eine Singstimme und Klavier,Lied,,,,
-98,op. 98,Symphonie Nr. 4,Symphony,e-Moll,"Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, Triangel, 2 Vl, Vla, Vc, Kb",,
-99,op. 99,Sonate Nr. 2 für Klavier und Violoncello,Sonata,F-Dur,,,
-100,op. 100,Violinsonate Nr. 2,Sonata,A-Dur,,,
-101,op. 101,Klaviertrio Nr. 3,Trio,c-Moll,,,
-102,op. 102,Konzert (Doppelkonzert) für Violine und Violoncello mit Orchester,Concerto,a-Moll,"Solo-Violine und Solo-Cello, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
+98,op. 98,Symphonie Nr. 4,Symphony,e-Moll,"1. Allegro non troppo (E minor)
+2. Andante moderato (E major)
+3. Allegro giocoso (C major)
+4. Tema con variazioni.  Allegro energico e passionato (E minor)","Picc, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 4Hrn, 2Trp, 3Pos, Pauken, Triangel, 2 Vl, Vla, Vc, Kb",
+99,op. 99,Sonate Nr. 2 für Klavier und Violoncello,Sonata,F-Dur,"1. Allegro vivace (F major)
+2. Adagio affettuoso (F sharp major)
+3. Allegro passionato (F minor) with Trio (F major)
+4. Allegro molto (F major)",,
+100,op. 100,Violinsonate Nr. 2,Sonata,A-Dur,"1. Allegro amabile (A major)
+2. Andante tranquillo (F major) / Vivace / Andante (D major) / Vivace di piu (F major)
+3. Allegretto grazioso quasi Andante (A major)",,
+101,op. 101,Klaviertrio Nr. 3,Trio,c-Moll,"1. Allegro energico (C minor)
+2. Presto non assai (C minor)
+3. Andante grazioso (C major)
+4. Allegro molto (C minor)",,
+102,op. 102,Konzert (Doppelkonzert) für Violine und Violoncello mit Orchester,Concerto,a-Moll,"1. Allegro (A minor)
+2. Andante (D major)
+3. Vivace non troppo (A minor)","Solo-Violine und Solo-Cello, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
 103,op. 103,Zigeunerlieder für eine Singstimme und Klavier,Lied,,,,
 104,op. 104,Fünf Gesänge für eine Singstimme und Klavier,Song,,,,
 105,op. 105,Fünf Lieder für eine tiefe Stimme und Klavier,Lied,,,,
-108,op. 108,"Violinsonate Nr. 3, Hans von Bülow gewidmet",Sonata,d-Moll,,,
+108,op. 108,"Violinsonate Nr. 3, Hans von Bülow gewidmet",Sonata,d-Moll,"1. Allegro (D minor)
+2. Adagio (D major)
+3. Un poco presto e con sentimento (F-sharp minor)
+4. Presto agitato (D minor)",,
 109,op. 109,"Fest- und Gedenksprüche für achtstimmigen Chor a cappella, Carl Petersen gewidmet",,,,,
-110,op. 110,Drei Motetten für vier- und achtstimmigen Chor a cappella,Motet,,"Nr. 1, 3: Doppelchor (SATB, SATB)
-Nr. 2: Vierstimmiger Chor (SATB)",,
-111,op. 111,Streichquintett Nr. 2,Quintet,G-Dur,,,
+110,op. 110,Drei Motetten für vier- und achtstimmigen Chor a cappella,Motet,,,"Nr. 1, 3: Doppelchor (SATB, SATB)
+Nr. 2: Vierstimmiger Chor (SATB)",
+111,op. 111,Streichquintett Nr. 2,Quintet,G-Dur,"1. Allegro non troppo, ma con brio (G major)
+2. Adagio (D minor)
+3. Un poco Allegretto (G minor) with Trio (G major)
+4. Vivace ma non troppo presto (G major)",,
 112,op. 112,"Sechs Quartette für Sopran, Alt, Tenor, Baß und Klavier",Quartet,,,,
 113,op. 113,Dreizehn Kanons für Frauenstimmen,Canon,,,,
-114,op. 114,Klarinettentrio,Trio,a-Moll,"Pianoforte, Clarinet/Viola, Violoncello",,
-115,op. 115,Klarinettenrquintett,Quintet,h-Moll,"Clarinet/Viola, 2 Violins, Viola, Violoncello",,
+114,op. 114,Klarinettentrio,Trio,a-Moll,"1. Allegro (A minor)
+2. Adagio (D major)
+3. Andantino grazioso (A major) with Trio (D major)
+4. Allegro (A minor)","Pianoforte, Clarinet/Viola, Violoncello",
+115,op. 115,Klarinettenrquintett,Quintet,h-Moll,"1. Allegro (B minor)
+2. Adagio (B major)
+3. Andantino (D major) / Presto non assai, ma con sentimento
+4. Con moto (B minor) / Un poco meno mosso","Clarinet/Viola, 2 Violins, Viola, Violoncello",
 116,op. 116,Sieben Fantasien für Klavier,Fantasia,,,,
-117,op. 117,Drei Intermezzi für Klavier,,,,,
+116.1,op. 116/1,Capriccio,Fantasia,d-Moll,Presto energico,,
+116.2,op. 116/2,Intermezzo,Fantasia,a-Moll,Andante,,
+116.3,op. 116/3,Capriccio,Fantasia,g-Moll,Allegro passionato,,
+116.4,op. 116/4,Intermezzo,Fantasia,E-Dur,Adagio,,
+116.5,op. 116/5,Intermezzo,Fantasia,e-Moll,Andante con grazia ed intimate sentimento,,
+116.6,op. 116/6,Intermezzo,Fantasia,E-Dur,Andantino teneramente,,
+116.7,op. 116/7,Capriccio,Fantasia,d-Moll,Allegro agitato,,
+117,op. 117,Drei Intermezzi für Klavier,Intermezzo,,,,
+117.1,op. 117/1,,Intermezzo,Es-Dur,Andante moderato,,
+117.2,op. 117/2,,Intermezzo,b-Moll,Andante non troppo e con molto espressione,,
+117.3,op. 117/3,,Intermezzo,cis-Moll,Andante con moto,,
 118,op. 118,Sechs Klavierstücke,Piano Piece,,,,
+118.1,op. 118/1,,Intermezzo,a-Moll,"Allegro non assai, ma molto appasionato",,
+118.2,op. 118/2,,Intermezzo,A-Dur,Andante teneramente,,
+118.3,op. 118/3,,Ballade,g-Moll,Allegro energico,,
+118.4,op. 118/4,,Intermezzo,f-Moll,Allegretto un poco agitato,,
+118.5,op. 118/5,,Romance,F-Dur,Andante,,
+118.6,op. 118/6,,Intermezzo,Es-Dur,"Andante, largo e mesto",,
 119,op. 119,Vier Klavierstücke,Piano Piece,,,,
-120,op. 120,Zwei Sonaten für Klavier und Klarinette (oder Bratsche),Sonata,,,"Nr. 1, f-Moll 
-Nr. 2, Es-Dur",
+119.1,op. 119/1,,Intermezzo,h-Moll,Adagio,,
+119.2,op. 119/2,,Intermezzo,e-Moll,Andantino un poco agitato,,
+119.3,op. 119/3,,Intermezzo,C-Dur,Grazioso e giocoso,,
+119.4,op. 119/4,,Rhapsody,Es-Dur,Allegro risoluto,,
+120,op. 120,Zwei Sonaten für Klavier und Klarinette (oder Bratsche),Sonata,,"Nr. 1, f-Moll 
+Nr. 2, Es-Dur",,
+120.1,op. 120/1,,,,"1. Allegro appassionato (F minor) / Sostenuto ed espressivo
+2. Andante un poco Adagio (F minor)
+3. Allegretto grazioso (F minor) with Trio
+4. Vivace (F major)",,
+120.2,op. 120/2,,,,"1. Allegro amabile (E flat major)
+2. Allegro appassionato (E flat minor) with Trio: Sostenuto (B major)
+3. Andante con moto (E flat major) - Tema con variazioni (5) / Allegro (E flat minor)",,
 121,op. 121,"Vier Ernste Gesänge für eine Baßstimme und Klavier, Max Klinger gewidmet",Song,,,,
-122,op. 122,Elf Choralvorspiele für Orgel,Choralvorspiel,,,,
-999.01,WoO 1,Ungarische Tänze,Dance,,"1. Piano Four Hands
+122,op. 122,Elf Choralvorspiele für Orgel,Choralvorspiel,,,organ,
+122.01,op. 122/1,"Mein Jesu, der du mich",Choralvorspiel,E minor,Allegro moderato (E minor),organ,
+122.02,op. 122/2,"Herzliebster Jesu, was hast du verbrochen",Choralvorspiel,G minor,Adagio (G minor),organ,
+122.03,op. 122/3,"O welt, ich muss dich lassen [version 1]",Choralvorspiel,F major,Andante (F major),organ,
+122.04,op. 122/4,Herzlich thut mich erfreuen ,Choralvorspiel,D major,Andante (D major),organ,
+122.05,op. 122/5,"Schmücke dich, o liebe Seele",Choralvorspiel,E major,Andante molto moderato (E major),organ,
+122.06,op. 122/6,"O wie selig seid ihr doch, ihr Frommen",Choralvorspiel,D minor,Molto moderato (D minor),organ,
+122.07,op. 122/7,"O Gott, du frommer Gott",Choralvorspiel,A minor,Allegretto (A minor),organ,
+122.08,op. 122/8,Es eist ein' Ros' entsprungen,Choralvorspiel,F major,Andante (F major),organ,
+122.09,op. 122/9,Herzlich thut mich verlangen [version 1],Choralvorspiel,F minor,Poco adagio (F minor),organ,
+122.1,op. 122/10,Herzlich thut mich verlangen [version 2],Choralvorspiel,A minor,Moderato (A minor),organ,
+122.11,op. 122/11,"O welt, ich muss dich lassen [version 2]",Choralvorspiel,F major,Poco adagio (F major),organ,
+999.01,WoO 1,Ungarische Tänze,Dance,,,"1. Piano Four Hands
 2. Solo Piano [Nr. 1-10]
-3. Orchestration [Nr. 1, 3, 10]: Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, Triangel, Große Trommel und Becken, 2Vl, Vla, Vc, Kb",,
-999.02,WoO 2,"Scherzo ,,F.A.E.-Sonate‘‘ für Klavier und Violine",Scherzo,c-Moll,,,
-999.03,WoO 3,Zwei Gavotten für Klavier,Dance,,,"Nr. 1, a-Moll 
-Nr. 2, A-Dur",
-999.04,WoO 4,Zwei Giguen für Klavier,Dance,,,"Nr. 1, a-Moll 
-Nr. 2, h-Moll",
-999.05,WoO 5,Zwei Sarabanden für Klavier,Dance,,,"Nr. 1, a-Moll 
-Nr. 2, h-Moll",
-999.06,WoO 6,51 Übungen für Klavier,,,,,
-999.07,WoO 7,"Choralvorspiel und Fuge für Orgel über ,,O Traurigkeit, o Herzeleid‘‘",Choralvorspiel,a-Moll,,,
+3. Orchestration [Nr. 1, 3, 10]: Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, Triangel, Große Trommel und Becken, 2Vl, Vla, Vc, Kb",
+999.0101,WoO 1/1,"Ungarische Tänze Nr. 1 ""Isteni Czardas""",Dance,g-Moll,Allegro molto,,
+999.0102,WoO 1/2,"Ungarische Tänze Nr. 2 ""Emma Czardas""",Dance,d-Moll,Allegro non assai,,
+999.0103,WoO 1/3,"Ungarische Tänze Nr. 3 ""Tolnai kakadalmas""",Dance,F-Dur,Allegretto,,
+999.0104,WoO 1/4,"Ungarische Tänze Nr. 4 ""Kalocsay-Emlek""",Dance,f-Moll,Poco sostenuto,,
+999.0105,WoO 1/5,"Ungarische Tänze Nr. 5 ""Bartfai-Emlek""",Dance,fis-Moll,Allegro,,
+999.0106,WoO 1/6,"Ungarische Tänze Nr. 6 ""Rozsa Bokor""",Dance,D-flat major,Vivace,,
+999.0107,WoO 1/7,"Ungarische Tänze Nr. 7 ""Volkslied""",Dance,A-Dur,Allegretto,,
+999.0108,WoO 1/8,"Ungarische Tänze Nr. 8 ""Luiza Czardas""",Dance,,Presto,,
+999.0109,WoO 1/9,"Ungarische Tänze Nr. 9 ""Makoc Czardas""",Dance,e-Moll,Allegro non troppo,,
+999.011,WoO 1/10,"Ungarische Tänze Nr. 10 ""Tolnai Lakadalmas""",Dance,E-Dur,Presto,,
+999.0111,WoO 1/11,Ungarische Tänze Nr. 11,Dance,d-Moll,Poco andante,,
+999.0112,WoO 1/12,Ungarische Tänze Nr. 12,Dance,D-Dur,Presto,,
+999.0113,WoO 1/13,Ungarische Tänze Nr. 13,Dance,D-Dur,Andantino grazioso,,
+999.0114,WoO 1/14,Ungarische Tänze Nr. 14,Dance,d-Moll,Un poco andante,,
+999.0115,WoO 1/15,Ungarische Tänze Nr. 15,Dance,B-Dur,Allegretto grazioso,,
+999.0116,WoO 1/16,Ungarische Tänze Nr. 16,Dance,f-Moll,Con moto,,
+999.0117,WoO 1/17,Ungarische Tänze Nr. 17,Dance,fis-Moll,Andantino,,
+999.0118,WoO 1/18,Ungarische Tänze Nr. 18,Dance,D-Dur,Molto vivace,,
+999.0119,WoO 1/19,Ungarische Tänze Nr. 19,Dance,h-Moll,Allegretto,,
+999.012,WoO 1/20,Ungarische Tänze Nr. 20,Dance,e-Moll,Poco Allegretto,,
+999.0121,WoO 1/21,Ungarische Tänze Nr. 21,Dance,e-Moll,Vivace,,
+999.02,WoO 2,Scherzo „F.A.E.-Sonate“ für Klavier und Violine,Scherzo,c-Moll,,"1. Allegro (C minor)
+2. Trio. Piu Moderato (G major)",
+999.03,WoO 3,Zwei Gavotten für Klavier,Dance,,"Nr. 1, a-Moll 
+Nr. 2, A-Dur",,"after ""Iphigenia in Aulis"" by Christoph Willibald Gluck"
+999.04,WoO 4,Zwei Giguen für Klavier,Dance,,"Nr. 1, a-Moll 
+Nr. 2, h-Moll",,
+999.05,WoO 5,Zwei Sarabanden für Klavier,Dance,,"Nr. 1, a-Moll 
+Nr. 2, h-Moll",,
+999.06,WoO 6,51 Übungen für Klavier,,,"1. (D major)
+2. (A major)
+3. (E major)
+4. Andante (A-flat major)
+5. (C minor) [2 exercises]
+6. (C minor) [2 exercises]
+7. (C major) [2 exercises]
+8. (C major) [2 exercises]
+9. (C major) [2 exercises
+] 10. (C major)
+11. (C major) [2 exercises]
+12. Moderato (C major)
+13. Moderato (C minor)
+14. Vivace (C major)
+15. (D minor )
+16. (C major) [2 exercises]
+17. (C major)
+18. (C major) [2 exercises]
+19. Moderato (F-sharp minor)
+20. (C major)
+21. (C major) [2 exercises]
+22. (C major)
+23. (B major) [3 exercises]
+24. (E-flat major) [2 exercises]
+25. Non troppo Allegro (B minor / B-flat minor) [3 exercises]
+26. (C major) [3 exercises]
+27. (C major)
+28. (C major)
+29. Presto (A minor)
+30. (F major)
+31. Non troppo Allegro (C major) [2 exercises]
+32. (C major) [2 exercises]
+33. (C major) [2 exercises]
+34. (A major / E major / B major) [3 exercises]
+35. (C major)
+36. (C major)
+37. (C major) [2 exercises]
+38. Allegro (C major)
+39. (C major)
+40. (C major) [2 exercises]
+41. (C major) [2 exercises]
+42. (C major) [2 exercises]
+43. Andante / Allegro / Andante (C major) [2 exercises]
+44. (C major) [2 exercises]
+45. (C major / E major)
+46. (E major) [2 exercises]
+47. Allegro (G major)
+48. (E minor)
+49. (A minor) [2 exercises]
+50. (C major)
+51. Vivace (B-flat major)",,
+999.07,WoO 7,"Choralvorspiel und Fuge für Orgel über „O Traurigkeit, o Herzeleid“",Choralvorspiel,a-Moll,,,
 999.08,WoO 8,Fuge für Orgel,,as-Moll,,,
 999.09,WoO 9,Präludium und Fuge für Orgel,,a-Moll,,,
 999.1,WoO 10,Präludium und Fuge für Orgel,,g-Moll,,,
@@ -178,147 +557,146 @@ Nr. 2, h-Moll",
 999.15,WoO 15,"Kadenz zum 1. Satz von Mozarts Klavierkonzert c-moll, KV 491",Cadenza,,,,
 999.16,WoO 16,Kleine Hochzeiskantate für vier Singstimmen und Klavier,Cantata,,,,
 999.17,WoO 17,Kyrie fur vier Singstimmen und Basso continuo,,g-Moll,,,
-999.18,WoO 18,Missa canonica für vier-bis sechsstimmigen gemischten Chor a cappella,Mass,C-Dur,,"1. Sanktus As-Dur
+999.18,WoO 18,Missa canonica für vier-bis sechsstimmigen gemischten Chor a cappella,Mass,C-Dur,"1. Sanktus As-Dur
 2. Benedictus F-Dur
 3. Agnus Dei f-Moll
-4. Dona nobis C-Dur",
+4. Dona nobis C-Dur",,
 999.19,WoO 19,"Dein Herzlein Mild, Lied für vierstimmigen Frauenchor",Lied,,,,
 999.2,WoO 20,"Dem dunkeln schoß der heil'gen Erde, Lied für gemischten Chor a cappella",Lied,,,,
 999.21,WoO 21,"Mondnacht, Lied für eine Singstimme und Klavier",Lied,,,,
-999.22,WoO 22,"Fünf Lieder ,,Ophelia-Lieder‘‘ für eine Singstimme und Klavier",Lied,,,,
+999.22,WoO 22,Fünf Lieder „Ophelia-Lieder“ für eine Singstimme und Klavier,Lied,,,,
 999.23,WoO 23,Regenlied für eine Singstimme und Klavier,Lied,,,,
-999.24,WoO 24,"Grausam Erweiset sich Amor, Kanon für vier Frauenstimmen",Canon,,,,
-999.25,WoO 25,"Mir Lächelt kein Frühling, Kanon für vier gemischte Stimmen",Canon,,,,
-999.26,WoO 26,"O Wie Sanft, Kanon für vier Frauenstimmen",Canon,,,,
-999.27,WoO 27,"Spruch ,,In dieser Welt des Trugs‘‘, Kanon für eine Singstimme und Bratsche",Canon,,,,
+999.24,WoO 24,"Grausam Erweiset sich Amor, Kanon für vier Frauenstimmen",Canon,D major,,,
+999.25,WoO 25,"Mir Lächelt kein Frühling, Kanon für vier gemischte Stimmen",Canon,G minor,,,
+999.26,WoO 26,"O Wie Sanft, Kanon für vier Frauenstimmen",Canon,G-Dur,,,
+999.27,WoO 27,"Spruch „In dieser Welt des Trugs“, Kanon für eine Singstimme und Bratsche",Canon,D minor,,,
 999.28,WoO 28,"Töne, Linderner Klang, Kanon für vier Stimmen",Canon,,,,
-999.29,WoO 29,"Wann?, Kanon für Sopran und Alt",Canon,,,,
+999.29,WoO 29,"Wann?, Kanon für Sopran und Alt",Canon,G minor,,,
 999.3,WoO 30,"Zu Rauch muss Werden, Kanon für vier Stimmen",Canon,,,,
 999.31,WoO 31,"Volks-Kinderlieder für eine Singstimme und Klavier, Den Kindern Robert und Clara Schumanns gewidmet",Lied,,,,
 999.32,WoO 32,28 Deutsche Volksrlieder für eine Singstimme und Klavier,Lied,,,,
-999.33,WoO 33,49 Deutsche Volksrlieder,Lied,,"42 für eine Singstimme mit Klavierbegleitung
-7 für vierstimmigen Chor und Vorsanger",,
+999.33,WoO 33,49 Deutsche Volksrlieder,Lied,,,"42 für eine Singstimme mit Klavierbegleitung
+7 für vierstimmigen Chor und Vorsanger",
 999.34,WoO 34,"14 Deutsche Volksrlieder für gemischten Chor, Der Wiener Singakademie gewidmet",Lied,,,,
 999.35,WoO 35,Zwölf Deutsche Volksrlieder für vierstimmigen gemischten Chor,Lied,,,,
 999.36,WoO 36,Acht Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,,,
 999.37,WoO 37,16 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,,,
-999.38,WoO 38,20 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,"Nr. 2, 8, 10, 11, 13, 14, 17, 18: SSA
-die übrigen: SSAA",,
-,,Präludium und Aria für Klavier,,a-Moll,,,
-,,Sonate für Klavier und Violine,Sonata,a-Moll,,,
-,,"[Franz Schubert] Kyrie und Credo aus der Messe, D. 678",Performing Material,As-Dur,,,"Wien, 2. März 1874"
-,,Klavierstuck,Varia,B-Dur,,,
-,,"[Franz Schubert] Zwei Märsche, D. 968B, Bearbeitung für Klavier zu zwei Händen",Arrangement,C-Dur,,,
-,,"[Ludwig van Beethoven] Finale aus Streichquartett op. 59 Nr. 3, Bearbeitung für Klavier",Arrangement,C-Dur,,,
-,,"[Ludwig van Beethoven] Chorphantasie, op.80",Performing Material,C-Dur,,,"Wien, 7. Dezember 1873"
-,,"[Ludwig van Beethoven] Ouvertüre ""Zur Namensfeier"", op.115",Performing Material,C-Dur,,,"Wien, 9. November 1873"
-,,Adagio/Andante für Klavierquartett,Piece,cis-Moll,,,
-,,[Luigi Cherubini] Requiem,Performing Material,c-Moll,,,"Wien, 6. und 8. April 1873"
-,,Klavierstücke,Piano Piece,c-Moll,,,
-,,"[Georg Friedrich Händel] Orgelkonzert Nr. 4, op.7",Performing Material,d-Moll,,,"Wien, 8. Dezember 1872"
-,,"[Ludwig van Beethoven] Missa solemnis, op.123",Performing Material,d-Moll,,,"Wien, 6. Dezember 1874"
-,,"[Robert Schumann] Klavierquintett, op. 44, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
-,,"[Ludwig van Beethoven] Klavierkonzert Nr. 5, op.73",Performing Material,Es-Dur,,,"Wien, 8. November 1874"
-,,Klaviertrio 1. Satz,Trio,Es-Dur,,,
-,,"[Johann Sebastian Bach] Orgeltoccata (Präludium) aus BWV 540, Bearbeitung für Klavier",Arrangement,F-Dur,,,
-,,Ouverture für Orchester,Overture,F-Dur,,,
-,,Instrumentalkanon,Varia,f-Moll,,,
-,,Klaviersonate,Sonata,g-Moll,,,
-,,"[Hector Berlioz] Harold-Symphonie, op. 16",Performing Material,h-Moll,,,"Wien, 8. November 1874"
-,,Streichquartett,Quartet,h-Moll,,,
-,,"[Christoph Willibald Gluck]Gavotte A-Dur aus der Oper ,,Iphigénie en Aulide‘‘, Bearbeitung für Klavier, Clara Schumann gewidmet",Arrangement,,,,
-,,"[Franz Schubert] 16 Ländler D. 366 und 4 Ländler D. 814, Bearbeitung für Klavier zu zwei und zu vier Händen",Arrangement,,,,
-,,"[Franz Schubert] An Schwager Kronos, op. 19 Nr. 1, D. 369, Bearbeitung für Singstimme und Orchester",Arrangement,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",,
-,,"[Franz Schubert] Ellens Zweiter Gesang, op. 52 Nr. 2, D. 838",Arrangement,,"1. Singstimme, 4Hrn, 3Fg
-2. Sopransolo, Frauenchor (SAA), 4Hrn, 2Fg",,
-,,"[Franz Schubert] Geheimes, op. 12 Nr. 2, D. 719, Bearbeitung für Singstimme und Orchester",Arrangement,,"Singstimme, Hrn, 2Vl, Vla, Vc",,
-,,"[Franz Schubert] Greisengesang, op. 60 Nr. 1, D. 778, Bearbeitung für Singstimme und Orchester",Arrangement,,"Singstimme, 2Fl, 2Klar, 2Fg, 3Pos, 3Vla, 2Vc, Kb",,
-,,"[Franz Schubert] Große Messe in Es-Dur, D. 950, Klavierauszug",Arrangement,,,,
-,,"[Franz Schubert] Gruppe aus dem Tartarus, op. 24 Nr. 1, D. 583, Bearbeitung mit Orchesterbegleitung",Arrangement,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",,
-,,"[Franz Schubert] Memnon, op. 6 Nr. 1, D. 541, Bearbeitung für eine Singstimme und Orchester",Arrangement,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Vl, Vla, Vc, Kb",,
-,,"[Franz Schubert] Scherzo aus dem Oktett op. posth. 166, D. 803, Bearbeitung für Klavier",Arrangement,,,,
-,,"[G.F. Händel] Sechs Duette, Generalbaßaussetzung",Arrangement,,,,
-,,"[G.F. Händel] Sieben Duette und zwei Trios, Generalbaßaussetzung",Arrangement,,,,
-,,"[J.S. Bach] Choral,,Ach Gott,wie manches Herzeleid“ aus der Kantate, BWV 44, Figurierte Generalbaßaussetzung",Arrangement,,,,
-,,"[Joseph Joachim] Ouverture zu Hermann Grimms ,,Demetrius‘‘, op. 6, Bearbeitung für zwei Klaviere",Arrangement,,,,
-,,"[Joseph Joachim] Ouverture zu Shakespeares ,,Hamlet‘‘, op. 4, Bearbeitung für Klavier zu vier Händen",Arrangement,,,,
-,,"[Joseph Joachim] Ouverture zu Shakespeares ,,Heinrich IV‘‘, op. 7, Bearbeitung für zwei Klaviere",Arrangement,,,,
-,,"[Robert Schumann] Scherzo aus dem Klavierquartett Es-Dur, op. 47, Bearbeitung für Klavier zu vier Händen",Arrangement,,,,
-,,"[Robert Schumann] Scherzo aus dem Klavierquintett Es-Dur, op. 44, Bearbeitung für Klavier",Arrangement,,,,
-,,Fünf Klavierstudien,Arrangement,,"I. F. Chopin: Etude, op. 25 Nr. 2, Bearbeitung für Klavier zu zwei Händen
+999.38,WoO 38,20 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,,"Nr. 2, 8, 10, 11, 13, 14, 17, 18: SSA
+die übrigen: SSAA",
+9999,Anh. Ia Nr. 1,Fünf Klavierstudien,Arrangement,,,"I. F. Chopin: Etude, op. 25 Nr. 2, Bearbeitung für Klavier zu zwei Händen
 II. C.M. v. Weber: Rondo aus der Klaviersonate, op. 24, Bearbeitung für Klavier zu zwei Händen
 III/IV. J.S. Bach: Presto aus der Sonate für Violine solo, BWV 1001, Bearbeitungen für Klavier zu zwei Händen
-V. J.S. Bach: Chaconne aus der Partita für Violine solo BWV, 1004, Bearbeitung für die linke Hand",,
-,,Ständchen für Kinderchor,Arrangement,,,,
-,,Zwei Volkslieder für Männerchor,Arrangement,,,,
-,,Walzer für Klavier zu vier Händen (ohne Gesang),Dance,,,,
-,,Walzer für Klavier zu vier Händen (ohne Gesang),Dance,,,,
-,,"Wie der Mond, Lieder für eine Singstimme und Klavier",Lied,,,,
-,,"Winternacht „Um mich ist Nacht und Dunkel“, Lied für eine Singstimme und Klavier",Lied,,,,
-,,"Zwei Frühlingslieder, Lieder für eine Singstimme und Klavier",Lied,,,,
-,,"[Christoph Willibald Gluck] Szene aus „Alceste“ „Wo bin ich“ / „Nein, nicht ein Opfer kann ichs nennen“",Performing Material,,,,"Wien, 8. Dezember 1872"
-,,"[Franz Schubert] Arie „Der Tag entflieht, der Abend glüht“ aus „Das Zauberglöckchen“, D 723/II",Performing Material,,,,"Wien, 7. Dezember 1873"
-,,[Georg Friedrich Händel] „Dettinger Te Deum“,Performing Material,,,,"Wien, 10. November 1872"
-,,[Georg Friedrich Händel] Oratorium „Alexanderfest“,Performing Material,,,,"Wien, 9. November 1873"
-,,[Georg Friedrich Händel] Oratorium „Salomo“,Performing Material,,,,"Wien, 31. März 1874"
-,,[Georg Friedrich Händel] Oratorium „Saul“,Performing Material,,,,"Wien, 28. Februar 1873"
-,,[Giovanni Gabrieli] Chorsatz „Benedictus“,Performing Material,,,,"Wien, 6. Januar 1864"
-,,[Giovanni Rovetta] Chorsatz „Salve Regina“,Performing Material,,,,"Detmold, Dezember 1857 und Wien, 6. Januar 1864"
-,,[Heinrich Isaac] Chorsatz „Innsbruck ich muß dich lassen“,Performing Material,,,,"Wien, 15. November 1863 und 10. November 1872"
-,,"[Heinrich Schütz] „Sauli Bekehrung“, SWV 415",Performing Material,,,,"Wien, 6. Januar 1864"
-,,"[J.S. Bach] Kantate ""Christ lag in Todesbanden"", BWV 4",Performing Material,,,,Detmold Herbst 1858; Wien 23.3.1873
-,,"[J.S. Bach] Kantate ""Ich hatte viel Bekümmernis"", BWV 21",Performing Material,,,,Detmold Herbst 1857; Wien 15.11.1863
-,,"[J.S. Bach] Kantate ""Liebster Gott, wann werd ich sterben"", BWV 8",Performing Material,,,,"Wien 6., 8.4.1873"
-,,"[J.S. Bach] Kantate ""O ewiges Feuer"", BWV 34",Performing Material,,,,Wien 10.1.1875
-,,"[J.S. Bach] Kantatensatz ""Nun ist das Heil und die Kraft""， BWV 50",Performing Material,,,,Wien 7.12.1873
-,,"[J.S. Bach] Matthäuspassion, BWV 244",Performing Material,,,,Wien 23.3.1875
-,,"[J.S. Bach] Schlußchoral ""Ich habe genug"" (aus BWV 60)",Performing Material,,,,Wien 7.12.1873
-,,"[J.S. Bach] Weihnachtsoratorium, BWV 248",Performing Material,,,,(a) I–III Wien 20.3.1864；(b) Sinfonia Teil II Wien 19.4.1874
-,,[Jacobus Gallus] Chorsatz „Ecce quomodo moritur“,Performing Material,,,,"Wien, 7. Dezember 1873"
-,,"[Johann Rudolf Ahle] Chorsatz ""Ich habe genug""",Performing Material,,,,Wien 7.12.1873
-,,[Johannes Eccard] Chorsatz „Der Christen Triumphlied aufs Osterfest“,Performing Material,,,,"Wien, 6. Januar 1864"
-,,[Johannes Eccard] Chorsatz „Übers Gebirg Maria geht“,Performing Material,,,,"Wien, 10. und 15. November 1872"
-,,"[Ludwig van Beethoven] Chor ""Wo sich die Pulse jugendlich jagen"", WoO 98",Performing Material,,,,"Wien, 23. März 1873"
-,,"[Max Bruch] Oratorium ""Odysseus"", op. 41",Performing Material,,,,"Wien, 18. April 1875"
-,,"[Robert Schumann] Musik zu Manfred, op. 115",Performing Material,,,,"Wien, 2. März 1874"
-,,"[Wolfgang Amadeus Mozart] Arie Nr.26 aus „Davidde penitente“, KV 469",Performing Material,,,,"Wien, 28. Februar 1875"
-,,"[Wolfgang Amadeus Mozart] Offertorium „Venite populi“, KV 260",Performing Material,,,,"Wien, 8. Dezember 1872"
-,,"[Wolfgang Amadeus Mozart] Szene mit Rondo „Ch’io mi scordi di te“ / „Non temer, amato bene“, KV 505",Performing Material,,,,"Wien, 10. November 1872"
-,,"[Franz Schubert] Nachtstück op. 36 Nr. 2, D. 672, Bearbeitung für eine Singstimme, Klavier oder Harfe und Orchester",Varia,,"Wahrscheinlich Solostimme, Klavier oder Harfe [?], Fl, Ob, Klar, 
-Fg, KontraFg, 2 Vi, Vla, 2 Vc, Kb",,
-,,"[Henry Charles Litolff] Ouvertüre zu Griepenkerls „Maximilien Robespierre“ op. 55, Bearbeitung für Physharmonika (Harmonium) und Klavier",Varia,,,,
-,,"[Robert Schumann] Papillons, op. 2 Nr. 7, Kanoische Bearbeitung",Varia,,,,
-,,[Ungarische] Skizzen,Varia,,,,
-,,Aphorismus „Doch was hör ich?“,Varia,,,,
-,,"Brautgesang, für vierstimmigen Frauenchor, Sopransolo und Orchester",Varia,,,,
-,,"Die Müllerin, Lied für eine Singstimme und Klavier",Varia,,,,
-,,"Hymne, Trio für zwei Violinen, Kontrabaß oder Violoncello, Zur Verherrlichung des großen Joachim",Varia,,,,
-,,Klavierskizzen,Varia,,,,
-,,Kreis-Kanon,Varia,,,,
-,,Mehrere Skizzen,Varia,,,,
-,,"Neapolitanische Canzonetta, Klavierbegleitung und Transposition",Varia,,,,
-,,Orchesterskizzen,Varia,,,,
-,,"Rákóczi-Marsch, Bearbeitung für Klavier",Varia,,,,
-,,Skizze,Varia,,,,
-,,Skizzenbuch,Varia,,,,
-,,Variation für Klavier über ein Thema von Schumann,Varia,,,,
-,,Adagio für Klavier und Violoncello,,,,,
-,,Adagio und Scherzo für Violine und Orchester,,,,,
-,,"Brautlied „Welch ein Scheiden ist seliger“, Lied für eine Singstimme und Klavier [?]",,,,,
-,,"Credo, für gemischen Chor a cappella",,,,,
-,,Drei Lieder für Männerchor,,,,,
-,,Duo für Klavier und Violoncello,,,,,
-,,Fünf Gesänge für eine Singstimme und Klavier,,,,,
-,,Fünf Gesänge für gemischten Chor a cappella,,,,,
-,,Kanons,,,,,
-,,Klavierstücke „Blätter aus dem Tagebuch eines Musikers“,,,,,
-,,Klaviertrios,,,,,
-,,Morgenständchen,,,,,
-,,Motette,,,,,
-,,"Nachtigall „O Nachtigall, dein süßer Schall“, Lied für eine Singstimme und Klavier",,,,,
-,,"Notturno, Quartett für Sopran, Alt, Tenor, Baß und Klavier",,,,,
-,,Phantasie über einen beliebten Walzer für Klavier,,,,,
-,,"Psalm 22 für Baritonsolo, Chor und Orchester",,,,,
-,,"Rinaldo, Ursprunglicher Schlußchor",,,,,
-,,Symphonie/Sonate für zwei Klaviere (zwei Sätze),,,,,
-,,Ungarische Tänze für Klavier,,,,,
+V. J.S. Bach: Chaconne aus der Partita für Violine solo BWV, 1004, Bearbeitung für die linke Hand",
+9999,Anh. Ia Nr. 2,"[Christoph Willibald Gluck]Gavotte A-Dur aus der Oper „Iphigénie en Aulide“, Bearbeitung für Klavier, Clara Schumann gewidmet",Arrangement,,,,
+9999,Anh. Ia Nr. 3,"[Joseph Joachim] Ouverture zu Shakespeares „Hamlet“, op. 4, Bearbeitung für Klavier zu vier Händen",Arrangement,,Moderato assai (D minor) / Allegro agitato,,
+9999,Anh. Ia Nr. 4,"[Joseph Joachim] Ouverture zu Hermann Grimms „Demetrius“, op. 6, Bearbeitung für zwei Klaviere",Arrangement,,,,
+9999,Anh. Ia Nr. 5,"[Joseph Joachim] Ouverture zu Shakespeares „Heinrich IV“, op. 7, Bearbeitung für zwei Klaviere",Arrangement,,,,
+9999,Anh. Ia Nr. 6,"[Franz Schubert] 16 Ländler D. 366 und 4 Ländler D. 814, Bearbeitung für Klavier zu zwei und zu vier Händen",Arrangement,,,"[1-16] for piano 4 hands
+[17-20] for piano",
+9999,Anh. Ia Nr. 7,"[Robert Schumann] Scherzo aus dem Klavierquintett Es-Dur, op. 44, Bearbeitung für Klavier",Arrangement,Es-Dur,,,
+9999,Anh. Ia Nr. 8,"[Robert Schumann] Klavierquartett Es-Dur op. 47, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
+9999,Anh. Ia Nr. 9,"[J.S. Bach] Choral „Ach Gott, wie manches Herzeleid“ aus der Kantate, BWV 44, figurierte Generalbaßaussetzung",Arrangement,,,,
+9999,Anh. Ia Nr. 10,"[G.F. Händel] Sechs Duette, Generalbaßaussetzung",Arrangement,,,,
+9999,Anh. Ia Nr. 11,"[G.F. Händel] Sieben Duette und zwei Trios, Generalbaßaussetzung",Arrangement,,,,
+9999,Anh. Ia Nr. 12,"[Franz Schubert] An Schwager Kronos, op. 19 Nr. 1, D. 369, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
+9999,Anh. Ia Nr. 13,"[Franz Schubert] Memnon, op. 6 Nr. 1, D. 541, Bearbeitung für eine Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Vl, Vla, Vc, Kb",
+9999,Anh. Ia Nr. 14,"[Franz Schubert] Gruppe aus dem Tartarus, op. 24 Nr. 1, D. 583, Bearbeitung mit Orchesterbegleitung",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",
+9999,Anh. Ia Nr. 15,"[Franz Schubert] Geheimes, op. 12 Nr. 2, D. 719, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, Hrn, 2Vl, Vla, Vc",
+9999,Anh. Ia Nr. 16,"[Franz Schubert] Greisengesang, op. 60 Nr. 1, D. 778, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Klar, 2Fg, 3Pos, 3Vla, 2Vc, Kb",
+9999,Anh. Ia Nr. 17,"[Franz Schubert] Ellens Zweiter Gesang, op. 52 Nr. 2, D. 838",Arrangement,,,"1. Singstimme, 4Hrn, 3Fg
+2. Sopransolo, Frauenchor (SAA), 4Hrn, 2Fg",
+9999,Anh. Ia Nr. 18,"[Franz Schubert] Große Messe in Es-Dur, D. 950, Klavierauszug",Arrangement,,,,
+9999,Anh. Ib Nr. 1,"[Johann Rudolf Ahle] Chorsatz ""Ich habe genug""",Performing Material,,,,Wien 7.12.1873
+9999,Anh. Ib Nr. 2,"[J.S. Bach] Kantate ""Christ lag in Todesbanden"", BWV 4",Performing Material,,,,Detmold Herbst 1858; Wien 23.3.1873
+9999,Anh. Ib Nr. 3,"[J.S. Bach] Kantate ""Liebster Gott, wann werd ich sterben"", BWV 8",Performing Material,,,,"Wien 6., 8.4.1873"
+9999,Anh. Ib Nr. 4,"[J.S. Bach] Kantate ""Ich hatte viel Bekümmernis"", BWV 21",Performing Material,,,,Detmold Herbst 1857; Wien 15.11.1863
+9999,Anh. Ib Nr. 5,"[J.S. Bach] Kantate ""O ewiges Feuer"", BWV 34",Performing Material,,,,Wien 10.1.1875
+9999,Anh. Ib Nr. 6,"[J.S. Bach] Kantatensatz ""Nun ist das Heil und die Kraft""， BWV 50",Performing Material,,,,Wien 7.12.1873
+9999,Anh. Ib Nr. 7,"[J.S. Bach] Schlußchoral ""Ich habe genug"" (aus BWV 60)",Performing Material,,,,Wien 7.12.1873
+9999,Anh. Ib Nr. 8,"[J.S. Bach] Matthäuspassion, BWV 244",Performing Material,,,,Wien 23.3.1875
+9999,Anh. Ib Nr. 9,"[J.S. Bach] Weihnachtsoratorium, BWV 248",Performing Material,,,,(a) I–III Wien 20.3.1864；(b) Sinfonia Teil II Wien 19.4.1874
+9999,Anh. Ib Nr. 10,"[Ludwig van Beethoven] Klavierkonzert Nr. 5, op. 73",Performing Material,Es-Dur,,,"Wien, 8. November 1874"
+9999,Anh. Ib Nr. 11,"[Ludwig van Beethoven] Chorphantasie, op.80",Performing Material,C-Dur,,,"Wien, 7. Dezember 1873"
+9999,Anh. Ib Nr. 12,"[Ludwig van Beethoven] Ouvertüre ""Zur Namensfeier"", op. 115",Performing Material,C-Dur,,,"Wien, 9. November 1873"
+9999,Anh. Ib Nr. 13,"[Ludwig van Beethoven] Missa solemnis, op. 123",Performing Material,d-Moll,,,"Wien, 6. Dezember 1874"
+9999,Anh. Ib Nr. 14,"[Ludwig van Beethoven] Chor ""Wo sich die Pulse jugendlich jagen"", WoO 98",Performing Material,,,,"Wien, 23. März 1873"
+9999,Anh. Ib Nr. 15,"[Hector Berlioz] Harold-Symphonie, op. 16",Performing Material,h-Moll,,,"Wien, 8. November 1874"
+9999,Anh. Ib Nr. 16,"[Max Bruch] Oratorium ""Odysseus"", op. 41",Performing Material,,,,"Wien, 18. April 1875"
+9999,Anh. Ib Nr. 17,[Luigi Cherubini] Requiem,Performing Material,c-Moll,,,"Wien, 6. und 8. April 1873"
+9999,Anh. Ib Nr. 18,[Johannes Eccard] Chorsatz „Übers Gebirg Maria geht“,Performing Material,,,,"Wien, 10. und 15. November 1872"
+9999,Anh. Ib Nr. 19,[Johannes Eccard] Chorsatz „Der Christen Triumphlied aufs Osterfest“,Performing Material,,,,"Wien, 6. Januar 1864"
+9999,Anh. Ib Nr. 20,[Giovanni Gabrieli] Chorsatz „Benedictus“,Performing Material,,,,"Wien, 6. Januar 1864"
+9999,Anh. Ib Nr. 21,[Jacobus Gallus] Chorsatz „Ecce quomodo moritur“,Performing Material,,,,"Wien, 7. Dezember 1873"
+9999,Anh. Ib Nr. 22,"[Christoph Willibald Gluck] Szene aus „Alceste“ „Wo bin ich“ / „Nein, nicht ein Opfer kann ichs nennen“",Performing Material,,,,"Wien, 8. Dezember 1872"
+9999,Anh. Ib Nr. 23,[Georg Friedrich Händel] Oratorium „Alexanderfest“,Performing Material,,,,"Wien, 9. November 1873"
+9999,Anh. Ib Nr. 24,[Georg Friedrich Händel] „Dettinger Te Deum“,Performing Material,,,,"Wien, 10. November 1872"
+9999,Anh. Ib Nr. 25,[Georg Friedrich Händel] Oratorium „Salomo“,Performing Material,,,,"Wien, 31. März 1874"
+9999,Anh. Ib Nr. 26,[Georg Friedrich Händel] Oratorium „Saul“,Performing Material,,,,"Wien, 28. Februar 1873"
+9999,Anh. Ib Nr. 27,"[Georg Friedrich Händel] Orgelkonzert Nr. 4, op. 7",Performing Material,d-Moll,,,"Wien, 8. Dezember 1872"
+9999,Anh. Ib Nr. 28,[Heinrich Isaac] Chorsatz „Innsbruck ich muß dich lassen“,Performing Material,,,,"Wien, 15. November 1863 und 10. November 1872"
+9999,Anh. Ib Nr. 29,"[Wolfgang Amadeus Mozart] Offertorium „Venite populi“, KV 260",Performing Material,,,,"Wien, 8. Dezember 1872"
+9999,Anh. Ib Nr. 30,"[Wolfgang Amadeus Mozart] Arie Nr.26 aus „Davidde penitente“, KV 469",Performing Material,,,,"Wien, 28. Februar 1875"
+9999,Anh. Ib Nr. 31,"[Wolfgang Amadeus Mozart] Szene mit Rondo „Ch’io mi scordi di te“ / „Non temer, amato bene“, KV 505",Performing Material,,,,"Wien, 10. November 1872"
+9999,Anh. Ib Nr. 32,[Giovanni Rovetta] Chorsatz „Salve Regina“,Performing Material,,,,"Detmold, Dezember 1857 und Wien, 6. Januar 1864"
+9999,Anh. Ib Nr. 33,"[Franz Schubert] Kyrie und Credo aus der Messe, D. 678",Performing Material,As-Dur,,,"Wien, 2. März 1874"
+9999,Anh. Ib Nr. 34,"[Franz Schubert] Arie „Der Tag entflieht, der Abend glüht“ aus „Das Zauberglöckchen“, D 723/II",Performing Material,,,,"Wien, 7. Dezember 1873"
+9999,Anh. Ib Nr. 35,"[Robert Schumann] Musik zu Manfred, op. 115",Performing Material,,,,"Wien, 2. März 1874"
+9999,Anh. Ib Nr. 36,"[Heinrich Schütz] „Sauli Bekehrung“, SWV 415",Performing Material,,,,"Wien, 6. Januar 1864"
+9999,Anh. IIa Nr. 1,Adagio und Scherzo für Violine und Orchester,,,,,
+9999,Anh. IIa Nr. 2,Sinfonie/Sonate für zwei Klaviere (zwei Sätze),,,,,
+9999,Anh. IIa Nr. 3,Ouverture für Orchester,Overture,F-Dur,,,
+9999,Anh. IIa Nr. 4,Adagio/Andante für Klavierquartett,Piece,cis-Moll,,,
+9999,Anh. IIa Nr. 5,Streichquartett,Quartet,h-Moll,,,
+9999,Anh. IIa Nr. 6,Klaviertrios,,,,,
+9999,Anh. IIa Nr. 7,Klaviertrio 1. Satz,Trio,Es-Dur,,,
+9999,Anh. IIa Nr. 8,Sonate für Klavier und Violine,Sonata,a-Moll,,,
+9999,Anh. IIa Nr. 9,Adagio für Klavier und Violoncello,,,,,
+9999,Anh. IIa Nr. 10,Duo für Klavier und Violoncello,,,,,
+9999,Anh. IIa Nr. 11,Klavierstücke „Blätter aus dem Tagebuch eines Musikers“,,,,,
+9999,Anh. IIa Nr. 12,Klavierstück,Piano Piece,c-Moll,,,
+9999,Anh. IIa Nr. 13,Phantasie über einen beliebten Walzer für Klavier,,,,,
+9999,Anh. IIa Nr. 14,Präludium und Aria für Klavier,,a-Moll,,,
+9999,Anh. IIa Nr. 15,Klaviersonate,Sonata,g-Moll,,,
+9999,Anh. IIa Nr. 16,Ungarische Tänze für Klavier,,,,,
+9999,Anh. IIa Nr. 17,"Psalm 22 für Baritonsolo, Chor und Orchester",,,,,
+9999,Anh. IIa Nr. 18,"Rinaldo, Ursprunglicher Schlußchor",,,,,
+9999,Anh. IIa Nr. 19,"Notturno, Quartett für Sopran, Alt, Tenor, Baß und Klavier",,,,,
+9999,Anh. IIa Nr. 20,"Credo, für gemischen Chor a cappella",,,,,
+9999,Anh. IIa Nr. 21,Morgenständchen,,,,,
+9999,Anh. IIa Nr. 22,Motette,,,,,
+9999,Anh. IIa Nr. 23,Drei Lieder für Männerchor,,,"1. »Des Postillons Morgenlied«
+2. »Vivat! Und ins Horn ich stoße«
+3. »ABC-Lied«",,
+9999,Anh. IIa Nr. 24,Kanons,,,,,
+9999,Anh. IIa Nr. 25,"Zwei Frühlingslieder, Lieder für eine Singstimme und Klavier",Lied,,,,
+9999,Anh. IIa Nr. 26,"Nachtigall „O Nachtigall, dein süßer Schall“, Lied für eine Singstimme und Klavier",,,,,
+9999,Anh. IIa Nr. 27,"Wie der Mond, Lieder für eine Singstimme und Klavier",Lied,,,,
+9999,Anh. IIa Nr. 28,"Winternacht „Um mich ist Nacht und Dunkel“, Lied für eine Singstimme und Klavier",Lied,,,,
+9999,Anh. IIa Nr. 29,"Brautlied „Welch ein Scheiden ist seliger“, Lied für eine Singstimme und Klavier [?]",,,,,
+9999,Anh. IIb Nr. 1,"[Johann Sebastian Bach] Orgeltoccata (Präludium) aus BWV 540, Bearbeitung für Klavier",Arrangement,F-Dur,,,
+9999,Anh. IIb Nr. 2,"[Ludwig van Beethoven] Finale aus Streichquartett op. 59 Nr. 3, Bearbeitung für Klavier",Arrangement,C-Dur,,,
+9999,Anh. IIb Nr. 3,"[Franz Schubert] Zwei Märsche, D. 968B, Bearbeitung für Klavier zu zwei Händen",Arrangement,C-Dur,,,
+9999,Anh. IIb Nr. 4,"[Franz Schubert] Scherzo aus dem Oktett op. posth. 166, D. 803, Bearbeitung für Klavier",Arrangement,,,,
+9999,Anh. IIb Nr. 5,"[Robert Schumann] Klavierquintett, op. 44, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
+9999,Anh. IIb Nr. 6,Ständchen für Kinderchor,Arrangement,,,,
+9999,Anh. IIb Nr. 7,Zwei Volkslieder für Männerchor,Arrangement,,,,
+9999,Anh. III Nr. 1,"Hymne, Trio für zwei Violinen, Kontrabaß oder Violoncello, Zur Verherrlichung des großen Joachim",Varia,,,,
+9999,Anh. III Nr. 2,Instrumentalkanon,Varia,f-Moll,,,
+9999,Anh. III Nr. 3,Kreis-Kanon,Varia,,,,
+9999,Anh. III Nr. 4,Klavierstuck,Varia,B-Dur,,,
+9999,Anh. III Nr. 5,"[Robert Schumann] Papillons, op. 2 Nr. 7, Kanoische Bearbeitung",Varia,,,,fragment
+9999,Anh. III Nr. 6,Variation für Klavier über ein Thema von Schumann,Varia,,,,
+9999,Anh. III Nr. 7,Aphorismus „Doch was hör ich?“,Varia,,,,
+9999,Anh. III Nr. 8,"Neapolitanische Canzonetta, Klavierbegleitung und Transposition",Varia,,,,
+9999,Anh. III Nr. 9,"[Henry Charles Litolff] Ouvertüre zu Griepenkerls „Maximilien Robespierre“ op. 55, Bearbeitung für Physharmonika (Harmonium) und Klavier",Varia,,,,
+9999,Anh. III Nr. 10,"Rákóczi-Marsch, Bearbeitung für Klavier",Varia,,,,
+9999,Anh. III Nr. 11,"[Franz Schubert] Nachtstück op. 36 Nr. 2, D. 672, Bearbeitung für eine Singstimme, Klavier oder Harfe und Orchester",Varia,,,"Wahrscheinlich Solostimme, Klavier oder Harfe [?], Fl, Ob, Klar, 
+Fg, KontraFg, 2 Vi, Vla, 2 Vc, Kb",
+9999,Anh. III Nr. 12,"Brautgesang, für vierstimmigen Frauenchor, Sopransolo und Orchester",Varia,,,,
+9999,Anh. III Nr. 13,"Die Müllerin, Lied für eine Singstimme und Klavier",Varia,,,,
+9999,Anh. III Nr. 14,Orchesterskizzen,Varia,,,,
+9999,Anh. III Nr. 15,Klavierskizzen,Varia,,,,
+9999,Anh. III Nr. 16,Mehrere Skizzen,Varia,,,,
+9999,Anh. III Nr. 17,Skizze,Varia,,,,
+9999,Anh. III Nr. 18,Skizzenbuch,Varia,,,,
+9999,Anh. III Nr. 19,[Ungarische] Skizzen,Varia,,,,
