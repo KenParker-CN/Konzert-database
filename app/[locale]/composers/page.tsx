@@ -33,11 +33,12 @@ function renderComposerCard(entry: ComposerEntry, locale: Locale, t: Translator)
         <Link
             key={entry.composerQid}
             href={localePath(locale, `/composers/${encodeURIComponent(entry.composerQid)}`)}
-            className="group flex min-h-20 flex-col justify-between gap-2 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+            className="group relative flex min-h-20 flex-col justify-between gap-2 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
         >
+            {!entry.hasCatalogue && <span className="absolute right-3 top-3 h-2 w-2 rounded-full bg-red-500"/>}
             <span className="heading text-base font-semibold text-slate-900">{displayName}</span>
             {entry.era && <span className="text-sm text-slate-600">{entry.era}</span>}
-            <span className="text-xs text-slate-500">
+            <span className={entry.hasCatalogue ? 'text-xs text-slate-500' : 'text-xs text-[var(--primary)]'}>
                 {entry.hasCatalogue ? t('works.count', {count: entry.workCount}) : t('composerIndex.cataloguePreparing')}
             </span>
         </Link>
