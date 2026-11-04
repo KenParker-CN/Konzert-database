@@ -129,6 +129,7 @@ async function buildInstrumentIndex(): Promise<InstrumentIndex> {
                 catalogue: entry.catalogue,
                 catalogueName: entry.catalogueName || entry.catalogue,
                 composerName: entry.composerName,
+                composerNameSort: entry.composerNameSort,
                 composerAliases: entry.composerAliases,
                 composerSlug: entry.composerSlug,
                 works: matched.sort((left, right) => left.sort.localeCompare(right.sort, undefined, {numeric: true, sensitivity: 'base'})),

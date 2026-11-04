@@ -122,6 +122,7 @@ export type GenreRelatedWorkGroup = {
     catalogue: string
     catalogueName: string
     composerName: string
+    composerNameSort: string
     composerSlug: string
     works: ComposerWork[]
 }
@@ -158,6 +159,7 @@ export async function getGenreWorksSafe(genreTerms: string[], locale: Locale): P
                 catalogue: entry.catalogue,
                 catalogueName: entry.catalogueName || entry.catalogue,
                 composerName: entry.composerAliases[locale] || entry.composerName,
+                composerNameSort: entry.composerNameSort,
                 composerSlug: entry.composerSlug,
                 works,
             }))
