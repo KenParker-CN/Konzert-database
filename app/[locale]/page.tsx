@@ -50,19 +50,15 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                                 work: t('home.randomWiki.work'),
                             }}
                         />
-                        <div className="mt-4 grid max-w-xs grid-cols-2 gap-3">
-                            <div className="border border-slate-200 bg-white/80 px-3 py-2.5 shadow-sm">
-                                <div className="text-xl font-semibold tracking-tight text-slate-950">
-                                    <CountTo value={composerCount}/>
-                                </div>
-                                <div className="mt-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-slate-500">{t('home.composers')}</div>
-                            </div>
-                            <div className="border border-slate-200 bg-white/80 px-3 py-2.5 shadow-sm">
-                                <div className="text-xl font-semibold tracking-tight text-slate-950">
-                                    <CountTo value={workCount}/>
-                                </div>
-                                <div className="mt-0.5 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-slate-500">{t('home.works')}</div>
-                            </div>
+                        <div className="mt-3 flex items-baseline gap-5 px-1 text-xs text-slate-500">
+                            <span className="flex items-baseline gap-1.5">
+                                <span className="text-sm font-semibold text-slate-950"><CountTo value={composerCount}/></span>
+                                {t('home.composers')}
+                            </span>
+                            <span className="flex items-baseline gap-1.5">
+                                <span className="text-sm font-semibold text-slate-950"><CountTo value={workCount}/></span>
+                                {t('home.works')}
+                            </span>
                         </div>
                     </div>
                 </section>
