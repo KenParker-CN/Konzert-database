@@ -54,7 +54,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
     return (
         <section className="mt-5 overflow-hidden border border-slate-200 bg-white shadow-sm">
             <header className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 px-6 py-4 sm:px-8">
-                <h2 className="heading text-xl font-semibold text-slate-950">{t('genrePages.relatedWorks')}</h2>
+                <h2 className="heading text-xl font-semibold text-slate-950">{t('genrePages.relatedWorks')} ({t('works.count', {count: rows.length})})</h2>
                 <div className="flex items-center gap-3">
                     {composerOptions.length > 1 && (
                         <Select
@@ -80,7 +80,6 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                             </SelectPositioner>
                         </Select>
                     )}
-                    <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: rows.length})}</span>
                 </div>
             </header>
 
