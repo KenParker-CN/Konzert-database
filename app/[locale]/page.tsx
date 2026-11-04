@@ -84,7 +84,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                 </section>
             </main>
             <footer className="border-t border-slate-200 bg-white">
-                <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-5 lg:px-8">
+                <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-4 lg:px-8">
                     <div className="flex flex-wrap items-start justify-between gap-6">
                         <span className="heading text-xl font-semibold tracking-tight text-slate-950">
                             Konzert
@@ -115,7 +115,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                     </div>
                 </div>
                 <div className="border-t border-slate-100">
-                    <p className="mx-auto max-w-7xl px-5 py-3 text-center text-xs text-slate-500 lg:px-8">
+                    <p className="mx-auto max-w-7xl px-5 py-2 text-center text-xs text-slate-500 lg:px-8">
                         © {new Date().getFullYear()} Ken Parker
                     </p>
                 </div>
