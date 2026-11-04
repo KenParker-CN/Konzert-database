@@ -1,7 +1,7 @@
 import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import LetterScrollIndicator from '@/components/catalogues/LetterScrollIndicator'
-import {getCatalogueDirectory} from '@/lib/db/composers'
+import {getComposerDirectory} from '@/lib/db/composers'
 import {getLocalizedComposerName} from '@/lib/composer-name'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath, type Locale} from '@/lib/i18n/config'
@@ -16,7 +16,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     return {alternates: {canonical: `/${locale}/composers`}}
 }
 
-type ComposerEntry = Awaited<ReturnType<typeof getCatalogueDirectory>>[number]
+type ComposerEntry = Awaited<ReturnType<typeof getComposerDirectory>>[number]
 
 function sortName(entry: ComposerEntry) {
     return entry.composerNameSort || entry.composerName
@@ -31,7 +31,7 @@ function renderComposerCard(entry: ComposerEntry, locale: Locale, t: Translator)
     const displayName = entry.composerNameSort || getLocalizedComposerName(entry.composerName, entry.composerAliases, locale)
     return (
         <Link
-            key={entry.catalogue}
+            key={entry.composerSlug}
             href={localePath(locale, `/composers/${encodeURIComponent(entry.composerSlug)}`)}
             className="group flex min-h-20 flex-col justify-between gap-2 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
         >
@@ -48,7 +48,7 @@ export default async function ComposersPage({params}: {params: Promise<{locale: 
 
     const [{t}, directory] = await Promise.all([
         getI18n(locale),
-        getCatalogueDirectory().catch(() => []),
+        getComposerDirectory().catch(() => []),
     ])
 
     const groups = new Map<string, ComposerEntry[]>()

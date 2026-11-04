@@ -86,6 +86,19 @@ export async function getCatalogueDirectory() {
     return catalogueDirectoryCache.request
 }
 
+export async function getComposerDirectory() {
+    const [composers, directory] = await Promise.all([loadComposers(), getCatalogueDirectory()])
+    const workCounts = new Map(directory.map(entry => [entry.composerSlug, entry.workCount]))
+    return composers.map(composer => ({
+        composerName: composer.name,
+        composerNameSort: composer.nameSort,
+        composerAliases: composer.aliases,
+        composerSlug: composer.slug,
+        era: composer.era,
+        workCount: workCounts.get(composer.slug) ?? 0,
+    }))
+}
+
 export function clearCatalogueDirectoryCache() {
     catalogueDirectoryCache = undefined
 }
