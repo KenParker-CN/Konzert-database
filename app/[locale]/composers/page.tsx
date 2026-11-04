@@ -37,7 +37,9 @@ function renderComposerCard(entry: ComposerEntry, locale: Locale, t: Translator)
         >
             <span className="heading text-base font-semibold text-slate-900">{displayName}</span>
             {entry.era && <span className="text-sm text-slate-600">{entry.era}</span>}
-            <span className="text-xs text-slate-500">{t('works.count', {count: entry.workCount})}</span>
+            <span className="text-xs text-slate-500">
+                {entry.hasCatalogue ? t('works.count', {count: entry.workCount}) : t('composerIndex.cataloguePreparing')}
+            </span>
         </Link>
     )
 }

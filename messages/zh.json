@@ -17,7 +17,8 @@
   },
   "composerIndex": {
     "title": "作曲家",
-    "count": "{count} 位作曲家"
+    "count": "{count} 位作曲家",
+    "cataloguePreparing": "作品目录筹备中..."
   },
   "instruments": {
     "title": "乐器",

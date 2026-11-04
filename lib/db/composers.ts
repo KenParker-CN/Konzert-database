@@ -95,6 +95,7 @@ export async function getComposerDirectory() {
         composerAliases: composer.aliases,
         composerSlug: composer.slug,
         era: composer.era,
+        hasCatalogue: Boolean(getCatalogForComposer(composer.slug)),
         workCount: workCounts.get(composer.slug) ?? 0,
     }))
 }

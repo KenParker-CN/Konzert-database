@@ -17,7 +17,8 @@
   },
   "composerIndex": {
     "title": "Composers",
-    "count": "{count} composers"
+    "count": "{count} composers",
+    "cataloguePreparing": "Catalogue in preparation..."
   },
   "instruments": {
     "title": "Instruments",
