@@ -3,6 +3,7 @@
 import {useState} from 'react'
 import Link from 'next/link'
 import {Button} from '@/components/ui/button'
+import {Select, SelectContent, SelectItem, SelectPositioner, SelectTrigger, SelectValue} from '@/components/ui/select'
 import WorkDetailsDialog from '@/components/catalogues/WorkDetailsDialog'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {useI18n} from '@/lib/i18n/client'
@@ -56,18 +57,28 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                 <h2 className="heading text-xl font-semibold text-slate-950">{t('genrePages.relatedWorks')}</h2>
                 <div className="flex items-center gap-3">
                     {composerOptions.length > 1 && (
-                        <select
-                            aria-label={t('home.randomWiki.composer')}
+                        <Select
                             value={composerFilter}
-                            onChange={event => {
-                                setComposerFilter(event.target.value)
+                            onValueChange={(value: unknown) => {
+                                setComposerFilter(String(value ?? ''))
                                 setPage(1)
                             }}
-                            className="max-w-56 truncate rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 focus:border-blue-400 focus:outline-none"
                         >
-                            <option value="">{t('genrePages.allComposers')}</option>
-                            {composerOptions.map(name => <option key={name} value={name}>{name}</option>)}
-                        </select>
+                            <SelectTrigger
+                                aria-label={t('home.randomWiki.composer')}
+                                className="h-10 max-w-56 shrink-0 rounded-lg border border-input bg-white px-3 pr-8 text-sm shadow-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-slate-800"
+                            >
+                                <SelectValue placeholder={t('genrePages.allComposers')} className="truncate"/>
+                            </SelectTrigger>
+                            <SelectPositioner align="end">
+                                <SelectContent>
+                                    <SelectItem value="">{t('genrePages.allComposers')}</SelectItem>
+                                    {composerOptions.map(name => (
+                                        <SelectItem key={name} value={name}>{name}</SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </SelectPositioner>
+                        </Select>
                     )}
                     <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: rows.length})}</span>
                 </div>
