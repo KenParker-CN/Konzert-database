@@ -9,7 +9,7 @@ import CountTo from '@/components/home/CountTo'
 import WikiRandomBanner from '@/components/home/WikiRandomBanner'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
-import {IconDisc, IconMail} from '@tabler/icons-react'
+import {IconBrandGithub, IconDisc, IconMail} from '@tabler/icons-react'
 import {HighlightText} from '@animate-ui/react/primitives/texts/highlight'
 
 export const dynamic = 'force-dynamic'
@@ -113,6 +113,9 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         <div className="flex items-center gap-2 text-slate-500">
                             <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 text-[#ba478f] hover:bg-slate-100 hover:opacity-80">
                                 <IconDisc size={18}/>
+                            </a>
+                            <a href="https://github.com/KenParker-CN/Konzert-database" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
+                                <IconBrandGithub size={18}/>
                             </a>
                             <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
                                 <IconMail size={18}/>
