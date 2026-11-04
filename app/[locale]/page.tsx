@@ -24,7 +24,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     const [directory, wikiBannerItems] = await Promise.all([getCatalogueDirectory(), getRandomWikiBannerItems(locale)])
     const composerCount = directory.length
     const workCount = directory.reduce((sum, entry) => sum + (entry.workCount ?? 0), 0)
-    const featuredCatalogues = [...directory].sort((a, b) => b.workCount - a.workCount).slice(0, 6)
+    const featuredCatalogues = [...directory].sort((a, b) => b.workCount - a.workCount).slice(0, 3)
 
     return (
         <AppShell>
@@ -88,6 +88,33 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                     </ul>
                 </section>
             </main>
+            <footer className="border-t border-slate-200 bg-white">
+                <div className="mx-auto grid max-w-7xl gap-8 px-5 py-10 sm:grid-cols-[minmax(0,1fr)_auto] lg:px-8">
+                    <div className="flex flex-col gap-3">
+                        <span className="heading text-xl font-semibold tracking-tight text-slate-950">
+                            Parker’s<span className="text-blue-600">.</span>
+                        </span>
+                        <p className="max-w-md text-sm leading-6 text-slate-600">{t('home.tagline')}</p>
+                    </div>
+                    <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-slate-600 sm:justify-end">
+                        {[
+                            ['composers', '/composers'],
+                            ['catalogues', '/catalogues'],
+                            ['instruments', '/instruments'],
+                            ['genres', '/genres'],
+                        ].map(([key, href]) => (
+                            <Link key={key} href={localePath(locale, href)} className="hover:text-blue-600">
+                                {t(`navigation.${key}`)}
+                            </Link>
+                        ))}
+                    </nav>
+                </div>
+                <div className="border-t border-slate-100">
+                    <p className="mx-auto max-w-7xl px-5 py-4 text-xs text-slate-500 lg:px-8">
+                        © {new Date().getFullYear()} Parker’s
+                    </p>
+                </div>
+            </footer>
         </AppShell>
     )
 }
