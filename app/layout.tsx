@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://konzert-database.vercel.app'),
   title: 'Konzert · Classical music archive',
   description: 'Browse composers and their catalogue works.',
+  verification: {
+    google: 'VbRAlEXC_6Jr6NeWHtGuTLvPFTr0_ck5O_S55s-gIl0',
+  },
 }
 
 const themeScript = `(() => {
