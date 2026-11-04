@@ -27,9 +27,9 @@ export default function WorksTable({
             <div className="flex shrink-0 items-center divide-x divide-slate-200 border-b border-slate-200 bg-slate-50 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
                 <span className="w-24 shrink-0 px-1.5 text-center">{showDateColumn ? t('works.date') : t('works.catalogue')}</span>
                 <span className="w-72 shrink-0 px-1.5 text-center">{t('works.titleColumn')}</span>
-                <span className="w-28 shrink-0 px-1.5 text-center">{t('works.genre')}</span>
-                <span className="w-28 shrink-0 px-1.5 text-center">{t('works.key')}</span>
-                <span className="min-w-0 flex-1 px-1.5 text-center">{t('works.instrumentation')}</span>
+                <span className="hidden w-28 shrink-0 px-1.5 text-center sm:block">{t('works.genre')}</span>
+                <span className="hidden w-28 shrink-0 px-1.5 text-center md:block">{t('works.key')}</span>
+                <span className="hidden min-w-0 flex-1 px-1.5 text-center lg:block">{t('works.instrumentation')}</span>
             </div>
             <div className="always-visible-scrollbar max-h-112 overflow-y-auto md:min-h-0 md:max-h-none md:flex-1">
                 {works.map(work => (
@@ -50,21 +50,21 @@ export default function WorksTable({
                         ) : (
                             <span className="w-72 shrink-0 truncate px-1.5 text-sm text-slate-900">{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
                         )}
-                        <span className="flex w-28 shrink-0 justify-center px-1.5">
+                        <span className="hidden w-28 shrink-0 justify-center px-1.5 sm:flex">
                             {work.genre && (
                                 <span className="max-w-full truncate rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
                                     {getLocalizedWorkTerm(work.genre, 'type', locale)}
                                 </span>
                             )}
                         </span>
-                        <span className="flex w-28 shrink-0 justify-center px-1.5">
+                        <span className="hidden w-28 shrink-0 justify-center px-1.5 md:flex">
                             {work.key && (
                                 <span className="max-w-full truncate rounded-full bg-blue-100 px-2 py-0.5 text-xs font-semibold text-blue-700">
                                     {getLocalizedWorkTerm(work.key, 'key', locale)}
                                 </span>
                             )}
                         </span>
-                        <span className="min-w-0 flex-1 line-clamp-2 px-1.5 text-left text-xs text-slate-500">{work.instrumentation}</span>
+                        <span className="hidden min-w-0 flex-1 line-clamp-2 px-1.5 text-left text-xs text-slate-500 lg:block">{work.instrumentation}</span>
                         <WorkDetailsDialog
                             work={work}
                             catalogCode={catalogCode}
