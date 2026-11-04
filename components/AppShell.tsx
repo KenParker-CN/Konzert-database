@@ -97,7 +97,13 @@ export default function AppShell({children, active}: {
         <header className="sticky top-0 z-40 border-b border-slate-200 bg-white">
             <div className="mx-auto flex max-w-360 flex-wrap items-center gap-x-8 gap-y-3 py-3">
                 <a href={localePath(locale, '/')} className="heading inline-flex items-center gap-2 text-lg font-semibold tracking-tight">
-                    <img src="/icon.svg" alt="" width={28} height={28} className="size-7"/>
+                    <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="size-7 shrink-0 text-[var(--on-surface)]">
+                        <rect x="6" y="6" width="36" height="36" rx="3" stroke="currentColor" strokeWidth="1.104"/>
+                        <circle cx="24" cy="25" r="11" fill="#1967d2" stroke="currentColor" strokeWidth="1.104"/>
+                        <rect x="22" y="23" width="4" height="4" rx="2" fill="white"/>
+                        <rect x="34" y="34" width="4" height="4" rx="2" fill="currentColor"/>
+                        <path d="M28 20L36 12" stroke="currentColor" strokeWidth="1.104" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
                     Konzert
                 </a>
                 <nav aria-label={t('navigation.catalogues')} className="flex flex-1 flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-600">
