@@ -3,7 +3,7 @@
 import type {ReactNode} from 'react'
 import Link from 'next/link'
 import {Dialog} from '@base-ui/react/dialog'
-import {IconX} from '@tabler/icons-react'
+import {IconArrowRight, IconX} from '@tabler/icons-react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {localePath} from '@/lib/i18n/config'
@@ -102,14 +102,6 @@ export default function WorkDetailsDialog({
                                 )}
                             </div>
                         )}
-                        {work.details['WikiQID'] && (
-                            <Link
-                                href={localePath(locale, `/works/${work.details['WikiQID']}`)}
-                                className="mt-2 inline-flex text-sm font-medium text-blue-600 underline-offset-4 hover:underline"
-                            >
-                                {t('works.openPage')} →
-                            </Link>
-                        )}
                         <Dialog.Close className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-md text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label={t('common.close')}>
                             <IconX size={18}/>
                         </Dialog.Close>
@@ -140,7 +132,18 @@ export default function WorkDetailsDialog({
                             )
                         })}
                     </dl>
-
+                    {work.details['WikiQID'] && (
+                        <div className="flex shrink-0 justify-end border-t border-slate-100 px-5 py-3">
+                            <Link
+                                href={localePath(locale, `/works/${work.details['WikiQID']}`)}
+                                aria-label={t('works.openPage')}
+                                title={t('works.openPage')}
+                                className="inline-flex h-8 w-8 items-center justify-center rounded-md text-blue-600 transition-colors hover:bg-blue-50 hover:text-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                            >
+                                <IconArrowRight size={18}/>
+                            </Link>
+                        </div>
+                    )}
                 </Dialog.Popup>
             </Dialog.Portal>
         </Dialog.Root>
