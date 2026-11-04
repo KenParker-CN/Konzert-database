@@ -17,7 +17,6 @@ type RelatedWorkRow = {
     key: string
     work: ComposerWork
     title: string
-    composerName: string
     composerNameSort: string
     composerHref: string
     catalogue: string
@@ -32,16 +31,16 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
         key: `${group.catalogue}-${work.workId}`,
         work,
         title: locale === 'de' ? work.details['German title'] || work.title : work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
-        composerName: group.composerName,
         composerNameSort: group.composerNameSort,
         composerHref: localePath(locale, `/composers/${encodeURIComponent(group.composerSlug)}`),
         catalogue: group.catalogue,
-    })))
+    }))).sort((left, right) => left.composerNameSort.localeCompare(right.composerNameSort, undefined, {sensitivity: 'base'}))
 
     if (allRows.length === 0) return null
 
-    const composerOptions = groups.map(group => group.composerName)
-    const rows = composerFilter ? allRows.filter(row => row.composerName === composerFilter) : allRows
+    const composerOptions = [...new Map(groups.map(group => [group.composerNameSort, group.composerName])).entries()]
+        .sort(([left], [right]) => left.localeCompare(right, undefined, {sensitivity: 'base'}))
+    const rows = composerFilter ? allRows.filter(row => row.composerNameSort === composerFilter) : allRows
     const pageCount = Math.ceil(rows.length / WORKS_PER_PAGE)
     const currentPage = Math.min(page, pageCount)
     const pageRows = rows.slice((currentPage - 1) * WORKS_PER_PAGE, currentPage * WORKS_PER_PAGE)
@@ -62,7 +61,7 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
                             className="max-w-56 truncate rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700 focus:border-blue-400 focus:outline-none"
                         >
                             <option value="">{t('genrePages.allComposers')}</option>
-                            {composerOptions.map(name => <option key={name} value={name}>{name}</option>)}
+                            {composerOptions.map(([sortName, name]) => <option key={sortName} value={sortName}>{name}</option>)}
                         </select>
                     )}
                     <span className="shrink-0 text-sm text-slate-500">{t('works.count', {count: rows.length})}</span>
@@ -70,23 +69,23 @@ export default function GenreRelatedWorks({groups}: {groups: GenreRelatedWorkGro
             </header>
 
             <div className={`${rowGrid} hidden border-b border-slate-200 bg-slate-50 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:grid`}>
-                <span>{t('works.titleColumn')}</span>
                 <span>{t('home.randomWiki.composer')}</span>
+                <span>{t('works.titleColumn')}</span>
                 <span>{t('works.key')}</span>
                 <span>{t('works.instrumentation')}</span>
             </div>
 
             <ul>
-                {pageRows.map(({key, work, title, composerName, composerNameSort, composerHref, catalogue}) => (
+                {pageRows.map(({key, work, title, composerNameSort, composerHref, catalogue}) => (
                     <li key={key} className={`${rowGrid} border-b border-slate-100 px-6 py-3 last:border-0 hover:bg-blue-50/50`}>
+                        <Link href={composerHref} className="truncate text-sm text-slate-700 hover:text-blue-700">{composerNameSort}</Link>
                         <WorkDetailsDialog
                             work={work}
                             catalogCode={catalogue}
-                            triggerClassName="flex min-w-0 text-left text-sm font-semibold text-blue-700"
+                            triggerClassName={`flex min-w-0 text-left text-sm ${work.details.WikiQID?.trim() ? 'text-blue-700' : ''}`}
                         >
                             <span className="truncate">{title}</span>
                         </WorkDetailsDialog>
-                        <Link href={composerHref} className="truncate text-sm text-slate-700 hover:text-blue-700">{composerNameSort || composerName}</Link>
                         <span className="truncate text-sm text-slate-700">{work.key}</span>
                         <span className="truncate text-sm text-slate-700">{work.instrumentation}</span>
                     </li>
