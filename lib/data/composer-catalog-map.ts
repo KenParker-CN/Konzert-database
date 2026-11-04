@@ -36,6 +36,7 @@ export const composerCatalogMap: Record<string, string> = {
   'Q49481': 'Prokofiev',
   'Q1268':'Chopin',
   'Q189534': 'paert',
+  'Q66075': 'Paganini',
 };
 
 export function getCatalogForComposer(wikiQID: string): string | undefined {
