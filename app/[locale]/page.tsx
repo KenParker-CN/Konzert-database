@@ -38,19 +38,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                         <h1 className="heading max-w-4xl text-5xl font-semibold leading-[1.04] tracking-[-0.055em] text-slate-950 sm:text-6xl lg:text-7xl">
                             Konzert
                         </h1>
-                    </div>
-                    <div className="w-full">
-                        <WikiRandomBanner
-                            items={wikiBannerItems}
-                            locale={locale}
-                            title={t('home.randomWiki.title')}
-                            kindLabels={{
-                                composer: t('home.randomWiki.composer'),
-                                genre: t('home.randomWiki.genre'),
-                                work: t('home.randomWiki.work'),
-                            }}
-                        />
-                        <div className="mt-3 flex items-baseline gap-5 px-1 text-xs text-slate-500">
+                        <div className="mt-4 flex items-baseline gap-5 text-xs text-slate-500">
                             <span className="flex items-baseline gap-1.5">
                                 <span className="text-sm font-semibold text-slate-950"><CountTo value={composerCount}/></span>
                                 {t('home.composers')}
@@ -61,6 +49,16 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             </span>
                         </div>
                     </div>
+                    <WikiRandomBanner
+                        items={wikiBannerItems}
+                        locale={locale}
+                        title={t('home.randomWiki.title')}
+                        kindLabels={{
+                            composer: t('home.randomWiki.composer'),
+                            genre: t('home.randomWiki.genre'),
+                            work: t('home.randomWiki.work'),
+                        }}
+                    />
                 </section>
                 <section className="mx-auto max-w-7xl px-5 pb-12 lg:px-8">
                     <div className="mb-5 flex items-end justify-between gap-4">
