@@ -51,6 +51,7 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                             <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
                                 <CatalogueCitation
                                     title={composer.catalogRef}
+                                    href={composer.catalogRefUrl}
                                     author={composer.cataloguerName || undefined}
                                     publisher={composer.catalogPublisher}
                                     className="text-sm leading-6 text-slate-600"
