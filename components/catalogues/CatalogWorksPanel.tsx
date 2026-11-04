@@ -16,7 +16,7 @@ export default async function CatalogWorksPanel({
     ])
 
     return (
-        <section className="min-w-0">
+        <section className="flex min-w-0 flex-col md:min-h-0 md:flex-1">
             {error ? (
                 <div className="rounded-2xl border border-amber-200 bg-amber-50 px-6 py-10 text-center text-sm text-amber-800">
                     {t('works.loadFailed')}

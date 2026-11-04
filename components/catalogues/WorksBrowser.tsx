@@ -192,7 +192,7 @@ export default function WorksBrowser({
     }
 
     return (
-        <div className="flex min-w-0 flex-col gap-4">
+        <div className="flex min-w-0 flex-col gap-4 md:min-h-0 md:flex-1">
             <div className="flex min-w-0 flex-col gap-2 sm:flex-row sm:flex-wrap">
                 {genreOptions.length > 0 && (
                     <Select
@@ -286,7 +286,7 @@ export default function WorksBrowser({
                 </div>
             </div>
             {normalizedQuery ? (
-                <div className="flex min-w-0 flex-col gap-3">
+                <div className="flex min-w-0 flex-col gap-3 md:min-h-0 md:flex-1">
                     {pagedSearchMatches.length > 0 ? (
                         <WorksTable
                             key={`search-${normalizedQuery}-${page}`}

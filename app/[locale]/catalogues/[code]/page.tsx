@@ -51,9 +51,9 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
     return (
         <AppShell active="catalogues">
             <CatalogueWorkspace catalogues={catalogues} currentCatalogue={code} locale={locale}>
-                <main className="min-h-full">
-                    <div className="mx-auto max-w-300 px-5 py-4 lg:px-10 lg:py-5">
-                    <div className="flex flex-col gap-4">
+                <main className="min-h-full md:h-full">
+                    <div className="mx-auto max-w-300 px-5 py-4 lg:px-10 lg:py-5 md:flex md:h-full md:flex-col">
+                    <div className="flex flex-col gap-4 md:min-h-0 md:flex-1">
                         {catalogCode === 'KV' && <RefreshCatalogueWorksButton catalogCode={catalogCode}/>}
                         {composer.spotify && (
                             <section className="flex min-w-0 flex-col gap-2 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
@@ -80,7 +80,7 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                             )}
                         </section>
 
-                        <div className="flex min-w-0 flex-col gap-4">
+                        <div className="flex min-w-0 flex-col gap-4 md:min-h-0 md:flex-1">
                             <Suspense fallback={<WorksLoading label={t('works.loading')}/>}>
                                 <CatalogWorksPanel locale={locale} catalogCode={catalogCode}/>
                             </Suspense>
