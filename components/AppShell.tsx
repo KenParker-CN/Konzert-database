@@ -94,7 +94,7 @@ export default function AppShell({children, active}: {
     }
 
     return <div className={`app-shell flex min-h-dvh flex-col${active === 'catalogues' ? ' md:h-dvh' : ''}`} data-page={active ?? 'home'}>
-        <header className="md:sticky md:top-0 z-40 border-b border-slate-200 bg-white">
+        <header className="z-40 mx-3 mt-2 rounded-2xl border border-slate-200 bg-white shadow-md md:sticky md:top-2 md:mx-4 md:mt-0">
             <div className="mx-auto flex max-w-360 flex-wrap items-center gap-x-8 gap-y-3 py-3">
                 <a href={localePath(locale, '/')} className="heading inline-flex items-center gap-2 text-lg font-semibold tracking-tight">
                     <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="size-9 shrink-0 text-[var(--on-surface)]">
