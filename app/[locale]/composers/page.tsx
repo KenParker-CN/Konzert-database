@@ -35,7 +35,17 @@ function renderComposerCard(entry: ComposerEntry, locale: Locale, t: Translator)
             href={localePath(locale, `/composers/${encodeURIComponent(entry.composerQid)}`)}
             className="group relative flex min-h-20 flex-col justify-between gap-2 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
         >
-            {!entry.hasCatalogue && <span className="absolute right-3 top-3 h-2 w-2 rounded-full bg-red-500"/>}
+            {!entry.hasCatalogue && (
+                <span className="absolute right-3 top-3 flex gap-1">
+                    {[0, 1, 2].map(dot => (
+                        <span
+                            key={dot}
+                            className="h-1.5 w-1.5 animate-pulse rounded-full bg-red-500"
+                            style={{animationDelay: `${dot * 200}ms`}}
+                        />
+                    ))}
+                </span>
+            )}
             <span className="heading text-base font-semibold text-slate-900">{displayName}</span>
             {entry.era && <span className="text-sm text-slate-600">{entry.era}</span>}
             <span className={entry.hasCatalogue ? 'text-xs text-slate-500' : 'text-xs text-[var(--primary)]'}>
