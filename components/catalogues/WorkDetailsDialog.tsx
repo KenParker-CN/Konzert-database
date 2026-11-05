@@ -79,7 +79,7 @@ export default function WorkDetailsDialog({
                                     title={t('works.openKvPage')}
                                     className="inline-flex shrink-0 self-center rounded opacity-60 transition-opacity hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                                 >
-                                    <Image src="/mozarteum-signet.png" alt="" width={18} height={18}/>
+                                    <Image src="/kv-favicon.png" alt="" width={18} height={18}/>
                                 </Link>
                             )}
                         </Dialog.Title>
