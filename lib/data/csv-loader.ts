@@ -428,34 +428,6 @@ async function loadComposers(): Promise<ComposerCsvEntry[]> {
     }
 }
 
-export function clearCsvCache() {
-    csvCache.clear();
-    composersCache = undefined;
-    // The snapshot never changes at runtime, but dropping it keeps "refresh"
-    // honest after someone re-runs `scripts/fetch-kv-entries.mjs`.
-    kvSnapshotCache = undefined;
-}
-
-export async function clearCatalogueCache(catalogCode: string) {
-    csvCache.delete(catalogCode);
-}
-
-/**
- * Refreshes the KV catalogue for the "refresh" button. Tries the live
- * Mozarteum API first; if that is slow or fails (it routinely exceeds the
- * 5s budget from many locations), it silently falls back to the vendored
- * snapshot instead of surfacing an error. Since the KV numbering is stable,
- * the snapshot is an acceptable source, so the button never blocks the UI.
- */
-export async function refreshKvFromApi(): Promise<void> {
-    const works = await fetchKvFromApi().catch(() => fetchKvFromSnapshot());
-    const cacheEntry = {
-        expiresAt: Date.now() + DATA_CACHE_TTL_MS,
-        request: Promise.resolve(works),
-    };
-    csvCache.set('KV', cacheEntry);
-}
-
 function parseCsvRecords<T extends Record<string, string> = Record<string, string>>(text: string): T[] {
     const records: string[][] = [];
     let record: string[] = [];

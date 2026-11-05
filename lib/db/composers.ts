@@ -103,10 +103,6 @@ export async function getComposerDirectory() {
     }))
 }
 
-export function clearCatalogueDirectoryCache() {
-    catalogueDirectoryCache = undefined
-}
-
 export async function getCatalogWorksSafe(catalogCode: string): Promise<{
     works: ComposerWork[]
     error: boolean

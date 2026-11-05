@@ -49,13 +49,10 @@
     "title": "Catalogues d’œuvres",
     "count": "{count} catalogues",
     "refreshCache": "Actualiser les données",
-    "refreshingCache": "Actualisation…",
-    "refreshCacheFailed": "Échec de l’actualisation. Veuillez réessayer.",
     "allCatalogues": "Tous les catalogues",
     "compositionList": "Liste des œuvres de {composer}",
     "eraUnknown": "Inconnu",
     "cataloguer": "Catalogueur : {name}",
-    "kvRefreshHint": "Jusqu'à ~5 s",
     "kvDataSource": "Source des données",
     "spotify": "Écouter sur Spotify",
     "reference": "Lien de référence"

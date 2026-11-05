@@ -2,7 +2,6 @@ import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
 import CatalogWorksPanel from '@/components/catalogues/CatalogWorksPanel'
 import WorksLoading from '@/components/catalogues/WorksLoading'
-import RefreshCatalogueWorksButton from '@/components/catalogues/RefreshCatalogueWorksButton'
 import CatalogueWorkspace from '@/components/catalogues/CatalogueWorkspace'
 import CatalogueCitation from '@/components/catalogues/CatalogueCitation'
 import SpotifyEmbed from '@/components/catalogues/SpotifyEmbed'
@@ -54,7 +53,6 @@ export default async function CatalogueDetailPage({params}: {params: Promise<{lo
                 <main className="min-h-full md:h-full">
                     <div className="mx-auto max-w-300 px-5 py-4 lg:px-10 lg:py-5 md:flex md:h-full md:flex-col">
                     <div className="flex flex-col gap-4 md:min-h-0 md:flex-1">
-                        {catalogCode === 'KV' && <RefreshCatalogueWorksButton catalogCode={catalogCode}/>}
                         {composer.spotify && (
                             <section className="flex min-w-0 flex-col gap-2 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
                                 <h2 className="heading wrap-break-word text-base font-semibold leading-tight tracking-tight text-slate-900">

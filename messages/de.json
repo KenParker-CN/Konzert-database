@@ -49,13 +49,10 @@
     "title": "Werkverzeichnisse",
     "count": "{count} Kataloge",
     "refreshCache": "Daten aktualisieren",
-    "refreshingCache": "Wird aktualisiert…",
-    "refreshCacheFailed": "Aktualisierung fehlgeschlagen. Bitte erneut versuchen.",
     "allCatalogues": "Alle Kataloge",
     "compositionList": "Werkliste von {composer}",
     "eraUnknown": "Unbekannt",
     "cataloguer": "Katalogisator: {name}",
-    "kvRefreshHint": "Bis zu ~5 s",
     "kvDataSource": "Datenquelle",
     "spotify": "Auf Spotify hören",
     "reference": "Referenzlink"
