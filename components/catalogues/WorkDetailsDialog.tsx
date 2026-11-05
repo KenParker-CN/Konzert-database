@@ -3,7 +3,7 @@
 import type {ReactNode} from 'react'
 import Link from 'next/link'
 import {Dialog} from '@base-ui/react/dialog'
-import {IconArrowRight, IconX} from '@tabler/icons-react'
+import {IconArrowRight, IconExternalLink, IconX} from '@tabler/icons-react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {localePath} from '@/lib/i18n/config'
@@ -68,6 +68,18 @@ export default function WorkDetailsDialog({
                                 <span className="text-base italic text-slate-500">
                                     {work.details['Subtitle']}
                                 </span>
+                            )}
+                            {catalogCode === 'KV' && work.details['ID'] && (
+                                <Link
+                                    href={`https://kv.mozarteum.at/work/${work.details['ID']}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={t('works.openKvPage')}
+                                    title={t('works.openKvPage')}
+                                    className="inline-flex shrink-0 self-center rounded text-slate-400 transition-colors hover:text-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                                >
+                                    <IconExternalLink size={16}/>
+                                </Link>
                             )}
                         </Dialog.Title>
                         <Dialog.Description className="mt-1 text-sm text-slate-500">

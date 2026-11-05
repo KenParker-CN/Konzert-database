@@ -41,6 +41,8 @@ export function getWorkDetailFields(details: Record<string, string>, catalogCode
         if (normalizedField === 'subtitle') return false
         // WikiQID is used to fetch the Wikipedia introduction, not shown as a field.
         if (normalizedField === 'wikiqid') return false
+        // The KV id is shown as an external link beside the dialog title.
+        if (catalogCode === 'KV' && normalizedField === 'id') return false
         if (catalogCode === 'Helm' && ['wotquenne', 'wq', 'helm', 'h'].includes(normalizedField)) return false
         // Kirkpatrick's numbering columns (Kk., Longo, Pestelli) are already shown
         // in the dialog header as catalogue and secondary catalogue numbers.
