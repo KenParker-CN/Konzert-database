@@ -358,7 +358,7 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
                 ? getCsvValue(work, 'Setting', 'setting')
                 : getCsvValue(work, 'Instrumentation', 'instrumentation'),
             details: Object.fromEntries(
-                Object.entries(work).filter(([field, value]) => field && !field.startsWith('_') && value && !/(sort|order)/i.test(field) && !(catalogCode === 'KV' && field === 'Section')),
+                Object.entries(work).filter(([field, value]) => field && !field.startsWith('_') && value && !/(sort|order)/i.test(field) && !(catalogCode === 'KV' && ['Section', 'instrumentation', 'Date'].includes(field))),
             ),
         };
     });
