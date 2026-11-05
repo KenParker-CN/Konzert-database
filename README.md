@@ -17,12 +17,11 @@ Other scripts: `npm run build`, `npm run start`.
 
 - Composer and work data lives in CSV files under `data/catalogues/`. They are cached in memory for five minutes per server instance.
 - The source CSVs are maintained in [konzert-public-data](https://github.com/KenParker-CN/konzert-public-data) and copied here when refreshed.
-- Mozart's KV catalogue is served from the vendored snapshot `public/kv-entries.json`. Refresh it with `node scripts/fetch-kv-entries.mjs`.
+- Mozart's KV catalogue is read from the local `data/catalogues/KV.csv`. It no longer uses the Mozarteum API.
 
 ## Maintenance scripts
 
 ```bash
-node scripts/fetch-kv-entries.mjs        # refresh public/kv-entries.json
 node scripts/find-unused-i18n-keys.mjs   # report unused keys in messages/*.json
 node scripts/prune-unused-i18n-keys.mjs  # remove them (--write to apply)
 node scripts/flatten-kv-raw.mjs          # rebuild KV-works.csv from KV-raw.json
@@ -37,7 +36,7 @@ lib/                 Data loading, database accessors, and i18n
 messages/            Translations (en, zh, fr, de)
 data/catalogues/     Catalogue CSVs
 data/meta/           Composer, genre and instrument CSVs
-public/              Static files, including the KV snapshot
+public/              Static files
 scripts/             Data and i18n maintenance scripts
 proxy.ts             Locale redirects
 ```
