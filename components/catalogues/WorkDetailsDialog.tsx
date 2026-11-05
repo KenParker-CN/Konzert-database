@@ -1,9 +1,10 @@
 'use client'
 
 import type {ReactNode} from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import {Dialog} from '@base-ui/react/dialog'
-import {IconArrowRight, IconExternalLink, IconX} from '@tabler/icons-react'
+import {IconArrowRight, IconX} from '@tabler/icons-react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {localePath} from '@/lib/i18n/config'
@@ -76,9 +77,9 @@ export default function WorkDetailsDialog({
                                     rel="noopener noreferrer"
                                     aria-label={t('works.openKvPage')}
                                     title={t('works.openKvPage')}
-                                    className="inline-flex shrink-0 self-center rounded text-slate-400 transition-colors hover:text-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                                    className="inline-flex shrink-0 self-center rounded opacity-60 transition-opacity hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                                 >
-                                    <IconExternalLink size={16}/>
+                                    <Image src="/mozarteum-signet.png" alt="" width={18} height={18}/>
                                 </Link>
                             )}
                         </Dialog.Title>
