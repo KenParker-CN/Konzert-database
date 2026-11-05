@@ -93,6 +93,8 @@
     "note": "Note",
     "germanTitle": "German title",
     "nickname": "Nickname",
+    "dateBegin": "Start date",
+    "dateEnd": "End date",
     "otherCatalogueReferences": "Other catalogue references",
     "movement": "Movement",
     "workStructure": "Work structure",

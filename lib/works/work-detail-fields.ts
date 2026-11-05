@@ -13,6 +13,8 @@ const DETAIL_LABEL_KEYS = new Map<string, string>([
     ['note', 'works.note'],
     ['german title', 'works.germanTitle'],
     ['nickname', 'works.nickname'],
+    ['date_begin', 'works.dateBegin'],
+    ['date_end', 'works.dateEnd'],
     ['other catalogue references', 'works.otherCatalogueReferences'],
     ['vocal title', 'works.vocalTitle'],
     ['tempo', 'works.tempo'],

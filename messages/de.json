@@ -134,6 +134,8 @@
     "note": "Anmerkung",
     "germanTitle": "Deutscher Titel",
     "nickname": "Beiname",
+    "dateBegin": "Beginn",
+    "dateEnd": "Ende",
     "otherCatalogueReferences": "Weitere Katalognummern",
     "movement": "Satz",
     "workStructure": "Werkstruktur",

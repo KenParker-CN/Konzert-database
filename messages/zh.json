@@ -133,6 +133,8 @@
     "note": "备注",
     "germanTitle": "德文标题",
     "nickname": "别名",
+    "dateBegin": "开始日期",
+    "dateEnd": "结束日期",
     "otherCatalogueReferences": "其他作品目录编号",
     "movement": "乐章",
     "workStructure": "作品结构",

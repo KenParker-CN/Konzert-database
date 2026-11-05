@@ -134,6 +134,8 @@
     "note": "Note",
     "germanTitle": "Titre allemand",
     "nickname": "Surnom",
+    "dateBegin": "Date de début",
+    "dateEnd": "Date de fin",
     "otherCatalogueReferences": "Autres références de catalogue",
     "movement": "Mouvement",
     "workStructure": "Structure de l’œuvre",
