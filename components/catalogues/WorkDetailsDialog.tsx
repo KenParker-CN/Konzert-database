@@ -39,10 +39,8 @@ export default function WorkDetailsDialog({
 }) {
     const {t, locale} = useI18n()
     const genreLink = useGenreLink(work.genre || '')
-    const getWorkTitle = (entry: WorkDetailsEntry) => locale === 'de'
-        ? entry.details['German title'] || entry.title
-        : entry.title
-    const detailFields = getWorkDetailFields(work.details, catalogCode, locale)
+    const getWorkTitle = (entry: WorkDetailsEntry) => entry.title
+    const detailFields = getWorkDetailFields(work.details, catalogCode)
 
     const detailFieldLabel = (field: string) => {
         const key = getWorkDetailLabelKey(field)

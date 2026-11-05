@@ -26,10 +26,9 @@ const DETAIL_LABEL_KEYS = new Map<string, string>([
 
 const FULL_WIDTH_FIELDS = new Set(['workparts', 'work structure', 'movement', 'movements', 'section', 'instrumentation', 'instrmentation', 'note', 'rec_recmd'])
 
-export function getWorkDetailFields(details: Record<string, string>, catalogCode: string | undefined, locale: Locale): [string, string][] {
+export function getWorkDetailFields(details: Record<string, string>, catalogCode: string | undefined): [string, string][] {
     return Object.entries(details).filter(([field]) => {
         const normalizedField = field.toLocaleLowerCase()
-        if (locale === 'de' && normalizedField === 'german title') return false
         if (normalizedField === 'catalogue') return false
         // Opus is already shown in the header description line.
         if (normalizedField === 'opus') return false

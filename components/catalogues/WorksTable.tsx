@@ -61,10 +61,10 @@ export default function WorksTable({
                                 rel="noopener noreferrer"
                                 className="relative z-10 w-72 shrink-0 truncate px-1.5 text-sm font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900"
                             >
-                                {locale === 'de' ? work.details['German title'] || work.title : work.title}
+                                {work.title}
                             </Link>
                         ) : (
-                            <span className="w-72 shrink-0 truncate px-1.5 text-sm text-slate-900">{locale === 'de' ? work.details['German title'] || work.title : work.title}</span>
+                            <span className="w-72 shrink-0 truncate px-1.5 text-sm text-slate-900">{work.title}</span>
                         )}
                         <span className="hidden w-28 shrink-0 justify-center px-1.5 sm:flex">
                             {work.genre && (

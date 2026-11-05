@@ -21,7 +21,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     const {locale, wikiQID} = await params
     if (!isLocale(locale)) notFound()
     const [first] = await getWorksByWikiID(wikiQID.toUpperCase())
-    const title = first ? (locale === 'de' ? first.work.details['German title'] || first.work.title : first.work.title) : undefined
+    const title = first?.work.title
     return {title: title ? `${title} · Konzert` : undefined, alternates: {canonical: `/${locale}/works/${wikiQID}`}}
 }
 
@@ -36,9 +36,7 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
     if (matches.length === 0) notFound()
 
     const {t} = await getI18n(locale)
-    const titleOf = (work: (typeof matches)[number]['work']) => locale === 'de'
-        ? work.details['German title'] || work.title
-        : work.title
+    const titleOf = (work: (typeof matches)[number]['work']) => work.title
     const [first] = matches
 
     return (
@@ -56,7 +54,7 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
 
                 {matches.map(({entry, work}) => {
                     const composerName = entry.composerAliases[locale] || entry.composerName
-                    const fields = getWorkDetailFields(work.details, entry.catalogue, locale)
+                    const fields = getWorkDetailFields(work.details, entry.catalogue)
                     return (
                         <section key={`${entry.catalogue}-${work.workId}`} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">

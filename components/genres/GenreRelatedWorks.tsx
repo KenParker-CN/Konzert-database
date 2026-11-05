@@ -36,7 +36,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
     const allRows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
         key: `${group.catalogue}-${work.workId}`,
         work,
-        title: locale === 'de' ? work.details['German title'] || work.title : work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
+        title: work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
         composerNameSort: group.composerNameSort,
         composerHref: localePath(locale, `/composers/${encodeURIComponent(group.composerQid)}`),
         catalogue: group.catalogue,
