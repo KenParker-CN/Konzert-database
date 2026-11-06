@@ -46,9 +46,10 @@ export default async function InstrumentsPage({params, searchParams}: {
             <main className="min-h-full">
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
                     <header className="mb-8">
-                        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-600">{t('navigation.instruments')}</p>
-                        <h1 className="heading mt-2 text-3xl font-semibold tracking-tight text-slate-950">{t('instruments.title')}</h1>
-                        <p className="mt-2 text-sm font-medium text-slate-600">{t('instruments.count', {count: instrumentCount})}</p>
+                        <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950">
+                            {t('instruments.title')}
+                            <span className="ml-2 text-xl font-medium text-slate-500">({instrumentCount})</span>
+                        </h1>
                     </header>
                     {groups.length > 0 && (
                         <nav aria-label={t('instruments.title')} className="mb-8 flex flex-wrap gap-2 border-b border-slate-200">
