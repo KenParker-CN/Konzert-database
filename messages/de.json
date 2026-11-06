@@ -25,7 +25,8 @@
     "count": "{count} Instrumente",
     "back": "Alle Instrumente",
     "showing": "{shown} von {total} angezeigt",
-    "seeAlso": "Siehe auch"
+    "seeAlso": "Siehe auch",
+    "details": {"category": "Kategorie", "type": "Typ", "mechanism": "Mechanismus", "relation": "Beziehung"}
   },
   "theme": {
     "label": "Design",

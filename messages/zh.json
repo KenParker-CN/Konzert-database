@@ -25,7 +25,8 @@
     "count": "{count} 种乐器",
     "back": "全部乐器",
     "showing": "显示 {shown} / {total}",
-    "seeAlso": "另见"
+    "seeAlso": "另见",
+    "details": {"category": "分类", "type": "类型", "mechanism": "发声机制", "relation": "关系"}
   },
   "theme": {
     "label": "主题",

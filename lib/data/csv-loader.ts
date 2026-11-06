@@ -278,9 +278,17 @@ export type InstrumentCsvEntry = {
     wikiQID: string;
     name: string;
     abbr: string;
+    aliases: string[];
+    category: string;
+    categoryDim: string;
+    familyWikiQID: string;
     parentName: string;
     familyName: string;
     familyRootName: string;
+    relation: string;
+    isFamilyRoot: boolean;
+    mechanismTop: string;
+    mechanismSub: string;
     aliasZh: string;
     aliasFr: string;
     aliasDe: string;
@@ -294,9 +302,17 @@ export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
         wikiQID: row.WikiQID ?? '',
         name: row.name,
         abbr: row.abbr_std === INSTRUMENT_ABBR_PLACEHOLDER ? '' : row.abbr_std ?? '',
+        aliases: (row.aliases ?? '').split(';').map(alias => alias.trim()).filter(Boolean),
+        category: row.category ?? '',
+        categoryDim: row.category_dim ?? '',
+        familyWikiQID: row.family_WikiQID ?? '',
         parentName: row.parentName ?? '',
         familyName: row.familyName ?? '',
         familyRootName: row.familyRootName ?? '',
+        relation: row.relation ?? '',
+        isFamilyRoot: row.is_family_root === 'TRUE',
+        mechanismTop: row.mechanism_top ?? '',
+        mechanismSub: row.mechanism_sub ?? '',
         aliasZh: row.nameZH ?? '',
         aliasFr: row.nameFR ?? '',
         aliasDe: row.nameDE ?? '',

@@ -25,7 +25,8 @@
     "count": "{count} instruments",
     "back": "All instruments",
     "showing": "Showing {shown} of {total}",
-    "seeAlso": "See also"
+    "seeAlso": "See also",
+    "details": {"category": "Category", "type": "Type", "mechanism": "Mechanism", "relation": "Relation"}
   },
   "home": {
     "recentlyUpdated": "Recently updated catalogues",

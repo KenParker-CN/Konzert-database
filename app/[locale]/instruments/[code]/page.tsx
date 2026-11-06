@@ -26,11 +26,17 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
     if (!ref) notFound()
 
     const related = ref.relatedAbbrev ? await getInstrumentRef(ref.relatedAbbrev) : undefined
-
     const [{t}, relatedWorkGroups] = await Promise.all([
         getI18n(locale),
         getInstrumentRelatedWorkGroups(ref.abbrev, locale),
     ])
+
+    const details = [
+        [t('instruments.details.category'), ref.details.category],
+        [t('instruments.details.type'), ref.details.type],
+        [t('instruments.details.mechanism'), ref.details.mechanism],
+        [t('instruments.details.relation'), ref.details.relation],
+    ].filter(([, value]) => value)
 
     return (
         <AppShell active="instruments">
@@ -50,6 +56,16 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
                                     {related.name[locale]}
                                 </Link>
                             </p>
+                        )}
+                        {details.length > 0 && (
+                            <dl className="mt-6 grid gap-x-6 gap-y-3 text-sm sm:grid-cols-2">
+                                {details.map(([label, value]) => (
+                                    <div key={label}>
+                                        <dt className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">{label}</dt>
+                                        <dd className="mt-1 text-slate-800">{value}</dd>
+                                    </div>
+                                ))}
+                            </dl>
                         )}
                         <GenreIntroduction wikiID={ref.wikiID} locale={locale}/>
                     </article>

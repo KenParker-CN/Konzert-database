@@ -1,12 +1,19 @@
 import 'server-only'
 
 import {getCatalogueDirectory, getCatalogWorksSafe, type ComposerAliases, type GenreRelatedWorkGroup} from '@/lib/db/composers'
-import {getInstrumentRows} from '@/lib/data/csv-loader'
+import {getInstrumentRows, type InstrumentCsvEntry} from '@/lib/data/csv-loader'
 import type {Locale} from '@/lib/i18n/config'
 
 const INSTRUMENT_INDEX_CACHE_TTL_MS = 5 * 60 * 1000
 
 type Names = Record<Locale, string>
+
+export type InstrumentDetails = {
+    category: string
+    type: string
+    mechanism: string
+    relation: string
+}
 
 export type InstrumentRef = {
     abbrev: string
@@ -15,6 +22,7 @@ export type InstrumentRef = {
     familyName?: Names
     wikiID?: string
     relatedAbbrev?: string
+    details: InstrumentDetails
 }
 
 type InstrumentFamily = {
@@ -40,7 +48,6 @@ type IndexedWorkGroup = Omit<GenreRelatedWorkGroup, 'composerName'> & {
 type InstrumentIndex = Map<string, IndexedWorkGroup[]>
 
 const NAME_ALIASES: Record<string, string> = {
-    cello: 'vlc',
     violoncello: 'vlc',
     contrabass: 'db',
     cor: 'hn',
@@ -99,12 +106,18 @@ function findInstrumentAbbrevs(matcher: Matcher, instrumentation: string): Set<s
     return found
 }
 
-function buildMatcher(rows: Array<{name: string; abbr: string}>): Matcher {
+function buildMatcher(rows: InstrumentCsvEntry[]): Matcher {
     const matcher: Matcher = {abbrevs: new Set(), byName: new Map()}
     for (const row of rows) {
         if (!row.abbr) continue
         matcher.abbrevs.add(row.abbr)
         matcher.byName.set(normalizeName(row.name), row.abbr)
+    }
+    for (const row of rows) {
+        for (const alias of row.aliases) {
+            const key = normalizeName(alias)
+            if (row.abbr && !matcher.byName.has(key)) matcher.byName.set(key, row.abbr)
+        }
     }
     return matcher
 }
@@ -157,9 +170,19 @@ function uniformNames(text: string): Names {
     return {en: text, zh: text, fr: text, de: text}
 }
 
+function instrumentDetails(row: InstrumentCsvEntry): InstrumentDetails {
+    return {
+        category: row.category,
+        type: row.categoryDim,
+        mechanism: [row.mechanismTop, row.mechanismSub].filter(Boolean).join(' · '),
+        relation: row.relation === 'family_root' || row.relation === 'standalone' ? '' : row.relation,
+    }
+}
+
 async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
     const rows = await getInstrumentRows()
     const rowByName = new Map(rows.map(row => [row.name.toLocaleLowerCase('en'), row]))
+    const familyRootRows = new Map(rows.filter(row => row.isFamilyRoot && row.familyName).map(row => [row.familyName, row]))
     const refs = new Map<string, InstrumentRef>()
     const families = new Map<string, InstrumentFamily>()
     const directory: DirectoryEntry[] = []
@@ -172,6 +195,7 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
             name: localizedNames(row),
             wikiID: row.wikiQID || undefined,
             relatedAbbrev: rowByName.get(row.parentName.toLocaleLowerCase('en'))?.abbr || undefined,
+            details: instrumentDetails(row),
         }
         refs.set(row.abbr, ref)
 
@@ -183,11 +207,11 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
         const familyKey = row.familyName.toLocaleLowerCase('en').replace(/\s+/g, '-')
         let family = families.get(familyKey)
         if (!family) {
-            const familyRow = rowByName.get(row.familyRootName.toLocaleLowerCase('en'))
+            const familyRow = familyRootRows.get(row.familyName) ?? rowByName.get(row.familyRootName.toLocaleLowerCase('en'))
             family = {
                 key: familyKey,
                 name: familyRow ? localizedNames(familyRow) : uniformNames(row.familyName),
-                wikiID: familyRow?.wikiQID || undefined,
+                wikiID: row.familyWikiQID || familyRow?.wikiQID || undefined,
                 refs: [],
             }
             families.set(familyKey, family)
