@@ -108,7 +108,7 @@ export default function AppShell({children, active}: {
                 </a>
                 <nav aria-label={t('navigation.catalogues')} className="flex flex-1 flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-600">
                     {links.map(([id, key, href, icon]) =>
-                        <a key={id} href={localePath(locale, href)}
+                        <a key={id} href={localePath(locale, href)} aria-label={t(`navigation.${key}`)}
                            className={`group inline-flex items-center justify-center rounded-md ${active === id ? 'bg-blue-50 text-blue-600' : 'text-slate-600 hover:bg-slate-100'}${(id === 'instruments' || id === 'genres') && active !== id ? ' max-sm:hidden' : ''}`}>
                             <Tooltip>
                                 <TooltipTrigger className="inline-flex size-9 items-center justify-center">
