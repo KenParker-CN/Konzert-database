@@ -336,13 +336,11 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
 
         return {
             workId: Number(work._workId) || index + 1,
-            sort: catalogCode === 'KV'
-                ? work._workId
-                : isKirkpatrick
-                    ? getCsvValue(work, 'SORT_Kk')
-                    : catalogCode === 'Ratner'
-                        ? getCsvValue(work, 'SORT_R')
-                        : getCsvValue(work, 'SORT', 'sort'),
+            sort: isKirkpatrick
+                ? getCsvValue(work, 'SORT_Kk')
+                : catalogCode === 'Ratner'
+                    ? getCsvValue(work, 'SORT_R')
+                    : getCsvValue(work, 'SORT', 'sort'),
             catalogue: getCatalogueNumber(work, catalogCode),
             opus: isOpusCatalogue
                 ? ''
