@@ -74,6 +74,7 @@
   "genrePages": {
     "title": "Musikgattungen",
     "description": "Entdecken Sie Formen und Traditionen der klassischen Musik.",
+    "relatedInstruments": "Verwandte Instrumente",
     "vocal": "Vokal",
     "instrumental": "Instrumental",
     "stage": "Bühne",

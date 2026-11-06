@@ -74,6 +74,7 @@
   "genrePages": {
     "title": "Genres musicaux",
     "description": "Découvrez les formes et les traditions de la musique classique.",
+    "relatedInstruments": "Instruments associés",
     "vocal": "Vocal",
     "instrumental": "Instrumental",
     "stage": "Scène",

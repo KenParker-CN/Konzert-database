@@ -385,6 +385,7 @@ export type GenreCsvEntry = {
     name: string
     typeOf: string
     nameZh: string
+    relatedInstruments: string[]
     segments: string[]
 }
 
@@ -396,6 +397,7 @@ export async function getGenreCsvEntries(): Promise<GenreCsvEntry[]> {
         name: row.name,
         typeOf: row.parent_name ?? '',
         nameZh: row.nameZH ?? '',
+        relatedInstruments: (row.related_instruments ?? '').split(',').map(name => name.trim()).filter(Boolean),
     }))
     const byName = new Map(rows.map(row => [row.name, row]))
     return rows.map(row => {

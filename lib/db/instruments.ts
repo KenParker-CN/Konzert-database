@@ -258,6 +258,11 @@ export async function getInstrumentRef(abbrev: string): Promise<InstrumentRef | 
     return (await getInstrumentCatalog()).refs.get(abbrev)
 }
 
+export async function getInstrumentRefsByName(names: string[]): Promise<InstrumentRef[]> {
+    const wanted = new Set(names.map(name => name.toLocaleLowerCase('en')))
+    return [...(await getInstrumentCatalog()).refs.values()].filter(ref => wanted.has(ref.name.en.toLocaleLowerCase('en')))
+}
+
 export async function getInstrumentFamilies(locale: Locale) {
     const [index, catalog] = await Promise.all([getInstrumentIndex(), getInstrumentCatalog()])
     return catalog.families.flatMap(family => {
