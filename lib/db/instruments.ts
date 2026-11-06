@@ -213,7 +213,7 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
             const familyRow = familyRootRows.get(row.familyName) ?? rowByName.get(row.familyRootName.toLocaleLowerCase('en'))
             family = {
                 key: familyKey,
-                name: familyRow ? localizedNames(familyRow) : uniformNames(row.familyName),
+                name: familyRow ? {...localizedNames(familyRow), zh: `${familyRow.aliasZh || familyRow.name}家族`} : uniformNames(row.familyName),
                 category: familyRow?.category || row.category,
                 wikiID: row.familyWikiQID || familyRow?.wikiQID || undefined,
                 refs: [],
