@@ -1,52 +1,52 @@
-category,category_dim,abbr_std,WikiQID,name,aliases,nameZH,nameFR,nameDE,family_WikiQID,familyName,parentName,relation,is_family_root,familyRootName,family_size,has_children,depth,ancestor_names,mechanism,mechanism_top,mechanism_sub
-Woodwind,ensemble,fag,,Bassoon,,巴松管,,Faggot,,Bassoon family,,family_root,TRUE,Bassoon,2,TRUE,0,,aerophone,aerophone,
-Woodwind,ensemble,cl,,Clarinet,,单簧管,,Klarinet,,Clarinet family,,family_root,TRUE,Clarinet,5,TRUE,0,,aerophone,aerophone,
-Woodwind,ensemble,fl,,Flute,,长笛,,Flöte,,Flute family,,family_root,TRUE,Flute,3,TRUE,0,,aerophone,aerophone,
-Brass,ensemble,cor,,Horn,French Horn,,Cor,,,Horn family,,family_root,TRUE,Horn,2,TRUE,0,,aerophone,aerophone,
-Woodwind,ensemble,ob,,Oboe,,双簧管,,,,Oboe family,,family_root,TRUE,Oboe,3,TRUE,0,,aerophone,aerophone,
-Woodwind,ensemble,rec,,Recorder,,竖笛,Flûte a bèc,,,Recorder family,,family_root,TRUE,Recorder,1,FALSE,0,,aerophone,aerophone,
-Brass,ensemble,trb,,Trombone,,,,,,Trombone family,,family_root,TRUE,Trombone,3,TRUE,0,,aerophone,aerophone,
-Brass,ensemble,tpt,,Trumpet,,,,,,Trumpet family,,family_root,TRUE,Trumpet,3,TRUE,0,,aerophone,aerophone,
-Woodwind,ensemble,sax,,Saxophone,,萨克斯,,,,,,standalone,TRUE,Saxophone,1,FALSE,0,,aerophone,aerophone,
-Brass,ensemble,cornett,,Cornett,,,,,,,,standalone,TRUE,Cornett,1,FALSE,0,,aerophone,aerophone,
-Brass,ensemble,tub,,Tuba,,,,,,,,standalone,TRUE,Tuba,1,FALSE,0,,aerophone,aerophone,
-Brass,ensemble,serp,,Serpent,,蛇管,,,,,,standalone,TRUE,Serpent,1,FALSE,0,,aerophone,aerophone,
-Keyboard,keying,org,,Organ,,管风琴,Orgue,,,,,standalone,TRUE,Organ,1,FALSE,0,,aerophone,aerophone,
-Percussion,ensemble,timp,,Timpani,,,,,,,,standalone,TRUE,Timpani,1,FALSE,0,,membranophone,membranophone,
-Percussion,ensemble,BD,,Bass Drum,,,,,,,,standalone,TRUE,Bass Drum,1,FALSE,0,,membranophone,membranophone,
-Percussion,ensemble,SD,,Snare Drum,,,,,,,,standalone,TRUE,Snare Drum,1,FALSE,0,,membranophone,membranophone,
-Percussion,ensemble,tomtom,,Tom-tom,,,,,,,,standalone,TRUE,Tom-tom,1,FALSE,0,,membranophone,membranophone,
-Percussion,ensemble,bongo,,Bongos,,,,,,,,standalone,TRUE,Bongos,1,FALSE,0,,membranophone,membranophone,
-Percussion,ensemble,cym,,Cymbal,,,,,,,,standalone,TRUE,Cymbal,1,FALSE,0,,idiophone,idiophone,
-Percussion,ensemble,tri,,Triangle,,,,,,,,standalone,TRUE,Triangle,1,FALSE,0,,idiophone,idiophone,
-Percussion,ensemble,tamtam,,Tam-tam,,,,,,,,standalone,TRUE,Tam-tam,1,FALSE,0,,idiophone,idiophone,
-Percussion,ensemble,cast,,Castanets,,,,,,,,standalone,TRUE,Castanets,1,FALSE,0,,idiophone,idiophone,
-Percussion,ensemble,glsp,,Glockenspiel,,,,,,,,standalone,TRUE,Glockenspiel,1,FALSE,0,,idiophone,idiophone,
-Percussion,ensemble,xyl,,Xylophone,,,,,,,,standalone,TRUE,Xylophone,1,FALSE,0,,idiophone,idiophone,
-Percussion,ensemble,vib,,Vibraphone,,,,,,,,standalone,TRUE,Vibraphone,1,FALSE,0,,idiophone,idiophone,
-Percussion,ensemble,mar,,Marimba,,马林巴,,,,,,standalone,TRUE,Marimba,1,FALSE,0,,idiophone,idiophone,
-Woodwind,ensemble,cbn,,Contrabassoon,,倍低音巴松管,,Kontrafaggot,,Bassoon family,Bassoon,octave,FALSE,Bassoon,2,FALSE,1,Bassoon,aerophone,aerophone,
-Woodwind,ensemble,bcl,,Bass Clarinet,,低音单簧管,,,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
-Woodwind,ensemble,ccl,,Contrabass Clarinet,,倍低音单簧管,,,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
-Woodwind,ensemble,eclar,,Sopranino Clarinet,,,,,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
-Woodwind,ensemble,—,,Soprano Clarinet,,,,,,Clarinet family,Clarinet,alias,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
-Woodwind,ensemble,picc,,Piccolo,,短笛,,,,Flute family,Flute,octave,FALSE,Flute,3,FALSE,1,Flute,aerophone,aerophone,
-Woodwind,ensemble,—,,Transverse Flute,,横笛,Flûte traversière,,,Flute family,Flute,,FALSE,Flute,3,FALSE,1,Flute,aerophone,aerophone,
-Brass,ensemble,nathorn,,Natural Horn,,,,,,Horn family,Horn,predecessor,FALSE,Horn,2,FALSE,1,Horn,aerophone,aerophone,
-Woodwind,ensemble,corA,,English Horn,,英国管,,,,Oboe family,Oboe,variant,FALSE,Oboe,3,FALSE,1,Oboe,aerophone,aerophone,
-Woodwind,ensemble,obda,,Oboe d'Amore,,爱之双簧管,,,,Oboe family,Oboe,variant,FALSE,Oboe,3,FALSE,1,Oboe,aerophone,aerophone,
-Brass,ensemble,atrb,,Alto Trombone,,,,,,Trombone family,Trombone,variant,FALSE,Trombone,3,FALSE,1,Trombone,aerophone,aerophone,
-Brass,ensemble,btrb,,Bass Trombone,,,,,,Trombone family,Trombone,variant,FALSE,Trombone,3,FALSE,1,Trombone,aerophone,aerophone,
-Brass,ensemble,natpt,,Natural Trumpet,,,,,,Trumpet family,Trumpet,predecessor,FALSE,Trumpet,3,FALSE,1,Trumpet,aerophone,aerophone,
-Brass,ensemble,cornet,,Cornet,,,,,,Trumpet family,Trumpet,variant,FALSE,Trumpet,3,FALSE,1,Trumpet,aerophone,aerophone,
-Strings,ensemble,vdg,,Bass Viol,,低音维奥尔琴,,,,Viol family,,family_root,TRUE,Bass Viol,2,TRUE,0,,chordophone-bowed,chordophone,bowed
-Strings,ensemble,vl,,Violin,,小提琴,,,,Violin family,,family_root,TRUE,Violin,4,TRUE,0,,chordophone-bowed,chordophone,bowed
-Strings,ensemble,vda,,Viola d'Amore,,爱之维奥尔琴,,,,Viol family,Bass Viol,variant,FALSE,Bass Viol,2,FALSE,1,Bass Viol,chordophone-bowed,chordophone,bowed
-Strings,ensemble,vla,,Viola,,中提琴,,,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed
-Strings,ensemble,vlc,,Violoncello,Cello,大提琴,Violoncelle,,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed
-Strings,ensemble,cb,,Double Bass,,低音提琴,,,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed
-Keyboard,keying,hpd,,Harpsichord,,羽管键琴,Clavecin,Cemablo,,,,standalone,TRUE,Harpsichord,1,FALSE,0,,chordophone-plucked,chordophone,plucked
-Keyboard,keying,pno,,Piano,,钢琴,,,,,,family_root,TRUE,Piano,2,TRUE,0,,chordophone-struck,chordophone,struck
-Keyboard,keying,clav,,Clavichord,,,,,,,,standalone,TRUE,Clavichord,1,FALSE,0,,chordophone-struck,chordophone,struck
-Keyboard,keying,cel,,Celesta,,,,,,,,standalone,TRUE,Celesta,1,FALSE,0,,idiophone-struck,idiophone,struck
-Keyboard,keying,fp,,Fortepiano,,古钢琴,,,,,Piano,predecessor,FALSE,Piano,2,FALSE,1,Piano,chordophone-struck,chordophone,struck
+category,category_dim,abbr_std,WikiQID,name,aliases,nameZH,nameFR,nameDE,family_WikiQID,familyName,parentName,relation,is_family_root,familyRootName,family_size,has_children,depth,ancestor_names,mechanism,mechanism_top,mechanism_sub,sloganZH,sloganEN
+Woodwind,ensemble,fag,,Bassoon,,巴松管,Basson,Fagott,,Bassoon family,,family_root,TRUE,Bassoon,2,TRUE,0,,aerophone,aerophone,,木管里最深的一口气，藏在簧片里。,"The deepest breath in the woodwinds, kept inside a reed."
+Woodwind,ensemble,cl,,Clarinet,,单簧管,Clarinette,Klarinette,,Clarinet family,,family_root,TRUE,Clarinet,5,TRUE,0,,aerophone,aerophone,,一根簧片，把呼吸削成月光。,"One reed, paring breath into moonlight."
+Woodwind,ensemble,fl,,Flute,,长笛,Flûte,Flöte,,Flute family,,family_root,TRUE,Flute,3,TRUE,0,,aerophone,aerophone,,气息穿过银色的空，只留下一条线。,Breath walks through silver emptiness and leaves a single line.
+Brass,ensemble,cor,,Horn,French Horn,圆号,Cor,Horn,,Horn family,,family_root,TRUE,Horn,2,TRUE,0,,aerophone,aerophone,,金属学着人声，慢慢变暖。,"Metal learning a human voice, warming as it learns."
+Woodwind,ensemble,ob,,Oboe,,双簧管,Hautbois,Oboe,,Oboe family,,family_root,TRUE,Oboe,3,TRUE,0,,aerophone,aerophone,,芦苇的疼，被吹成清亮的刀口。,"The reed's ache, blown into a bright edge."
+Woodwind,ensemble,rec,,Recorder,,竖笛,Flûte à bec,Blockflöte,,Recorder family,,family_root,TRUE,Recorder,1,FALSE,0,,aerophone,aerophone,,一支木管，从教堂的窗格漏下来。,"A wooden pipe, leaking through the church window."
+Brass,ensemble,trb,,Trombone,,长号,Trombone,Posaune,,Trombone family,,family_root,TRUE,Trombone,3,TRUE,0,,aerophone,aerophone,,滑管推出去，低音就有了重量。,"Push the slide, and the low end gains weight."
+Brass,ensemble,tpt,,Trumpet,,小号,Trompette,Trompete,,Trumpet family,,family_root,TRUE,Trumpet,3,TRUE,0,,aerophone,aerophone,,一声竖直的亮，把屋顶掀开。,A vertical brightness that lifts the roof.
+Woodwind,ensemble,sax,,Saxophone,,萨克斯,Saxophone,Saxophon,,,,standalone,TRUE,Saxophone,1,FALSE,0,,aerophone,aerophone,,锥形的管，装着城市的夜。,A conical tube holding the city's night.
+Brass,ensemble,cornett,,Cornett,,科尔内管,Cornet à bouquin,Zink,,,,standalone,TRUE,Cornett,1,FALSE,0,,aerophone,aerophone,,木头做成的小号，吹出文艺复兴的尖顶。,"A trumpet carved from wood, sounding the Renaissance spire."
+Brass,ensemble,tub,,Tuba,,大号,Tuba,Tuba,,,,standalone,TRUE,Tuba,1,FALSE,0,,aerophone,aerophone,,低到能当地基，声音是石头做的。,So low it serves as foundation; its voice is made of stone.
+Brass,ensemble,serp,,Serpent,,蛇管,Serpent,Serpent,,,,standalone,TRUE,Serpent,1,FALSE,0,,aerophone,aerophone,,一条皮包骨的蛇，爬过教堂的低音。,"A serpent of leather and bone, crawling through the church bass."
+Keyboard,keying,org,,Organ,,管风琴,Orgue,Orgel,,,,standalone,TRUE,Organ,1,FALSE,0,,aerophone,aerophone,,整座教堂，从一根管子开始呼吸。,"A whole church, breathing through one pipe."
+Percussion,ensemble,timp,,Timpani,,定音鼓,Timbales,Pauken,,,,standalone,TRUE,Timpani,1,FALSE,0,,membranophone,membranophone,,皮面上的雷，被调成一个音。,"Thunder on skin, tuned to a single pitch."
+Percussion,ensemble,BD,,Bass Drum,,大鼓,Grosse caisse,Große Trommel,,,,standalone,TRUE,Bass Drum,1,FALSE,0,,membranophone,membranophone,,心跳放平在地上，谁都得跟着走。,A heartbeat laid on the floor; everyone must follow.
+Percussion,ensemble,SD,,Snare Drum,,小鼓,Caisse claire,Kleine Trommel,,,,standalone,TRUE,Snare Drum,1,FALSE,0,,membranophone,membranophone,,两根槌，一场急雨。,"Two sticks, one sudden rain."
+Percussion,ensemble,tomtom,,Tom-tom,,嗵鼓,Tom,Tomtom,,,,standalone,TRUE,Tom-tom,1,FALSE,0,,membranophone,membranophone,,没有音高的雷，滚过去就散了。,Pitchless thunder that rolls past and is gone.
+Percussion,ensemble,bongo,,Bongos,,邦戈鼓,Bongos,Bongos,,,,standalone,TRUE,Bongos,1,FALSE,0,,membranophone,membranophone,,手掌大的鼓，装着热带的急。,"Drums the size of a palm, holding a tropical hurry."
+Percussion,ensemble,cym,,Cymbal,,钹,Cymbales,Becken,,,,standalone,TRUE,Cymbal,1,FALSE,0,,idiophone,idiophone,,两片金属一撞，光被劈开。,"Two metals strike, and the light splits."
+Percussion,ensemble,tri,,Triangle,,三角铁,Triangle,Triangel,,,,standalone,TRUE,Triangle,1,FALSE,0,,idiophone,idiophone,,最小的金属，最长的一声。,"The smallest metal, the longest ring."
+Percussion,ensemble,tamtam,,Tam-tam,,大锣,Tam-tam,Tamtam,,,,standalone,TRUE,Tam-tam,1,FALSE,0,,idiophone,idiophone,,敲一记，然后让余音自己走完。,"One stroke, then let the tail walk it out."
+Percussion,ensemble,cast,,Castanets,,响板,Castagnettes,Kastagnetten,,,,standalone,TRUE,Castanets,1,FALSE,0,,idiophone,idiophone,,两块木头，替身体说话。,Two pieces of wood speaking for the body.
+Percussion,ensemble,glsp,,Glockenspiel,,钟琴,Glockenspiel,Glockenspiel,,,,standalone,TRUE,Glockenspiel,1,FALSE,0,,idiophone,idiophone,,星星落在钢条上，还没学会变暗。,Stars landed on steel bars and never learned to darken.
+Percussion,ensemble,xyl,,Xylophone,,木琴,Xylophone,Xylophon,,,,standalone,TRUE,Xylophone,1,FALSE,0,,idiophone,idiophone,,木头也会发亮，只要敲得够快。,"Wood can shine too, if struck fast enough."
+Percussion,ensemble,vib,,Vibraphone,,颤音琴,Vibraphone,Vibraphon,,,,standalone,TRUE,Vibraphone,1,FALSE,0,,idiophone,idiophone,,金属学会了呼吸，音就活了。,"Metal learned to breathe, and the note came alive."
+Percussion,ensemble,mar,,Marimba,,马林巴,Marimba,Marimba,,,,standalone,TRUE,Marimba,1,FALSE,0,,idiophone,idiophone,,木头的低音，带着雨林的湿。,"A wooden bass, still damp from the rainforest."
+Woodwind,ensemble,cbn,,Contrabassoon,,倍低音巴松管,Contrebasson,Kontrafagott,,Bassoon family,Bassoon,octave,FALSE,Bassoon,2,FALSE,1,Bassoon,aerophone,aerophone,,巴松再往下走一步，听见了地板。,The bassoon takes one step lower and hears the floor.
+Woodwind,ensemble,bcl,,Bass Clarinet,,低音单簧管,Clarinette basse,Bassklarinette,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,,单簧管的影子，也学会了唱歌。,"The clarinet's shadow, taught to sing."
+Woodwind,ensemble,ccl,,Contrabass Clarinet,,倍低音单簧管,Clarinette contrebasse,Kontrabassklarinette,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,,暗到几乎不属于管弦乐。,So dark it almost refuses the orchestra.
+Woodwind,ensemble,eclar,,Sopranino Clarinet,,高音单簧管,Clarinette sopranino,Sopranino-Klarinette,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,,单簧管踮起脚，声音细成一根丝。,"The clarinet on tiptoe, thinning to a thread."
+Woodwind,ensemble,—,,Soprano Clarinet,,标准单簧管,Clarinette soprano,Sopranklarinette,,Clarinet family,Clarinet,alias,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,,单簧管本来的尺寸，其余都是对它的加减。,The clarinet at its own size; everything else is an adjustment.
+Woodwind,ensemble,picc,,Piccolo,,短笛,Piccolo,Piccoloflöte,,Flute family,Flute,octave,FALSE,Flute,3,FALSE,1,Flute,aerophone,aerophone,,长笛丢掉了低处，只剩一线高。,The flute dropped its low end and kept one high thread.
+Woodwind,ensemble,—,,Transverse Flute,,横笛,Flûte traversière,Traversflöte,,Flute family,Flute,predecessor,FALSE,Flute,3,FALSE,1,Flute,aerophone,aerophone,,巴洛克的那一支，木头还没有变成银。,"The Baroque one, before wood turned to silver."
+Brass,ensemble,nathorn,,Natural Horn,,自然圆号,Cor naturel,Naturhorn,,Horn family,Horn,predecessor,FALSE,Horn,2,FALSE,1,Horn,aerophone,aerophone,,没有活塞，只有泛音和一只手。,No valves: only overtones and one hand.
+Woodwind,ensemble,corA,,English Horn,,英国管,Cor anglais,Englischhorn,,Oboe family,Oboe,variant,FALSE,Oboe,3,FALSE,1,Oboe,aerophone,aerophone,,双簧管走低五度，声音染上暮色。,"The oboe a fifth lower, its voice stained with dusk."
+Woodwind,ensemble,obda,,Oboe d'Amore,,爱之双簧管,Hautbois d'amour,Oboe d'amore,,Oboe family,Oboe,variant,FALSE,Oboe,3,FALSE,1,Oboe,aerophone,aerophone,,名字里就有爱，音色还要更软。,Love is already in the name; the tone softer still.
+Brass,ensemble,atrb,,Alto Trombone,,中音长号,Trombone alto,Altposaune,,Trombone family,Trombone,variant,FALSE,Trombone,3,FALSE,1,Trombone,aerophone,aerophone,,长号站高一点，线条更清。,"The trombone standing higher, its line clearer."
+Brass,ensemble,btrb,,Bass Trombone,,低音长号,Trombone basse,Bassposaune,,Trombone family,Trombone,variant,FALSE,Trombone,3,FALSE,1,Trombone,aerophone,aerophone,,同一副滑管，只管往下沉。,"The same slide, only sinking."
+Brass,ensemble,natpt,,Natural Trumpet,,自然小号,Trompette naturelle,Naturtrompete,,Trumpet family,Trumpet,predecessor,FALSE,Trumpet,3,FALSE,1,Trumpet,aerophone,aerophone,,只有泛音，所以每一个音都算数。,"Overtones only, so every note counts."
+Brass,ensemble,cornet,,Cornet,,短号,Cornet à pistons,Kornett,,Trumpet family,Trumpet,variant,FALSE,Trumpet,3,FALSE,1,Trumpet,aerophone,aerophone,,小号换了一张圆润的嘴，把锋利收起来。,The trumpet with a rounder mouth; the edge put away.
+Strings,ensemble,vdg,,Bass Viol,,低音维奥尔琴,Viole de gambe,Bassgambe,,Viol family,,family_root,TRUE,Bass Viol,2,TRUE,0,,chordophone-bowed,chordophone,bowed,六根弦，有品，比提琴更早。,"Six strings, fretted, older than the violin."
+Strings,ensemble,vl,,Violin,,小提琴,Violon,Violine,,Violin family,,family_root,TRUE,Violin,4,TRUE,0,,chordophone-bowed,chordophone,bowed,四根弦，把人声拉成一条向上的线。,"Four strings, drawing the human voice upward."
+Strings,ensemble,vda,,Viola d'Amore,,爱之维奥尔琴,Viole d'amour,Viola d'amore,,Viol family,Bass Viol,variant,FALSE,Bass Viol,2,FALSE,1,Bass Viol,chordophone-bowed,chordophone,bowed,共鸣弦在暗处替它回声。,Sympathetic strings echo for it in the dark.
+Strings,ensemble,vla,,Viola,,中提琴,Alto,Bratsche,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed,不高不低，刚好是内声部的良心。,Neither high nor low: the inner voice's conscience.
+Strings,ensemble,vlc,,Violoncello,Cello,大提琴,Violoncelle,Violoncello,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed,木头贴近胸口，声音就有了体温。,"Wood close to the chest, and the tone takes on body heat."
+Strings,ensemble,cb,,Double Bass,,低音提琴,Contrebasse,Kontrabass,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed,站在最下面，替整个乐团承受重量。,"Standing at the bottom, carrying the weight for everyone."
+Keyboard,keying,hpd,,Harpsichord,,羽管键琴,Clavecin,Cembalo,,,,standalone,TRUE,Harpsichord,1,FALSE,0,,chordophone-plucked,chordophone,plucked,一根羽毛拨过去，声音不能变软。,A quill plucks the string; the sound cannot soften.
+Keyboard,keying,pno,,Piano,,钢琴,Piano,Klavier,,,,family_root,TRUE,Piano,2,TRUE,0,,chordophone-struck,chordophone,struck,一台机器，学会了模仿雨。,A machine that learned to imitate rain.
+Keyboard,keying,clav,,Clavichord,,翼琴,Clavicorde,Clavichord,,,,standalone,TRUE,Clavichord,1,FALSE,0,,chordophone-struck,chordophone,struck,指头压下去，弦才肯发声，最轻的琴。,The string answers only under finger pressure: the quietest keyboard.
+Keyboard,keying,cel,,Celesta,,钢片琴,Célesta,Celesta,,,,standalone,TRUE,Celesta,1,FALSE,0,,idiophone-struck,idiophone,struck,键盘下面不是弦，是一片会唱的钢。,"Under the keys, no strings — only steel that sings."
+Keyboard,keying,fp,,Fortepiano,,古钢琴,Pianoforte,Hammerklavier,,,Piano,predecessor,FALSE,Piano,2,FALSE,1,Piano,chordophone-struck,chordophone,struck,又能响又能轻，钢琴第一次有了表情。,Loud and soft in one instrument: the piano's first face.
