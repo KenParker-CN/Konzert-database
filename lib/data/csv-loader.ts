@@ -278,24 +278,26 @@ export type InstrumentCsvEntry = {
     wikiQID: string;
     name: string;
     abbr: string;
-    relatedTo: string;
-    typeOf: string;
+    parentName: string;
+    familyRootName: string;
     aliasZh: string;
     aliasFr: string;
     aliasDe: string;
 };
 
+const INSTRUMENT_ABBR_PLACEHOLDER = '—';
+
 export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
     const csvContent = await fs.readFile(path.join(LOCAL_META_DIR, 'instruments.csv'), 'utf-8');
     return parseCsvRecords(csvContent).map(row => ({
-        wikiQID: row.WikiQID,
-        name: row.Name,
-        abbr: row.abbr,
-        relatedTo: row.RelatedTo,
-        typeOf: row.TypeOf,
-        aliasZh: row.alias_cn ?? '',
-        aliasFr: row.alias_fr ?? '',
-        aliasDe: row.alias_de ?? '',
+        wikiQID: row.WikiQID ?? '',
+        name: row.name,
+        abbr: row.abbr_std === INSTRUMENT_ABBR_PLACEHOLDER ? '' : row.abbr_std ?? '',
+        parentName: row.parentName ?? '',
+        familyRootName: row.familyRootName ?? '',
+        aliasZh: row.nameZH ?? '',
+        aliasFr: row.nameFR ?? '',
+        aliasDe: row.nameDE ?? '',
     }));
 }
 

@@ -161,15 +161,15 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
     const families = new Map<string, InstrumentFamily>()
 
     for (const row of rows) {
-        if (!row.abbr || !row.typeOf || refs.has(row.abbr)) continue
+        if (!row.abbr || !row.familyRootName || refs.has(row.abbr)) continue
 
-        const familyKey = row.typeOf.toLocaleLowerCase('en').replace(/\s+/g, '-')
+        const familyKey = row.familyRootName.toLocaleLowerCase('en').replace(/\s+/g, '-')
         let family = families.get(familyKey)
         if (!family) {
-            const familyRow = rowByName.get(row.typeOf.toLocaleLowerCase('en'))
+            const familyRow = rowByName.get(row.familyRootName.toLocaleLowerCase('en'))
             family = {
                 key: familyKey,
-                name: withInstrumentsSuffix(familyRow ? localizedNames(familyRow) : uniformNames(row.typeOf)),
+                name: withInstrumentsSuffix(familyRow ? localizedNames(familyRow) : uniformNames(row.familyRootName)),
                 wikiID: familyRow?.wikiQID || undefined,
                 refs: [],
             }
@@ -182,7 +182,7 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
             familyKey,
             familyName: family.name,
             wikiID: row.wikiQID || undefined,
-            relatedAbbrev: rowByName.get(row.relatedTo.toLocaleLowerCase('en'))?.abbr || undefined,
+            relatedAbbrev: rowByName.get(row.parentName.toLocaleLowerCase('en'))?.abbr || undefined,
         }
         refs.set(row.abbr, ref)
         family.refs.push(ref)
