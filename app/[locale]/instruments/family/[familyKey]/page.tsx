@@ -46,7 +46,7 @@ export default async function InstrumentFamilyPage({params}: {params: Promise<{l
                         {family.items.map(item => (
                             <li key={item.abbrev}>
                                 <Link
-                                    href={localePath(locale, `/instruments/${encodeURIComponent(item.abbrev)}`)}
+                                    href={localePath(locale, `/instruments/family/${encodeURIComponent(family.key)}/${encodeURIComponent(item.abbrev)}`)}
                                     className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
                                 >
                                     <span className="min-w-0">
