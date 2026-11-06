@@ -279,6 +279,7 @@ export type InstrumentCsvEntry = {
     name: string;
     abbr: string;
     parentName: string;
+    familyName: string;
     familyRootName: string;
     aliasZh: string;
     aliasFr: string;
@@ -294,6 +295,7 @@ export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
         name: row.name,
         abbr: row.abbr_std === INSTRUMENT_ABBR_PLACEHOLDER ? '' : row.abbr_std ?? '',
         parentName: row.parentName ?? '',
+        familyName: row.familyName ?? '',
         familyRootName: row.familyRootName ?? '',
         aliasZh: row.nameZH ?? '',
         aliasFr: row.nameFR ?? '',

@@ -38,7 +38,7 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
                 <div className="mx-auto max-w-300 px-5 py-8 lg:px-10 lg:py-10">
                     <InstrumentBreadcrumb items={[
                         {label: t('navigation.instruments'), href: localePath(locale, '/instruments')},
-                        {label: ref.familyName[locale], href: localePath(locale, `/instruments/family/${encodeURIComponent(ref.familyKey)}`)},
+                        ...(ref.familyKey && ref.familyName ? [{label: ref.familyName[locale], href: localePath(locale, `/instruments/family/${encodeURIComponent(ref.familyKey)}`)}] : []),
                         {label: ref.name[locale]},
                     ]}/>
                     <article className="border border-slate-200 bg-white p-6 shadow-sm sm:p-8">

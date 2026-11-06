@@ -11,8 +11,8 @@ type Names = Record<Locale, string>
 export type InstrumentRef = {
     abbrev: string
     name: Names
-    familyKey: string
-    familyName: Names
+    familyKey?: string
+    familyName?: Names
     wikiID?: string
     relatedAbbrev?: string
 }
@@ -24,9 +24,12 @@ type InstrumentFamily = {
     refs: InstrumentRef[]
 }
 
+type DirectoryEntry = {type: 'family'; family: InstrumentFamily} | {type: 'instrument'; ref: InstrumentRef}
+
 type InstrumentCatalog = {
     refs: Map<string, InstrumentRef>
     families: InstrumentFamily[]
+    directory: DirectoryEntry[]
 }
 
 type IndexedWorkGroup = Omit<GenreRelatedWorkGroup, 'composerName'> & {
@@ -159,36 +162,44 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
     const rowByName = new Map(rows.map(row => [row.name.toLocaleLowerCase('en'), row]))
     const refs = new Map<string, InstrumentRef>()
     const families = new Map<string, InstrumentFamily>()
+    const directory: DirectoryEntry[] = []
 
     for (const row of rows) {
-        if (!row.abbr || !row.familyRootName || refs.has(row.abbr)) continue
+        if (!row.abbr || refs.has(row.abbr)) continue
 
-        const familyKey = row.familyRootName.toLocaleLowerCase('en').replace(/\s+/g, '-')
+        const ref: InstrumentRef = {
+            abbrev: row.abbr,
+            name: localizedNames(row),
+            wikiID: row.wikiQID || undefined,
+            relatedAbbrev: rowByName.get(row.parentName.toLocaleLowerCase('en'))?.abbr || undefined,
+        }
+        refs.set(row.abbr, ref)
+
+        if (!row.familyName) {
+            directory.push({type: 'instrument', ref})
+            continue
+        }
+
+        const familyKey = row.familyName.toLocaleLowerCase('en').replace(/\s+/g, '-')
         let family = families.get(familyKey)
         if (!family) {
             const familyRow = rowByName.get(row.familyRootName.toLocaleLowerCase('en'))
             family = {
                 key: familyKey,
-                name: withInstrumentsSuffix(familyRow ? localizedNames(familyRow) : uniformNames(row.familyRootName)),
+                name: withInstrumentsSuffix(familyRow ? localizedNames(familyRow) : uniformNames(row.familyName)),
                 wikiID: familyRow?.wikiQID || undefined,
                 refs: [],
             }
             families.set(familyKey, family)
+            directory.push({type: 'family', family})
         }
 
-        const ref: InstrumentRef = {
-            abbrev: row.abbr,
-            name: localizedNames(row),
-            familyKey,
-            familyName: family.name,
-            wikiID: row.wikiQID || undefined,
-            relatedAbbrev: rowByName.get(row.parentName.toLocaleLowerCase('en'))?.abbr || undefined,
-        }
-        refs.set(row.abbr, ref)
+        ref.familyKey = familyKey
+        ref.familyName = family.name
         family.refs.push(ref)
     }
 
-    return {refs, families: [...families.values()]}
+    return {refs, families: [...families.values()], directory}
 }
 
 function withInstrumentsSuffix(names: Names): Names {
@@ -221,6 +232,29 @@ export async function getInstrumentFamilies(locale: Locale) {
             return count > 0 ? [{abbrev: ref.abbrev, label: ref.name[locale], count}] : []
         })
         return items.length > 0 ? [{key: family.key, label: family.name[locale], wikiID: family.wikiID, items}] : []
+    })
+}
+
+export type InstrumentDirectoryEntry =
+    | {kind: 'instrument'; abbrev: string; label: string; count: number}
+    | {kind: 'family'; key: string; label: string; instrumentCount: number}
+
+export async function getInstrumentDirectory(locale: Locale): Promise<InstrumentDirectoryEntry[]> {
+    const [index, catalog] = await Promise.all([getInstrumentIndex(), getInstrumentCatalog()])
+    const countWorks = (abbrev: string) => (index.get(abbrev) ?? []).reduce((sum, work) => sum + work.works.length, 0)
+
+    return catalog.directory.flatMap((entry): InstrumentDirectoryEntry[] => {
+        if (entry.type === 'instrument') {
+            const count = countWorks(entry.ref.abbrev)
+            return count > 0 ? [{kind: 'instrument', abbrev: entry.ref.abbrev, label: entry.ref.name[locale], count}] : []
+        }
+        const items = entry.family.refs.filter(ref => countWorks(ref.abbrev) > 0)
+        return items.length > 0 ? [{
+            kind: 'family',
+            key: entry.family.key,
+            label: entry.family.name[locale],
+            instrumentCount: items.length,
+        }] : []
     })
 }
 

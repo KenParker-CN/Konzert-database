@@ -1,6 +1,6 @@
 import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
-import {getInstrumentFamilies} from '@/lib/db/instruments'
+import {getInstrumentDirectory} from '@/lib/db/instruments'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import {IconArrowUpRight} from '@tabler/icons-react'
@@ -20,11 +20,11 @@ export default async function InstrumentsPage({params}: {params: Promise<{locale
     const {locale} = await params
     if (!isLocale(locale)) notFound()
 
-    const [{t}, families] = await Promise.all([
+    const [{t}, directory] = await Promise.all([
         getI18n(locale),
-        getInstrumentFamilies(locale),
+        getInstrumentDirectory(locale),
     ])
-    const instrumentCount = families.reduce((sum, family) => sum + family.items.length, 0)
+    const instrumentCount = directory.reduce((sum, entry) => sum + (entry.kind === 'family' ? entry.instrumentCount : 1), 0)
 
     return (
         <AppShell active="instruments">
@@ -36,15 +36,28 @@ export default async function InstrumentsPage({params}: {params: Promise<{locale
                         <p className="mt-2 text-sm font-medium text-slate-600">{t('instruments.count', {count: instrumentCount})}</p>
                     </header>
                     <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                        {families.map(family => (
-                            <li key={family.key}>
+                        {directory.map(entry => entry.kind === 'family' ? (
+                            <li key={`family-${entry.key}`}>
                                 <Link
-                                    href={localePath(locale, `/instruments/family/${encodeURIComponent(family.key)}`)}
+                                    href={localePath(locale, `/instruments/family/${encodeURIComponent(entry.key)}`)}
                                     className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
                                 >
                                     <span className="min-w-0">
-                                        <span className="heading block text-lg font-semibold text-slate-900">{family.label}</span>
-                                        <span className="mt-1 block text-xs text-slate-500">{t('instruments.count', {count: family.items.length})}</span>
+                                        <span className="heading block text-lg font-semibold text-slate-900">{entry.label}</span>
+                                        <span className="mt-1 block text-xs text-slate-500">{t('instruments.count', {count: entry.instrumentCount})}</span>
+                                    </span>
+                                    <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
+                                </Link>
+                            </li>
+                        ) : (
+                            <li key={`instrument-${entry.abbrev}`}>
+                                <Link
+                                    href={localePath(locale, `/instruments/${encodeURIComponent(entry.abbrev)}`)}
+                                    className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+                                >
+                                    <span className="min-w-0">
+                                        <span className="heading block text-lg font-semibold text-slate-900">{entry.label}</span>
+                                        <span className="mt-1 block text-xs text-slate-500">{t('works.count', {count: entry.count})}</span>
                                     </span>
                                     <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
                                 </Link>
