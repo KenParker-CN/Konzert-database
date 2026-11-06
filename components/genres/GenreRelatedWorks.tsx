@@ -16,6 +16,7 @@ type RelatedWorkRow = {
     key: string
     work: ComposerWork
     title: string
+    titleIsSubtitle: boolean
     composerNameSort: string
     composerHref: string
     catalogue: string
@@ -37,7 +38,8 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
     const allRows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
         key: `${group.catalogue}-${work.workId}`,
         work,
-        title: work.title || localizeGenre(work.genre),
+        title: work.title || work.details['Subtitle'] || localizeGenre(work.genre),
+        titleIsSubtitle: !work.title && Boolean(work.details['Subtitle']),
         composerNameSort: group.composerNameSort,
         composerHref: localePath(locale, `/composers/${encodeURIComponent(group.composerQid)}`),
         catalogue: group.catalogue,
@@ -93,7 +95,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
             </div>
 
             <ul>
-                {pageRows.map(({key, work, title, composerNameSort, composerHref, catalogue}) => (
+                {pageRows.map(({key, work, title, titleIsSubtitle, composerNameSort, composerHref, catalogue}) => (
                     <li key={key} className={`${rowGrid} border-b border-slate-100 px-6 py-3 last:border-0 hover:bg-blue-50/50`}>
                         <Link href={composerHref} className="truncate text-center text-sm text-slate-700 hover:text-blue-700">{composerNameSort}</Link>
                         <WorkDetailsDialog
@@ -101,7 +103,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                             catalogCode={catalogue}
                             triggerClassName={`flex min-w-0 text-left text-sm ${work.details.WikiQID?.trim() ? 'text-blue-700' : ''}`}
                         >
-                            <span className="truncate">{title}</span>
+                            <span className={`truncate ${titleIsSubtitle ? 'italic' : ''}`}>{title}</span>
                         </WorkDetailsDialog>
                         {showGenre && <span className="truncate text-center text-sm text-slate-700">{localizeGenre(work.genre)}</span>}
                         <span className="truncate text-center text-sm text-slate-700">{work.key}</span>
