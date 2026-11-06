@@ -49,6 +49,7 @@ export default async function InstrumentPage({params}: {params: Promise<{locale:
                     ]}/>
                     <article className="border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
                         <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">{ref.name[locale]}</h1>
+                        {ref.slogan[locale] && <p className="mt-2 text-base italic text-slate-600">“{ref.slogan[locale]}”</p>}
                         {related && (
                             <p className="mt-2 text-sm text-slate-600">
                                 {t('instruments.seeAlso')}:{' '}
