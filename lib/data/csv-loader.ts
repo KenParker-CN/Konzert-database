@@ -1,6 +1,7 @@
 import 'server-only';
 import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
+import {getGenreV2Slug} from './genre-v2';
 
 const LOCAL_CSV_DIR = path.join(process.cwd(), 'data', 'catalogues');
 const LOCAL_META_DIR = path.join(process.cwd(), 'data', 'meta');
@@ -378,14 +379,28 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
     });
 }
 
-export type GenreCsvEntry = { wikiQID: string; medium: string; name: string; typeOf: string }
+export type GenreCsvEntry = {
+    wikiQID: string
+    medium: string
+    name: string
+    typeOf: string
+    segments: string[]
+}
 
 export async function getGenreCsvEntries(): Promise<GenreCsvEntry[]> {
     const csvContent = await fs.readFile(path.join(LOCAL_META_DIR, 'genres.csv'), 'utf-8')
-    return parseCsvRecords(csvContent).map(row => ({
+    const rows = parseCsvRecords(csvContent).map(row => ({
         wikiQID: row.WikiQID,
         medium: row.medium ?? '',
         name: row.name,
         typeOf: row.parent_name ?? '',
     }))
+    const byName = new Map(rows.map(row => [row.name, row]))
+    return rows.map(row => {
+        const ancestorSlugs: string[] = []
+        for (let parent = byName.get(row.typeOf); parent; parent = byName.get(parent.typeOf)) {
+            ancestorSlugs.unshift(getGenreV2Slug(parent.name))
+        }
+        return {...row, segments: [row.medium, ...ancestorSlugs, getGenreV2Slug(row.name)]}
+    })
 }

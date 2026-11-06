@@ -5,7 +5,7 @@ export function getGenreV2Slug(name: string) {
 }
 
 export function getGenrePath(entry: GenreCsvEntry) {
-    return `/genres/${encodeURIComponent(entry.medium)}/${encodeURIComponent(getGenreV2Slug(entry.name))}`
+    return `/genres/${entry.segments.map(encodeURIComponent).join('/')}`
 }
 
 export function getGenreChildren(entries: GenreCsvEntry[], parent: GenreCsvEntry) {
