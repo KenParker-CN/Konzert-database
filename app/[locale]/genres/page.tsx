@@ -24,7 +24,7 @@ export default async function GenresPage({params}: {params: Promise<{locale: str
     const grouped = entries
         .filter(entry => !entry.typeOf)
         .reduce<Record<string, typeof entries>>((acc, entry) => {
-            (acc[entry.inCategory || 'Other'] ??= []).push(entry)
+            (acc[entry.medium || 'Other'] ??= []).push(entry)
             return acc
         }, {})
 
