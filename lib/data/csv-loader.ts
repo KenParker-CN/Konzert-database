@@ -303,27 +303,6 @@ export async function getComposers(): Promise<ComposerCsvEntry[]> {
     return loadComposers();
 }
 
-/** KV 分区（Köchel-Anhang）在目录中的排列顺序，用作内部排序主键。 */
-const KV_SECTION_ORDER: Record<string, number> = {
-    'Hauptteil': 0,
-    'Anh. A': 1,
-    'Anh. B': 2,
-    'Anh. C': 3,
-    'Anh. G': 4,
-    'Anh. H': 5,
-}
-
-/**
- * 生成 KV 作品的排序键 = `[分区序号] [编号]`。分区优先（Hauptteil 在前，
- * 各 Anhang 依次），分区内再按编号（`1,01`、`9a`、`11,01-03` 等）排序。
- * 未知分区归到最末（序号 99）。
- */
-function getKvSortKey(work: CsvWork): string {
-    const section = (work as Record<string, unknown>)._kvSection as string | undefined
-    const seq = KV_SECTION_ORDER[section ?? ''] ?? 99
-    const nr = (work as Record<string, unknown>)._kvNr as string | undefined
-    return `${seq} ${nr ?? ''}`
-}
 export async function getComposerWorks(catalogCode: string): Promise<Array<{
     workId: number;
     sort: string;
@@ -349,13 +328,11 @@ export async function getComposerWorks(catalogCode: string): Promise<Array<{
 
         return {
             workId: Number(work._workId) || index + 1,
-            sort: catalogCode === 'KV'
-                ? getKvSortKey(work)
-                : isKirkpatrick
-                    ? getCsvValue(work, 'SORT_Kk')
-                    : catalogCode === 'Ratner'
-                        ? getCsvValue(work, 'SORT_R')
-                        : getCsvValue(work, 'SORT', 'sort'),
+            sort: isKirkpatrick
+                ? getCsvValue(work, 'SORT_Kk')
+                : catalogCode === 'Ratner'
+                    ? getCsvValue(work, 'SORT_R')
+                    : getCsvValue(work, 'SORT', 'sort'),
             catalogue: getCatalogueNumber(work, catalogCode),
             opus: isOpusCatalogue
                 ? ''
