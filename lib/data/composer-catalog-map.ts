@@ -1,4 +1,5 @@
 export const composerCatalogMap: Record<string, string> = {
+  'Q1151': 'Holomann',
   'Q1339': 'BWV',
   'Q254': 'KV',
   'Q7349': 'Hob',
