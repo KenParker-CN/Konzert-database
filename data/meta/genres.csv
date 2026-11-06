@@ -1,90 +1,91 @@
-WikiQID,inCategory,Name,TypeOf
-Q5158512,Vocal,Concert Aria,Aria
-Q216860,Vocal,Lied,Art Song
-Q2737175,Vocal,Mélodie,Art Song
-Q122034643,Stage Work,Ballet de cour,Ballet
-Q1123381,Stage Work,Comédie-ballet,Ballet
-Q1084127,Stage Work,Opéra-ballet,Ballet
-Q1135557,Instrumental,Quartet,Chamber Music
-Q389888,Instrumental,Quintet,Chamber Music
-Q871420,Orchestral,Cello Concerto,Concerto
-Q210216,Orchestral,Concerto grosso,Concerto
-Q1746028,Orchestral,Piano Concerto,Concerto
-Q1136846,Orchestral,Sinfonia concertante,Concerto
-Q715123,Orchestral,Viola Concerto,Concerto
-Q633441,Orchestral,Violin Concerto,Concerto
-Q841238,Instrumental,Chaconne,Dance
-Q211025,Instrumental,March,Dance
-Q151942,Instrumental,Mazurka,Dance
-Q205734,Instrumental,Minuet,Dance
-Q11821942,Instrumental,Polonaise,Dance
-Q13323,Instrumental,Rondo,Dance
-Q8701407,,Waltz,Dance
-Q51616,Vocal,Requiem,Mass
-Q1528908,Stage Work,Azione teatrale,Opera
-Q13220650,Stage Work,Comic Opera,Opera
-Q1255726,Stage Work,Dramma giocoso,Opera
-Q2895961,Stage Work,Dramma per musica,Opera
-Q191489,Stage Work,Melodramma,Opera
-Q208080,Stage Work,Opera buffa,Opera
-Q785479,Stage Work,Opéra comique,Opera
-Q1190662,Stage Work,Opera semiseria,Opera
-Q210675,Stage Work,Opera seria,Opera
-Q170384,Stage Work,Operetta,Opera
-Q674448,Stage Work,Pasticcio,Opera
-Q2140240,Stage Work,Semi-opera,Opera
-Q18071186,Stage Work,Serenata,Opera
-Q377258,Stage Work,Singspiel,Opera
-Q908705,Stage Work,Tragédie en musique,Opera
-Q781815),Vocal,Passion,Oratorio
-Q11487510,Chamber Music,String Quartet,Quartet
-Q937364,Chamber Music,String Quintet,Quintet
-Q857538,Chamber Music,Cello Sonata,Sonata
-Q1546995,Instrumental,Piano Sonata,Sonata
-Q1045984,Chamber Music,Sonatina,Sonata
-Q903425,Chamber Music,Trio Sonata,Sonata
-Q7933385,Chamber Music,Violin Sonata,Sonata
-,Orchestral,Overture-Suite,Suite
-Q377141,Orchestral,Sinfonia,Symphony
-Q15077165,Orchestral,Sinfonietta,Symphony
-Q1414262,Chamber Music,Piano Trio,Trio
-Q923298,Chamber Music,String Trio,Trio
-Q541947,Vocal,Anthem,
-Q178122,Vocal,Aria,
-Q662791,Vocal,Arioso,
-Q4797274,Vocal,Art Song,
-Q788460,Instrumental,Bagatelle,
-Q4851628,Stage Work,Ballet,
-Q174873,Vocal,Cantata,
-Q876812,Instrumental,Capriccio,
-Q1735204,Orchestral,Cassation,
-Q41270,Vocal,Cavatina,
-Q9748,Orchestral,Concerto,
-Q647653,Orchestral,Divertimento,
-Q207841,Instrumental,Étude,
-Q836571,Instrumental,Fantasia,
-Q181014,Instrumental,Fugue,
-Q484692,Vocal,Hymn,
-Q852027,Instrumental,Impromptu,
-Q1147752,Orchestral,Incidental Music,
-Q193217,Vocal,Madrigal,
-Q200809,Vocal,Magnificat,
-Q217295,Vocal,Mass,
-Q188285,Vocal,Motet,
-Q194172,Instrumental,Nocturne,
-Q1344,Stage Work,Opera,
-Q85477,Vocal,Oratorio,
-Q202287,Instrumental,Overture,
-Q388383,Instrumental,Partita,
-Q752329,Instrumental,Passacaglia,
-Q212148,Instrumental,Prelude,
-Q12497663,Vocal,Psalm,
-Q215911,Orchestral,Serenade,
-Q131269,Instrumental,Sonata,
-Q203005,Instrumental,Suite,
-Q9734,Orchestral,Symphony,
-Q743376,Vocal,Te Deum,
-Q140544,Instrumental,Toccata,
-Q29596700,Instrumental,Trio,Chamber Music
-Q214981,Instrumental,Variations,
-Q827135,Vocal,Vesper,
+WikiQID,name,aliases,nameZH,medium,ensemble_scale,relation,related_instruments,family_root_name,parent_name,is_family_root,family_size,has_children,depth,ancestor_names,category_raw,type_of_raw,review_flag,note,note
+Q178122,Aria,,咏叹调,vocal,vocal,family_root,,Aria,,TRUE,4,TRUE,0,,Vocal,,,,
+Q5158512,Concert Aria,,音乐会咏叹调,vocal,vocal,variant,,Aria,Aria,FALSE,4,FALSE,1,Aria,Vocal,Aria,,,
+Q662791,Arioso,,咏叙调,vocal,vocal,variant,,Aria,Aria,FALSE,4,FALSE,1,Aria,Vocal,,,介于咏叹与宣叙之间,介于咏叹与宣叙之间
+Q41270,Cavatina,,短咏叹调,vocal,vocal,variant,,Aria,Aria,FALSE,4,FALSE,1,Aria,Vocal,,,,
+Q4797274,Art Song,,艺术歌曲,vocal,vocal,family_root,,Art Song,,TRUE,3,TRUE,0,,Vocal,,,,
+Q216860,Lied,,德语艺术歌曲,vocal,vocal,variant,,Art Song,Art Song,FALSE,3,FALSE,1,Art Song,Vocal,Art Song,,,
+Q2737175,Mélodie,,法语艺术歌曲,vocal,vocal,variant,,Art Song,Art Song,FALSE,3,FALSE,1,Art Song,Vocal,Art Song,,,
+Q217295,Mass,,弥撒,vocal,vocal,family_root,,Mass,,TRUE,2,TRUE,0,,Vocal,,,,
+Q51616,Requiem,,安魂曲,vocal,vocal,variant,,Mass,Mass,FALSE,2,FALSE,1,Mass,Vocal,Mass,,,
+Q85477,Oratorio,,清唱剧,vocal,vocal,family_root,,Oratorio,,TRUE,2,TRUE,0,,Vocal,,,,
+Q781815,Passion,,受难曲,vocal,vocal,variant,,Oratorio,Oratorio,FALSE,2,FALSE,1,Oratorio,Vocal,Oratorio,,,
+Q541947,Anthem,,赞美诗（英式）,vocal,vocal,standalone,,Anthem,,FALSE,1,FALSE,0,,Vocal,,,,
+Q174873,Cantata,,康塔塔,vocal,vocal,standalone,,Cantata,,FALSE,1,FALSE,0,,Vocal,,,,
+Q484692,Hymn,,赞美诗,vocal,vocal,standalone,,Hymn,,FALSE,1,FALSE,0,,Vocal,,,与 Anthem 分属英/通用传统,与 Anthem 分属英/通用传统
+Q193217,Madrigal,,牧歌,vocal,vocal,standalone,,Madrigal,,FALSE,1,FALSE,0,,Vocal,,,,
+Q200809,Magnificat,,尊主颂,vocal,vocal,standalone,,Magnificat,,FALSE,1,FALSE,0,,Vocal,,,,
+Q188285,Motet,,经文歌,vocal,vocal,standalone,,Motet,,FALSE,1,FALSE,0,,Vocal,,,,
+Q12497663,Psalm,,诗篇歌,vocal,vocal,standalone,,Psalm,,FALSE,1,FALSE,0,,Vocal,,,,
+Q743376,Te Deum,,感恩赞,vocal,vocal,standalone,,Te Deum,,FALSE,1,FALSE,0,,Vocal,,,,
+Q827135,Vesper,,晚祷,vocal,vocal,standalone,,Vesper,,FALSE,1,FALSE,0,,Vocal,,,,
+Q4851628,Ballet,,芭蕾,stage,staged,family_root,,Ballet,,TRUE,4,TRUE,0,,Stage Work,,,,
+Q122034643,Ballet de cour,,宫廷芭蕾,stage,staged,predecessor,,Ballet,Ballet,FALSE,4,FALSE,1,Ballet,Stage Work,Ballet,,宫廷芭蕾是舞台芭蕾的前身,宫廷芭蕾是舞台芭蕾的前身
+Q1123381,Comédie-ballet,,芭蕾喜剧,stage,staged,variant,,Ballet,Ballet,FALSE,4,FALSE,1,Ballet,Stage Work,Ballet,,,
+Q1084127,Opéra-ballet,,歌剧芭蕾,stage,staged,variant,,Ballet,Ballet,FALSE,4,FALSE,1,Ballet,Stage Work,Ballet,,,
+Q1344,Opera,,歌剧,stage,staged,family_root,,Opera,,TRUE,15,TRUE,0,,Stage Work,,,,
+Q13220650,Comic Opera,Opera buffa,喜歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,TRUE,1,Opera,Stage Work,Opera,,,
+Q208080,Opera buffa,,谐歌剧,stage,staged,alias,,Opera,Comic Opera,FALSE,15,FALSE,2,Opera > Comic Opera,Stage Work,Opera,,意大利语对 comic opera 的称谓,意大利语对 comic opera 的称谓
+Q1255726,Dramma giocoso,,诙谐剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,18 世纪用语，介于正歌剧与谐歌剧之间,18 世纪用语，介于正歌剧与谐歌剧之间
+Q2895961,Dramma per musica,,音乐剧（正歌剧旧称）,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q191489,Melodramma,,音乐剧（意语歌剧总称）,stage,staged,alias,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q210675,Opera seria,,正歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q785479,Opéra comique,,法国喜歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q1190662,Opera semiseria,,半严肃歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q170384,Operetta,,轻歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q674448,Pasticcio,,拼凑歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q2140240,Semi-opera,,半歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q377258,Singspiel,,歌唱剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q908705,Tragédie en musique,,抒情悲剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,,,
+Q1528908,Azione teatrale,,戏剧性歌剧,stage,staged,variant,,Opera,Opera,FALSE,15,FALSE,1,Opera,Stage Work,Opera,TRUE,无通行中文译名,无通行中文译名
+Q18071186,Serenata,,声乐小夜曲,stage,staged,standalone,,Serenata,,FALSE,1,FALSE,0,,Stage Work,Opera,TRUE,与歌剧平行的宫廷声乐体裁，不宜作 Opera 子类,与歌剧平行的宫廷声乐体裁，不宜作 Opera 子类
+Q9748,Concerto,,协奏曲,instrumental,orchestral,family_root,,Concerto,,TRUE,7,TRUE,0,,Orchestral,,,,
+Q210216,Concerto grosso,,大协奏曲,instrumental,orchestral,variant,,Concerto,Concerto,FALSE,7,FALSE,1,Concerto,Orchestral,Concerto,TRUE,有 concertino 与全乐队对置，与 ripieno concerto 不同,solo_count=1 指常规单小提琴；多把小提琴协奏曲（维瓦尔第 RV 550 为四把）编制上应归 Double/Triple Concerto
+Q1136846,Sinfonia concertante,,交响协奏曲,instrumental,orchestral,variant,,Concerto,Concerto,FALSE,7,FALSE,1,Concerto,Orchestral,Concerto,,古典期多独奏器（2–4 件）+乐队，与 19 世纪 double concerto 分属不同时代标签,两件独奏器+乐队，19 世纪典型（勃拉姆斯 Op.102），QID 待补
+,Dance,,舞曲,instrumental,variable,family_root,,Dance,,TRUE,7,TRUE,0,,,,TRUE,原表 7 次引用但无本体行，此处补为族根，QID 待补,三件独奏器+乐队（贝多芬 Op.56），QID 待补
+Q205734,Minuet,,小步舞曲,instrumental,variable,variant,,Dance,Dance,FALSE,7,FALSE,1,Dance,Instrumental,Dance,,,有 concertino 与全乐队对置，与 ripieno concerto 不同
+Q151942,Mazurka,,玛祖卡,instrumental,solo,variant,,Dance,Dance,FALSE,7,FALSE,1,Dance,Instrumental,Dance,,,无独奏、全乐队演奏；与 concerto grosso 的区别在于没有 concertino，QID 待补
+Q11821942,Polonaise,,波罗乃兹,instrumental,variable,variant,,Dance,Dance,FALSE,7,FALSE,1,Dance,Instrumental,Dance,,,古典期多独奏协奏曲（2–4 件），与 19 世纪 double concerto 分属不同时代标签
+Q8701407,Waltz,,圆舞曲,instrumental,variable,variant,,Dance,Dance,FALSE,7,FALSE,1,Dance,,Dance,TRUE,原 inCategory 为空，按 Dance 归入,原表 7 次引用但无本体行，此处补为族根，QID 待补
+Q841238,Chaconne,,恰空,instrumental,solo,variant,,Dance,Dance,FALSE,7,FALSE,1,Dance,Instrumental,Dance,TRUE,舞曲起源，后世多作变奏曲式,
+Q211025,March,,进行曲,instrumental,variable,variant,,Dance,Dance,FALSE,7,FALSE,1,Dance,Instrumental,Dance,TRUE,严格不是舞曲，归入 Dance 属惯例而非定义,
+Q13323,Rondo,,回旋曲,instrumental,variable,standalone,,Rondo,,FALSE,1,FALSE,0,,Instrumental,Dance,TRUE,是曲式（form）而非体裁，原表误挂 Dance,
+Q1135557,Quartet,,四重奏,instrumental,chamber,family_root,,Quartet,,TRUE,2,TRUE,0,,Instrumental,Chamber Music,,,原 inCategory 为空，按 Dance 归入
+Q389888,Quintet,,五重奏,instrumental,chamber,family_root,,Quintet,,TRUE,2,TRUE,0,,Instrumental,Chamber Music,,,严格不是舞曲，归入 Dance 属惯例而非定义
+Q29596700,Trio,,三重奏,instrumental,chamber,family_root,,Trio,,TRUE,3,TRUE,0,,Instrumental,Chamber Music,,,
+Q131269,Sonata,,奏鸣曲,instrumental,solo,family_root,,Sonata,,TRUE,6,TRUE,0,,Instrumental,,,,
+Q1045984,Sonatina,,小奏鸣曲,instrumental,chamber,variant,,Sonata,Sonata,FALSE,6,FALSE,1,Sonata,Chamber Music,Sonata,,,
+Q203005,Suite,Partita,组曲,instrumental,variable,family_root,,Suite,,TRUE,3,TRUE,0,,Instrumental,,,,
+,Overture-Suite,,序曲组曲,instrumental,orchestral,variant,,Suite,Suite,FALSE,3,FALSE,1,Suite,Orchestral,Suite,TRUE,原表缺 WikiQID,
+Q388383,Partita,,帕蒂塔,instrumental,solo,alias,,Suite,Suite,FALSE,3,FALSE,1,Suite,Instrumental,,,Suite 的德/意语称谓,
+Q9734,Symphony,,交响曲,instrumental,orchestral,family_root,,Symphony,,TRUE,3,TRUE,0,,Orchestral,,,,
+Q377141,Sinfonia,,交响曲（旧称）,instrumental,orchestral,predecessor,,Symphony,Symphony,FALSE,3,FALSE,1,Symphony,Orchestral,Symphony,,巴洛克/古典交界用语，非现代交响曲,
+Q15077165,Sinfonietta,,小交响曲,instrumental,orchestral,variant,,Symphony,Symphony,FALSE,3,FALSE,1,Symphony,Orchestral,Symphony,,,原表缺 WikiQID
+Q788460,Bagatelle,,小品,instrumental,solo,standalone,,Bagatelle,,FALSE,1,FALSE,0,,Instrumental,,,,Suite 的德/意语称谓
+Q876812,Capriccio,,随想曲,instrumental,solo,standalone,,Capriccio,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q1735204,Cassation,,卡萨松,instrumental,orchestral,standalone,,Cassation,,FALSE,1,FALSE,0,,Orchestral,,TRUE,萨尔茨堡 1760–70 特有体裁，中文无通行译名,巴洛克/古典交界用语，非现代交响曲
+Q647653,Divertimento,,嬉游曲,instrumental,orchestral,standalone,,Divertimento,,FALSE,1,FALSE,0,,Orchestral,,,,
+Q207841,Étude,,练习曲,instrumental,solo,standalone,,Étude,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q836571,Fantasia,,幻想曲,instrumental,solo,standalone,,Fantasia,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q181014,Fugue,,赋格,instrumental,solo,standalone,,Fugue,,FALSE,1,FALSE,0,,Instrumental,,,,萨尔茨堡 1760–70 特有体裁，中文无通行译名
+Q852027,Impromptu,,即兴曲,instrumental,solo,standalone,,Impromptu,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q1147752,Incidental Music,,戏剧配乐,instrumental,orchestral,standalone,,Incidental Music,,FALSE,1,FALSE,0,,Orchestral,,,功能类别，非曲式,
+Q194172,Nocturne,,夜曲,instrumental,solo,standalone,,Nocturne,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q202287,Overture,,序曲,instrumental,orchestral,standalone,,Overture,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q752329,Passacaglia,,帕萨卡利亚,instrumental,solo,standalone,,Passacaglia,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q212148,Prelude,,前奏曲,instrumental,solo,standalone,,Prelude,,FALSE,1,FALSE,0,,Instrumental,,,,功能类别，非曲式
+Q215911,Serenade,,小夜曲,instrumental,orchestral,standalone,,Serenade,,FALSE,1,FALSE,0,,Orchestral,,,,
+Q140544,Toccata,,托卡塔,instrumental,solo,standalone,,Toccata,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q214981,Variations,,变奏曲,instrumental,solo,standalone,,Variations,,FALSE,1,FALSE,0,,Instrumental,,,,
+Q1746028,Piano Concerto,,钢琴协奏曲,instrumental,orchestral,variant,piano,Concerto,Concerto,FALSE,7,FALSE,1,Concerto,Orchestral,Concerto,,,
+Q1546995,Piano Sonata,,钢琴奏鸣曲,instrumental,solo,variant,piano,Sonata,Sonata,FALSE,6,FALSE,1,Sonata,Instrumental,Sonata,,,
+Q1414262,Piano Trio,,钢琴三重奏,instrumental,chamber,variant,"piano, violin, violoncello",Trio,Trio,FALSE,3,FALSE,1,Trio,Chamber Music,Trio,,,
+Q715123,Viola Concerto,,中提琴协奏曲,instrumental,orchestral,variant,viola,Concerto,Concerto,FALSE,7,FALSE,1,Concerto,Orchestral,Concerto,,,
+Q633441,Violin Concerto,,小提琴协奏曲,instrumental,orchestral,variant,violin,Concerto,Concerto,FALSE,7,FALSE,1,Concerto,Orchestral,Concerto,,本条目按独奏乐器归属，不限定件数：四把小提琴协奏曲（维瓦尔第 RV 550）同样归此条；related_instruments 只记乐器，不记件数,
+Q7933385,Violin Sonata,,小提琴奏鸣曲,instrumental,chamber,variant,violin,Sonata,Sonata,FALSE,6,FALSE,1,Sonata,Chamber Music,Sonata,,,
+Q11487510,String Quartet,,弦乐四重奏,instrumental,chamber,variant,"violin, viola, violoncello",Quartet,Quartet,FALSE,2,FALSE,1,Quartet,Chamber Music,Quartet,,,舞曲起源，后世多作变奏曲式
+Q937364,String Quintet,,弦乐五重奏,instrumental,chamber,variant,"violin, viola, violoncello",Quintet,Quintet,FALSE,2,FALSE,1,Quintet,Chamber Music,Quintet,,,是曲式（form）而非体裁，原表误挂 Dance
+Q923298,String Trio,,弦乐三重奏,instrumental,chamber,variant,"violin, viola, violoncello",Trio,Trio,FALSE,3,FALSE,1,Trio,Chamber Music,Trio,,,
+Q903425,Trio Sonata,,三重奏鸣曲,instrumental,chamber,variant,"violin, violoncello",Sonata,Sonata,FALSE,6,FALSE,1,Sonata,Chamber Music,Sonata,,,
+Q871420,Cello Concerto,,大提琴协奏曲,instrumental,orchestral,variant,violoncello,Concerto,Concerto,FALSE,7,FALSE,1,Concerto,Orchestral,Concerto,,,单件独奏器+乐队；四个乐器协奏曲的父节点，QID 待补
+Q857538,Cello Sonata,,大提琴奏鸣曲,instrumental,chamber,variant,violoncello,Sonata,Sonata,FALSE,6,FALSE,1,Sonata,Chamber Music,Sonata,,,
