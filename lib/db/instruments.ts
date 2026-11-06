@@ -28,6 +28,7 @@ export type InstrumentRef = {
 type InstrumentFamily = {
     key: string
     name: Names
+    category: string
     wikiID?: string
     refs: InstrumentRef[]
 }
@@ -211,6 +212,7 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
             family = {
                 key: familyKey,
                 name: familyRow ? localizedNames(familyRow) : uniformNames(row.familyName),
+                category: familyRow?.category || row.category,
                 wikiID: row.familyWikiQID || familyRow?.wikiQID || undefined,
                 refs: [],
             }
@@ -256,8 +258,8 @@ export async function getInstrumentFamilies(locale: Locale) {
 }
 
 export type InstrumentDirectoryEntry =
-    | {kind: 'instrument'; abbrev: string; label: string; count: number}
-    | {kind: 'family'; key: string; label: string; instrumentCount: number}
+    | {kind: 'instrument'; abbrev: string; label: string; category: string; count: number}
+    | {kind: 'family'; key: string; label: string; category: string; instrumentCount: number}
 
 export async function getInstrumentDirectory(locale: Locale): Promise<InstrumentDirectoryEntry[]> {
     const [index, catalog] = await Promise.all([getInstrumentIndex(), getInstrumentCatalog()])
@@ -266,13 +268,14 @@ export async function getInstrumentDirectory(locale: Locale): Promise<Instrument
     return catalog.directory.flatMap((entry): InstrumentDirectoryEntry[] => {
         if (entry.type === 'instrument') {
             const count = countWorks(entry.ref.abbrev)
-            return count > 0 ? [{kind: 'instrument', abbrev: entry.ref.abbrev, label: entry.ref.name[locale], count}] : []
+            return count > 0 ? [{kind: 'instrument', abbrev: entry.ref.abbrev, label: entry.ref.name[locale], category: entry.ref.details.category, count}] : []
         }
         const items = entry.family.refs.filter(ref => countWorks(ref.abbrev) > 0)
         return items.length > 0 ? [{
             kind: 'family',
             key: entry.family.key,
             label: entry.family.name[locale],
+            category: entry.family.category,
             instrumentCount: items.length,
         }] : []
     })
