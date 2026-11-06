@@ -1,7 +1,11 @@
 import type {GenreCsvEntry} from '@/lib/data/csv-loader'
 
 export function getGenreV2Slug(name: string) {
-    return name.toLocaleLowerCase('en').replace(/\s+/g, '-')
+    return name
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, '')
+        .toLocaleLowerCase('en')
+        .replace(/\s+/g, '-')
 }
 
 export function getGenrePath(entry: GenreCsvEntry) {
