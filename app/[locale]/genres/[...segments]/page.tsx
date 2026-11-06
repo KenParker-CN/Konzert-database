@@ -102,6 +102,9 @@ export default async function GenreDetailPage({params}: {params: Promise<GenrePa
 
     const {groups: relatedWorkGroups} = await getGenreWorksSafe([entry.name], locale)
     const children = getGenreChildren(entries, entry)
+    const relatedInstruments = entry.relatedInstruments.length > 0
+        ? await getInstrumentRefsByName(entry.relatedInstruments)
+        : []
 
     return (
         <AppShell active="genres">
@@ -110,13 +113,19 @@ export default async function GenreDetailPage({params}: {params: Promise<GenrePa
                     <InstrumentBreadcrumb items={[...ancestorCrumbs, {label: title}]}/>
                     <article className="border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
                         <h1 className="heading text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">{title}</h1>
-                        {entry.relatedInstruments.length > 0 && (
-                            <Link
-                                href={localePath(locale, `${getGenrePath(entry)}/${INSTRUMENTS_SEGMENT}`)}
-                                className="mt-2 inline-block text-sm font-medium text-blue-600 hover:underline"
-                            >
-                                {t('genrePages.relatedInstruments')}
-                            </Link>
+                        {relatedInstruments.length > 0 && (
+                            <p className="mt-2 flex flex-wrap items-baseline gap-x-3 text-sm font-medium text-slate-600">
+                                <span>{t('genrePages.relatedInstrumentsLabel')}</span>
+                                {relatedInstruments.map(ref => (
+                                    <Link
+                                        key={ref.abbrev}
+                                        href={localePath(locale, instrumentPath(ref))}
+                                        className="text-blue-600 hover:underline"
+                                    >
+                                        {ref.name[locale]}
+                                    </Link>
+                                ))}
+                            </p>
                         )}
                         <GenreIntroduction wikiID={entry.wikiQID || undefined} locale={locale}/>
                     </article>

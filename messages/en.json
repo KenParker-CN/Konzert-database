@@ -66,6 +66,7 @@
     "title": "Musical genres",
     "description": "Explore the forms and traditions behind classical music.",
     "relatedInstruments": "Related instruments",
+    "relatedInstrumentsLabel": "Related instruments: ",
     "vocal": "Vocal",
     "instrumental": "Instrumental",
     "stage": "Stage",

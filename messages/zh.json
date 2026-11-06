@@ -75,6 +75,7 @@
     "title": "古典音乐体裁",
     "description": "了解古典音乐中的体裁形式与传统。",
     "relatedInstruments": "相关乐器",
+    "relatedInstrumentsLabel": "相关乐器：",
     "vocal": "声乐",
     "instrumental": "器乐",
     "stage": "舞台作品",
