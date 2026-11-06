@@ -24,15 +24,22 @@ function groupByCategory(directory: InstrumentDirectoryEntry[]) {
     return [...groups.entries()].sort(([left], [right]) => Number(left === '') - Number(right === ''))
 }
 
-export default async function InstrumentsPage({params}: {params: Promise<{locale: string}>}) {
+export default async function InstrumentsPage({params, searchParams}: {
+    params: Promise<{locale: string}>
+    searchParams: Promise<{category?: string}>
+}) {
     const {locale} = await params
     if (!isLocale(locale)) notFound()
+    const {category: requestedCategory} = await searchParams
 
     const [{t}, directory] = await Promise.all([
         getI18n(locale),
         getInstrumentDirectory(locale),
     ])
     const instrumentCount = directory.reduce((sum, entry) => sum + (entry.kind === 'family' ? entry.instrumentCount : 1), 0)
+    const groups = groupByCategory(directory)
+    const active = groups.find(([category]) => category === requestedCategory) ?? groups[0]
+    const basePath = localePath(locale, '/instruments')
 
     return (
         <AppShell active="instruments">
@@ -43,40 +50,54 @@ export default async function InstrumentsPage({params}: {params: Promise<{locale
                         <h1 className="heading mt-2 text-3xl font-semibold tracking-tight text-slate-950">{t('instruments.title')}</h1>
                         <p className="mt-2 text-sm font-medium text-slate-600">{t('instruments.count', {count: instrumentCount})}</p>
                     </header>
-                    {groupByCategory(directory).map(([category, entries]) => (
-                        <section key={category || 'uncategorized'} className="mb-10 last:mb-0">
-                            {category && <h2 className="heading mb-4 text-xl font-semibold tracking-tight text-slate-800">{category}</h2>}
-                            <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                                {entries.map(entry => entry.kind === 'family' ? (
-                                    <li key={`family-${entry.key}`}>
-                                        <Link
-                                            href={localePath(locale, `/instruments/family/${encodeURIComponent(entry.key)}`)}
-                                            className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
-                                        >
-                                            <span className="min-w-0">
-                                                <span className="heading block text-lg font-semibold text-slate-900">{entry.label}</span>
-                                                <span className="mt-1 block text-xs text-slate-500">{t('instruments.count', {count: entry.instrumentCount})}</span>
-                                            </span>
-                                            <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
-                                        </Link>
-                                    </li>
-                                ) : (
-                                    <li key={`instrument-${entry.abbrev}`}>
-                                        <Link
-                                            href={localePath(locale, `/instruments/${encodeURIComponent(entry.abbrev)}`)}
-                                            className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
-                                        >
-                                            <span className="min-w-0">
-                                                <span className="heading block text-lg font-semibold text-slate-900">{entry.label}</span>
-                                                <span className="mt-1 block text-xs text-slate-500">{t('works.count', {count: entry.count})}</span>
-                                            </span>
-                                            <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
-                        </section>
-                    ))}
+                    {groups.length > 0 && (
+                        <nav aria-label={t('instruments.title')} className="mb-8 flex flex-wrap gap-2 border-b border-slate-200">
+                            {groups.map(([category]) => {
+                                const isActive = active?.[0] === category
+                                return (
+                                    <Link
+                                        key={category || 'uncategorized'}
+                                        href={`${basePath}?category=${encodeURIComponent(category)}`}
+                                        aria-current={isActive ? 'page' : undefined}
+                                        className={`-mb-px border-b-2 px-4 py-2 text-sm font-semibold transition ${isActive ? 'border-blue-600 text-blue-600' : 'border-transparent text-slate-600 hover:text-slate-900'}`}
+                                    >
+                                        {category || t('instruments.otherCategory')}
+                                    </Link>
+                                )
+                            })}
+                        </nav>
+                    )}
+                    {active && (
+                        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                            {active[1].map(entry => entry.kind === 'family' ? (
+                                <li key={`family-${entry.key}`}>
+                                    <Link
+                                        href={localePath(locale, `/instruments/family/${encodeURIComponent(entry.key)}`)}
+                                        className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+                                    >
+                                        <span className="min-w-0">
+                                            <span className="heading block text-lg font-semibold text-slate-900">{entry.label}</span>
+                                            <span className="mt-1 block text-xs text-slate-500">{t('instruments.count', {count: entry.instrumentCount})}</span>
+                                        </span>
+                                        <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
+                                    </Link>
+                                </li>
+                            ) : (
+                                <li key={`instrument-${entry.abbrev}`}>
+                                    <Link
+                                        href={localePath(locale, `/instruments/${encodeURIComponent(entry.abbrev)}`)}
+                                        className="group flex min-h-20 items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+                                    >
+                                        <span className="min-w-0">
+                                            <span className="heading block text-lg font-semibold text-slate-900">{entry.label}</span>
+                                            <span className="mt-1 block text-xs text-slate-500">{t('works.count', {count: entry.count})}</span>
+                                        </span>
+                                        <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    )}
                 </div>
             </main>
         </AppShell>
