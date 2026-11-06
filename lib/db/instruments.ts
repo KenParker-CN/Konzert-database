@@ -186,7 +186,7 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
             const familyRow = rowByName.get(row.familyRootName.toLocaleLowerCase('en'))
             family = {
                 key: familyKey,
-                name: withInstrumentsSuffix(familyRow ? localizedNames(familyRow) : uniformNames(row.familyName)),
+                name: familyRow ? localizedNames(familyRow) : uniformNames(row.familyName),
                 wikiID: familyRow?.wikiQID || undefined,
                 refs: [],
             }
@@ -200,10 +200,6 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
     }
 
     return {refs, families: [...families.values()], directory}
-}
-
-function withInstrumentsSuffix(names: Names): Names {
-    return {en: `${names.en} instruments`, zh: `${names.zh} instruments`, fr: `${names.fr} instruments`, de: `${names.de} instruments`}
 }
 
 function localizedNames(row: {name: string; aliasZh: string; aliasFr: string; aliasDe: string}): Names {
