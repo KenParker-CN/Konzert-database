@@ -1,20 +1,16 @@
 'use client'
 
 import {useEffect, useState} from 'react'
-import {getWikipediaIntroduction, type WikipediaIntroduction} from '@/lib/data/wikipedia'
 import type {WikiBannerItem} from '@/lib/db/composers'
-import type {Locale} from '@/lib/i18n/config'
 
 const ROTATE_INTERVAL_MS = 6000
 
 export default function WikiRandomBanner({
     items,
-    locale,
     title,
     kindLabels,
 }: {
     items: WikiBannerItem[]
-    locale: Locale
     title: string
     kindLabels: Record<WikiBannerItem['kind'], string>
 }) {
@@ -36,7 +32,7 @@ export default function WikiRandomBanner({
             onBlur={() => setPaused(false)}
         >
             <div className="flex items-center justify-between gap-4">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600">{title}</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">{title}</p>
                 <div className="flex items-center gap-1.5">
                     {items.map((item, index) => (
                         <button
@@ -55,7 +51,6 @@ export default function WikiRandomBanner({
                     <WikiBannerCard
                         key={item.kind}
                         item={item}
-                        locale={locale}
                         kindLabel={kindLabels[item.kind]}
                         visible={index === active}
                     />
@@ -67,28 +62,14 @@ export default function WikiRandomBanner({
 
 function WikiBannerCard({
     item,
-    locale,
     kindLabel,
     visible,
 }: {
     item: WikiBannerItem
-    locale: Locale
     kindLabel: string
     visible: boolean
 }) {
-    const [introduction, setIntroduction] = useState<WikipediaIntroduction | null>(null)
-    const [loading, setLoading] = useState(true)
-
-    useEffect(() => {
-        const controller = new AbortController()
-        getWikipediaIntroduction(item.wikiID, locale, controller.signal).then(result => {
-            if (controller.signal.aborted) return
-            setIntroduction(result)
-            setLoading(false)
-        })
-        return () => controller.abort()
-    }, [item.wikiID, locale])
-
+    const {introduction} = item
     const summary = introduction?.extract.split(/\n+/).find(Boolean)
 
     return (
@@ -98,25 +79,18 @@ function WikiBannerCard({
         >
             <div className="flex gap-4">
                 <div className="min-w-0 flex-1">
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{kindLabel}</p>
-                    <a href={item.href} className="mt-1 block text-lg font-semibold tracking-tight text-slate-950 hover:text-blue-600">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--on-surface-muted)]">{kindLabel}</p>
+                    <a href={item.href} className="mt-1 block text-lg font-semibold tracking-tight text-[var(--on-surface)] hover:text-[var(--primary)]">
                         {item.title}
                     </a>
-                    {item.subtitle && <p className="mt-0.5 text-xs text-slate-500">{item.subtitle}</p>}
-                    {loading ? (
-                        <div className="mt-2 animate-pulse space-y-1.5" aria-busy="true">
-                            <div className="h-3 w-full rounded bg-[var(--surface-high)]"/>
-                            <div className="h-3 w-4/5 rounded bg-[var(--surface-high)]"/>
-                        </div>
-                    ) : summary ? (
-                        <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-600">{summary}</p>
-                    ) : null}
+                    {item.subtitle && <p className="mt-0.5 text-xs text-[var(--on-surface-muted)]">{item.subtitle}</p>}
+                    {summary && <p className="mt-2 line-clamp-3 text-sm leading-6 text-[var(--on-surface-muted)]">{summary}</p>}
                     {introduction && (
                         <a
                             href={introduction.url}
                             target="_blank"
                             rel="noreferrer"
-                            className="mt-2 inline-block text-xs text-slate-500 underline decoration-[var(--outline)] underline-offset-2 hover:text-[var(--on-surface)]"
+                            className="mt-2 inline-block text-xs text-[var(--on-surface-muted)] underline decoration-[var(--outline)] underline-offset-2 hover:text-[var(--on-surface)]"
                         >
                             {introduction.title} — Wikipedia
                         </a>

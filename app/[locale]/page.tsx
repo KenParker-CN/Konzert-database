@@ -57,7 +57,6 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                     </div>
                     <WikiRandomBanner
                         items={wikiBannerItems}
-                        locale={locale}
                         title={t('home.randomWiki.title')}
                         kindLabels={{
                             composer: t('home.randomWiki.composer'),

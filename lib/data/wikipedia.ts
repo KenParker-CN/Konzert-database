@@ -1,5 +1,7 @@
 import type {Locale} from '@/lib/i18n/config'
 
+const INTRODUCTION_REVALIDATE_SECONDS = 60 * 60 * 24
+
 const WIKIPEDIA_SITES: Record<Locale, string> = {
     en: 'enwiki',
     zh: 'zhwiki',
@@ -43,7 +45,7 @@ export async function getWikipediaIntroduction(wikiID: string, locale: Locale, s
             format: 'json',
             origin: '*',
         }).toString()
-        const entityResponse = await fetch(entityUrl, {signal})
+        const entityResponse = await fetch(entityUrl, {signal, next: {revalidate: INTRODUCTION_REVALIDATE_SECONDS}})
         if (!entityResponse.ok) return null
 
         const entityData = await entityResponse.json() as WikidataEntityResponse
@@ -69,7 +71,7 @@ export async function getWikipediaIntroduction(wikiID: string, locale: Locale, s
             }).toString()
 
             try {
-                const articleResponse = await fetch(apiUrl, {signal})
+                const articleResponse = await fetch(apiUrl, {signal, next: {revalidate: INTRODUCTION_REVALIDATE_SECONDS}})
                 if (!articleResponse.ok) continue
 
                 const articleData = await articleResponse.json() as WikipediaResponse

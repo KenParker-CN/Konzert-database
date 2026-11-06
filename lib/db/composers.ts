@@ -4,6 +4,7 @@ import { getComposers as loadComposers, getComposerWorks as loadComposerWorks } 
 import catalogueUpdatesJson from '@/data/catalogue-updates.json'
 import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
 import {getGenreLinks} from '@/lib/data/genre-links'
+import {getWikipediaIntroduction, type WikipediaIntroduction} from '@/lib/data/wikipedia'
 import {localePath, type Locale} from '@/lib/i18n/config'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 
@@ -202,13 +203,16 @@ export type WikiBannerItem = {
     subtitle?: string
     wikiID: string
     href: string
+    introduction: WikipediaIntroduction | null
 }
+
+type WikiBannerCandidate = Omit<WikiBannerItem, 'introduction'>
 
 function pickRandom<T>(items: readonly T[]): T | undefined {
     return items[Math.floor(Math.random() * items.length)]
 }
 
-async function pickRandomComposer(locale: Locale): Promise<WikiBannerItem | null> {
+async function pickRandomComposer(locale: Locale): Promise<WikiBannerCandidate | null> {
     const directory = await getCatalogueDirectory()
     const candidates = directory.map(entry => ({entry, wikiID: entry.composerQid}))
     const pick = pickRandom(candidates)
@@ -222,7 +226,7 @@ async function pickRandomComposer(locale: Locale): Promise<WikiBannerItem | null
     }
 }
 
-async function pickRandomGenre(locale: Locale): Promise<WikiBannerItem | null> {
+async function pickRandomGenre(locale: Locale): Promise<WikiBannerCandidate | null> {
     const links = Object.values(await getGenreLinks()).filter(link => link.wikiID)
     const pick = pickRandom(links)
     if (!pick?.wikiID) return null
@@ -235,7 +239,7 @@ async function pickRandomGenre(locale: Locale): Promise<WikiBannerItem | null> {
     }
 }
 
-async function pickRandomWork(locale: Locale): Promise<WikiBannerItem | null> {
+async function pickRandomWork(locale: Locale): Promise<WikiBannerCandidate | null> {
     const directory = await getCatalogueDirectory()
     const loaded = await Promise.all(directory.map(async entry => ({
         entry,
@@ -264,6 +268,9 @@ export async function getRandomWikiBannerItems(locale: Locale): Promise<WikiBann
         pickRandomGenre(locale),
         pickRandomWork(locale),
     ])
-    const items = [composer, genre, work]
-    return items.filter((item): item is WikiBannerItem => item !== null)
+    const candidates = [composer, genre, work].filter((item): item is WikiBannerCandidate => item !== null)
+    return Promise.all(candidates.map(async item => ({
+        ...item,
+        introduction: await getWikipediaIntroduction(item.wikiID, locale),
+    })))
 }
