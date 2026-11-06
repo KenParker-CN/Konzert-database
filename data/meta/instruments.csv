@@ -1,61 +1,52 @@
-WikiQID,Name,abbr,RelatedTo,TypeOf
-Q1829398,Alto Trombone,Atrb,Trombone,Brass
-Q8345,Bass Clarinet,bcl,Clarinet,Woodwind
-Q211028,Bass Drum,BD,,Percussion
-Q10426885,Bass Trombone,Btrb,Trombone,Brass
-Q320341,Celesta,cel,,Keyboard
-Q8343,Clarinet,cl,,Woodwind
-Q191823,Clavichord,clav,,Struck String
-Q185041,English Horn,corA,Oboe,Woodwind
-Q190172,Cymbal,cyms,,Percussion
-Q80019,Double Bass,db,,Bowed String
-Q2731509,Contrabass Clarinet,dbcl,Clarinet,Woodwind
-Q11405,Flute,fl,,Woodwind
-Q626035,Glockenspiel,glsp,,Percussion
-Q163759,Horn,hn,,Brass
-Q163759,French Horn,hn,Horn,Brass
-Q81982,Harpsichord,hpd,,Keyboard
-Q52954,Keyboard,keyb,,
-Q8377,Oboe,ob,,Woodwind
-Q1444,Organ,org,,Keyboard
-Q133163,Percussion,perc,,
-Q1521313,Fortepiano,pf,Piano,Keyboard
-Q83509,Piccolo,picc,Flute,Woodwind
-Q5994,Piano,pno,,Struck String
-Q187851,Recorder,rec,Flute,Woodwind
-Q9798,Saxophone,sax,,Woodwind
-Q208421,Snare Drum,SD,,Percussion
-Q1798603,Strings,str,,
-Q3216262,Tam-tam,tam-t,,Percussion
-Q131168,Tuba,tb,,Brass
-Q8350,Trombone,tbn,,Brass
-Q201735,Triangle,tgl,,Percussion
-Q189737,Timpani,timp,,Percussion
-Q849349,Tom-tom,tom-t,,Percussion
-Q8338,Trumpet,tpt,,Brass
-Q206987,Vibraphone,vib,,Percussion
-Q80284,Viola,vla,,Bowed String
-Q8371,Violoncello,vlc,,Bowed String
-Q8355,Violin,vln,,Bowed String
-Q165666,Xylophone,xyl,,Percussion
-Q1366388,Sopranino Clarinet,,Clarinet,Woodwind
-Q159998,Bassoon,bsn,,Woodwind
-Q1662735,Natural Trumpet,,Trumpet,Brass
-Q16875637,Transvers Flute,,Flute,Woodwind
-Q1757829,Natural Horn,,Horn,Brass
-Q180744,Brass,,,Wind
-Q181247,Woodwind,,,Wind
-Q183932,Castanets,,,Percussion
-Q192096,Bowed Strings,,,String
-Q202027,Cornet,,Trumpet,Brass
-Q204638,Cornett,,,Brass
-Q220971,Marimba,,,Percussion
-Q230262,Plucked Strings,,,String
-Q243998,Bongos,,,Percussion
-Q3152898,Struck Strings,,,String
-Q51446928,Bass Viol,,,Bowed String
-Q742168,Serpent,,,Brass
-Q742180,Viola d'Amore,,Viola,Bowed String
-Q7563204,Soprano Clarinet,,Clarinet,Woodwind
-Q83513,Contrabassoon,dbsn,Bassoon,Woodwind
-Q8380,Oboe d'Amore,,Oboe,Woodwind
+category,category_dim,abbr_std,WikiQID,name,aliases,nameZH,nameFR,nameDE,family_WikiQID,familyName,parentName,relation,is_family_root,familyRootName,family_size,has_children,depth,ancestor_names,mechanism,mechanism_top,mechanism_sub
+Woodwind,ensemble,fag,,Bassoon,,巴松管,,Faggot,,Bassoon family,,family_root,TRUE,Bassoon,2,TRUE,0,,aerophone,aerophone,
+Woodwind,ensemble,cl,,Clarinet,,单簧管,,Klarinet,,Clarinet family,,family_root,TRUE,Clarinet,5,TRUE,0,,aerophone,aerophone,
+Woodwind,ensemble,fl,,Flute,,长笛,,Flöte,,Flute family,,family_root,TRUE,Flute,3,TRUE,0,,aerophone,aerophone,
+Brass,ensemble,cor,,Horn,French Horn,,Cor,,,Horn family,,family_root,TRUE,Horn,2,TRUE,0,,aerophone,aerophone,
+Woodwind,ensemble,ob,,Oboe,,双簧管,,,,Oboe family,,family_root,TRUE,Oboe,3,TRUE,0,,aerophone,aerophone,
+Woodwind,ensemble,rec,,Recorder,,竖笛,Flûte a bèc,,,Recorder family,,family_root,TRUE,Recorder,1,FALSE,0,,aerophone,aerophone,
+Brass,ensemble,trb,,Trombone,,,,,,Trombone family,,family_root,TRUE,Trombone,3,TRUE,0,,aerophone,aerophone,
+Brass,ensemble,tpt,,Trumpet,,,,,,Trumpet family,,family_root,TRUE,Trumpet,3,TRUE,0,,aerophone,aerophone,
+Woodwind,ensemble,sax,,Saxophone,,萨克斯,,,,,,standalone,TRUE,Saxophone,1,FALSE,0,,aerophone,aerophone,
+Brass,ensemble,cornett,,Cornett,,,,,,,,standalone,TRUE,Cornett,1,FALSE,0,,aerophone,aerophone,
+Brass,ensemble,tub,,Tuba,,,,,,,,standalone,TRUE,Tuba,1,FALSE,0,,aerophone,aerophone,
+Brass,ensemble,serp,,Serpent,,蛇管,,,,,,standalone,TRUE,Serpent,1,FALSE,0,,aerophone,aerophone,
+Keyboard,keying,org,,Organ,,管风琴,Orgue,,,,,standalone,TRUE,Organ,1,FALSE,0,,aerophone,aerophone,
+Percussion,ensemble,timp,,Timpani,,,,,,,,standalone,TRUE,Timpani,1,FALSE,0,,membranophone,membranophone,
+Percussion,ensemble,BD,,Bass Drum,,,,,,,,standalone,TRUE,Bass Drum,1,FALSE,0,,membranophone,membranophone,
+Percussion,ensemble,SD,,Snare Drum,,,,,,,,standalone,TRUE,Snare Drum,1,FALSE,0,,membranophone,membranophone,
+Percussion,ensemble,tomtom,,Tom-tom,,,,,,,,standalone,TRUE,Tom-tom,1,FALSE,0,,membranophone,membranophone,
+Percussion,ensemble,bongo,,Bongos,,,,,,,,standalone,TRUE,Bongos,1,FALSE,0,,membranophone,membranophone,
+Percussion,ensemble,cym,,Cymbal,,,,,,,,standalone,TRUE,Cymbal,1,FALSE,0,,idiophone,idiophone,
+Percussion,ensemble,tri,,Triangle,,,,,,,,standalone,TRUE,Triangle,1,FALSE,0,,idiophone,idiophone,
+Percussion,ensemble,tamtam,,Tam-tam,,,,,,,,standalone,TRUE,Tam-tam,1,FALSE,0,,idiophone,idiophone,
+Percussion,ensemble,cast,,Castanets,,,,,,,,standalone,TRUE,Castanets,1,FALSE,0,,idiophone,idiophone,
+Percussion,ensemble,glsp,,Glockenspiel,,,,,,,,standalone,TRUE,Glockenspiel,1,FALSE,0,,idiophone,idiophone,
+Percussion,ensemble,xyl,,Xylophone,,,,,,,,standalone,TRUE,Xylophone,1,FALSE,0,,idiophone,idiophone,
+Percussion,ensemble,vib,,Vibraphone,,,,,,,,standalone,TRUE,Vibraphone,1,FALSE,0,,idiophone,idiophone,
+Percussion,ensemble,mar,,Marimba,,马林巴,,,,,,standalone,TRUE,Marimba,1,FALSE,0,,idiophone,idiophone,
+Woodwind,ensemble,cbn,,Contrabassoon,,倍低音巴松管,,Kontrafaggot,,Bassoon family,Bassoon,octave,FALSE,Bassoon,2,FALSE,1,Bassoon,aerophone,aerophone,
+Woodwind,ensemble,bcl,,Bass Clarinet,,低音单簧管,,,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
+Woodwind,ensemble,ccl,,Contrabass Clarinet,,倍低音单簧管,,,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
+Woodwind,ensemble,eclar,,Sopranino Clarinet,,,,,,Clarinet family,Clarinet,variant,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
+Woodwind,ensemble,—,,Soprano Clarinet,,,,,,Clarinet family,Clarinet,alias,FALSE,Clarinet,5,FALSE,1,Clarinet,aerophone,aerophone,
+Woodwind,ensemble,picc,,Piccolo,,短笛,,,,Flute family,Flute,octave,FALSE,Flute,3,FALSE,1,Flute,aerophone,aerophone,
+Woodwind,ensemble,—,,Transverse Flute,,横笛,Flûte traversière,,,Flute family,Flute,,FALSE,Flute,3,FALSE,1,Flute,aerophone,aerophone,
+Brass,ensemble,nathorn,,Natural Horn,,,,,,Horn family,Horn,predecessor,FALSE,Horn,2,FALSE,1,Horn,aerophone,aerophone,
+Woodwind,ensemble,corA,,English Horn,,英国管,,,,Oboe family,Oboe,variant,FALSE,Oboe,3,FALSE,1,Oboe,aerophone,aerophone,
+Woodwind,ensemble,obda,,Oboe d'Amore,,爱之双簧管,,,,Oboe family,Oboe,variant,FALSE,Oboe,3,FALSE,1,Oboe,aerophone,aerophone,
+Brass,ensemble,atrb,,Alto Trombone,,,,,,Trombone family,Trombone,variant,FALSE,Trombone,3,FALSE,1,Trombone,aerophone,aerophone,
+Brass,ensemble,btrb,,Bass Trombone,,,,,,Trombone family,Trombone,variant,FALSE,Trombone,3,FALSE,1,Trombone,aerophone,aerophone,
+Brass,ensemble,natpt,,Natural Trumpet,,,,,,Trumpet family,Trumpet,predecessor,FALSE,Trumpet,3,FALSE,1,Trumpet,aerophone,aerophone,
+Brass,ensemble,cornet,,Cornet,,,,,,Trumpet family,Trumpet,variant,FALSE,Trumpet,3,FALSE,1,Trumpet,aerophone,aerophone,
+Strings,ensemble,vdg,,Bass Viol,,低音维奥尔琴,,,,Viol family,,family_root,TRUE,Bass Viol,2,TRUE,0,,chordophone-bowed,chordophone,bowed
+Strings,ensemble,vl,,Violin,,小提琴,,,,Violin family,,family_root,TRUE,Violin,4,TRUE,0,,chordophone-bowed,chordophone,bowed
+Strings,ensemble,vda,,Viola d'Amore,,爱之维奥尔琴,,,,Viol family,Bass Viol,variant,FALSE,Bass Viol,2,FALSE,1,Bass Viol,chordophone-bowed,chordophone,bowed
+Strings,ensemble,vla,,Viola,,中提琴,,,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed
+Strings,ensemble,vlc,,Violoncello,Cello,大提琴,Violoncelle,,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed
+Strings,ensemble,cb,,Double Bass,,低音提琴,,,,Violin family,Violin,variant,FALSE,Violin,4,FALSE,1,Violin,chordophone-bowed,chordophone,bowed
+Keyboard,keying,hpd,,Harpsichord,,羽管键琴,Clavecin,Cemablo,,,,standalone,TRUE,Harpsichord,1,FALSE,0,,chordophone-plucked,chordophone,plucked
+Keyboard,keying,pno,,Piano,,钢琴,,,,,,family_root,TRUE,Piano,2,TRUE,0,,chordophone-struck,chordophone,struck
+Keyboard,keying,clav,,Clavichord,,,,,,,,standalone,TRUE,Clavichord,1,FALSE,0,,chordophone-struck,chordophone,struck
+Keyboard,keying,cel,,Celesta,,,,,,,,standalone,TRUE,Celesta,1,FALSE,0,,idiophone-struck,idiophone,struck
+Keyboard,keying,fp,,Fortepiano,,古钢琴,,,,,Piano,predecessor,FALSE,Piano,2,FALSE,1,Piano,chordophone-struck,chordophone,struck
