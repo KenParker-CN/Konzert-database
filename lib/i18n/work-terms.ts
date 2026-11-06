@@ -514,7 +514,7 @@ const translations: Record<WorkTermKind, TermTranslations> = {
                         "Pardessus de viole": "超高音维奥尔",
                         "Violone": "维奥隆琴",
                     "Baryton": "巴立东琴",
-                    "Cello": "大提琴",
+                    "VioloncelloCello": "大提琴",
                     "Double Bass": "低音提琴",
                 "Plucked string instruments": "拨弦乐器",
                     "Harp": "竖琴",
