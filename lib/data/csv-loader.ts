@@ -292,6 +292,8 @@ export type InstrumentCsvEntry = {
     aliasZh: string;
     aliasFr: string;
     aliasDe: string;
+    sloganZh: string;
+    sloganEn: string;
 };
 
 const INSTRUMENT_ABBR_PLACEHOLDER = '—';
@@ -316,6 +318,8 @@ export async function getInstrumentRows(): Promise<InstrumentCsvEntry[]> {
         aliasZh: row.nameZH ?? '',
         aliasFr: row.nameFR ?? '',
         aliasDe: row.nameDE ?? '',
+        sloganZh: row.sloganZH ?? '',
+        sloganEn: row.sloganEN ?? '',
     }));
 }
 

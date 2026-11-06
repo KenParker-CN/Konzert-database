@@ -22,6 +22,7 @@ export type InstrumentRef = {
     familyName?: Names
     wikiID?: string
     relatedAbbrev?: string
+    slogan: Names
     details: InstrumentDetails
 }
 
@@ -196,6 +197,7 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
             name: localizedNames(row),
             wikiID: row.wikiQID || undefined,
             relatedAbbrev: rowByName.get(row.parentName.toLocaleLowerCase('en'))?.abbr || undefined,
+            slogan: {en: row.sloganEn, zh: row.sloganZh || row.sloganEn, fr: row.sloganEn, de: row.sloganEn},
             details: instrumentDetails(row),
         }
         refs.set(row.abbr, ref)
@@ -251,7 +253,7 @@ export async function getInstrumentFamilies(locale: Locale) {
     return catalog.families.flatMap(family => {
         const items = family.refs.flatMap(ref => {
             const count = (index.get(ref.abbrev) ?? []).reduce((sum, work) => sum + work.works.length, 0)
-            return count > 0 ? [{abbrev: ref.abbrev, label: ref.name[locale], count}] : []
+            return count > 0 ? [{abbrev: ref.abbrev, label: ref.name[locale], slogan: ref.slogan[locale], count}] : []
         })
         return items.length > 0 ? [{key: family.key, label: family.name[locale], wikiID: family.wikiID, items}] : []
     })

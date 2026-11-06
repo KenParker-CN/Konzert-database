@@ -51,7 +51,7 @@ export default async function InstrumentFamilyPage({params}: {params: Promise<{l
                                 >
                                     <span className="min-w-0">
                                         <span className="heading block text-base font-semibold text-slate-900">{item.label}</span>
-                                        <span className="mt-1 block text-xs text-slate-500">{t('works.count', {count: item.count})}</span>
+                                        {item.slogan && <span className="mt-1 block text-xs text-slate-500">“{item.slogan}”</span>}
                                     </span>
                                     <IconArrowUpRight size={18} className="shrink-0 text-slate-400 transition group-hover:text-blue-600" aria-hidden="true"/>
                                 </Link>
