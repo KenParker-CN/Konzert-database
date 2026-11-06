@@ -384,8 +384,8 @@ export async function getGenreCsvEntries(): Promise<GenreCsvEntry[]> {
     const csvContent = await fs.readFile(path.join(LOCAL_META_DIR, 'genres.csv'), 'utf-8')
     return parseCsvRecords(csvContent).map(row => ({
         wikiQID: row.WikiQID,
-        inCategory: row.inCategory,
-        name: row.Name,
-        typeOf: row.TypeOf,
+        inCategory: row.category_raw ?? '',
+        name: row.name,
+        typeOf: row.parent_name ?? '',
     }))
 }
