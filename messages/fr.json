@@ -26,6 +26,7 @@
     "back": "Tous les instruments",
     "showing": "{shown} sur {total} affichées",
     "seeAlso": "Voir aussi",
+    "relatedGenres": "Genres associés",
     "otherCategory": "Autres",
     "details": {"category": "Catégorie", "type": "Type", "mechanism": "Mécanisme", "relation": "Relation"}
   },

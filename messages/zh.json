@@ -26,6 +26,7 @@
     "back": "全部乐器",
     "showing": "显示 {shown} / {total}",
     "seeAlso": "另见",
+    "relatedGenres": "相关体裁",
     "otherCategory": "其他",
     "details": {"category": "分类", "type": "类型", "mechanism": "发声机制", "relation": "关系"}
   },

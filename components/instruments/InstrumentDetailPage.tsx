@@ -3,7 +3,10 @@ import AppShell from '@/components/AppShell'
 import InstrumentBreadcrumb from '@/components/instruments/InstrumentBreadcrumb'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import GenreRelatedWorks from '@/components/genres/GenreRelatedWorks'
+import {getGenreCsvEntries} from '@/lib/data/csv-loader'
+import {getGenrePath} from '@/lib/data/genre-v2'
 import {getInstrumentRef, getInstrumentRelatedWorkGroups} from '@/lib/db/instruments'
+import {localizeGenreTerm} from '@/lib/i18n/genre-term'
 import {getI18n} from '@/lib/i18n/server'
 import {localePath, type Locale} from '@/lib/i18n/config'
 import Link from 'next/link'
@@ -24,10 +27,15 @@ export default async function InstrumentDetailPage({locale, code, familyKey}: {
     if (familyKey !== undefined && ref.familyKey !== familyKey) notFound()
 
     const related = ref.relatedAbbrev ? await getInstrumentRef(ref.relatedAbbrev) : undefined
-    const [{t}, relatedWorkGroups] = await Promise.all([
+    const [{t}, relatedWorkGroups, genreEntries] = await Promise.all([
         getI18n(locale),
         getInstrumentRelatedWorkGroups(ref.abbrev, locale),
+        getGenreCsvEntries(),
     ])
+    const englishName = ref.name.en.toLocaleLowerCase('en')
+    const relatedGenres = genreEntries.filter(entry =>
+        entry.relatedInstruments.some(name => name.toLocaleLowerCase('en') === englishName),
+    )
 
     const details = [
         [t('instruments.details.category'), ref.details.category],
@@ -68,6 +76,23 @@ export default async function InstrumentDetailPage({locale, code, familyKey}: {
                         )}
                         <GenreIntroduction wikiID={ref.wikiID} locale={locale}/>
                     </article>
+                    {relatedGenres.length > 0 && (
+                        <section className="mt-5 border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+                            <h2 className="heading text-xl font-semibold text-slate-950">{t('instruments.relatedGenres')}</h2>
+                            <ul className="mt-4 flex flex-wrap gap-2">
+                                {relatedGenres.map(entry => (
+                                    <li key={entry.segments.join('/')}>
+                                        <Link
+                                            href={localePath(locale, getGenrePath(entry))}
+                                            className="inline-block border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm font-medium text-slate-800 transition hover:border-blue-300 hover:text-blue-700"
+                                        >
+                                            {localizeGenreTerm(entry.name, locale, entry.nameZh)}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+                    )}
                     <GenreRelatedWorks groups={relatedWorkGroups} showInstrumentation={false} showGenre/>
                 </div>
             </main>
