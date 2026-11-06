@@ -213,7 +213,7 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
             const familyRow = familyRootRows.get(row.familyName) ?? rowByName.get(row.familyRootName.toLocaleLowerCase('en'))
             family = {
                 key: familyKey,
-                name: familyRow ? {...localizedNames(familyRow), zh: `${familyRow.aliasZh || familyRow.name}家族`} : uniformNames(row.familyName),
+                name: familyRow ? familyNames(familyRow) : uniformNames(row.familyName),
                 category: familyRow?.category || row.category,
                 wikiID: row.familyWikiQID || familyRow?.wikiQID || undefined,
                 refs: [],
@@ -232,6 +232,16 @@ async function buildInstrumentCatalog(): Promise<InstrumentCatalog> {
 
 function localizedNames(row: {name: string; aliasZh: string; aliasFr: string; aliasDe: string}): Names {
     return {en: row.name, zh: row.aliasZh || row.name, fr: row.aliasFr || row.name, de: row.aliasDe || row.name}
+}
+
+function familyNames(row: {name: string; aliasZh: string; aliasFr: string; aliasDe: string}): Names {
+    const names = localizedNames(row)
+    return {
+        en: `${names.en} family`,
+        zh: `${names.zh}家族`,
+        fr: `Famille ${names.fr}`,
+        de: `${names.de}familie`,
+    }
 }
 
 function getInstrumentCatalog(): Promise<InstrumentCatalog> {
