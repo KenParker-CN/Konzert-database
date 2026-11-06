@@ -1,5 +1,5 @@
 import {getGenreCsvEntries} from '@/lib/data/csv-loader'
-import {getGenreV2Slug} from '@/lib/data/genre-v2'
+import {getGenrePath} from '@/lib/data/genre-v2'
 
 export type GenreLink = {
     name: string
@@ -10,7 +10,7 @@ export type GenreLink = {
 export async function getGenreLinks(): Promise<Record<string, GenreLink>> {
     const entries = await getGenreCsvEntries()
     return Object.fromEntries(entries.map(entry => {
-        const path = `/genres/${encodeURIComponent(getGenreV2Slug(entry.name))}`
+        const path = getGenrePath(entry)
         return [entry.name.trim().normalize('NFC'), {name: entry.name, wikiID: entry.wikiQID || undefined, path}]
     }))
 }

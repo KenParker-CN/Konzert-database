@@ -6,7 +6,7 @@ import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import GenreRelatedWorks from '@/components/genres/GenreRelatedWorks'
 import {getGenreCsvEntries} from '@/lib/data/csv-loader'
 import {getGenreWorksSafe} from '@/lib/db/composers'
-import {getGenreAncestors, getGenreChildren, getGenreV2Slug} from '@/lib/data/genre-v2'
+import {getGenreAncestors, getGenreChildren, getGenrePath, getGenreV2Slug} from '@/lib/data/genre-v2'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
@@ -14,19 +14,25 @@ import {notFound} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
 
-export async function generateMetadata({params}: {params: Promise<{locale: string; slug: string}>}): Promise<Metadata> {
-    const {locale, slug} = await params
-    if (!isLocale(locale)) notFound()
-    const entry = (await getGenreCsvEntries()).find(candidate => getGenreV2Slug(candidate.name) === slug)
-    return {title: entry ? `${getLocalizedWorkTerm(entry.name, 'type', locale)} · Konzert` : undefined, alternates: {canonical: `/${locale}/genres/${slug}`}}
+type GenreParams = {locale: string; medium: string; slug: string}
+
+function findGenre(entries: Awaited<ReturnType<typeof getGenreCsvEntries>>, medium: string, slug: string) {
+    return entries.find(candidate => candidate.medium === medium && getGenreV2Slug(candidate.name) === slug)
 }
 
-export default async function GenreDetailPage({params}: {params: Promise<{locale: string; slug: string}>}) {
-    const {locale, slug} = await params
+export async function generateMetadata({params}: {params: Promise<GenreParams>}): Promise<Metadata> {
+    const {locale, medium, slug} = await params
+    if (!isLocale(locale)) notFound()
+    const entry = findGenre(await getGenreCsvEntries(), medium, slug)
+    return {title: entry ? `${getLocalizedWorkTerm(entry.name, 'type', locale)} · Konzert` : undefined, alternates: {canonical: `/${locale}/genres/${medium}/${slug}`}}
+}
+
+export default async function GenreDetailPage({params}: {params: Promise<GenreParams>}) {
+    const {locale, medium, slug} = await params
     if (!isLocale(locale)) notFound()
 
     const entries = await getGenreCsvEntries()
-    const entry = entries.find(candidate => getGenreV2Slug(candidate.name) === slug)
+    const entry = findGenre(entries, medium, slug)
     if (!entry) notFound()
 
     const [{t}, {groups: relatedWorkGroups}] = await Promise.all([
@@ -45,7 +51,7 @@ export default async function GenreDetailPage({params}: {params: Promise<{locale
                         {label: t('navigation.genres'), href: localePath(locale, '/genres')},
                         ...ancestors.map(ancestor => ({
                             label: getLocalizedWorkTerm(ancestor.name, 'type', locale),
-                            href: localePath(locale, `/genres/${encodeURIComponent(getGenreV2Slug(ancestor.name))}`),
+                            href: localePath(locale, getGenrePath(ancestor)),
                         })),
                         {label: title},
                     ]}/>
