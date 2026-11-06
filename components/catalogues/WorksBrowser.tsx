@@ -9,6 +9,7 @@ import {useI18n} from '@/lib/i18n/client'
 import {Input} from '@/components/ui/input'
 import {Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectPositioner, SelectTrigger, SelectValue} from '@/components/ui/select'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
+import {useGenreTermLocalizer} from '@/components/genres/GenreLinkProvider'
 import {compareWorkKeys, normalizeWorkKey} from '@/lib/i18n/work-keys'
 import {IconSearch, IconX} from '@tabler/icons-react'
 
@@ -64,6 +65,7 @@ export default function WorksBrowser({
     catalogCode: string
 }) {
     const {t, locale} = useI18n()
+    const localizeGenre = useGenreTermLocalizer(locale)
     const showDateColumn = allWorks.every(work => !work.catalogue && !work.opus)
     const [query, setQuery] = useState('')
     const [page, setPage] = useState(1)
@@ -213,7 +215,7 @@ export default function WorksBrowser({
                                 <SelectItem value="">{t('works.allGenres')}</SelectItem>
                                 {genreOptions.map(genre => (
                                     <SelectItem key={genre} value={genre}>
-                                        {getLocalizedWorkTerm(genre, 'type', locale)}
+                                        {localizeGenre(genre)}
                                     </SelectItem>
                                 ))}
                             </SelectContent>

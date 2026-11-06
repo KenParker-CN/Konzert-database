@@ -3,6 +3,8 @@ import AppShell from '@/components/AppShell'
 import InstrumentationLegendDialog from '@/components/catalogues/InstrumentationLegendDialog'
 import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import {getWorksByWikiID} from '@/lib/db/composers'
+import {getGenreLinks} from '@/lib/data/genre-links'
+import {createGenreTermLocalizer} from '@/lib/i18n/genre-term'
 import {getI18n} from '@/lib/i18n/server'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {isLocale, localePath} from '@/lib/i18n/config'
@@ -35,7 +37,8 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
     const matches = await getWorksByWikiID(wikiID)
     if (matches.length === 0) notFound()
 
-    const {t} = await getI18n(locale)
+    const [{t}, genreLinks] = await Promise.all([getI18n(locale), getGenreLinks()])
+    const localizeGenre = createGenreTermLocalizer(genreLinks, locale)
     const titleOf = (work: (typeof matches)[number]['work']) => work.title
     const [first] = matches
 
@@ -69,7 +72,7 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
                                 <div className="mt-2 flex flex-wrap items-center gap-2">
                                     {work.genre && (
                                         <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
-                                            {getLocalizedWorkTerm(work.genre, 'type', locale)}
+                                            {localizeGenre(work.genre)}
                                         </span>
                                     )}
                                     {work.key && (
@@ -93,7 +96,7 @@ export default async function WorkDetailPage({params}: {params: Promise<{locale:
                                             </dt>
                                             <dd className="mt-1 min-w-0 text-sm text-slate-900">
                                                 <span className="whitespace-pre-wrap wrap-break-word">
-                                                    {formatWorkDetailValue(field, value, locale)}
+                                                    {formatWorkDetailValue(field, value, locale, localizeGenre)}
                                                 </span>
                                             </dd>
                                         </div>

@@ -7,7 +7,7 @@ import GenreRelatedWorks from '@/components/genres/GenreRelatedWorks'
 import {getGenreCsvEntries} from '@/lib/data/csv-loader'
 import {getGenreWorksSafe} from '@/lib/db/composers'
 import {getGenreAncestors, getGenreChildren, getGenrePath} from '@/lib/data/genre-v2'
-import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
+import {localizeGenreTerm} from '@/lib/i18n/genre-term'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import {notFound} from 'next/navigation'
@@ -26,7 +26,7 @@ export async function generateMetadata({params}: {params: Promise<GenreParams>})
     if (!isLocale(locale)) notFound()
     const entry = findGenre(await getGenreCsvEntries(), segments)
     return {
-        title: entry ? `${getLocalizedWorkTerm(entry.name, 'type', locale)} · Konzert` : undefined,
+        title: entry ? `${localizeGenreTerm(entry.name, locale, entry.nameZh)} · Konzert` : undefined,
         alternates: {canonical: entry ? localePath(locale, getGenrePath(entry)) : undefined},
     }
 }
@@ -43,7 +43,7 @@ export default async function GenreDetailPage({params}: {params: Promise<GenrePa
         getI18n(locale),
         getGenreWorksSafe([entry.name], locale),
     ])
-    const title = getLocalizedWorkTerm(entry.name, 'type', locale)
+    const title = localizeGenreTerm(entry.name, locale, entry.nameZh)
     const ancestors = getGenreAncestors(entries, entry)
     const children = getGenreChildren(entries, entry)
 
@@ -54,7 +54,7 @@ export default async function GenreDetailPage({params}: {params: Promise<GenrePa
                     <InstrumentBreadcrumb items={[
                         {label: t('navigation.genres'), href: localePath(locale, '/genres')},
                         ...ancestors.map(ancestor => ({
-                            label: getLocalizedWorkTerm(ancestor.name, 'type', locale),
+                            label: localizeGenreTerm(ancestor.name, locale, ancestor.nameZh),
                             href: localePath(locale, getGenrePath(ancestor)),
                         })),
                         {label: title},

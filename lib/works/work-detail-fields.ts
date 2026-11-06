@@ -61,11 +61,11 @@ export function isFullWidthWorkDetail(field: string): boolean {
     return FULL_WIDTH_FIELDS.has(field.toLocaleLowerCase())
 }
 
-export function formatWorkDetailValue(field: string, value: string, locale: Locale): string {
+export function formatWorkDetailValue(field: string, value: string, locale: Locale, localizeGenre: (term: string) => string): string {
     switch (field.toLocaleLowerCase()) {
         case 'genre':
         case 'type':
-            return getLocalizedWorkTerm(value, 'type', locale)
+            return localizeGenre(value)
         case 'key':
             return getLocalizedWorkTerm(value, 'key', locale)
         case 'instrumentation':

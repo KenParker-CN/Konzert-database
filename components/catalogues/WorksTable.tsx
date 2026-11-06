@@ -8,6 +8,7 @@ import type {ReactNode} from 'react'
 import Link from 'next/link'
 import {localePath} from '@/lib/i18n/config'
 import WorkDetailsDialog from '@/components/catalogues/WorkDetailsDialog'
+import {useGenreTermLocalizer} from '@/components/genres/GenreLinkProvider'
 
 export default function WorksTable({
     works,
@@ -21,6 +22,7 @@ export default function WorksTable({
     footer?: ReactNode
 }) {
     const {t, locale} = useI18n()
+    const localizeGenre = useGenreTermLocalizer(locale)
     const listRef = useRef<HTMLDivElement>(null)
 
     const updateScrollFade = useCallback(() => {
@@ -69,7 +71,7 @@ export default function WorksTable({
                         <span className="hidden w-28 shrink-0 justify-center px-1.5 sm:flex">
                             {work.genre && (
                                 <span className="max-w-full truncate rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-700">
-                                    {getLocalizedWorkTerm(work.genre, 'type', locale)}
+                                    {localizeGenre(work.genre)}
                                 </span>
                             )}
                         </span>

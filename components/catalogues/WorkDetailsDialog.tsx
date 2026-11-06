@@ -8,7 +8,7 @@ import {IconArrowRight, IconX} from '@tabler/icons-react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import {localePath} from '@/lib/i18n/config'
-import {useGenreLink} from '@/components/genres/GenreLinkProvider'
+import {useGenreLink, useGenreTermLocalizer} from '@/components/genres/GenreLinkProvider'
 import {formatWorkDetailValue, getWorkDetailFields, getWorkDetailLabelKey, isFullWidthWorkDetail} from '@/lib/works/work-detail-fields'
 import InstrumentationLegendDialog from './InstrumentationLegendDialog'
 import GenreIntroduction from '../genres/GenreIntroduction'
@@ -39,6 +39,7 @@ export default function WorkDetailsDialog({
 }) {
     const {t, locale} = useI18n()
     const genreLink = useGenreLink(work.genre || '')
+    const localizeGenre = useGenreTermLocalizer(locale)
     const getWorkTitle = (entry: WorkDetailsEntry) => entry.title
     const detailFields = getWorkDetailFields(work.details, catalogCode)
 
@@ -51,7 +52,7 @@ export default function WorkDetailsDialog({
         <Dialog.Root>
             <Dialog.Trigger
                 className={triggerClassName}
-                aria-label={`${t('works.viewDetails')}: ${getWorkTitle(work) || getLocalizedWorkTerm(work.genre, 'type', locale) || work.catalogue || work.opus}`}
+                aria-label={`${t('works.viewDetails')}: ${getWorkTitle(work) || localizeGenre(work.genre) || work.catalogue || work.opus}`}
             >
                 {children}
             </Dialog.Trigger>
@@ -61,7 +62,7 @@ export default function WorkDetailsDialog({
                     <div className="relative border-b border-slate-200 p-5 pr-12">
                         <Dialog.Title className="flex items-baseline gap-2">
                             <span className="heading text-xl font-semibold text-slate-950">
-                                {getWorkTitle(work) || getLocalizedWorkTerm(work.genre, 'type', locale) || work.catalogue || work.opus}
+                                {getWorkTitle(work) || localizeGenre(work.genre) || work.catalogue || work.opus}
                             </span>
                             {work.details['Subtitle'] && (
                                 <span className="text-base italic text-slate-500">
@@ -89,7 +90,7 @@ export default function WorkDetailsDialog({
                                 {work.genre && (() => {
                                     const badge = (
                                         <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
-                                            {getLocalizedWorkTerm(work.genre, 'type', locale)}
+                                            {localizeGenre(work.genre)}
                                         </span>
                                     )
                                     if (!genreLink) return badge
@@ -136,7 +137,7 @@ export default function WorkDetailsDialog({
                                     </dt>
                                     <dd className="mt-1 min-w-0 text-sm text-slate-900">
                                         <span className="whitespace-pre-wrap wrap-break-word">
-                                            {formatWorkDetailValue(field, value, locale)}
+                                            {formatWorkDetailValue(field, value, locale, localizeGenre)}
                                         </span>
                                     </dd>
                                 </div>

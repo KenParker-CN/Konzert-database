@@ -6,7 +6,7 @@ import { getCatalogForComposer } from '@/lib/data/composer-catalog-map'
 import {getGenreLinks} from '@/lib/data/genre-links'
 import {getWikipediaIntroduction, type WikipediaIntroduction} from '@/lib/data/wikipedia'
 import {localePath, type Locale} from '@/lib/i18n/config'
-import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
+import {localizeGenreTerm} from '@/lib/i18n/genre-term'
 
 const CATALOGUE_DIRECTORY_CACHE_TTL_MS = 5 * 60 * 1000
 const catalogueUpdates: Record<string, string> = catalogueUpdatesJson
@@ -233,7 +233,7 @@ async function pickRandomGenre(locale: Locale): Promise<WikiBannerCandidate | nu
 
     return {
         kind: 'genre',
-        title: getLocalizedWorkTerm(pick.name, 'type', locale),
+        title: localizeGenreTerm(pick.name, locale, pick.nameZh),
         wikiID: pick.wikiID,
         href: localePath(locale, pick.path),
     }

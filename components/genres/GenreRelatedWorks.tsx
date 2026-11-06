@@ -5,7 +5,7 @@ import Link from 'next/link'
 import {Button} from '@/components/ui/button'
 import {Select, SelectContent, SelectItem, SelectPositioner, SelectTrigger, SelectValue} from '@/components/ui/select'
 import WorkDetailsDialog from '@/components/catalogues/WorkDetailsDialog'
-import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
+import {useGenreTermLocalizer} from '@/components/genres/GenreLinkProvider'
 import {useI18n} from '@/lib/i18n/client'
 import {localePath} from '@/lib/i18n/config'
 import type {ComposerWork, GenreRelatedWorkGroup} from '@/lib/db/composers'
@@ -23,6 +23,7 @@ type RelatedWorkRow = {
 
 export default function GenreRelatedWorks({groups, showInstrumentation = true, showGenre = false}: {groups: GenreRelatedWorkGroup[]; showInstrumentation?: boolean; showGenre?: boolean}) {
     const {t, locale} = useI18n()
+    const localizeGenre = useGenreTermLocalizer(locale)
     const [page, setPage] = useState(1)
     const [composerFilter, setComposerFilter] = useState('')
     const rowGrid = [
@@ -36,7 +37,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
     const allRows: RelatedWorkRow[] = groups.flatMap(group => group.works.map(work => ({
         key: `${group.catalogue}-${work.workId}`,
         work,
-        title: work.title || getLocalizedWorkTerm(work.genre, 'type', locale),
+        title: work.title || localizeGenre(work.genre),
         composerNameSort: group.composerNameSort,
         composerHref: localePath(locale, `/composers/${encodeURIComponent(group.composerQid)}`),
         catalogue: group.catalogue,
@@ -102,7 +103,7 @@ export default function GenreRelatedWorks({groups, showInstrumentation = true, s
                         >
                             <span className="truncate">{title}</span>
                         </WorkDetailsDialog>
-                        {showGenre && <span className="truncate text-center text-sm text-slate-700">{getLocalizedWorkTerm(work.genre, 'type', locale)}</span>}
+                        {showGenre && <span className="truncate text-center text-sm text-slate-700">{localizeGenre(work.genre)}</span>}
                         <span className="truncate text-center text-sm text-slate-700">{work.key}</span>
                         {showInstrumentation && <span className="truncate text-sm text-slate-700">{work.instrumentation}</span>}
                     </li>
