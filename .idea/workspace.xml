@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f950d89d-7b01-4362-bfbc-17ca7fea9396" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/catalogues/WorksTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KV-works.csv" beforeDir="false" afterPath="$PROJECT_DIR$/KV-works.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/csv-loader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/csv-loader.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -49,23 +55,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000007729970883" />
-      <entry key="S2" value="1.0613768588199304" />
-      <entry key="S5" value="2.0170568121099137" />
-      <entry key="S10" value="4.048741744792375" />
-      <entry key="S30" value="8.960604038488903" />
-      <entry key="S60" value="13.568472845299418" />
-      <entry key="M2" value="21.16919897850638" />
-      <entry key="M5" value="41.72415087177508" />
-      <entry key="M10" value="68.47387765222842" />
-      <entry key="M15" value="85.44328151634073" />
-      <entry key="M30" value="110.17304133748642" />
-      <entry key="H1" value="126.74006035129999" />
-      <entry key="H2" value="138.19182063105688" />
-      <entry key="H4" value="162.7052650165082" />
-      <entry key="D1" value="439.3589368959525" />
-      <entry key="W1" value="1627.3905398916386" />
+      <entry key="MS100" value="1.0000000000008908" />
+      <entry key="MS500" value="1.0047335176446661" />
+      <entry key="S2" value="1.668681374746093" />
+      <entry key="S5" value="3.471877322140053" />
+      <entry key="S10" value="5.076841130903842" />
+      <entry key="S30" value="7.116630369673228" />
+      <entry key="S60" value="9.470571416369058" />
+      <entry key="M2" value="16.311477381521357" />
+      <entry key="M5" value="42.09249700194984" />
+      <entry key="M10" value="77.9457879971613" />
+      <entry key="M15" value="102.56412550638431" />
+      <entry key="M30" value="141.30066587041213" />
+      <entry key="H1" value="169.07600177019134" />
+      <entry key="H2" value="187.60960152888921" />
+      <entry key="H4" value="215.75360261368982" />
+      <entry key="D1" value="495.36824272134385" />
+      <entry key="W1" value="1684.39456228941" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -77,33 +83,33 @@
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
       <entry key="M5" value="0.0" />
-      <entry key="M10" value="7.079644828312528E-212" />
-      <entry key="M15" value="2.280020650169203E-141" />
-      <entry key="M30" value="7.923874192691975E-71" />
-      <entry key="H1" value="1.5254777721710924E-35" />
-      <entry key="H2" value="6.85904783643766E-18" />
-      <entry key="H4" value="5.175191559357948E-9" />
-      <entry key="D1" value="0.23531905905244702" />
-      <entry key="W1" value="8.85884782823184" />
+      <entry key="M10" value="3.871766597587959E-212" />
+      <entry key="M15" value="1.524768504303604E-141" />
+      <entry key="M30" value="6.479927363721353E-71" />
+      <entry key="H1" value="1.379501467872565E-35" />
+      <entry key="H2" value="6.522618429978914E-18" />
+      <entry key="H4" value="5.046676894025254E-9" />
+      <entry key="D1" value="0.2343348862139106" />
+      <entry key="W1" value="8.853545419173702" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526379980439373" />
-      <entry key="MS500" value="0.9903436395837104" />
-      <entry key="S2" value="1.0588390488871404" />
-      <entry key="S5" value="2.0153037252437214" />
-      <entry key="S10" value="4.047066997419385" />
-      <entry key="S30" value="8.959377484316397" />
-      <entry key="S60" value="13.567548215695506" />
-      <entry key="M2" value="21.168483265411503" />
-      <entry key="M5" value="41.72357172010015" />
-      <entry key="M10" value="68.47338678157966" />
-      <entry key="M15" value="85.44286755945994" />
-      <entry key="M30" value="110.17277057869211" />
-      <entry key="H1" value="126.73990339182217" />
-      <entry key="H2" value="138.19173202758503" />
-      <entry key="H4" value="162.7052005424878" />
-      <entry key="D1" value="439.5942051378897" />
-      <entry key="W1" value="1636.2493165745207" />
+      <entry key="MS100" value="0.9265880618911737" />
+      <entry key="MS500" value="0.9895037338177887" />
+      <entry key="S2" value="1.661221840148836" />
+      <entry key="S5" value="3.46479164416039" />
+      <entry key="S10" value="5.071474086083387" />
+      <entry key="S30" value="7.114079869642146" />
+      <entry key="S60" value="9.468849231034136" />
+      <entry key="M2" value="16.309898508782766" />
+      <entry key="M5" value="42.09089861595737" />
+      <entry key="M10" value="77.94447455901134" />
+      <entry key="M15" value="102.56304899701615" />
+      <entry key="M30" value="141.29998333800168" />
+      <entry key="H1" value="169.07561182589447" />
+      <entry key="H2" value="187.6093886113533" />
+      <entry key="H4" value="215.75347420736514" />
+      <entry key="D1" value="495.6025159102016" />
+      <entry key="W1" value="1693.2480350169158" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -130,6 +136,8 @@
     &quot;Git.CreateWorkingTree.LastParentPath&quot;: &quot;D:/Users/Parker/WebstormProjects&quot;,
     &quot;KEY_CHAT_IN_TOOLWINDOW&quot;: &quot;false&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.fetch-kv-entries.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.flatten-kv-raw.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Notification.DisplayName-DoNotAsk-GridPaste&quot;: &quot;粘贴&quot;,
     &quot;Notification.DoNotAsk-GridPaste&quot;: &quot;true&quot;,
     &quot;Python.clean.executor&quot;: &quot;Run&quot;,
@@ -211,6 +219,12 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
+    <configuration name="fetch-kv-entries.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/fetch-kv-entries.mjs" working-dir="$PROJECT_DIR$/scripts">
+      <method v="2" />
+    </configuration>
+    <configuration name="flatten-kv-raw.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/flatten-kv-raw.mjs" working-dir="$PROJECT_DIR$/scripts">
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -242,12 +256,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.fetch-kv-entries.mjs" />
+      <item itemvalue="Node.js.flatten-kv-raw.mjs" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.dev" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.flatten-kv-raw.mjs" />
+        <item itemvalue="Node.js.fetch-kv-entries.mjs" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -303,7 +321,10 @@
       <workItem from="1793426078119" duration="10078000" />
       <workItem from="1793488017932" duration="17145000" />
       <workItem from="1793630392668" duration="3155000" />
-      <workItem from="1793693438934" duration="317000" />
+      <workItem from="1793693438934" duration="5024000" />
+      <workItem from="1793782345588" duration="3303000" />
+      <workItem from="1793788652907" duration="8166000" />
+      <workItem from="1793894481709" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="Added works into Kochel catalogue">
       <option name="closed" value="true" />
