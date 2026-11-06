@@ -80,7 +80,7 @@ export default function WorksTable({
                                 </span>
                             )}
                         </span>
-                        <span className="hidden min-w-0 flex-1 line-clamp-2 px-1.5 text-left text-xs text-slate-500 lg:block">{work.instrumentation}</span>
+                        <span className="hidden min-w-0 flex-1 line-clamp-2 px-1.5 text-left text-xs text-slate-500 lg:block">{work.instrumentation && getLocalizedWorkTerm(work.instrumentation, 'instrumentation', locale)}</span>
                         <WorkDetailsDialog
                             work={work}
                             catalogCode={catalogCode}
