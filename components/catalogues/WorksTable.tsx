@@ -59,12 +59,12 @@ export default function WorksTable({
                                 href={localePath(locale, `/works/${work.details['WikiQID']}`)}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="relative z-10 w-72 shrink-0 truncate px-1.5 text-sm font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900"
+                                className={`relative z-10 w-72 shrink-0 truncate px-1.5 text-sm font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900 ${work.title ? '' : 'italic'}`}
                             >
-                                {work.title}
+                                {work.title || work.details['Subtitle']}
                             </Link>
                         ) : (
-                            <span className="w-72 shrink-0 truncate px-1.5 text-sm text-slate-900">{work.title}</span>
+                            <span className={`w-72 shrink-0 truncate px-1.5 text-sm text-slate-900 ${work.title ? '' : 'italic'}`}>{work.title || work.details['Subtitle']}</span>
                         )}
                         <span className="hidden w-28 shrink-0 justify-center px-1.5 sm:flex">
                             {work.genre && (
