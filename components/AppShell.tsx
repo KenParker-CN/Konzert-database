@@ -26,9 +26,17 @@ type WorkSearchResult = WorkDetailsEntry & {
     sort: string
 }
 
+type LinkSearchResult = {
+    href: string
+    label: string
+    subtitle: string | null
+}
+
 type SearchResults = {
     catalogues: {total: number; results: CatalogueSearchResult[]}
     works: {total: number; results: WorkSearchResult[]}
+    instruments: {total: number; results: LinkSearchResult[]}
+    genres: {total: number; results: LinkSearchResult[]}
 }
 
 export default function AppShell({children, active}: {
@@ -64,7 +72,7 @@ export default function AppShell({children, active}: {
         setSearchSubmitted(true)
         setSearchFailed(false)
         try {
-            const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`)
+            const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&locale=${locale}`)
             if (!response.ok) throw new Error('Search request failed')
             const data = await response.json() as SearchResults
             setSearchResults(data)
@@ -74,14 +82,14 @@ export default function AppShell({children, active}: {
         } finally {
             setSearchLoading(false)
         }
-    }, [])
+    }, [locale])
 
     const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
         void runSearch(searchQuery)
     }
 
-    const viewAllResults = (type: 'catalogues' | 'works') => {
+    const viewAllResults = (type: 'catalogues' | 'works' | 'instruments' | 'genres') => {
         const query = searchQuery.trim()
         if (!query) return
         setSearchOpen(false)
@@ -91,6 +99,11 @@ export default function AppShell({children, active}: {
     const openCatalogue = (catalogue: string) => {
         setSearchOpen(false)
         router.push(localePath(locale, `/catalogues/${catalogue}`))
+    }
+
+    const openHref = (href: string) => {
+        setSearchOpen(false)
+        router.push(href)
     }
 
     return <div className={`app-shell flex min-h-dvh flex-col${active === 'catalogues' ? ' md:h-dvh' : ''}`} data-page={active ?? 'home'}>
@@ -179,7 +192,7 @@ export default function AppShell({children, active}: {
                                     <p className="py-3 text-sm text-slate-500">{t('search.searching')}</p>
                                 ) : searchFailed ? (
                                     <p role="alert" className="py-3 text-sm text-slate-500">{t('search.failed')}</p>
-                                ) : searchSubmitted && searchResults && searchResults.catalogues.total === 0 && searchResults.works.total === 0 ? (
+                                ) : searchSubmitted && searchResults && Object.values(searchResults).every(group => group.total === 0) ? (
                                     <p className="py-3 text-sm text-slate-500">{t('search.noResults')}</p>
                                 ) : searchSubmitted && searchResults ? (
                                     <>
@@ -226,6 +239,27 @@ export default function AppShell({children, active}: {
                                                     </button>
                                                 </section>
                                             )}
+                                            {([
+                                                ['instruments', t('navigation.instruments'), searchResults.instruments],
+                                                ['genres', t('navigation.genres'), searchResults.genres],
+                                            ] as const).map(([kind, label, group]) => group.total > 0 && (
+                                                <section key={kind}>
+                                                    <h2 className="mb-2 text-sm font-semibold text-slate-900">{label}</h2>
+                                                    <ul className="space-y-2">
+                                                        {group.results.map(result => (
+                                                            <li key={result.href}>
+                                                                <button type="button" onClick={() => openHref(result.href)} className="w-full rounded-md border border-slate-200 bg-white p-3 text-left shadow-sm transition hover:border-blue-300 hover:bg-slate-50">
+                                                                    <span className="block text-sm font-semibold text-slate-900">{result.label}</span>
+                                                                    {result.subtitle && <span className="mt-0.5 block text-xs text-slate-600">{result.subtitle}</span>}
+                                                                </button>
+                                                            </li>
+                                                        ))}
+                                                    </ul>
+                                                    <button type="button" onClick={() => viewAllResults(kind)} className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700">
+                                                        {t('search.viewAll', {count: group.total})}
+                                                    </button>
+                                                </section>
+                                            ))}
                                         </div>
                                     </>
                                 ) : null}

@@ -7,7 +7,7 @@ import GenreIntroduction from '@/components/genres/GenreIntroduction'
 import GenreRelatedWorks from '@/components/genres/GenreRelatedWorks'
 import {getGenreCsvEntries, type GenreCsvEntry} from '@/lib/data/csv-loader'
 import {getGenreWorksSafe} from '@/lib/db/composers'
-import {getInstrumentRefsByName, type InstrumentRef} from '@/lib/db/instruments'
+import {getInstrumentPath, getInstrumentRefsByName} from '@/lib/db/instruments'
 import {getGenreAncestors, getGenreChildren, getGenrePath, stripDiacritics} from '@/lib/data/genre-v2'
 import {localizeGenreTerm} from '@/lib/i18n/genre-term'
 import {getI18n} from '@/lib/i18n/server'
@@ -42,12 +42,6 @@ function resolveGenreRoute(entries: GenreCsvEntry[], segments: string[]) {
     const normalized = normalizeSegments(segments)
     const entry = findGenre(entries, instrumentsView ? normalized.slice(0, -1) : normalized)
     return {entry, instrumentsView}
-}
-
-function instrumentPath(ref: InstrumentRef) {
-    return ref.familyKey
-        ? `/instruments/family/${encodeURIComponent(ref.familyKey)}/${encodeURIComponent(ref.abbrev)}`
-        : `/instruments/${encodeURIComponent(ref.abbrev)}`
 }
 
 export async function generateMetadata({params}: {params: Promise<GenreParams>}): Promise<Metadata> {
@@ -102,7 +96,7 @@ export default async function GenreDetailPage({params}: {params: Promise<GenrePa
                                 {instruments.map(ref => (
                                     <li key={ref.abbrev}>
                                         <Link
-                                            href={localePath(locale, instrumentPath(ref))}
+                                            href={localePath(locale, getInstrumentPath(ref))}
                                             className="group flex min-h-20 items-center border border-slate-200 bg-white px-5 py-4 font-medium text-slate-950 shadow-sm transition hover:border-blue-300 hover:shadow-md"
                                         >
                                             {ref.name[locale]}
@@ -136,7 +130,7 @@ export default async function GenreDetailPage({params}: {params: Promise<GenrePa
                                 {relatedInstruments.map(ref => (
                                     <Link
                                         key={ref.abbrev}
-                                        href={localePath(locale, instrumentPath(ref))}
+                                        href={localePath(locale, getInstrumentPath(ref))}
                                         className="text-blue-600 hover:underline"
                                     >
                                         {ref.name[locale]}

@@ -263,6 +263,17 @@ export async function getInstrumentRefsByName(names: string[]): Promise<Instrume
     return [...(await getInstrumentCatalog()).refs.values()].filter(ref => wanted.has(ref.name.en.toLocaleLowerCase('en')))
 }
 
+export async function getInstrumentRefsWithWorks(): Promise<InstrumentRef[]> {
+    const [index, catalog] = await Promise.all([getInstrumentIndex(), getInstrumentCatalog()])
+    return [...catalog.refs.values()].filter(ref => (index.get(ref.abbrev) ?? []).some(work => work.works.length > 0))
+}
+
+export function getInstrumentPath(ref: InstrumentRef) {
+    return ref.familyKey
+        ? `/instruments/family/${encodeURIComponent(ref.familyKey)}/${encodeURIComponent(ref.abbrev)}`
+        : `/instruments/${encodeURIComponent(ref.abbrev)}`
+}
+
 export async function getInstrumentFamilies(locale: Locale) {
     const [index, catalog] = await Promise.all([getInstrumentIndex(), getInstrumentCatalog()])
     return catalog.families.flatMap(family => {

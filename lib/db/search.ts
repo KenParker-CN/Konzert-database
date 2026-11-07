@@ -1,6 +1,11 @@
 import 'server-only'
 
+import {getGenreCsvEntries, type GenreCsvEntry} from '@/lib/data/csv-loader'
+import {getGenrePath} from '@/lib/data/genre-v2'
 import {getCatalogueDirectory, getCatalogWorksSafe, type ComposerWork} from '@/lib/db/composers'
+import {getInstrumentPath, getInstrumentRefsWithWorks, type InstrumentRef} from '@/lib/db/instruments'
+import {localePath, type Locale} from '@/lib/i18n/config'
+import {localizeGenreTerm} from '@/lib/i18n/genre-term'
 
 const SEARCH_INDEX_TTL_MS = 5 * 60 * 1000
 
@@ -28,6 +33,20 @@ export type WorkSearchResult = {
     details: Record<string, string>
 }
 
+export type LinkSearchResult = {
+    href: string
+    label: string
+    subtitle: string | null
+}
+
+export type SearchKind = 'catalogues' | 'works' | 'instruments' | 'genres'
+
+export type SearchWindow = {offset?: number; limit?: number}
+
+export type SearchWindows = Partial<Record<SearchKind, SearchWindow>>
+
+const DEFAULT_LIMITS: Record<SearchKind, number> = {catalogues: 3, works: 5, instruments: 3, genres: 3}
+
 type IndexedCatalogue = {
     result: CatalogueSearchResult
     text: string
@@ -38,9 +57,21 @@ type IndexedWork = {
     text: string
 }
 
+type IndexedInstrument = {
+    ref: InstrumentRef
+    text: string
+}
+
+type IndexedGenre = {
+    entry: GenreCsvEntry
+    text: string
+}
+
 type SearchIndex = {
     catalogues: IndexedCatalogue[]
     works: IndexedWork[]
+    instruments: IndexedInstrument[]
+    genres: IndexedGenre[]
 }
 
 let searchIndexCache: {
@@ -64,6 +95,14 @@ function getWorkText(work: ComposerWork, composerName: string): string {
         work.key,
         work.instrumentation,
         ...Object.values(work.details),
+    ].join(' '))
+}
+
+function getInstrumentText(ref: InstrumentRef): string {
+    return normalizeText([
+        ref.abbrev,
+        ...Object.values(ref.name),
+        ...(ref.familyName ? Object.values(ref.familyName) : []),
     ].join(' '))
 }
 
@@ -99,7 +138,17 @@ async function buildSearchIndex(): Promise<SearchIndex> {
         }))
     }))
 
-    return {catalogues: indexedCatalogues, works: indexedWorks.flat()}
+    const [instrumentRefs, genreEntries] = await Promise.all([getInstrumentRefsWithWorks(), getGenreCsvEntries()])
+
+    return {
+        catalogues: indexedCatalogues,
+        works: indexedWorks.flat(),
+        instruments: instrumentRefs.map(ref => ({ref, text: getInstrumentText(ref)})),
+        genres: genreEntries.map(entry => ({
+            entry,
+            text: normalizeText([entry.name, entry.nameZh, entry.medium].join(' ')),
+        })),
+    }
 }
 
 async function getSearchIndex(): Promise<SearchIndex> {
@@ -117,45 +166,79 @@ function scoreMatch(text: string, query: string): number {
     return text.startsWith(query) ? 2 : 1
 }
 
-export async function searchArchive(query: string, options?: {
-    catalogueOffset?: number
-    catalogueLimit?: number
-    workOffset?: number
-    workLimit?: number
-}) {
+function matchEntries<T extends {text: string}>(items: T[], query: string, compare: (a: T, b: T) => number): T[] {
+    return items
+        .map(entry => ({entry, score: scoreMatch(entry.text, query)}))
+        .filter(match => match.score > 0)
+        .sort((a, b) => b.score - a.score || compare(a.entry, b.entry))
+        .map(match => match.entry)
+}
+
+function sliceWindow<T>(items: T[], kind: SearchKind, windows: SearchWindows): T[] {
+    const {offset = 0, limit = DEFAULT_LIMITS[kind]} = windows[kind] ?? {}
+    const start = Math.max(0, offset)
+    return items.slice(start, start + Math.max(0, limit))
+}
+
+function toInstrumentResult(ref: InstrumentRef, locale: Locale): LinkSearchResult {
+    return {
+        href: localePath(locale, getInstrumentPath(ref)),
+        label: ref.name[locale],
+        subtitle: ref.familyName?.[locale] ?? null,
+    }
+}
+
+function toGenreResult(entry: GenreCsvEntry, locale: Locale): LinkSearchResult {
+    return {
+        href: localePath(locale, getGenrePath(entry)),
+        label: localizeGenreTerm(entry.name, locale, entry.nameZh),
+        subtitle: null,
+    }
+}
+
+type SearchResultGroup<T> = {total: number; results: T[]}
+
+export type SearchResults = {
+    catalogues: SearchResultGroup<CatalogueSearchResult>
+    works: SearchResultGroup<WorkSearchResult>
+    instruments: SearchResultGroup<LinkSearchResult>
+    genres: SearchResultGroup<LinkSearchResult>
+}
+
+export async function searchArchive(query: string, locale: Locale, windows: SearchWindows = {}): Promise<SearchResults> {
     const normalizedQuery = normalizeText(query)
     if (!normalizedQuery) {
-        return {
-            catalogues: {total: 0, results: [] as CatalogueSearchResult[]},
-            works: {total: 0, results: [] as WorkSearchResult[]},
-        }
+        const empty = {total: 0, results: []}
+        return {catalogues: empty, works: empty, instruments: empty, genres: empty}
     }
 
     const index = await getSearchIndex()
-    const catalogueMatches = index.catalogues
-        .map(entry => ({...entry, score: scoreMatch(entry.text, normalizedQuery)}))
-        .filter(entry => entry.score > 0)
-        .sort((a, b) => b.score - a.score || a.result.composerName.localeCompare(b.result.composerName))
-    const workMatches = index.works
-        .map(entry => ({...entry, score: scoreMatch(entry.text, normalizedQuery)}))
-        .filter(entry => entry.score > 0)
-        .sort((a, b) => b.score - a.score
-            || a.result.composerName.localeCompare(b.result.composerName)
+    const catalogueMatches = matchEntries(index.catalogues, normalizedQuery,
+        (a, b) => a.result.composerName.localeCompare(b.result.composerName))
+    const workMatches = matchEntries(index.works, normalizedQuery,
+        (a, b) => a.result.composerName.localeCompare(b.result.composerName)
             || a.result.sort.localeCompare(b.result.sort, undefined, {numeric: true, sensitivity: 'base'}))
-
-    const catalogueOffset = Math.max(0, options?.catalogueOffset ?? 0)
-    const catalogueLimit = Math.max(0, options?.catalogueLimit ?? 3)
-    const workOffset = Math.max(0, options?.workOffset ?? 0)
-    const workLimit = Math.max(0, options?.workLimit ?? 5)
+    const instrumentMatches = matchEntries(index.instruments, normalizedQuery,
+        (a, b) => a.ref.name.en.localeCompare(b.ref.name.en))
+    const genreMatches = matchEntries(index.genres, normalizedQuery,
+        (a, b) => a.entry.name.localeCompare(b.entry.name))
 
     return {
         catalogues: {
             total: catalogueMatches.length,
-            results: catalogueMatches.slice(catalogueOffset, catalogueOffset + catalogueLimit).map(entry => entry.result),
+            results: sliceWindow(catalogueMatches, 'catalogues', windows).map(entry => entry.result),
         },
         works: {
             total: workMatches.length,
-            results: workMatches.slice(workOffset, workOffset + workLimit).map(entry => entry.result),
+            results: sliceWindow(workMatches, 'works', windows).map(entry => entry.result),
+        },
+        instruments: {
+            total: instrumentMatches.length,
+            results: sliceWindow(instrumentMatches, 'instruments', windows).map(entry => toInstrumentResult(entry.ref, locale)),
+        },
+        genres: {
+            total: genreMatches.length,
+            results: sliceWindow(genreMatches, 'genres', windows).map(entry => toGenreResult(entry.entry, locale)),
         },
     }
 }

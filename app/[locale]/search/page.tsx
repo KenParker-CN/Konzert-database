@@ -1,6 +1,6 @@
 import type {Metadata} from 'next'
 import AppShell from '@/components/AppShell'
-import {searchArchive} from '@/lib/db/search'
+import {searchArchive, type LinkSearchResult, type SearchKind, type SearchWindows} from '@/lib/db/search'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import {notFound} from 'next/navigation'
@@ -18,6 +18,22 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 }
 
 const PAGE_SIZE = 50
+const SEARCH_KINDS: readonly SearchKind[] = ['catalogues', 'works', 'instruments', 'genres']
+
+function LinkResultList({items}: {items: LinkSearchResult[]}) {
+    return (
+        <ul className="space-y-2">
+            {items.map(item => (
+                <li key={item.href}>
+                    <Link href={item.href} className="block rounded-md border border-slate-200 bg-white p-3 shadow-sm transition hover:border-blue-300 hover:shadow-md">
+                        <p className="text-sm font-semibold text-slate-900">{item.label}</p>
+                        {item.subtitle && <p className="mt-0.5 text-xs text-slate-600">{item.subtitle}</p>}
+                    </Link>
+                </li>
+            ))}
+        </ul>
+    )
+}
 
 export default async function SearchPage({params, searchParams}: {
     params: Promise<{locale: string}>
@@ -29,16 +45,19 @@ export default async function SearchPage({params, searchParams}: {
     const {q, type: requestedType, page: requestedPage} = await searchParams
     const {t} = await getI18n(locale)
     const query = typeof q === 'string' ? q.trim() : ''
-    const type = requestedType === 'works' ? 'works' : 'catalogues'
+    const type = SEARCH_KINDS.find(kind => kind === requestedType) ?? 'catalogues'
     const page = Math.max(1, Number.parseInt(requestedPage ?? '1', 10) || 1)
     const offset = (page - 1) * PAGE_SIZE
-    const results = await searchArchive(query, type === 'works'
-        ? {catalogueLimit: 0, workOffset: offset, workLimit: PAGE_SIZE}
-        : {catalogueOffset: offset, catalogueLimit: PAGE_SIZE, workLimit: 0})
+    const windows: SearchWindows = {[type]: {offset, limit: PAGE_SIZE}}
+    const results = await searchArchive(query, locale, windows)
     const total = results[type].total
     const pageCount = Math.max(1, Math.ceil(total / PAGE_SIZE))
-    const visibleResults = results[type].results
-    const typeLabel = type === 'works' ? t('navigation.works') : t('search.catalogue')
+    const typeLabels: Record<SearchKind, string> = {
+        catalogues: t('search.catalogue'),
+        works: t('navigation.works'),
+        instruments: t('navigation.instruments'),
+        genres: t('navigation.genres'),
+    }
     const pageHref = (nextPage: number) => localePath(locale, `/search?q=${encodeURIComponent(query)}&type=${type}&page=${nextPage}`)
 
     return (
@@ -54,25 +73,22 @@ export default async function SearchPage({params, searchParams}: {
 
                     {query && (
                         <nav className="mb-5 flex flex-wrap gap-2" aria-label={t('search.title')}>
-                            {([
-                                ['catalogues', t('search.catalogue'), results.catalogues.total],
-                                ['works', t('navigation.works'), results.works.total],
-                            ] as const).map(([resultType, label, count]) => (
+                            {SEARCH_KINDS.map(kind => (
                                 <Link
-                                    key={resultType}
-                                    href={localePath(locale, `/search?q=${encodeURIComponent(query)}&type=${resultType}`)}
-                                    aria-current={type === resultType ? 'page' : undefined}
-                                    className={`rounded-md border px-3 py-2 text-sm ${type === resultType ? 'border-blue-200 bg-blue-50 font-semibold text-blue-700' : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'}`}
+                                    key={kind}
+                                    href={localePath(locale, `/search?q=${encodeURIComponent(query)}&type=${kind}`)}
+                                    aria-current={type === kind ? 'page' : undefined}
+                                    className={`rounded-md border px-3 py-2 text-sm ${type === kind ? 'border-blue-200 bg-blue-50 font-semibold text-blue-700' : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'}`}
                                 >
-                                    {label} ({count})
+                                    {typeLabels[kind]} ({results[kind].total})
                                 </Link>
                             ))}
                         </nav>
                     )}
 
                     <section>
-                        <h2 className="mb-3 text-sm font-semibold text-slate-600">{typeLabel} · {total}</h2>
-                        {visibleResults.length === 0 ? (
+                        <h2 className="mb-3 text-sm font-semibold text-slate-600">{typeLabels[type]} · {total}</h2>
+                        {results[type].results.length === 0 ? (
                             <p className="text-sm text-slate-500">{t('search.noResults')}</p>
                         ) : type === 'catalogues' ? (
                             <ul className="space-y-2">
@@ -86,7 +102,7 @@ export default async function SearchPage({params, searchParams}: {
                                     </li>
                                 ))}
                             </ul>
-                        ) : (
+                        ) : type === 'works' ? (
                             <ul className="space-y-2">
                                 {results.works.results.map(work => (
                                     <li key={`${work.catalogueCode}-${work.workId}`}>
@@ -97,6 +113,8 @@ export default async function SearchPage({params, searchParams}: {
                                     </li>
                                 ))}
                             </ul>
+                        ) : (
+                            <LinkResultList items={results[type].results}/>
                         )}
                     </section>
 
