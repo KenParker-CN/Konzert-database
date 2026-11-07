@@ -163,15 +163,6 @@ async function loadComposers(): Promise<ComposerCsvEntry[]> {
     }
 }
 
-export function clearCsvCache() {
-    csvCache.clear();
-    composersCache = undefined;
-}
-
-export async function clearCatalogueCache(catalogCode: string) {
-    csvCache.delete(catalogCode);
-}
-
 function parseCsvRecords<T extends Record<string, string> = Record<string, string>>(text: string): T[] {
     const records: string[][] = [];
     let record: string[] = [];

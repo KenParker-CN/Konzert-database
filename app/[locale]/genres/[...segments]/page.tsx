@@ -8,11 +8,11 @@ import GenreRelatedWorks from '@/components/genres/GenreRelatedWorks'
 import {getGenreCsvEntries, type GenreCsvEntry} from '@/lib/data/csv-loader'
 import {getGenreWorksSafe} from '@/lib/db/composers'
 import {getInstrumentRefsByName, type InstrumentRef} from '@/lib/db/instruments'
-import {getGenreAncestors, getGenreChildren, getGenrePath} from '@/lib/data/genre-v2'
+import {getGenreAncestors, getGenreChildren, getGenrePath, stripDiacritics} from '@/lib/data/genre-v2'
 import {localizeGenreTerm} from '@/lib/i18n/genre-term'
 import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath} from '@/lib/i18n/config'
-import {notFound} from 'next/navigation'
+import {notFound, permanentRedirect} from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
 
@@ -25,9 +25,22 @@ function findGenre(entries: GenreCsvEntry[], segments: string[]) {
     return entries.find(candidate => candidate.segments.join('/') === key)
 }
 
+function decodeSegment(segment: string) {
+    try {
+        return decodeURIComponent(segment)
+    } catch {
+        return segment
+    }
+}
+
+function normalizeSegments(segments: string[]) {
+    return segments.map(segment => stripDiacritics(decodeSegment(segment)))
+}
+
 function resolveGenreRoute(entries: GenreCsvEntry[], segments: string[]) {
     const instrumentsView = segments.at(-1) === INSTRUMENTS_SEGMENT
-    const entry = findGenre(entries, instrumentsView ? segments.slice(0, -1) : segments)
+    const normalized = normalizeSegments(segments)
+    const entry = findGenre(entries, instrumentsView ? normalized.slice(0, -1) : normalized)
     return {entry, instrumentsView}
 }
 
@@ -55,6 +68,10 @@ export default async function GenreDetailPage({params}: {params: Promise<GenrePa
     const entries = await getGenreCsvEntries()
     const {entry, instrumentsView} = resolveGenreRoute(entries, segments)
     if (!entry || (instrumentsView && entry.relatedInstruments.length === 0)) notFound()
+
+    if (segments.join('/') !== normalizeSegments(segments).join('/')) {
+        permanentRedirect(localePath(locale, `${getGenrePath(entry)}${instrumentsView ? `/${INSTRUMENTS_SEGMENT}` : ''}`))
+    }
 
     const {t} = await getI18n(locale)
     const title = localizeGenreTerm(entry.name, locale, entry.nameZh)
