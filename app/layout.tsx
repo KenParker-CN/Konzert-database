@@ -6,6 +6,7 @@ import { ThemeProvider } from '@/components/ThemeProvider'
 import { Toaster } from '@/components/ui/toast'
 import { TooltipProvider } from '@/components/ui/tooltip'
 import { ScrollProgress } from '@/components/ScrollProgress'
+import { NavigationProgress } from '@/components/NavigationProgress'
 import { cn } from "@/lib/utils";
 
 const googleSans = Google_Sans({
@@ -52,6 +53,7 @@ export default function RootLayout({
       <ThemeProvider>
         <TooltipProvider>
           <ScrollProgress />
+          <NavigationProgress />
           {children}
           <Toaster />
         </TooltipProvider>
