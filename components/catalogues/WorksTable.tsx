@@ -1,6 +1,6 @@
 'use client'
 
-import {useCallback, useEffect, useRef} from 'react'
+import {useCallback, useEffect, useLayoutEffect, useRef} from 'react'
 import {useI18n} from '@/lib/i18n/client'
 import {getLocalizedWorkTerm} from '@/lib/i18n/work-terms'
 import type {ComposerWork} from '@/lib/db/composers'
@@ -55,7 +55,7 @@ export default function WorksTable({
                         key={work.workId}
                         className="relative flex w-full items-center divide-x divide-slate-200 border-b border-slate-100 px-4 py-1.5 transition-colors last:border-0 hover:bg-blue-50/50"
                     >
-                        <span className="w-24 shrink-0 px-1.5 text-center font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</span>
+                        <FitText className="w-24 shrink-0 px-1.5 text-center font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</FitText>
                         {work.details['WikiQID'] ? (
                             <Link
                                 href={localePath(locale, `/works/${work.details['WikiQID']}`)}
@@ -97,4 +97,29 @@ export default function WorksTable({
         {footer && <div className="flex shrink-0 justify-center">{footer}</div>}
         </>
     )
+}
+
+const MIN_FIT_FONT_SIZE = 10
+
+function FitText({className, children}: {className: string; children: ReactNode}) {
+    const ref = useRef<HTMLSpanElement>(null)
+
+    useLayoutEffect(() => {
+        const el = ref.current
+        if (!el) return
+        const fit = () => {
+            el.style.fontSize = ''
+            let size = parseFloat(getComputedStyle(el).fontSize)
+            while (el.scrollWidth > el.clientWidth && size > MIN_FIT_FONT_SIZE) {
+                size -= 0.5
+                el.style.fontSize = `${size}px`
+            }
+        }
+        fit()
+        const observer = new ResizeObserver(fit)
+        observer.observe(el)
+        return () => observer.disconnect()
+    }, [children])
+
+    return <span ref={ref} className={`${className} overflow-hidden whitespace-nowrap`}>{children}</span>
 }
