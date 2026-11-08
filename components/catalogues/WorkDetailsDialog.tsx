@@ -83,7 +83,7 @@ export default function WorkDetailsDialog({
                             )}
                         </Dialog.Title>
                         <Dialog.Description className="mt-1 text-sm text-slate-500">
-                            {[work.catalogue, work.secondaryCatalogue].filter(Boolean).join(' · ') || work.opus || work.date}
+                            {[work.catalogue, work.opus, work.secondaryCatalogue].filter(Boolean).join(' · ') || work.date}
                         </Dialog.Description>
                         {(work.genre || work.key) && (
                             <div className="mt-1.5 flex flex-wrap items-center gap-2">
