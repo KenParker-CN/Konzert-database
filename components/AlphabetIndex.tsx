@@ -98,7 +98,7 @@ export default function AlphabetIndex({
                             <div className="px-3 pb-1 pt-2 text-xs font-semibold text-slate-400">
                                 {letter}
                             </div>
-                            <ul className="flex max-h-80 flex-col gap-0.5 overflow-y-auto p-2 pt-0">
+                            <ul className="always-visible-scrollbar flex max-h-80 flex-col gap-0.5 overflow-y-auto p-2 pt-0">
                                 {letterItems.map(item => {
                                     const active = item.key === activeKey
                                     return (
