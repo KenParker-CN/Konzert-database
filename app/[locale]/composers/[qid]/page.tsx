@@ -6,7 +6,7 @@ import MusicServiceLinks from '@/components/composers/MusicServiceLinks'
 import {getComposer, getComposerIndex} from '@/lib/db/composers'
 import {getCatalogForComposer} from '@/lib/data/composer-catalog-map'
 import {getLocalizedComposerName} from '@/lib/composer-name'
-import {nationalityFlag} from '@/lib/nationality-flag'
+import {nationalityFlagCode} from '@/lib/nationality-flag'
 import {isLocale, localePath} from '@/lib/i18n/config'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
@@ -35,8 +35,8 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
     const catalogCode = getCatalogForComposer(qid)
     const displayName = getLocalizedComposerName(composer.name, composer.aliases, locale)
     const lifespan = [composer.startDate, composer.endDate].filter(Boolean).join(' – ')
-    const flags = composer.nationalities.map(nationalityFlag).filter(Boolean).join(' ')
-    const meta = [flags, composer.era, lifespan].filter(Boolean).join(' · ')
+    const flagCodes = composer.nationalities.map(nationalityFlagCode).filter((code): code is string => code !== null)
+    const details = [composer.era, lifespan].filter(Boolean).join(' · ')
 
     return (
         <AppShell active="composers">
@@ -53,7 +53,13 @@ export default async function ComposerDetailPage({params}: {params: Promise<{loc
                             )}
                         </div>
                         <div className="mt-2 flex items-center justify-between gap-4">
-                            {meta ? <p className="text-sm text-slate-500">{meta}</p> : <span/>}
+                            {flagCodes.length > 0 || details ? (
+                                <p className="flex items-center gap-1.5 text-sm text-slate-500">
+                                    {flagCodes.map(code => <span key={code} role="img" aria-label={code.toUpperCase()} className={`fi fi-${code}`}/>)}
+                                    {flagCodes.length > 0 && details && <span>·</span>}
+                                    {details}
+                                </p>
+                            ) : <span/>}
                             <MusicServiceLinks name={composer.name}/>
                         </div>
                         <GenreIntroduction wikiID={composer.wikiQID} locale={locale}/>
