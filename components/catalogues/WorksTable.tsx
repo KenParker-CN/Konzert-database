@@ -24,6 +24,7 @@ export default function WorksTable({
     const {t, locale} = useI18n()
     const localizeGenre = useGenreTermLocalizer(locale)
     const listRef = useRef<HTMLDivElement>(null)
+    const showOpusColumn = !showDateColumn && works.some(work => work.opus)
 
     const updateScrollFade = useCallback(() => {
         const el = listRef.current
@@ -44,6 +45,7 @@ export default function WorksTable({
         <section className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm md:min-h-72 md:flex-1">
             <div className="flex shrink-0 items-center divide-x divide-slate-200 border-b border-slate-200 bg-slate-50 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
                 <span className="w-24 shrink-0 px-1.5 text-center">{showDateColumn ? t('works.date') : t('works.catalogue')}</span>
+                {showOpusColumn && <span className="hidden w-28 shrink-0 px-1.5 text-center md:block">{t('works.opus')}</span>}
                 <span className="w-72 shrink-0 px-1.5 text-center">{t('works.titleColumn')}</span>
                 <span className="hidden w-28 shrink-0 px-1.5 text-center sm:block">{t('works.genre')}</span>
                 <span className="hidden w-28 shrink-0 px-1.5 text-center md:block">{t('works.key')}</span>
@@ -56,6 +58,7 @@ export default function WorksTable({
                         className="relative flex w-full items-center divide-x divide-slate-200 border-b border-slate-100 px-4 py-1.5 transition-colors last:border-0 hover:bg-blue-50/50"
                     >
                         <FitText className="w-24 shrink-0 px-1.5 text-center font-semibold text-blue-700">{work.catalogue || work.opus || work.date}</FitText>
+                        {showOpusColumn && <span className="hidden w-28 shrink-0 truncate px-1.5 text-center text-sm text-slate-700 md:block">{work.opus}</span>}
                         {work.details['WikiQID'] ? (
                             <Link
                                 href={localePath(locale, `/works/${work.details['WikiQID']}`)}
