@@ -6,6 +6,7 @@ import {getI18n} from '@/lib/i18n/server'
 import {isLocale, localePath, type Locale} from '@/lib/i18n/config'
 import type {Translator} from '@/lib/i18n/core'
 import {getLocalizedComposerName} from '@/lib/composer-name'
+import {getRandomGradients, type UiGradient} from '@/lib/ui-gradients'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
 
@@ -24,6 +25,7 @@ function renderCatalogueCard(
     {catalogue, catalogueName, composerName, composerAliases, workCount}: CatalogueEntry,
     locale: Locale,
     t: Translator,
+    gradient: UiGradient,
 ) {
     const displayName = getLocalizedComposerName(composerName, composerAliases, locale)
     const catalogueLabel = catalogueName ?? catalogue
@@ -31,8 +33,13 @@ function renderCatalogueCard(
         <Link
             key={catalogue}
             href={localePath(locale, `/catalogues/${catalogue}`)}
-            className="group flex min-h-20 flex-col justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+            className="group relative flex min-h-20 flex-col justify-between gap-4 overflow-hidden border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
         >
+            <span
+                aria-hidden="true"
+                className="absolute inset-y-0 left-0 w-1.5"
+                style={{backgroundImage: `linear-gradient(180deg, ${gradient.colors.join(', ')})`}}
+            />
             <div className="flex items-start justify-between gap-2">
                 <span className="heading text-base font-semibold text-slate-900">{catalogueLabel}</span>
             </div>
@@ -50,6 +57,7 @@ export default async function CataloguesPage({params}: {params: Promise<{locale:
         getI18n(locale),
         getCatalogueDirectory().catch(() => []),
     ])
+    const gradients = getRandomGradients(catalogues.length)
 
     return (
         <AppShell active="catalogues">
@@ -65,7 +73,7 @@ export default async function CataloguesPage({params}: {params: Promise<{locale:
                             </p>
                         </header>
                         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                            {catalogues.map(entry => renderCatalogueCard(entry, locale, t))}
+                            {catalogues.map((entry, index) => renderCatalogueCard(entry, locale, t, gradients[index]))}
                         </ul>
                     </div>
                 </main>

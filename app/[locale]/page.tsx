@@ -2,11 +2,11 @@ import type {Metadata} from 'next'
 import AppShell from '../../components/AppShell'
 import {isLocale} from '@/lib/i18n/config'
 import {getI18n} from '@/lib/i18n/server'
-import {getCatalogueDirectory, getRandomWikiBannerItems} from '@/lib/db/composers'
+import {getCatalogueDirectory} from '@/lib/db/composers'
 import {getLocalizedComposerName} from '@/lib/composer-name'
 import {localePath} from '@/lib/i18n/config'
 import CountTo from '@/components/home/CountTo'
-import WikiRandomBanner from '@/components/home/WikiRandomBanner'
+import RecentCataloguesBanner, {type RecentCatalogueBannerItem} from '@/components/home/RecentCataloguesBanner'
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
 import {IconBrandGithub, IconDisc, IconMail} from '@tabler/icons-react'
@@ -23,12 +23,18 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     const {locale} = await params
     if (!isLocale(locale)) notFound()
     const {t} = await getI18n(locale)
-    const [directory, wikiBannerItems] = await Promise.all([getCatalogueDirectory(), getRandomWikiBannerItems(locale)])
+    const directory = await getCatalogueDirectory()
     const composerCount = directory.length
     const workCount = directory.reduce((sum, entry) => sum + (entry.workCount ?? 0), 0)
     const recentCatalogues = [...directory]
         .sort((a, b) => (b.updatedAt ?? '').localeCompare(a.updatedAt ?? '') || b.workCount - a.workCount)
         .slice(0, 3)
+    const recentCatalogueItems: RecentCatalogueBannerItem[] = recentCatalogues.map(entry => ({
+        href: localePath(locale, `/catalogues/${entry.catalogue}`),
+        title: entry.catalogueName ?? entry.catalogue,
+        subtitle: getLocalizedComposerName(entry.composerName, entry.composerAliases, locale),
+        countLabel: t('works.count', {count: entry.workCount}),
+    }))
 
     return (
         <AppShell>
@@ -55,45 +61,22 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             </span>
                         </div>
                     </div>
-                    <WikiRandomBanner
-                        items={wikiBannerItems}
-                        title={t('home.randomWiki.title')}
-                        kindLabels={{
-                            composer: t('home.randomWiki.composer'),
-                            genre: t('home.randomWiki.genre'),
-                            work: t('home.randomWiki.work'),
-                        }}
-                    />
-                </section>
-                <section className="mx-auto max-w-7xl px-5 pb-6 lg:px-8">
-                    <div className="mb-5 flex items-end justify-between gap-4">
-                        <h2 className="heading text-2xl font-semibold tracking-tight text-slate-950">{t('home.recentlyUpdated')}</h2>
-                        <Link href={localePath(locale, '/catalogues')} className="text-sm font-semibold text-blue-600 hover:underline">
-                            {t('catalogues.title')}
-                        </Link>
-                    </div>
-                    <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                        {recentCatalogues.map(entry => (
-                            <li key={entry.catalogue}>
-                                <Link
-                                    href={localePath(locale, `/catalogues/${entry.catalogue}`)}
-                                    className="group flex min-h-20 flex-col justify-between gap-4 border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:border-blue-300 hover:shadow-md"
-                                >
-                                    <span className="heading text-base font-semibold text-slate-900">{entry.catalogueName ?? entry.catalogue}</span>
-                                    <span className="text-sm text-slate-600">{getLocalizedComposerName(entry.composerName, entry.composerAliases, locale)}</span>
-                                    <span className="text-xs text-slate-500">{t('works.count', {count: entry.workCount})}</span>
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
+                    <RecentCataloguesBanner items={recentCatalogueItems} title={t('home.recentlyUpdated')}/>
                 </section>
             </main>
             <footer className="border-t border-slate-200 bg-white">
                 <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-4 lg:px-8">
                     <div className="flex flex-wrap items-start justify-between gap-6">
-                        <span className="heading text-lg font-semibold tracking-tight text-slate-950">
+                        <Link href={localePath(locale, '/')} className="heading inline-flex items-center gap-2 text-lg font-semibold tracking-tight text-slate-950">
+                            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" className="size-8 shrink-0 text-[var(--on-surface)]">
+                                <rect x="6" y="6" width="36" height="36" rx="3" stroke="currentColor" strokeWidth="1.104"/>
+                                <circle cx="24" cy="25" r="11" fill="#1967d2" stroke="currentColor" strokeWidth="1.104"/>
+                                <rect x="22" y="23" width="4" height="4" rx="2" fill="white"/>
+                                <rect x="34" y="34" width="4" height="4" rx="2" fill="currentColor"/>
+                                <path d="M28 20L36 12" stroke="currentColor" strokeWidth="1.104" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
                             Konzert
-                        </span>
+                        </Link>
                         <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-slate-600">
                             {[
                                 ['composers', '/composers'],
@@ -113,10 +96,10 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
                             <a href="https://musicbrainz.org/user/KenParker_CN" target="_blank" rel="noopener noreferrer" aria-label="MusicBrainz" className="rounded-md p-2 text-[#ba478f] hover:bg-slate-100 hover:opacity-80">
                                 <IconDisc size={18}/>
                             </a>
-                            <a href="https://github.com/KenParker-CN/Konzert-database" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
+                            <a href="https://github.com/KenParker-CN/Konzert-database" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="rounded-md p-2 text-[var(--on-surface)] hover:bg-slate-100 hover:text-blue-600">
                                 <IconBrandGithub size={18}/>
                             </a>
-                            <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 hover:bg-slate-100 hover:text-blue-600">
+                            <a href="mailto:kenparkercn@gmail.com" aria-label="Email" className="rounded-md p-2 text-[#ea4335] hover:bg-slate-100 hover:text-blue-600">
                                 <IconMail size={18}/>
                             </a>
                         </div>
