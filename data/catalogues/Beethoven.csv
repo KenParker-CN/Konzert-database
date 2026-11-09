@@ -1,27 +1,27 @@
 SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
-1 ,op. 1,Q1547987,3 Piano Trios,"Trois Trios pour un Piano-Forte, Violon, et Violoncelle",Trio,,,"Piano, Violin, Cello"
-1 ,op.1/1,Q43259891,3 Piano Trios #1,Piano Trio No. 1,Piano Trio,E-flat major,"1. Allegro
+1 ,op. 1,Q1547987,"Trois Trios pour un Piano-Forte, Violon, et Violoncelle",,Trio,,,"Piano, Violin, Cello"
+1 ,op.1/1,Q43259891,,Piano Trio No. 1,Piano Trio,E-flat major,"1. Allegro
 2. Adagio cantabile (la bémol majeur)
 3. Scherzo (do mineur)
 4. Presto","Piano, Violin, Cello"
-1 ,op.1/2,Q1746055,3 Piano Trios #2,Piano Trio No. 2,Piano Trio,G major,"1. Adagio
+1 ,op.1/2,Q1746055,,Piano Trio No. 2,Piano Trio,G major,"1. Adagio
 2. Allegro vivace
 3. Largo con expressione (mi majeur) / Scherzo Allegro
 4. Presto","Piano, Violin, Cello"
-1 ,op.1/3,Q1746059,3 Piano Trios #3,Piano Trio No. 3,Piano Trio,C minor,"1. Allegro con brio
+1 ,op.1/3,Q1746059,,Piano Trio No. 3,Piano Trio,C minor,"1. Allegro con brio
 2. Andante cantabile con variazioni (mi bémol majeur)
 3. Menuetto. Quasi Allegro
 4. Prestissimo","Piano, Violin, Cello"
-2 ,op. 2,,3 Piano Sonatas,Trois Sonates pour le Clavecin ou Piano-Forte,Sonata,,,Piano
-2 ,op. 2/1,Q145813,3 Piano Sonatas #1,Piano Sonata No. 1,Piano Sonata,F minor,"1. Allegro
+2 ,op. 2,,Trois Sonates pour le Clavecin ou Piano-Forte,,Sonata,,,Piano
+2 ,op. 2/1,Q145813,,Piano Sonata No. 1,Piano Sonata,F minor,"1. Allegro
 2. Adagio (fa majeur)
 3. Menuetto. Allegretto
 4. Prestissimo",Piano
-2 ,op. 2/2,Q145873,3 Piano Sonatas #2,Piano Sonata No. 2,Piano Sonata,A major,"1. Allegro vivace
+2 ,op. 2/2,Q145873,,Piano Sonata No. 2,Piano Sonata,A major,"1. Allegro vivace
 2. Largo Appasionato (ré majeur)
 3. Scherzo. Allegretto
 4. Rondo",Piano
-2 ,op. 2/3,Q145937,3 Piano Sonatas #3,Piano Sonata No. 3,Piano Sonata,C major,"1. Allegro con brio
+2 ,op. 2/3,Q145937,,Piano Sonata No. 3,Piano Sonata,C major,"1. Allegro con brio
 2. Adagio (mi majeur)
 3. Scherzo. Allegro (la mineur)
 4. Allegro assai",Piano
@@ -35,14 +35,14 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 2. Andante (si bémol majeur)
 3. Menuetto. Piu Allegretto
 4. Presto","2 Violins, 2 Violas, Cello"
-5 ,op. 5,Q1053078,2 Sonatas,Deux Grandes Sonates pour le Clavecin ou Piano-Forte avec un Violoncelle obligé,Sonata,,,"Piano, Cello"
-5 ,op. 5/1,Q1053075,2 Sonatas #1,Cello Sonata No. 1,Cello Sonata,F major,"1. Adagio sostenuto
+5 ,op. 5,Q1053078,Deux Grandes Sonates pour le Clavecin ou Piano-Forte avec un Violoncelle obligé,,Sonata,,,"Piano, Cello"
+5 ,op. 5/1,Q1053075,,Cello Sonata No. 1,Cello Sonata,F major,"1. Adagio sostenuto
 2. Allegro
 3. Allegro vivace","Piano, Cello"
-5 ,op. 5/2,Q51571371,2 Sonatas #2,Cello Sonata No. 2,Cello Sonata,G minor,"1. Adagio sostenuto ed espressivo
+5 ,op. 5/2,Q51571371,,Cello Sonata No. 2,Cello Sonata,G minor,"1. Adagio sostenuto ed espressivo
 2. Allegro molto, piu tosto presto
 3. Rondo. Allegro (sol majeur)","Piano, Cello"
-6 ,op. 6,Q60767697,,Sonate a quatre Mains pour le Clavecin ou Forte-Piano,Sonata,D major,"1. Allegro molto
+6 ,op. 6,Q60767697,Sonate a quatre Mains pour le Clavecin ou Forte-Piano,,Sonata,D major,"1. Allegro molto
 2. Rondo. Moderato",Piano Four Hands
 7 ,op. 7,Q145985,,Piano Sonata No. 4,Piano Sonata,E-flat major,"1. Allegro molto e con brio
 2. Largo, con gran espressione (do majeur)
@@ -54,54 +54,54 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 4. Adagio (ré mineur)
 5. Allegretto alla Polacca (fa majeur
 6. Tema con variazioni. Andante quasi Allegretto","Violin, Viola, Cello"
-9 ,op. 9,Q17025632,3 Trios,"Trois Trios pour un Violon, Alto et Violoncelle",Trio,,,"Violin, Viola, Cello"
-9 ,op. 9/1,Q3539402,3 Trios #1,String Trio No. 3,String Trio,G major,"1. Adagio
+9 ,op. 9,Q17025632,"Trois Trios pour un Violon, Alto et Violoncelle",,Trio,,,"Violin, Viola, Cello"
+9 ,op. 9/1,Q3539402,,String Trio No. 3,String Trio,G major,"1. Adagio
 2. Allegro con brio (mi mineur)
 3. Adagio, ma non tanto e cantabile (mi majeur)
 4. Scherzo. Allegro
 5. Presto","Violin, Viola, Cello"
-9 ,op. 9/2,Q3539406,3 Trios #2,String Trio No. 4,String Trio,D major,"1. Allegretto
+9 ,op. 9/2,Q3539406,,String Trio No. 4,String Trio,D major,"1. Allegretto
 2. Andante quasi Allegretto (ré mineur
 3. Menuetto. Allegro
 4. Rondo. Allegro","Violin, Viola, Cello"
-9 ,op. 9/3,Q3539407,3 Trios #3,String Trio No. 5,String Trio,C minor,"1. Allegro con spirito
+9 ,op. 9/3,Q3539407,,String Trio No. 5,String Trio,C minor,"1. Allegro con spirito
 2. Adagio con espressione (do majeur)
 3. Scherzo. Allegro molto e vivace
 4. Presto","Violin, Viola, Cello"
-10 ,op. 10,,3 Piano Sonatas,Trois Sonates pour le Clavecin ou Piano-Forte,Sonata,,,Piano
-10 ,op. 10/1,Q146031,3 Piano Sonatas #1,Piano Sonata No. 5,Piano Sonata,C minor,"1. Allegro molto e con brio
+10 ,op. 10,,Trois Sonates pour le Clavecin ou Piano-Forte,,Sonata,,,Piano
+10 ,op. 10/1,Q146031,,Piano Sonata No. 5,Piano Sonata,C minor,"1. Allegro molto e con brio
 2. Adagio molto (la bémol majeur)
 3. Prestissimo",Piano
-10 ,op. 10/2,Q146060,3 Piano Sonatas #2,Piano Sonata No. 6,Piano Sonata,F major,"1. Allegro
+10 ,op. 10/2,Q146060,,Piano Sonata No. 6,Piano Sonata,F major,"1. Allegro
 2. Allegretto (fa mineur)
 3. Presto",Piano
-10 ,op. 10/3,Q146086,3 Piano Sonatas #3,Piano Sonata No. 7,Piano Sonata,D major,"1. Presto
+10 ,op. 10/3,Q146086,,Piano Sonata No. 7,Piano Sonata,D major,"1. Presto
 2. Largo e mesto (ré mineur)
 3. Menuetto. Allegro
 4. Rondo. Allegro",Piano
 11 ,op. 11,Q1134792,,"Piano Trio No. 4 ""Gassenhauer""",Piano Trio,B-flat major,"1. Allegro con brio
 2. Adagio (mi bémol majeur)
 3. Allegretto con variazioni [Tema: Pia ch'io l'impegno]","Piano, Clarinet/Violin, Cello"
-12 ,op. 12,,3 Sonatas,Tre sonate per il Clavicembalo o Forte-Piano con un Violino,Sonata,,,"Piano, Violin"
-12 ,op. 12/1,Q1635731,3 Sonatas #1,Violin Sonata No. 1,Violin Sonata,D major,"1. Allegro con brio
+12 ,op. 12,,Tre sonate per il Clavicembalo o Forte-Piano con un Violino,,Sonata,,,"Piano, Violin"
+12 ,op. 12/1,Q1635731,,Violin Sonata No. 1,Violin Sonata,D major,"1. Allegro con brio
 2. Tema con variazioni. Andante con moto (la majeur)
 3. Rondo. Allegro","Piano, Violin"
-12 ,op. 12/2,Q1635353,3 Sonatas #2,Violin Sonata No. 2,Violin Sonata,A major,"1. Allegro vivace
+12 ,op. 12/2,Q1635353,,Violin Sonata No. 2,Violin Sonata,A major,"1. Allegro vivace
 2. Andante piu tosto Allegretto (la mineur)
 3. Allegro piacevole","Piano, Violin"
-12 ,op. 12/3,Q1271144,3 Sonatas #3,Violin Sonata No. 3,Violin Sonata,E-flat major,"1. Allegro con spirito
+12 ,op. 12/3,Q1271144,,Violin Sonata No. 3,Violin Sonata,E-flat major,"1. Allegro con spirito
 2. Adagio con molt' espressione (do majeur)
 3. Rondo. Allegro molto","Piano, Violin"
 13 ,op. 13,,,"Piano Sonata No. 8 ""Pathétique""",Piano Sonata,C minor,"1. Grave
 2. Allegro di molto e con brio
 3. Adagio cantabile (la bémol majeur)
 4. Rondo. Allegro",Piano
-14 ,op. 14,,2 Piano Sonatas,Deux Sonates pour le Piano-Forte,Sonata,,,Piano
+14 ,op. 14,,Deux Sonates pour le Piano-Forte,,Sonata,,,Piano
 14 ,op. 14a,,,,String Quartet,F major,,"2 Violins, Viola, Cello"
-14 ,op. 14/1,Q146133,2 Piano Sonatas #1,Piano Sonata No. 9,Piano Sonata,E major,"1. Allegro
+14 ,op. 14/1,Q146133,,Piano Sonata No. 9,Piano Sonata,E major,"1. Allegro
 2. Allegretto (mi mineur)
 3. Rondo. Allegro commodo",Piano
-14 ,op. 14/2,Q146148,2 Piano Sonatas #2,Piano Sonata No. 10,Piano Sonata,G major,"1. Allegro
+14 ,op. 14/2,Q146148,,Piano Sonata No. 10,Piano Sonata,G major,"1. Allegro
 2. Andante (do majeur)
 3. Scherzo. Allegro assai",Piano
 15 ,op. 15,Q162868),1. Concert für Pianoforte,Piano Concerto No. 1,Piano Concerto,C major,"1. Allegro con brio
@@ -112,31 +112,31 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 3. Andante cantabile (si bémol majeur)
 4. Rondo. Allegro ma non troppo","Piano, Oboe, Clarinet, Horn, Bassoon"
 16 ,op. 16a,,"Grand Quintetto, Piano Quartet reduction",,Piano Quartet,E-flat major,,"Piano, Violin, Viola, Cello"
-17 ,op. 17,Q5903984,,Sonate pour le Forte-Piano avec un Cor ou Violoncelle,Sonata,F major,"1. Allegro moderato
+17 ,op. 17,Q5903984,Sonate pour le Forte-Piano avec un Cor ou Violoncelle,,Sonata,F major,"1. Allegro moderato
 2. Poco Adagio, quasi Andante (fa mineur)
 3. Rondo. Allegro moderato","Piano, Horn/Viola/Cello"
-18 ,op. 18,Q3927115,6 String Quartets,"Six Quatuors pour Deux Violons, Alto, et Violoncelle",Quartet,,,"2 Violins, Viola, Cello"
-18 ,op. 18/1,Q163616,6 String Quartets #1,String Quartets No. 1,String Quartet,F major,"1. Allegro con brio
+18 ,op. 18,Q3927115,"Six Quatuors pour Deux Violons, Alto, et Violoncelle",,Quartet,,,"2 Violins, Viola, Cello"
+18 ,op. 18/1,Q163616,,String Quartets No. 1,String Quartet,F major,"1. Allegro con brio
 2. Adagio affettuoso ed appasionato (ré mineur)
 3. Scherzo. Allegro molto
 4. Allegro","2 Violins, Viola, Cello"
-18 ,op. 18/2,Q210586,6 String Quartets #2,String Quartets No. 2,String Quartet,G major,"1. Allegro
+18 ,op. 18/2,Q210586,,String Quartets No. 2,String Quartet,G major,"1. Allegro
 2. Adagio cantabile (do majeur)
 3. Scherzo. Allegro
 4. Allegro molto, quasi Presto","2 Violins, Viola, Cello"
-18 ,op. 18/3,Q223543,6 String Quartets #3,String Quartets No. 3,String Quartet,D major,"1. Allegro
+18 ,op. 18/3,Q223543,,String Quartets No. 3,String Quartet,D major,"1. Allegro
 2. Andante con moto (si bémol majeur)
 3. Allegro
 4. Presto","2 Violins, Viola, Cello"
-18 ,op. 18/4,Q231274,6 String Quartets #4,String Quartets No. 4,String Quartet,C minor,"1. Allegro, ma non tanto
+18 ,op. 18/4,Q231274,,String Quartets No. 4,String Quartet,C minor,"1. Allegro, ma non tanto
 2. Andante scherzoso, quasi Allegretto (do majeur)
 3. Menuetto. Allegretto
 4. Allegro","2 Violins, Viola, Cello"
-19 ,op. 18/5,Q240321,6 String Quartets #5,String Quartets No. 5,String Quartet,A minor,"1. Allegro
+19 ,op. 18/5,Q240321,,String Quartets No. 5,String Quartet,A minor,"1. Allegro
 2. Minuetto
 3. Andante cantabile con variazioni (ré majeur)
 4. Allegro","2 Violins, Viola, Cello"
-19 ,op. 18/6,Q246585,6 String Quartets #6,String Quartets No. 6,String Quartet,B-flat major,"1. Allegro con brio
+19 ,op. 18/6,Q246585,,String Quartets No. 6,String Quartet,B-flat major,"1. Allegro con brio
 2. Adagio, ma non troppo (mi bémol majeur)
 3. Scherzo. Allegro
 4. Adagio ""La Malinconia""
@@ -167,7 +167,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 2. Adagio molto espressivo (si bémol majeur)
 3. Scherzo. Allegro molto
 4. Rondo. Allegro ma non troppo","Piano, Violin"
-25 ,op. 25,Q85800408,,"Serenata per Flauto, Violino e Viola",Serenade,D major,"1. Entrata. Allegro
+25 ,op. 25,Q85800408,"Serenata per Flauto, Violino e Viola",,Serenade,D major,"1. Entrata. Allegro
 2. Tempo ordinatio d'un Menuetto
 3. Allegro molto (ré mineur)
 4. Andante con variazioni (sol majeur)
@@ -194,30 +194,30 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 2. Adagio molto espressivo (fa majeur)
 3. Scherzo. Allegro
 4. Presto","2 Violins, 2 Violas, Cello"
-30 ,op. 30,,3 Sonatas,Trois Sonates pour le Pianoforte avec l'accompagnement d'un Violon,Sonata,,,"Piano, Violin"
-30 ,op. 30/1,Q428956,3 Sonatas #1,Violin Sonata No. 6,Violin Sonata,A major,"1. Allegro
+30 ,op. 30,,Trois Sonates pour le Pianoforte avec l'accompagnement d'un Violon,,Sonata,,,"Piano, Violin"
+30 ,op. 30/1,Q428956,,Violin Sonata No. 6,Violin Sonata,A major,"1. Allegro
 2. Adagio (ré majeur)
 3. Allegretto con variazioni","Piano, Violin"
-30 ,op. 30/2,Q1892808,3 Sonatas #2,Violin Sonata No. 7,Violin Sonata,C minor,"1. Allegro con bri
+30 ,op. 30/2,Q1892808,,Violin Sonata No. 7,Violin Sonata,C minor,"1. Allegro con bri
 2. Adagio cantabile (la bémol majeur)
 3. Scherzo. Allegro (do majeur)
 4. Allegro","Piano, Violin"
-30 ,op. 30/3,Q1300778,3 Sonatas #3,Violin Sonata No. 8,Violin Sonata,G major,"1. Allegro assai
+30 ,op. 30/3,Q1300778,,Violin Sonata No. 8,Violin Sonata,G major,"1. Allegro assai
 2. Tempo di Minuetto (mi bémol majeur)
 3. Allegro vivace","Piano, Violin"
-31 ,op. 31,,3 Sonatas,Trois Sonates pour le Piano-forte,Sonata,,,Piano
-31 ,op. 31/1,Q146296,3 Sonatas #1,Piano Sonata No. 16,Piano Sonata,G major,"1. Allegro vivace
+31 ,op. 31,,Trois Sonates pour le Piano-forte,,Sonata,,,Piano
+31 ,op. 31/1,Q146296,,Piano Sonata No. 16,Piano Sonata,G major,"1. Allegro vivace
 2. Adagio grazioso (do majeur)
 3. Rondo. Allegretto",Piano
-31 ,op. 31/2,Q146311,3 Sonatas #2,Piano Sonata No. 17,Piano Sonata,D minor,"1. Largo / Allegro
+31 ,op. 31/2,Q146311,,Piano Sonata No. 17,Piano Sonata,D minor,"1. Largo / Allegro
 2. Adagio (si bémol majeur)
 3. Allegretto",Piano
-31 ,op. 31/3,Q146343,3 Sonatas #3,Piano Sonata No. 18,Piano Sonata,E-flat major,"1. Allegro
+31 ,op. 31/3,Q146343,,Piano Sonata No. 18,Piano Sonata,E-flat major,"1. Allegro
 2. Scherzo. Allegretto vivace (la bémol majeur)
 3. Minuetto
 4. Presto con fuoco",Piano
 32 ,op. 32,,An die Hoffnung,"""Die du so gern""",Lied,,,"Voice, Piano"
-33 ,op. 33,Q3478907,7 Bagatelles,Bagatelles pour le Pianoforte,Bagatelle,,,Piano
+33 ,op. 33,Q3478907,Bagatelles (7) pour le Pianoforte,,Bagatelle,,,Piano
 33 ,op. 33/1,Q138379411,Bagatelles #1,"Andante. Grazioso, quasi Allegretto",Bagatelle,E-flat major,,
 33 ,op. 33/2,Q138379414,Bagatelles #2,Scherzo. Allegro - Trio,Bagatelle,C major,,
 33 ,op. 33/3,Q138379608,Bagatelles #3,Allegretto,Bagatelle,F major,,
@@ -234,7 +234,7 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 37 ,op. 37,Q223331,3. Concert für Pianoforte,Piano Concerto No. 3,Piano Concerto,C minor,"1. Allegro con brio
 2. Largo (mi majeur)
 3. Rondo. Allegro","Piano, 2 Flutes, 2 Oboes, 2 Clarinets, 2 Horns, 2 Bassoons, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso"
-38 ,op. 38,Q15823775,,"Grand Trio pour le Pianoforte avec l'accompagnement de la Clarinette ou Violon et Violoncelle concertants d'apres le Septuor, op. 20",Trio,E-flat major,,"Piano, (Clarinet), Violin, Cello"
+38 ,op. 38,Q15823775,"Grand Trio pour le Pianoforte avec l'accompagnement de la Clarinette ou Violon et Violoncelle concertants d'apres le Septuor, op. 20",,Trio,E-flat major,,"Piano, (Clarinet), Violin, Cello"
 39 ,op. 39,Q29364169,2 Preludes,"Deux Preludes par tous les 12 majeurs pour le Fortepiano, ou l'orgue",Prelude,,,Piano/Organ
 40 ,op. 40,Q163686,,Romance No. 1,Romance,G major,,"Violin, Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, Viola, Basso"
 41 ,op. 41,,Serenade (from Serenade op. 25),"Serenata per Flauto, Violino e Viola",Serenade,D major,,"Piano, Flute"
@@ -258,10 +258,10 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 43 ,op. 43a,,,,Overture,C major,"1. Adagio
 2. Allegro molto con brio","2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso"
 44 ,op. 44,Q3554775,"14 Variations on ""Ja, ich muß mich von ihr Scheiden""",,Keyboard Variations,E-flat major,,"Piano, Violin, Cello"
-45 ,op. 45,,3 Marches,"Trois Grandes Marches pour le Pianoforte, à quatre mains",March,,,Piano Four Hands
-45 ,op. 45/1,,3 Marches #1,,March,C major,Allegro ma non troppo - Trio,Piano Four Hands
-45 ,op. 45/2,,3 Marches #2,,March,E-flat major,Vivace - Trio,Piano Four Hands
-45 ,op. 45/3,,3 Marches #3,,March,D major,Vivace,Piano Four Hands
+45 ,op. 45,,"Trois Grandes Marches pour le Pianoforte, à quatre mains",,March,,,Piano Four Hands
+45 ,op. 45/1,,,,March,C major,Allegro ma non troppo - Trio,Piano Four Hands
+45 ,op. 45/2,,,,March,E-flat major,Vivace - Trio,Piano Four Hands
+45 ,op. 45/3,,,,March,D major,Vivace,Piano Four Hands
 46 ,op. 46,Q353933,Adelaïde,,Cantata,B-flat major,Larghetto,"Voice, Piano"
 47 ,op. 47,Q1154601,,"Violin Sonata No. 9 ""Kreutzer""",Violin Sonata,A major,"1. Adagio sostenuto
 2. Presto (la mineur)
@@ -274,10 +274,10 @@ SORT,Opus,WikiQID,Title,Subtitle,Genre,Key,Work structure,Instrumentation
 48 ,op. 48/4,Q85756843,Die Ehre Gottes in der Natur,"""Die Himmel ruhmen des Ewigen Ehre""",Lied,C major,Majestatisch und erhaben,"Voice, Piano"
 49 ,op. 48/5,,Gottes Macht und Vorsehung,"""Gott ist mein Lied!""",Lied,C major,Mit Kraft and Feuer,"Voice, Piano"
 49 ,op. 48/6,,Bußlied,"""An dir allein, an dir hab' ich gesundigt""",Lied,A minor,Poco adagio,"Voice, Piano"
-49 ,op. 49,,2 Sonatas,Deux sonates faciles pour le Pianoforte,Sonata,,,Piano
-49 ,op. 49/1,Q146396,2 Sonatas #1,Piano Sonata No. 19,Piano Sonata,G minor,"1. Andante
+49 ,op. 49,,Deux sonates faciles pour le Pianoforte,,Sonata,,,Piano
+49 ,op. 49/1,Q146396,,Piano Sonata No. 19,Piano Sonata,G minor,"1. Andante
 2. Rondo. Allegro (sol majeur)",Piano
-49 ,op. 49/2,Q146423,2 Sonatas #2,Piano Sonata No. 20,Piano Sonata,G major,"1. Allegro ma non troppo
+49 ,op. 49/2,Q146423,,Piano Sonata No. 20,Piano Sonata,G major,"1. Allegro ma non troppo
 2. Tempo di Menuetto",Piano
 50 ,op. 50,Q210620,,Romance No. 2,Romance,F major,,"Violin, Flute, 2 Oboes, 2 Bassoons, 2 Horns, 2 Violins, Viola, Basso"
 51 ,op. 51,Q3025008,2 Rondos,,Rondo,,,Piano
@@ -356,16 +356,16 @@ Allegretto","2 Flutes, Piccolo, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Tru
 2. Scherzo. Allegro molto (la mineur)
 3. Adagio cantabile (mi majeur)
 4. Allegro vivace","Piano, Cello"
-70 ,op. 70,Q1410089,2 Trios,"Deux Trios pour Pianoforte, Violon et Violoncelle",Trio,,,"Piano, Violin, Cello"
-70 ,op. 70/1,Q1338933,"2 Trios #1 ""Ghost Trio""",,Piano Trio,D major,"1. Allegro vivace e con brio
+70 ,op. 70,Q1410089,"Deux Trios pour Pianoforte, Violon et Violoncelle",,Trio,,,"Piano, Violin, Cello"
+70 ,op. 70/1,Q1338933,,,Piano Trio,D major,"1. Allegro vivace e con brio
 2. Largo assai (ré mineur)
 3. Presto",
-70 ,op. 70/2,Q15975830,2 Trios #2,,Piano Trio,E-flat major,"1. Poco sostenuto
+70 ,op. 70/2,Q15975830,,,Piano Trio,E-flat major,"1. Poco sostenuto
 2. Allegro ma non troppo
 3. Allegretto (do majeur)
 4. Allegretto ma non troppo (la bémol majeur)
 5. Allegro",
-71 ,op. 71,,,"Sestetto pour 2 Clarinettes, 2 Cors, 2 Bassons",Sextet,E-flat major,"1. Adagio
+71 ,op. 71,,"Sestetto pour 2 Clarinettes, 2 Cors, 2 Bassons",,Sextet,E-flat major,"1. Adagio
 2. Allegro
 3. Adagio (si bémol majeur)
 4. Menuetto. Quasi Allegretto
@@ -513,7 +513,7 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 4. Sanctus, A (Adagio)
 5. Benedictus, F (Allegretto ma non troppo)
 6. Agnus Dei, c (Poco Andante)","Soloists, Choir, Orchestra"
-87 ,op. 87,Q113456464,,Grand Trio pour Deux Hautbois et un Cor anglais,Trio,C major,"1. Allegro
+87 ,op. 87,Q113456464,Grand Trio pour Deux Hautbois et un Cor anglais,,Trio,C major,"1. Allegro
 2. Adagio (F)
 3. Menuetto. Allegro molto. Scherzo
 4. Presto","2 Oboes, English Horn"
@@ -536,7 +536,7 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 4. Allegro vivace","2 Flutes, 2 Oboes, 2 Clarinets, 2 Bassoons, 2 Horns, 2 Trumpets, Timpani, 2 Violins, Viola, Cello, Basso"
 94 ,op. 94,,"""An Die Hoffnung""",,Lied,,"1. Ob ein Gott sei? Poco sostenuto
 2. Die du so gern in heil'gen Nachten feierst Larghetto (sol majeur)","Voice, Piano"
-95 ,op. 95,Q169969,"String Quartet ""Serioso""","String Quartet No. 11 ""Serioso""",String Quartet,F minor,"1. Allegro con brio
+95 ,op. 95,Q169969,,"String Quartet No. 11 ""Serioso""",String Quartet,F minor,"1. Allegro con brio
 2. Allegretto ma non troppo (ré majeur)
 3. Allegro assai vivace, ma serioso
 4. Larghetto espressivo
@@ -545,7 +545,7 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 2. Adagio espressivo (do mineur)
 3. Scherzo. Allegro (sol mineur)
 4. Poco Allegretto","Piano, Violin"
-97 ,op. 97,,"Trio ""Archduke""","""Archduke Trio""",Piano Trio,B-flat major,"1. Allegro moderato
+97 ,op. 97,,,"""Archduke Trio""",Piano Trio,B-flat major,"1. Allegro moderato
 2. Scherzo. Allegro
 3. Andante cantabile me pero con moto (ré majeur)
 4. Allegro moderato","Piano, Violin, Cello"
@@ -556,12 +556,12 @@ Maestoso (do majeur)","Soloists, Choir, Orchestra"
 2. Lebhaft, marschmassig (fa majeur)
 3. Langsam und sehnsuchtsvoll (la mineur)
 4. Geschwind, doch nicht zu sehr und mit Entschlossenheit",Piano
-102 ,op. 102,Q1053089,2 Sonatas,Deux Sonates pour le Pianoforte et Violoncelle,Cello Sonata,,,"Piano, Cello"
-102 ,op. 102/1,Q586125,2 Sonatas #1,Cello Sonata No. 4,Cello Sonata,C major,"1. Andante
+102 ,op. 102,Q1053089,Deux Sonates pour le Pianoforte et Violoncelle,,Cello Sonata,,,"Piano, Cello"
+102 ,op. 102/1,Q586125,,Cello Sonata No. 4,Cello Sonata,C major,"1. Andante
 2. Allegro vivace
 3. Adagio (sol majeur)
 4. Allegro vivace",
-102 ,op. 102/2,Q51571146,2 Sonatas #2,Cello Sonata No. 5,Cello Sonata,D major,"1. Allegro con brio
+102 ,op. 102/2,Q51571146,,Cello Sonata No. 5,Cello Sonata,D major,"1. Allegro con brio
 2. Adagio (ré mineur)
 3. Allegro
 4. Allegro fugato",

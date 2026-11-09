@@ -1,23 +1,27 @@
 SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,Note
+1,,H. 1,Wq. deest,March,Keyboard Piece,D major,,Clavier,BWV Anh. 122
+1,,H. 1,Wq. deest,Polonaise,Keyboard Piece,G minor,,Clavier,BWV Anh. 123
+1,,H. 1,Wq. deest,March,Keyboard Piece,G major,,Clavier,BWV Anh. 124
+1,,H. 1,Wq. deest,Polonaise,Keyboard Piece,G minor,,Clavier,BWV Anh. 125
 1.5,,H. 1.5,Wq. 111,,Minuet,C major,,Clavier,
-2,,H. 2,Wq. 62/1,,Sonata,B-flat major,,Clavier,revised in 1744
-3,,H. 3,Wq. 65/1,,Sonata,F major,,Clavier,revised in 1744
-4,,H. 4,Wq. 65/2,,Sonata,A minor,,Clavier,revised in 1744
-5,,H. 5,Wq. 65/3,,Sonata,D minor,,Clavier,revised in 1744
-6,,H. 6,Wq. 65/4,,Sonata,E minor,,Clavier,revised in 1744
-7,,H. 7,Wq. 64/1,,Sonatina,F major,,Clavier,revised in 1744
-8,,H. 8,Wq. 64/2,,Sonatina,G major,,Clavier,revised in 1744
-9,,H. 9,Wq. 64/3,,Sonatina,A minor,,Clavier,revised in 1744
-10,,H. 10,Wq. 64/4,,Sonatina,E minor,,Clavier,revised in 1744
-11,,H. 11,Wq. 64/5,,Sonatina,D major,,Clavier,revised in 1744
-12,,H. 12,Wq. 64/6,,Sonatina,E-flat major,,Clavier,revised in 1744
-13,,H. 13,Wq. 65/5,,Sonata,E minor,,Clavier,revised in 1743
-14,,H. 14,Wq. 118/7,Menuet con 21 variazioni,Minuet,G major,,Clavier,
-15,,H. 15,Wq. 65/6,,Sonata,G major,,Clavier,revised in 1743
-16,,H. 16,Wq. 65/7,,Sonata,E-flat major,,Clavier,revised in 1744
-17,,H. 17,Wq. 65/8,,Sonata,C major,,Clavier,revised in 1743
-18,,H. 18,Wq. 65/9,,Sonata,B-flat major,,Clavier,revised in 1743
-19,,H. 19,Wq. 65/10,,Sonata,A major,,Clavier,revised in 1743
+2,,H. 2,Wq. 62/1,,Sonata,B-flat major,,Clavier,
+3,,H. 3,Wq. 65/1,,Sonata,F major,,Clavier,
+4,,H. 4,Wq. 65/2,,Sonata,A minor,,Clavier,
+5,,H. 5,Wq. 65/3,,Sonata,D minor,,Clavier,
+6,,H. 6,Wq. 65/4,,Sonata,E minor,,Clavier,
+7,,H. 7,Wq. 64/1,,Sonatina,F major,,Clavier,
+8,,H. 8,Wq. 64/2,,Sonatina,G major,,Clavier,
+9,,H. 9,Wq. 64/3,,Sonatina,A minor,,Clavier,
+10,,H. 10,Wq. 64/4,,Sonatina,E minor,,Clavier,
+11,,H. 11,Wq. 64/5,,Sonatina,D major,,Clavier,
+12,,H. 12,Wq. 64/6,,Sonatina,E-flat major,,Clavier,
+13,,H. 13,Wq. 65/5,,Sonata,E minor,,Clavier,
+14,,H. 14,Wq. 118/7,Menuet con Variazioni (21),Minuet,G major,,Clavier,
+15,,H. 15,Wq. 65/6,,Sonata,G major,,Clavier,
+16,,H. 16,Wq. 65/7,,Sonata,E-flat major,,Clavier,
+17,,H. 17,Wq. 65/8,,Sonata,C major,,Clavier,
+18,,H. 18,Wq. 65/9,,Sonata,B-flat major,,Clavier,
+19,,H. 19,Wq. 65/10,,Sonata,A major,,Clavier,
 20,,H. 20,Wq. 62/2,,Sonata,G major,,Clavier,
 21,,H. 21,Wq. 65/11,,Sonata,G minor,,Clavier,
 22,,H. 22,Wq. 62/3,,Sonata,D major,,Clavier,
@@ -42,7 +46,7 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 41,,H. 41,Wq. 62/7,,Sonata,C major,,Clavier,
 42,,H. 42,Wq. 65/14,,Sonata,D major,,Clavier,
 43,,H. 43,Wq. 65/15,,Sonata,G major,,Clavier,
-44,,H. 44,Wq. 118/3,Menuet con 5 variazioni,Minuet,C major,,Clavier,
+44,,H. 44,Wq. 118/3,Menuet con Variazioni (5),Minuet,C major,,Clavier,
 45,,H. 45,Wq. 122/1,,Symphony,G major,,Clavier,
 46,,H. 46,Wq. 65/16,,Sonata,C major,,Clavier,
 47,,H. 47,Wq. 65/17,,Sonata,G minor,,Clavier,
@@ -52,7 +56,7 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 51,,H. 51,Wq. 65/20,"Sonata ""Grande sonate""",Sonata,B-flat major,,Clavier,
 52,,H. 52,Wq. 65/21,,Sonata,F major,,Clavier,
 53,,H. 53,Wq. 69,,Sonata,D minor,,2 Harpsichords,
-54,,H. 54,Wq. 118/4,Arioso con 7 variazioni,Keyboard Variations,F major,,Clavier,
+54,,H. 54,Wq. 118/4,Arioso con variazioni (7),Keyboard Variations,F major,,Clavier,
 55,,H. 55,Wq. 62/8,,Sonata,F major,,Clavier,
 56,,H. 56,Wq. 65/22,,Sonata,G major,,Clavier,
 57,,H. 57,Wq. 65/23,,Sonata,D minor,,Clavier,
@@ -63,7 +67,7 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 62,,H. 62,Wq. 51/6,,Sonata,G minor,,Clavier,
 63,,H. 63,Wq. 62/11,,Sonata,G major,,Clavier,
 64,,H. 64,Wq. 65/26,,Sonata,G major,,Clavier,
-65,,H. 65,Wq. 118/5,Allegretto con 6 variazioni,Keyboard Variations,C major,,Clavier,
+65,,H. 65,Wq. 118/5,Allegretto con variazioni (6),Keyboard Variations,C major,,Clavier,
 66,,H. 66,Wq. 62/12,,Sonata,E minor,,Clavier,
 67,,H. 67,Wq. 62/13,,Sonata,D major,,Clavier,
 68,,H. 68,Wq. 65/27,,Sonata,G minor,,Clavier,
@@ -75,46 +79,46 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 73,,H. 73,Wq. 63/4,,Sonata,B minor,,Clavier,
 74,,H. 74,Wq. 63/5,,Sonata,E-flat major,,Clavier,
 75,,H. 75,Wq. 63/6,,Sonata,F minor,,Clavier,
-75.5,,H. 75.5,Wq. 119/7,Fantaisie et fugue à 4,Fantasia,C minor,,Clavier,
-76,,H. 76,Wq. 119/1,"Duo en contrepoint à 8, 11 et 12 [avec Anmerkungen]",,A minor,,Clavier,
+75.5,,H. 75.5,Wq. 119/7,Fantaisie und fugue à 4,Fantasia,C minor,,Clavier,
+76,,H. 76,Wq. 119/1,"Duo im Kontrapunkt zu 8, 11 und 12 [mit Anmerkungen]",Fugue,A minor,,Clavier,
 77,,H. 77,Wq. 62/14,,Sonata,G major,,Clavier,
 78,,H. 78,Wq. 65/28,,Sonata,E-flat major,,Clavier,
-79,,H. 79,Wq. 117/17,"Polonoise ""La Borchward""",Piano Piece,G major,,Clavier,
-80,,H. 80,Wq. 117/18,La Lott,Piano Piece,C major,,Clavier,
-81,,H. 81,Wq. 117/26,La Boehmer,Piano Piece,D major,,Clavier,
-82,,H. 82,Wq. 117/37,La Gause,Piano Piece,F major,,Clavier,
+79,,H. 79,Wq. 117/17,"Polonoise ""La Borchward""",Keyboard Piece,G major,,Clavier,
+80,,H. 80,Wq. 117/18,La Lott,Keyboard Piece,C major,,Clavier,
+81,,H. 81,Wq. 117/26,La Boehmer,Keyboard Piece,D major,,Clavier,
+82,,H. 82,Wq. 117/37,La Gause,Keyboard Piece,F major,,Clavier,
 83,,H. 83,Wq. 65/29,,Sonata,E major,,Clavier,
 84,,H. 84,Wq. 70/3,,Sonata,F major,,Organ,
 85,,H. 85,Wq. 70/4,,Sonata,A minor,,Organ,
 86,,H. 86,Wq. 70/5,,Sonata,D major,,Organ,
 87,,H. 87,Wq. 70/6,,Sonata,G minor,,Organ,
-89,,H. 89,Wq. 117/19,La Gleim: rondeau,Piano Piece,A minor,,Clavier,
-90,,H. 90,Wq. 117/20,La Bergius,Piano Piece,B-flat major,,Clavier,
-91,,H. 91,Wq. 117/21,La Prinzette,Piano Piece,F major,,Clavier,
-92,,H. 92,Wq. 117/23,L'Hermann,Piano Piece,G minor,,Clavier,
-93,,H. 93,Wq. 117/24,La Buchholz,Piano Piece,D minor,,Clavier,
-94,,H. 94,Wq. 117/25,La Stahl,Piano Piece,D minor,,Clavier,
-95,,H. 95,Wq. 117/27,L'Aly Rupalich,Piano Piece,C major,,Clavier,
-96,,H. 96,Wq. 117/34,La Philippine,Piano Piece,A major,,Clavier,
-97,,H. 97,Wq. 117/35,La Gabriel,Piano Piece,C major,,Clavier,
-98,Q6461556,H. 98,Wq. 117/39,La Caroline,Piano Piece,A minor,,Clavier,
+89,,H. 89,Wq. 117/19,La Gleim: rondeau,Keyboard Piece,A minor,,Clavier,
+90,,H. 90,Wq. 117/20,La Bergius,Keyboard Piece,B-flat major,,Clavier,
+91,,H. 91,Wq. 117/21,La Prinzette,Keyboard Piece,F major,,Clavier,
+92,,H. 92,Wq. 117/23,L'Hermann,Keyboard Piece,G minor,,Clavier,
+93,,H. 93,Wq. 117/24,La Buchholz,Keyboard Piece,D minor,,Clavier,
+94,,H. 94,Wq. 117/25,La Stahl,Keyboard Piece,D minor,,Clavier,
+95,,H. 95,Wq. 117/27,L'Aly Rupalich,Keyboard Piece,C major,,Clavier,
+96,,H. 96,Wq. 117/34,La Philippine,Keyboard Piece,A major,,Clavier,
+97,,H. 97,Wq. 117/35,La Gabriel,Keyboard Piece,C major,,Clavier,
+98,Q6461556,H. 98,Wq. 117/39,La Caroline,Keyboard Piece,A minor,,Clavier,
 99,,H. 99,Wq. 119/2,Fugue à 2,Fugue,D minor,,Clavier,
 100,,H. 100,Wq. 119/3,Fugue à 3,Fugue,F major,,Clavier,
-101,,H. 101,Wq. 119/4,Fugue à 3 avec Anmerkungen,Fugue,A major,,Clavier,
+101,,H. 101,Wq. 119/4,Fugue à 3 mit Anmerkungen,Fugue,A major,,Clavier,
 101.5,,H. 101.5,Wq. 112/19,Fugue à 3,Fugue,G minor,,Clavier,
 101.5,,H. 101.5,Wq. 119/5,Fugue à 3,Fugue,G minor,,Clavier,
-102,,H. 102,Wq. 119/6,"Fugue à 4 avec Anmerkungen, en F minor, pour orgue",Fugue,F minor,,Organ,
+102,,H. 102,Wq. 119/6,Fugue à 4 mit Anmerkungen,Fugue,F minor,,Organ,
 104,,H. 104,Wq. 122/2,,Symphony,F major,,Clavier,
 105,,H. 105,Wq. 62/15,,Sonata,D minor,,Clavier,
 106,,H. 106,Wq. 65/30,,Sonata,E minor,,Clavier,
 107,,H. 107,Wq. 70/7,Prelude,Prelude,D major,,Organ,
-108,,H. 108,Wq. 116/18,Andantino,Piano Piece,F major,,Clavier,
-109,,H. 109,Wq. 117/28,La complaisante,Piano Piece,B-flat major,,Clavier,
-110,,H. 110,Wq. 117/30,Les langueurs tendres,Piano Piece,C minor,,Clavier,
-111,,H. 111,Wq. 117/31,L'irrésolue,Piano Piece,G major,,Clavier,
-112,,H. 112,Wq. 117/32,La journalière,Piano Piece,C minor,,Clavier,
-113,,H. 113,Wq. 117/33,La capricieuse,Piano Piece,E minor,,Clavier,
-114,,H. 114,Wq. 117/36,La Louise,Piano Piece,D major,,Clavier,
+108,,H. 108,Wq. 116/18,Andantino,Keyboard Piece,F major,,Clavier,
+109,,H. 109,Wq. 117/28,La Complaisante,Keyboard Piece,B-flat major,,Clavier,
+110,,H. 110,Wq. 117/30,Les Langueurs tendres,Keyboard Piece,C minor,,Clavier,
+111,,H. 111,Wq. 117/31,L'Irrésolue,Keyboard Piece,G major,,Clavier,
+112,,H. 112,Wq. 117/32,La Journalière,Keyboard Piece,C minor,,Clavier,
+113,,H. 113,Wq. 117/33,La Capricieuse,Keyboard Piece,E minor,,Clavier,
+114,,H. 114,Wq. 117/36,La Louise,Keyboard Piece,D major,,Clavier,
 115,,H. 115,Wq. 122/3,,Symphony,E minor,,Clavier,
 116,,H. 116,Wq. 62/16,,Sonata,B-flat major,,Clavier,
 117,,H. 117,Wq. 62/17,,Sonata,E major,,Clavier,
@@ -122,10 +126,10 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 119,,H. 119,Wq. 62/19,,Sonata,G major,,Clavier,
 120,,H. 120,Wq. 62/20,,Sonata,C major,,Clavier,
 121,,H. 121,Wq. 65/31,,Sonata,C minor,,Clavier,
-122,,H. 122,Wq. 117/22,L'Auguste: polonoise,Piano Piece,F major,,Clavier,
-123,,H. 123,Wq. 117/29,La Xénophon - La Sybille,Piano Piece,C-sharp major,,Clavier,
-124,,H. 124,Wq. 117/38,L'Ernestine,Piano Piece,D major,,Clavier,
-125,,H. 125,Wq. 117/40,La Sophie: aria,Piano Piece,B-flat major,,Clavier,
+122,,H. 122,Wq. 117/22,L'Auguste. Polonoise,Keyboard Piece,F major,,Clavier,
+123,,H. 123,Wq. 117/29,La Xénophon - La Sybille,Keyboard Piece,C-sharp major,,Clavier,
+124,,H. 124,Wq. 117/38,L'Ernestine,Keyboard Piece,D major,,Clavier,
+125,,H. 125,Wq. 117/40,La Sophie. Aria,Keyboard Piece,B-flat major,,Clavier,
 126,,H. 126,Wq. 50/5,,Sonata,B-flat major,,Clavier,
 127,,H. 127,Wq. 51/3,,Sonata,C minor,,Clavier,
 128,,H. 128,Wq. 51/4,,Sonata,D minor,,Clavier,
@@ -145,23 +149,17 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 142,,H. 142,Wq. 52/2,,Sonata,D minor,,Clavier,
 143,,H. 143,Wq. 65/33,,Sonata,A minor,,Clavier,
 144,,H. 144,Wq. 112/2,,Fantasia,D major,,Clavier,
-144,,H. 144,Wq. 117/8,,Fantasia,D major,,Clavier,
-145,,H. 145,Wq. 112/4,Solfeggio,Piano Piece,G major,,Clavier,
-145,,H. 145,Wq. 117/5,Solfeggio,Piano Piece,G major,,Clavier,
+145,,H. 145,Wq. 112/4,Solfeggio,Keyboard Piece,G major,,Clavier,
 146,,H. 146,Wq. 112/8,,Fantasia,B-flat major,,Clavier,
-146,,H. 146,Wq. 117/9,,Fantasia,B-flat major,,Clavier,
-147,,H. 147,Wq. 112/10,Solfeggio,Piano Piece,C major,,Clavier,
-147,,H. 147,Wq. 117/6,Solfeggio,Piano Piece,C major,,Clavier,
+147,,H. 147,Wq. 112/10,Solfeggio,Keyboard Piece,C major,,Clavier,
 148,,H. 148,Wq. 112/15,,Fantasia,F major,,Clavier,
-148,,H. 148,Wq. 117/10,,Fantasia,F major,,Clavier,
-149,,H. 149,Wq. 112/18,Solfeggio,Piano Piece,G major,,Clavier,
-149,,H. 149,Wq. 117/7,Solfeggio,Piano Piece,G major,,Clavier,
+149,,H. 149,Wq. 112/18,Solfeggio,Keyboard Piece,G major,,Clavier,
 150,,H. 150,Wq. 51/1,,Sonata,C major,,Clavier,
 151,,H. 151,Wq. 51/2,,Sonata,B-flat major,,Clavier,
 152,,H. 152,Wq. 65/34,,Sonata,B-flat major,,Clavier,
-153,,H. 153,Wq. 116/21,Allegro,Piano Piece,C major,,Clavier,
+153,,H. 153,Wq. 116/21,Allegro,Keyboard Piece,C major,,Clavier,
 154,,H. 154,Wq. 116/22,Polonoise,Dance,G minor,,Clavier,
-155,,H. 155,Wq. 118/2,Clavierstück con 22 variazioni,Keyboard Variations,A major,,Clavier,
+155,,H. 155,Wq. 118/2,Clavierstück con variazioni (22),Keyboard Variations,A major,,Clavier,
 156,,H. 156,Wq. 65/35,,Sonata,C major,,Clavier,
 157,,H. 157,Wq. 65/36,,Sonata,C major,,Clavier,
 158,,H. 158,Wq. 52/3,,Sonata,G minor,,Clavier,
@@ -172,17 +170,11 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 163,,H. 163,Wq. 53/5,,Sonata,C major,,Clavier,
 164,,H. 164,Wq. 68,Veränderungen und Auszierungen,,,,,
 165,,H. 165,Wq. 112/3,,Minuet,D major,,Clavier,
-165,,H. 165,Wq. 116/9,,Minuet,D major,,Clavier,
 166,,H. 166,Wq. 112/5,Alla polacca,Dance,A minor,,Clavier,
-166,,H. 166,Wq. 116/10,Alla polacca,Dance,A minor,,Clavier,
 167,,H. 167,Wq. 112/9,,Minuet,D major,,Clavier,
-167,,H. 167,Wq. 116/11,,Minuet,D major,,Clavier,
-168,,H. 168,Wq. 112/11,Alla polacca,Dance,G minor,,Clavier,
-168,,H. 168,Wq. 116/12,Alla polacca,Dance,G minor,,Clavier,
+168,,H. 168,Wq. 112/11,Polonaise,Dance,G minor,,Clavier,
 169,,H. 169,Wq. 112/16,,Minuet,A major,,Clavier,
-169,,H. 169,Wq. 116/13,,Minuet,A major,,Clavier,
 170,,H. 170,Wq. 112/17,Alla polacca,Dance,D major,,Clavier,
-170,,H. 170,Wq. 116/14,Alla polacca,Dance,D major,,Clavier,
 171,,H. 171,Wq. 116/1,,Minuet,E-flat major,,Clavier,
 172,,H. 172,Wq. 116/2,Polonoise,Dance,E-flat major,,Clavier,
 173,,H. 173,Wq. 57/6,,Sonata,F minor,,Clavier,
@@ -202,22 +194,22 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 187,,H. 187,Wq. 55/6,,Sonata,G major,,Clavier,
 188,,H. 188,Wq. 58/4,,Sonata,E minor,,Clavier,
 189,,H. 189,Wq. 65/42,,Sonata,E-flat major,,Clavier,
-190,,H. 190,Wq. 112/1,,Concerto,C major,,Clavier solo,
+190,,H. 190,Wq. 112/1,,Concerto,C major,"1. Allegretto
+2. Largo
+3. Allegro",Clavier,
 191,,H. 191,Wq. 112/13,,Sinfonia,G major,,Clavier,
-191,,H. 191,Wq. 122/4,,Symphony,G major,,Clavier solo,
 192,,H. 192,Wq. 65/43,,Sonata,A major,,Clavier,
-193,,H. 193,Wq. 113/1,Allegro,Piano Piece,G major,,Clavier,
+193,,H. 193,Wq. 113/1,Allegro,Keyboard Piece,G major,,Clavier,
 194,,H. 194,Wq. 113/2,Arioso,Piece,A minor,,Clavier,
 195,,H. 195,Wq. 113/3,,Fantasia,D minor,,Clavier,
-195,,H. 195,Wq. 117/15,,Fantasia,D minor,,Clavier,
 196,,H. 196,Wq. 113/4,,Minuet,F major,,Clavier,
 197,,H. 197,Wq. 113/5,Alla polacca,Dance,A minor,,Clavier,
-198,,H. 198,Wq. 113/6,Allegretto,Piano Piece,D major,,Clavier,
+198,,H. 198,Wq. 113/6,Allegretto,Keyboard Piece,D major,,Clavier,
 199,,H. 199,Wq. 113/7,Alla polacca,Dance,D major,,Clavier,
-200,,H. 200,Wq. 113/8,Allegretto,Piano Piece,A major,,Clavier,
-201,,H. 201,Wq. 113/9,Andante e sostenuto,Piano Piece,G minor,,Clavier,
-202,,H. 202,Wq. 113/10,Presto,Piano Piece,B-flat major,,Clavier,
-203,,H. 203,Wq. 113/11,Allegro,Piano Piece,D minor,,Clavier,
+200,,H. 200,Wq. 113/8,Allegretto,Keyboard Piece,A major,,Clavier,
+201,,H. 201,Wq. 113/9,Andante e sostenuto,Keyboard Piece,G minor,,Clavier,
+202,,H. 202,Wq. 113/10,Presto,Keyboard Piece,B-flat major,,Clavier,
+203,,H. 203,Wq. 113/11,Allegro,Keyboard Piece,D minor,,Clavier,
 204,,H. 204,Wq. 54/1,,Sonata,F major,,Clavier,
 205,,H. 205,Wq. 54/2,,Sonata,C major,,Clavier,
 206,,H. 206,Wq. 54/4,,Sonata,B-flat major,,Clavier,
@@ -234,76 +226,77 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 217,,H. 217,Wq. 116/6,Alla polacca,Dance,D major,,Clavier,
 218,,H. 218,Wq. 116/7,,Minuet,F major,,Clavier,
 219,,H. 219,Wq. 116/8,Alla polacca,Dance,G major,,Clavier,
-220,Q7557714,H. 220,Wq. 117/2,Solfeggio,Piano Piece,C minor,,Clavier,
-221,,H. 221,Wq. 117/3,Solfeggio,Piano Piece,E-flat major,,Clavier,
-222,,H. 222,Wq. 117/4,Solfeggio,Piano Piece,A major,,Clavier,
+220,Q7557714,H. 220,Wq. 117/2,Solfeggio,Keyboard Piece,C minor,,Clavier,
+221,,H. 221,Wq. 117/3,Solfeggio,Keyboard Piece,E-flat major,,Clavier,
+222,,H. 222,Wq. 117/4,Solfeggio,Keyboard Piece,A major,,Clavier,
 223,,H. 223,Wq. 117/11,,Fantasia,G major,,Clavier,
 224,,H. 224,Wq. 117/12,,Fantasia,D minor,,Clavier,
 225,,H. 225,Wq. 117/13,,Fantasia,G minor,,Clavier,
 226,,H. 226,Wq. 118/6,Romance con 12 variazioni,Keyboard Variations,G major,,Clavier,
 227,,H. 227,Wq. 122/5,,Symphony,F major,,Clavier solo,
-228,,H. 228,Wq. 114/1,Allegro di molto,Piano Piece,D minor,,Clavier,
-229,,H. 229,Wq. 114/2,Andantino e grazioso,Piano Piece,B-flat major,,Clavier,
-230,,H. 230,Wq. 114/3,Presto,Piano Piece,C minor,,Clavier,
+228,,H. 228,Wq. 114/1,Allegro di molto,Keyboard Piece,D minor,,Clavier,
+229,,H. 229,Wq. 114/2,Andantino e grazioso,Keyboard Piece,B-flat major,,Clavier,
+230,,H. 230,Wq. 114/3,Presto,Keyboard Piece,C minor,,Clavier,
 231,,H. 231,Wq. 114/4,,Minuet,G major,,Clavier,
 232,,H. 232,Wq. 114/5,Alla polacca,Dance,D major,,Clavier,
 233,,H. 233,Wq. 114/6,Alla polacca,Dance,E-flat major,,Clavier,
 234,,H. 234,Wq. 114/7,,Fantasia,D minor,,Clavier,
-234,,H. 234,Wq. 117/16,,Fantasia,D minor,,Clavier,
-235,,H. 235,Wq. 114/8,Allegro,Piano Piece,E major,,Clavier,
-236,,H. 236,Wq. 114/9,Allegretto,Piano Piece,A major,,Clavier,
-237,,H. 237,Wq. 114/10,Andante,Piano Piece,C major,,Clavier,
-238,,H. 238,Wq. 114/11,Poco allegro,Piano Piece,E minor,,Clavier,
+235,,H. 235,Wq. 114/8,Allegro,Keyboard Piece,E major,,Clavier,
+236,,H. 236,Wq. 114/9,Allegretto,Keyboard Piece,A major,,Clavier,
+237,,H. 237,Wq. 114/10,Andante,Keyboard Piece,C major,,Clavier,
+238,,H. 238,Wq. 114/11,Poco allegro,Keyboard Piece,E minor,,Clavier,
 240,,H. 240,Wq. 62/24,,Sonata,F major,,Clavier,
-241,,H. 241,Wq. 117/1,Clavierstück,Piano Piece,A major,,Clavier,
-242,,H. 242,,Concerto [unaccompanied keyboard],Concerto,F major,,,
+241,,H. 241,Wq. 117/1,Clavierstück,Keyboard Piece,A major,,Clavier,
+242,,H. 242,Wq. deest,,Concerto,F major,"1. Allegro assai
+2. Larghetto
+3. Poco presto",Clavier,
 243,,H. 243,Wq. 55/5,,Sonata,F major,,Clavier,
 244,,H. 244,Wq. 55/1,,Sonata,C major,,Clavier,
 245,,H. 245,Wq. 55/3,,Sonata,B minor,,Clavier,
 246,,H. 246,Wq. 56/2,,Sonata,G major,,Clavier,
 247,,H. 247,Wq. 57/2,,Sonata,A minor,,Clavier,
 248,,H. 248,Wq. 65/47,,Sonata,C major,,Clavier,
-249,,H. 249,Wq. 116/23,Andantino,Piano Piece,C major,,Clavier,
-250,,H. 250,Wq. 116/24,Andante,Piano Piece,F major,,Clavier,
-251,,H. 251,Wq. 116/25,Allegro,Piano Piece,D major,,Clavier,
-252,,H. 252,Wq. 116/26,Allegro,Piano Piece,G major,,Clavier,
-253,,H. 253,Wq. 116/27,Andante,Piano Piece,B-flat major,,Clavier,
-254,,H. 254,Wq. 116/28,Allegro,Piano Piece,D major,,Clavier,
+249,,H. 249,Wq. 116/23,Andantino,Keyboard Piece,C major,,Clavier,
+250,,H. 250,Wq. 116/24,Andante,Keyboard Piece,F major,,Clavier,
+251,,H. 251,Wq. 116/25,Allegro,Keyboard Piece,D major,,Clavier,
+252,,H. 252,Wq. 116/26,Allegro,Keyboard Piece,G major,,Clavier,
+253,,H. 253,Wq. 116/27,Andante,Keyboard Piece,B-flat major,,Clavier,
+254,,H. 254,Wq. 116/28,Allegro,Keyboard Piece,D major,,Clavier,
 255,,H. 255,,Allegro,Piece,D major,,,
 256,,H. 256,,Allegro,Piece,F major,,,
 257,,H. 257,,Allegretto,Piece,D major,,,
-258,,H. 258,,Menuet,Minuet,F major,,,
+258,,H. 258,,,Minuet,F major,,,
 259,,H. 259,Wq. 118/10,Thema con variazioni,Keyboard Variations,C major,,Clavier,
-260,,H. 260,Wq. 56/1,Rondo,Piano Piece,C major,,Clavier,
-261,,H. 261,Wq. 56/3,Rondo,Piano Piece,D major,,Clavier,
-262,,H. 262,Wq. 56/5,Rondo,Piano Piece,A minor,,Clavier,
-263,,H. 263,Wq. 118/9,12 Variations über die Folie d'Espagne,Keyboard Variations,D minor,,Clavier,
-264,,H. 264,Wq. 120,75 Cadenzas for concertos and sonatas,Cadenza,,,,"for concertos and sonatas (H. 407, 409, 413, 414, 416, 417, 418, 423, 424, 427, 428, 429, 433, 436, 440, 441, 442, 444, 447, 469, 478, 408, 449, 432, 436, 439)"
-265,,H. 265,Wq. 57/1,Rondo,Piano Piece,E major,,Clavier,
-266,,H. 266,Wq. 57/5,Rondo,Piano Piece,F major,,Clavier,
-267,,H. 267,Wq. 58/2,Rondo,Piano Piece,B-flat major,,Clavier,
-268,,H. 268,Wq. 59/2,Rondo,Piano Piece,G major,,Clavier,
+260,,H. 260,Wq. 56/1,Rondo,Keyboard Piece,C major,,Clavier,
+261,,H. 261,Wq. 56/3,Rondo,Keyboard Piece,D major,,Clavier,
+262,,H. 262,Wq. 56/5,Rondo,Keyboard Piece,A minor,,Clavier,
+263,,H. 263,Wq. 118/9,Variations (12) über die Folie d'Espagne,Keyboard Variations,D minor,,Clavier,
+264,,H. 264,Wq. 120,Cadenzas (75) for concertos and sonatas,Cadenza,,,,"for concertos and sonatas (H. 407, 409, 413, 414, 416, 417, 418, 423, 424, 427, 428, 429, 433, 436, 440, 441, 442, 444, 447, 469, 478, 408, 449, 432, 436, 439)"
+265,,H. 265,Wq. 57/1,Rondo,Keyboard Piece,E major,,Clavier,
+266,,H. 266,Wq. 57/5,Rondo,Keyboard Piece,F major,,Clavier,
+267,,H. 267,Wq. 58/2,Rondo,Keyboard Piece,B-flat major,,Clavier,
+268,,H. 268,Wq. 59/2,Rondo,Keyboard Piece,G major,,Clavier,
 269,,H. 269,Wq. 56/4,,Sonata,F major,,Clavier,
 270,,H. 270,Wq. 56/6,,Sonata,A major,,Clavier,
-271,,H. 271,Wq. 57/3,Rondo,Piano Piece,G major,,Clavier,
-272,,H. 272,Wq. 66,Rondo,Piano Piece,E minor,,Clavier,
+271,,H. 271,Wq. 57/3,Rondo,Keyboard Piece,G major,,Clavier,
+272,,H. 272,Wq. 66,Rondo,Keyboard Piece,E minor,,Clavier,
 273,,H. 273,Wq. 58/2,,Sonata,G major,,Clavier,
-274,,H. 274,Wq. 58/3,Rondo,Piano Piece,E major,,Clavier,
-275,,H. 275,Wq. 118/8,Canzonetta con 6 variazioni,Keyboard Variations,F major,,Clavier,
-276,,H. 276,Wq. 58/1,Rondo,Piano Piece,A major,,Clavier,
+274,,H. 274,Wq. 58/3,Rondo,Keyboard Piece,E major,,Clavier,
+275,,H. 275,Wq. 118/8,Canzonetta con variazioni (6),Keyboard Variations,F major,,Clavier,
+276,,H. 276,Wq. 58/1,Rondo,Keyboard Piece,A major,,Clavier,
 277,,H. 277,Wq. 58/6,,Fantasia,E-flat major,,Clavier,
 278,,H. 278,Wq. 58/7,,Fantasia,A major,,Clavier,
 279,,H. 279,Wq. 59/5,,Fantasia,F major,,Clavier,
 280,,H. 280,Wq. 65/48,,Sonata,G major,,Clavier,
 281,,H. 281,Wq. 59/1,,Sonata,E minor,,Clavier,
 282,,H. 282,Wq. 59/3,,Sonata,B-flat major,,Clavier,
-283,,H. 283,Wq. 59/4,Rondo,Piano Piece,C minor,,Clavier,
+283,,H. 283,Wq. 59/4,Rondo,Keyboard Piece,C minor,,Clavier,
 284,,H. 284,Wq. 59/6,,Fantasia,C major,,Clavier,
 286,,H. 286,Wq. 61/2,,Sonata,D major,,Clavier,
 287,,H. 287,Wq. 61/5,,Sonata,G major,,Clavier,
-288,,H. 288,Wq. 61/1,Rondo,Piano Piece,E-flat major,,Clavier,
+288,,H. 288,Wq. 61/1,Rondo,Keyboard Piece,E-flat major,,Clavier,
 289,,H. 289,Wq. 61/3,,Fantasia,B-flat major,,Clavier,
-290,,H. 290,Wq. 61/4,Rondo,Piano Piece,D minor,,Clavier,
+290,,H. 290,Wq. 61/4,Rondo,Keyboard Piece,D minor,,Clavier,
 291,,H. 291,Wq. 61/6,,Fantasia,C major,,Clavier,
 292,,H. 292,Wq. 63/7,,Sonatina,G major,,Clavier,
 293,,H. 293,Wq. 63/8,,Sonatina,E major,,Clavier,
@@ -314,19 +307,19 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 298,,H. 298,Wq. 65/49,,Sonata,E-flat major,,Clavier,
 299,,H. 299,Wq. 65/50,,Sonata,G major,,Clavier,
 300,,H. 300,Wq. 67,,Fantasia,F-sharp minor,,Clavier,
-301,,H. 301,Wq. 116/19,Allegretto,Piano Piece,F major,,Clavier,
-302,,H. 302,Wq. 116/20,Allegro,Piano Piece,D major,,Clavier,
-303,,H. 303,Wq. 116/29,Menuet-trio,Minuet,G major,,Clavier,
+301,,H. 301,Wq. 116/19,Allegretto,Keyboard Piece,F major,,Clavier,
+302,,H. 302,Wq. 116/20,Allegro,Keyboard Piece,D major,,Clavier,
+303,,H. 303,Wq. 116/29,Menuet-Trio,Minuet,G major,,Clavier,
 304,,H. 304,Wq. 116/30,,Minuet,G major,,Clavier,
 305,,H. 305,Wq. 116/31,,Minuet,G major,,Clavier,
 306,,H. 306,Wq. 116/32,,Minuet,F major,,Clavier,
 307,,H. 307,Wq. 116/33,,Minuet,D major,,Clavier,
 308,,H. 308,Wq. 116/34,Polonoise,Dance,A major,,Clavier,
 309,,H. 309,Wq. 116/35,,Minuet,D major,,Clavier,
-310,,H. 310,Wq. 116/36,Allegro di molto,Piano Piece,A major,,Clavier,
-311,,H. 311,Wq. 116/37,Allegro,Piano Piece,E major,,Clavier,
-312,,H. 312,Wq. 116/38,Allegro,Piano Piece,B-flat major,,Clavier,
-313,,H. 313,Wq. 116/39,Presto,Piano Piece,A minor,,Clavier,
+310,,H. 310,Wq. 116/36,Allegro di molto,Keyboard Piece,A major,,Clavier,
+311,,H. 311,Wq. 116/37,Allegro,Keyboard Piece,E major,,Clavier,
+312,,H. 312,Wq. 116/38,Allegro,Keyboard Piece,B-flat major,,Clavier,
+313,,H. 313,Wq. 116/39,Presto,Keyboard Piece,A minor,,Clavier,
 314,,H. 314,Wq. 116/40,,Minuet,D major,,Clavier,
 315,,H. 315,Wq. 116/41,Polonoise,Dance,F major,,Clavier,
 316,,H. 316,Wq. 116/42,Polonoise,Dance,A major,,Clavier,
@@ -337,24 +330,24 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 321,,H. 321,Wq. 116/47,,Minuet,C major,,Clavier,
 322,,H. 322,Wq. 116/48,,Minuet,G major,,Clavier,
 323,,H. 323,Wq. 116/49,Polonoise,Dance,D major,,Clavier,
-324,,H. 324,Wq. 116/50,,Piano Piece,A minor,,Clavier,
-325,,H. 325,Wq. 116/51,,Piano Piece,C major,,Clavier,
-326,,H. 326,Wq. 116/52,,Piano Piece,E-flat major,,Clavier,
-327,,H. 327,Wq. 116/53,,Piano Piece,C major,,Clavier,
-328,,H. 328,Wq. 116/54,,Piano Piece,G major,,Clavier,
-329,,H. 329,Wq. 116/55,,Piano Piece,E-flat major,,Clavier,
-330,,H. 330,Wq. 116/56,,Piano Piece,D major,,Clavier,
-331,,H. 331,Wq. 116/57,,Piano Piece,C major,,Clavier,
-333,,H. 333,,La Juliane,Piano Piece,,,,
+324,,H. 324,Wq. 116/50,,Keyboard Piece,A minor,,Clavier,
+325,,H. 325,Wq. 116/51,,Keyboard Piece,C major,,Clavier,
+326,,H. 326,Wq. 116/52,,Keyboard Piece,E-flat major,,Clavier,
+327,,H. 327,Wq. 116/53,,Keyboard Piece,C major,,Clavier,
+328,,H. 328,Wq. 116/54,,Keyboard Piece,G major,,Clavier,
+329,,H. 329,Wq. 116/55,,Keyboard Piece,E-flat major,,Clavier,
+330,,H. 330,Wq. 116/56,,Keyboard Piece,D major,,Clavier,
+331,,H. 331,Wq. 116/57,,Keyboard Piece,C major,,Clavier,
+333,,H. 333,,La Juliane,Keyboard Piece,,,,
 334,,H. 334,,Allegro moderato ed innocentemente,Piece,A minor,,,
-336,,H. 336/2,,Ich bin ja Herr in deiner Macht [without text],,,,,
-336,,H. 336/3,,Jesus meine Zuversicht [without text],,,,,
-336,,H. 336/5,,Komm heiliger Geist [without text],,,,,
-336,,H. 336/1,,O Gott du frommer Gott [without text],,,,,
-336,,H. 336/4,,Wer nur den lieben Gott [without text],,,,,
-337,,H. 337,,Wo Gott zum Haus nicht gibt [without text],,,,,
-338.01,,H. 338/1,Wq. 116/16,Allegro,Piano Piece,A major,,Clavier,
-338.02,,H. 338/2,Wq. 116/17,Allegro,Piano Piece,G major,,Clavier,
+336.1,,H. 336/1,,O Gott du frommer Gott [without text],Chorale Prelde,,,,
+336.2,,H. 336/2,,Ich bin ja Herr in deiner Macht [without text],Chorale Prelde,,,,
+336.3,,H. 336/3,,Jesus meine Zuversicht [without text],Chorale Prelde,,,,
+336.4,,H. 336/4,,Wer nur den lieben Gott [without text],Chorale Prelde,,,,
+336.5,,H. 336/5,,Komm heiliger Geist [without text],Chorale Prelde,,,,
+337,,H. 337,,Wo Gott zum Haus nicht gibt [without text],Chorale Prelde,,,,
+338.01,,H. 338/1,Wq. 116/16,Allegro,Keyboard Piece,A major,,Clavier,
+338.02,,H. 338/2,Wq. 116/17,Allegro,Keyboard Piece,G major,,Clavier,
 339,,H. 339,,,Sonata,E minor,,Clavier solo,
 340,,H. 340,,Polonaise,Dance,G major,,,
 341,,H. 341,,,Sonata,C major,,Clavier solo,
@@ -368,11 +361,11 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 349,,H. 349,,,Fantasia,D minor,,,
 350,,H. 350,,,Fugue,C major,,Clavier,
 351,,H. 351,,"Arioso, Variations [solo keyboard]",Variations,A major,,,
-352,,H. 352,,Adagio [organ],Piece,D minor,,,
+352,,H. 352,,Adagio,Piece,D minor,,String,
 353,,H. 353,,Polonaise,Dance,D major,,,
 354,,H. 354,,Polonaise,Dance,D major,,,
 355,,H. 355,,Polonaise,Dance,A major,,,
-356,,H. 356,,Larghetto [solo keyboard],Piano Piece,G major,,,
+356,,H. 356,,Larghetto [solo keyboard],Keyboard Piece,G major,,,
 357,,H. 357,,"Gott, deine Güte [without text]",,,,,
 358,,H. 358,,,Sonata,,,Clavier solo,
 359,,H. 359,,,Sonata,D major,,Clavier solo,
@@ -387,27 +380,27 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 368,,H. 368,,,Sonata,F major,,Clavier solo,
 369,,H. 369,,,Sonata,A major,,Clavier solo,
 370,,H. 370,,,Sonata,B-flat major,,Clavier solo,
+371,,H. 371,,Symphony [solo keyboard],Duet,B-flat major,,,
+371,,H. 371.8,,,Fantasia,G major,,,
+371,,H. 371.9,,,Fugue,F major,,Clavier,
 371,,H. 371.6,,Andante,Piece,C minor,,,
 371,,H. 371.7,,Arietta,Piece,A major,,,
 371,,H. 371.9/1,,Prelude,Prelude,F major,,,
 371,,H. 371.9,,,Sonata,B-flat major,,Clavier solo,
-371,,H. 371,,Symphony [solo keyboard],Duet,B-flat major,,,
 371,,H. 371.9/2,,works based on B-A-C-H,,,,,
-371,,H. 371.8,,,Fantasia,G major,,,
-371,,H. 371.9,,,Fugue,F major,,Clavier,
 372,,H. 372,,,Fugue,D minor,,Clavier,
-373,,H. 373,,works based on B-A-C-H,,,,,
 373,,H. 373,,,Fugue,C major,,Clavier,
 373,,H. 373.5/1,,,Fugue,D minor,,Clavier,
-374,,H. 374,,La Walhauer,Piano Piece,,,,
+373,,H. 373,,works based on B-A-C-H,,,,,
 374,,H. 373.5/2,,,Fugue,D minor,,Clavier,
+374,,H. 374,,La Walhauer,Keyboard Piece,,,,
+375,,H. 373.5/3,,,Fugue,D major,,Clavier,
 375,,H. 375,,Minuet / Variations,Keyboard Variations,E-flat major,,Clavier solo,
 375,,H. 375.5,,Minuet / Variations,Keyboard Variations,F major,,Clavier solo,
-375,,H. 373.5/3,,,Fugue,D major,,Clavier,
 376,,H. 376,,Ach Gott und Herr [without text],,,,,
-377,,H. 377.5,,Contrapunctus / Fugue [keyboard],Fugue,D minor,,,
+377,,H. 377.5,,Contrapunctus / Fugue [keyboard],Fugue,D minor,,Clavier,
 377,,H. 377,,,Sonata,A minor,,Clavier solo,
-378,,H. 378,,6 Sonatas,Sonata,,,,
+378,,H. 378,,Sonatas (6),Sonata,,,,
 378,,H. 378/1,,,Sonata,B-flat major,,Clavier solo,
 378,,H. 378/2,,,Sonata,G major,,Clavier solo,
 378,,H. 378/3,,,Sonata,D minor,,Clavier solo,
@@ -417,30 +410,28 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 379,,H. 379,,,Sonata,F major,,Clavier solo,
 380,,H. 380,,Polonaise,Dance,E-flat major,,,
 381,,H. 381,,,Sonata,C major,,Clavier solo,
-382,,H. 382,,2 Sonatas,Sonata,,,,
+382,,H. 382,,Sonatas (2),Sonata,,,,
 382,,H. 382/1,,,Sonata,E major,,Clavier solo,
 382,,H. 382/2,,,Sonata,C minor,,Clavier solo,
 383,,H. 383,,Sonata [solo keyboard] / Concerto [unaccompanied keyboard],Sonata,A major,,,
 384,,H. 384,,Sonata [solo keyboard] / Concerto [unaccompanied keyboard],Sonata,A major,,,
-385,,H. 385,,2 Sonatas,Sonata,,,,
+385,,H. 385,,Sonatas (2),Sonata,,,,
 385,,H. 385/1,,,Sonata,B-flat major,,Clavier solo,
 385,,H. 385/2,,,Sonata,D major,,Clavier solo,
 386,,H. 386,,,Sonata,C major,,Clavier solo,
 387,,H. 387,,,Sonata,A major,,,
 388,,H. 388,,,Fugue,C major,,Clavier,
 389,,H. 389,,,Fugue,C minor,,Clavier,
-389.5,,H. 389.5/2,,Prelude,Prelude,B-flat major,,,
 389.5,,H. 389.5/1,,,Fugue,B-flat major,,Clavier,
+389.5,,H. 389.5/2,,Prelude,Prelude,B-flat major,,,
 389.6,,H. 389.6/1-2,,works based on B-A-C-H,,,,,
 390,,H. 390,,Parthia,Partita,C major,,,
 390.5,,H. 390.5,,Gigue,Dance,B-flat major,,,
 391,,H. 391/1,,Andante,Piece,G major,,,
 391,,H. 391,,Andante ed allegro,Piece,,,,
 391,,H. 391/2,,Presto,Piece,D major,,,
-392,,H. 392.1/1,,Le Affectueux,Piano Piece,,,,
-392,,H. 392.1/1,,Le Caressant,Piano Piece,,,,
-392,,H. 392.1/2,,Le Contente,Piano Piece,,,,
-392,,H. 392,,Le Travagant,Piano Piece,,,,
+392,,H. 392.1/2,,Le Contente,Keyboard Piece,,,,
+392,,H. 392,,Le Travagant,Keyboard Piece,,,,
 393,,H. 393,,Allein Gott in der Höh sey Ehr [without text],,,,,
 394,,H. 394,,Vater unser im Himmelreich [without text],,,,,
 395,,H. 395,,Gigue / Variations [solo keyboard],Variations,F major,,,
@@ -448,88 +439,88 @@ SORT,WikiQID,Catalogue,Wotquenne,Title,Genre,Key,Work structure,Instrumentation,
 397,,H. 397/1-2,,,Minuet,D major,,Clavier solo,
 398,,H. 398,,,Minuet,D major,,Clavier solo,
 399,,H. 399,,,Minuet,A major,,Clavier solo,
-400,,H. 400,,Vivace / Allegro [solo keyboard] / Untitled [solo keyboard],Piano Piece,A major,,,
-401,,H. 401,,Vivace / untitled [solo keyboard],Piano Piece,A minor,,,
-402,,H. 402,,Untitled [solo keyboard],Piano Piece,A minor,,,
-403,,H. 403,Wq. 1,,Harpsichord Concerto,A minor,"1. Allegretto (A minor)
+400,,H. 400,,Vivace / Allegro [solo keyboard] / Untitled [solo keyboard],Keyboard Piece,A major,,,
+401,,H. 401,,Vivace / untitled [solo keyboard],Keyboard Piece,A minor,,,
+402,,H. 402,,Untitled [solo keyboard],Keyboard Piece,A minor,,,
+403,,H. 403,Wq. 1,,Keyboard Concerto,A minor,"1. Allegretto (A minor)
 2. Andante (F major)
-3. Presto (A minor)","Harpsichord, 2 Violins, Viola, Basso",revised in 1744
-404,,H. 404,Wq. 2,,Harpsichord Concerto,E-flat major,"1. Allegro non molto (E-flat major)
+3. Presto (A minor)","Harpsichord, 2 Violins, Viola, Basso",
+404,,H. 404,Wq. 2,,Keyboard Concerto,E-flat major,"1. Allegro non molto (E-flat major)
 2. Largo (C minor)
-3. Allegro assai (E-flat major)","Harpsichord, 2 Violins, Viola, Basso",revised in 1743
-405,,H. 405,Wq. 3,,Harpsichord Concerto,G major,"1. Allegro di molto (G major)
-2. Adagio (G minor)
-3. Allegro (G major)","Harpsichord, 2 Violins, Viola, Basso",revised in 1745
-406,,H. 406,Wq. 4,,Harpsichord Concerto,G major,"1. Allegro (G major)
+3. Allegro assai (E-flat major)","Harpsichord, 2 Violins, Viola, Basso",
+405,,H. 405,Wq. 3,,Keyboard Concerto,G major,"1. Allegro di molto (G major)
 2. Adagio (G minor)
 3. Allegro (G major)","Harpsichord, 2 Violins, Viola, Basso",
-407,,H. 407,Wq. 5,,Harpsichord Concerto,C minor,"1. Moderato (C minor)
+406,,H. 406,Wq. 4,,Keyboard Concerto,G major,"1. Allegro (G major)
+2. Adagio (G minor)
+3. Allegro (G major)","Harpsichord, 2 Violins, Viola, Basso",
+407,,H. 407,Wq. 5,,Keyboard Concerto,C minor,"1. Moderato (C minor)
 2. Adagio non molto (E-flat major)
-3. Vivace (C minor)","Harpsichord, 2 Violins, Viola, Basso",revised in 1762
-408,,H. 408,Wq. 46,,Concerto,F major,"1. Allegro (F major)
+3. Vivace (C minor)","Harpsichord, 2 Violins, Viola, Basso",
+408,,H. 408,Wq. 46,,Keyboard Concerto,F major,"1. Allegro (F major)
 2. Largo (F minor)
-3. Allegro assai (F major)","2 Harpsichords, 2 Horns, 2 Violins, Viola, Basso",2e version sans cors - ausi arrangé pour 2 clavecins solo
-409,,H. 409,Wq. 6,,Harpsichord Concerto,G minor,"1. ... (G minor)
+3. Allegro assai (F major)","2 Harpsichords, 2 Horns, 2 Violins, Viola, Basso",2nd version without horn - also arranged for 2 solo harpsichords
+409,,H. 409,Wq. 6,,Keyboard Concerto,G minor,"1. ... (G minor)
 2. Largo (E-flat major)
 3. Allegro (G minor)","Harpsichord, 2 Violins, Viola, Basso",
-410,,H. 410,Wq. 7,,Harpsichord Concerto,A major,"1. Allegro (A major)
+410,,H. 410,Wq. 7,,Keyboard Concerto,A major,"1. Allegro (A major)
 2. Adagio (F-sharp minor)
 3. Allegro (A major)","Harpsichord, 2 Violins, Viola, Basso",
-411,,H. 411,Wq. 8,,Harpsichord Concerto,A major,"1. Allegro (A major)
+411,,H. 411,Wq. 8,,Keyboard Concerto,A major,"1. Allegro (A major)
 2. Andante (A minor)
 3. Allegro (A major)","Harpsichord, 2 Violins, Viola, Basso",
-412,,H. 412,Wq. 9,,Harpsichord Concerto,G major,"1. Allegro (G major)
+412,,H. 412,Wq. 9,,Keyboard Concerto,G major,"1. Allegro (G major)
 2. Adagio (B minor)
 3. Allegro assai (G major)","Harpsichord, 2 Violins, Viola, Basso",Aussi arrangé pour orgue et violon
-413,,H. 413,Wq. 10,,Harpsichord Concerto,B-flat major,"1. ... (B-flat major)
+413,,H. 413,Wq. 10,,Keyboard Concerto,B-flat major,"1. ... (B-flat major)
 2. Largo (F major)
 3. Presto, ma non tanto (B-flat major)","Harpsichord, 2 Violins, Viola, Basso",
-414,,H. 414,Wq. 11,,Harpsichord Concerto,D major,"1. Allegro di molto (D major)
+414,,H. 414,Wq. 11,,Keyboard Concerto,D major,"1. Allegro di molto (D major)
 2. Adagio non molto (D minor)
 3. Allegro (D major)","Harpsichord, 2 Violins, Viola, Basso",Aussi version avec ajout de 2 trompettes et timbales ad lib
-415,,H. 415,Wq. 12,,Harpsichord Concerto,F major,"1. Allegro (F major)
+415,,H. 415,Wq. 12,,Keyboard Concerto,F major,"1. Allegro (F major)
 2. Largo e sostenuto (F minor)
 3. Allegro assai (F major)","Harpsichord, 2 Violins, Viola, Basso",
-416,,H. 416,Wq. 13,,Harpsichord Concerto,D major,"1. Allegro (D major)
+416,,H. 416,Wq. 13,,Keyboard Concerto,D major,"1. Allegro (D major)
 2. Un poco Andante (B minor)
 3. Allegro assai (D major)","Harpsichord, 2 Violins, Viola, Basso",? Version pour flûte concertante
-417,,H. 417,Wq. 14,,Harpsichord Concerto,E major,"1. Allegro (E major)
+417,,H. 417,Wq. 14,,Keyboard Concerto,E major,"1. Allegro (E major)
 2. Poco Adagio (E minor)
 3. Allegro assai (E major)","Harpsichord, 2 Violins, Viola, Basso",
-418,,H. 418,Wq. 15,,Harpsichord Concerto,E minor,"1. Allegro (E minor)
+418,,H. 418,Wq. 15,,Keyboard Concerto,E minor,"1. Allegro (E minor)
 2. Adagio (G major)
 3. Vivace (E minor)","Harpsichord, 2 Violins, Viola, Basso",
-419,,H. 419,Wq. 16,,Harpsichord Concerto,G major,"1. Allegro (G major)
+419,,H. 419,Wq. 16,,Keyboard Concerto,G major,"1. Allegro (G major)
 2. Adagio (C major)
 3. Allegretto (G major)","Harpsichord, 2 Violins, Viola, Basso",? Révision d'une version datant de 1738
-420,,H. 420,Wq. 17,,Harpsichord Concerto,D minor,"1. Allegro (D minor)
+420,,H. 420,Wq. 17,,Keyboard Concerto,D minor,"1. Allegro (D minor)
 2. Un poco Adagio (B-flat major)
 3. Allegro (D minor)","Harpsichord, 2 Violins, Viola, Basso",
-421,,H. 421,Wq. 18,,Harpsichord Concerto,D major,"1. Allegro (D major)
+421,,H. 421,Wq. 18,,Keyboard Concerto,D major,"1. Allegro (D major)
 2. Andante (G major)
 3. Allegro di molto (D major)","Harpsichord, 2 Violins, Viola, Basso",Aussi arrangé pour 2 clavecins solo
-422,,H. 422,Wq. 19,,Harpsichord Concerto,A major,"1. Allegro (A major)
+422,,H. 422,Wq. 19,,Keyboard Concerto,A major,"1. Allegro (A major)
 2. Andante (A minor)
 3. Allegro assai (A major)","Harpsichord, 2 Violins, Viola, Basso",Attribué à Johann Friedrich Bach
-423,,H. 423,Wq. 20,,Harpsichord Concerto,C major,"1. Allegretto (C major)
+423,,H. 423,Wq. 20,,Keyboard Concerto,C major,"1. Allegretto (C major)
 2. Adagio ma non troppo (C minor)
 3. Allegro assai (C major)","Harpsichord, 2 Violins, Viola, Basso",
-424,,H. 424,Wq. 21,,Harpsichord Concerto,A minor,"1. Allegro (A minor)
+424,,H. 424,Wq. 21,,Keyboard Concerto,A minor,"1. Allegro (A minor)
 2. Adagio (F major)
 3. Allegro con spirito (A minor)","Harpsichord, 2 Violins, Viola, Basso",
-425,,H. 425,Wq. 22,,Harpsichord Concerto,D minor,"1. Allegro (D minor)
+425,,H. 425,Wq. 22,,Keyboard Concerto,D minor,"1. Allegro (D minor)
 2. Un poco Andante (D major)
 3. Allegro di molto (D minor)","Harpsichord, 2 Violins, Viola, Basso",
-427,,H. 427,Wq. 23,,Harpsichord Concerto,D minor,"1. Allegro (D minor)
+427,,H. 427,Wq. 23,,Keyboard Concerto,D minor,"1. Allegro (D minor)
 2. Poco Andante (F major)
 3. Allegro assai (D minor)","Harpsichord, 2 Violins, Viola, Basso",Aussi arrangé pour 2 clavecins
-428,,H. 428,Wq. 24,,Harpsichord Concerto,E minor,"1. Allegretto (E minor)
+428,,H. 428,Wq. 24,,Keyboard Concerto,E minor,"1. Allegretto (E minor)
 2. Largo (C major)
 3. Allegretto (E minor)","Harpsichord, 2 Violins, Viola, Basso",? Révision d'une version antérieure
-429,,H. 429,Wq. 25,,Harpsichord Concerto,B-flat major,"1. Allegro di molto (B-flat major)
+429,,H. 429,Wq. 25,,Keyboard Concerto,B-flat major,"1. Allegro di molto (B-flat major)
 2. Largo mesto (D minor)
 3. Prestissimo (B-flat major)","Harpsichord, 2 Violins, Viola, Basso",Aussi arrangé pour 2 clavecins
-430,,H. 430,Wq. 26,,Harpsichord Concerto,A minor,"1. Allegro assai (A minor)
+430,,H. 430,Wq. 26,,Keyboard Concerto,A minor,"1. Allegro assai (A minor)
 2. Andante (C major)
 3. Allegro assai (A minor)","Harpsichord, 2 Violins, Viola, Basso","Aussi version pour flûte traversière et cordes (Wq 166/H 431);
 violoncelle et cordes (Wq 170/H 432)
@@ -542,11 +533,11 @@ violoncelle et cordes (Wq 170/H 432)"
 2. Andante (C major)
 3. Allegro assai (A minor)","Cello, 2 Violins, Viola, Basso","Aussi version pour clavecin et cordes (Wq 26/H 430);
 flûte traversière et cordes (Wq 166/H 431)"
-433,,H. 433,Wq. 27,,Harpsichord Concerto,D major,"1. Allegro (D major)
+433,,H. 433,Wq. 27,,Keyboard Concerto,D major,"1. Allegro (D major)
 2. Siciliana (B minor)
 3. Allegro (D major)","Harpsichord, 2 Violins, Viola, Basso","1ère version: 2 hautbois, 2 trompettes/cors, 2 flûtes ad lib et timpani;
 2è version: cordes et 2 cors"
-434,,H. 434,Wq. 28,,Harpsichord Concerto,B-flat major,"1. Allegretto (B-flat major)
+434,,H. 434,Wq. 28,,Keyboard Concerto,B-flat major,"1. Allegretto (B-flat major)
 2. Adagio (G minor)
 3. Allegro assai (B-flat major)","Harpsichord, 2 Violins, Viola, Basso","Aussi version pour flûte traversière et cordes (Wq 167/H 435);
 violoncelle et cordes (Wq 171/H 436)"
@@ -558,7 +549,7 @@ violoncelle et cordes (Wq 171/H 436)"
 2. Adagio (G minor)
 3. Allegro assai (B-flat major)","Cello, 2 Violins, Viola, Basso","Aussi version pour clavecin et cordes (Wq 28/H 434);
 flûte traversière et cordes (Wq 167/H 435)"
-437,,H. 437,Wq. 29,,Harpsichord Concerto,A major,"1. Allegro (A major)
+437,,H. 437,Wq. 29,,Keyboard Concerto,A major,"1. Allegro (A major)
 2. Largo mesto (A minor)
 3. Allegro (A major)","Harpsichord, 2 Violins, Viola, Basso",Aussi version pour flûte traversière et cordes (Wq 168/H 438); violoncelle et cordes (Wq 172/H 439)
 438,,H. 438,Wq. 168,,Flute Concerto,A major,"1. Allegro (A major)
@@ -568,31 +559,31 @@ flûte traversière et cordes (Wq 167/H 435)"
 2. Largo mesto (A minor)
 3. Allegro (E major)","Cello, 2 Violins, Viola, Basso","Aussi version pour clavecin et cordes (Wq 29/H 437);
 flûte traversière et cordes (Wq 168/H 438)"
-440,,H. 440,Wq. 30,,Harpsichord Concerto,B minor,"1. Allegro di molto (B minor)
+440,,H. 440,Wq. 30,,Keyboard Concerto,B minor,"1. Allegro di molto (B minor)
 2. Adagio (G major)
 3. Allegro (B minor)","Harpsichord, 2 Violins, Viola, Basso",
-441,,H. 441,Wq. 31,,Harpsichord Concerto,C minor,"1. Allegro di molto (C minor)
+441,,H. 441,Wq. 31,,Keyboard Concerto,C minor,"1. Allegro di molto (C minor)
 2. Adagio (A-flat major)
 3. Allegretto (C minor)","Harpsichord, 2 Violins, Viola, Basso",
-442,,H. 442,Wq. 32,,Harpsichord Concerto,G minor,"1. Allegretto (G minor)
+442,,H. 442,Wq. 32,,Keyboard Concerto,G minor,"1. Allegretto (G minor)
 2. Un poco Andante (G major)
 3. Allegro (G minor)","Harpsichord, 2 Flutes adlib, 2 Violins, Viola, Basso","Autre version avec 2 violons, alto et basse"
-443,,H. 443,Wq. 33,,Harpsichord Concerto,F major,"1. Allegretto (F major)
+443,,H. 443,Wq. 33,,Keyboard Concerto,F major,"1. Allegretto (F major)
 2. Adagio (B-flat major)
 3. Allegro assai (F major)","Harpsichord, 2 Violins, Viola, Basso",
-444,,H. 444,Wq. 34,,Harpsichord Concerto,G major,"1. Allegro di molto (G major)
+444,,H. 444,Wq. 34,,Keyboard Concerto,G major,"1. Allegro di molto (G major)
 2. Largo (E minor)
 3. Presto (G major)","Harpsichord, 2 Violins, Viola, Basso",Aussi version pour flûte traversière et cordes (Wq 169/H 445)
 445,,H. 445,Wq. 169,,Flute Concerto,G major,"1. Allegro di molto (G major)
 2. Largo (E minor)
 3. Presto (G major)","Transverse Flute, 2 Violins, Viola, Basso",Aussi version pour orgue/clavecin et cordes (Wq 34/H 444)
-446,,H. 446,Wq. 35,,Concerto,E-flat major,"1. Allegro ma non troppo (E-flat major)
+446,,H. 446,Wq. 35,,Keyboard Concerto,E-flat major,"1. Allegro ma non troppo (E-flat major)
 2. Adagio sostenuto (A-flat major)
-3. Allegro assai (E-flat major)","Organ/Harpsicord, 2 Horns, 2 Violins, Viola, Basso",Originalement pour orgue; autre version sans cors
-447,,H. 447,Wq. 36,,Harpsichord Concerto,B-flat major,"1. Allegro (B-flat major)
+3. Allegro assai (E-flat major)","Organ/Harpsicord, 2 Horns, 2 Violins, Viola, Basso",originally for organ; also a version without horn
+447,,H. 447,Wq. 36,,Keyboard Concerto,B-flat major,"1. Allegro (B-flat major)
 2. Poco Adagio (E-flat major)
 3. Allegro assai (B-flat major)","Harpsichord, 2 Violins, Viola, Basso",
-448,,H. 448,Wq. 37,,Harpsichord Concerto,C minor,"1. Allegro assai (C minor)
+448,,H. 448,Wq. 37,,Keyboard Concerto,C minor,"1. Allegro assai (C minor)
 2. Andante ed arioso (C major)
 3. Presto (C minor)","Harpsichord, 2 Horns, 2 Violins, Viola, Basso",
 449,,H. 449,Wq. 96,,Sonatina,D major,,"Harpsichord, 2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
@@ -600,7 +591,7 @@ flûte traversière et cordes (Wq 168/H 438)"
 451,,H. 451,Wq. 98,,Sonatina,G major,,"Harpsichord, 2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
 452,,H. 452,Wq. 99,,Sonatina,F major,,"Harpsichord, 2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
 453,,H. 453,Wq. 109,,Sonatina,D major,,"2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
-454,,H. 454,Wq. 38,,Harpsichord Concerto,F major,"1. Allegro di molto (F major)
+454,,H. 454,Wq. 38,,Keyboard Concerto,F major,"1. Allegro di molto (F major)
 2. Poco Adagio (D minor)
 3. Allegro (F major)","Harpsichord, 2 Flutes adlib, 2 Violins, Viola, Basso",
 455,,H. 455,Wq. 100,,Sonatina,E major,,"2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
@@ -613,86 +604,57 @@ flûte traversière et cordes (Wq 168/H 438)"
 462,,H. 462,Wq. 108,,Sonatina,E-flat major,,"Harpsicord, 2 Transverse Fluts, 2 Violins, Viola, Basso",
 463,,H. 463,Wq. 104,,Sonatina,F major,,"Harpsicord, 2 Transverse Fluts, 2 Violins, Viola, Basso",
 464,,H. 464,Wq. 105,,Sonatina,E-flat major,,"Harpsicord, 2 Transverse Fluts, 2 Violins, Viola, Basso",
-465,,H. 465,Wq. 39,,Violin Concerto,B-flat major,"1. Allegretto (B-flat major)
+465,,H. 465,Wq. 39,,Keyboard Concerto,B-flat major,"1. Allegretto (B-flat major)
 2. Largo e mesto (G minor)
-3. Allegro moderato (B-flat major)","2 Solo Violins, Viola, Basso",Aussi version pour hautbois et cordes (Wq 164/H 466)
+3. Allegro moderato (B-flat major)","2 Violins, Viola, Harpsichor, Basso",Aussi version pour hautbois et cordes (Wq 164/H 466)
 466,,H. 466,Wq. 164,,Oboe Concerto,B-flat major,"1. Allegretto (B-flat major)
 2. Largo e mesto (G minor)
 3. Allegro moderato (B-flat major)","Oboe, 2 Violins, Viola, Basso",Aussi version pour clavecin et cordes (Wq 39/H 465)
-467,,H. 467,Wq. 40,,Harpsichord Concerto,E-flat major,"1. Allegro (E-flat major)
+467,,H. 467,Wq. 40,,Keyboard Concerto,E-flat major,"1. Allegro (E-flat major)
 2. Adagio ma non troppo (C minor)
 3. Allegro ma non troppo (E-flat major)","Harpsichord, 2 Violins, Viola, Basso",Aussi version pour hautbois et cordes (Wq 165/H 468)
 468,,H. 468,Wq. 165,,Oboe Concerto,E-flat major,"1. Allegro (E-flat major)
 2. Adagio ma non troppo (C minor)
 3. Allegro ma non troppo (E-flat major)","Oboe, 2 Violins, Viola, Basso",Aussi version pour clavecin et cordes (Wq 40/H 467)
-469,,H. 469,Wq. 41,,Harpsichord Concerto,E-flat major,"1. Largo (E-flat major) / Prestissimo
+469,,H. 469,Wq. 41,,Keyboard Concerto,E-flat major,"1. Largo (E-flat major) / Prestissimo
 2. Largo (C major)
 3. Ziemlich geschwinde (E-flat major)","Harpsichord, 2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
-470,,H. 470,Wq. 42,,Harpsichord Concerto,F major,"1. Allegro assai (F major)
+470,,H. 470,Wq. 42,,Keyboard Concerto,F major,"1. Allegro assai (F major)
 2. Larghetto (C minor)
 3. Poco Presto (F major)","Harpsichord, 2 Horns, 2 Violins, Viola, Basso",
-471,,H. 471,Wq. 43/1,,Concerto,F major,"1. Allegro di molto (F major)
+471,,H. 471,Wq. 43/1,,Keyboard Concerto,F major,"1. Allegro di molto (F major)
 2. Andante (F minor)
-3. Prestissimo (F major)","2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
-472,,H. 472,Wq. 43/2,,Concerto,D major,"1. Allegro di molto (D major)
+3. Prestissimo (F major)","2 Horns, 2 Violins, Viola, Harpsichord, Basso",
+472,,H. 472,Wq. 43/2,,Keyboard Concerto,D major,"1. Allegro di molto (D major)
 2. Andante (G major)
-3. Allegretto (D major)","2 Flutes, 2 Horns, 2 Violins, Viola, Basso",Aussi arrangé pour 2 clavecins solo
-473,,H. 473,Wq. 43/3,,Concerto,E-flat major,"1. Allegro (E-flat major)
+3. Allegretto (D major)","2 Horns, 2 Violins, Viola, Harpsichord, Basso",Also arranged for 2 solo harpsichords
+473,,H. 473,Wq. 43/3,,Keyboard Concerto,E-flat major,"1. Allegro (E-flat major)
 2. Larghetto (C major)
-3. Presto (E-flat major)","2 Flutes, 2 Horns, 2 Violins, Viola, Basso",Aussi arrangé pour 2 clavecins solo
-474,,H. 474,Wq. 43/4,,Harpsichord Concerto,C minor,"1. Allegro assai (C minor)
+3. Presto (E-flat major)","2 Horns, 2 Violins, Viola, Harpsichord, Basso",Also arranged for 2 solo harpsichords
+474,,H. 474,Wq. 43/4,,Keyboard Concerto,C minor,"1. Allegro assai (C minor)
 2. Poco Adagio (G minor)
 3. Tempo di Minuetto (E-flat major)
 4. Allegro assai (C minor)","Harpsichord, 2 Flutes adlib, 2 Violins, Viola, Basso",Aussi arrangé pour 2 clavecins solo
-475,,H. 475,Wq. 43/5,,Concerto,G major,"1. Adagio (G major) / Presto
-2. Allegro (C major)","2 Flutes, 2 Horns, 2 Violins, Viola, Basso",Aussi arrangé pour 2 clavecins solo
-476,,H. 476,Wq. 43/6,,Concerto,C major,"1. Allegro di molto (C major)
+475,,H. 475,Wq. 43/5,,Keyboard Concerto,G major,"1. Adagio (G major) / Presto
+2. Allegro (C major)","2 Horns, 2 Violins, Viola, Harpsichord, Basso",Also arranged for 2 solo harpsichords
+476,,H. 476,Wq. 43/6,,Keyboard Concerto,C major,"1. Allegro di molto (C major)
 2. Larghetto (D minor)
-3. Allegro (C major)","2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
-477,,H. 477,Wq. 44,,Harpsichord Concerto,G major,"1. Allegretto (G major)
+3. Allegro (C major)","2 Horns, 2 Violins, Viola, Harpsichord, Basso",
+477,,H. 477,Wq. 44,,Keyboard Concerto,G major,"1. Allegretto (G major)
 2. Andantino (B minor)
 3. Allegro (G major)","Harpsichord, 2 Horns, 2 Violins, Viola, Basso",
-478,,H. 478,Wq. 45,,Harpsichord Concerto,D major,"1. Allegretto (D major)
+478,,H. 478,Wq. 45,,Keyboard Concerto,D major,"1. Allegretto (D major)
 2. Andantino (D minor)
 3. Allegro (D major)","Harpsichord, 2 Horns, 2 Violins, Viola, Basso",
-479,,H. 479,Wq. 47,,Concerto,E-flat major,"1. Allegro di molto (E-flat major)
+479,,H. 479,Wq. 47,,Keyboard Concerto,E-flat major,"1. Allegro di molto (E-flat major)
 2. Larghetto (C major)
-3. Presto (E-flat major)","Harpsichord, Pianoforte, 2 Flutes, 2 Horns, 2 Violins, Viola, Basso",Aussi arrangé pour 2 claviers solo ainsi que pour 3 pianos solo
+3. Presto (E-flat major)","Harpsichord, Pianoforte, 2 Flutes, 2 Horns, 2 Violins, Viola, Basso",Also arranged for 2 solo keyboards and for 3 solo pianos
 480,,H. 480,,,Sonatina,D major,,,
 480,,H. 480.5,,,Sonatina,D major,,,
-481,,H. 481,,Concerto [one keyboard plus ensemble],Concerto,G minor,,,
-481,,H. 481.5,,Concerto [one keyboard plus ensemble],Concerto,E minor,,,
-482,,H. 482/1-11,,Concerto [flute plus ensemble],Concerto,,,,
-483,,H. 483,,Concerto [one keyboard plus ensemble],Concerto,,,,
-484,,H. 484.1,,Concerto [flute plus ensemble],Concerto,D minor,,,
-484,,H. 484,,Concerto [one keyboard plus ensemble],Concerto,,,,
-484,,H. 484.2,,Concerto [one keyboard plus ensemble],Concerto,F minor,,,
-484,,H. 484.3,,Concerto [one keyboard plus ensemble],Concerto,E-flat major,,,
-484,,H. 484.4,,Concerto [one keyboard plus ensemble],Concerto,B-flat major,,,
-484,,H. 484.5,,Concerto [one keyboard plus ensemble],Concerto,D major,,,
-484,,H. 484.6,,Concerto [one keyboard plus ensemble],Concerto,B-flat major,,,
-484,,H. 484.7,,Concerto [one keyboard plus ensemble],Concerto,C minor,,,
-484,,H. 484.8,,Concerto [one keyboard plus ensemble],Concerto,G major,,,
-484,,H. 484.9,,Concerto [one keyboard plus ensemble],Concerto,C major,,,
-485,,H. 485,,Concerto [one keyboard plus ensemble],Concerto,F major,,,
-486,,H. 486,,Concerto [one keyboard plus ensemble],Concerto,C major,,,
-487,,H. 487,,Concerto [one keyboard plus ensemble],Concerto,D minor,,,
-488,,H. 488,,Concerto [one keyboard plus ensemble],Concerto,B-flat major,,,
-489,,H. 489,,Concerto [one keyboard plus ensemble],Concerto,G major,,,
-490,,H. 490,,Concerto [one keyboard plus ensemble],Concerto,E major,,,
 491,,H. 491,,,Sonatina,C major,,,
-492,,H. 492,,Concerto [one keyboard plus ensemble],Concerto,C major,,,
 493,,H. 493,,,Sonatina,C major,,,
-494,,H. 494,,Concerto [one keyboard plus ensemble],Concerto,E-flat major,,,
-495,,H. 495,,Concerto [one keyboard plus ensemble],Concerto,F major,,,
-496,,H. 496,,Concerto [one keyboard plus ensemble],Concerto,B-flat major,,,
-497,,H. 497,,Concerto [violin or viola plus ensemble],Concerto,D major,,,
-498,,H. 498,,Concerto [one keyboard plus ensemble],Concerto,B-flat major,,,
-499,,H. 499,,Concerto [one keyboard plus ensemble],Concerto,F minor,,,
-500,,H. 500,,Concerto [one keyboard plus ensemble],Concerto,D major,,,
-501,,H. 501,,Concerto,Concerto,B-flat major,,,
-502,,H. 502,Wq. 71,,Sonata,D major,,"Violin, Harpsichord",revised in 1746
-503,,H. 503,Wq. 72,,Sonata,D minor,,"Violin, Harpsichord",revised in 1747
+502,,H. 502,Wq. 71,,Sonata,D major,,"Violin, Harpsichord",
+503,,H. 503,Wq. 72,,Sonata,D minor,,"Violin, Harpsichord",
 504,,H. 504,Wq. 73,,Sonata,C major,,"Violin, Harpsichord",
 505,,H. 505,Wq. 83,,Sonata,D major,,"Flute, Harpsichord",
 506,,H. 506,Wq. 84,,Sonata,E major,,"Flute, Harpsichord",
@@ -714,6 +676,7 @@ flûte traversière et cordes (Wq 168/H 438)"
 522,,H. 522,Wq. 90/1,,Sonata,A minor,,"Violin, Cello, Harpsichord",
 523,,H. 523,Wq. 90/2,,Sonata,G major,,"Violin, Cello, Harpsichord",
 524,,H. 524,Wq. 90/3,,Sonata,C major,,"Violin, Cello, Harpsichord",
+525,,H. 525-530,Wq. 89,Sonatas (6),Sonata,,,"Violin, Cello, Harpsichord/Pianoforte",
 525,,H. 525,Wq. 89/1,,Sonata,B-flat major,,"Violin, Cello, Harpsichord/Pianoforte",
 526,,H. 526,Wq. 89/2,,Sonata,C major,,"Violin, Cello, Harpsichord/Pianoforte",
 527,,H. 527,Wq. 89/3,,Sonata,A major,,"Violin, Cello, Harpsichord/Pianoforte",
@@ -773,30 +736,31 @@ flûte traversière et cordes (Wq 168/H 438)"
 Possiblement authentique"
 565.01,,H. 565/1,,,Sonata,G major,"1. Affetuoso (G major)
 2. Allegro (G major)
-3. Tempo di Menuet (G major)","Transverse Flute, Basso",Possiblement authentique
+3. Tempo di Menuet (G major)","Transverse Flute, Basso",
 565.02,,H. 565/2,,,Sonata,B minor,"1. Largo (B minor)
 2. Allegro (D major)
 3. Adagio (D major)
-4. Presto (D major)","Transverse Flute, Basso",Possiblement authentique
+4. Presto (D major)","Transverse Flute, Basso",
 566,,H. 566,,"Sonata [two instruments, b.c.]",Sonata,,,,
-567,,H. 567,Wq. 143,,Sonata,B minor,,"Flute, Violin, Basso",revised in 1747
-568,,H. 568,Wq. 144,,Sonata,E minor,,"Flute, Violin, Basso",revised in 1747
+567,,H. 567,Wq. 143,,Sonata,B minor,,"Flute, Violin, Basso",
+568,,H. 568,Wq. 144,,Sonata,E minor,,"Flute, Violin, Basso",
 569,,H. 569,Wq. 145,,Sonata,D minor,"1. Allegretto (D minor)
 [variante du 2e mouvement de BWV 1036]
 2. Largo (F major)
 [variante du 3e mouvement de BWV 1036]
-3. Allegro (D minor)","Flute, Violin, Basso",revised in 1747
-570,,H. 570,Wq. 146,,Sonata,A major,,"Flute, Violin, Basso",revised in 1747
-571,,H. 571,Wq. 147,,Sonata,C major,,"Flute, Violin, Basso",revised in 1747
-572,,H. 572,Wq. 148,,Sonata,A minor,,"Flute, Violin, Basso",revised in 1747
+3. Allegro (D minor)","Flute, Violin, Basso",
+570,,H. 570,Wq. 146,,Sonata,A major,,"Flute, Violin, Basso",
+571,,H. 571,Wq. 147,,Sonata,C major,,"Flute, Violin, Basso",
+572,,H. 572,Wq. 148,,Sonata,A minor,,"Flute, Violin, Basso",
 573,,H. 573,Wq. 149,,Sonata,C major,,"Flute, Violin, Basso",
 574,,H. 574,Wq. 150,,Sonata,G major,,"Flute, Violin, Basso",
 575,,H. 575,Wq. 151,,Sonata,D major,,"Flute, Violin, Basso",
 576,,H. 576,Wq. 154,,Sonata,F major,,"2 Violins, Basso",
 577,,H. 577,Wq. 155,,Sonata,E minor,,"2 Violins, Basso",
-578,,H. 578,Wq. 161/2,,Trio,B-flat major,,"Flute, Violin, Basso",
-579,,H. 579,Wq. 161/1,,Trio,C minor,,"2 Violins, Basso",
-580,,H. 580,Wq. 162,,Trio,E major,,"2 Flutes, Basso",
+578,,H. 578-579,Wq. 161,Trios (2),Sonata,,,Various Instruments,
+578,,H. 578,Wq. 161/2,,Trio Sonata,B-flat major,,"Flute, Violin, Basso",
+579,,H. 579,Wq. 161/1,,Trio Sonata,C minor,,"2 Violins, Basso",
+580,,H. 580,Wq. 162,,Trio Sonata,E major,,"2 Flutes, Basso",
 581,,H. 581,Wq. 152,,Trio Sonata,G major,,"Flute, Violin, Basso",
 582,,H. 582,Wq. 156,,Sinfonia,A minor,,"2 Violins, Basso",
 582,,H. 582a,,"Symphony [2 vlns., b.c.]",Symphony,A minor,,,
@@ -828,7 +792,7 @@ Possiblement authentique"
 600.1,,H. 600/10,Wq. 81/10,Allegro assai,Piece,C major,,2 Voices,
 600.11,,H. 600/11,Wq. 81/11,Andantino,Piece,F major,,3 Voices,
 600.12,,H. 600/12,Wq. 81/12,Andantino,Piece,F major,,2 Voices,
-601,,H. 601,Wq. 192,Menuet C-Dur,Minuet,C major,"1. … (C major)
+601,,H. 601,Wq. 192,,Minuet,C major,"1. … (C major)
 2. … (C major)
 3. ... (C major)
 reprise du premier Menuet.","2 Recorders, 2 Bassoons, 2 Trumpetss, Timpani, 2 Violins, Basso","[Variante de Wq 116/15, H 159]"
@@ -886,6 +850,7 @@ reprise du Menuet.","2 Flutes, Bassoon, 2 Horns, 2 Violins, Basso","[Variante de
 628.1,,H. 628/10,Wq. 82/10,Allegro scherzando,Piece,E-flat major,,2 Voices,
 628.11,,H. 628/11,Wq. 82/11,Andante,Piece,G minor,,3 Voices,
 628.12,,H. 628/12,Wq. 82/12,Andante,Piece,B-flat major,,2 Voices,
+629,,H. 629-534,Wq. 184,Sonatas (6),Sonata,,,"2 Flutes, 2 Clarinetts, Bassoon, 2 Horns",
 629,,H. 629,Wq. 184/1,,Sonata,D major,,"2 Flutes, 2 Clarinetts, Bassoon, 2 Horns",
 630,,H. 630,Wq. 184/2,,Sonata,F major,,"2 Flutes, 2 Clarinetts, Bassoon, 2 Horns",
 631,,H. 631,Wq. 184/3,,Sonata,G major,,"2 Flutes, 2 Clarinetts, Bassoon, 2 Horns",
@@ -977,7 +942,7 @@ Variante de Wq 115/3, H 612; Wq 116/50, H 324; et Wq 186/1, H H 620/1]
 635.29,,H. 635/29,Wq. 193/29,Allegro,Piece,C major,,Positive Organ,
 635.3,,H. 635/30,Wq. 193/30,Presto,Piece,B-flat major,,Mechanical Clock,
 636,,H. 636,Wq. 142,,Duet,C major,,2 Clarinetts,
-637,,H. 637,Wq. 187,2 Märsche,March,,,"2 Oboes, 2 Horns, Bassoon",
+637,,H. 637,Wq. 187,Märsche (2),March,,,"2 Oboes, 2 Horns, Bassoon",
 637.01,,H. 637/1,Wq. 187/1,,March,F major,,"2 Oboes, 2 Horns, Bassoon",
 637.02,,H. 637/2,Wq. 187/2,,March,D major,,"2 Oboes, 2 Horns, Bassoon",
 638,,H. 638,Wq. 191,2 Abwechselnde Menuetten,Minuet,,"1. Erste Menuet (D major)
@@ -991,13 +956,11 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 640,,H. 640/1,,,Sonata,D major,,"Flute, Violin",
 640,,H. 640/2,,,Sonata,G major,,"Flute, Violin",
 640,,H. 640/3,,,Sonata,C major,,"Flute, Violin",
-641,,H. 641,,Divertimento,Divertimento,D major,,,
-642,,H. 642,,Divertimento,Divertimento,G major,,,
+641,,H. 641,,,Divertimento,D major,,,
+642,,H. 642,,,Divertimento,G major,,,
 643,,H. 643,,,Sonata,,,"Cello, Harmonica",
-644,,H. 644,,Trio,Trio,,,,
-645,,H. 645,,,Quintet,,,"flute, oboe, violin, viola, basso",
 646,,H. 646,,Frühlings Erwachen,,,,,
-647,,H. 647,,Adagio [string orchestra],Piece,,,,
+647,,H. 647,,Adagio,Piece,,,String Orchestra,
 648,,H. 648,Wq. 173,,Symphony,G major,,"2 Violins, Viola, Basso",
 649,,H. 649,Wq. 174,,Symphony,C major,,"2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
 650,,H. 650,Wq. 175,,Symphony,F major,,"2 Flutes, 2 Bassoons, 2 Horns, 2 Violins, Viola, Basso",
@@ -1007,17 +970,19 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 654,,H. 654,Wq. 179,,Symphony,E-flat major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Basso",
 655,,H. 655,Wq. 180,,Symphony,G major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Basso",
 656,,H. 656,Wq. 181,,Symphony,F major,,"2 Oboes, 2 Horns, 2 Violins, Viola, Basso",
+657,,H. 657-662,Wq. 182,Sinfonias (6),Sinfonia,,,"2 Violins, Viola, Basso",
 657,,H. 657,Wq. 182/1,,Sinfonia,G major,,"2 Violins, Viola, Basso",
 658,,H. 658,Wq. 182/2,,Sinfonia,B-flat major,,"2 Violins, Viola, Basso",
 659,,H. 659,Wq. 182/3,,Sinfonia,C major,,"2 Violins, Viola, Basso",
 660,,H. 660,Wq. 182/4,,Sinfonia,A major,,"2 Violins, Viola, Basso",
 661,,H. 661,Wq. 182/5,,Sinfonia,B minor,,"2 Violins, Viola, Basso",
 662,,H. 662,Wq. 182/6,,Sinfonia,E major,,"2 Violins, Viola, Basso",
+663,,H. 663-666,Wq. 183,Orchester‑Sinfonien (4) mit zwölf obligaten Stimmen,Sinfonia,,,12 Voices,
 663,,H. 663,Wq. 183/1,,Sinfonia,D major,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Double Bass",
 664,,H. 664,Wq. 183/2,,Sinfonia,E-flat major,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Double Bass",
 665,,H. 665,Wq. 183/3,,Sinfonia,F major,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Double Bass",
 666,,H. 666,Wq. 183/4,,Sinfonia,G major,,"2 Flutes, 2 Oboes, Bassoon, 2 Horns, 2 Violins, Viola, Cello, Double Bass",
-669,,H. 669,Wq. 211,3 Arias,Aria,,,"T, 2 Violins, Viola, Basso",
+669,,H. 669,Wq. 211,Arias (3),Aria,,,"T, 2 Violins, Viola, Basso",
 669.01,,H. 669/1,Wq. 211/1,"Edle Freiheit, Gottergluck",,,,,
 669.02,,H. 669/2,Wq. 211/2,"Himmels Tochter, Ruf der Seelen",,,,,
 669.03,,H. 669/3,Wq. 211/3,Reiche bis zum Wolkensitze,,,,,
@@ -1036,8 +1001,8 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 682,,H. 682,Wq. 199/13,"Die Küsse: Ein Küsschen, das ein Kind mit schenket",Ode,,,,
 683,,H. 683,Wq. 199/8,Der Stoiker: Ein fauler Feind der Fröchlichkeit auf Erden,Ode,,,,
 684,,H. 684,Wq. 199/15,"Serin: Serin, der hochberühmte Mann",Ode,,,,
-685.5,,H. 685.5,Wq. 199/16,Auf den Namenstag der Mademoiselle S / Ernestine: Das Fest der holden Ernestinen,Ode,,,,
 685.5,,H. 685,,O holde Zeit!,Aria,,,,
+685.5,,H. 685.5,Wq. 199/16,Auf den Namenstag der Mademoiselle S / Ernestine: Das Fest der holden Ernestinen,Ode,,,,
 686,Q112074565,H. 686,Wq. 194,Gellerts Geistliche Oden und Lieder,,,,,
 686.01,,H. 686/1,Wq. 194/1,"Abendlied: Für alle Gute sey gepreist, Gott Vater",Lied,,,,
 686.02,,H. 686/2,Wq. 194/2,"Zufridenheit mit seinem Zustande: Du klagst, uns fühlest die Beschwerden",,,,,
@@ -1095,7 +1060,7 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 686.54,,H. 686/54,Wq. 194/54,"Wider den Geiz: Wohl dem, den bessre Schätze liebt",,,,,
 686.55,,H. 686/55,Wq. 194/55,"Die Wachsamkeit: Nicht, dass icschon ergriffen hätte",,,,,
 687,,H. 687,Wq. 199/20,Herausforderungslied vor der Schlacht bey Rossbach: Heraus aus deiner Wolfesgruft,Ode,,,,
-688,,H. 688,Wq. 202a,"Sans titre: Freude, du Lust der Götter und Menschen",Cantata,,,,
+688,,H. 688,Wq. 202a,"Der Frühling: Freude, du Lust der Götter und Menschen",Cantata,,,,
 690,,H. 690,Wq. 199/17,Der Traum: Er war ein Magdchen ohne Mangel,Ode,,,,
 691,,H. 691,Wq. 199/18,"Die Tugend: Freund, die Tugend ist kein leerer Name",Ode,,,,
 692,,H. 692,Wq. 199/19,Doris: Des Tages Licht hat sicverdunkelt,Ode,,,,
@@ -1133,7 +1098,7 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 712,,H. 712,Wq. 202c/4,"Weihnachtlied: Er kommt, er kommt, der grosse Held",Lied,,,,
 713,,H. 713,Wq. 202c/5,Vom Leiden des Erlösers: Erhebe vom Geräuscder Welt,,,,,
 714,,H. 714,Wq. 202c/6,Klagen einer Schäferinn: Wo fliest du hin aus meinem Herzen,,,,,
-715,,H. 715,Wq. 202c/7,Ode auf die Gegenwart Sr. Kayserlichen Majestät in Rom: Gott und den Kaiser zu verehren,,,,,
+715,,H. 715,Wq. 202c/7,Auf die Gegenwart Sr. Kaiserlichen Majestät in Rom,,,,,
 716,,H. 716,Wq. 202c/8,Auf die Auferstehung des Erlösers: Triumph! Triumph! Und Lob und Dank!,,,,,
 717,,H. 717,Wq. 202c/9,"Ode am Communion-Tage: Tag, den mir der Herr gemacht",,,,,
 718,,H. 718,Wq. 202c/10,"Loblied: So lang icathme, Gott!",Lied,,,,
@@ -1141,13 +1106,13 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 720,,H. 720,Wq. 202c/12,"Schnitterlied: Die du dicmit Aehren kränzest, Blonde Ceres",,,,,
 721,,H. 721,Wq. 202c/13,Passionslied: Wie? Schönster! der mein Herze liebt,Lied,,,,
 723,,H. 723,Wq. 237,Der Frühling,,,,,
-724,,H. 724,Wq. 202e/1,"Communionlied: Zitternd, docvoll sanfter Freuden",Lied,,,,
+724,,H. 724,Wq. 202e/1,"Kommunionlied: Zitternd, docvoll sanfter Freuden",Lied,,,,
 725,,H. 725,Wq. 202e/2,Freudige Erwartung des Todes: Der letzte meiner Tage ist mir vielleicht,,,,,
 726,,H. 726,Wq. 202e/3,Ermunterung zur Beständigkeit: Dickrönte Gott mit freuden,,,,,
 727,,H. 727,Wq. 202e/4,Glückseligkeit des Christen: Mein Glaub' ist meines Lebens Ruh,,,,,
 728,,H. 728,Wq. 202e/5,"Osterlied: Wer ists, der mit Himmelslichte Verklärt",Lied,,,,
 729,,H. 729,Wq. 202e/6,Des Herrn Wort ist wahrhaftig: Der du selbst die Wahrheit bist,,,,,
-730,,H. 730,Wq. 202o/2,Klagelied eines Bauren: Das ganze Dorf versammlet sich,Piano Piece,,,,
+730,,H. 730,Wq. 202o/2,Klagelied eines Bauren: Das ganze Dorf versammlet sich,Keyboard Piece,,,,
 731,,H. 731,Wq. 202f/1,Vaterlandslied: Icbin ein deutsches Madchen!,,,,,
 732,,H. 732,Wq. 202f/2,Der Bauer: Schon locket der May Die Schwalben herbey,,,,,
 733,,H. 733,Wq. 196,Psalmen mit Melodien,Psalm,,,,
@@ -1202,8 +1167,8 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 739.5,,H. 739.5,Wq. 202i/2,Selma,Cantata,,,,
 740,,H. 740,Wq. 200/13,"Trinklied: Ein Leben, wie im Paradies, Gewährt uns",Lied,,,,
 741,,H. 741,Wq. 200/21,An Doris: Des Tages Licht hat sicverdunkelt,Lied,,,,
-742,,H. 742,Wq. 202o/1,Sans titre: Auf den Flügeln des Morgenroths,Piano Piece,,,,
-743,,H. 743,Wq. 202o/4,Da Schlägt des Abschieds Stunde (Die Trennung): Da schlägt des Abschieds Stunde,Piano Piece,,,,
+742,,H. 742,Wq. 202o/1,Sans titre: Auf den Flügeln des Morgenroths,Keyboard Piece,,,,
+743,,H. 743,Wq. 202o/4,Da Schlägt des Abschieds Stunde (Die Trennung): Da schlägt des Abschieds Stunde,Keyboard Piece,,,,
 744,,H. 744,Wq. 202h,"An den Schlaf: Geliebter Schlaf, du Freund von meinem Herzen",,,,,
 745,,H. 745,Wq. 200/1,"Todtengräberlied: Grabe, Spaden, grabe!",Lied,,,,
 746,,H. 746,Wq. 202j,"Selma: Eil, o May, mit deinem Brautgesange",,,,,
@@ -1295,10 +1260,10 @@ reprise du premier Menuet.","2 Flutes, 2 Oboes, 2 Horns, 3 Trumpets, Timpani, 2 
 764.07,,H. 764/7,Wq. 202n/7,"Auf das Vermählungsfest unsers Meisters vom Stuhle: Singt begeistert heute, Brüder",,,,,
 764.08,,H. 764/8,Wq. 202n/8,Lied: Die ihr im sichern Heiligthum,Lied,,,,
 764.09,,H. 764/9,Wq. 202n/9,"Trinklied bey der Tafel: Trink, trinkt von diesen frischen Wein!",Lied,,,,
-764.1,,H. 764/10,Wq. 202n/10,Lied: Hocwie des Adlers kühnster flug,Lied,,,,
+764.1,,H. 764/10,Wq. 202n/10,Lied: Hoc wie des Adlers kühnster flug,Lied,,,,
 764.11,,H. 764/11,Wq. 202n/11,"Lied: Für euch, ihr Schönen, Soll er ertönen",Lied,,,,
 764.12,,H. 764/12,Wq. 202n/12,Das stille Glück der Maurerey: Last andre stolz nacEhre dürsten,,,,,
-765,,H. 765,Wq. 202o/3,"Aus den 107 Psalm: Kommt, lasst uns seine Huld besingen",Psalm,,,,
+765,,H. 765,Wq. 202o/3,"Aus dem 107 Psalm: Kommt, lasst uns seine Huld besingen",Psalm,,,,
 766,,H. 766,Wq. 202o/5,Sans titre: Die schönste soll bey Sonnenschein',Lied,,,,
 767,,H. 767,Wq. 213,Eine italiänische Ariette: D'amor per te languisco,,,,,
 768,,H. 768,,An den Mond / Sophiens Reise auf der See / Ich sah durch Tränenbäche,,,,,
@@ -1353,10 +1318,10 @@ XXVII. Chor „Preiset ihn erlöste Sünder“ (F-Dur)Allegro ma non tanto
 XXVIII. Choral „Herr, stärke micdein Leiden zu bedenken“ (b-Moll)Inserted before No. 1.
 XXIX. Choral „Icfühle Herr voll Reu und Schmerz“ (G-Dur)Inserted after No. 10.
 XXX. Choral „Du schenkst mir täglicso viel Schuld“ (F-Dur)Inserted after No. 16.","2 Sopranos, Alto, Tenor, Bass, SATB, 2 Flutes, 2 Oboes, 2 Bassoons, 3 Horns, Timpani, 2 Violins, Viola, Basso",cantate sur la passion
-777,Q1211115,H. 777,Wq. 240,Die Auferstehung und Himmelfahrt Jesu ,,,,,
+777,Q1211115,H. 777,Wq. 240,Die Auferstehung und Himmelfahrt Jesu,,,,,
 778,,H. 778,Wq. 217,Heilig,,,,,
 779,,H. 779,Wq. 239,Morgengesang am Schöpgungsfeste,Lied,,,,
-780,,H. 780,Wq. 204,2 Litanies: Ewiger! Erbarme dich!,Litany,,,,
+780,,H. 780,Wq. 204,Litanies (2): Ewiger! Erbarme dich!,Litany,,,,
 780.01,,H. 780/1,Wq. 204/1,Ewiger! Erbarme dich!,Litany,,,,
 780.02,,H. 780/2,Wq. 204/2,Ewiger! Erbarme dich!,Litany,,,,
 781,,H. 781,Wq. 203,Neue Melodien,,,,,
@@ -1374,12 +1339,11 @@ XXX. Choral „Du schenkst mir täglicso viel Schuld“ (F-Dur)Inserted after No
 781.12,,H. 781/12,Wq. 203/12,"Auferstehn, ja, auferstehn wirst du",Lied,,,,
 781.13,,H. 781/13,Wq. 203/13,Bald oder spät des Todes Raub,Lied,,,,
 781.14,,H. 781/14,Wq. 203/14,"Erhabner Gott, was reicht an deine",Lied,,,,
-782,,H. 782/1,,"Christus, der uns selig macht",,,,,
 782,,H. 782,,Matthew-Passion,Passion,,,,
 783,,H. 783,,Mark-Passion,Passion,,,,
 784,,H. 784,,Luke-Passion,Passion,,,,
 785,,H. 785,,John-Passion,Passion,,,,
-786,,H. 786,,Matthew-Passion,Passion,,,,
+786,,H. 786,,Matthew-Passion,Passion,,,"2hn, 2fl, 2ob, 2vn, va, SATB, bc",
 787,,H. 787,,Mark-Passion,Passion,,,,
 788,,H. 788,,Luke-Passion,Passion,,,,
 789,,H. 789,,John-Passion,Passion,,,,
@@ -1485,15 +1449,11 @@ LVI. Choral „Icdanke dir von Herzen“ (d-Moll)","2 Sopranos, 2 Tenors, 3 Bass
 818.54,,H. 818.5/4,,Chorale [with text],,,,,
 818.55,,H. 818.5/5,,Ich will mich mit dir verloben,,,,,
 818.56,,H. 818.5/6,,"Die Seele, die durch Jesu Blut gereinigt",,,,,
+819,,H. 819,,Meine Seele erhebt den Herrn,Cantata,,,,Visitation cantata
 819,,H. 819/3,,"Herr, nimm dies Rühmen an",,,,,
 819,,H. 819/2,,Ich will mich dir mit allem,,,,,
 819,,H. 819/4,,Mein Herz versenkt sich,,,,,
-819,,H. 819,,Meine Seele erhebt den Herrn,Cantata,,,,Visitation cantata
 819,,H. 819/1,,Meine Seele erhebt den Herrn,,,,,
-821,,H. 821l,Wq. 250,"Einführungsmusik Gasie ""Gnädig und barmherzig ist der Herr, Geduldig""",,,17 numbers,,
-821,,H. 821g,Wq. 251,"Einführungsmusik Friderici ""Der Herr lebet und gelobet sey mein Hort""",,,20 numbers,,
-821,,H. 821f,Wq. 252,"Einführungsmusik Winkler ""Hallelujah! Hallelujah!""",,,,,
-821,,H. 821m,Wq. 253,"Einführungsmusik Schäffer ""Herr Gott, du bist unser Zuflucht für and für""",,,17 numbers,,
 821,,H. 821f/15,,Aus ihr quillt hohe Zuversicht,,,,,
 821,,H. 821h/3,,Berge weichen Hügel fallen,,,,,
 821,,H. 821c/9,,Chorale [with text],,,,,
@@ -1509,15 +1469,19 @@ LVI. Choral „Icdanke dir von Herzen“ (d-Moll)","2 Sopranos, 2 Tenors, 3 Bass
 821,,H. 821d/4,,"Du kommst, du bist gekommen",,,,,
 821,,H. 821d/2,,Durchdringe mich; erschüttre mein,,,,,
 821,,H. 821n,,Einführungsmusik Berkhan,,,,,
+821,,H. 821g,Wq. 251,"Einführungsmusik Friderici ""Der Herr lebet und gelobet sey mein Hort""",,,20 numbers,,
+821,,H. 821l,Wq. 250,"Einführungsmusik Gasie ""Gnädig und barmherzig ist der Herr, Geduldig""",,,17 numbers,,
 821,,H. 821h,,Einführungsmusik Gerling,,,,,
 821,,H. 821d,,Einführungsmusik Häseler,,,,,
 821,,H. 821e,,Einführungsmusik Hornbostel,,,,,
 821,,H. 821k,,Einführungsmusik Jänisch,,,,,
 821,,H. 821b,,Einführungsmusik Klefeker,,,,,
 821,,H. 821a,,Einführungsmusik Palm,,,,,
+821,,H. 821m,Wq. 253,"Einführungsmusik Schäffer ""Herr Gott, du bist unser Zuflucht für and für""",,,17 numbers,,
 821,,H. 821c,,Einführungsmusik Schuchmacher,,,,,
 821,,H. 821i,,Einführungsmusik Sturm,,,17 numbers,,
 821,,H. 821o,,Einführungsmusik Willerding,,,,,
+821,,H. 821f,Wq. 252,"Einführungsmusik Winkler ""Hallelujah! Hallelujah!""",,,,,
 821,,H. 821f/7,,"Er ruft euch, nicht nit seines Donners Stimme",,,,,
 821,,H. 821c/10,,"Er, den du zu uns sendest",,,,,
 821,,H. 821f/16,,Gott krönt das Ende,,,,,
@@ -1551,14 +1515,14 @@ LVI. Choral „Icdanke dir von Herzen“ (d-Moll)","2 Sopranos, 2 Tenors, 3 Bass
 821,,H. 821o/1,,"Wer sich rühmen will, der rühme",,,,,
 821,,H. 821c/5,,Wie felsenfest wird sie bestehn,,,,,
 821,,H. 821h/1,,Wie herrlich ist dies Wort erfüllt,,,,,
-822,,H. 822a,,Bürgercapitainsmusik (1780): Oratorium,,,,,
-822,,H. 822b,,Bürgercapitainsmusik (1780): Serenate,,,,,
-822,,H. 822d,,Bürgercapitainsmusik (1783): Serenate,,,,,
+822,,H. 822a,,Bürgercapitainsmusik (1780): Oratorium,Oratorio,,,,
+822,,H. 822b,,Bürgercapitainsmusik (1780): Serenate,Serenata,,,,
+822,,H. 822d,,Bürgercapitainsmusik (1783): Serenate,Serenata,,,,
 823,,H. 823,,Musik am Dankfeste wegen des fertigen Michaelisturms,,,,,
-824,,H. 824e,,Dank-Hymne der Freundschaft,,,,,
 824,,H. 824a,,Trauungs-Cantate,Cantata,,,,
+824,,H. 824e,,Dank-Hymne der Freundschaft,,,,,
 825,,H. 825,Wq. 207,"Veni, Sancte Spiritus",,,,,
-826,,H. 826,Wq. 208,4 Motets,Motet,,,,
+826,,H. 826,Wq. 208,4 Motets (4),Motet,,,,
 826.01,,H. 826/1,Wq. 208/1,"Trost der Erlosung: Gedanke, der uns Leben",Motet,,,,
 826.02,,H. 826/2,Wq. 208/2,Der Kanpf der Tugend: Oft klagt dein Herz wie schwer es sey,Motet,,,,
 826.03,,H. 826/3,Wq. 208/3,"Bitten: Gott, deine Güte reicht so weit",Motet,,,,
@@ -1594,81 +1558,137 @@ LVI. Choral „Icdanke dir von Herzen“ (d-Moll)","2 Sopranos, 2 Tenors, 3 Bass
 860,,H. 860,,Hilf dass ich folge treuen Rath,,,,,
 861,,H. 861,,Missa,Mass,,,,
 862,,H. 862,,Ehrwürd'ger Einsiedler! Wie glücklich bist du,Oratorio,,,,
-863,,H. 863o,,"Gehet heraus [und] schauet an, ihr Töchter",,,,,
 863,,H. 863,,,Passion-Cantata,,,,
+863,,H. 863o,,"Gehet heraus [und] schauet an, ihr Töchter",,,,,
 864,,H. 864,,,Cantata,,,,
 865,,H. 865,,"Komt, lasset uns anbeten [sic]",Motet,,,,
-866,,H. 866.5,,Der Todt Jesu: Feinde die ihr mich betrübt,,,,,
 866,,H. 866,,,Motet,,,,
-867,,H. 867,Wq. 121,Miscellanea musica (exercices techniques),,,,,
+866,,H. 866.5,,Der Todt Jesu: Feinde die ihr mich betrübt,,,,,
+867,,H. 867,Wq. 121,Miscellanea musica,,,,,
 868,,H. 868,Wq. 254,Versuch über die wahre Art das Clavier zu spielen I,,,,,
-869,,H. 869,Wq. 257,"Einfall einen doppelten Contrapunct in der Octave von 6 Tacten zu machen, ohne die Regeln davon zu wissen",,,,,
+869,,H. 869,Wq. 257,"Einfall, einen doppelten Contrapunct in der Octave von 6 Tacten zu machen, ohne die Regeln davon zu wissen",,,,,
 870,,H. 870,Wq. 255,Versuch über die wahre Art das Clavier zu spielen II,,,,,
 871,,H. 871,,Litaneyen aus dem Schleswig-Holsteinischen Gesangbuche,,,,,
 872,,H. 872,,Gedanken eines Liebhabers der Tonkunst über Herrn Nichelmanns Tractat von der Melodie,,,,,
 873,,H. 873,Wq. 256,"Von der Fingersetzung, der Manieren und der freyen Fantaisie",,,,,
 874,,H. 874,Wq. 258,"Kurze Anweisung zum general-bass, mit exempeln uber jeden accord",,,,,
 875,,H. 875,,"Anleitung, so viel Walzer man will mit Würfeln zu componieren",,,,,
-,,,Wq. 112,"Clavierstücke verschiedener Art, Erste Sammlung",Piano Piece,,,Harpsichord,
-,,,Wq. 113,Kurze und Leichte Clavierstücke,Piano Piece,,,Harpsichord,
-,,,Wq. 114,"Kurze und Leichte Clavierstücke, Zweyte Sammlung",Piano Piece,,,Harpsichord,
-,,,Wq. 115,4 kleine Duetten für 2 Claviere,Duet,,,2 Harpsichords,
-,,,Wq. 116,"Sammulung von Menuetten, Polonoisen und andern Handstücken fürs Clavier",Piano Piece,,,Harpsichord,
-,,,Wq. 117,"Sammulung von Solfeggios, Fantasien und charakterische  Stücke fürs Clavier",Piano Piece,,,Harpsichord,
-,,,Wq. 118,Sammulung verschiedener Claviertücke,Piano Piece,,,Harpsichord,
-,,,Wq. 119,Sammulung von Clavier- und Orgel-Fügen,Piano Piece,,,Harpsichord/Organ,
-,,,Wq. 122,5 Sinfonie,Symphony,,,Harpsichord solo,
-,,,Wq. 161,Zwei Trio,Trio,,,Various Instruments,
-,,,Wq. 182,Sinfonias,Sinfonia,,,"2 Violins, Viola, Basso",
-,,,Wq. 183,Orchester‑Sinfonien mit zwölf obligaten Stimmen,Sinfonia,,,12 Voices,
-,,,Wq. 184,,Sonata,,,"2 Flutes, 2 Clarinetts, Bassoon, 2 Horns",
-,,,Wq. 185,6 kleine Stücke oder Märsche,March,,,"2 Oboes, 2 Clarinetts, Bassoon, 2 Horns",
-,,,Wq. 189,Menuets,Minuet,,,Various Instruments,
-,,,Wq. 190,Polonoises,Dance,,,Various Instruments,
-,,,Wq. 199,Oden mit Melodien,,,,,
-,,,Wq. 200,Lieder,Lied,,,,
-,,,Wq. 202,Odes et Lieders religieux et profanes,,,,,
-,,,Wq. 202m,"Sans titre: Nein, nein die ernste",,,,,
-,,,Wq. 202o,Morceaux inédits,Piece,,,,
-,,,Wq. 259,"Anfangsstucke mit einer Anleitung den Gebraucdieser Stucke, dir Bachsche Fingersetzung, die Manieren und den Vortrag betreffend",,,,,
-,,,Wq. 260,Funf kurze and leichte Clavierstucke mit fingersetzung,Piano Piece,,,,
-,,,Wq. 261,Funf kurze und leichte Clavierstucke mit fingersetzung,Piano Piece,,,,
-,,,Wq. 262,Funf kurze une leichte Clavierstucke mit fingersetzung,Piano Piece,,,,
-,,,Wq. 265,Prélude et sonates,,,,Organ,
-,,,Wq. 266,,Sonata,,,Clavier,
-,,,Wq. 267,Kleine leichte Klavierstucke mit der Findersetzung fur Anfanger. Neueste in den Violin-Schlussel ubersetzte Auflage.,Piano Piece,,,,
-,,,Wq. 268,Grande sonate pour le clavecin,Sonata,,,,
-,,,Wq. 269,Menuet de Locatelli mit 21 variationen,Minuet,,,,
-,,,Wq. 270,Les Folies d'Espagne avec 12 variations,Keyboard Variations,,,,
-,,,Wq. 271,Solfeggio,Piano Piece,,,Harpsichord,
-,,,Wq. 272,La Bataille de Bergen: sonate pour clavecin ou harpe,Sonata,,,Harpsichord,
-,,,Wq. 43,6 Concertos,Concerto,,,"2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
-,,,Wq. 48,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 481,,Concerto,G minor,"1. Allegro (G minor)
-2. Largo (B-flat major)
-3. Presto di molto (G minor)",,Possiblement authentique
-,,,Wq. 481.5,,Concerto,E minor,"1. Allegretto (E minor)
-2. Adagio (B minor)
-3. Presto (E minor)",,Possiblement authentique
+,,,Wq. 43,6 Concertos (6),Concerto,,,"2 Flutes, 2 Horns, 2 Violins, Viola, Basso",
 ,,,Wq. 483,Concertos,Concerto,,,"Harpsichord, Orchestra",
-,,,Wq. 49,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 50,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 51,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 52,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 53,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 54,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 55,6 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 56,3 Sonatas & 3 Rondos,Sonata,,,Harpsichord,
-,,,Wq. 57,3 Sonatas & 3 Rondos,Sonata,,,Harpsichord,
-,,,Wq. 58,"2 Sonatas, 2 Rondos & 2 Fantaisies",Sonata,,,Harpsichord,
-,,,Wq. 59,"2 Sonatas, 2 Rondos & 2 Fantaisies",Sonata,,,Harpsichord,
-,,,Wq. 61,"2 Sonatas, 2 Rondos & 2 Fantaisies",Sonata,,,Harpsichord,
-,,,Wq. 62,24 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 63,6 Sonatas & 6 Sonatinas,Sonata,,,Harpsichord,
-,,,Wq. 64,6 Sonatinas,Sonatina,,,Harpsichord,
-,,,Wq. 65,50 Sonatas,Sonata,,,Harpsichord,
-,,,Wq. 70,7 Sonatas,Sonata,,,Organ,
-,,,Wq. 89,,Sonata,,,"Violin, Cello, Harpsichord/Pianoforte",
-,,,Wq. 90,3 Sonatas,Sonata,,,"Violin, Cello, Harpsichord",
-,,,Wq. 91,4 Sonatas,Sonata,,,"Violin, Cello, Harpsichord",
-,,,Wq. 92,6 Sonatas,Sonata,,,"Clarinet, Bassoon, Harpsichord",
+,,,Wq. 190,Polonoises (6),Dance,,"Wq. 190/1 Polonaise I in D Major (2cl, 2vn, bc) (H. 604)
+Wq. 190/2 Polonaise II in G Major (2vn, bc) (H. 607)
+Wq. 190/3 Polonaise III in A Minor (2vn, bc) (H. 605)
+Wq. 190/4 Polonaise IV in D Major (2hn, 2cl, 2vn, bc) (H. 608)
+Wq. 190/5 Polonaise V in C Major (2vn, bc) (H. 609)
+Wq. 190/6 Polonaise VI in A Major (2vn, bc) (H. 627)
+",Various Instruments,
+,,,Wq. 115,Kleine Duetten (4) für 2 Claviere,Duet,,,2 Harpsichords,
+,,,Wq. 270,Les Folies d'Espagne avec 12 variations,Keyboard Variations,,,,
+,,,Wq. 200,Lieder,Lied,,,,
+,,,Wq. 185,Kleine Stücke oder Märsche (6),March,,,"2 Oboes, 2 Clarinetts, Bassoon, 2 Horns",
+,,,Wq. 269,Menuet de Locatelli mit Variationen (21),Minuet,,,,
+,,,Wq. 189,Menuets,Minuet,,,Various Instruments,
+,,,Wq. 112,"Clavierstücke verschiedener Art, Erste Sammlung",Keyboard Piece,,,Harpsichord,
+,,,Wq. 260,Funf kurze and leichte Clavierstucke mit fingersetzung,Keyboard Piece,,,,
+,,,Wq. 261,Funf kurze und leichte Clavierstucke mit fingersetzung,Keyboard Piece,,,,
+,,,Wq. 262,Funf kurze une leichte Clavierstucke mit fingersetzung,Keyboard Piece,,,,
+,,,Wq. 267,Kleine leichte Klavierstucke mit der Findersetzung fur Anfanger. Neueste in den Violin-Schlussel ubersetzte Auflage.,Keyboard Piece,,,,
+,,,Wq. 113,Kurze und Leichte Clavierstücke,Keyboard Piece,,,Harpsichord,
+,,,Wq. 114,"Kurze und Leichte Clavierstücke, Zweyte Sammlung",Keyboard Piece,,,Harpsichord,
+,,,Wq. 118,Sammulung verschiedener Claviertücke,Keyboard Piece,,"Wq. 118/1 Variations on the Lied ?Ich schlief da träumte mir? (H. 69)
+Wq. 118/2 Ariette with Variations (H. 155)
+Wq. 118/3 Minuet with Variations (H. 44)
+Wq. 118/4 Arioso with Variations (H. 54)
+Wq. 118/5 Allegretto with Variations (H. 65)
+Wq. 118/6 Variations on the Romance ?Colin à peine à seize ans? (H. 226)
+Wq. 118/7 Minuet by Locatelli with Variations (H. 14)
+Wq. 118/8 Canzonetta by the Duchess of Gotha with Variations (H. 275)
+Wq. 118/9 Variations on ?Folie d?Espagne? (H. 263)
+Wq. 118/10 Variations on an Arioso with Varied Reprises (H. 259)",Harpsichord,
+,,,Wq. 119,Sammulung von Clavier- und Orgel-Fügen,Keyboard Piece,,"Wq. 119/2 Fugue in D Minor (H. 99)
+Wq. 119/3 Fugue in F Major (H. 100)
+Wq. 119/4 Fugue in A Major (H. 101)
+Wq. 119/5 Fugue in G Minor (H. 101.5)
+Wq. 119/6 Fugue in E-flat Major (H. 102)
+Wq. 119/7 Fantasia and Fugue in C Minor (H. 75.5)",Harpsichord/Organ,
+,,,Wq. 116,"Sammulung von Menuetten, Polonoisen und andern Handstücken fürs Clavier",Keyboard Piece,,"Wq. 116/1 Menuets I-II (H. 171)
+Wq. 116/2 Polonaise in E-flat Major (H. 172)
+Wq. 116/3 Zwo abwechselnde Menuetten (H. 214)
+Wq. 116/4 Alla Polacca in C Major (H. 215)
+Wq. 116/5 Zwo abwechselnde Menuetten (H. 216)
+Wq. 116/6 Alla Polacca in D Major (H. 217)
+Wq. 116/7 Zwo abwechselnde Menuetten (H. 218)
+Wq. 116/8 Alla Polacca in G Major (H. 219)
+Wq. 116/18 Andantino in D Minor (H. 108)
+Wq. 116/19 Allegretto in F Major (H. 301)
+Wq. 116/20 Allegro in D Major (H. 302)
+Wq. 116/21 Allegro in C Major (H. 153)
+Wq. 116/22 Polonaise in G Minor (H. 154)
+Wq. 116/23 Andantino in C Major (H. 249)
+Wq. 116/24 Andante in F Major (H. 250)
+Wq. 116/25 Allegro in D Major (H. 251)
+Wq. 116/26 Allegro in G Major (H. 252)
+Wq. 116/27 Andante in G Minor (H. 253)
+Wq. 116/28 Allegro in D Major (H. 254)",Harpsichord,
+,,,Wq. 117,"Sammulung von Solfeggios, Fantasien und charakterische  Stücke fürs Clavier",Keyboard Piece,,"Wq. 117/1 Clavierstück für die rechte oder linke Hand allein (H. 160)
+Wq. 117/2 Solfeggio in C Minor (H. 79)
+Wq. 117/3 Solfeggio in E-flat Major (H. 80)
+Wq. 117/4 Solfeggio in A Major (H. 89)
+Wq. 117/11 Fantasia in G Major (H. 90)
+Wq. 117/12 Fantasia in D Minor (H. 91)
+Wq. 117/13 Fantasia in G Minor (H. 122)
+Wq. 117/14 Fantasia in D Major (H. 92)
+Wq. 117/17 La Borchward: Polonaise (H. 93)
+Wq. 117/18 La Pott: Menuet (H. 94)
+Wq. 117/19 La Gleim: Rondeau (H. 81)
+Wq. 117/20 La Bergius (H. 95)
+Wq. 117/21 La Prinzette (H. 109)
+Wq. 117/22 L?Auguste: Polonaise (H. 123)
+Wq. 117/23 L?Herrmann (H. 123)
+Wq. 117/24 La Buchholtz (H. 110)
+Wq. 117/25 La Stahl (H. 111)
+Wq. 117/26 La Böhmer: Murky (H. 112)
+Wq. 117/27 L?Aly Rupalich (H. 113)
+Wq. 117/28 La Complaisante (H. 96)
+Wq. 117/29 La Xenophon (H. 97)
+Wq. 117/29 La Sybille (H. 114)
+Wq. 117/30 Les Langueurs tendres (H. 82)
+Wq. 117/31 L?Irresoluë (H. 124)
+Wq. 117/32 La Journalière (H. 124)
+Wq. 117/33 La Capricieuse (H. 98)
+Wq. 117/34 La Philippine: Arioso (H. 125)
+Wq. 117/35 La Gabriel (H. 685)
+Wq. 117/36 La Louise (H. 114)
+Wq. 117/37 La Gause (H. 82)
+Wq. 117/38 La Frédérique (H. 124)
+Wq. 117/38 L?Ernestine (H. 124)
+Wq. 117/39 La Caroline (H. 98)
+Wq. 117/40 La Sophie. Aria (H. 125)
+Wq. 117/40 La Sophie. Aria (H. 685)",Harpsichord,
+,,,Wq. 91,4 Sonatas (4),Sonata,,,"Violin, Cello, Harpsichord",
+,,,Wq. 65,50 Sonatas (50),Sonata,,,Harpsichord,
+,,,Wq. 268,Grande sonate pour le clavecin,Sonata,,,,
+,,,Wq. 272,La Bataille de Bergen: sonate pour clavecin ou harpe,Sonata,,,Harpsichord,
+,,,Wq. 56,Sonatas & Rondos (3),Sonata,,,Harpsichord,
+,,,Wq. 57,Sonatas & Rondos (3),Sonata,,,Harpsichord,
+,,,Wq. 63,Sonatas & Sonatinas (6),Sonata,,,Harpsichord,
+,,,Wq. 62,Sonatas (24),Sonata,,,Harpsichord,
+,,,Wq. 90,Sonatas (3),Sonata,,,"Violin, Cello, Harpsichord",
+,,,Wq. 48,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 49,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 50,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 51,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 52,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 53,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 54,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 55,Sonatas (6),Sonata,,,Harpsichord,
+,,,Wq. 92,Sonatas (6),Sonata,,,"Clarinet, Bassoon, Harpsichord",
+,,,Wq. 70,Sonatas (7),Sonata,,,Organ,
+,,,Wq. 58,"Sonatas, Rondos & Fantaisies (2)",Sonata,,,Harpsichord,
+,,,Wq. 59,"Sonatas, Rondos & Fantaisies (2)",Sonata,,,Harpsichord,
+,,,Wq. 61,"Sonatas, Rondos & Fantaisies (2)",Sonata,,,Harpsichord,
+,,,Wq. 64,Sonatinas (6),Sonatina,,,Harpsichord,
+,,,Wq. 122,Sinfonie (5),Symphony,,,Harpsichord solo,
+,,,Wq. 259,"Anfangsstucke mit einer Anleitung den Gebraucdieser Stucke, dir Bachsche Fingersetzung, die Manieren und den Vortrag betreffend",,,,,
+,,,Wq. 199,Oden mit Melodien,,,,,
+,,,Wq. 202,Odes et Lieders religieux et profanes,,,,,

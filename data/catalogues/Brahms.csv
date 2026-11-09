@@ -2,12 +2,12 @@ SORT,Opus,Title,Genre,Key,Work structure,Instrumentation,Note
 1,op. 1,"Klaviersonate Nr. 1, Joseph Joachim gewidmet",Sonata,C-Dur,"1. Allegro (C major)
 2. Andante (C minor) [Nach rinem altdeutschen Minneliede]
 3. Scherzo. Allegro molto e con fuoco (E minor) with Trio: Più mosso (C major)
-4. Finale. Allegro con fuoco (C major)",,
+4. Finale. Allegro con fuoco (C major)",Klavier,
 2,op. 2,"Klaviersonate Nr. 2, Clara Schumann gewidmet",Sonata,fis-Moll,"1. Allegro non troppo ma energico (F sharp minor)
 2. Andante con espressione (B minor)
 3. Scherzo. Allegro (B minor)
 4. Trio. Poco piu moderato (D major)
-5. Finale. Sostenuto (F sharp minor) - Allegro non troppo e rubato",,
+5. Finale. Sostenuto (F sharp minor) - Allegro non troppo e rubato",Klavier,
 3,op. 3,"Sechs Gesänge für eine Tenor- oder Sopranstimme und Klavier, Bettina von Arnim gewidmet",Song,,,,
 4,op. 4,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,es-Moll,Rasch und feurig,,
 5,op. 5,"Scherzo für Klavier, Ernst Ferdinand Wenzel gewidmet",Scherzo,f-Moll,"1. Allegro maestoso (F minor)
@@ -273,7 +273,7 @@ Nr. 2 a-Moll",,
 60,op. 60,Klavierquartett Nr. 3,Quartet,c-Moll,"1. Allegro non troppo (C minor)
 2. Scherzo. Allegro (C minor)
 3. Andante (E major)
-4. Finale. Allegro comodo (C minor)",,
+4. Finale. Allegro comodo (C minor)","Pf, Vl, Vla, Vc",
 61,op. 61,Vier Duette für Sopran und Alt mit Klavier,Duet,,,,
 62,op. 62,Sieben Lieder für eine Singstimme und Klavier,Lied,,,,
 63,op. 63,Neun Lieder und Gesänge für eine Singstimme und Klavier,Lied,,,,
@@ -330,7 +330,7 @@ Nr. 2, g-Moll",,
 83,op. 83,"Klavierkonzert Nr. 2, Eduard Marxsen gewidmet",Concerto,B-Dur,"1. Allegro non troppo (B flat major)
 2. Allegro appassionato (D minor)
 3. Andante (B flat major)
-4. Allegretto grazioso (B flat major)","Solo-Klavier, Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
+4. Allegretto grazioso (B flat major)","Soloklavier, Picc, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
 84,op. 84,Fünf Romanzen und Lieder für eine oder zwei Singstimmen und Klavier,Romance,,"1. Sommerabend. „Geh schlafen Tochter, schlafen“
 2. Der Kranz. „Mutter half mir armen Tochter“
 3. In den Beeren. „Singe, Mädchen, hell und klar“
@@ -583,120 +583,120 @@ Nr. 2, h-Moll",,
 999.37,WoO 37,16 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,,,
 999.38,WoO 38,20 Deutsche Volksrlieder für drei- und vierstimmigen Frauenchor,Lied,,,"Nr. 2, 8, 10, 11, 13, 14, 17, 18: SSA
 die übrigen: SSAA",
+9999,Anh. Ib Nr. 22,"[Christoph Willibald Gluck] Szene aus „Alceste“ „Wo bin ich“ / „Nein, nicht ein Opfer kann ichs nennen“",Performing Material,,,,"Wien, 8. Dezember 1872"
+9999,Anh. Ia Nr. 2,"[Christoph Willibald Gluck]Gavotte A-Dur aus der Oper „Iphigénie en Aulide“, Bearbeitung für Klavier, Clara Schumann gewidmet",Arrangement,,,,
+9999,Anh. Ia Nr. 6,"[Franz Schubert] 16 Ländler D. 366 und 4 Ländler D. 814, Bearbeitung für Klavier zu zwei und zu vier Händen",Arrangement,,,"[1-16] for piano 4 hands
+[17-20] for piano",
+9999,Anh. Ia Nr. 12,"[Franz Schubert] An Schwager Kronos, op. 19 Nr. 1, D. 369, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
+9999,Anh. Ib Nr. 34,"[Franz Schubert] Arie „Der Tag entflieht, der Abend glüht“ aus „Das Zauberglöckchen“, D 723/II",Performing Material,,,,"Wien, 7. Dezember 1873"
+9999,Anh. Ia Nr. 17,"[Franz Schubert] Ellens Zweiter Gesang, op. 52 Nr. 2, D. 838",Arrangement,,,"1. Singstimme, 4Hrn, 3Fg
+2. Sopransolo, Frauenchor (SAA), 4Hrn, 2Fg",
+9999,Anh. Ia Nr. 15,"[Franz Schubert] Geheimes, op. 12 Nr. 2, D. 719, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, Hrn, 2Vl, Vla, Vc",
+9999,Anh. Ia Nr. 16,"[Franz Schubert] Greisengesang, op. 60 Nr. 1, D. 778, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Klar, 2Fg, 3Pos, 3Vla, 2Vc, Kb",
+9999,Anh. Ia Nr. 18,"[Franz Schubert] Große Messe in Es-Dur, D. 950, Klavierauszug",Arrangement,,,,
+9999,Anh. Ia Nr. 14,"[Franz Schubert] Gruppe aus dem Tartarus, op. 24 Nr. 1, D. 583, Bearbeitung mit Orchesterbegleitung",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",
+9999,Anh. Ib Nr. 33,"[Franz Schubert] Kyrie und Credo aus der Messe, D. 678",Performing Material,As-Dur,,,"Wien, 2. März 1874"
+9999,Anh. Ia Nr. 13,"[Franz Schubert] Memnon, op. 6 Nr. 1, D. 541, Bearbeitung für eine Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Vl, Vla, Vc, Kb",
+9999,Anh. III Nr. 11,"[Franz Schubert] Nachtstück op. 36 Nr. 2, D. 672, Bearbeitung für eine Singstimme, Klavier oder Harfe und Orchester",Varia,,,"Wahrscheinlich Solostimme, Klavier oder Harfe [?], Fl, Ob, Klar, 
+Fg, KontraFg, 2 Vi, Vla, 2 Vc, Kb",
+9999,Anh. IIb Nr. 4,"[Franz Schubert] Scherzo aus dem Oktett op. posth. 166, D. 803, Bearbeitung für Klavier",Arrangement,,,,
+9999,Anh. IIb Nr. 3,"[Franz Schubert] Zwei Märsche, D. 968B, Bearbeitung für Klavier zu zwei Händen",Arrangement,C-Dur,,,
+9999,Anh. Ia Nr. 10,"[G.F. Händel] Sechs Duette, Generalbaßaussetzung",Arrangement,,,,
+9999,Anh. Ia Nr. 11,"[G.F. Händel] Sieben Duette und zwei Trios, Generalbaßaussetzung",Arrangement,,,,
+9999,Anh. Ib Nr. 24,[Georg Friedrich Händel] „Dettinger Te Deum“,Performing Material,,,,"Wien, 10. November 1872"
+9999,Anh. Ib Nr. 23,[Georg Friedrich Händel] Oratorium „Alexanderfest“,Performing Material,,,,"Wien, 9. November 1873"
+9999,Anh. Ib Nr. 25,[Georg Friedrich Händel] Oratorium „Salomo“,Performing Material,,,,"Wien, 31. März 1874"
+9999,Anh. Ib Nr. 26,[Georg Friedrich Händel] Oratorium „Saul“,Performing Material,,,,"Wien, 28. Februar 1873"
+9999,Anh. Ib Nr. 27,"[Georg Friedrich Händel] Orgelkonzert Nr. 4, op. 7",Performing Material,d-Moll,,,"Wien, 8. Dezember 1872"
+9999,Anh. Ib Nr. 20,[Giovanni Gabrieli] Chorsatz „Benedictus“,Performing Material,,,,"Wien, 6. Januar 1864"
+9999,Anh. Ib Nr. 32,[Giovanni Rovetta] Chorsatz „Salve Regina“,Performing Material,,,,"Detmold, Dezember 1857 und Wien, 6. Januar 1864"
+9999,Anh. Ib Nr. 15,"[Hector Berlioz] Harold-Symphonie, op. 16",Performing Material,h-Moll,,,"Wien, 8. November 1874"
+9999,Anh. Ib Nr. 28,[Heinrich Isaac] Chorsatz „Innsbruck ich muß dich lassen“,Performing Material,,,,"Wien, 15. November 1863 und 10. November 1872"
+9999,Anh. Ib Nr. 36,"[Heinrich Schütz] „Sauli Bekehrung“, SWV 415",Performing Material,,,,"Wien, 6. Januar 1864"
+9999,Anh. III Nr. 9,"[Henry Charles Litolff] Ouvertüre zu Griepenkerls „Maximilien Robespierre“ op. 55, Bearbeitung für Physharmonika (Harmonium) und Klavier",Varia,,,,
+9999,Anh. Ia Nr. 9,"[J.S. Bach] Choral „Ach Gott, wie manches Herzeleid“ aus der Kantate, BWV 44, figurierte Generalbaßaussetzung",Arrangement,,,,
+9999,Anh. Ib Nr. 2,"[J.S. Bach] Kantate ""Christ lag in Todesbanden"", BWV 4",Performing Material,,,,Detmold Herbst 1858; Wien 23.3.1873
+9999,Anh. Ib Nr. 4,"[J.S. Bach] Kantate ""Ich hatte viel Bekümmernis"", BWV 21",Performing Material,,,,Detmold Herbst 1857; Wien 15.11.1863
+9999,Anh. Ib Nr. 3,"[J.S. Bach] Kantate ""Liebster Gott, wann werd ich sterben"", BWV 8",Performing Material,,,,"Wien 6., 8.4.1873"
+9999,Anh. Ib Nr. 5,"[J.S. Bach] Kantate ""O ewiges Feuer"", BWV 34",Performing Material,,,,Wien 10.1.1875
+9999,Anh. Ib Nr. 6,"[J.S. Bach] Kantatensatz ""Nun ist das Heil und die Kraft""， BWV 50",Performing Material,,,,Wien 7.12.1873
+9999,Anh. Ib Nr. 8,"[J.S. Bach] Matthäuspassion, BWV 244",Performing Material,,,,Wien 23.3.1875
+9999,Anh. Ib Nr. 7,"[J.S. Bach] Schlußchoral ""Ich habe genug"" (aus BWV 60)",Performing Material,,,,Wien 7.12.1873
+9999,Anh. Ib Nr. 9,"[J.S. Bach] Weihnachtsoratorium, BWV 248",Performing Material,,,,(a) I–III Wien 20.3.1864；(b) Sinfonia Teil II Wien 19.4.1874
+9999,Anh. Ib Nr. 21,[Jacobus Gallus] Chorsatz „Ecce quomodo moritur“,Performing Material,,,,"Wien, 7. Dezember 1873"
+9999,Anh. Ib Nr. 1,"[Johann Rudolf Ahle] Chorsatz ""Ich habe genug""",Performing Material,,,,Wien 7.12.1873
+9999,Anh. IIb Nr. 1,"[Johann Sebastian Bach] Orgeltoccata (Präludium) aus BWV 540, Bearbeitung für Klavier",Arrangement,F-Dur,,,
+9999,Anh. Ib Nr. 19,[Johannes Eccard] Chorsatz „Der Christen Triumphlied aufs Osterfest“,Performing Material,,,,"Wien, 6. Januar 1864"
+9999,Anh. Ib Nr. 18,[Johannes Eccard] Chorsatz „Übers Gebirg Maria geht“,Performing Material,,,,"Wien, 10. und 15. November 1872"
+9999,Anh. Ia Nr. 4,"[Joseph Joachim] Ouverture zu Hermann Grimms „Demetrius“, op. 6, Bearbeitung für zwei Klaviere",Arrangement,,,,
+9999,Anh. Ia Nr. 3,"[Joseph Joachim] Ouverture zu Shakespeares „Hamlet“, op. 4, Bearbeitung für Klavier zu vier Händen",Arrangement,,Moderato assai (D minor) / Allegro agitato,,
+9999,Anh. Ia Nr. 5,"[Joseph Joachim] Ouverture zu Shakespeares „Heinrich IV“, op. 7, Bearbeitung für zwei Klaviere",Arrangement,,,,
+9999,Anh. Ib Nr. 14,"[Ludwig van Beethoven] Chor ""Wo sich die Pulse jugendlich jagen"", WoO 98",Performing Material,,,,"Wien, 23. März 1873"
+9999,Anh. Ib Nr. 11,"[Ludwig van Beethoven] Chorphantasie, op.80",Performing Material,C-Dur,,,"Wien, 7. Dezember 1873"
+9999,Anh. IIb Nr. 2,"[Ludwig van Beethoven] Finale aus Streichquartett op. 59 Nr. 3, Bearbeitung für Klavier",Arrangement,C-Dur,,,
+9999,Anh. Ib Nr. 10,"[Ludwig van Beethoven] Klavierkonzert Nr. 5, op. 73",Performing Material,Es-Dur,,,"Wien, 8. November 1874"
+9999,Anh. Ib Nr. 13,"[Ludwig van Beethoven] Missa solemnis, op. 123",Performing Material,d-Moll,,,"Wien, 6. Dezember 1874"
+9999,Anh. Ib Nr. 12,"[Ludwig van Beethoven] Ouvertüre ""Zur Namensfeier"", op. 115",Performing Material,C-Dur,,,"Wien, 9. November 1873"
+9999,Anh. Ib Nr. 17,[Luigi Cherubini] Requiem,Performing Material,c-Moll,,,"Wien, 6. und 8. April 1873"
+9999,Anh. Ib Nr. 16,"[Max Bruch] Oratorium ""Odysseus"", op. 41",Performing Material,,,,"Wien, 18. April 1875"
+9999,Anh. Ia Nr. 8,"[Robert Schumann] Klavierquartett Es-Dur op. 47, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
+9999,Anh. IIb Nr. 5,"[Robert Schumann] Klavierquintett, op. 44, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
+9999,Anh. Ib Nr. 35,"[Robert Schumann] Musik zu Manfred, op. 115",Performing Material,,,,"Wien, 2. März 1874"
+9999,Anh. III Nr. 5,"[Robert Schumann] Papillons, op. 2 Nr. 7, Kanoische Bearbeitung",Varia,,,,fragment
+9999,Anh. Ia Nr. 7,"[Robert Schumann] Scherzo aus dem Klavierquintett Es-Dur, op. 44, Bearbeitung für Klavier",Arrangement,Es-Dur,,,
+9999,Anh. III Nr. 19,[Ungarische] Skizzen,Varia,,,,
+9999,Anh. Ib Nr. 30,"[Wolfgang Amadeus Mozart] Arie Nr.26 aus „Davidde penitente“, KV 469",Performing Material,,,,"Wien, 28. Februar 1875"
+9999,Anh. Ib Nr. 29,"[Wolfgang Amadeus Mozart] Offertorium „Venite populi“, KV 260",Performing Material,,,,"Wien, 8. Dezember 1872"
+9999,Anh. Ib Nr. 31,"[Wolfgang Amadeus Mozart] Szene mit Rondo „Ch’io mi scordi di te“ / „Non temer, amato bene“, KV 505",Performing Material,,,,"Wien, 10. November 1872"
+9999,Anh. IIa Nr. 9,Adagio für Klavier und Violoncello,,,,,
+9999,Anh. IIa Nr. 1,Adagio und Scherzo für Violine und Orchester,,,,,
+9999,Anh. IIa Nr. 4,Adagio/Andante für Klavierquartett,Piece,cis-Moll,,,
+9999,Anh. III Nr. 7,Aphorismus „Doch was hör ich?“,Varia,,,,
+9999,Anh. III Nr. 12,"Brautgesang, für vierstimmigen Frauenchor, Sopransolo und Orchester",Varia,,,,
+9999,Anh. IIa Nr. 29,"Brautlied „Welch ein Scheiden ist seliger“, Lied für eine Singstimme und Klavier [?]",,,,,
+9999,Anh. IIa Nr. 20,"Credo, für gemischen Chor a cappella",,,,,
+9999,Anh. III Nr. 13,"Die Müllerin, Lied für eine Singstimme und Klavier",Varia,,,,
+9999,Anh. IIa Nr. 23,Drei Lieder für Männerchor,,,"1. »Des Postillons Morgenlied«
+2. »Vivat! Und ins Horn ich stoße«
+3. »ABC-Lied«",,
+9999,Anh. IIa Nr. 10,Duo für Klavier und Violoncello,,,,,
 9999,Anh. Ia Nr. 1,Fünf Klavierstudien,Arrangement,,,"I. F. Chopin: Etude, op. 25 Nr. 2, Bearbeitung für Klavier zu zwei Händen
 II. C.M. v. Weber: Rondo aus der Klaviersonate, op. 24, Bearbeitung für Klavier zu zwei Händen
 III/IV. J.S. Bach: Presto aus der Sonate für Violine solo, BWV 1001, Bearbeitungen für Klavier zu zwei Händen
 V. J.S. Bach: Chaconne aus der Partita für Violine solo BWV, 1004, Bearbeitung für die linke Hand",
-9999,Anh. Ia Nr. 2,"[Christoph Willibald Gluck]Gavotte A-Dur aus der Oper „Iphigénie en Aulide“, Bearbeitung für Klavier, Clara Schumann gewidmet",Arrangement,,,,
-9999,Anh. Ia Nr. 3,"[Joseph Joachim] Ouverture zu Shakespeares „Hamlet“, op. 4, Bearbeitung für Klavier zu vier Händen",Arrangement,,Moderato assai (D minor) / Allegro agitato,,
-9999,Anh. Ia Nr. 4,"[Joseph Joachim] Ouverture zu Hermann Grimms „Demetrius“, op. 6, Bearbeitung für zwei Klaviere",Arrangement,,,,
-9999,Anh. Ia Nr. 5,"[Joseph Joachim] Ouverture zu Shakespeares „Heinrich IV“, op. 7, Bearbeitung für zwei Klaviere",Arrangement,,,,
-9999,Anh. Ia Nr. 6,"[Franz Schubert] 16 Ländler D. 366 und 4 Ländler D. 814, Bearbeitung für Klavier zu zwei und zu vier Händen",Arrangement,,,"[1-16] for piano 4 hands
-[17-20] for piano",
-9999,Anh. Ia Nr. 7,"[Robert Schumann] Scherzo aus dem Klavierquintett Es-Dur, op. 44, Bearbeitung für Klavier",Arrangement,Es-Dur,,,
-9999,Anh. Ia Nr. 8,"[Robert Schumann] Klavierquartett Es-Dur op. 47, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
-9999,Anh. Ia Nr. 9,"[J.S. Bach] Choral „Ach Gott, wie manches Herzeleid“ aus der Kantate, BWV 44, figurierte Generalbaßaussetzung",Arrangement,,,,
-9999,Anh. Ia Nr. 10,"[G.F. Händel] Sechs Duette, Generalbaßaussetzung",Arrangement,,,,
-9999,Anh. Ia Nr. 11,"[G.F. Händel] Sieben Duette und zwei Trios, Generalbaßaussetzung",Arrangement,,,,
-9999,Anh. Ia Nr. 12,"[Franz Schubert] An Schwager Kronos, op. 19 Nr. 1, D. 369, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 2Hrn, 2Trp, Pauken, 2Vl, Vla, Vc, Kb",
-9999,Anh. Ia Nr. 13,"[Franz Schubert] Memnon, op. 6 Nr. 1, D. 541, Bearbeitung für eine Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, 4Hrn, 2Vl, Vla, Vc, Kb",
-9999,Anh. Ia Nr. 14,"[Franz Schubert] Gruppe aus dem Tartarus, op. 24 Nr. 1, D. 583, Bearbeitung mit Orchesterbegleitung",Arrangement,,,"Singstimme, 2Fl, 2Ob, 2Klar, 2Fg, KontraFg, 2Hrn, 2Trp, 3Pos, Pauken, 2Vl, Vla, Vc, Kb",
-9999,Anh. Ia Nr. 15,"[Franz Schubert] Geheimes, op. 12 Nr. 2, D. 719, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, Hrn, 2Vl, Vla, Vc",
-9999,Anh. Ia Nr. 16,"[Franz Schubert] Greisengesang, op. 60 Nr. 1, D. 778, Bearbeitung für Singstimme und Orchester",Arrangement,,,"Singstimme, 2Fl, 2Klar, 2Fg, 3Pos, 3Vla, 2Vc, Kb",
-9999,Anh. Ia Nr. 17,"[Franz Schubert] Ellens Zweiter Gesang, op. 52 Nr. 2, D. 838",Arrangement,,,"1. Singstimme, 4Hrn, 3Fg
-2. Sopransolo, Frauenchor (SAA), 4Hrn, 2Fg",
-9999,Anh. Ia Nr. 18,"[Franz Schubert] Große Messe in Es-Dur, D. 950, Klavierauszug",Arrangement,,,,
-9999,Anh. Ib Nr. 1,"[Johann Rudolf Ahle] Chorsatz ""Ich habe genug""",Performing Material,,,,Wien 7.12.1873
-9999,Anh. Ib Nr. 2,"[J.S. Bach] Kantate ""Christ lag in Todesbanden"", BWV 4",Performing Material,,,,Detmold Herbst 1858; Wien 23.3.1873
-9999,Anh. Ib Nr. 3,"[J.S. Bach] Kantate ""Liebster Gott, wann werd ich sterben"", BWV 8",Performing Material,,,,"Wien 6., 8.4.1873"
-9999,Anh. Ib Nr. 4,"[J.S. Bach] Kantate ""Ich hatte viel Bekümmernis"", BWV 21",Performing Material,,,,Detmold Herbst 1857; Wien 15.11.1863
-9999,Anh. Ib Nr. 5,"[J.S. Bach] Kantate ""O ewiges Feuer"", BWV 34",Performing Material,,,,Wien 10.1.1875
-9999,Anh. Ib Nr. 6,"[J.S. Bach] Kantatensatz ""Nun ist das Heil und die Kraft""， BWV 50",Performing Material,,,,Wien 7.12.1873
-9999,Anh. Ib Nr. 7,"[J.S. Bach] Schlußchoral ""Ich habe genug"" (aus BWV 60)",Performing Material,,,,Wien 7.12.1873
-9999,Anh. Ib Nr. 8,"[J.S. Bach] Matthäuspassion, BWV 244",Performing Material,,,,Wien 23.3.1875
-9999,Anh. Ib Nr. 9,"[J.S. Bach] Weihnachtsoratorium, BWV 248",Performing Material,,,,(a) I–III Wien 20.3.1864；(b) Sinfonia Teil II Wien 19.4.1874
-9999,Anh. Ib Nr. 10,"[Ludwig van Beethoven] Klavierkonzert Nr. 5, op. 73",Performing Material,Es-Dur,,,"Wien, 8. November 1874"
-9999,Anh. Ib Nr. 11,"[Ludwig van Beethoven] Chorphantasie, op.80",Performing Material,C-Dur,,,"Wien, 7. Dezember 1873"
-9999,Anh. Ib Nr. 12,"[Ludwig van Beethoven] Ouvertüre ""Zur Namensfeier"", op. 115",Performing Material,C-Dur,,,"Wien, 9. November 1873"
-9999,Anh. Ib Nr. 13,"[Ludwig van Beethoven] Missa solemnis, op. 123",Performing Material,d-Moll,,,"Wien, 6. Dezember 1874"
-9999,Anh. Ib Nr. 14,"[Ludwig van Beethoven] Chor ""Wo sich die Pulse jugendlich jagen"", WoO 98",Performing Material,,,,"Wien, 23. März 1873"
-9999,Anh. Ib Nr. 15,"[Hector Berlioz] Harold-Symphonie, op. 16",Performing Material,h-Moll,,,"Wien, 8. November 1874"
-9999,Anh. Ib Nr. 16,"[Max Bruch] Oratorium ""Odysseus"", op. 41",Performing Material,,,,"Wien, 18. April 1875"
-9999,Anh. Ib Nr. 17,[Luigi Cherubini] Requiem,Performing Material,c-Moll,,,"Wien, 6. und 8. April 1873"
-9999,Anh. Ib Nr. 18,[Johannes Eccard] Chorsatz „Übers Gebirg Maria geht“,Performing Material,,,,"Wien, 10. und 15. November 1872"
-9999,Anh. Ib Nr. 19,[Johannes Eccard] Chorsatz „Der Christen Triumphlied aufs Osterfest“,Performing Material,,,,"Wien, 6. Januar 1864"
-9999,Anh. Ib Nr. 20,[Giovanni Gabrieli] Chorsatz „Benedictus“,Performing Material,,,,"Wien, 6. Januar 1864"
-9999,Anh. Ib Nr. 21,[Jacobus Gallus] Chorsatz „Ecce quomodo moritur“,Performing Material,,,,"Wien, 7. Dezember 1873"
-9999,Anh. Ib Nr. 22,"[Christoph Willibald Gluck] Szene aus „Alceste“ „Wo bin ich“ / „Nein, nicht ein Opfer kann ichs nennen“",Performing Material,,,,"Wien, 8. Dezember 1872"
-9999,Anh. Ib Nr. 23,[Georg Friedrich Händel] Oratorium „Alexanderfest“,Performing Material,,,,"Wien, 9. November 1873"
-9999,Anh. Ib Nr. 24,[Georg Friedrich Händel] „Dettinger Te Deum“,Performing Material,,,,"Wien, 10. November 1872"
-9999,Anh. Ib Nr. 25,[Georg Friedrich Händel] Oratorium „Salomo“,Performing Material,,,,"Wien, 31. März 1874"
-9999,Anh. Ib Nr. 26,[Georg Friedrich Händel] Oratorium „Saul“,Performing Material,,,,"Wien, 28. Februar 1873"
-9999,Anh. Ib Nr. 27,"[Georg Friedrich Händel] Orgelkonzert Nr. 4, op. 7",Performing Material,d-Moll,,,"Wien, 8. Dezember 1872"
-9999,Anh. Ib Nr. 28,[Heinrich Isaac] Chorsatz „Innsbruck ich muß dich lassen“,Performing Material,,,,"Wien, 15. November 1863 und 10. November 1872"
-9999,Anh. Ib Nr. 29,"[Wolfgang Amadeus Mozart] Offertorium „Venite populi“, KV 260",Performing Material,,,,"Wien, 8. Dezember 1872"
-9999,Anh. Ib Nr. 30,"[Wolfgang Amadeus Mozart] Arie Nr.26 aus „Davidde penitente“, KV 469",Performing Material,,,,"Wien, 28. Februar 1875"
-9999,Anh. Ib Nr. 31,"[Wolfgang Amadeus Mozart] Szene mit Rondo „Ch’io mi scordi di te“ / „Non temer, amato bene“, KV 505",Performing Material,,,,"Wien, 10. November 1872"
-9999,Anh. Ib Nr. 32,[Giovanni Rovetta] Chorsatz „Salve Regina“,Performing Material,,,,"Detmold, Dezember 1857 und Wien, 6. Januar 1864"
-9999,Anh. Ib Nr. 33,"[Franz Schubert] Kyrie und Credo aus der Messe, D. 678",Performing Material,As-Dur,,,"Wien, 2. März 1874"
-9999,Anh. Ib Nr. 34,"[Franz Schubert] Arie „Der Tag entflieht, der Abend glüht“ aus „Das Zauberglöckchen“, D 723/II",Performing Material,,,,"Wien, 7. Dezember 1873"
-9999,Anh. Ib Nr. 35,"[Robert Schumann] Musik zu Manfred, op. 115",Performing Material,,,,"Wien, 2. März 1874"
-9999,Anh. Ib Nr. 36,"[Heinrich Schütz] „Sauli Bekehrung“, SWV 415",Performing Material,,,,"Wien, 6. Januar 1864"
-9999,Anh. IIa Nr. 1,Adagio und Scherzo für Violine und Orchester,,,,,
-9999,Anh. IIa Nr. 2,Sinfonie/Sonate für zwei Klaviere (zwei Sätze),,,,,
-9999,Anh. IIa Nr. 3,Ouverture für Orchester,Overture,F-Dur,,,
-9999,Anh. IIa Nr. 4,Adagio/Andante für Klavierquartett,Piece,cis-Moll,,,
-9999,Anh. IIa Nr. 5,Streichquartett,Quartet,h-Moll,,,
-9999,Anh. IIa Nr. 6,Klaviertrios,,,,,
-9999,Anh. IIa Nr. 7,Klaviertrio 1. Satz,Trio,Es-Dur,,,
-9999,Anh. IIa Nr. 8,Sonate für Klavier und Violine,Sonata,a-Moll,,,
-9999,Anh. IIa Nr. 9,Adagio für Klavier und Violoncello,,,,,
-9999,Anh. IIa Nr. 10,Duo für Klavier und Violoncello,,,,,
-9999,Anh. IIa Nr. 11,Klavierstücke „Blätter aus dem Tagebuch eines Musikers“,,,,,
-9999,Anh. IIa Nr. 12,Klavierstück,Piano Piece,c-Moll,,,
-9999,Anh. IIa Nr. 13,Phantasie über einen beliebten Walzer für Klavier,,,,,
-9999,Anh. IIa Nr. 14,Präludium und Aria für Klavier,,a-Moll,,,
-9999,Anh. IIa Nr. 15,Klaviersonate,Sonata,g-Moll,,,
-9999,Anh. IIa Nr. 16,Ungarische Tänze für Klavier,,,,,
-9999,Anh. IIa Nr. 17,"Psalm 22 für Baritonsolo, Chor und Orchester",,,,,
-9999,Anh. IIa Nr. 18,"Rinaldo, Ursprunglicher Schlußchor",,,,,
-9999,Anh. IIa Nr. 19,"Notturno, Quartett für Sopran, Alt, Tenor, Baß und Klavier",,,,,
-9999,Anh. IIa Nr. 20,"Credo, für gemischen Chor a cappella",,,,,
-9999,Anh. IIa Nr. 21,Morgenständchen,,,,,
-9999,Anh. IIa Nr. 22,Motette,,,,,
-9999,Anh. IIa Nr. 23,Drei Lieder für Männerchor,,,"1. »Des Postillons Morgenlied«
-2. »Vivat! Und ins Horn ich stoße«
-3. »ABC-Lied«",,
-9999,Anh. IIa Nr. 24,Kanons,,,,,
-9999,Anh. IIa Nr. 25,"Zwei Frühlingslieder, Lieder für eine Singstimme und Klavier",Lied,,,,
-9999,Anh. IIa Nr. 26,"Nachtigall „O Nachtigall, dein süßer Schall“, Lied für eine Singstimme und Klavier",,,,,
-9999,Anh. IIa Nr. 27,"Wie der Mond, Lieder für eine Singstimme und Klavier",Lied,,,,
-9999,Anh. IIa Nr. 28,"Winternacht „Um mich ist Nacht und Dunkel“, Lied für eine Singstimme und Klavier",Lied,,,,
-9999,Anh. IIa Nr. 29,"Brautlied „Welch ein Scheiden ist seliger“, Lied für eine Singstimme und Klavier [?]",,,,,
-9999,Anh. IIb Nr. 1,"[Johann Sebastian Bach] Orgeltoccata (Präludium) aus BWV 540, Bearbeitung für Klavier",Arrangement,F-Dur,,,
-9999,Anh. IIb Nr. 2,"[Ludwig van Beethoven] Finale aus Streichquartett op. 59 Nr. 3, Bearbeitung für Klavier",Arrangement,C-Dur,,,
-9999,Anh. IIb Nr. 3,"[Franz Schubert] Zwei Märsche, D. 968B, Bearbeitung für Klavier zu zwei Händen",Arrangement,C-Dur,,,
-9999,Anh. IIb Nr. 4,"[Franz Schubert] Scherzo aus dem Oktett op. posth. 166, D. 803, Bearbeitung für Klavier",Arrangement,,,,
-9999,Anh. IIb Nr. 5,"[Robert Schumann] Klavierquintett, op. 44, Bearbeitung für Klavier zu vier Händen",Arrangement,Es-Dur,,,
-9999,Anh. IIb Nr. 6,Ständchen für Kinderchor,Arrangement,,,,
-9999,Anh. IIb Nr. 7,Zwei Volkslieder für Männerchor,Arrangement,,,,
 9999,Anh. III Nr. 1,"Hymne, Trio für zwei Violinen, Kontrabaß oder Violoncello, Zur Verherrlichung des großen Joachim",Varia,,,,
 9999,Anh. III Nr. 2,Instrumentalkanon,Varia,f-Moll,,,
+9999,Anh. IIa Nr. 24,Kanons,,,,,
+9999,Anh. III Nr. 15,Klavierskizzen,Varia,,,Klavier,
+9999,Anh. IIa Nr. 15,Klaviersonate,Sonata,g-Moll,,Klavier,
+9999,Anh. III Nr. 4,Klavierstuck,Varia,B-Dur,,Klavier,
+9999,Anh. IIa Nr. 12,Klavierstück,Piano Piece,c-Moll,,Klavier,
+9999,Anh. IIa Nr. 11,Klavierstücke „Blätter aus dem Tagebuch eines Musikers“,,,,Klavier,
+9999,Anh. IIa Nr. 7,Klaviertrio 1. Satz,Trio,Es-Dur,,,
+9999,Anh. IIa Nr. 6,Klaviertrios,,,,,
 9999,Anh. III Nr. 3,Kreis-Kanon,Varia,,,,
-9999,Anh. III Nr. 4,Klavierstuck,Varia,B-Dur,,,
-9999,Anh. III Nr. 5,"[Robert Schumann] Papillons, op. 2 Nr. 7, Kanoische Bearbeitung",Varia,,,,fragment
-9999,Anh. III Nr. 6,Variation für Klavier über ein Thema von Schumann,Varia,,,,
-9999,Anh. III Nr. 7,Aphorismus „Doch was hör ich?“,Varia,,,,
-9999,Anh. III Nr. 8,"Neapolitanische Canzonetta, Klavierbegleitung und Transposition",Varia,,,,
-9999,Anh. III Nr. 9,"[Henry Charles Litolff] Ouvertüre zu Griepenkerls „Maximilien Robespierre“ op. 55, Bearbeitung für Physharmonika (Harmonium) und Klavier",Varia,,,,
-9999,Anh. III Nr. 10,"Rákóczi-Marsch, Bearbeitung für Klavier",Varia,,,,
-9999,Anh. III Nr. 11,"[Franz Schubert] Nachtstück op. 36 Nr. 2, D. 672, Bearbeitung für eine Singstimme, Klavier oder Harfe und Orchester",Varia,,,"Wahrscheinlich Solostimme, Klavier oder Harfe [?], Fl, Ob, Klar, 
-Fg, KontraFg, 2 Vi, Vla, 2 Vc, Kb",
-9999,Anh. III Nr. 12,"Brautgesang, für vierstimmigen Frauenchor, Sopransolo und Orchester",Varia,,,,
-9999,Anh. III Nr. 13,"Die Müllerin, Lied für eine Singstimme und Klavier",Varia,,,,
-9999,Anh. III Nr. 14,Orchesterskizzen,Varia,,,,
-9999,Anh. III Nr. 15,Klavierskizzen,Varia,,,,
 9999,Anh. III Nr. 16,Mehrere Skizzen,Varia,,,,
+9999,Anh. IIa Nr. 21,Morgenständchen,,,,,
+9999,Anh. IIa Nr. 22,Motette,,,,,
+9999,Anh. IIa Nr. 26,"Nachtigall „O Nachtigall, dein süßer Schall“, Lied für eine Singstimme und Klavier",,,,,
+9999,Anh. III Nr. 8,"Neapolitanische Canzonetta, Klavierbegleitung und Transposition",Varia,,,,
+9999,Anh. IIa Nr. 19,"Notturno, Quartett für Sopran, Alt, Tenor, Baß und Klavier",,,,,
+9999,Anh. III Nr. 14,Orchesterskizzen,Varia,,,,
+9999,Anh. IIa Nr. 3,Ouverture für Orchester,Overture,F-Dur,,,
+9999,Anh. IIa Nr. 13,Phantasie über einen beliebten Walzer für Klavier,,,,,
+9999,Anh. IIa Nr. 14,Präludium und Aria für Klavier,,a-Moll,,,
+9999,Anh. IIa Nr. 17,"Psalm 22 für Baritonsolo, Chor und Orchester",,,,,
+9999,Anh. III Nr. 10,"Rákóczi-Marsch, Bearbeitung für Klavier",Varia,,,,
+9999,Anh. IIa Nr. 18,"Rinaldo, Ursprunglicher Schlußchor",,,,,
+9999,Anh. IIa Nr. 2,Sinfonie/Sonate für zwei Klaviere (zwei Sätze),,,,,
 9999,Anh. III Nr. 17,Skizze,Varia,,,,
 9999,Anh. III Nr. 18,Skizzenbuch,Varia,,,,
-9999,Anh. III Nr. 19,[Ungarische] Skizzen,Varia,,,,
+9999,Anh. IIa Nr. 8,Sonate für Klavier und Violine,Sonata,a-Moll,,,
+9999,Anh. IIb Nr. 6,Ständchen für Kinderchor,Arrangement,,,,
+9999,Anh. IIa Nr. 5,Streichquartett,Quartet,h-Moll,,,
+9999,Anh. IIa Nr. 16,Ungarische Tänze für Klavier,,,,,
+9999,Anh. III Nr. 6,Variation für Klavier über ein Thema von Schumann,Varia,,,,
+9999,Anh. IIa Nr. 27,"Wie der Mond, Lieder für eine Singstimme und Klavier",Lied,,,,
+9999,Anh. IIa Nr. 28,"Winternacht „Um mich ist Nacht und Dunkel“, Lied für eine Singstimme und Klavier",Lied,,,,
+9999,Anh. IIa Nr. 25,"Zwei Frühlingslieder, Lieder für eine Singstimme und Klavier",Lied,,,,
+9999,Anh. IIb Nr. 7,Zwei Volkslieder für Männerchor,Arrangement,,,,
