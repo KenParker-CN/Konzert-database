@@ -31,7 +31,7 @@
     "details": {"category": "Category", "type": "Type", "mechanism": "Mechanism", "relation": "Relation"}
   },
   "home": {
-    "recentlyUpdated": "Recently updated catalogues",
+    "recentlyUpdated": "Recently updated",
     "badge": "Discovering classical music.",
     "randomWiki": {"title": "Random picks", "composer": "Composer", "genre": "Genre", "work": "Work"},
     "tagline": "Discovering classical music.",
